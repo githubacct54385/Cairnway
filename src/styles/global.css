@@ -89,7 +89,7 @@ a {
 .site-header {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   gap: 1rem;
   padding: 1rem;
   font-family: system-ui, sans-serif;
