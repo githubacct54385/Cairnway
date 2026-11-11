@@ -1,0 +1,263 @@
+---
+// One map, drawn from src/data/maps.json (built by scripts/maps/build-maps.py from Natural Earth data).
+// Geography is an SVG; names are HTML placed on top, so text stays a readable size on small screens.
+import maps from '../data/maps.json';
+
+interface Props {
+  id: keyof typeof maps;
+  /** Heading level for the map title. */
+  as?: 'h2' | 'h3';
+}
+
+const { id, as: Heading = 'h3' } = Astro.props;
+const m = maps[id];
+const [x, y, w, h] = m.viewBox;
+const u = m.unit;
+const clipId = `land-${m.id}`;
+---
+
+<figure class="era-map" data-era-map>
+  <figcaption>
+    <Heading class="era-map-title">
+      {m.title}
+      {m.ref && <span class="meta">{m.ref}</span>}
+    </Heading>
+    {m.intro && <p>{m.intro}</p>}
+  </figcaption>
+
+  <div class="era-map-frame" style={`aspect-ratio: ${w} / ${h}`} aria-hidden="true" data-pagefind-ignore>
+    <svg viewBox={`${x} ${y} ${w} ${h}`}>
+      <defs>
+        <clipPath id={clipId}><path d={m.land}></path></clipPath>
+      </defs>
+      <rect class="sea" x={x} y={y} width={w} height={h}></rect>
+      <path class="land" d={m.land}></path>
+      {
+        m.relief && (
+          <image
+            class="relief"
+            href={m.relief}
+            x={x}
+            y={y}
+            width={w}
+            height={h}
+            preserveAspectRatio="none"
+            clip-path={`url(#${clipId})`}
+          />
+        )
+      }
+      <path class="lake" d={m.lakes}></path>
+      <path class="river" d={m.rivers} stroke-width={1.1 * u}></path>
+      <path class="coast" d={m.land} stroke-width={0.8 * u}></path>
+      {m.route && <path class="route" d={m.route} stroke-width={2.5 * u} data-route></path>}
+    </svg>
+
+    {
+      m.labels.map((l) => (
+        <span class={`map-label map-${l.kind}`} style={`left:${l.x}%;top:${l.y}%`}>
+          {l.text}
+        </span>
+      ))
+    }
+    {
+      m.cities.map((c) => (
+        <span class={`map-pin side-${c.side}`} style={`left:${c.x}%;top:${c.y}%`}>
+          <i class="dot" />
+          <span class="name">{c.name}</span>
+        </span>
+      ))
+    }
+    {
+      m.stops.map((s) => (
+        <span class={`map-pin side-${s.side}`} style={`left:${s.x}%;top:${s.y}%`} data-stop>
+          <b class="badge">{s.n}</b>
+          <span class="name">{s.name}</span>
+        </span>
+      ))
+    }
+  </div>
+
+  {
+    m.stops.length > 0 && (
+      <ol class="map-stops">
+        {m.stops.map((s) => (
+          <li>
+            <b class="badge">{s.n}</b>
+            <span>
+              <strong>{s.name}</strong>, {s.note}. <span class="meta">Acts {s.ref}</span>
+            </span>
+          </li>
+        ))}
+      </ol>
+    )
+  }
+</figure>
+
+<style>
+  .era-map {
+    --map-w: min(100vw - 2rem, 60rem);
+    width: var(--map-w);
+    margin: 2.5rem 0 2.5rem calc(50% - var(--map-w) / 2);
+  }
+  .era-map figcaption {
+    width: min(100%, 44rem);
+    margin-inline: auto;
+  }
+  .era-map-title {
+    margin: 0 0 0.25rem;
+    font-size: 1.35rem;
+    border: 0;
+    padding: 0;
+  }
+  .era-map-title .meta {
+    margin-left: 0.5rem;
+    font-weight: 400;
+  }
+  .era-map-frame {
+    position: relative;
+    width: 100%;
+    border: 1px solid var(--rule);
+    border-radius: 0.75rem;
+    overflow: hidden;
+    font-family: system-ui, sans-serif;
+    line-height: 1;
+  }
+  .era-map-frame svg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .sea,
+  .lake {
+    fill: var(--map-sea);
+  }
+  .land {
+    fill: var(--map-land);
+  }
+  .relief {
+    mix-blend-mode: multiply;
+    opacity: var(--map-relief-opacity);
+  }
+  .river {
+    fill: none;
+    stroke: var(--map-river);
+    stroke-linecap: round;
+  }
+  .coast {
+    fill: none;
+    stroke: var(--map-coast);
+    stroke-linejoin: round;
+  }
+  .route {
+    fill: none;
+    stroke: var(--accent);
+    stroke-linejoin: round;
+    stroke-linecap: round;
+  }
+
+  .map-label {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    pointer-events: none;
+  }
+  .map-region {
+    font-size: clamp(0.5rem, 1.4vw, 0.7rem);
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--map-region);
+  }
+  .map-sea {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: clamp(0.55rem, 1.6vw, 0.85rem);
+    color: var(--map-sea-label);
+  }
+
+  .map-pin {
+    position: absolute;
+    width: 0;
+    height: 0;
+  }
+  .map-pin .dot,
+  .map-pin .badge {
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+  .map-pin .dot {
+    width: 0.55rem;
+    height: 0.55rem;
+    border-radius: 50%;
+    background: var(--bg);
+    border: 2px solid var(--accent);
+  }
+  .badge {
+    display: inline-grid;
+    place-items: center;
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 50%;
+    background: var(--accent);
+    color: var(--bg);
+    font-family: system-ui, sans-serif;
+    font-size: 0.7rem;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1;
+  }
+  .map-pin .name {
+    position: absolute;
+    white-space: nowrap;
+    font-size: clamp(0.6rem, 1.7vw, 0.85rem);
+    color: var(--fg);
+    text-shadow:
+      0 0 3px var(--map-land),
+      0 0 3px var(--map-land),
+      0 0 2px var(--map-land);
+  }
+  .side-right .name {
+    left: 0.85rem;
+    top: 0;
+    transform: translateY(-50%);
+  }
+  .side-left .name {
+    right: 0.85rem;
+    top: 0;
+    transform: translateY(-50%);
+  }
+  .side-top .name {
+    bottom: 0.8rem;
+    left: 0;
+    transform: translateX(-50%);
+  }
+  .side-bottom .name {
+    top: 0.8rem;
+    left: 0;
+    transform: translateX(-50%);
+  }
+
+  .map-stops {
+    width: min(100%, 44rem);
+    margin: 1rem auto 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    gap: 0.5rem;
+    font-size: 0.95rem;
+  }
+  .map-stops li {
+    display: grid;
+    grid-template-columns: 1.3rem 1fr;
+    gap: 0.6rem;
+    align-items: start;
+  }
+  .map-stops .badge {
+    margin-top: 0.2rem;
+  }
+</style>
+
+<script>
+  import '../scripts/maps';
+</script>
