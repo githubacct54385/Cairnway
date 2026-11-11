@@ -1,0 +1,47 @@
+# One-time helper: downloads Natural Earth's shaded relief (public domain), crops it to the
+# Mediterranean, and commits the crop back to this branch. Runs only on the tools/relief branch.
+name: Relief crop
+
+on:
+  push:
+    branches: [tools/relief]
+
+permissions:
+  contents: write
+
+jobs:
+  crop:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download shaded relief
+        run: |
+          set -e
+          curl -fsSL -o sr.zip https://naciscdn.org/naturalearth/10m/raster/SR_HR.zip \
+            || curl -fsSL -o sr.zip https://naciscdn.org/naturalearth/50m/raster/SR_50M.zip
+          unzip -o sr.zip -d sr
+          ls -la sr
+      - name: Crop to the Mediterranean (5E to 45E, 29.5N to 46.5N)
+        run: |
+          pip install pillow
+          python3 - <<'PY'
+          import glob
+          from PIL import Image
+          Image.MAX_IMAGE_PIXELS = None
+          tif = glob.glob('sr/**/*.tif', recursive=True)[0]
+          im = Image.open(tif)
+          w, h = im.size
+          px = w / 360.0
+          box = (int((5 + 180) * px), int((90 - 46.5) * px), int((45 + 180) * px), int((90 - 29.5) * px))
+          crop = im.crop(box).convert('L')
+          crop.save('scripts/maps/relief-med.png', optimize=True)
+          print(tif, im.size, box, crop.size)
+          PY
+      - name: Commit crop
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add scripts/maps/relief-med.png
+          git commit -m "Add Natural Earth shaded relief crop for the Mediterranean (public domain)"
+          git push
