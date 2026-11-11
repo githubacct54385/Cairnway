@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
+import JourneyMap from '../../components/JourneyMap.astro';
 
 export async function getStaticPaths() {
   const eras = await getCollection('eras');
@@ -23,6 +24,8 @@ const { title, summary, dateRange, draft, keyPeople, events, sources } = era.dat
     <div data-reveal>
       <Content />
     </div>
+
+    {era.id === 'apostolic-age' && <JourneyMap />}
 
     {
       events.length > 0 && (
