@@ -20,7 +20,7 @@ keyPeople:
 events:
   - date: "c. AD 30 to 33 (dating debated)"
     title: "Jesus is executed under Pontius Pilate"
-    summary: "Christians date their movement to the crucifixion of Jesus. The Roman historian Tacitus, writing about 80 years later, independently reports that the founder of the Christians, Christus, was executed under Tiberius by the procurator Pontius Pilate. Scholars place the year at about AD 30 or 33."
+    summary: "Christians date their movement to the crucifixion of Jesus. The Roman historian Tacitus, writing about 80 years later, reports that the founder of the Christians, Christus, was executed under Tiberius by the procurator Pontius Pilate. Scholars debate how much of this came from Christian tradition and how much from Roman records. Scholars place the year at about AD 30 or 33."
     source: "Tacitus, Annals 15.44; the four Gospels"
   - date: "c. AD 30 to 33 (dating debated)"
     title: "The first Jerusalem community"
@@ -52,7 +52,7 @@ events:
     source: "Josephus, Antiquities 20.9.1 (20.200)"
   - date: "AD 64"
     title: "Nero blames Christians after the fire of Rome"
-    summary: "Tacitus reports that Nero blamed a group called Christians for the great fire at Rome and had many of them punished. Tacitus wrote decades later and did not think the charge was true."
+    summary: "Tacitus reports that Nero blamed a group called Christians for the great fire at Rome and had many of them punished. Tacitus wrote decades later and suggests Nero was deflecting blame from himself, while describing Christians as widely disliked."
     source: "Tacitus, Annals 15.44"
   - date: "AD 70"
     title: "The Jerusalem temple is destroyed"
