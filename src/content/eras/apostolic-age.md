@@ -104,7 +104,25 @@ Our written evidence is limited. Historians draw on Acts, Paul's letters, and a 
 
 ## Key beliefs and debates
 
-Early Christians discussed how non-Jewish believers related to Jewish law, a question that both Acts and Paul's letters address. Scholars also debate the dating of events in this period and the authorship of some of the writings, so this site states the disagreement and names the source behind each view.
+### What the first believers proclaimed
+
+In a letter written about twenty years after the death of Jesus, Paul reminds the church in Corinth of what he says he passed on to them as received: that Christ died for sins, was buried, was raised on the third day, and appeared to Peter, to the twelve, to a larger group, to James, and finally to Paul himself (1 Corinthians 15:3 to 8). Believers called Jesus the Christ, which means the Anointed One, and Lord. Scholars debate how quickly and in what terms the earliest believers described Jesus's status. This page does not take a side. See the further reading below.
+
+### Did non-Jewish believers need to follow Jewish law?
+
+This is the question the sources spend the most time on. Acts 15 describes a meeting in Jerusalem where Peter and James speak and the group concludes that non-Jewish believers should not be burdened, apart from a short list of practices. Paul's letter to the Galatians describes a meeting with Peter, James and John, and later a dispute with Peter in Antioch over eating with non-Jewish believers (Galatians 2). The two accounts differ in what they include, and scholars disagree about whether they describe the same meeting and how the decision was received. Galatians suggests the question stayed open after the meeting.
+
+### How do Acts and Paul's letters fit together?
+
+Acts and the letters sometimes differ in detail, for example in how many visits Paul made to Jerusalem and what happened at each. Many historians give priority to Paul's own letters, since he wrote them himself and they are earlier, and read Acts as a later narrative that has its own aims. Others give Acts more weight. In the timeline above, dates that depend on how this is settled are marked as debated.
+
+### Which letters did Paul write?
+
+Most scholars accept seven letters as Paul's own: Romans, 1 and 2 Corinthians, Galatians, Philippians, 1 Thessalonians and Philemon. Scholars are about evenly divided on Colossians, Ephesians and 2 Thessalonians. Many consider 1 and 2 Timothy and Titus to have been written by later authors in Paul's name. Arguments here rest mostly on style, vocabulary and subject matter, and some scholars suggest that Paul's use of secretaries could explain differences in style. This page draws mainly on the seven letters most scholars accept.
+
+### When did Christianity and Judaism become separate?
+
+The first believers were Jewish, and Acts presents them meeting in the temple in Jerusalem. Scholars debate when and how Christians and Jews came to be seen as distinct groups, with some placing the separation in the first century and others much later. This page notes the question and does not settle it.
 
 ## Further reading
 
