@@ -1,4 +1,4 @@
-# Christian History Timeline
+# Ancient Paths
 
 A scrolling, source-cited timeline of Christian history, one era at a time. The first release covers the first century
 (the Apostolic Age). Every claim should trace to a source, and every source records its license.

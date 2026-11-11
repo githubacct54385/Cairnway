@@ -2,7 +2,7 @@
 
 Original text written for this project (the files under `src/content/` and other prose we author) is licensed under the
 [Creative Commons Attribution 4.0 International license (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
-You may share and adapt it, including commercially, as long as you give credit to the Christian History Timeline project
+You may share and adapt it, including commercially, as long as you give credit to the Ancient Paths project
 and indicate if you made changes.
 
 ## What this license does not cover
