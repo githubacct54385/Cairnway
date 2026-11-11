@@ -1,0 +1,716 @@
+{
+  "places": {
+    "Jerusalem": [
+      35.23,
+      31.78
+    ],
+    "Caesarea": [
+      34.89,
+      32.5
+    ],
+    "Damascus": [
+      36.29,
+      33.51
+    ],
+    "Antioch": [
+      36.16,
+      36.2
+    ],
+    "Seleucia": [
+      35.93,
+      36.12
+    ],
+    "Tarsus": [
+      34.89,
+      36.92
+    ],
+    "Salamis": [
+      33.9,
+      35.18
+    ],
+    "Paphos": [
+      32.42,
+      34.76
+    ],
+    "Perga": [
+      30.85,
+      36.96
+    ],
+    "Attalia": [
+      30.7,
+      36.89
+    ],
+    "Pisidian Antioch": [
+      31.18,
+      38.3
+    ],
+    "Iconium": [
+      32.49,
+      37.87
+    ],
+    "Lystra": [
+      32.35,
+      37.58
+    ],
+    "Derbe": [
+      33.36,
+      37.35
+    ],
+    "Troas": [
+      26.15,
+      39.76
+    ],
+    "Neapolis": [
+      24.41,
+      40.94
+    ],
+    "Philippi": [
+      24.29,
+      41.01
+    ],
+    "Thessalonica": [
+      22.94,
+      40.64
+    ],
+    "Berea": [
+      22.2,
+      40.52
+    ],
+    "Athens": [
+      23.73,
+      37.98
+    ],
+    "Corinth": [
+      22.88,
+      37.91
+    ],
+    "Ephesus": [
+      27.34,
+      37.94
+    ],
+    "Assos": [
+      26.34,
+      39.49
+    ],
+    "Mitylene": [
+      26.55,
+      39.1
+    ],
+    "Miletus": [
+      27.28,
+      37.53
+    ],
+    "Cos": [
+      27.29,
+      36.89
+    ],
+    "Rhodes": [
+      28.23,
+      36.44
+    ],
+    "Patara": [
+      29.32,
+      36.26
+    ],
+    "Tyre": [
+      35.2,
+      33.27
+    ],
+    "Ptolemais": [
+      35.08,
+      32.92
+    ],
+    "Sidon": [
+      35.37,
+      33.56
+    ],
+    "North of Cyprus": [
+      33.6,
+      35.75
+    ],
+    "Myra": [
+      29.98,
+      36.26
+    ],
+    "Cnidus": [
+      27.37,
+      36.69
+    ],
+    "Salmone": [
+      26.3,
+      35.3
+    ],
+    "Fair Havens": [
+      24.8,
+      34.93
+    ],
+    "Cauda": [
+      24.08,
+      34.84
+    ],
+    "Malta": [
+      14.4,
+      35.9
+    ],
+    "Syracuse": [
+      15.29,
+      37.07
+    ],
+    "Rhegium": [
+      15.65,
+      38.11
+    ],
+    "Puteoli": [
+      14.12,
+      40.82
+    ],
+    "Rome": [
+      12.5,
+      41.9
+    ],
+    "Inland Galatia": [
+      32.0,
+      38.6
+    ]
+  },
+  "labels": [
+    {
+      "text": "Italia",
+      "kind": "region",
+      "lon": 16.3,
+      "lat": 40.55
+    },
+    {
+      "text": "Sicilia",
+      "kind": "region",
+      "lon": 14.2,
+      "lat": 37.5
+    },
+    {
+      "text": "Macedonia",
+      "kind": "region",
+      "lon": 21.9,
+      "lat": 41.4
+    },
+    {
+      "text": "Achaia",
+      "kind": "region",
+      "lon": 21.7,
+      "lat": 39.2
+    },
+    {
+      "text": "Asia",
+      "kind": "region",
+      "lon": 28.9,
+      "lat": 38.9
+    },
+    {
+      "text": "Galatia",
+      "kind": "region",
+      "lon": 32.8,
+      "lat": 39.5
+    },
+    {
+      "text": "Lycia",
+      "kind": "region",
+      "lon": 29.5,
+      "lat": 36.75,
+      "hideOn": [
+        "journey-1"
+      ]
+    },
+    {
+      "text": "Pamphylia",
+      "kind": "region",
+      "lon": 31.3,
+      "lat": 37.25,
+      "hideOn": [
+        "overview",
+        "voyage",
+        "journey-1"
+      ]
+    },
+    {
+      "text": "Cilicia",
+      "kind": "region",
+      "lon": 34.4,
+      "lat": 37.55,
+      "hideOn": [
+        "journey-2",
+        "journey-3"
+      ]
+    },
+    {
+      "text": "Syria",
+      "kind": "region",
+      "lon": 37.0,
+      "lat": 35.0
+    },
+    {
+      "text": "Judaea",
+      "kind": "region",
+      "lon": 35.3,
+      "lat": 31.1
+    },
+    {
+      "text": "Cyprus",
+      "kind": "region",
+      "lon": 33.2,
+      "lat": 35.4,
+      "hideOn": [
+        "journey-1"
+      ]
+    },
+    {
+      "text": "Creta",
+      "kind": "region",
+      "lon": 25.1,
+      "lat": 35.6
+    },
+    {
+      "text": "Aegyptus",
+      "kind": "region",
+      "lon": 30.5,
+      "lat": 30.0
+    },
+    {
+      "text": "Mediterranean Sea",
+      "kind": "sea",
+      "lon": 19.5,
+      "lat": 34.2
+    },
+    {
+      "text": "Aegean Sea",
+      "kind": "sea",
+      "lon": 25.2,
+      "lat": 38.6
+    },
+    {
+      "text": "Adriatic Sea",
+      "kind": "sea",
+      "lon": 16.6,
+      "lat": 42.6
+    },
+    {
+      "text": "Tyrrhenian Sea",
+      "kind": "sea",
+      "lon": 12.2,
+      "lat": 39.6
+    },
+    {
+      "text": "Black Sea",
+      "kind": "sea",
+      "lon": 34.0,
+      "lat": 43.0
+    }
+  ],
+  "maps": [
+    {
+      "id": "overview",
+      "title": "The world of the first Christians",
+      "intro": "The places that matter most in this era, from Jerusalem to Rome. Region names are the Roman ones used in Acts and Paul's letters.",
+      "bbox": [
+        10.6,
+        30.0,
+        39.2,
+        43.6
+      ],
+      "cities": [
+        {
+          "place": "Jerusalem",
+          "side": "right"
+        },
+        {
+          "place": "Caesarea",
+          "side": "left"
+        },
+        {
+          "place": "Damascus",
+          "side": "right"
+        },
+        {
+          "place": "Antioch",
+          "side": "right"
+        },
+        {
+          "place": "Ephesus",
+          "side": "right"
+        },
+        {
+          "place": "Corinth",
+          "side": "left"
+        },
+        {
+          "place": "Athens",
+          "side": "top"
+        },
+        {
+          "place": "Philippi",
+          "side": "right"
+        },
+        {
+          "place": "Rome",
+          "side": "right"
+        }
+      ]
+    },
+    {
+      "id": "journey-1",
+      "title": "First journey",
+      "ref": "Acts 13 to 14",
+      "intro": "Acts says the church at Antioch sent out Barnabas and Paul. They crossed Cyprus, then went inland into the hill country of Galatia and came back the same way.",
+      "bbox": [
+        29.4,
+        33.9,
+        37.4,
+        39.3
+      ],
+      "route": [
+        "Antioch",
+        "Seleucia",
+        "Salamis",
+        "Paphos",
+        "Perga",
+        "Pisidian Antioch",
+        "Iconium",
+        "Lystra",
+        "Derbe",
+        "Lystra",
+        "Iconium",
+        "Pisidian Antioch",
+        "Perga",
+        "Attalia",
+        "Antioch"
+      ],
+      "stops": [
+        {
+          "place": "Antioch",
+          "ref": "13:1 to 3",
+          "note": "Barnabas and Saul are sent out",
+          "side": "right"
+        },
+        {
+          "place": "Seleucia",
+          "ref": "13:4",
+          "note": "They sail for Cyprus",
+          "side": "left"
+        },
+        {
+          "place": "Salamis",
+          "ref": "13:5",
+          "note": "They preach in the synagogues",
+          "side": "right"
+        },
+        {
+          "place": "Paphos",
+          "ref": "13:6 to 12",
+          "note": "The governor Sergius Paulus",
+          "side": "left"
+        },
+        {
+          "place": "Perga",
+          "ref": "13:13",
+          "note": "John Mark leaves them",
+          "side": "right"
+        },
+        {
+          "place": "Pisidian Antioch",
+          "ref": "13:14 to 50",
+          "note": "Paul's synagogue sermon",
+          "side": "left"
+        },
+        {
+          "place": "Iconium",
+          "ref": "13:51 to 14:5",
+          "note": "Opposition, then flight",
+          "side": "right"
+        },
+        {
+          "place": "Lystra",
+          "ref": "14:6 to 20",
+          "note": "Paul is stoned",
+          "side": "left"
+        },
+        {
+          "place": "Derbe",
+          "ref": "14:20 to 21",
+          "note": "The furthest point",
+          "side": "right"
+        },
+        {
+          "place": "Attalia",
+          "ref": "14:25 to 26",
+          "note": "They sail back to Antioch",
+          "side": "left"
+        }
+      ]
+    },
+    {
+      "id": "journey-2",
+      "title": "Second journey",
+      "ref": "Acts 15:36 to 18:22",
+      "intro": "Acts says Paul set out again with Silas, revisited the churches inland, then crossed by sea into Macedonia and Greece for the first time.",
+      "bbox": [
+        20.8,
+        31.4,
+        37.4,
+        41.9
+      ],
+      "route": [
+        "Antioch",
+        "Tarsus",
+        "Derbe",
+        "Lystra",
+        "Inland Galatia",
+        "Troas",
+        "Neapolis",
+        "Philippi",
+        "Thessalonica",
+        "Berea",
+        "Athens",
+        "Corinth",
+        "Ephesus",
+        "Caesarea",
+        "Jerusalem",
+        "Antioch"
+      ],
+      "stops": [
+        {
+          "place": "Antioch",
+          "ref": "15:36 to 41",
+          "note": "Paul and Silas set out",
+          "side": "right"
+        },
+        {
+          "place": "Lystra",
+          "name": "Derbe and Lystra",
+          "ref": "16:1 to 5",
+          "note": "Timothy joins them",
+          "side": "bottom"
+        },
+        {
+          "place": "Troas",
+          "ref": "16:8 to 10",
+          "note": "A vision of a man of Macedonia",
+          "side": "right"
+        },
+        {
+          "place": "Philippi",
+          "ref": "16:12 to 40",
+          "note": "Lydia; Paul and Silas jailed",
+          "side": "right"
+        },
+        {
+          "place": "Thessalonica",
+          "ref": "17:1 to 9",
+          "note": "A riot in the city",
+          "side": "top"
+        },
+        {
+          "place": "Berea",
+          "ref": "17:10 to 14",
+          "note": "They search the scriptures",
+          "side": "bottom"
+        },
+        {
+          "place": "Athens",
+          "ref": "17:15 to 34",
+          "note": "Paul speaks at the Areopagus",
+          "side": "top"
+        },
+        {
+          "place": "Corinth",
+          "ref": "18:1 to 17",
+          "note": "Eighteen months; before Gallio",
+          "side": "left"
+        },
+        {
+          "place": "Ephesus",
+          "ref": "18:19 to 21",
+          "note": "A short first visit",
+          "side": "right"
+        },
+        {
+          "place": "Caesarea",
+          "ref": "18:22",
+          "note": "He lands, then goes up to greet the church",
+          "side": "left"
+        }
+      ]
+    },
+    {
+      "id": "journey-3",
+      "title": "Third journey",
+      "ref": "Acts 18:23 to 21:17",
+      "intro": "Acts says Paul spent a long stay in Ephesus, went back through Macedonia and Greece, then sailed down the coast toward Jerusalem.",
+      "bbox": [
+        20.8,
+        31.4,
+        37.4,
+        41.9
+      ],
+      "route": [
+        "Antioch",
+        "Inland Galatia",
+        "Ephesus",
+        "Troas",
+        "Philippi",
+        "Thessalonica",
+        "Corinth",
+        "Thessalonica",
+        "Philippi",
+        "Troas",
+        "Assos",
+        "Mitylene",
+        "Miletus",
+        "Cos",
+        "Rhodes",
+        "Patara",
+        "Tyre",
+        "Ptolemais",
+        "Caesarea",
+        "Jerusalem"
+      ],
+      "stops": [
+        {
+          "place": "Antioch",
+          "ref": "18:23",
+          "note": "Paul sets out through Galatia and Phrygia",
+          "side": "right"
+        },
+        {
+          "place": "Ephesus",
+          "ref": "19:1 to 41",
+          "note": "About two to three years; a riot",
+          "side": "left"
+        },
+        {
+          "place": "Corinth",
+          "name": "Greece (probably Corinth)",
+          "ref": "20:1 to 3",
+          "note": "Three months",
+          "side": "left"
+        },
+        {
+          "place": "Philippi",
+          "ref": "20:6",
+          "note": "After the days of Unleavened Bread",
+          "side": "right"
+        },
+        {
+          "place": "Troas",
+          "ref": "20:6 to 12",
+          "note": "Eutychus falls from a window",
+          "side": "right"
+        },
+        {
+          "place": "Miletus",
+          "ref": "20:15 to 38",
+          "note": "Farewell to the Ephesian elders",
+          "side": "left"
+        },
+        {
+          "place": "Tyre",
+          "ref": "21:3 to 6",
+          "note": "A week with the disciples",
+          "side": "right"
+        },
+        {
+          "place": "Caesarea",
+          "ref": "21:8 to 14",
+          "note": "At the house of Philip",
+          "side": "left"
+        },
+        {
+          "place": "Jerusalem",
+          "ref": "21:15 to 17",
+          "note": "Received by the believers",
+          "side": "right"
+        }
+      ]
+    },
+    {
+      "id": "voyage",
+      "title": "Voyage to Rome",
+      "ref": "Acts 27 to 28",
+      "intro": "Acts says Paul, now a prisoner, was sent to Rome by ship. A storm drove the ship west for two weeks until it wrecked on Malta.",
+      "bbox": [
+        11.0,
+        31.2,
+        36.6,
+        43.0
+      ],
+      "route": [
+        "Caesarea",
+        "Sidon",
+        "North of Cyprus",
+        "Myra",
+        "Cnidus",
+        "Salmone",
+        "Fair Havens",
+        "Cauda",
+        "Malta",
+        "Syracuse",
+        "Rhegium",
+        "Puteoli",
+        "Rome"
+      ],
+      "stops": [
+        {
+          "place": "Caesarea",
+          "ref": "27:1 to 2",
+          "note": "Paul is handed to a centurion",
+          "side": "left"
+        },
+        {
+          "place": "Sidon",
+          "ref": "27:3",
+          "note": "Paul visits friends",
+          "side": "left"
+        },
+        {
+          "place": "Myra",
+          "ref": "27:5 to 6",
+          "note": "They change to a ship of Alexandria",
+          "side": "right"
+        },
+        {
+          "place": "Fair Havens",
+          "ref": "27:8 to 12",
+          "note": "Paul warns against sailing on",
+          "side": "right"
+        },
+        {
+          "place": "Cauda",
+          "ref": "27:16",
+          "note": "The storm drives them west",
+          "side": "left"
+        },
+        {
+          "place": "Malta",
+          "ref": "27:39 to 28:10",
+          "note": "Shipwreck; three months on the island",
+          "side": "left"
+        },
+        {
+          "place": "Syracuse",
+          "ref": "28:12",
+          "note": "Three days",
+          "side": "right"
+        },
+        {
+          "place": "Puteoli",
+          "ref": "28:13 to 14",
+          "note": "Believers welcome them",
+          "side": "right"
+        },
+        {
+          "place": "Rome",
+          "ref": "28:16 to 31",
+          "note": "Two years under guard, still teaching",
+          "side": "top"
+        }
+      ]
+    }
+  ]
+}

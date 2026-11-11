@@ -7,6 +7,13 @@
   --card: #ffffff;
   --banner: #fff3cd;
   --banner-fg: #5c4400;
+  --map-sea: #dce5e2;
+  --map-land: #f3ede2;
+  --map-coast: #b6a990;
+  --map-river: #a6bfb9;
+  --map-region: #8a7d68;
+  --map-sea-label: #5f7d77;
+  --map-relief-opacity: 0.7;
   color-scheme: light dark;
 }
 
@@ -20,6 +27,13 @@
     --card: #1c1b18;
     --banner: #3a2f10;
     --banner-fg: #f3dfa0;
+    --map-sea: #1a2325;
+    --map-land: #2b2620;
+    --map-coast: #4d4436;
+    --map-river: #2f474b;
+    --map-region: #9c8e76;
+    --map-sea-label: #7c9a94;
+    --map-relief-opacity: 0.55;
   }
 }
 

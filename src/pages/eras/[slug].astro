@@ -1,7 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
-import JourneyMap from '../../components/JourneyMap.astro';
+import EraMap from '../../components/EraMap.astro';
 
 export async function getStaticPaths() {
   const eras = await getCollection('eras');
@@ -21,11 +21,27 @@ const { title, summary, dateRange, draft, keyPeople, events, sources } = era.dat
     <p>{summary}</p>
     {draft && <p class="banner">Draft: not yet reviewed against its sources. Dates are approximate.</p>}
 
+    {era.id === 'apostolic-age' && <EraMap id="overview" as="h2" />}
+
     <div data-reveal>
       <Content />
     </div>
 
-    {era.id === 'apostolic-age' && <JourneyMap />}
+    {
+      era.id === 'apostolic-age' && (
+        <section class="journeys">
+          <h2>Paul's journeys, as Acts tells them</h2>
+          <p>
+            These maps follow the account in Acts, simplified. Paul's own letters mention some of the same places and
+            give a different outline in places, and the dates of each journey are debated, so none are shown here.
+          </p>
+          <EraMap id="journey-1" />
+          <EraMap id="journey-2" />
+          <EraMap id="journey-3" />
+          <EraMap id="voyage" />
+        </section>
+      )
+    }
 
     {
       events.length > 0 && (

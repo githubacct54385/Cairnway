@@ -34,14 +34,19 @@ const eras = (await getCollection('eras')).sort((a, b) => a.data.order - b.data.
     }
 
     <section>
-      <h2>Planned for maps</h2>
+      <h2>Maps</h2>
       <ul class="sources-list">
         <li>
-          Natural Earth: public domain base geography. Planned, not yet used.
+          <a href="https://www.naturalearthdata.com/">Natural Earth</a>: coastlines, rivers, lakes and shaded relief.
+          Public domain. Made with Natural Earth.
         </li>
         <li>
-          Pleiades gazetteer of ancient places: Creative Commons Attribution. Planned, not yet used; it will be credited
-          on every map that uses it.
+          City positions, routes and region names were placed by hand from the passages in Acts and are approximate.
+          Region names are those used in the first century and are placed roughly, without boundaries.
+        </li>
+        <li>
+          Pleiades gazetteer of ancient places: Creative Commons Attribution. Planned for more precise positions, not
+          yet used; it will be credited on every map that uses it.
         </li>
       </ul>
     </section>
