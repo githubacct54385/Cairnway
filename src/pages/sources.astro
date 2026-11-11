@@ -1,0 +1,49 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+
+const eras = (await getCollection('eras')).sort((a, b) => a.data.order - b.data.order);
+---
+
+<Base title="Sources and permissions" description="Every source used on this site, with its license and when it was last checked.">
+  <div class="wrap page">
+    <h1>Sources and permissions</h1>
+    <p>
+      This site curates and cites published sources. Text we write ourselves is available under CC BY 4.0. Third-party
+      material keeps its own license, listed below. If you believe something here is wrong or improperly used, please
+      tell us and we will review it promptly.
+    </p>
+
+    {
+      eras.map((era) => (
+        <section>
+          <h2>{era.data.title}</h2>
+          <ul class="sources-list">
+            {era.data.sources.map((s) => (
+              <li>
+                {s.url ? <a href={s.url}>{s.title}</a> : <strong>{s.title}</strong>}
+                {s.author && <span>, {s.author}</span>}
+                <div class="meta">
+                  License: {s.license}. Checked: {s.checked}. Used for: {s.usedFor}.
+                </div>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))
+    }
+
+    <section>
+      <h2>Planned for maps</h2>
+      <ul class="sources-list">
+        <li>
+          Natural Earth: public domain base geography. Planned, not yet used.
+        </li>
+        <li>
+          Pleiades gazetteer of ancient places: Creative Commons Attribution. Planned, not yet used; it will be credited
+          on every map that uses it.
+        </li>
+      </ul>
+    </section>
+  </div>
+</Base>

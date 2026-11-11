@@ -1,0 +1,85 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+
+export async function getStaticPaths() {
+  const eras = await getCollection('eras');
+  return eras.map((era) => ({ params: { slug: era.id }, props: { era } }));
+}
+
+const { era } = Astro.props;
+const { Content } = await render(era);
+const { title, summary, dateRange, draft, keyPeople, events, sources } = era.data;
+---
+
+<Base title={title} description={summary}>
+  <article class="wrap page">
+    <p class="meta"><a href="/">All eras</a></p>
+    <h1>{title}</h1>
+    <p class="meta">{dateRange}</p>
+    <p>{summary}</p>
+    {draft && <p class="banner">Draft: not yet reviewed against its sources. Dates are approximate.</p>}
+
+    <div data-reveal>
+      <Content />
+    </div>
+
+    {
+      events.length > 0 && (
+        <section data-reveal>
+          <h2>Key events</h2>
+          <ul class="cards">
+            {events.map((e) => (
+              <li class="card">
+                <h3>{e.title}</h3>
+                <div class="meta">{e.date}</div>
+                <p>{e.summary}</p>
+                <div class="meta">Source: {e.source}</div>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )
+    }
+
+    {
+      keyPeople.length > 0 && (
+        <section data-reveal>
+          <h2>Key people</h2>
+          <ul class="cards">
+            {keyPeople.map((p) => (
+              <li class="card">
+                <h3>{p.name}</h3>
+                <div class="meta">{p.role}</div>
+                <p>{p.summary}</p>
+                <div class="meta">Source: {p.source}</div>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )
+    }
+
+    {
+      sources.length > 0 && (
+        <section data-reveal>
+          <h2>Sources for this era</h2>
+          <ul class="sources-list">
+            {sources.map((s) => (
+              <li>
+                {s.url ? <a href={s.url}>{s.title}</a> : <strong>{s.title}</strong>}
+                {s.author && <span>, {s.author}</span>}
+                <div class="meta">
+                  License: {s.license}. Checked: {s.checked}. Used for: {s.usedFor}.
+                </div>
+              </li>
+            ))}
+          </ul>
+          <p class="meta">
+            See <a href="/sources/">Sources and permissions</a> for the full list.
+          </p>
+        </section>
+      )
+    }
+  </article>
+</Base>

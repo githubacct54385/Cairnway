@@ -1,0 +1,25 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base title="Search" description="Search every era on the timeline." searchable={false}>
+  <div class="wrap page">
+    <h1>Search</h1>
+    <p>Search across all eras, people, events and sources.</p>
+    <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
+    <div id="search"></div>
+    <noscript><p>Search needs JavaScript. You can still browse every era from the home page.</p></noscript>
+    <p class="meta" id="search-dev-note" hidden>
+      The search index is created by the production build (npm run build). It is not available in npm run dev.
+    </p>
+  </div>
+
+  <script is:inline src="/pagefind/pagefind-ui.js" onerror="document.getElementById('search-dev-note').hidden = false"></script>
+  <script is:inline>
+    window.addEventListener('DOMContentLoaded', function () {
+      if (window.PagefindUI) {
+        new window.PagefindUI({ element: '#search', showImages: false });
+      }
+    });
+  </script>
+</Base>

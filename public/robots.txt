@@ -1,0 +1,3 @@
+# Pre-launch: keep search engines out. At launch, replace this file (see docs/LAUNCH-CHECKLIST.md).
+User-agent: *
+Disallow: /

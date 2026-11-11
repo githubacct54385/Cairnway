@@ -1,0 +1,32 @@
+name: Suggest a correction or addition
+description: Something wrong, missing, or improperly used? Tell us. Suggestions are reviewed as time permits.
+labels: ["content"]
+body:
+  - type: input
+    id: era
+    attributes:
+      label: Which era or page?
+      placeholder: "For example: The Apostolic Age"
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: What should change?
+      description: What is wrong or missing, and what do you suggest instead?
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source for your suggestion
+      description: A book, article or primary source (with a link if you have one). Please do not paste long passages.
+    validations:
+      required: true
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: Permission
+      options:
+        - label: I wrote this suggestion myself and agree it may be used under the project's licenses (CC BY 4.0 for text).
+          required: true

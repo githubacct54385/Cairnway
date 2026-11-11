@@ -1,0 +1,41 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import { SITE } from '../config';
+
+const eras = (await getCollection('eras')).sort((a, b) => a.data.order - b.data.order);
+---
+
+<Base searchable={false}>
+  <section class="hero" data-hero>
+    <div class="hero-bg" data-hero-bg aria-hidden="true"></div>
+    <div class="hero-inner wrap">
+      <h1>{SITE.title}</h1>
+      <p>From the first century onward, one era at a time, with a source for every claim.</p>
+      <a class="button" href="#eras">Start exploring</a>
+    </div>
+  </section>
+
+  <div id="eras" class="wrap">
+    {
+      eras.map((era) => (
+        <section class="era-section" data-reveal>
+          <span class="range">{era.data.dateRange}</span>
+          <h2>{era.data.title}</h2>
+          <p>{era.data.summary}</p>
+          {era.data.draft && <p class="banner">Draft: not yet reviewed against its sources.</p>}
+          <p>
+            <a class="button" href={`/eras/${era.id}/`}>
+              Explore this era
+            </a>
+          </p>
+        </section>
+      ))
+    }
+    <section class="era-section" data-reveal>
+      <span class="range">Coming later</span>
+      <h2>More eras</h2>
+      <p>The timeline will grow one era at a time, each with its own sources and review.</p>
+    </section>
+  </div>
+</Base>
