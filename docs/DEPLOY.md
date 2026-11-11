@@ -1,4 +1,6 @@
-# Deploying to Cloudflare Pages
+# Deploying to Cloudflare
+
+Current live address: https://ancient-paths.lifetrackerappweb.workers.dev/ (deployed as a Cloudflare Worker with static assets; the site is still plain static files).
 
 The site is static. Cloudflare Pages builds it from the `main` branch every time a pull request merges.
 

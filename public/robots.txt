@@ -1,3 +1,4 @@
-# Pre-launch: keep search engines out. At launch, replace this file (see docs/LAUNCH-CHECKLIST.md).
+# Pre-launch: crawling is allowed so the site can be checked, but every page carries a noindex tag
+# (see "prelaunch" in src/config.ts), so search engines will not list it. At launch, flip that flag.
 User-agent: *
-Disallow: /
+Allow: /
