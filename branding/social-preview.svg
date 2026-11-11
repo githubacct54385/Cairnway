@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+  <title>Ancient Paths: Christian history, one era at a time</title>
+  <rect width="1280" height="640" fill="#fbfaf7"/>
+  <rect y="616" width="1280" height="24" fill="#7a3b1e"/>
+  <g transform="translate(96 160) scale(5)">
+    <rect width="64" height="64" rx="14" fill="#7a3b1e"/>
+    <path d="M12 58L26 25H38L52 58Z" fill="#fbfaf7"/>
+    <g fill="#7a3b1e">
+      <rect x="30.2" y="48" width="3.6" height="7" rx="1.2"/>
+      <rect x="30.7" y="38" width="2.6" height="5.4" rx="1"/>
+      <rect x="31.2" y="30.5" width="1.6" height="3.4" rx="0.8"/>
+    </g>
+    <g fill="none" stroke="#fbfaf7" stroke-width="4.5" stroke-linecap="round">
+      <path d="M32 7V21"/>
+      <path d="M27.5 13H36.5"/>
+    </g>
+  </g>
+  <text x="480" y="298" font-family="Georgia, 'DejaVu Serif', serif" font-size="84" font-weight="700" fill="#1b1a17">Ancient Paths</text>
+  <text x="484" y="362" font-family="Georgia, 'DejaVu Serif', serif" font-size="36" fill="#5f5b52">Christian history, one era at a time.</text>
+  <text x="484" y="440" font-family="'DejaVu Sans', Arial, sans-serif" font-size="26" fill="#7a3b1e">Open source  ·  Every claim has a source</text>
+</svg>

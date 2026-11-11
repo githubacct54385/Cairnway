@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="branding/logo-512.png" width="120" alt="Ancient Paths logo: a road leading to a cross">
+</p>
+
 # Ancient Paths
 
 A scrolling, source-cited timeline of Christian history, one era at a time. The first release covers the first century
