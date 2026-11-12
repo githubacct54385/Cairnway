@@ -19,6 +19,9 @@ const eras = defineCollection({
     summary: z.string(),
     dateRange: z.string(),
     order: z.number(),
+    // Years for the homepage timeline. Bar widths are proportional to the length of each era.
+    startYear: z.number(),
+    endYear: z.number(),
     // Drafts are shown with a visible banner until reviewed against their sources.
     draft: z.boolean().default(true),
     // Optional: what has been checked so far, shown in the draft banner instead of the generic text.

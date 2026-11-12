@@ -3,6 +3,8 @@ title: "The Apostolic Age"
 summary: "The first generation of Christians: from the earliest Jerusalem community to the spread of the movement around the Mediterranean."
 dateRange: "c. AD 30 to c. AD 100"
 order: 1
+startYear: 30
+endYear: 100
 draft: true
 reviewStatus: "Draft. Every citation to the Bible and to ancient writers has been checked by an AI against the full text of the translation named in the sources (November 2026). Statements about what modern scholars think have not yet been checked, and no specialist has reviewed this page."
 overviewMap: "overview"
