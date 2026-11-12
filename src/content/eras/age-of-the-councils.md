@@ -6,6 +6,7 @@ order: 3
 startYear: 313
 endYear: 451
 draft: true
+reviewLedger: "docs/REVIEW-age-of-the-councils.md"
 reviewStatus: "Draft. A few passages (the creeds, the Chalcedon definition, two lists of Bible books, Antony, Ambrose, Augustine's Confessions and City of God, Julian's death, Leo's Tome) were read against the full text of the public-domain translations named in the sources (November 2026). Most dates, the Donatist, Jerome, Ephesus and Theodosius entries, and all statements about what modern scholars think have not been checked, and no specialist has reviewed this page."
 flags:
   - text: "Donatist dates (313 to 321) unverified"

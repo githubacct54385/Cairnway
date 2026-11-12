@@ -16,7 +16,7 @@ const eraIndex = allEras.findIndex((e) => e.id === era.id);
 const prevEra = eraIndex > 0 ? allEras[eraIndex - 1] : undefined;
 const nextEra = eraIndex < allEras.length - 1 ? allEras[eraIndex + 1] : undefined;
 const bodyHeadings = headings.filter((h) => h.depth === 2);
-const { title, summary, dateRange, draft, reviewStatus, overviewMap, mapSection, figures, keyPeople, events, sources } = era.data;
+const { title, summary, dateRange, draft, reviewStatus, reviewLedger, overviewMap, mapSection, figures, keyPeople, events, sources } = era.data;
 type MapId = ComponentProps<typeof EraMap>['id'];
 ---
 
@@ -32,7 +32,17 @@ type MapId = ComponentProps<typeof EraMap>['id'];
           <summary>Draft: not yet fully reviewed against its sources. Show details</summary>
           <p>{reviewStatus ?? 'Not yet reviewed against its sources.'} Dates are approximate.</p>
           <p>
-            <a href="https://github.com/githubacct54385/ancient-paths/tree/main/docs">Review records (the project's docs folder)</a>
+            {
+              reviewLedger ? (
+                <a href={`https://github.com/githubacct54385/ancient-paths/blob/main/${reviewLedger}`}>
+                  Review record for this era
+                </a>
+              ) : (
+                <a href="https://github.com/githubacct54385/ancient-paths/tree/main/docs">
+                  Review records (the project's docs folder)
+                </a>
+              )
+            }
           </p>
         </details>
       )
