@@ -10,9 +10,11 @@ reviewStatus: "Draft, written 2026-11-12 from docs/PLAN-seventh-era.md. Three cl
 overviewMap: "crusades-and-reform"
 mapSection:
   heading: "The Crusades, 1096 to 1204"
-  intro: "Routes and battles of three crusades: the First, from Constantinople to Jerusalem (1096 to 1099); the Third, Richard I's campaign along the coast (1189 to 1192); and the Fourth, which was diverted to Zara and then Constantinople (1202 to 1204). The routes are simplified, and the battle sites and dates are not yet checked."
+  intro: "Routes and battles of four crusades: the First, from Constantinople to Jerusalem (1096 to 1099); the Second, when the German and French armies crossed Anatolia and failed at Damascus, and when crusaders helped take Lisbon (1147 to 1149); the Third, Richard I's campaign along the coast (1189 to 1192); and the Fourth, which was diverted to Zara and then Constantinople (1202 to 1204). The routes are simplified, and the battle sites and dates are not yet checked."
   ids:
     - "first-crusade-1096-1099"
+    - "second-crusade-1147-1149"
+    - "lisbon-siege-1147"
     - "third-crusade-1189-1192"
     - "fourth-crusade-1202-1204"
 figures:
