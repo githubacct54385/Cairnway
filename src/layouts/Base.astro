@@ -7,9 +7,11 @@ interface Props {
   description?: string;
   /** Whether Pagefind should index this page's main content. */
   searchable?: boolean;
+  /** Keep this page out of search engines, whatever the pre-launch setting. */
+  noindex?: boolean;
 }
 
-const { title, description = SITE.description, searchable = true } = Astro.props;
+const { title, description = SITE.description, searchable = true, noindex = false } = Astro.props;
 const fullTitle = title ? `${title} · ${SITE.title}` : SITE.title;
 const canonical = new URL(Astro.url.pathname, Astro.site);
 const ogImage = new URL('/og.png', Astro.site);
@@ -33,7 +35,7 @@ const mainAttrs = searchable ? { 'data-pagefind-body': '' } : {};
     <meta property="og:url" content={canonical} />
     <meta property="og:image" content={ogImage} />
     <meta name="twitter:card" content="summary_large_image" />
-    {SITE.prelaunch && <meta name="robots" content="noindex, nofollow" />}
+    {(SITE.prelaunch || noindex) && <meta name="robots" content="noindex, nofollow" />}
   </head>
   <body>
     <a class="skip" href="#main">Skip to content</a>

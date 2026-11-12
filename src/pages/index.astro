@@ -4,165 +4,150 @@ import Base from '../layouts/Base.astro';
 import { SITE } from '../config';
 
 const eras = (await getCollection('eras')).sort((a, b) => a.data.order - b.data.order);
-const drafts = eras.filter((era) => era.data.draft).length;
-const openFlags = eras.reduce((total, era) => total + era.data.flags.length, 0);
-const severityRank = { high: 0, medium: 1, note: 2 } as const;
-const worst = (era: (typeof eras)[number]) =>
-  era.data.flags.reduce<'high' | 'medium' | 'note' | null>((top, flag) => {
-    if (!top) return flag.severity;
-    return severityRank[flag.severity] < severityRank[top] ? flag.severity : top;
-  }, null);
+const first = eras[0];
 ---
 
-<Base searchable={false}>
-  <div class="status-strip">
-    <div class="wrap status-inner">
-      <span>{eras.length} eras · {drafts} drafts</span>
-      <a href="#eras" class="flags-count"><strong>{openFlags} open flags</strong></a>
-    </div>
-  </div>
-
-  <section class="hero" data-hero>
-    <div class="hero-bg" data-hero-bg aria-hidden="true"></div>
+<Base>
+  <section class="hero">
     <div class="hero-inner wrap">
       <h1>{SITE.title}</h1>
-      <p>From the first century onward, one era at a time, with a source for every claim.</p>
-      <a class="button" href="#eras">Start exploring</a>
+      <p>The story of Christianity, one era at a time, with a source for every claim.</p>
+      <a class="button" href={`/eras/${first.id}/`}>Start with the first era</a>
     </div>
   </section>
+
+  <div class="wrap timeline-wrap">
+    <p class="timeline-label">Timeline, AD {eras[0].data.startYear} to {eras[eras.length - 1].data.endYear}</p>
+    <nav class="timeline" aria-label="Timeline of eras">
+      {
+        eras.map((era) => (
+          <a
+            class="segment"
+            href={`#era-${era.id}`}
+            style={`flex-grow: ${era.data.endYear - era.data.startYear}`}
+            aria-label={`${era.data.title}, ${era.data.dateRange}`}
+          >
+            <span class="bar" />
+          </a>
+        ))
+      }
+    </nav>
+    <div class="timeline-years" aria-hidden="true">
+      {
+        eras.map((era) => (
+          <span style={`flex-grow: ${era.data.endYear - era.data.startYear}`}>{era.data.startYear}</span>
+        ))
+      }
+      <span class="end">{eras[eras.length - 1].data.endYear}</span>
+    </div>
+  </div>
 
   <div id="eras" class="wrap">
     {
       eras.map((era) => (
-        <details class="era-row" data-reveal>
-          <summary>
-            <span class="range">{era.data.dateRange}</span>
-            <span class="title">{era.data.title}</span>
-            <span class="pills">
-              {era.data.draft && <span class="pill draft">Draft</span>}
-              {era.data.flags.length > 0 && (
-                <span class={`pill count ${worst(era)}`}>{era.data.flags.length} flags</span>
-              )}
-            </span>
-          </summary>
-          <div class="era-body">
-            <p>{era.data.summary}</p>
-            {era.data.draft && (
-              <p class="banner">{era.data.reviewStatus ?? 'Draft: not yet reviewed against its sources.'}</p>
-            )}
-            {era.data.flags.length > 0 && (
-              <ul class="flag-list">
-                {era.data.flags.map((flag) => (
-                  <li class={flag.severity}>{flag.text}</li>
-                ))}
-              </ul>
-            )}
-            <p>
-              <a class="button" href={`/eras/${era.id}/`}>Explore this era</a>
-            </p>
-          </div>
-        </details>
+        <section class="era-row" id={`era-${era.id}`} data-reveal>
+          <span class="range">{era.data.dateRange}</span>
+          <h2>{era.data.title}</h2>
+          <p>{era.data.summary}</p>
+          <p class="row-actions">
+            {era.data.draft && <span class="pill">Draft</span>}
+            <a class="button" href={`/eras/${era.id}/`}>Explore this era</a>
+          </p>
+        </section>
       ))
     }
-    <p class="more-eras">More eras: the timeline will grow one era at a time, each with its own sources and review.</p>
+    <p class="more-eras">More eras are on the way, one at a time.</p>
   </div>
 </Base>
 
 <style>
-  /* Shorter hero, so the era list starts near the top of the phone screen. */
   .hero {
     min-height: 0;
-    padding: 1.5rem 1rem 1.25rem;
+    padding: 1.75rem 1rem 1.25rem;
+    text-align: center;
   }
   .hero h1 {
-    font-size: clamp(1.8rem, 6vw, 2.6rem);
+    font-size: clamp(1.9rem, 6vw, 2.6rem);
     margin-bottom: 0.5rem;
   }
   .hero p {
-    margin-bottom: 0.9rem;
+    margin-bottom: 1rem;
   }
-  .status-strip {
-    position: sticky;
-    top: 0;
-    z-index: 5;
-    background: var(--banner);
-    color: var(--banner-fg);
-    font-size: 0.9rem;
-    padding: 0.6rem 0;
-    border-bottom: 1px solid var(--rule);
+  .timeline-wrap {
+    margin-bottom: 1.5rem;
   }
-  .status-inner {
+  .timeline-label {
+    font-size: 0.8rem;
+    color: var(--muted);
+    margin-bottom: 0.4rem;
+  }
+  /* One flex child per era. flex-grow is the era's length in years, so the bar is to scale. */
+  .timeline {
     display: flex;
-    justify-content: space-between;
-    gap: 1rem;
-    flex-wrap: wrap;
+    gap: 3px;
   }
-  .flags-count {
-    color: inherit;
+  .segment {
+    display: flex;
+    align-items: center;
+    flex-basis: 0;
+    min-height: 44px;
+    min-width: 44px;
+    text-decoration: none;
+  }
+  .segment .bar {
+    display: block;
+    width: 100%;
+    height: 12px;
+    border-radius: 6px;
+    background: var(--accent);
+    opacity: 0.85;
+  }
+  .segment:hover .bar,
+  .segment:focus-visible .bar {
+    opacity: 1;
+    outline: 2px solid var(--fg);
+    outline-offset: 2px;
+  }
+  .timeline-years {
+    display: flex;
+    gap: 3px;
+    font-size: 0.7rem;
+    color: var(--muted);
+    margin-top: 0.2rem;
+  }
+  .timeline-years span {
+    flex-basis: 0;
+    min-width: 0;
+    overflow: visible;
+    white-space: nowrap;
+  }
+  .timeline-years .end {
+    flex-grow: 0;
+    flex-basis: auto;
+    text-align: right;
   }
   .era-row {
     border-top: 1px solid var(--rule);
-    padding: 0.9rem 0;
-  }
-  .era-row summary {
-    list-style: none;
-    cursor: pointer;
-    display: grid;
-    grid-template-columns: 1fr auto;
-    gap: 0.2rem 0.75rem;
-    align-items: center;
-    min-height: 44px;
-  }
-  .era-row summary::-webkit-details-marker {
-    display: none;
+    padding: 1.1rem 0;
   }
   .era-row .range {
-    grid-column: 1 / -1;
     font-size: 0.8rem;
     color: var(--muted);
   }
-  .era-row .title {
-    font-weight: 600;
+  .era-row h2 {
+    margin: 0.2rem 0 0.4rem;
   }
-  .pills {
+  .row-actions {
     display: flex;
-    gap: 0.35rem;
+    align-items: center;
+    gap: 0.6rem;
+    flex-wrap: wrap;
   }
   .pill {
     font-size: 0.75rem;
-    padding: 0.15rem 0.55rem;
+    padding: 0.15rem 0.6rem;
     border-radius: 999px;
     border: 1px solid var(--rule);
-    white-space: nowrap;
-  }
-  .pill.count.high {
-    background: #f8d7d2;
-    color: #7a1f14;
-    border-color: transparent;
-  }
-  .pill.count.medium {
-    background: var(--banner);
-    color: var(--banner-fg);
-    border-color: transparent;
-  }
-  .pill.count.note {
-    color: var(--muted);
-  }
-  .era-body {
-    padding-top: 0.6rem;
-  }
-  .flag-list {
-    padding-left: 1.1rem;
-    margin: 0.5rem 0 0.9rem;
-  }
-  .flag-list li {
-    margin-bottom: 0.3rem;
-  }
-  .flag-list li.high {
-    color: #9b2a1c;
-    font-weight: 600;
-  }
-  .flag-list li.note {
     color: var(--muted);
   }
   .more-eras {
