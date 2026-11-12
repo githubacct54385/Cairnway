@@ -331,6 +331,90 @@
     "Moscow": [
       37.62,
       55.75
+    ],
+    "Wittenberg": [
+      12.63,
+      51.87
+    ],
+    "Worms": [
+      8.36,
+      49.63
+    ],
+    "Augsburg": [
+      10.9,
+      48.37
+    ],
+    "Trent": [
+      11.12,
+      46.07
+    ],
+    "Geneva": [
+      6.14,
+      46.2
+    ],
+    "Zurich": [
+      8.54,
+      47.38
+    ],
+    "Munster": [
+      7.63,
+      51.96
+    ],
+    "Nuremberg": [
+      11.08,
+      49.45
+    ],
+    "Edinburgh": [
+      -3.19,
+      55.95
+    ],
+    "Madrid": [
+      -3.7,
+      40.42
+    ],
+    "Amsterdam": [
+      4.9,
+      52.37
+    ],
+    "Vienna": [
+      16.37,
+      48.21
+    ],
+    "Magdeburg": [
+      11.63,
+      52.13
+    ],
+    "Lutzen": [
+      11.97,
+      51.23
+    ],
+    "Stockholm": [
+      18.07,
+      59.33
+    ],
+    "Copenhagen": [
+      12.57,
+      55.68
+    ],
+    "Lisbon": [
+      -9.14,
+      38.72
+    ],
+    "Halle": [
+      11.97,
+      51.48
+    ],
+    "Herrnhut": [
+      14.53,
+      51.0
+    ],
+    "Versailles": [
+      2.13,
+      48.8
+    ],
+    "St Petersburg": [
+      30.32,
+      59.94
     ]
   },
   "labels": [
@@ -548,7 +632,9 @@
         "english-and-east-700",
         "carolingian-world",
         "crusades-and-reform",
-        "schism-and-councils"
+        "schism-and-councils",
+        "confessions-1700",
+        "europe-1789"
       ]
     },
     {
@@ -569,7 +655,8 @@
         "english-and-east-700",
         "carolingian-world",
         "crusades-and-reform",
-        "schism-and-councils"
+        "schism-and-councils",
+        "europe-1789"
       ]
     },
     {
@@ -611,7 +698,9 @@
         "english-and-east-700",
         "carolingian-world",
         "crusades-and-reform",
-        "schism-and-councils"
+        "schism-and-councils",
+        "thirty-years-war",
+        "europe-1789"
       ]
     },
     {
@@ -632,7 +721,247 @@
         "english-and-east-700",
         "carolingian-world",
         "crusades-and-reform",
-        "schism-and-councils"
+        "schism-and-councils",
+        "religion-1555",
+        "thirty-years-war"
+      ]
+    },
+    {
+      "text": "England",
+      "kind": "region",
+      "lon": -1.5,
+      "lat": 52.8,
+      "hideOn": [
+        "overview",
+        "journey-1",
+        "journey-2",
+        "journey-3",
+        "voyage",
+        "churches",
+        "ignatius",
+        "church-around-400",
+        "churches-about-600",
+        "english-and-east-700",
+        "carolingian-world",
+        "crusades-and-reform",
+        "schism-and-councils",
+        "late-medieval-europe",
+        "thirty-years-war"
+      ]
+    },
+    {
+      "text": "Scotland",
+      "kind": "region",
+      "lon": -4.2,
+      "lat": 56.6,
+      "hideOn": [
+        "overview",
+        "journey-1",
+        "journey-2",
+        "journey-3",
+        "voyage",
+        "churches",
+        "ignatius",
+        "church-around-400",
+        "churches-about-600",
+        "english-and-east-700",
+        "carolingian-world",
+        "crusades-and-reform",
+        "schism-and-councils",
+        "late-medieval-europe",
+        "thirty-years-war",
+        "europe-1789"
+      ]
+    },
+    {
+      "text": "Netherlands",
+      "kind": "region",
+      "lon": 5.2,
+      "lat": 52.0,
+      "hideOn": [
+        "overview",
+        "journey-1",
+        "journey-2",
+        "journey-3",
+        "voyage",
+        "churches",
+        "ignatius",
+        "church-around-400",
+        "churches-about-600",
+        "english-and-east-700",
+        "carolingian-world",
+        "crusades-and-reform",
+        "schism-and-councils",
+        "late-medieval-europe",
+        "europe-1789"
+      ]
+    },
+    {
+      "text": "Swiss Confederation",
+      "kind": "region",
+      "lon": 8.3,
+      "lat": 46.7,
+      "hideOn": [
+        "overview",
+        "journey-1",
+        "journey-2",
+        "journey-3",
+        "voyage",
+        "churches",
+        "ignatius",
+        "church-around-400",
+        "churches-about-600",
+        "english-and-east-700",
+        "carolingian-world",
+        "crusades-and-reform",
+        "schism-and-councils",
+        "late-medieval-europe",
+        "thirty-years-war",
+        "confessions-1700",
+        "europe-1789"
+      ]
+    },
+    {
+      "text": "Spain",
+      "kind": "region",
+      "lon": -3.8,
+      "lat": 40.0,
+      "hideOn": [
+        "overview",
+        "journey-1",
+        "journey-2",
+        "journey-3",
+        "voyage",
+        "churches",
+        "ignatius",
+        "church-around-400",
+        "churches-about-600",
+        "english-and-east-700",
+        "carolingian-world",
+        "crusades-and-reform",
+        "schism-and-councils",
+        "late-medieval-europe",
+        "thirty-years-war",
+        "confessions-1700"
+      ]
+    },
+    {
+      "text": "Sweden",
+      "kind": "region",
+      "lon": 16.0,
+      "lat": 58.0,
+      "hideOn": [
+        "overview",
+        "journey-1",
+        "journey-2",
+        "journey-3",
+        "voyage",
+        "churches",
+        "ignatius",
+        "church-around-400",
+        "churches-about-600",
+        "english-and-east-700",
+        "carolingian-world",
+        "crusades-and-reform",
+        "schism-and-councils",
+        "late-medieval-europe",
+        "religion-1555"
+      ]
+    },
+    {
+      "text": "Russia",
+      "kind": "region",
+      "lon": 34.0,
+      "lat": 57.5,
+      "hideOn": [
+        "overview",
+        "journey-1",
+        "journey-2",
+        "journey-3",
+        "voyage",
+        "churches",
+        "ignatius",
+        "church-around-400",
+        "churches-about-600",
+        "english-and-east-700",
+        "carolingian-world",
+        "crusades-and-reform",
+        "schism-and-councils",
+        "late-medieval-europe",
+        "religion-1555",
+        "thirty-years-war"
+      ]
+    },
+    {
+      "text": "Baltic Sea",
+      "kind": "sea",
+      "lon": 19.5,
+      "lat": 56.5,
+      "hideOn": [
+        "overview",
+        "journey-1",
+        "journey-2",
+        "journey-3",
+        "voyage",
+        "churches",
+        "ignatius",
+        "church-around-400",
+        "churches-about-600",
+        "english-and-east-700",
+        "carolingian-world",
+        "crusades-and-reform",
+        "schism-and-councils",
+        "late-medieval-europe",
+        "religion-1555"
+      ]
+    },
+    {
+      "text": "Bavaria",
+      "kind": "region",
+      "lon": 11.5,
+      "lat": 48.9,
+      "hideOn": [
+        "overview",
+        "journey-1",
+        "journey-2",
+        "journey-3",
+        "voyage",
+        "churches",
+        "ignatius",
+        "church-around-400",
+        "churches-about-600",
+        "english-and-east-700",
+        "carolingian-world",
+        "crusades-and-reform",
+        "schism-and-councils",
+        "late-medieval-europe",
+        "religion-1555",
+        "confessions-1700",
+        "europe-1789"
+      ]
+    },
+    {
+      "text": "Saxony",
+      "kind": "region",
+      "lon": 12.6,
+      "lat": 50.9,
+      "hideOn": [
+        "overview",
+        "journey-1",
+        "journey-2",
+        "journey-3",
+        "voyage",
+        "churches",
+        "ignatius",
+        "church-around-400",
+        "churches-about-600",
+        "english-and-east-700",
+        "carolingian-world",
+        "crusades-and-reform",
+        "schism-and-councils",
+        "late-medieval-europe",
+        "confessions-1700",
+        "europe-1789"
       ]
     }
   ],
@@ -1540,6 +1869,266 @@
         },
         {
           "place": "Moscow",
+          "side": "right"
+        }
+      ]
+    },
+    {
+      "id": "religion-1555",
+      "title": "Religion in Europe about 1555",
+      "intro": "After the Peace of Augsburg, the German princes chose their religion, and the Reformed churches held Geneva, Scotland and parts of the Netherlands. Boundaries are simplified.",
+      "bbox": [
+        -10,
+        36,
+        28,
+        60
+      ],
+      "cities": [
+        {
+          "place": "Edinburgh",
+          "side": "right"
+        },
+        {
+          "place": "London",
+          "side": "left"
+        },
+        {
+          "place": "Paris",
+          "side": "left"
+        },
+        {
+          "place": "Madrid",
+          "side": "left"
+        },
+        {
+          "place": "Amsterdam",
+          "side": "right"
+        },
+        {
+          "place": "Wittenberg",
+          "side": "right"
+        },
+        {
+          "place": "Worms",
+          "side": "left"
+        },
+        {
+          "place": "Augsburg",
+          "side": "right"
+        },
+        {
+          "place": "Zurich",
+          "side": "right"
+        },
+        {
+          "place": "Geneva",
+          "side": "left"
+        },
+        {
+          "place": "Trent",
+          "side": "right"
+        },
+        {
+          "place": "Rome",
+          "side": "right"
+        },
+        {
+          "place": "Vienna",
+          "side": "right"
+        },
+        {
+          "place": "Prague",
+          "side": "right"
+        },
+        {
+          "place": "Stockholm",
+          "side": "right"
+        },
+        {
+          "place": "Copenhagen",
+          "side": "right"
+        }
+      ]
+    },
+    {
+      "id": "thirty-years-war",
+      "title": "The Thirty Years' War, 1618 to 1648",
+      "intro": "The war began in Bohemia and spread across the empire, drawing in Denmark, Sweden and France. Westphalia, where the peace was made, is shown in the north-west. Boundaries are simplified.",
+      "bbox": [
+        3,
+        46,
+        26,
+        60
+      ],
+      "cities": [
+        {
+          "place": "Prague",
+          "side": "right"
+        },
+        {
+          "place": "Vienna",
+          "side": "right"
+        },
+        {
+          "place": "Nuremberg",
+          "side": "right"
+        },
+        {
+          "place": "Magdeburg",
+          "side": "right"
+        },
+        {
+          "place": "Lutzen",
+          "side": "right"
+        },
+        {
+          "place": "Wittenberg",
+          "side": "right"
+        },
+        {
+          "place": "Munster",
+          "side": "left"
+        },
+        {
+          "place": "Copenhagen",
+          "side": "right"
+        },
+        {
+          "place": "Stockholm",
+          "side": "right"
+        },
+        {
+          "place": "Amsterdam",
+          "side": "left"
+        }
+      ]
+    },
+    {
+      "id": "confessions-1700",
+      "title": "Confessions in Europe about 1700",
+      "intro": "Catholic, Lutheran, Reformed and Orthodox lands after the wars of religion, with the Habsburg and Ottoman frontiers. Boundaries are simplified.",
+      "bbox": [
+        -10,
+        36,
+        40,
+        62
+      ],
+      "cities": [
+        {
+          "place": "Edinburgh",
+          "side": "right"
+        },
+        {
+          "place": "London",
+          "side": "left"
+        },
+        {
+          "place": "Paris",
+          "side": "left"
+        },
+        {
+          "place": "Madrid",
+          "side": "left"
+        },
+        {
+          "place": "Lisbon",
+          "side": "left"
+        },
+        {
+          "place": "Amsterdam",
+          "side": "right"
+        },
+        {
+          "place": "Halle",
+          "side": "right"
+        },
+        {
+          "place": "Herrnhut",
+          "side": "right"
+        },
+        {
+          "place": "Vienna",
+          "side": "right"
+        },
+        {
+          "place": "Rome",
+          "side": "right"
+        },
+        {
+          "place": "Stockholm",
+          "side": "right"
+        },
+        {
+          "place": "St Petersburg",
+          "side": "right"
+        },
+        {
+          "place": "Moscow",
+          "side": "right"
+        },
+        {
+          "place": "Constantinople",
+          "side": "right"
+        }
+      ]
+    },
+    {
+      "id": "europe-1789",
+      "title": "Europe in 1789",
+      "intro": "The states of Europe on the eve of the French Revolution: the Estates-General at Versailles, the Habsburg and Prussian courts, the Russian Holy Synod, and the Jesuit suppression. Boundaries are simplified.",
+      "bbox": [
+        -10,
+        36,
+        40,
+        62
+      ],
+      "cities": [
+        {
+          "place": "Edinburgh",
+          "side": "right"
+        },
+        {
+          "place": "London",
+          "side": "left"
+        },
+        {
+          "place": "Versailles",
+          "side": "left"
+        },
+        {
+          "place": "Paris",
+          "side": "left"
+        },
+        {
+          "place": "Madrid",
+          "side": "left"
+        },
+        {
+          "place": "Lisbon",
+          "side": "left"
+        },
+        {
+          "place": "Halle",
+          "side": "right"
+        },
+        {
+          "place": "Herrnhut",
+          "side": "right"
+        },
+        {
+          "place": "Vienna",
+          "side": "right"
+        },
+        {
+          "place": "Rome",
+          "side": "right"
+        },
+        {
+          "place": "St Petersburg",
+          "side": "right"
+        },
+        {
+          "place": "Stockholm",
           "side": "right"
         }
       ]

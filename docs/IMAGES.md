@@ -36,3 +36,16 @@ Licence checks: Commons rows from the Commons API metadata; Met rows from the Me
 | `public/era-art/carolingians-to-schism/met-carolingian-emmaus.jpg` | Plaque, ca. 850 to 900, Carolingian ivory; Metropolitan Museum of Art, Open Access (object 471970) | CC0 | 2026-11-12 | Era page |
 | `public/era-art/reform-and-crusade/met-limoges-chasse.jpg` | Chasse, ca. 1180 to 1190, French (Limoges) enamel; Metropolitan Museum of Art, Open Access (object 464483) | CC0 | 2026-11-12 | Era page |
 | `public/era-art/friars-to-constance/met-gothic-diptych-coronation.jpg` | Diptych leaf, late 14th century, Italian ivory; Metropolitan Museum of Art, Open Access (object 471981) | CC0 | 2026-11-12 | Era page |
+
+## Added for eras 10 and 11
+
+Licence checks: Met rows from the Met Open Access flag (public domain, CC0), checked on 2026-11-12 with the Met's object record. Captions are drafted and not yet checked against the record.
+
+| File on site | Credit | Licence | Checked | Used on |
+| --- | --- | --- | --- | --- |
+| `public/era-art/reformation/met-cranach-luther.jpg` | Lucas Cranach the Elder, Martin Luther, probably 1532, oil on wood; Metropolitan Museum of Art, Open Access (object 436047) | CC0 | 2026-11-12 | Era page (Reformation) |
+| `public/era-art/reformation/met-durer-crucifixion.jpg` | Albrecht Dürer, Crucifixion from The Small Woodcut Passion, 1509 to 1510, hand-coloured woodcut; Metropolitan Museum of Art, Open Access (object 361985) | CC0 | 2026-11-12 | Era page (Reformation) |
+| `public/era-art/reformation/met-melanchthon-medal.jpg` | Friedrich Hagenauer, Philipp Melanchthon, 1543, bronze; Metropolitan Museum of Art, Open Access (object 855362) | CC0 | 2026-11-12 | Era page (Reformation) |
+| `public/era-art/reason-and-revival/met-champaigne-annunciation.jpg` | Philippe de Champaigne, The Annunciation, ca. 1644, oil on oak; Metropolitan Museum of Art, Open Access (object 438724) | CC0 | 2026-11-12 | Era page (Reason and Revival) |
+| `public/era-art/reason-and-revival/met-peter-great-ivory.jpg` | Peter the Great, late 18th to early 19th century, walrus ivory; Metropolitan Museum of Art, Open Access (object 205473) | CC0 | 2026-11-12 | Era page (Reason and Revival) |
+| `public/era-art/reason-and-revival/met-devotional-madonna-paradise.jpg` | Anonymous German, The Madonna of Paradise (Our Lady of Good Counsel), 18th century, mixed media; Metropolitan Museum of Art, Open Access (object 785981) | CC0 | 2026-11-12 | Era page (Reason and Revival) |
