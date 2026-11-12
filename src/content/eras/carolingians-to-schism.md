@@ -1,9 +1,9 @@
 ---
 title: "From Charlemagne to the Great Schism"
-summary: "AD 800 to 1054: a Frankish king is made emperor in Rome, the Carolingian empire splits, the East and West argue over images and the papacy, monks reform the church from Cluny, and in 1054 the two churches excommunicate each other."
-dateRange: "AD 800 to AD 1054"
+summary: "AD 787 to 1054: the Franks reject the Council of Nicaea's decree on images, a Frankish king is made emperor in Rome, the Carolingian empire splits, the East and West argue over images and the papacy, monks reform the church from Cluny, and in 1054 the two churches excommunicate each other."
+dateRange: "AD 787 to AD 1054"
 order: 6
-startYear: 800
+startYear: 787
 endYear: 1054
 draft: true
 reviewStatus: "Draft, written 2026-11-12 from docs/PLAN-sixth-era.md. One event was checked against the full text of Einhard's Life of Charlemagne (Grant's edition, Project Gutenberg 48870), chapter 28: the surprise at the title, the Greeks' envy, and the pope's declaration in Rome. Einhard does not say the pope crowned him or give Christmas Day; that date is the editor's note. Every other date, event, person and claim is from the drafter's general knowledge and is not yet checked. No specialist has reviewed this page."
@@ -106,7 +106,9 @@ sources:
 
 ## Overview
 
-The fifth era ended at the Second Council of Nicaea in 787. This era begins with Charlemagne's coronation in Rome and ends with the mutual excommunications of 1054. In between, a Frankish kingdom tried to become a Christian empire in the West, the empire broke up, the Eastern and Western churches argued over the papacy and the creed, and monks at Cluny led a reform that changed the Western church.
+The fifth era ended at the Second Council of Nicaea in 787. This era begins there, with the Frankish response to that council, and ends with the mutual excommunications of 1054. In between, a Frankish kingdom tried to become a Christian empire in the West, the empire broke up, the Eastern and Western churches argued over the papacy and the creed, and monks at Cluny led a reform that changed the Western church.
+
+The years from 787 to 800 are the first part of this era. The Frankish court had not sent bishops to Nicaea, and it rejected the council's decree on images. The court's *Libri Carolini*, written around 790 to 794, set out that rejection. Charlemagne's coronation in Rome in 800 comes after these years. The sources for this passage are not yet checked here.
 
 The page is arranged by East and West, as before. Events are tagged East, West or Both.
 
