@@ -567,6 +567,14 @@
     "Laodicea": [
       29.11,
       37.84
+    ],
+    "Porto": [
+      -8.61,
+      41.15
+    ],
+    "Dartmouth": [
+      -3.57,
+      50.35
     ]
   },
   "labels": [
@@ -584,7 +592,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -601,7 +610,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "fourth-crusade-1202-1204",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -620,7 +630,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -640,7 +651,8 @@
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
         "fourth-crusade-1202-1204",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -660,7 +672,8 @@
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
         "fourth-crusade-1202-1204",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -679,7 +692,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -700,7 +714,8 @@
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
         "fourth-crusade-1202-1204",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -723,7 +738,8 @@
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
         "fourth-crusade-1202-1204",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -743,7 +759,8 @@
         "europe-divided-1950",
         "central-europe-1956-1989",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -760,7 +777,8 @@
         "europe-1933-1945",
         "europe-divided-1950",
         "central-europe-1956-1989",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -777,7 +795,8 @@
         "europe-1933-1945",
         "europe-divided-1950",
         "central-europe-1956-1989",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -797,7 +816,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "fourth-crusade-1202-1204",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -817,7 +837,8 @@
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
         "fourth-crusade-1202-1204",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -835,7 +856,8 @@
         "europe-divided-1950",
         "central-europe-1956-1989",
         "fourth-crusade-1202-1204",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -848,7 +870,8 @@
         "europe-1933-1945",
         "europe-divided-1950",
         "central-europe-1956-1989",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -865,7 +888,8 @@
         "europe-1933-1945",
         "europe-divided-1950",
         "central-europe-1956-1989",
-        "third-crusade-1189-1192"
+        "third-crusade-1189-1192",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -881,7 +905,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -901,7 +926,8 @@
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
         "fourth-crusade-1202-1204",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -916,7 +942,8 @@
         "europe-divided-1950",
         "central-europe-1956-1989",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -936,7 +963,8 @@
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
         "fourth-crusade-1202-1204",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -956,7 +984,8 @@
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
         "fourth-crusade-1202-1204",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -976,7 +1005,8 @@
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
         "fourth-crusade-1202-1204",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -996,7 +1026,8 @@
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
         "fourth-crusade-1202-1204",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -1016,7 +1047,8 @@
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
         "fourth-crusade-1202-1204",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -1036,7 +1068,8 @@
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
         "fourth-crusade-1202-1204",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -1055,7 +1088,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -1075,7 +1109,8 @@
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
         "fourth-crusade-1202-1204",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -1093,7 +1128,8 @@
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
         "fourth-crusade-1202-1204",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -1144,7 +1180,8 @@
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
         "fourth-crusade-1202-1204",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -1176,7 +1213,8 @@
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
         "fourth-crusade-1202-1204",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -1206,7 +1244,8 @@
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
         "fourth-crusade-1202-1204",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -1237,7 +1276,8 @@
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
         "fourth-crusade-1202-1204",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -1272,7 +1312,8 @@
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
         "fourth-crusade-1202-1204",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -1340,7 +1381,8 @@
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
         "fourth-crusade-1202-1204",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -1374,7 +1416,8 @@
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
         "fourth-crusade-1202-1204",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -1410,7 +1453,8 @@
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
         "fourth-crusade-1202-1204",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -1478,7 +1522,8 @@
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
         "fourth-crusade-1202-1204",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -1510,7 +1555,8 @@
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
         "fourth-crusade-1202-1204",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -1543,7 +1589,8 @@
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
         "fourth-crusade-1202-1204",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -1579,7 +1626,8 @@
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
         "fourth-crusade-1202-1204",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -1614,7 +1662,8 @@
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
         "fourth-crusade-1202-1204",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -1632,7 +1681,8 @@
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
         "fourth-crusade-1202-1204",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -1651,7 +1701,8 @@
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
         "fourth-crusade-1202-1204",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -1670,7 +1721,8 @@
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
         "fourth-crusade-1202-1204",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -1689,7 +1741,8 @@
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
         "fourth-crusade-1202-1204",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -1708,7 +1761,8 @@
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
         "fourth-crusade-1202-1204",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -1726,7 +1780,8 @@
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
         "fourth-crusade-1202-1204",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -1745,7 +1800,8 @@
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
         "fourth-crusade-1202-1204",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -1761,7 +1817,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -1779,7 +1836,8 @@
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
         "fourth-crusade-1202-1204",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -1797,7 +1855,8 @@
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
         "fourth-crusade-1202-1204",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -1815,7 +1874,8 @@
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
         "fourth-crusade-1202-1204",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -1834,7 +1894,8 @@
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
         "fourth-crusade-1202-1204",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -1852,7 +1913,8 @@
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
         "fourth-crusade-1202-1204",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -1869,7 +1931,8 @@
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
         "fourth-crusade-1202-1204",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -1888,7 +1951,8 @@
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
         "fourth-crusade-1202-1204",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -1906,7 +1970,8 @@
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
         "fourth-crusade-1202-1204",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -1925,7 +1990,8 @@
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
         "fourth-crusade-1202-1204",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -1944,7 +2010,8 @@
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
         "fourth-crusade-1202-1204",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -1963,7 +2030,8 @@
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
         "fourth-crusade-1202-1204",
-        "second-crusade-1147-1149"
+        "second-crusade-1147-1149",
+        "lisbon-siege-1147"
       ]
     },
     {
@@ -1973,14 +2041,24 @@
       "lat": 39.4,
       "hideOn": [
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "lisbon-siege-1147"
       ]
     },
     {
       "text": "Byzantine Empire",
       "kind": "region",
       "lon": 23.8,
-      "lat": 41.2
+      "lat": 41.2,
+      "hideOn": [
+        "lisbon-siege-1147"
+      ]
+    },
+    {
+      "text": "Portugal",
+      "kind": "region",
+      "lon": -7.9,
+      "lat": 39.6
     }
   ],
   "maps": [
@@ -3852,6 +3930,44 @@
           "side": "right"
         }
       ]
+    },
+    {
+      "id": "lisbon-siege-1147",
+      "title": "The Siege of Lisbon, 1147",
+      "intro": "Crusaders from England, Flanders and the Rhineland sailed to Portugal on their way to the Holy Land, and joined the Portuguese king in the siege of Lisbon. The route is simplified and straight between places; the dates and the sources are not yet checked.",
+      "bbox": [
+        -12,
+        36,
+        1,
+        52
+      ],
+      "refPrefix": "",
+      "route": [
+        "Dartmouth",
+        "Porto",
+        "Lisbon"
+      ],
+      "stops": [
+        {
+          "place": "Dartmouth",
+          "side": "right",
+          "ref": "De expugnatione Lyxbonensi, to check",
+          "note": "The crusading fleet sails from the south coast of England on the way to the Holy Land (1147, to check)"
+        },
+        {
+          "place": "Porto",
+          "side": "left",
+          "ref": "De expugnatione Lyxbonensi, to check",
+          "note": "The fleet stops at Porto, where the Portuguese king and the bishop join the crusaders (1147, to check)"
+        },
+        {
+          "place": "Lisbon",
+          "side": "right",
+          "ref": "De expugnatione Lyxbonensi, to check",
+          "note": "The siege begins in July and the city surrenders in late October 1147, after the crusaders and the Portuguese take it"
+        }
+      ],
+      "cities": []
     }
   ]
 }
