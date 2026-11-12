@@ -3,8 +3,21 @@ title: "After Chalcedon"
 summary: "From the council of Chalcedon to Gregory the Great: the western empire falls, Latin and Greek Christianity drift apart, monks and popes take on new roles, and Christianity spreads to the English."
 dateRange: "AD 451 to AD 600"
 order: 4
+startYear: 451
+endYear: 600
 draft: true
 reviewStatus: "Draft, written 2026-11-12 from the planning document docs/PLAN-fourth-era.md. Five passages were read against the full text of the public-domain translations named in the sources: Gregory the Great's letter to Augustine of Canterbury and his letter naming Augustine (NPNF2 vol. 13), a passage of the Pastoral Rule (NPNF2 vol. 12), the Second Council of Constantinople and the Three Chapters (NPNF2 vol. 14), and Leo's Tome (already read in the third era). Every other date, the Justinian, Boethius, Benedict, Clovis, Patrick, Gregory of Tours and Isidore entries, and all statements about what modern scholars think have not been checked. No specialist has reviewed this page."
+flags:
+  - text: "Most dates unverified"
+    severity: "high"
+  - text: "Attila meeting (452) rests on later tradition"
+    severity: "medium"
+  - text: "Benedict's Rule and the Dialogues not read"
+    severity: "medium"
+  - text: "Islam note: dates unchecked"
+    severity: "medium"
+  - text: "Gregory's Lombard and Doctor details from memory"
+    severity: "note"
 keyPeople:
   - name: "Leo the Great"
     role: "Bishop of Rome, 440 to 461"

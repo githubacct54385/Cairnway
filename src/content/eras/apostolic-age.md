@@ -3,6 +3,8 @@ title: "The Apostolic Age"
 summary: "The first generation of Christians: from the earliest Jerusalem community to the spread of the movement around the Mediterranean."
 dateRange: "c. AD 30 to c. AD 100"
 order: 1
+startYear: 30
+endYear: 100
 draft: true
 reviewStatus: "Draft. Every citation to the Bible and to ancient writers has been checked by an AI against the full text of the translation named in the sources (November 2026). Statements about what modern scholars think have not yet been checked, and no specialist has reviewed this page."
 overviewMap: "overview"
@@ -10,6 +12,17 @@ mapSection:
   heading: "Paul's journeys, as Acts tells them"
   intro: "These maps follow the account in Acts, simplified. Paul's own letters mention some of the same places and give a different outline in places, and the dates of each journey are debated, so none are shown here."
   ids: ["journey-1", "journey-2", "journey-3", "voyage"]
+flags:
+  - text: "Josephus on James (c. AD 62): written without reading Josephus"
+    severity: "high"
+  - text: "Scholarly positions summarised from memory"
+    severity: "high"
+  - text: "All 'c. AD' date ranges come from general knowledge"
+    severity: "medium"
+  - text: "Gallio inscription not read"
+    severity: "medium"
+  - text: "'John' at the Jerusalem meeting: from memory"
+    severity: "note"
 keyPeople:
   - name: "Peter (Cephas)"
     role: "Early leader among Jesus's followers"

@@ -3,6 +3,8 @@ title: "After the Apostles"
 summary: "From the generation after the apostles to Constantine: bishops and martyrs, the first outside views of Christians, arguments over Scripture, and the shift from persecution to toleration."
 dateRange: "c. AD 100 to AD 313"
 order: 2
+startYear: 100
+endYear: 313
 draft: true
 overviewMap: "churches"
 mapSection:
@@ -10,6 +12,17 @@ mapSection:
   intro: "One journey from this era that the sources let us follow, stop by stop. Dates are debated, so none are shown."
   ids: ["ignatius"]
 reviewStatus: "Draft. Most references to ancient writers were read against the full text of the public-domain translations named in the sources (November 2026), but several dates, statements about what modern scholars think, and the Dura-Europos church have not been checked, and no specialist has reviewed this page."
+flags:
+  - text: "Dura-Europos church: entirely from memory"
+    severity: "high"
+  - text: "Debated dates (Ignatius, Pliny, Marcion, Montanus, Lyons) not checked"
+    severity: "medium"
+  - text: "Muratorian fragment date: the other scholarly view is unchecked"
+    severity: "medium"
+  - text: "Scholarly attributions (Gamble, Wilken, Moss, Chadwick) not opened"
+    severity: "medium"
+  - text: "Decius as the 'first empire-wide' persecution is unchecked"
+    severity: "note"
 keyPeople:
   - name: "Ignatius of Antioch"
     role: "Bishop, martyr and letter writer"
