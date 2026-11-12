@@ -1,0 +1,86 @@
+# Staging, then production after approval.
+#
+# 1. Every change to main is built and uploaded to Cloudflare as a new Worker version, tagged
+#    with its commit. It does not go live; it appears at the staging address
+#    (staging-ancient-paths.<subdomain>.workers.dev).
+# 2. The "production" job waits for approval in the GitHub "production" environment. Approving
+#    it deploys that exact uploaded version to the live site. Nothing is rebuilt.
+#
+# If several changes merge before you approve, only the newest one waits for approval; older
+# waiting runs are cancelled, so you can never approve an older version over a newer one.
+#
+# Needs the repository secrets CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID (see docs/DEPLOY.md).
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+  # Started by the automerge job in ci.yml: merges made by GitHub Actions do not trigger push
+  # events, so the automerge job starts this workflow directly. Can also be started by hand.
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  WRANGLER_VERSION: 4.160.1
+
+jobs:
+  staging:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: deploy-staging
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      # Uses "npm install" until a package-lock.json is committed; switch to "npm ci" after that.
+      - run: npm install
+      - run: npm run build
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
+      - name: Upload a new version to the staging address
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          set -o pipefail
+          subject="$(git log -1 --format=%s | cut -c1-100)"
+          npx --yes "wrangler@${WRANGLER_VERSION}" versions upload \
+            --tag "$GITHUB_SHA" \
+            --message "$subject" \
+            --preview-alias staging | tee upload.log
+          url="$(grep -oE 'https://staging-[A-Za-z0-9.-]+\.workers\.dev' upload.log | head -1 || true)"
+          {
+            echo "### Uploaded to staging"
+            echo
+            echo "Commit: \`${GITHUB_SHA::7}\` ${subject}"
+            echo
+            if [ -n "$url" ]; then echo "Review it at $url"; else echo "See the log above for the staging address."; fi
+            echo
+            echo "When it looks right, approve the **production** job to make it live."
+          } >> "$GITHUB_STEP_SUMMARY"
+
+  production:
+    needs: staging
+    runs-on: ubuntu-latest
+    # The "production" environment requires approval before this job runs.
+    environment:
+      name: production
+      url: https://ancient-paths.lifetrackerappweb.workers.dev/
+    concurrency:
+      group: deploy-production
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+      - name: Make the reviewed version live
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          npx --yes "wrangler@${WRANGLER_VERSION}" versions deploy \
+            --version-tag "${GITHUB_SHA}@100" \
+            --message "Approved: ${GITHUB_SHA::7}" \
+            --yes

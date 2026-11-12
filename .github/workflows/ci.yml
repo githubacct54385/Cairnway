@@ -2,6 +2,8 @@ name: CI
 
 on:
   pull_request:
+    # ready_for_review: run again when a draft is marked ready, so it can be merged.
+    types: [opened, synchronize, reopened, ready_for_review]
   push:
     branches: [main]
   workflow_dispatch:
@@ -23,18 +25,27 @@ jobs:
 
   # Frictionless merging: when the build passes on a pull request from this repository,
   # squash-merge it automatically. Remove "needs: build" if you ever want to merge even when the build fails.
+  # Draft pull requests are skipped, so opening a PR as a draft holds it until you mark it ready.
+  # Merging only updates staging: deploy.yml then waits for approval before anything goes live.
   automerge:
     needs: build
     if: >-
       github.event_name == 'pull_request' &&
       github.event.pull_request.head.repo.full_name == github.repository &&
+      !github.event.pull_request.draft &&
       github.actor != 'dependabot[bot]'
     runs-on: ubuntu-latest
     permissions:
       contents: write
       pull-requests: write
+      actions: write
     steps:
       - name: Squash-merge the pull request
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: gh pr merge ${{ github.event.pull_request.number }} --repo ${{ github.repository }} --squash --delete-branch
+      # A merge made with GITHUB_TOKEN does not trigger push workflows, so start the deploy here.
+      - name: Start the staging deploy
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run deploy.yml --repo ${{ github.repository }} --ref main
