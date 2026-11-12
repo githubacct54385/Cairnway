@@ -42,6 +42,25 @@ the Cambridge History. Perseus and several Wikisource pages were blocked or miss
 8. **Tacitus.** One Wikisource page was read; its translator and licence were not stated, so the "public domain" claim
    for the Tacitus translation is unconfirmed. "Deflecting blame" is an interpretation, not a quote.
 
+## Second pass (2026-11-11)
+
+A second AI read the page and this ledger against its own general knowledge. **It did not open any sources**, so no
+status above was raised because of it. Changes it made:
+
+- 1 Corinthians 15: added "to all the apostles" (15:7), which the list on the page had left out (B1).
+- Paul's letters: "about evenly divided" became "divided", noting that Ephesians is most often thought to be by a later writer (B12).
+- Tacitus calls Pilate "procurator"; a sentence now notes that an inscription gives his title as prefect (E1a).
+- Concrete examples of Acts and Paul differing were added (P8, E6).
+- First journey map intro: "the hill country of Galatia" became "cities in the Roman province of Galatia, in the regions
+  Acts calls Pisidia and Lycaonia", so it no longer leans toward one side of the North or South Galatia debate (item 7).
+- Malta stop reference: 27:39 to 28:10 became 27:39 to 28:11, where the three months are stated.
+- Source lists: the Gospels were added to the page's sources and to `SOURCES.md`; Suetonius was added to `SOURCES.md`.
+
+From memory, it found these consistent with standard scholarship. A reviewer should still check them against the texts:
+the wording and date of the Josephus passage on James (items 1, P11, E18 to E20); John at the Jerusalem meeting
+(Gal 2:9, item 5); Gallio's term at about AD 51 to 52 from the Delphi inscription (item 4); and the date ranges in item 3.
+It suggests the Wikisource Tacitus is likely the Church and Brodribb translation (1876); confirm that (S3).
+
 ## Overview
 
 | # | Claim | Cited | Status | Notes for the reviewer |
@@ -65,7 +84,7 @@ the Cambridge History. Perseus and several Wikisource pages were blocked or miss
 | P5 | Paul writes that he once persecuted the church, then began preaching Jesus to non-Jews | Gal 1:13 to 17 | S | |
 | P6 | Paul's letters are among the earliest surviving Christian writings | none | U | Same as O5 |
 | P7 | Paul lists beatings, a stoning, shipwrecks and imprisonment | 2 Cor 11:23 to 28 | S | |
-| P8 | Acts tells Paul's story in a longer narrative that differs from his own account in some details | Acts 9 to 28 | U | General; a reviewer should name one concrete difference |
+| P8 | Acts tells Paul's story in a longer narrative that differs from his own account; example: Paul says he went to Arabia and saw only Peter and James on his first Jerusalem visit, while Acts has Barnabas bring him to the apostles | Gal 1:17 to 19; Acts 9:26 to 27 | U | Example added in the second pass, from memory |
 | P9 | Paul calls James "the Lord's brother" and says he met him in Jerusalem | Gal 1:19 | S | |
 | P10 | In Acts, James gives the judgment that ends the Jerusalem meeting | Acts 15:13 to 21 | S | |
 | P11 | Josephus reports James was stoned at the order of the high priest Ananus | Antiquities 20.9.1 | U | Josephus not read |
@@ -84,11 +103,12 @@ the Cambridge History. Perseus and several Wikisource pages were blocked or miss
 | # | Claim | Cited | Status | Notes for the reviewer |
 | --- | --- | --- | --- | --- |
 | E1 | Jesus executed under Pontius Pilate, reported by Tacitus (founder "Christus", under Tiberius, by the procurator Pilate) | Annals 15.44 | S | Wikisource page read (translator not stated) |
+| E1a | An inscription found at Caesarea gives Pilate's title as prefect | none | U | Added in the second pass. The "Pilate Stone", found in 1961; cite a reference work |
 | E2 | Tacitus wrote "about 80 years later" | none | U | Annals is usually dated to the AD 110s; confirm |
 | E3 | Scholars debate how much of Tacitus came from Christian tradition vs Roman records | none | U | |
 | E4 | Year of the crucifixion about AD 30 or 33 | none | U | Standard range; cite a reference work |
 | E5 | Community grew after Pentecost (per Acts); Acts was written decades afterward | Acts 1 to 2 | U | Acts 2 not fetched; "decades afterward" is a dating claim with no source |
-| E6 | Paul writes God revealed Jesus to him and sent him to non-Jews; Acts has the Damascus road; accounts differ in detail | Gal 1:11 to 17; Acts 9 | P | Galatians S; Acts 9 and the "differ in detail" claim U |
+| E6 | Paul writes God revealed Jesus to him and sent him to non-Jews; Acts tells the Damascus road story three times, and in one the companions hear the voice and in another they do not | Gal 1:11 to 17; Acts 9:1 to 19, 22:6 to 16, 26:12 to 18 (9:7 vs 22:9) | P | Galatians S; the Acts passages and the 9:7 vs 22:9 difference U (added in the second pass, from memory) |
 | E7 | Date range AD 33 to 36 for Paul's change | none | U | Derived from Gal 1:18 and a crucifixion date; no source |
 | E8 | Three years later Paul visited Jerusalem, stayed 15 days with Peter, saw James but no other apostle | Gal 1:18 to 20 | S | |
 | E9 | Date range AD 36 to 39 for that visit | none | U | |
@@ -115,7 +135,7 @@ the Cambridge History. Perseus and several Wikisource pages were blocked or miss
 
 | # | Claim | Cited | Status | Notes for the reviewer |
 | --- | --- | --- | --- | --- |
-| B1 | Paul reminds Corinth of what he passed on as received: Christ died for sins, buried, raised on the third day, appeared to Peter, the twelve, a larger group, James, and last Paul | 1 Cor 15:3 to 8 | S | |
+| B1 | Paul reminds Corinth of what he passed on as received: Christ died for sins, buried, raised on the third day, appeared to Peter, the twelve, a larger group, James, all the apostles, and last Paul | 1 Cor 15:3 to 8 | S | "All the apostles" (15:7) was missing in the first draft and added in the second pass |
 | B2 | Letter written about twenty years after the death of Jesus | none | S | Wikipedia "Early Christianity" |
 | B3 | Believers called Jesus the Christ, "the Anointed One", and Lord | none | U | |
 | B4 | **Scholars debate how quickly and in what terms the earliest believers described Jesus's status** | none | U | **No source. Needs a named scholarly source.** |
@@ -126,7 +146,7 @@ the Cambridge History. Perseus and several Wikisource pages were blocked or miss
 | B9 | Acts and the letters differ, for example in the number of Jerusalem visits | none | U | Check the count in Acts vs Galatians |
 | B10 | Many historians give priority to Paul's letters; others give Acts more weight | none | U | |
 | B11 | Seven letters accepted as Paul's: Romans, 1 and 2 Corinthians, Galatians, Philippians, 1 Thessalonians, Philemon | none | S | Wikipedia "Pauline epistles" |
-| B12 | Scholars about evenly divided on Colossians, Ephesians, 2 Thessalonians | none | S | Same |
+| B12 | Scholars are divided on Colossians, Ephesians, 2 Thessalonians, with Ephesians most often thought to be by a later writer | none | P | First draft said "about evenly divided", which overstates it for Ephesians; reworded in the second pass. The Ephesians part is U |
 | B13 | Many consider 1 and 2 Timothy and Titus written by later authors in Paul's name | none | S | Same |
 | B14 | Arguments rest on style, vocabulary and subject; secretaries could explain style differences | none | S | Same |
 | B15 | The first believers were Jewish; Acts has them meeting in the temple | none | U | Acts 2:46; 3:1 not fetched |
@@ -140,9 +160,9 @@ the note matches.
 | Map | Stops and references to check | Status |
 | --- | --- | --- |
 | First journey (Acts 13 to 14) | Antioch 13:1 to 3 (S); Seleucia 13:4; Salamis 13:5; Paphos 13:6 to 12 (governor Sergius Paulus); Perga 13:13 (John Mark leaves); Pisidian Antioch 13:14 to 50 (synagogue sermon); Iconium 13:51 to 14:5; Lystra 14:6 to 20 (Paul stoned); Derbe 14:20 to 21; Attalia 14:25 to 26 | Antioch S; rest U |
-| Second journey (Acts 15:36 to 18:22) | Antioch 15:36 to 41 (Paul and Silas); Derbe and Lystra 16:1 to 5 (Timothy); Troas 16:8 to 10; Philippi 16:12 to 40 (Lydia; jailed); Thessalonica 17:1 to 9; Berea 17:10 to 14; Athens 17:15 to 34 (Areopagus); Corinth 18:1 to 17 ("eighteen months", Gallio); Ephesus 18:19 to 21; Caesarea 18:22. The route also passes Tarsus and "Inland Galatia" as waypoints for Acts 15:41 and 16:6 | Corinth (partly) S; rest U |
+| Second journey (Acts 15:36 to 18:22) | Antioch 15:36 to 41 (Paul and Silas); Derbe and Lystra 16:1 to 5 (Timothy); Troas 16:8 to 10; Philippi 16:12 to 40 (Lydia; jailed); Thessalonica 17:1 to 9; Berea 17:10 to 14; Athens 17:15 to 34 (Areopagus); Corinth 18:1 to 17 ("eighteen months", Gallio); Ephesus 18:19 to 21; Caesarea 18:22. The route also passes Tarsus and "Inland Galatia" as waypoints for Acts 15:41 and 16:6 (Acts 15:41 says only "Syria and Cilicia"; Tarsus is an assumed, unlabelled waypoint) | Corinth (partly) S; rest U |
 | Third journey (Acts 18:23 to 21:17) | Antioch 18:23; Ephesus 19:1 to 41 ("about two to three years"); Greece, probably Corinth, 20:1 to 3 (three months); Philippi 20:6; Troas 20:6 to 12 (Eutychus); Miletus 20:15 to 38; Tyre 21:3 to 6; Caesarea 21:8 to 14 (Philip); Jerusalem 21:15 to 17. Route passes Assos, Mitylene, Cos, Rhodes, Patara and Ptolemais | U |
-| Voyage to Rome (Acts 27 to 28) | Caesarea 27:1 to 2; Sidon 27:3; Myra 27:5 to 6; Fair Havens 27:8 to 12; Cauda 27:16; Malta 27:39 to 28:10 (three months); Syracuse 28:12; Puteoli 28:13 to 14; Rome 28:16 to 31 ("two years under guard"). Route passes Cnidus, Salmone, Rhegium | U |
+| Voyage to Rome (Acts 27 to 28) | Caesarea 27:1 to 2; Sidon 27:3; Myra 27:5 to 6; Fair Havens 27:8 to 12; Cauda 27:16; Malta 27:39 to 28:11 (three months, stated in 28:11); Syracuse 28:12; Puteoli 28:13 to 14; Rome 28:16 to 31 ("two years under guard"). Route passes Cnidus, Salmone, Rhegium | U |
 | Place positions | Longitude and latitude entered from the drafter's knowledge, not a gazetteer. Pleiades is the intended source. Several ancient sites are approximate (Lystra, Derbe, Perga, Attalia, Fair Havens, Cauda, Salmone, Berea) | U |
 | Region names and placement | Italia, Sicilia, Macedonia, Achaia, Asia, Galatia, Lycia, Pamphylia, Cilicia, Syria, Judaea, Cyprus, Creta, Aegyptus: placed roughly, with no boundaries. See high-risk item 7 on Galatia | U |
 | Map base data | Coastlines, rivers, lakes and shaded relief are Natural Earth (public domain), which describes today's coastlines. Some ancient coastlines differ (for example harbours that have silted up) | S |
