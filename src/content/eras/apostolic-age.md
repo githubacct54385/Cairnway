@@ -186,6 +186,16 @@ sources:
     license: "Copyrighted; cite only, never copied"
     checked: "not yet checked"
     usedFor: "The usual date ranges in the table of when the sources were written"
+  - title: "Modern studies of early devotion to Jesus and of Jews and Christians"
+    author: "Larry Hurtado; Richard Bauckham; James D. G. Dunn; Bart D. Ehrman; Adam H. Becker and Annette Yoshiko Reed (eds.)"
+    license: "Copyrighted; cite only, never copied"
+    checked: "not yet checked"
+    usedFor: "The scholarly positions in What the first believers proclaimed and When did Christianity and Judaism become separate (full titles under Further reading)"
+  - title: "Letter to the Magnesians"
+    author: "Ignatius of Antioch (older translation, such as Lightfoot or the Ante-Nicene Fathers series)"
+    license: "Public domain (older translation); to verify"
+    checked: "not yet checked"
+    usedFor: "Ignatius setting Christianity against Judaism"
   - title: "The Cambridge History of Christianity, Volume 1: Origins to Constantine"
     author: "Margaret M. Mitchell and Frances M. Young (eds.)"
     license: "Copyrighted; link or cite only, never copied"
@@ -264,7 +274,11 @@ as Raymond E. Brown's (see the sources for this era), and none of the New Testam
 
 ### What the first believers proclaimed
 
-In a letter written about twenty years after the death of Jesus, Paul reminds the church in Corinth of what he says he passed on to them as received: that Christ died for sins, was buried, was raised on the third day, and appeared to Peter, to the twelve, to a larger group, to James, to all the apostles, and finally to Paul himself (1 Corinthians 15:3 to 8). Believers called Jesus the Christ, which means the Anointed One, and Lord. Scholars debate how quickly and in what terms the earliest believers described Jesus's status. This page does not take a side. See the further reading below.
+In a letter written about twenty years after the death of Jesus, Paul reminds the church in Corinth of what he says he passed on to them as received: that Christ died for sins, was buried, was raised on the third day, and appeared to Peter, to the twelve, to a larger group, to James, to all the apostles, and finally to Paul himself (1 Corinthians 15:3 to 8). Believers called Jesus the Christ, which means the Anointed One, and Lord.
+
+Paul's letters also show how early believers spoke to Jesus and about him. Paul keeps an Aramaic prayer addressed to Jesus, *Maranatha*, "our Lord, come" (1 Corinthians 16:22). He writes that for believers there is one God, the Father, and one Lord, Jesus Christ, through whom all things exist. Those words echo the Jewish confession that God is one (1 Corinthians 8:6; compare Deuteronomy 6:4). And in a passage that may be an early hymn, he speaks of Christ being in the form of God, and of every knee bowing at the name of Jesus. Isaiah uses that last phrase of God himself (Philippians 2:6 to 11; compare Isaiah 45:23).
+
+Scholars read this evidence differently. Larry Hurtado and Richard Bauckham argue that Jewish believers were devoted to Jesus alongside God within the first few years of the movement. James Dunn is more cautious: he argues that early believers honoured Jesus very highly but did not yet worship him in the same way as God. Bart Ehrman agrees that belief in Jesus's exalted status came early, but argues that it meant something different from the later creeds. Christians have traditionally read these passages as early witness to their belief that Jesus is divine. The books by each of these scholars are listed under further reading below.
 
 ### Did non-Jewish believers need to follow Jewish law?
 
@@ -280,7 +294,9 @@ Most scholars accept seven letters as Paul's own: Romans, 1 and 2 Corinthians, G
 
 ### When did Christianity and Judaism become separate?
 
-The first believers were Jewish, and Acts presents them meeting in the temple in Jerusalem. Scholars debate when and how Christians and Jews came to be seen as distinct groups, with some placing the separation in the first century and others much later. This page notes the question and does not settle it.
+The first believers were Jewish, and Acts presents them meeting in the temple in Jerusalem. Paul says he was given the synagogue punishment of thirty-nine lashes five times (2 Corinthians 11:24), which suggests that he, and the synagogues that punished him, still treated him as a Jew under their discipline. John's Gospel, probably written near the end of the century, speaks of followers of Jesus being put out of the synagogue (John 9:22, 16:2). From the Roman side, Tacitus says that by AD 64 the people of Rome knew a group called Christians, whom Nero could single out. Soon after this era, Ignatius of Antioch became the first writer we know of to set "Christianity" against "Judaism" as two different things (Ignatius, Letter to the Magnesians 10).
+
+Scholars draw different conclusions from this. James Dunn argued that the main "parting of the ways" came gradually, between the first and second Jewish revolts against Rome (AD 66 to 135). Others, in a collection titled *The Ways That Never Parted*, argue that the lines between Jews and Christians stayed blurred in many places for centuries. Much depends on the place, and on whether one asks how Christians saw themselves, how Jewish leaders saw them, or how Roman officials saw them.
 
 ## Worship and community life
 
@@ -344,4 +360,13 @@ The Didache, or "Teaching of the Twelve Apostles", is a short manual on Christia
 
 ## Further reading
 
-See the sources listed for this era. Modern scholarship is linked or cited, not copied.
+Modern scholarship is cited here, not copied. These books are a starting point, and they disagree with one another on purpose.
+
+- *The Cambridge History of Christianity*, Volume 1: *Origins to Constantine*, edited by Margaret M. Mitchell and Frances M. Young (2006). A broad survey of the period.
+- Raymond E. Brown, *An Introduction to the New Testament* (1997). Book-by-book dates, authorship and background.
+- Larry W. Hurtado, *Lord Jesus Christ: Devotion to Jesus in Earliest Christianity* (2003). Argues for very early devotion to Jesus.
+- Richard Bauckham, *Jesus and the God of Israel* (2008). Argues that the earliest believers included Jesus in the identity of the one God.
+- James D. G. Dunn, *Did the First Christians Worship Jesus? The New Testament Evidence* (2010). A more cautious reading of the same evidence.
+- Bart D. Ehrman, *How Jesus Became God* (2014). Early belief in Jesus's exaltation, read as different from later creeds.
+- James D. G. Dunn, *The Partings of the Ways* (second edition, 2006). How Christianity and Judaism came to be seen as separate.
+- Adam H. Becker and Annette Yoshiko Reed, editors, *The Ways That Never Parted* (2003). Argues the lines stayed blurred for centuries.

@@ -26,8 +26,9 @@ the Cambridge History. Perseus and several Wikisource pages were blocked or miss
 1. **Josephus on James (event "c. AD 62", and the James entry).** The wording and the date were written without reading
    Josephus. The claim that "most scholars regard this passage as authentic" and the contrast with the other Josephus
    passage about Jesus are from memory.
-2. **The two sentences with no source at all:** scholars debating how early Jesus's status was understood, and when
-   Christianity and Judaism separated (both in "Key beliefs and debates").
+2. **The scholarly positions in "Key beliefs and debates".** The two unsourced sentences were replaced on 2026-11-11
+   with the evidence and named scholars (rows C1 to C12). Each scholar's view is summarised from memory; check it
+   against the book listed under Further reading.
 3. **Event date ranges.** Every "c. AD …" range is from general knowledge, not a cited source: AD 30 to 33, 33 to 36,
    36 to 39, 49, 50 to 52, 62, 64.
 4. **Gallio and Corinth.** Only a Wikipedia article about the Claudius expulsion was read, which discusses Gallio in
@@ -155,7 +156,7 @@ It suggests the Wikisource Tacitus is likely the Church and Brodribb translation
 | B1 | Paul reminds Corinth of what he passed on as received: Christ died for sins, buried, raised on the third day, appeared to Peter, the twelve, a larger group, James, all the apostles, and last Paul | 1 Cor 15:3 to 8 | S | "All the apostles" (15:7) was missing in the first draft and added in the second pass |
 | B2 | Letter written about twenty years after the death of Jesus | none | S | Wikipedia "Early Christianity" |
 | B3 | Believers called Jesus the Christ, "the Anointed One", and Lord | none | U | |
-| B4 | **Scholars debate how quickly and in what terms the earliest believers described Jesus's status** | none | U | **No source. Needs a named scholarly source.** |
+| B4 | ~~Scholars debate how quickly the earliest believers described Jesus's status~~ Replaced by rows C1 to C6 (2026-11-11) | | | The unsourced sentence and "this page does not take a side" were removed |
 | B5 | Acts 15: Peter and James speak; group concludes non-Jewish believers should not be burdened apart from a short list | Acts 15 | S | |
 | B6 | Galatians describes a meeting with Peter, James **and John**, then the Antioch dispute | Gal 2 | P | John not in the summary read |
 | B7 | The two accounts differ; scholars disagree whether they are the same meeting and how the decision was received | none | P | "Differ" S; the scholarly disagreement is U |
@@ -167,7 +168,7 @@ It suggests the Wikisource Tacitus is likely the Church and Brodribb translation
 | B13 | Many consider 1 and 2 Timothy and Titus written by later authors in Paul's name | none | S | Same |
 | B14 | Arguments rest on style, vocabulary and subject; secretaries could explain style differences | none | S | Same |
 | B15 | The first believers were Jewish; Acts has them meeting in the temple | none | U | Acts 2:46; 3:1 not fetched |
-| B16 | **Scholars debate when Christians and Jews came to be seen as distinct, some saying first century, others much later** | none | U | **No source. The page that was meant to confirm it was not found.** |
+| B16 | ~~Scholars debate when Christians and Jews came to be seen as distinct~~ Replaced by rows C7 to C12 (2026-11-11) | | | The unsourced sentence and "does not settle it" were removed |
 
 ## Batch 1 additions (2026-11-11)
 
@@ -303,6 +304,27 @@ Added by an AI from general knowledge, with **no source opened. Every row is U.*
 | W8 | Jewish believers probably went on keeping the Sabbath | U | Interpretation; flag if it reads as fact |
 | W9 | Glossary definitions (19 terms) | U | Check especially "Prefect, procurator" and "Proconsul" |
 
+## Belief wording and further reading (2026-11-11)
+
+The two "this page does not take a side" sentences were replaced with the evidence and named scholarly positions.
+Written by an AI from memory; **no source opened, so every row is U.** The descriptions of each scholar's position
+(C3 to C5, C10, C11) are the most important to check.
+
+| # | Claim | Cited | Status | Notes for the reviewer |
+| --- | --- | --- | --- | --- |
+| C1 | Paul keeps an Aramaic prayer addressed to Jesus, *Maranatha*, "our Lord, come" | 1 Cor 16:22 | U | Can also be read "our Lord has come"; see W5 |
+| C2 | One God, the Father, and one Lord, Jesus Christ, through whom all things exist; echoes the Shema | 1 Cor 8:6; Deut 6:4 | U | |
+| C3 | Philippians 2:6 to 11, possibly an early hymn: Christ in the form of God; every knee bowing at Jesus's name, a phrase Isaiah uses of God | Phil 2:6 to 11; Isa 45:23 | U | |
+| C4 | Hurtado and Bauckham argue Jewish believers were devoted to Jesus alongside God within the first few years | Further reading | U | Check that "within the first few years" fairly states both |
+| C5 | Dunn: early believers honoured Jesus very highly but did not yet worship him in the same way as God | Further reading | U | Dunn's view is nuanced; check the wording against his 2010 book |
+| C6 | Ehrman: belief in Jesus's exalted status came early but meant something different from the later creeds; Christians have traditionally read these passages as witness to Jesus's divinity | Further reading | U | The last part is attributed to Christian tradition, as CONTRIBUTING asks |
+| C7 | Paul received the synagogue punishment of thirty-nine lashes five times | 2 Cor 11:24 | U | "Forty lashes minus one" in the text |
+| C8 | This suggests he and the synagogues still treated him as a Jew under their discipline | none | U | Interpretation; a common one, but it needs a source |
+| C9 | John's Gospel, probably written near the end of the century, speaks of followers being put out of the synagogue | John 9:22, 16:2 | U | Also John 12:42 |
+| C10 | Tacitus: by AD 64 the people of Rome knew a group called Christians whom Nero could single out | Annals 15.44 | U | Tacitus wrote c. AD 116; see E21 |
+| C11 | Ignatius is the first known writer to set "Christianity" against "Judaism" | Magnesians 10 | U | Check the chapter and the "first known" claim |
+| C12 | Dunn: the main parting came gradually between the revolts (AD 66 to 135); others, in *The Ways That Never Parted*, argue the lines stayed blurred for centuries | Further reading | U | |
+
 ## Maps
 
 Stops and references come from `scripts/maps/maps.config.json`. The reviewer should open each Acts passage and confirm
@@ -326,7 +348,7 @@ the note matches.
 | S2 | Whiston's Josephus is a public-domain translation | U | Not opened. The text was never read from this translation |
 | S3 | The Tacitus and Suetonius translations used are public domain | U | The Wikisource Tacitus page did not name its translator |
 | S4 | *The Cambridge History of Christianity*, Volume 1, *Origins to Constantine*, edited by Margaret M. Mitchell and Frances M. Young | U | Bibliographic details from memory; verify publisher and year |
-| S5 | The "Further reading" section | U | It is placeholder text; no further reading is listed yet |
+| S5 | The "Further reading" section lists eight books with titles and years | U | Bibliographic details (subtitles, years, editions) from memory; check each |
 | S6 | 1 Clement and Ignatius (older translation), Eusebius (McGiffert) are public domain; Brown is cite-only | U | Translations not chosen yet; pick one and confirm its licence |
 | S7 | Irenaeus, Justin, Chrysostom (older translations), and Cary's Dio (Loeb, 1914 to 1927) are public domain; Gallio inscription edition to be named | U | Cary's Dio volumes may have different US copyright status; check the volume with book 67 |
 

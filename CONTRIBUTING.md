@@ -23,6 +23,9 @@ supports it. Please do not paste long passages from copyrighted works.
 - Prefer public domain or openly licensed material. If a license is unclear, link to the source instead of reproducing it.
 - Do not add text from share-alike sources such as Wikipedia.
 - Where scholars or traditions disagree, say so and attribute each view to its source. Use neutral, descriptive language.
+- Show the evidence and name who holds each view, rather than writing that the page "does not take a side".
+- In the history sections, statements of Christian belief are attributed (for example, "Christians have traditionally
+  read…") and never written in the page's own voice. The site's own perspective is stated once, on the About page.
 
 ## Licensing your contribution
 
