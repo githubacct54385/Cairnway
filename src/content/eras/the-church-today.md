@@ -6,9 +6,9 @@ order: 15
 startYear: 1989
 endYear: 2026
 draft: true
-reviewStatus: "Draft, written 2026-11-12 from docs/PLAN-fifteenth-era.md. Not checked against any source. Every date, figure, name and claim is from the drafter's general knowledge and is unchecked, including the statistics, the dates of the denominational decisions and the abuse reports. No specialist has reviewed this page. Living people are described only by their public actions and statements, and each statement needs its source before publication."
+reviewStatus: "Draft, written 2026-11-12 from docs/PLAN-fifteenth-era.md. Figures checked against news coverage on 2026-11-12, not the reports themselves: Pew's 2025 report on Christian population change (2010 to 2020), Open Doors' 2026 World Watch List, and the 2025 papal succession (Francis died 21 April 2025; Leo XIV elected 8 May 2025). Every other date, name and claim is from the drafter's general knowledge and is unchecked, including the dates of the denominational decisions and the abuse reports. No specialist has reviewed this page. Living people are described only by their public actions and statements, and each statement needs its source before publication."
 flags:
-  - text: "Statistics on membership, growth and persecution are not yet taken from a dated source. Counts vary widely between reports, and the page must give the report and its date for each figure."
+  - text: "The membership and persecution figures come from news coverage of the Pew (2025) and Open Doors (2026) reports, not from the reports themselves. Read both reports before publication. Counts vary widely between reports, so each figure must keep its report and date."
     severity: high
   - text: "The abuse section gives findings and responses from several reports. None has yet been read. Each finding must be checked against its report before publication."
     severity: high
@@ -27,7 +27,7 @@ keyPeople:
     source: "Not yet checked"
   - name: "Pope Francis"
     role: "Pope, 2013 to 2025"
-    summary: "Elected in 2013 and the first pope from Latin America. His encyclical *Laudato Si'* (2015) addressed the environment and the poor. His death in 2025 is to be checked. Details not yet checked."
+    summary: "Elected in 2013 and the first pope from Latin America. His encyclical *Laudato Si'* (2015) addressed the environment and the poor. He died on 21 April 2025, and was succeeded by Leo XIV (Robert Francis Prevost), elected on 8 May 2025. Dates checked against news coverage, not yet against Vatican statements."
     source: "Not yet checked"
   - name: "Bartholomew I"
     role: "Ecumenical Patriarch of Constantinople, from 1991"
@@ -94,10 +94,10 @@ events:
     title: "West: The Church of England approves prayers for same-sex couples"
     summary: "The General Synod agreed to a form of prayer for blessing same-sex couples, which the Anglican Communion's other provinces received in different ways. Date and wording not yet checked."
     source: "Not yet checked"
-  - date: "AD 2025 (unchecked)"
-    title: "Both: Death of Pope Francis and the election of his successor"
-    summary: "The date and circumstances are to be checked, and the successor's name and election are to be confirmed before publication."
-    source: "Not yet checked"
+  - date: "AD 2025 (checked against news coverage)"
+    title: "Both: Death of Pope Francis and the election of Leo XIV"
+    summary: "Pope Francis died on 21 April 2025. The conclave elected Robert Francis Prevost, who took the name Leo XIV, on 8 May 2025. The dates come from news coverage and are to be confirmed against Vatican statements."
+    source: "News coverage (to be replaced by the Vatican's own announcements)"
 sources:
   - title: "Pew Research Center, global Christianity reports (latest edition)"
     author: "Pew Research Center"
@@ -150,10 +150,12 @@ large church, and the page gives its findings and responses without a verdict th
 
 ## The shape of the church today
 
-Christianity is the largest religion in the world by number of adherents, according to the main surveys. Its growth since 1989 has
-been greatest in sub-Saharan Africa, parts of Asia, and Latin America, where Pentecostal and charismatic churches have grown fastest.
-Membership has fallen in much of Western Europe and has declined more slowly in North America. Figures for each region, and the
-reports they come from, are to be added and dated. Details not yet checked.
+Christianity is the largest religion in the world by number of adherents. Pew Research Center's 2025 report, which compares 2010 with
+2020, counts about 2.3 billion Christians in 2020, or 28.8 per cent of the world's population, down 1.8 percentage points since 2010.
+Sub-Saharan Africa had the largest gain, to 697 million (up 31 per cent). Europe fell to 505 million (down 9 per cent), and North
+America to 238 million (down 11 per cent). Pew reports that the number of Christians grew in every other region. The main cause of
+the fall in share is people leaving Christianity, rather than population change alone. The figures are from news coverage of the
+report, and the report itself is not yet read.
 
 ## The church and the end of communism
 
@@ -196,10 +198,14 @@ dialogues, especially between the Catholic and Orthodox churches, are set out in
 
 ## Persecution and migration
 
-Christians are reported to face persecution in many countries, including Nigeria, Pakistan, China, India and parts of the Middle East.
-The reported numbers depend on the report and its method, and the page gives each figure with its source and date. Christian
-communities in Iraq and Syria have shrunk sharply during and after recent wars, and many Christians have emigrated. Migrant
-congregations are now a large part of church life in Europe and North America. Details not yet checked.
+Christians are reported to face persecution in many countries, including Nigeria, Pakistan, China, India and parts of the Middle
+East. Open Doors' 2026 World Watch List, published in January 2026, puts the number of Christians facing high levels of persecution
+at 388 million, about one in seven Christians worldwide, and says two in five Christians in Asia are affected. It reports 4,849
+Christians killed for their faith, with Nigeria having the most killings, and 15 countries rated "extreme". These are Open Doors'
+own counts, using its stated method, which an outside body has audited, according to Open Doors; other reports count differently.
+The figures come from news coverage of the list, and the list itself is not yet read. Christian communities in Iraq and Syria have
+shrunk sharply during and after recent wars, and many Christians have emigrated. Migrant congregations are now a large part of
+church life in Europe and North America. Details not yet checked.
 
 ## Politics and the churches
 
