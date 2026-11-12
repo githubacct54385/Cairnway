@@ -44,8 +44,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      # Uses "npm install" until a package-lock.json is committed; switch to "npm ci" after that.
-      - run: npm install
+      - run: npm ci
       - run: npm run build
         env:
           SITE_URL: ${{ vars.SITE_URL }}
