@@ -563,6 +563,10 @@
     "Chalkis": [
       23.6,
       38.46
+    ],
+    "Laodicea": [
+      29.11,
+      37.84
     ]
   },
   "labels": [
@@ -579,7 +583,8 @@
         "europe-divided-1950",
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
-        "third-crusade-1189-1192"
+        "third-crusade-1189-1192",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -595,7 +600,8 @@
         "europe-divided-1950",
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -613,7 +619,8 @@
         "europe-divided-1950",
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
-        "third-crusade-1189-1192"
+        "third-crusade-1189-1192",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -632,7 +639,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -651,7 +659,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -690,7 +699,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -712,7 +722,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -785,7 +796,8 @@
         "europe-divided-1950",
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -804,7 +816,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -821,7 +834,8 @@
         "europe-1933-1945",
         "europe-divided-1950",
         "central-europe-1956-1989",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -866,7 +880,8 @@
         "europe-divided-1950",
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
-        "third-crusade-1189-1192"
+        "third-crusade-1189-1192",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -885,7 +900,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -919,7 +935,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -938,7 +955,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -957,7 +975,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -976,7 +995,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -995,7 +1015,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -1014,7 +1035,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -1032,7 +1054,8 @@
         "europe-divided-1950",
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
-        "third-crusade-1189-1192"
+        "third-crusade-1189-1192",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -1051,7 +1074,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -1068,7 +1092,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -1084,7 +1109,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -1117,7 +1143,8 @@
         "europe-divided-1950",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -1148,7 +1175,8 @@
         "europe-1933-1945",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -1177,7 +1205,8 @@
         "europe-1914",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -1207,7 +1236,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -1241,7 +1271,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -1273,7 +1304,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -1307,7 +1339,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -1340,7 +1373,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -1375,7 +1409,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -1409,7 +1444,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -1441,7 +1477,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -1472,7 +1509,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -1504,7 +1542,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -1539,7 +1578,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -1573,7 +1613,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -1590,7 +1631,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -1608,7 +1650,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -1626,7 +1669,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -1644,7 +1688,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -1662,7 +1707,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -1679,7 +1725,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -1697,7 +1744,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -1712,7 +1760,8 @@
         "europe-divided-1950",
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
-        "third-crusade-1189-1192"
+        "third-crusade-1189-1192",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -1729,7 +1778,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -1746,7 +1796,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -1763,7 +1814,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -1781,7 +1833,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -1798,7 +1851,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -1814,7 +1868,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -1832,7 +1887,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -1849,7 +1905,8 @@
         "central-europe-1956-1989",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -1867,7 +1924,8 @@
         "europe-divided-1950",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -1885,7 +1943,8 @@
         "europe-divided-1950",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -1903,7 +1962,8 @@
         "europe-divided-1950",
         "first-crusade-1096-1099",
         "third-crusade-1189-1192",
-        "fourth-crusade-1202-1204"
+        "fourth-crusade-1202-1204",
+        "second-crusade-1147-1149"
       ]
     },
     {
@@ -3725,6 +3785,71 @@
         {
           "place": "Corfu",
           "side": "left"
+        }
+      ]
+    },
+    {
+      "id": "second-crusade-1147-1149",
+      "title": "The Second Crusade, 1147 to 1149",
+      "intro": "The German and French armies cross Anatolia, the German army is defeated at Dorylaeum, and the combined crusade fails at Damascus in 1148. The route is simplified and straight between places; the sites, dates and the routes taken are not yet checked.",
+      "bbox": [
+        25,
+        30,
+        40,
+        43
+      ],
+      "refPrefix": "",
+      "route": [
+        "Constantinople",
+        "Nicaea",
+        "Dorylaeum",
+        "Laodicea",
+        "Attalia",
+        "Antioch",
+        "Ptolemais",
+        "Damascus"
+      ],
+      "stops": [
+        {
+          "place": "Dorylaeum",
+          "side": "right",
+          "ref": "Odo of Deuil, to check",
+          "note": "In October 1147 the Turks ambush the German army of Conrad III and defeat it; the survivors fall back to Nicaea"
+        },
+        {
+          "place": "Attalia",
+          "side": "right",
+          "ref": "Odo of Deuil, to check",
+          "note": "The French army loses many men on the mountain road to this port in early 1148, and the king takes ship for Antioch"
+        },
+        {
+          "place": "Damascus",
+          "side": "left",
+          "ref": "William of Tyre, to check",
+          "note": "The combined crusade besieges the city in July 1148 and gives up after a few days"
+        }
+      ],
+      "cities": [
+        {
+          "place": "Constantinople",
+          "side": "left"
+        },
+        {
+          "place": "Nicaea",
+          "side": "left"
+        },
+        {
+          "place": "Laodicea",
+          "side": "right"
+        },
+        {
+          "place": "Edessa",
+          "side": "right"
+        },
+        {
+          "place": "Ptolemais",
+          "name": "Acre",
+          "side": "right"
         }
       ]
     }
