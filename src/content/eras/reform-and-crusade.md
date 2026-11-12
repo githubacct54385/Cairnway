@@ -9,10 +9,11 @@ draft: true
 reviewStatus: "Draft, written 2026-11-12 from docs/PLAN-seventh-era.md. Three claims about the Fourth Lateran Council were checked against the canons (Schroeder's translation, Fordham Internet History Sourcebook): the annual confession (Canon 21), the Eucharist doctrine (Canon 1) and the call for a crusade (the Holy Land decrees). The Fourth Crusade's diversion to Zara (1202) and capture of Constantinople (12 April 1204) were checked in Villehardouin's Memoirs (Marzials translation, Project Gutenberg 6032). Gregory VII's register was not found online and is unchecked. Every other date, event, person and claim is from the drafter's general knowledge and is not yet checked. The translations' licences are not yet checked. No specialist has reviewed this page."
 overviewMap: "crusades-and-reform"
 mapSection:
-  heading: "The First Crusade, 1096 to 1099"
-  intro: "The route of the crusading armies from Constantinople to Jerusalem, with the battles and sieges along the way. The route is simplified, and the battle sites and dates are not yet checked."
+  heading: "The Crusades, 1096 to 1192"
+  intro: "Routes and battles of two crusades: the First, from Constantinople to Jerusalem (1096 to 1099), and the Third, Richard I's campaign along the coast (1189 to 1192). The routes are simplified, and the battle sites and dates are not yet checked."
   ids:
     - "first-crusade-1096-1099"
+    - "third-crusade-1189-1192"
 figures:
   - image: "/era-art/reform-and-crusade/met-limoges-chasse.jpg"
     alt: "Chasse (reliquary casket) with the Crucifixion and Christ in Majesty"
