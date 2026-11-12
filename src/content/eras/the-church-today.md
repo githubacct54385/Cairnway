@@ -224,19 +224,29 @@ where a church has replied, the reply is given.
 
 ### Criticism from inside the churches
 
-Leaders and members of several churches have criticised their own institutions. The most documented case is the handling of abuse:
-the reports of the John Jay College (2004) and the Southern Baptist Convention (2022) found that cases were not always reported to
-the authorities or dealt with openly, and the churches have said that they have since changed their procedures. Whether those changes
-have gone far enough is disputed. Other internal criticism has concerned the churches' relations with the poor, the treatment of
-women, and the way divisions over sexuality have been handled. Named critics, their statements and the replies to them are to be
-added with sources. Details not yet checked.
+The most documented internal criticism concerns the handling of abuse. The Southern Baptist Convention commissioned Guidepost Solutions
+to investigate its Executive Committee's handling of abuse reports. The report was released on 22 May 2022, and Religion News Service
+reported its findings. The investigators wrote that "a few senior EC leaders, along with outside counsel, largely controlled the EC's
+response to these reports of abuse", and that "survivors and others who reported abuse were ignored, disbelieved or met with the
+constant refrain". They also wrote that the committee was "singularly focused on avoiding liability for the SBC to the exclusion of
+other considerations". The Executive Committee has since changed its procedures, and the reform process is disputed by some critics.
+Source: Religion News Service report of 22 May 2022, as reprinted by the Baptist Standard. The full report has not yet been read,
+and the Executive Committee's reply has not yet been added.
+
+The John Jay College study of 2004 reached similar conclusions about how Catholic dioceses dealt with allegations, but its report
+has not yet been read directly. Other internal criticism has concerned the churches' relations with the poor, the treatment of
+women, and the way divisions over sexuality have been handled. Named critics from these areas, their statements and the replies to
+them are still to be found and checked.
 
 ### Criticism from outside the churches
 
-Critics outside the churches have argued that some Christian communities have been too close to political power, that some teaching
-on wealth and health offers blessings that are not supported by the evidence, and that some churches have made themselves less
-able to respond to the poor by dividing over doctrine. Others argue that churches have been unfairly singled out for criticism of
-their past conduct. Each argument is to be attributed and sourced, and each reply recorded. Details not yet checked.
+Historian Kate Bowler, in *Blessed: A History of the American Prosperity Gospel* (Oxford University Press, 2013), traces the teaching
+that faith brings material blessing, and reviewers describe her as taking it seriously rather than dismissing it. Her direct wording
+has not yet been checked against the book. Sociologists Andrew L. Whitehead and Samuel L. Perry, in *Taking America Back for God:
+Christian Nationalism in the United States* (Oxford University Press, 2020), argue from survey data that a belief that the United
+States is a Christian nation goes with views on race, immigration, marriage and sexuality. A review quotes them as saying that
+"not all Christian nationalists are white or evangelical or particularly religious in their behavior". The book itself has not yet
+been read, and the quotations are from that review. Replies from the churches and writers named here are still to be added.
 
 ### Where the standards are contested
 
@@ -247,10 +257,10 @@ the state, and to their response to persecution. See the sections on divisions a
 
 ### What the figures show
 
-Pew Research Center's 2025 report links the fall in the Christian share of the world's population mainly to people leaving the
-faith, rather than to population change alone. Open Doors' figures on persecution point to a rise in the number of Christians facing
-persecution, but its method and counts are disputed by some observers. The page reports the figures as the sources give them,
-with their methods. Details not yet checked.
+Pew Research Center's 2025 report, which the page has read directly, links the fall in the Christian share of the world's population
+to people leaving the faith: "This change is largely driven by high rates of Christian disaffiliation." Open Doors' figures on
+persecution point to a rise, but they are news-based here and have not yet been checked against the report, and other reports count
+differently. The page reports the figures as the sources give them, with their methods.
 
 ## Where the church stands
 
