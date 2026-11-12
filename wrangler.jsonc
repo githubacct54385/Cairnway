@@ -1,0 +1,15 @@
+// Cloudflare Worker that serves the built site (./dist) as static files.
+// Deploys are done by .github/workflows/deploy.yml, not by Cloudflare's Git integration:
+// each change is uploaded as a version on the "staging" preview URL, and goes live only
+// after approval. See docs/DEPLOY.md.
+{
+  "name": "ancient-paths",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./dist"
+  },
+  // The live site at ancient-paths.<subdomain>.workers.dev.
+  "workers_dev": true,
+  // Needed for the staging address: staging-ancient-paths.<subdomain>.workers.dev.
+  "preview_urls": true
+}
