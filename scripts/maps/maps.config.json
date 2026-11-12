@@ -299,6 +299,38 @@
     "Monte Cassino": [
       13.79,
       41.49
+    ],
+    "Basel": [
+      7.59,
+      47.56
+    ],
+    "Florence": [
+      11.25,
+      43.77
+    ],
+    "Ferrara": [
+      11.62,
+      44.84
+    ],
+    "Naples": [
+      14.27,
+      40.85
+    ],
+    "London": [
+      -0.13,
+      51.51
+    ],
+    "Varna": [
+      27.91,
+      43.21
+    ],
+    "Belgrade": [
+      20.46,
+      44.79
+    ],
+    "Moscow": [
+      37.62,
+      55.75
     ]
   },
   "labels": [
@@ -497,6 +529,111 @@
       "kind": "sea",
       "lon": -11.0,
       "lat": 45.0
+    },
+    {
+      "text": "Bohemia",
+      "kind": "region",
+      "lon": 14.5,
+      "lat": 49.8,
+      "hideOn": [
+        "overview",
+        "journey-1",
+        "journey-2",
+        "journey-3",
+        "voyage",
+        "churches",
+        "ignatius",
+        "church-around-400",
+        "churches-about-600",
+        "english-and-east-700",
+        "carolingian-world",
+        "crusades-and-reform",
+        "schism-and-councils"
+      ]
+    },
+    {
+      "text": "Hungary",
+      "kind": "region",
+      "lon": 19.5,
+      "lat": 47.0,
+      "hideOn": [
+        "overview",
+        "journey-1",
+        "journey-2",
+        "journey-3",
+        "voyage",
+        "churches",
+        "ignatius",
+        "church-around-400",
+        "churches-about-600",
+        "english-and-east-700",
+        "carolingian-world",
+        "crusades-and-reform",
+        "schism-and-councils"
+      ]
+    },
+    {
+      "text": "Poland",
+      "kind": "region",
+      "lon": 19.0,
+      "lat": 52.2,
+      "hideOn": [
+        "overview",
+        "journey-1",
+        "journey-2",
+        "journey-3",
+        "voyage",
+        "churches",
+        "ignatius",
+        "church-around-400",
+        "churches-about-600",
+        "english-and-east-700",
+        "carolingian-world",
+        "crusades-and-reform",
+        "schism-and-councils"
+      ]
+    },
+    {
+      "text": "Ottoman lands",
+      "kind": "region",
+      "lon": 25.5,
+      "lat": 41.6,
+      "hideOn": [
+        "overview",
+        "journey-1",
+        "journey-2",
+        "journey-3",
+        "voyage",
+        "churches",
+        "ignatius",
+        "church-around-400",
+        "churches-about-600",
+        "english-and-east-700",
+        "carolingian-world",
+        "crusades-and-reform",
+        "schism-and-councils"
+      ]
+    },
+    {
+      "text": "Muscovy",
+      "kind": "region",
+      "lon": 39.0,
+      "lat": 53.0,
+      "hideOn": [
+        "overview",
+        "journey-1",
+        "journey-2",
+        "journey-3",
+        "voyage",
+        "churches",
+        "ignatius",
+        "church-around-400",
+        "churches-about-600",
+        "english-and-east-700",
+        "carolingian-world",
+        "crusades-and-reform",
+        "schism-and-councils"
+      ]
     }
   ],
   "maps": [
@@ -1029,7 +1166,7 @@
         },
         {
           "place": "Constantinople",
-          "side": "left"
+          "side": "right"
         },
         {
           "place": "Nicaea",
@@ -1334,6 +1471,75 @@
         },
         {
           "place": "Constantinople",
+          "side": "left"
+        }
+      ]
+    },
+    {
+      "id": "late-medieval-europe",
+      "title": "Europe in the fifteenth century",
+      "intro": "The councils of Basel and Florence, the Renaissance courts of Italy, Constantinople and the Ottoman frontier in the Balkans, and the edge of Muscovy. Boundaries are simplified.",
+      "bbox": [
+        -9,
+        34,
+        42,
+        58
+      ],
+      "cities": [
+        {
+          "place": "London",
+          "side": "left"
+        },
+        {
+          "place": "Paris",
+          "side": "left"
+        },
+        {
+          "place": "Basel",
+          "side": "left"
+        },
+        {
+          "place": "Constance",
+          "side": "right"
+        },
+        {
+          "place": "Prague",
+          "side": "right"
+        },
+        {
+          "place": "Florence",
+          "side": "right"
+        },
+        {
+          "place": "Ferrara",
+          "side": "right"
+        },
+        {
+          "place": "Venice",
+          "side": "right"
+        },
+        {
+          "place": "Rome",
+          "side": "right"
+        },
+        {
+          "place": "Naples",
+          "side": "right"
+        },
+        {
+          "place": "Belgrade",
+          "side": "right"
+        },
+        {
+          "place": "Varna",
+          "side": "right"
+        },
+        {
+          "place": "Constantinople",
+          "side": "right"
+        },
+        {
+          "place": "Moscow",
           "side": "right"
         }
       ]
