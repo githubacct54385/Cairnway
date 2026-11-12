@@ -84,7 +84,7 @@ const clipId = `land-${m.id}`;
           <li>
             <b class="badge">{s.n}</b>
             <span>
-              <strong>{s.name}</strong>, {s.note}. <span class="meta">Acts {s.ref}</span>
+              <strong>{s.name}</strong>, {s.note}. <span class="meta">{m.refPrefix ?? 'Acts '}{s.ref}</span>
             </span>
           </li>
         ))}

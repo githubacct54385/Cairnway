@@ -171,6 +171,18 @@
     "Inland Galatia": [
       32.0,
       38.6
+    ],
+    "Smyrna": [
+      27.14,
+      38.42
+    ],
+    "Carthage": [
+      10.32,
+      36.85
+    ],
+    "Alexandria": [
+      29.92,
+      31.2
     ]
   },
   "labels": [
@@ -283,7 +295,11 @@
       "text": "Aegean Sea",
       "kind": "sea",
       "lon": 25.2,
-      "lat": 38.6
+      "lat": 38.6,
+      "hideOn": [
+        "churches",
+        "ignatius"
+      ]
     },
     {
       "text": "Adriatic Sea",
@@ -295,7 +311,10 @@
       "text": "Tyrrhenian Sea",
       "kind": "sea",
       "lon": 12.2,
-      "lat": 39.6
+      "lat": 39.6,
+      "hideOn": [
+        "ignatius"
+      ]
     },
     {
       "text": "Black Sea",
@@ -711,6 +730,99 @@
           "side": "top"
         }
       ]
+    },
+    {
+      "id": "churches",
+      "title": "Cities named in the sources for this era",
+      "intro": "The cities that appear most often in the writings of AD 100 to 313, from Antioch in the east to Carthage in the west. Lyons and Vienne in Gaul, where Irenaeus was bishop, lie off the western edge of this map.",
+      "bbox": [
+        6.0,
+        30.0,
+        38.8,
+        43.2
+      ],
+      "cities": [
+        {
+          "place": "Rome",
+          "side": "right"
+        },
+        {
+          "place": "Carthage",
+          "side": "top"
+        },
+        {
+          "place": "Alexandria",
+          "side": "right"
+        },
+        {
+          "place": "Antioch",
+          "side": "right"
+        },
+        {
+          "place": "Smyrna",
+          "side": "left"
+        },
+        {
+          "place": "Ephesus",
+          "side": "bottom"
+        },
+        {
+          "place": "Corinth",
+          "side": "left"
+        }
+      ]
+    },
+    {
+      "id": "ignatius",
+      "title": "Ignatius on the road to Rome",
+      "ref": "Eusebius, Church History 3.36",
+      "intro": "Eusebius says Ignatius was sent from Syria to Rome under military guard, and that he wrote from Smyrna and from Troas. Polycarp's letter shows the Philippians had seen him pass. Nothing records the rest of the way, so the lines between these stops are straight and show only the order.",
+      "bbox": [
+        10.6,
+        34.5,
+        38.6,
+        43.4
+      ],
+      "route": [
+        "Antioch",
+        "Smyrna",
+        "Troas",
+        "Philippi",
+        "Rome"
+      ],
+      "stops": [
+        {
+          "place": "Antioch",
+          "ref": "Eusebius 3.36.2 to 3",
+          "note": "Ignatius is bishop here and is sent to Rome",
+          "side": "right"
+        },
+        {
+          "place": "Smyrna",
+          "ref": "Eusebius 3.36.5 to 9",
+          "note": "He meets Polycarp and writes to Ephesus, Magnesia, Tralles and Rome",
+          "side": "left"
+        },
+        {
+          "place": "Troas",
+          "ref": "Eusebius 3.36.10",
+          "note": "He writes to Philadelphia, Smyrna and Polycarp",
+          "side": "left"
+        },
+        {
+          "place": "Philippi",
+          "ref": "Polycarp 9, 13",
+          "note": "Polycarp says the Philippians saw Ignatius, Rufus and Zosimus",
+          "side": "right"
+        },
+        {
+          "place": "Rome",
+          "ref": "Ignatius, Romans 5",
+          "note": "He writes that he expects to face wild beasts here",
+          "side": "right"
+        }
+      ],
+      "refPrefix": ""
     }
   ]
 }

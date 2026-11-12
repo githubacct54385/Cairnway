@@ -23,11 +23,11 @@ Licences and editions checked on 2026-11-11 (CHR-9). Public-domain status comes 
 | Dunn, *The Partings of the Ways*; Becker and Reed (eds.), *The Ways That Never Parted* | When Christianity and Judaism separated; further reading | Copyrighted; cited only | 2026-11-11 |
 | *The Cambridge History of Christianity, Vol. 1* | Further reading | Copyrighted; cited only | 2026-11-11 |
 
-## Second era, about AD 100 to 313 (planned, not yet drafted)
+## After the Apostles, about AD 100 to 313 (draft)
 
 Editions chosen and licences checked on 2026-11-11 (CHR-12). Each CCEL volume states "Rights: Public Domain" in its own
 header; the Pliny edition is a Project Gutenberg text of a translation first published in the 1700s. Full texts were
-downloaded and the named works confirmed present. Nothing has been quoted on the site yet.
+downloaded and the named works confirmed present. The ancient writers are cited on the page "After the Apostles"; see `docs/REVIEW-second-century.md` for how far each citation was checked.
 
 | Source | Use | License | Checked |
 | --- | --- | --- | --- |
@@ -38,12 +38,15 @@ downloaded and the named works confirmed present. Nothing has been quoted on the
 | Cyprian, Hippolytus, Novatian, the Muratorian fragment ("Canon Muratorianus"): [ANF vol. 5](https://ccel.org/ccel/schaff/anf05) | Decius and the lapsed; the Novatian split; early list of New Testament books | Public domain (CCEL). Date of the fragment is disputed | 2026-11-11 |
 | Lactantius, *Of the Manner in Which the Persecutors Died*: [ANF vol. 7](https://ccel.org/ccel/schaff/anf07) | The Great Persecution; the Milan agreement | Public domain (CCEL) | 2026-11-11 |
 | Eusebius, *Church History* and *Life of Constantine*: [NPNF2 vol. 1](https://ccel.org/ccel/schaff/npnf201) | Montanism, Lyon, Easter, persecutions, Constantine | Public domain (CCEL) | 2026-11-11 |
+| Augustine, *City of God* 18.52: [NPNF1 vol. 2](https://ccel.org/ccel/schaff/npnf102) | The tradition of ten persecutions | Public domain (CCEL) | 2026-11-11 |
 | Pliny the Younger, *Letters*, Book 10: Melmoth, ed. Bosanquet ([Gutenberg 2811](https://www.gutenberg.org/ebooks/2811)) | Pliny to Trajan about Christians, and Trajan's reply (standard numbering 10.96 and 10.97) | Public domain (translation 1746; Gutenberg text). This edition numbers them XCVII and XCVIII | 2026-11-11 |
 | 2 Peter: [World English Bible](https://ebible.org/find/details.php?id=engwebp) | 2 Peter | Public domain; see Apostolic Age entry for the trademark note | 2026-11-11 |
 | Henry Chadwick, *The Early Church* (Penguin, revised 1993) | Overall framework and dates | Copyrighted; cited only. Bibliographic details to verify | not yet checked |
 | Harry Y. Gamble, *The New Testament Canon: Its Making and Meaning* (Fortress, 1985) | How the list of New Testament books came together | Copyrighted; cited only. Bibliographic details to verify | not yet checked |
 | Robert L. Wilken, *The Christians as the Romans Saw Them* (Yale, 2nd ed. 2003) | Pliny, Celsus, outsiders' views | Copyrighted; cited only. Bibliographic details to verify | not yet checked |
 | Raymond E. Brown, *An Introduction to the New Testament* | Date of 2 Peter | Copyrighted; cited only | 2026-11-11 |
+| Candida Moss, *The Myth of Christian Persecution* (HarperOne, 2013) | One view on how widely Christians were persecuted | Copyrighted; cited only. Bibliographic details to verify | not yet checked |
+| Carl H. Kraeling, *The Christian Building* (Excavations at Dura-Europos, Final Report VIII, Part II, 1967) | Dura-Europos house church | Copyrighted; cited only. Bibliographic details to verify | not yet checked |
 | Dura-Europos house church (excavated 1930s, Yale and French Academy) | Earliest identified church building | Archaeological site; cited, not reproduced. Source to name | not yet checked |
 
 ## Candidates still to review
