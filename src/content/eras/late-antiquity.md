@@ -18,6 +18,7 @@ flags:
     severity: "medium"
   - text: "Gregory's Lombard and Doctor details from memory"
     severity: "note"
+overviewMap: "churches-about-600"
 keyPeople:
   - name: "Leo the Great"
     role: "Bishop of Rome, 440 to 461"

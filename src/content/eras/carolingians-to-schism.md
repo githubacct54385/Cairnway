@@ -7,6 +7,7 @@ startYear: 800
 endYear: 1054
 draft: true
 reviewStatus: "Draft, written 2026-11-12 from docs/PLAN-sixth-era.md. One event was checked against the full text of Einhard's Life of Charlemagne (Grant's edition, Project Gutenberg 48870), chapter 28: the surprise at the title, the Greeks' envy, and the pope's declaration in Rome. Einhard does not say the pope crowned him or give Christmas Day; that date is the editor's note. Every other date, event, person and claim is from the drafter's general knowledge and is not yet checked. No specialist has reviewed this page."
+overviewMap: "carolingian-world"
 keyPeople:
   - name: "Charlemagne"
     role: "King of the Franks; emperor from 800"

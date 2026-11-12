@@ -7,6 +7,7 @@ startYear: 600
 endYear: 787
 draft: true
 reviewStatus: "Draft, written 2026-11-12 from docs/PLAN-fifth-era.md. Four events were read against the full text of the public-domain editions named in the sources: Bede on the English mission and the Synod of Whitby (Sellar translation, Gutenberg), and the Sixth Council's condemnation of Pope Honorius and the Seventh Council's acts on images (NPNF2 vol. 14). Every other date, the Islamic conquests, the Frankish events, and all statements about what modern scholars think are not yet checked. No specialist has reviewed this page."
+overviewMap: "english-and-east-700"
 keyPeople:
   - name: "Colman and Wilfrid"
     role: "Bishops in the English church, on opposite sides at Whitby"

@@ -171,9 +171,13 @@ def line_path(features, b, tol, max_rank):
 
 
 def main():
+    global KX
     if len(sys.argv) < 2:
         sys.exit(__doc__)
     ne = sys.argv[1]
+    # Optional: the full-resolution Natural Earth shaded relief (SR_HR.tif, 10m, whole world).
+    # When given, each map is cropped from it at native resolution. Without it, the Mediterranean crop is used.
+    full_world = len(sys.argv) > 2
     load = lambda n: json.load(open(os.path.join(ne, 'geojson', n)))['features']
     land = load('ne_10m_land.geojson')
     rivers = load('ne_10m_rivers_lake_centerlines.geojson')
@@ -183,13 +187,18 @@ def main():
     world_labels = cfg['labels']
 
     relief = None
-    if os.path.exists(RELIEF):
+    if full_world:
+        Image.MAX_IMAGE_PIXELS = None
+        relief = Image.open(sys.argv[2]).convert('L')
+    elif os.path.exists(RELIEF):
         relief = Image.open(RELIEF)
     os.makedirs(OUT_DIR, exist_ok=True)
 
     out = {}
     for m in cfg['maps']:
         w, s, e, n = m['bbox']  # west, south, east, north
+        # Scale east-west distances for the latitude at the middle of this map, so that its shape is right.
+        KX = K * math.cos(math.radians((s + n) / 2))
         margin = 0.3
         b = (w - margin, s - margin, e + margin, n + margin)
         x0, y0 = proj(w, n)
@@ -235,8 +244,12 @@ def main():
         rel = None
         if relief is not None:
             rw, rh = relief.size
-            ppd = rw / (LON1 - LON0)
-            box = (int((w - LON0) * ppd), int((LAT1 - n) * ppd), int((e - LON0) * ppd), int((LAT1 - s) * ppd))
+            if full_world:
+                ppx, ppy = rw / 360.0, rh / 180.0
+                box = (int((w + 180) * ppx), int((90 - n) * ppy), int((e + 180) * ppx), int((90 - s) * ppy))
+            else:
+                ppd = rw / (LON1 - LON0)
+                box = (int((w - LON0) * ppd), int((LAT1 - n) * ppd), int((e - LON0) * ppd), int((LAT1 - s) * ppd))
             crop = relief.crop(box).convert('L')
             # Make flat ground white, so the image only darkens slopes when multiplied over the land.
             hist = crop.histogram()

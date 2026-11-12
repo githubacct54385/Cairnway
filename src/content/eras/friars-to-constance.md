@@ -7,6 +7,7 @@ startYear: 1215
 endYear: 1417
 draft: true
 reviewStatus: "Draft, written 2026-11-12 from docs/PLAN-eighth-era.md. The 1215 council's confession requirement and crusade call were checked against the canons (Fordham Internet History Sourcebook). The 1348 Florence date and the speed of death were checked in Boccaccio's Decameron introduction (Payne translation, Project Gutenberg 23700). Aquinas's Summa Theologiae was not checked: the CCEL page loads its text by script and its translation credit could not be read. Every other date, event, person and claim, including the figure of a third of Europe, is from the drafter's general knowledge and is not yet checked. No specialist has reviewed this page."
+overviewMap: "schism-and-councils"
 keyPeople:
   - name: "Dominic and Francis"
     role: "Founders of the Dominican and Franciscan friars"
