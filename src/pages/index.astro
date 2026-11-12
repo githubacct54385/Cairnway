@@ -23,7 +23,11 @@ const eras = (await getCollection('eras')).sort((a, b) => a.data.order - b.data.
           <span class="range">{era.data.dateRange}</span>
           <h2>{era.data.title}</h2>
           <p>{era.data.summary}</p>
-          {era.data.draft && <p class="banner">Draft: not yet reviewed against its sources.</p>}
+          {
+            era.data.draft && (
+              <p class="banner">{era.data.reviewStatus ?? 'Draft: not yet reviewed against its sources.'}</p>
+            )
+          }
           <p>
             <a class="button" href={`/eras/${era.id}/`}>
               Explore this era

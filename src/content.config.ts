@@ -21,6 +21,9 @@ const eras = defineCollection({
     order: z.number(),
     // Drafts are shown with a visible banner until reviewed against their sources.
     draft: z.boolean().default(true),
+    // Optional: what has been checked so far, shown in the draft banner instead of the generic text.
+    // Say exactly what was checked and by whom (for example, an AI or a named reviewer).
+    reviewStatus: z.string().optional(),
     keyPeople: z
       .array(z.object({ name: z.string(), role: z.string(), summary: z.string(), source: z.string() }))
       .default([]),

@@ -10,7 +10,7 @@ export async function getStaticPaths() {
 
 const { era } = Astro.props;
 const { Content } = await render(era);
-const { title, summary, dateRange, draft, keyPeople, events, sources } = era.data;
+const { title, summary, dateRange, draft, reviewStatus, keyPeople, events, sources } = era.data;
 ---
 
 <Base title={title} description={summary}>
@@ -19,7 +19,13 @@ const { title, summary, dateRange, draft, keyPeople, events, sources } = era.dat
     <h1>{title}</h1>
     <p class="meta">{dateRange}</p>
     <p>{summary}</p>
-    {draft && <p class="banner">Draft: not yet reviewed against its sources. Dates are approximate.</p>}
+    {
+      draft && (
+        <p class="banner">
+          {reviewStatus ?? 'Draft: not yet reviewed against its sources.'} Dates are approximate.
+        </p>
+      )
+    }
 
     {era.id === 'apostolic-age' && <EraMap id="overview" as="h2" />}
 
