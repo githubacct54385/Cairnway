@@ -3,6 +3,8 @@ title: "After the Apostles"
 summary: "From the generation after the apostles to Constantine: bishops and martyrs, the first outside views of Christians, arguments over Scripture, and the shift from persecution to toleration."
 dateRange: "c. AD 100 to AD 313"
 order: 2
+startYear: 100
+endYear: 313
 draft: true
 overviewMap: "churches"
 mapSection:

@@ -7,6 +7,7 @@ const site = process.env.SITE_URL || 'https://ancient-paths.lifetrackerappweb.wo
 
 export default defineConfig({
   site,
-  integrations: [sitemap()],
+  // The reviewer-only page is kept out of the sitemap.
+  integrations: [sitemap({ filter: (page) => !page.includes('/review/') })],
   build: { format: 'directory' },
 });
