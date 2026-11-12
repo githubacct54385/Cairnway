@@ -28,14 +28,20 @@ type MapId = ComponentProps<typeof EraMap>['id'];
     <p>{summary}</p>
     {
       draft && (
-        <p class="banner">
-          {reviewStatus ?? 'Draft: not yet reviewed against its sources.'} Dates are approximate.
-        </p>
+        <details class="banner draft-status">
+          <summary>Draft: not yet fully reviewed against its sources. Show details</summary>
+          <p>{reviewStatus ?? 'Not yet reviewed against its sources.'} Dates are approximate.</p>
+        </details>
       )
     }
 
+    <nav class="era-jump" aria-label="Previous and next eras, at the top">
+      {prevEra ? <a href={`/eras/${prevEra.id}/`}>← {prevEra.data.title}</a> : <span />}
+      {nextEra ? <a href={`/eras/${nextEra.id}/`}>{nextEra.data.title} →</a> : <span />}
+    </nav>
+
     <nav class="on-page" aria-label="On this page">
-      <details open>
+      <details class="on-page-details">
         <summary>On this page</summary>
         <ul>
           {figures.length > 0 && <li><a href="#images">Images from the period</a></li>}
@@ -170,7 +176,13 @@ type MapId = ComponentProps<typeof EraMap>['id'];
 
   <button type="button" class="to-top" data-to-top hidden>Back to top</button>
   <script>
-    const toTop = document.querySelector<HTMLButtonElement>('[data-to-top]');
+    // The contents list is closed on phones and open on wider screens.
+  const contents = document.querySelector<HTMLDetailsElement>('.on-page-details');
+  if (contents && window.matchMedia('(min-width: 40rem)').matches) {
+    contents.open = true;
+  }
+
+  const toTop = document.querySelector<HTMLButtonElement>('[data-to-top]');
     if (toTop) {
       const update = () => {
         toTop.hidden = window.scrollY < 600;
@@ -219,6 +231,40 @@ type MapId = ComponentProps<typeof EraMap>['id'];
     cursor: pointer;
     font-weight: 600;
   }
+  /* Closed by default on phones so the content starts sooner. A script opens it on wider screens. */
+  .draft-status {
+    padding: 0.6rem 1rem;
+  }
+  .draft-status summary {
+    cursor: pointer;
+    font-family: system-ui, sans-serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+  }
+  .draft-status p {
+    margin: 0.5rem 0 0.2rem;
+    font-size: 0.95rem;
+  }
+  .era-jump {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin: 1rem 0 0;
+    font-family: system-ui, sans-serif;
+    font-size: 0.9rem;
+  }
+  .era-jump a {
+    text-decoration: none;
+  }
+  .era-jump a:hover,
+  .era-jump a:focus-visible {
+    text-decoration: underline;
+  }
+  .era-jump a:last-child {
+    margin-left: auto;
+    text-align: right;
+  }
+
   .on-page ul {
     margin: 0.6rem 0 0.2rem;
     padding-left: 1.1rem;
