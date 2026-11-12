@@ -10,7 +10,12 @@ export async function getStaticPaths() {
 }
 
 const { era } = Astro.props;
-const { Content } = await render(era);
+const { Content, headings } = await render(era);
+const allEras = (await getCollection('eras')).sort((a, b) => a.data.order - b.data.order);
+const eraIndex = allEras.findIndex((e) => e.id === era.id);
+const prevEra = eraIndex > 0 ? allEras[eraIndex - 1] : undefined;
+const nextEra = eraIndex < allEras.length - 1 ? allEras[eraIndex + 1] : undefined;
+const bodyHeadings = headings.filter((h) => h.depth === 2);
 const { title, summary, dateRange, draft, reviewStatus, overviewMap, mapSection, figures, keyPeople, events, sources } = era.data;
 type MapId = ComponentProps<typeof EraMap>['id'];
 ---
@@ -29,11 +34,27 @@ type MapId = ComponentProps<typeof EraMap>['id'];
       )
     }
 
+    <nav class="on-page" aria-label="On this page">
+      <details open>
+        <summary>On this page</summary>
+        <ul>
+          {figures.length > 0 && <li><a href="#images">Images from the period</a></li>}
+          {bodyHeadings.map((h) => (
+            <li><a href={`#${h.slug}`}>{h.text}</a></li>
+          ))}
+          {mapSection && <li><a href="#journeys">{mapSection.heading}</a></li>}
+          {events.length > 0 && <li><a href="#key-events">Key events</a></li>}
+          {keyPeople.length > 0 && <li><a href="#key-people">Key people</a></li>}
+          {sources.length > 0 && <li><a href="#sources">Sources for this era</a></li>}
+        </ul>
+      </details>
+    </nav>
+
     {overviewMap && <EraMap id={overviewMap as MapId} as="h2" />}
 
     {
       figures.length > 0 && (
-        <section data-reveal class="figures">
+        <section data-reveal class="figures" id="images">
           <h2>Images from the period</h2>
           <div class="figure-grid">
             {figures.map((f) => (
@@ -56,7 +77,7 @@ type MapId = ComponentProps<typeof EraMap>['id'];
 
     {
       mapSection && (
-        <section class="journeys">
+        <section class="journeys" id="journeys">
           <h2>{mapSection.heading}</h2>
           <p>{mapSection.intro}</p>
           {mapSection.ids.map((id) => (
@@ -68,7 +89,7 @@ type MapId = ComponentProps<typeof EraMap>['id'];
 
     {
       events.length > 0 && (
-        <section data-reveal>
+        <section data-reveal id="key-events">
           <h2>Key events</h2>
           <ul class="cards">
             {events.map((e) => (
@@ -86,7 +107,7 @@ type MapId = ComponentProps<typeof EraMap>['id'];
 
     {
       keyPeople.length > 0 && (
-        <section data-reveal>
+        <section data-reveal id="key-people">
           <h2>Key people</h2>
           <ul class="cards">
             {keyPeople.map((p) => (
@@ -104,7 +125,7 @@ type MapId = ComponentProps<typeof EraMap>['id'];
 
     {
       sources.length > 0 && (
-        <section data-reveal>
+        <section data-reveal id="sources">
           <h2>Sources for this era</h2>
           <ul class="sources-list">
             {sources.map((s) => (
@@ -123,7 +144,42 @@ type MapId = ComponentProps<typeof EraMap>['id'];
         </section>
       )
     }
+    <nav class="era-nav" aria-label="Previous and next eras">
+      {
+        prevEra ? (
+          <a class="era-nav-prev" href={`/eras/${prevEra.id}/`}>
+            <span class="meta">Previous era</span>
+            {prevEra.data.title}
+          </a>
+        ) : (
+          <span />
+        )
+      }
+      {
+        nextEra ? (
+          <a class="era-nav-next" href={`/eras/${nextEra.id}/`}>
+            <span class="meta">Next era</span>
+            {nextEra.data.title}
+          </a>
+        ) : (
+          <span />
+        )
+      }
+    </nav>
   </article>
+
+  <button type="button" class="to-top" data-to-top hidden>Back to top</button>
+  <script>
+    const toTop = document.querySelector<HTMLButtonElement>('[data-to-top]');
+    if (toTop) {
+      const update = () => {
+        toTop.hidden = window.scrollY < 600;
+      };
+      window.addEventListener('scroll', update, { passive: true });
+      toTop.addEventListener('click', () => window.scrollTo({ top: 0 }));
+      update();
+    }
+  </script>
 </Base>
 
 <style>
@@ -144,5 +200,98 @@ type MapId = ComponentProps<typeof EraMap>['id'];
   .figure-grid figcaption {
     font-size: 0.9rem;
     margin-top: 0.4rem;
+  }
+
+  .page [id] {
+    scroll-margin-top: 1.25rem;
+  }
+
+  .on-page {
+    margin: 1.5rem 0 0;
+    padding: 0.6rem 1rem;
+    border: 1px solid var(--rule);
+    border-radius: 0.5rem;
+    background: var(--card);
+    font-family: system-ui, sans-serif;
+    font-size: 0.95rem;
+  }
+  .on-page summary {
+    cursor: pointer;
+    font-weight: 600;
+  }
+  .on-page ul {
+    margin: 0.6rem 0 0.2rem;
+    padding-left: 1.1rem;
+  }
+  .on-page li {
+    margin-bottom: 0.3rem;
+  }
+  @media (min-width: 40rem) {
+    .on-page ul {
+      columns: 2;
+      column-gap: 2rem;
+    }
+  }
+
+  .era-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--rule);
+    font-family: system-ui, sans-serif;
+  }
+  .era-nav a {
+    display: block;
+    padding: 0.9rem 1rem;
+    border: 1px solid var(--rule);
+    border-radius: 0.75rem;
+    background: var(--card);
+    color: var(--fg);
+    text-decoration: none;
+  }
+  .era-nav a:hover,
+  .era-nav a:focus-visible {
+    border-color: var(--accent);
+  }
+  .era-nav-next {
+    text-align: right;
+  }
+  .era-nav .meta {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--muted);
+  }
+  @media (max-width: 30rem) {
+    .era-nav {
+      grid-template-columns: 1fr;
+    }
+    .era-nav-next {
+      text-align: left;
+    }
+  }
+
+  .to-top {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    z-index: 15;
+    padding: 0.6rem 1rem;
+    border: 1px solid var(--accent);
+    border-radius: 999px;
+    background: var(--card);
+    color: var(--accent);
+    font: 0.95rem system-ui, sans-serif;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+  }
+  .to-top[hidden] {
+    display: none;
+  }
+  .to-top:hover,
+  .to-top:focus-visible {
+    background: var(--accent);
+    color: var(--bg);
   }
 </style>
