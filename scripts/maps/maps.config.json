@@ -358,7 +358,7 @@
       "id": "journey-1",
       "title": "First journey",
       "ref": "Acts 13 to 14",
-      "intro": "Acts says the church at Antioch sent out Barnabas and Paul. They crossed Cyprus, then went inland into the hill country of Galatia and came back the same way.",
+      "intro": "Acts says the church at Antioch sent out Barnabas and Paul. They crossed Cyprus, then went inland to cities in the Roman province of Galatia, in the regions Acts calls Pisidia and Lycaonia, and came back the same way.",
       "bbox": [
         29.4,
         33.9,
@@ -688,7 +688,7 @@
         },
         {
           "place": "Malta",
-          "ref": "27:39 to 28:10",
+          "ref": "27:39 to 28:11",
           "note": "Shipwreck; three months on the island",
           "side": "left"
         },

@@ -11,8 +11,8 @@ keyPeople:
     source: "1 Corinthians 15:5; Galatians 1:18, 2:7 to 14; Acts 1 to 12, 15:6 to 11"
   - name: "Paul"
     role: "Missionary and letter writer"
-    summary: "A Jewish teacher who writes that he once persecuted the church and then began preaching Jesus to non-Jews. His letters are among the earliest surviving Christian writings, and in one he lists years of hardship: beatings, a stoning, shipwrecks and imprisonment. Acts tells his story in a longer narrative that differs from his own account in some details."
-    source: "Galatians 1:13 to 17; 2 Corinthians 11:23 to 28; Acts 9 to 28"
+    summary: "A Jewish teacher who writes that he once persecuted the church and then began preaching Jesus to non-Jews. His letters are among the earliest surviving Christian writings, and in one he lists years of hardship: beatings, a stoning, shipwrecks and imprisonment. Acts tells his story in a longer narrative that differs from his own account in some details: Paul says that after his change he went to Arabia and, on his first visit to Jerusalem, saw only Peter and James, while Acts has Barnabas bring him to the apostles."
+    source: "Galatians 1:13 to 19; 2 Corinthians 11:23 to 28; Acts 9 to 28 (compare 9:26 to 27)"
   - name: "James"
     role: "Leader of the Jerusalem community"
     summary: "Paul calls him the Lord's brother and says he met him in Jerusalem. In Acts, James gives the judgment that ends the Jerusalem meeting: non-Jewish believers should not be burdened, but should avoid a short list of practices. Josephus reports that he was stoned at the order of the high priest Ananus. Christian traditions differ on what brother means here, such as a full sibling, half-brother or cousin."
@@ -28,7 +28,7 @@ keyPeople:
 events:
   - date: "c. AD 30 to 33 (dating debated)"
     title: "Jesus is executed under Pontius Pilate"
-    summary: "Christians date their movement to the crucifixion of Jesus. The Roman historian Tacitus, writing about 80 years later, reports that the founder of the Christians, Christus, was executed under Tiberius by the procurator Pontius Pilate. Scholars debate how much of this came from Christian tradition and how much from Roman records. Scholars place the year at about AD 30 or 33."
+    summary: "Christians date their movement to the crucifixion of Jesus. The Roman historian Tacitus, writing about 80 years later, reports that the founder of the Christians, Christus, was executed under Tiberius by the procurator Pontius Pilate. An inscription found at Caesarea gives Pilate's actual title as prefect. Scholars debate how much of this came from Christian tradition and how much from Roman records. Scholars place the year at about AD 30 or 33."
     source: "Tacitus, Annals 15.44; the four Gospels"
   - date: "c. AD 30 to 33 (dating debated)"
     title: "The first Jerusalem community"
@@ -36,8 +36,8 @@ events:
     source: "Acts 1 to 2"
   - date: "c. AD 33 to 36 (dating debated)"
     title: "Paul begins following Jesus"
-    summary: "Paul, who says he had opposed the movement, writes that God revealed Jesus to him and sent him to preach to non-Jews. Acts tells the story of his turning on the road to Damascus. The two accounts differ in detail."
-    source: "Galatians 1:11 to 17; Acts 9"
+    summary: "Paul, who says he had opposed the movement, writes that God revealed Jesus to him and sent him to preach to non-Jews. Acts tells the story of his turning on the road to Damascus three times, and even these tellings differ: in one, the men with him hear the voice, and in another they do not."
+    source: "Galatians 1:11 to 17; Acts 9:1 to 19, 22:6 to 16, 26:12 to 18 (compare 9:7 and 22:9)"
   - date: "c. AD 36 to 39 (dating debated)"
     title: "Paul visits Peter and James in Jerusalem"
     summary: "Paul writes that three years after his change he went to Jerusalem, stayed fifteen days with Peter, and saw James, the brother of the Lord, but no other apostle."
@@ -72,6 +72,11 @@ sources:
     license: "Public domain (World English Bible); to verify"
     checked: "not yet checked"
     usedFor: "Main narrative and the key people and events above"
+  - title: "The Gospels of Matthew, Mark, Luke and John"
+    author: "New Testament (quoted from the World English Bible)"
+    license: "Public domain (World English Bible); to verify"
+    checked: "not yet checked"
+    usedFor: "The execution of Jesus under Pontius Pilate"
   - title: "Antiquities of the Jews and The Jewish War"
     author: "Josephus (Whiston translation)"
     license: "Public domain (older translation); to verify"
@@ -106,7 +111,7 @@ Our written evidence is limited. Historians draw on Acts, Paul's letters, and a 
 
 ### What the first believers proclaimed
 
-In a letter written about twenty years after the death of Jesus, Paul reminds the church in Corinth of what he says he passed on to them as received: that Christ died for sins, was buried, was raised on the third day, and appeared to Peter, to the twelve, to a larger group, to James, and finally to Paul himself (1 Corinthians 15:3 to 8). Believers called Jesus the Christ, which means the Anointed One, and Lord. Scholars debate how quickly and in what terms the earliest believers described Jesus's status. This page does not take a side. See the further reading below.
+In a letter written about twenty years after the death of Jesus, Paul reminds the church in Corinth of what he says he passed on to them as received: that Christ died for sins, was buried, was raised on the third day, and appeared to Peter, to the twelve, to a larger group, to James, to all the apostles, and finally to Paul himself (1 Corinthians 15:3 to 8). Believers called Jesus the Christ, which means the Anointed One, and Lord. Scholars debate how quickly and in what terms the earliest believers described Jesus's status. This page does not take a side. See the further reading below.
 
 ### Did non-Jewish believers need to follow Jewish law?
 
@@ -118,7 +123,7 @@ Acts and the letters sometimes differ in detail, for example in how many visits 
 
 ### Which letters did Paul write?
 
-Most scholars accept seven letters as Paul's own: Romans, 1 and 2 Corinthians, Galatians, Philippians, 1 Thessalonians and Philemon. Scholars are about evenly divided on Colossians, Ephesians and 2 Thessalonians. Many consider 1 and 2 Timothy and Titus to have been written by later authors in Paul's name. Arguments here rest mostly on style, vocabulary and subject matter, and some scholars suggest that Paul's use of secretaries could explain differences in style. This page draws mainly on the seven letters most scholars accept.
+Most scholars accept seven letters as Paul's own: Romans, 1 and 2 Corinthians, Galatians, Philippians, 1 Thessalonians and Philemon. Scholars are divided on Colossians, Ephesians and 2 Thessalonians, with Ephesians most often thought to be by a later writer. Many consider 1 and 2 Timothy and Titus to have been written by later authors in Paul's name. Arguments here rest mostly on style, vocabulary and subject matter, and some scholars suggest that Paul's use of secretaries could explain differences in style. This page draws mainly on the seven letters most scholars accept.
 
 ### When did Christianity and Judaism become separate?
 
