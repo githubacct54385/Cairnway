@@ -8,6 +8,17 @@ endYear: 787
 draft: true
 reviewStatus: "Draft, written 2026-11-12 from docs/PLAN-fifth-era.md. Four events were read against the full text of the public-domain editions named in the sources: Bede on the English mission and the Synod of Whitby (Sellar translation, Gutenberg), and the Sixth Council's condemnation of Pope Honorius and the Seventh Council's acts on images (NPNF2 vol. 14). Every other date, the Islamic conquests, the Frankish events, and all statements about what modern scholars think are not yet checked. No specialist has reviewed this page."
 overviewMap: "english-and-east-700"
+figures:
+  - image: "/era-art/gregory-to-nicaea/lindisfarne-st-matthew.jpg"
+    alt: "St Matthew, from the Lindisfarne Gospels"
+    caption: "St Matthew writes his Gospel, with his symbol, the angel, above him. This page is from the Lindisfarne Gospels, made about 710 to 721 on Lindisfarne, the island monastery of the English north. It is kept in the British Library, and comes from the period just before Whitby."
+    credit: "St Matthew, Lindisfarne Gospels, about 710 to 721, British Library, Cotton MS Nero D IV f.25v; Wikimedia Commons (CC0)"
+    licence: "CC0"
+  - image: "/era-art/gregory-to-nicaea/sinai-christ-icon.jpg"
+    alt: "Christ Pantocrator, a 6th-century icon from Saint Catherine's Monastery on Mount Sinai"
+    caption: "Christ Pantocrator, a painted icon from the monastery of Saint Catherine on Mount Sinai, made in the 6th century. It is one of the oldest surviving icons of Christ, painted before the controversy over images that the councils of this era dealt with."
+    credit: "Icon of Christ Pantocrator, Saint Catherine's Monastery, Sinai, 6th century; Wikimedia Commons, File:Christ Icon Sinai 6th century.jpg"
+    licence: "Public domain"
 keyPeople:
   - name: "Colman and Wilfrid"
     role: "Bishops in the English church, on opposite sides at Whitby"

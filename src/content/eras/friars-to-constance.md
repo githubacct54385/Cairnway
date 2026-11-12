@@ -8,6 +8,12 @@ endYear: 1417
 draft: true
 reviewStatus: "Draft, written 2026-11-12 from docs/PLAN-eighth-era.md. The 1215 council's confession requirement and crusade call were checked against the canons (Fordham Internet History Sourcebook). The 1348 Florence date and the speed of death were checked in Boccaccio's Decameron introduction (Payne translation, Project Gutenberg 23700). Aquinas's Summa Theologiae was not checked: the CCEL page loads its text by script and its translation credit could not be read. Every other date, event, person and claim, including the figure of a third of Europe, is from the drafter's general knowledge and is not yet checked. No specialist has reviewed this page."
 overviewMap: "schism-and-councils"
+figures:
+  - image: "/era-art/friars-to-constance/met-gothic-diptych-coronation.jpg"
+    alt: "Ivory diptych leaf with the Coronation of the Virgin"
+    caption: "The right leaf of an Italian ivory diptych from the late 14th century. The Coronation of the Virgin is shown in a Gothic arcade, with angels playing instruments. Small devotional diptychs like this were used for private prayer."
+    credit: "Diptych leaf, late 14th century, Italian ivory; Metropolitan Museum of Art, Open Access (object 471981)"
+    licence: "CC0"
 keyPeople:
   - name: "Dominic and Francis"
     role: "Founders of the Dominican and Franciscan friars"

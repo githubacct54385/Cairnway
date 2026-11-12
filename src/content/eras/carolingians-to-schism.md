@@ -8,6 +8,17 @@ endYear: 1054
 draft: true
 reviewStatus: "Draft, written 2026-11-12 from docs/PLAN-sixth-era.md. One event was checked against the full text of Einhard's Life of Charlemagne (Grant's edition, Project Gutenberg 48870), chapter 28: the surprise at the title, the Greeks' envy, and the pope's declaration in Rome. Einhard does not say the pope crowned him or give Christmas Day; that date is the editor's note. Every other date, event, person and claim is from the drafter's general knowledge and is not yet checked. No specialist has reviewed this page."
 overviewMap: "carolingian-world"
+figures:
+  - image: "/era-art/carolingians-to-schism/met-carolingian-virgin-church.jpg"
+    alt: "Ivory plaque with the Virgin Mary as a personification of the Church"
+    caption: "A Carolingian ivory plaque, about 800 to 825, showing the Virgin Mary as the Church, with a crown and a sceptre. Ivories like this were made for courts and churches in the Carolingian empire."
+    credit: "Plaque, ca. 800 to 825, Carolingian ivory; Metropolitan Museum of Art, Open Access (object 464454)"
+    licence: "CC0"
+  - image: "/era-art/carolingians-to-schism/met-carolingian-emmaus.jpg"
+    alt: "Ivory plaque with scenes at Emmaus"
+    caption: "A Carolingian ivory plaque, about 850 to 900, showing the travellers at Emmaus meeting the risen Christ, with a walled town behind them."
+    credit: "Plaque, ca. 850 to 900, Carolingian ivory; Metropolitan Museum of Art, Open Access (object 471970)"
+    licence: "CC0"
 keyPeople:
   - name: "Charlemagne"
     role: "King of the Franks; emperor from 800"

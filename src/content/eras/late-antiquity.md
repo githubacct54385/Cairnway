@@ -19,6 +19,12 @@ flags:
   - text: "Gregory's Lombard and Doctor details from memory"
     severity: "note"
 overviewMap: "churches-about-600"
+figures:
+  - image: "/era-art/late-antiquity/met-pyx-loaves-fishes.jpg"
+    alt: "Ivory pyx fragments with the Multiplication of the Loaves and Fishes"
+    caption: "Carved ivory fragments from a Byzantine box (a pyx), from the 6th century. They show the Multiplication of the Loaves and Fishes. Ivory carving like this was made for church and imperial use in the Justinianic period."
+    credit: "Pyx fragments, 6th century, Byzantine; Metropolitan Museum of Art, Open Access (object 330095)"
+    licence: "CC0"
 keyPeople:
   - name: "Leo the Great"
     role: "Bishop of Rome, 440 to 461"

@@ -23,6 +23,12 @@ flags:
     severity: "medium"
   - text: "Decius as the 'first empire-wide' persecution is unchecked"
     severity: "note"
+figures:
+  - image: "/era-art/second-century/dura-christ-paralytic.jpg"
+    alt: "Christ healing the paralytic, a painting from the house church at Dura-Europos"
+    caption: "Christ healing the paralytic. A painting from the house church at Dura-Europos, a Roman frontier town on the Euphrates, made about AD 232. It is one of the oldest surviving Christian paintings. The paint has faded, so the figures are hard to read at first."
+    credit: "Painting from Dura-Europos, about AD 232; Wikimedia Commons, File:Christ Healing the Paralytic - Dura-Europos circa 232.jpg"
+    licence: "Public domain"
 keyPeople:
   - name: "Ignatius of Antioch"
     role: "Bishop, martyr and letter writer"
