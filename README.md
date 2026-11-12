@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="branding/logo-512.png" width="120" alt="Ancient Paths logo: a road leading to a cross">
+  <img src="branding/logo-512.png" width="120" alt="The Old Paths logo: a road leading to a cross">
 </p>
 
-# Ancient Paths
+# The Old Paths
 
 A scrolling, source-cited timeline of Christian history, one era at a time. The first release covers the first century
 (the Apostolic Age). Every claim should trace to a source, and every source records its license.
