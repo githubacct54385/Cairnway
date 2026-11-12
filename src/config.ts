@@ -1,5 +1,5 @@
 export const SITE = {
-  title: 'The Old Paths',
+  title: 'Ancient Paths',
   description:
     'A scrolling, source-cited timeline of Christian history, one era at a time. Starting with the first century.',
   /**
