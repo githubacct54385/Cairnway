@@ -49,6 +49,26 @@ downloaded and the named works confirmed present. The ancient writers are cited 
 | Carl H. Kraeling, *The Christian Building* (Excavations at Dura-Europos, Final Report VIII, Part II, 1967) | Dura-Europos house church | Copyrighted; cited only. Bibliographic details to verify | not yet checked |
 | Dura-Europos house church (excavated 1930s, Yale and French Academy) | Earliest identified church building | Archaeological site; cited, not reproduced. Source to name | not yet checked |
 
+## Third era, about AD 313 to 451 (planned, not yet drafted)
+
+Editions chosen and licences checked on 2026-11-11 (CHR-12 follow-on). Each CCEL volume states "Rights: Public Domain" in
+its own header. Full texts were downloaded; wording of individual passages has not been checked yet.
+
+| Source | Use | License | Checked |
+| --- | --- | --- | --- |
+| Eusebius, *Life of Constantine*: [NPNF2 vol. 1](https://ccel.org/ccel/schaff/npnf201) | Constantine and Nicaea | Public domain (CCEL) | 2026-11-11 |
+| Socrates and Sozomen, *Church History*: [NPNF2 vol. 2](https://ccel.org/ccel/schaff/npnf202) | Arius, Nicaea, Julian, Constantinople | Public domain (CCEL) | 2026-11-11 |
+| Theodoret and others: [NPNF2 vol. 3](https://ccel.org/ccel/schaff/npnf203) | Theodosius and Ambrose | Public domain (CCEL) | 2026-11-11 |
+| Athanasius, *Life of Antony*, *Festal Letter* 39, *Apologia*: [NPNF2 vol. 4](https://ccel.org/ccel/schaff/npnf204) | Athanasius, monks, the list of New Testament books | Public domain (CCEL) | 2026-11-11 |
+| Jerome: [NPNF2 vol. 6](https://ccel.org/ccel/schaff/npnf206) | The Latin Bible | Public domain (CCEL) | 2026-11-11 |
+| Ambrose: [NPNF2 vol. 10](https://ccel.org/ccel/schaff/npnf210) | Ambrose and Theodosius | Public domain (CCEL) | 2026-11-11 |
+| Leo the Great: [NPNF2 vol. 12](https://ccel.org/ccel/schaff/npnf212) | Leo's Tome (Letter 28) | Public domain (CCEL) | 2026-11-11 |
+| *The Seven Ecumenical Councils*: [NPNF2 vol. 14](https://ccel.org/ccel/schaff/npnf214) | Nicaea, Constantinople, Ephesus, Chalcedon, African canons | Public domain (CCEL) | 2026-11-11 |
+| Augustine, *Confessions*: [NPNF1 vol. 1](https://ccel.org/ccel/schaff/npnf101); *City of God*: [vol. 2](https://ccel.org/ccel/schaff/npnf102) | Augustine; the sack of Rome | Public domain (CCEL) | 2026-11-11 |
+| Augustine against the Donatists: [NPNF1 vol. 4](https://ccel.org/ccel/schaff/npnf104); anti-Pelagian writings: [vol. 5](https://ccel.org/ccel/schaff/npnf105) | Donatists; Pelagius | Public domain (CCEL) | 2026-11-11 |
+| Julian, *Works*; Ammianus Marcellinus; *Theodosian Code* | Julian; the empire; Theodosius's laws | Not yet downloaded or checked | not yet checked |
+| Chadwick, *The Early Church*; Rowan Williams, *Arius*; Peter Brown, *Augustine of Hippo*; J. N. D. Kelly, *Early Christian Doctrines*; Timothy Barnes, *Constantine and Eusebius* | Framework and scholarly positions | Copyrighted; cited only. Bibliographic details to verify | not yet checked |
+
 ## Candidates still to review
 
 - Suetonius, life of Nero (older translation)
