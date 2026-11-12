@@ -5,6 +5,19 @@ import { SITE } from '../config';
 
 const eras = (await getCollection('eras')).sort((a, b) => a.data.order - b.data.order);
 const first = eras[0];
+const last = eras[eras.length - 1];
+const spanStart = first.data.startYear;
+const spanEnd = last.data.endYear;
+const span = spanEnd - spanStart;
+
+// Position on the bar, as a percentage of the whole span. The bar is drawn to scale: each era's width is its length in years.
+const at = (year: number) => ((year - spanStart) / span) * 100;
+
+// Century ticks. A tick is dropped if it would sit too close to the end label.
+const ticks = [500, 1000, 1500, 2000].filter((y) => y > spanStart && at(y) < 88);
+
+const ROMAN = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII', 'XIII', 'XIV', 'XV', 'XVI'];
+const numeral = (i: number) => ROMAN[i] ?? String(i + 1);
 ---
 
 <Base>
@@ -16,55 +29,52 @@ const first = eras[0];
     </div>
   </section>
 
-  <div class="wrap timeline-wrap">
-    <p class="timeline-label">Timeline, AD {eras[0].data.startYear} to {eras[eras.length - 1].data.endYear}</p>
-    <div class="timeline-scroll">
-      <div class="timeline-track" style={`--eras: ${eras.length}`}>
-        <nav class="timeline" aria-label="Timeline of eras">
-          {
-            eras.map((era) => (
-              <a
-                class="segment"
-                href={`#era-${era.id}`}
-                style={`flex-grow: ${era.data.endYear - era.data.startYear}`}
-                aria-label={`${era.data.title}, ${era.data.dateRange}`}
-              >
-                <span class="bar" />
-              </a>
-            ))
-          }
-        </nav>
-        <div class="timeline-years" aria-hidden="true">
+  <div class="home-wrap">
+    <section class="overview" aria-labelledby="timeline-heading">
+      <h2 id="timeline-heading" class="overview-title">Timeline, AD {spanStart} to {spanEnd}</h2>
+
+      <div class="scale" aria-hidden="true">
+        <div class="bar">
           {
             eras.map((era, i) => (
-              <span style={`flex-grow: ${era.data.endYear - era.data.startYear}`}>
-                <span class={`year tier-${i % 2}`}>{era.data.startYear}</span>
-              </span>
+              <span
+                class={`seg seg-${i % 2}`}
+                style={`left: ${at(era.data.startYear)}%; width: ${at(era.data.endYear) - at(era.data.startYear)}%;`}
+              />
             ))
           }
-          <span class="end">
-            <span class="year tier-2">{eras[eras.length - 1].data.endYear}</span>
-          </span>
+        </div>
+        <div class="ticks">
+          <span class="tick tick-start" style="left: 0%">{spanStart}</span>
+          {ticks.map((y) => <span class="tick" style={`left: ${at(y)}%`}>{y}</span>)}
+          <span class="tick tick-end" style={`left: 100%`}>{spanEnd}</span>
         </div>
       </div>
-    </div>
-    <p class="timeline-hint">Swipe the bar to see every era.</p>
-  </div>
+      <p class="scale-note">Drawn to scale: each era's width is its length in years. The list below gives every era in order.</p>
+    </section>
 
-  <div id="eras" class="wrap">
-    {
-      eras.map((era) => (
-        <section class="era-row" id={`era-${era.id}`} data-reveal>
-          <span class="range">{era.data.dateRange}</span>
-          <h2>{era.data.title}</h2>
-          <p>{era.data.summary}</p>
-          <p class="row-actions">
-            {era.data.draft && <span class="pill">Draft</span>}
-            <a class="button" href={`/eras/${era.id}/`}>Explore this era</a>
-          </p>
-        </section>
-      ))
-    }
+    <ol id="eras" class="era-list">
+      {
+        eras.map((era, i) => (
+          <li class="era-row" id={`era-${era.id}`} data-reveal>
+            <div class="era-meta">
+              <span class={`era-num seg-${i % 2}`} aria-hidden="true">{numeral(i)}</span>
+              <span class="range">{era.data.dateRange}</span>
+            </div>
+            <div class="era-body">
+              <h3><a href={`/eras/${era.id}/`}>{era.data.title}</a></h3>
+              <p>{era.data.summary}</p>
+              <p class="row-actions">
+                {era.data.draft && <span class="pill">Draft</span>}
+                <a class="read-link" href={`/eras/${era.id}/`}>
+                  Read this era <span aria-hidden="true" class="arrow">→</span>
+                </a>
+              </p>
+            </div>
+          </li>
+        ))
+      }
+    </ol>
     <p class="more-eras">More eras are on the way, one at a time.</p>
   </div>
 </Base>
@@ -82,119 +92,163 @@ const first = eras[0];
   .hero p {
     margin-bottom: 1rem;
   }
-  .timeline-wrap {
+
+  /* The home column is wider than the reading column, so the timeline and the era list
+     have room on tablet and desktop. Phones get the full width minus the gutter. */
+  .home-wrap {
+    width: min(100% - 2rem, 54rem);
+    margin-inline: auto;
+    padding-bottom: 3rem;
+  }
+
+  /* The scale: one bar for the whole span, drawn to scale. It never scrolls and never
+     overlaps, because it is always the width of the column. */
+  .overview {
     margin-bottom: 1.5rem;
   }
-  .timeline-label {
-    font-size: 0.8rem;
+  .overview-title {
+    font-size: 0.85rem;
+    font-family: system-ui, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
     color: var(--muted);
-    margin-bottom: 0.4rem;
+    margin: 0 0 0.6rem;
   }
-  /* One flex child per era. flex-grow is the era's length in years, so the bar is to scale. */
-  .timeline {
-    display: flex;
-    gap: 3px;
-  }
-  .segment {
-    display: flex;
-    align-items: center;
-    flex-basis: 0;
-    min-height: 44px;
-    min-width: 44px;
-    text-decoration: none;
-  }
-  .segment .bar {
-    display: block;
-    width: 100%;
-    height: 12px;
-    border-radius: 6px;
-    background: var(--accent);
-    opacity: 0.85;
-  }
-  .segment:hover .bar,
-  .segment:focus-visible .bar {
-    opacity: 1;
-    outline: 2px solid var(--fg);
-    outline-offset: 2px;
-  }
-  /* On a phone the bar scrolls inside its own box, so the page itself never scrolls.
-     The minimum width keeps every era's segment at least 44px wide. */
-  .timeline-scroll {
-    padding-bottom: 0.25rem;
-  }
-  .timeline-track {
-    min-width: calc(var(--eras) * 44px + (var(--eras) - 1) * 3px);
-  }
-  .timeline-hint {
-    display: none;
-    font-size: 0.8rem;
-    color: var(--muted);
-    margin-top: 0.3rem;
-  }
-  @media (max-width: 719px) {
-    .timeline-scroll {
-      overflow-x: auto;
-    }
-    .timeline-hint {
-      display: block;
-    }
-  }
-  /* Each year sits inside its era's segment, so it lines up with the bar. Labels alternate
-     between two tiers so neighbours never share a line. The end year gets a third tier. */
-  .timeline-years {
-    display: flex;
-    gap: 3px;
-    height: 3rem;
-    margin-top: 0.3rem;
-    font-size: 0.7rem;
-    color: var(--muted);
-  }
-  .timeline-years > span {
+  .scale {
     position: relative;
-    flex-basis: 0;
-    min-width: 0;
   }
-  .timeline-years > .end {
-    flex-grow: 0;
-    flex-basis: 0;
+  .bar {
+    position: relative;
+    height: 16px;
+    border-radius: 8px;
+    background: var(--rule);
+    overflow: hidden;
   }
-  .year {
+  .seg {
     position: absolute;
-    left: 0;
+    top: 0;
+    bottom: 0;
+    background: var(--accent);
+    border-right: 2px solid var(--bg);
+  }
+  .seg-1 {
+    opacity: 0.55;
+  }
+  .ticks {
+    position: relative;
+    height: 1.5rem;
+    margin-top: 0.35rem;
+    font-family: system-ui, sans-serif;
+    font-size: 0.75rem;
+    color: var(--muted);
+  }
+  .tick {
+    position: absolute;
+    top: 0;
+    transform: translateX(-50%);
     white-space: nowrap;
     line-height: 1;
+    padding-top: 0.3rem;
   }
-  .tier-0 {
-    top: 0;
+  .tick::before {
+    content: '';
+    position: absolute;
+    top: -0.35rem;
+    left: 50%;
+    width: 1px;
+    height: 0.3rem;
+    background: var(--muted);
   }
-  .tier-1 {
-    top: 1.05rem;
+  .tick-start {
+    transform: none;
   }
-  .tier-2 {
-    top: 2.1rem;
+  .tick-start::before {
+    left: 0;
   }
-  .timeline-years .end .year {
+  .tick-end {
+    transform: translateX(-100%);
+  }
+  .tick-end::before {
     left: auto;
     right: 0;
   }
-  .era-row {
-    border-top: 1px solid var(--rule);
-    padding: 1.1rem 0;
-  }
-  .era-row .range {
+  .scale-note {
+    font-family: system-ui, sans-serif;
     font-size: 0.8rem;
     color: var(--muted);
+    margin: 0.6rem 0 0;
   }
-  .era-row h2 {
-    margin: 0.2rem 0 0.4rem;
+
+  /* The era list. One row per era, in order. Each row is its own line, so nothing can overlap. */
+  .era-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .era-row {
+    display: grid;
+    gap: 0.5rem 2rem;
+    border-top: 1px solid var(--rule);
+    padding: 1.25rem 0;
+  }
+  .era-meta {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.25rem 0.75rem;
+  }
+  .era-num {
+    font-family: system-ui, sans-serif;
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: var(--accent);
+    min-width: 1.5rem;
+  }
+  .arrow {
+    margin-left: 0.1em;
+  }
+  .era-num.seg-1 {
+    opacity: 0.7;
+  }
+  .range {
+    font-family: system-ui, sans-serif;
+    font-size: 0.85rem;
+    color: var(--muted);
+  }
+  .era-body h3 {
+    font-size: 1.4rem;
+    margin: 0 0 0.35rem;
+  }
+  .era-body h3 a {
+    color: var(--fg);
+    text-decoration: none;
+  }
+  .era-body h3 a:hover,
+  .era-body h3 a:focus-visible {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+  }
+  .era-body p {
+    margin: 0 0 0.5rem;
   }
   .row-actions {
     display: flex;
     align-items: center;
-    gap: 0.6rem;
+    gap: 0.75rem 1rem;
     flex-wrap: wrap;
+    margin: 0;
+  }
+  .read-link {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    font-family: system-ui, sans-serif;
+    font-size: 0.95rem;
   }
   .pill {
+    font-family: system-ui, sans-serif;
     font-size: 0.75rem;
     padding: 0.15rem 0.6rem;
     border-radius: 999px;
@@ -206,6 +260,26 @@ const first = eras[0];
     font-size: 0.9rem;
     border-top: 1px solid var(--rule);
     padding-top: 1rem;
+    margin: 0;
+  }
+
+  /* Tablet and desktop: the dates sit in a left column, the era reads on the right. */
+  @media (min-width: 720px) {
+    .era-row {
+      grid-template-columns: 11rem 1fr;
+      align-items: start;
+    }
+    .era-meta {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.2rem;
+      padding-top: 0.2rem;
+    }
+    .era-num {
+      min-width: 0;
+    }
+    .era-body h3 {
+      font-size: 1.5rem;
+    }
   }
 </style>
-
