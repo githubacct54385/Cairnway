@@ -83,3 +83,16 @@ its own header. Full texts were downloaded; wording of individual passages has n
 | --- | --- | --- | --- |
 | Natural Earth | Base geography for maps | Public domain | not yet checked |
 | Pleiades gazetteer | Ancient place names and locations | CC BY (credit required) | not yet checked |
+
+## After Chalcedon, AD 451 to 600 (draft)
+
+Editions named here; licences checked on 2026-11-12 for the CCEL volumes (each states "Rights: Public Domain" in its
+header). Other editions are to be chosen and their licences recorded before any text is quoted.
+
+| Source | Use | License | Checked |
+| --- | --- | --- | --- |
+| Leo the Great, *Letters* and Gregory the Great, *Pastoral Rule*: [NPNF2 vol. 12](https://ccel.org/ccel/schaff/npnf212) | Leo's Tome; Pastoral Rule | Public domain (CCEL) | 2026-11-12 |
+| Gregory the Great, *Letters*: [NPNF2 vol. 13](https://ccel.org/ccel/schaff/npnf213) | The mission to the English; Augustine of Canterbury | Public domain (CCEL) | 2026-11-12 |
+| The Seven Ecumenical Councils: [NPNF2 vol. 14](https://ccel.org/ccel/schaff/npnf214) | The Second Council of Constantinople and the Three Chapters | Public domain (CCEL) | 2026-11-12 |
+| Corpus iuris civilis, Procopius, Gregory of Tours, Bede, Isidore, Boethius, Patrick, Gregory's *Dialogues* | Not yet drafted from full texts | To check | not yet checked |
+| Peter Brown, Averil Cameron, Richard Fletcher, Ian Wood | Further reading | Copyrighted; cited only | not yet checked |
