@@ -15,13 +15,18 @@ The site is plain static files, served by a Cloudflare Worker called `ancient-pa
    automatically. Marking a draft "Ready for review" runs the build again and merges it.
 3. The `Deploy` workflow (`deploy.yml`) builds `main` and uploads it to Cloudflare as a new version, tagged with its
    commit. That version appears at the **staging** address. It is not live yet.
-4. Open the staging address and check the change.
+4. Open the staging address and check the change. Links to it: the **View deployment** button on the `Deploy` run's
+   page, the **Deployments** list on the repository's home page (under "staging"), or the run's summary. In the
+   Cloudflare dashboard, each uploaded version is listed under the Worker's **Deployments** tab with its own preview
+   link, but the staging address itself is always the one above.
 5. To publish it, open the `Deploy` run in the repository's Actions tab, click **Review deployments**, tick
    **production** and click **Approve and deploy**. GitHub also notifies the reviewer when a run is waiting. The exact
    version you checked on staging becomes the live site; nothing is rebuilt.
 
-If several changes merge before you approve, only the newest one waits; older waiting runs are cancelled. To undo a
-release, open the Worker's **Deployments** tab in the Cloudflare dashboard and roll back to an earlier version.
+If several changes merge before you approve, GitHub queues their runs: the newest waits behind the oldest. Approving a
+run whose commit is no longer the newest on `main` deploys nothing and reports "superseded"; then approve the newest
+run, which shows what staging shows. To undo a release, open the Worker's **Deployments** tab in the Cloudflare
+dashboard and roll back to an earlier version.
 
 ## One-time setup
 
