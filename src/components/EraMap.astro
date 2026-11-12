@@ -93,6 +93,66 @@ const clipId = `land-${m.id}`;
   }
 </figure>
 
+<script>
+  // Keeps map labels and city names inside the map frame at any width. Labels that would run past
+  // an edge are shifted in, and city names on the right flip to the left of their dot.
+  const PAD = 4;
+
+  function fitFrame(frame: HTMLElement) {
+    const fr = frame.getBoundingClientRect();
+    if (!fr.width) return;
+
+    frame.querySelectorAll<HTMLElement>('.map-pin').forEach((pin) => {
+      pin.dataset.side ??= pin.className.match(/side-(\w+)/)?.[1] ?? 'right';
+      const original = pin.dataset.side;
+      pin.classList.remove('side-left', 'side-right');
+      pin.classList.add(`side-${original}`);
+      const name = pin.querySelector<HTMLElement>('.name');
+      if (!name || (original !== 'right' && original !== 'left')) return;
+      const overflows = () => {
+        const r = name.getBoundingClientRect();
+        return r.left < fr.left + PAD || r.right > fr.right - PAD;
+      };
+      if (overflows()) {
+        const other = original === 'right' ? 'left' : 'right';
+        pin.classList.replace(`side-${original}`, `side-${other}`);
+        if (overflows()) pin.classList.replace(`side-${other}`, `side-${original}`);
+      }
+    });
+
+    frame.querySelectorAll<HTMLElement>('.map-label').forEach((el) => {
+      el.style.translate = '';
+      const r = el.getBoundingClientRect();
+      let dx = 0;
+      let dy = 0;
+      if (r.left < fr.left + PAD) dx = fr.left + PAD - r.left;
+      else if (r.right > fr.right - PAD) dx = fr.right - PAD - r.right;
+      if (r.top < fr.top + PAD) dy = fr.top + PAD - r.top;
+      else if (r.bottom > fr.bottom - PAD) dy = fr.bottom - PAD - r.bottom;
+      if (dx || dy) el.style.translate = `${dx}px ${dy}px`;
+    });
+  }
+
+  function fitAll() {
+    document.querySelectorAll<HTMLElement>('.era-map-frame').forEach(fitFrame);
+  }
+
+  let queued = false;
+  function scheduleFit() {
+    if (queued) return;
+    queued = true;
+    requestAnimationFrame(() => {
+      queued = false;
+      fitAll();
+    });
+  }
+
+  fitAll();
+  window.addEventListener('load', fitAll);
+  window.addEventListener('resize', scheduleFit);
+  document.fonts?.ready.then(fitAll);
+</script>
+
 <style>
   .era-map {
     --map-w: min(100vw - 2rem, 60rem);
