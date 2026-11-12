@@ -1,17 +1,17 @@
 ---
 title: "From Charlemagne to the Great Schism"
-summary: "AD 800 to 1054: a Frankish emperor is crowned in Rome, the Carolingian empire splits, the East and West argue over images and the papacy, monks reform the church from Cluny, and in 1054 the two churches excommunicate each other."
+summary: "AD 800 to 1054: a Frankish king is made emperor in Rome, the Carolingian empire splits, the East and West argue over images and the papacy, monks reform the church from Cluny, and in 1054 the two churches excommunicate each other."
 dateRange: "AD 800 to AD 1054"
 order: 6
 startYear: 800
 endYear: 1054
 draft: true
-reviewStatus: "Draft, written 2026-11-12 from docs/PLAN-sixth-era.md. No source for this era has been fetched or read. Every date, event, person and claim is from the drafter's general knowledge and is not yet checked against a source. No specialist has reviewed this page."
+reviewStatus: "Draft, written 2026-11-12 from docs/PLAN-sixth-era.md. One event was checked against the full text of Einhard's Life of Charlemagne (Grant's edition, Project Gutenberg 48870), chapter 28: the surprise at the title, the Greeks' envy, and the pope's declaration in Rome. Einhard does not say the pope crowned him or give Christmas Day; that date is the editor's note. Every other date, event, person and claim is from the drafter's general knowledge and is not yet checked. No specialist has reviewed this page."
 keyPeople:
   - name: "Charlemagne"
     role: "King of the Franks; emperor from 800"
-    summary: "Ruled a kingdom covering much of western Europe. He was crowned emperor in Rome on Christmas Day 800, by Pope Leo III. He promoted church reform, schools and a common liturgy. The details of the coronation itself are debated."
-    source: "Not yet checked (Einhard, Life of Charlemagne, to be fetched)"
+    summary: "Ruled a kingdom covering much of western Europe. In Rome in 800 the pope declared him emperor before the assembled people. Einhard says Charlemagne had no notice of it and took the title without thanks. He promoted church reform, schools and a common liturgy."
+    source: "Einhard, Life of Charlemagne, chapter 28 (Grant's edition, checked for the title and the reaction); the reform details are not yet checked"
   - name: "Alcuin of York"
     role: "Scholar and adviser at the Frankish court"
     summary: "Led the court school at Aachen and helped set out the Carolingian programme of education, correct texts and reform the liturgy. His role in the reforms is well known; the details are not yet checked."
@@ -33,10 +33,10 @@ keyPeople:
     summary: "A reforming pope who travelled widely, held councils against simony and clerical marriage, and sent legates to Constantinople. His legate Humbert excommunicated Michael Cerularius in 1054. The sequence is from general knowledge and not yet checked."
     source: "Not yet checked"
 events:
-  - date: "AD 800 (unchecked)"
-    title: "West: Charlemagne crowned emperor"
-    summary: "Pope Leo III crowned Charlemagne emperor in Rome on Christmas Day. The coronation was given a new meaning in the West: a Frankish ruler now stood as the successor of the Roman emperors. The Byzantine court did not accept this claim easily."
-    source: "Not yet checked (Einhard, Life of Charlemagne 28, to be fetched)"
+  - date: "AD 800 (checked, except the date)"
+    title: "West: Charlemagne made emperor"
+    summary: "In Rome, the bishop of the apostolic see declared Charlemagne emperor and defender of the Roman church, in the presence of the people and his knights. Einhard says Charlemagne had no idea it was coming and received the title without thanks, because he expected the Greeks to be more hostile. Einhard does not describe a crowning. The date, Christmas Day, comes from the editor's note, and Pope Leo III's part is not in Einhard's text."
+    source: "Einhard, Life of Charlemagne, chapter 28 (Grant's edition, Project Gutenberg 48870, checked); the Christmas date is from the editor's note 68, not Einhard"
   - date: "AD 843 (unchecked)"
     title: "West: The Treaty of Verdun"
     summary: "Charlemagne's grandsons divided his empire into three parts. The division is the start of the later kingdoms of France and Germany, and the middle kingdom between them was the source of many later disputes. The date and terms are not yet checked."
@@ -74,11 +74,12 @@ events:
     summary: "Legates of Pope Leo IX, led by Humbert, placed a bull of excommunication on the altar of Hagia Sophia against Patriarch Michael Cerularius. He answered by excommunicating the legates. The bull and the mutual excommunications are widely cited as the formal break. Scholars debate whether the break was intended or lasting at the time; this page does not yet decide that."
     source: "Not yet checked"
 sources:
-  - title: "Life of Charlemagne"
-    author: "Einhard (to be chosen as a public-domain translation)"
-    license: "To check. Each edition's licence must be recorded before its text is quoted"
-    checked: "not yet checked"
-    usedFor: "Charlemagne and the coronation"
+  - title: "Early Lives of Charlemagne (Einhard's Life, edited by A. J. Grant)"
+    author: "Einhard; edited by Prof. A. J. Grant (Project Gutenberg, ebook 48870)"
+    url: "https://www.gutenberg.org/ebooks/48870"
+    license: "Public domain (Project Gutenberg). The translation and editor's notes to be checked before any quotation"
+    checked: "2026-11-12"
+    usedFor: "Charlemagne's title in 800; Einhard's reaction (chapter 28)"
   - title: "Photius's letters and the Filioque dispute"
     author: "To be chosen"
     license: "To check"
@@ -105,7 +106,7 @@ No sources for this era have been read yet. The sources to be fetched are listed
 
 ### What did the coronation of 800 mean?
 
-Charlemagne's coronation is traditionally said to have surprised him. Its meaning is debated: whether it was the pope's idea, whether it asserted papal authority over emperors, and how the Byzantine court received it. This page does not yet settle these questions.
+Einhard says Charlemagne was surprised by the title and would have preferred not to receive it so openly, because he feared the Greeks would react with hostility. Its meaning is debated: whether it was the pope's idea, whether it asserted papal authority over emperors, and how the Byzantine court received it. Einhard's account supports the Greek hostility only in part; this page does not yet settle these questions.
 
 ### Who should choose the pope?
 

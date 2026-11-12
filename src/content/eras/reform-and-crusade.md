@@ -6,7 +6,7 @@ order: 7
 startYear: 1054
 endYear: 1215
 draft: true
-reviewStatus: "Draft, written 2026-11-12 from docs/PLAN-seventh-era.md. No source for this era has been fetched or read. Every date, event, person and claim is from the drafter's general knowledge and is not yet checked against a source. No specialist has reviewed this page."
+reviewStatus: "Draft, written 2026-11-12 from docs/PLAN-seventh-era.md. Three claims about the Fourth Lateran Council were checked against the canons (Schroeder's translation, Fordham Internet History Sourcebook): the annual confession (Canon 21), the Eucharist doctrine (Canon 1) and the call for a crusade (the Holy Land decrees). Every other date, event, person and claim is from the drafter's general knowledge and is not yet checked. The translation's licence is not yet checked. No specialist has reviewed this page."
 keyPeople:
   - name: "Gregory VII"
     role: "Pope, 1073 to 1085"
@@ -77,10 +77,10 @@ events:
     title: "West: The Franciscan rule is approved"
     summary: "Innocent III gave oral approval to Francis's way of life. The friars spread rapidly, and a new kind of preaching and pastoral care began. The date is traditional and not yet checked."
     source: "Not yet checked"
-  - date: "AD 1215 (unchecked)"
+  - date: "AD 1215 (checked)"
     title: "Both: The Fourth Lateran Council"
-    summary: "The largest medieval council set out doctrine on the Eucharist and the sacraments, required each Christian to confess at least once a year, and called for a new crusade. The canons are the main source for the council's teaching; they are not yet checked."
-    source: "Not yet checked (canons, to be fetched)"
+    summary: "The council set out doctrine on the Eucharist (Canon 1 says the bread is changed by divine power into the body of Christ), required each Christian to confess to their own priest at least once a year (Canon 21), and issued decrees preparing a crusade to the Holy Land. The council's date and attendance are not yet checked."
+    source: "Canons of the Fourth Lateran Council, Schroeder's translation (Fordham Internet History Sourcebook), Canons 1 and 21 and the Holy Land decrees (checked)"
 sources:
   - title: "Register of Gregory VII"
     author: "To be chosen as a public-domain translation"
@@ -97,11 +97,12 @@ sources:
     license: "To check"
     checked: "not yet checked"
     usedFor: "The Fourth Crusade"
-  - title: "Canons of the Fourth Lateran Council"
-    author: "To be chosen"
-    license: "To check"
-    checked: "not yet checked"
-    usedFor: "1215"
+  - title: "Canons of the Fourth Lateran Council, 1215"
+    author: "Translated by H. J. Schroeder (Fordham University, Internet History Sourcebook)"
+    url: "https://sourcebooks.fordham.edu/halsall/basis/lateran4.asp"
+    license: "To check: the translation's copyright status is not yet recorded"
+    checked: "2026-11-12"
+    usedFor: "Canons 1 and 21, and the Holy Land decrees"
   - title: "Modern studies of the period"
     author: "R. I. Moore; Christopher Tyerman; Giles Constable"
     license: "Copyrighted; cited only, never reproduced"

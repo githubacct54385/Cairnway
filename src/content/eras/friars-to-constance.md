@@ -6,7 +6,7 @@ order: 8
 startYear: 1215
 endYear: 1417
 draft: true
-reviewStatus: "Draft, written 2026-11-12 from docs/PLAN-eighth-era.md. No source for this era has been fetched or read. Every date, event, person and claim is from the drafter's general knowledge and is not yet checked against a source. No specialist has reviewed this page."
+reviewStatus: "Draft, written 2026-11-12 from docs/PLAN-eighth-era.md. The 1215 council's confession requirement and crusade call were checked against the canons (Fordham Internet History Sourcebook). Aquinas's Summa Theologiae was not checked: the CCEL page loads its text by script and its translation credit could not be read. Every other date, event, person and claim is from the drafter's general knowledge and is not yet checked. No specialist has reviewed this page."
 keyPeople:
   - name: "Dominic and Francis"
     role: "Founders of the Dominican and Franciscan friars"
@@ -33,10 +33,10 @@ keyPeople:
     summary: "Elected at the Council of Constance, ending the Great Western Schism. Details not yet checked."
     source: "Not yet checked"
 events:
-  - date: "AD 1215 (unchecked)"
-    title: "Both: The Fourth Lateran Council closes the last era"
-    summary: "The council set the frame for this era: an annual confession for every Christian, a stronger line on heresy, and a call for a new crusade. The canons are not yet checked here."
-    source: "Not yet checked"
+  - date: "AD 1215 (checked)"
+    title: "Both: The Fourth Lateran Council opens this era"
+    summary: "The council required each Christian to confess to their own priest at least once a year (Canon 21), and issued decrees preparing a crusade to the Holy Land. A strong line on heresy is in Canon 3; its details are not yet checked here."
+    source: "Canons of the Fourth Lateran Council, Schroeder's translation (Fordham), Canons 3, 21 and the Holy Land decrees (checked)"
   - date: "AD 1216 (unchecked)"
     title: "West: Dominic's order is approved"
     summary: "The pope approved the Order of Preachers, founded by Dominic to preach against heresy and to teach. Its friars became prominent in the universities. The date is not yet checked."
