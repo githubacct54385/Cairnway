@@ -36,6 +36,10 @@ const eras = defineCollection({
     flags: z
       .array(z.object({ text: z.string(), severity: z.enum(['high', 'medium', 'note']) }))
       .default([]),
+    // Optional images from the period, shown on the page. Each needs a licence recorded in docs/IMAGES.md.
+    figures: z
+      .array(z.object({ image: z.string(), alt: z.string(), caption: z.string(), credit: z.string(), licence: z.string() }))
+      .default([]),
     keyPeople: z
       .array(z.object({ name: z.string(), role: z.string(), summary: z.string(), source: z.string() }))
       .default([]),
