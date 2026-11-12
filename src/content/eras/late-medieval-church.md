@@ -14,6 +14,7 @@ flags:
     severity: "high"
   - text: "Length (100 years) to be confirmed by the owner"
     severity: "note"
+overviewMap: "late-medieval-europe"
 figures: []
 keyPeople:
   - name: "Martin V"
