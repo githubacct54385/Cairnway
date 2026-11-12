@@ -96,3 +96,15 @@ header). Other editions are to be chosen and their licences recorded before any 
 | The Seven Ecumenical Councils: [NPNF2 vol. 14](https://ccel.org/ccel/schaff/npnf214) | The Second Council of Constantinople and the Three Chapters | Public domain (CCEL) | 2026-11-12 |
 | Corpus iuris civilis, Procopius, Gregory of Tours, Bede, Isidore, Boethius, Patrick, Gregory's *Dialogues* | Not yet drafted from full texts | To check | not yet checked |
 | Peter Brown, Averil Cameron, Richard Fletcher, Ian Wood | Further reading | Copyrighted; cited only | not yet checked |
+
+## Gregory to Charlemagne, AD 600 to 800 (draft)
+
+Editions named here; licences checked on 2026-11-12. Bede (Sellar translation) is a Project Gutenberg text (ebook 38326);
+the CCEL volume states "Rights: Public Domain" in its header. Other editions to be chosen and licensed before quoting.
+
+| Source | Use | License | Checked |
+| --- | --- | --- | --- |
+| Bede, *Ecclesiastical History of England*, Sellar translation: [Gutenberg 38326](https://www.gutenberg.org/ebooks/38326) | Augustine's mission; the Synod of Whitby | Public domain (Project Gutenberg) | 2026-11-12 |
+| The Seven Ecumenical Councils: [NPNF2 vol. 14](https://ccel.org/ccel/schaff/npnf214) | The Sixth and Seventh Councils | Public domain (CCEL) | 2026-11-12 |
+| Theophanes; Sophronius; Einhard; Isidore; the Lateran council and Maximus | Not yet drafted from full texts | To check | not yet checked |
+| Peter Brown, Judith Herrin, Richard Fletcher, Averil Cameron | Further reading | Copyrighted; cited only | not yet checked |
