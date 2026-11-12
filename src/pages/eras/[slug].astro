@@ -11,7 +11,7 @@ export async function getStaticPaths() {
 
 const { era } = Astro.props;
 const { Content } = await render(era);
-const { title, summary, dateRange, draft, reviewStatus, overviewMap, mapSection, keyPeople, events, sources } = era.data;
+const { title, summary, dateRange, draft, reviewStatus, overviewMap, mapSection, figures, keyPeople, events, sources } = era.data;
 type MapId = ComponentProps<typeof EraMap>['id'];
 ---
 
@@ -30,6 +30,25 @@ type MapId = ComponentProps<typeof EraMap>['id'];
     }
 
     {overviewMap && <EraMap id={overviewMap as MapId} as="h2" />}
+
+    {
+      figures.length > 0 && (
+        <section data-reveal class="figures">
+          <h2>Images from the period</h2>
+          <div class="figure-grid">
+            {figures.map((f) => (
+              <figure>
+                <img src={f.image} alt={f.alt} loading="lazy" />
+                <figcaption>
+                  {f.caption}
+                  <div class="meta">{f.credit}. Licence: {f.licence}.</div>
+                </figcaption>
+              </figure>
+            ))}
+          </div>
+        </section>
+      )
+    }
 
     <div data-reveal>
       <Content />
@@ -106,3 +125,24 @@ type MapId = ComponentProps<typeof EraMap>['id'];
     }
   </article>
 </Base>
+
+<style>
+  .figure-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.25rem;
+  }
+  .figure-grid figure {
+    margin: 0;
+  }
+  .figure-grid img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  .figure-grid figcaption {
+    font-size: 0.9rem;
+    margin-top: 0.4rem;
+  }
+</style>
