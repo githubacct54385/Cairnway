@@ -49,3 +49,13 @@ Licence checks: Met rows from the Met Open Access flag (public domain, CC0), che
 | `public/era-art/reason-and-revival/met-champaigne-annunciation.jpg` | Philippe de Champaigne, The Annunciation, ca. 1644, oil on oak; Metropolitan Museum of Art, Open Access (object 438724) | CC0 | 2026-11-12 | Era page (Reason and Revival) |
 | `public/era-art/reason-and-revival/met-peter-great-ivory.jpg` | Peter the Great, late 18th to early 19th century, walrus ivory; Metropolitan Museum of Art, Open Access (object 205473) | CC0 | 2026-11-12 | Era page (Reason and Revival) |
 | `public/era-art/reason-and-revival/met-devotional-madonna-paradise.jpg` | Anonymous German, The Madonna of Paradise (Our Lady of Good Counsel), 18th century, mixed media; Metropolitan Museum of Art, Open Access (object 785981) | CC0 | 2026-11-12 | Era page (Reason and Revival) |
+
+## Added for era 9 (late medieval church)
+
+Licence checks: Met rows from the Met Open Access flag (public domain, CC0), checked on 2026-11-12 with the Met's object record. Captions are drafted and not yet checked against the record.
+
+| File on site | Credit | Licence | Checked | Used on |
+| --- | --- | --- | --- | --- |
+| `public/era-art/late-medieval-church/met-bernardino-preaching.jpg` | Francesco di Giorgio Martini, Saint Bernardino Preaching from a Pulpit, ca. 1470 to 1475, tempera on parchment; Metropolitan Museum of Art, Open Access (object 461450) | CC0 | 2026-11-12 | Era page (late medieval church) |
+| `public/era-art/late-medieval-church/met-savonarola-medal.jpg` | Niccolò Fiorentino, Girolamo Savonarola, late 15th century, bronze; Metropolitan Museum of Art, Open Access (object 200635) | CC0 | 2026-11-12 | Era page (late medieval church) |
+| `public/era-art/late-medieval-church/met-byzantine-hodegetria-icon.jpg` | Icon of the Virgin and Child, Hodegetria variant, 13th century (Byzantine or Crusader), tempera on wood; Metropolitan Museum of Art, Open Access (object 831188) | CC0 | 2026-11-12 | Era page (late medieval church) |
