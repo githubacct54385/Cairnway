@@ -16,8 +16,8 @@ and its sources and people are not yet settled. That history is best left for a 
 ## Decisions (owner, to confirm)
 
 1. **Start: AD 1945.**
-2. **End: AD 1989** (the fall of the Berlin Wall). Alternatives: 1991 (the end of the Soviet Union) or the present day. The
-   recommendation is 1989, leaving 1989 onwards for a later era, so the page does not have to give a verdict on living
+2. **End: AD 1989** (the fall of the Berlin Wall). **Decided:** 1989, leaving 1989 onwards for a later era, so the page does
+   not have to give a verdict on living
    figures.
 3. **Length: 44 years.** Shorter than most eras, so it can have more detail on each event.
 4. **East is in scope**, with the Eastern churches under communism: the Russian Orthodox Church under Soviet control, the

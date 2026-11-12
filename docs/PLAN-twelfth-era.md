@@ -16,7 +16,7 @@ years. Both are dated **U** and need checking.
 
 ## Decisions (owner, to confirm)
 
-1. **Start: AD 1789**, following the eleventh era. This depends on the open question there (1789 or 1790).
+1. **Start: AD 1789**, following the eleventh era. **Decided:** the eleventh era ends at 1789, so this era begins there.
 2. **End: AD 1870** (Vatican I and the fall of Rome). The alternative, 1848 (the revolutions), would split the Restoration
    from the papal crisis that followed it, so it is not recommended.
 3. **Length: 81 years.**
