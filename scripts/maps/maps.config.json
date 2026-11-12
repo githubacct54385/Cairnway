@@ -503,6 +503,22 @@
     "Medellín": [
       -75.57,
       6.25
+    ],
+    "Dorylaeum": [
+      30.52,
+      39.77
+    ],
+    "Heraclea": [
+      33.2,
+      37.18
+    ],
+    "Ascalon": [
+      34.65,
+      31.67
+    ],
+    "Edessa": [
+      38.79,
+      37.15
     ]
   },
   "labels": [
@@ -517,7 +533,8 @@
         "europe-1914",
         "europe-1933-1945",
         "europe-divided-1950",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -531,7 +548,8 @@
         "europe-1914",
         "europe-1933-1945",
         "europe-divided-1950",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -547,7 +565,8 @@
         "europe-1914",
         "europe-1933-1945",
         "europe-divided-1950",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -563,7 +582,8 @@
         "europe-1914",
         "europe-1933-1945",
         "europe-divided-1950",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -579,7 +599,8 @@
         "europe-1914",
         "europe-1933-1945",
         "europe-divided-1950",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -595,7 +616,8 @@
         "europe-1914",
         "europe-1933-1945",
         "europe-divided-1950",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -612,7 +634,8 @@
         "europe-1914",
         "europe-1933-1945",
         "europe-divided-1950",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -631,7 +654,8 @@
         "europe-1914",
         "europe-1933-1945",
         "europe-divided-1950",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -698,7 +722,8 @@
         "europe-1914",
         "europe-1933-1945",
         "europe-divided-1950",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -714,7 +739,8 @@
         "europe-1914",
         "europe-1933-1945",
         "europe-divided-1950",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -771,7 +797,8 @@
         "europe-1914",
         "europe-1933-1945",
         "europe-divided-1950",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -787,7 +814,8 @@
         "europe-1914",
         "europe-1933-1945",
         "europe-divided-1950",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -816,7 +844,8 @@
         "europe-1914",
         "europe-1933-1945",
         "europe-divided-1950",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -832,7 +861,8 @@
         "europe-1914",
         "europe-1933-1945",
         "europe-divided-1950",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -848,7 +878,8 @@
         "europe-1914",
         "europe-1933-1945",
         "europe-divided-1950",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -864,7 +895,8 @@
         "europe-1914",
         "europe-1933-1945",
         "europe-divided-1950",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -880,7 +912,8 @@
         "europe-1914",
         "europe-1933-1945",
         "europe-divided-1950",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -896,7 +929,8 @@
         "europe-1914",
         "europe-1933-1945",
         "europe-divided-1950",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -912,7 +946,8 @@
         "europe-1914",
         "europe-1933-1945",
         "europe-divided-1950",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -928,7 +963,8 @@
         "europe-1914",
         "europe-1933-1945",
         "europe-divided-1950",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -942,7 +978,8 @@
         "balkans-1821-1870",
         "ottoman-balkans-1878",
         "europe-1933-1945",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -955,7 +992,8 @@
         "balkans-1821-1870",
         "ottoman-balkans-1878",
         "europe-1933-1945",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -985,7 +1023,8 @@
         "ottoman-balkans-1878",
         "europe-1914",
         "europe-1933-1945",
-        "europe-divided-1950"
+        "europe-divided-1950",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -1013,7 +1052,8 @@
         "balkans-1821-1870",
         "ottoman-balkans-1878",
         "europe-1914",
-        "europe-1933-1945"
+        "europe-1933-1945",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -1039,7 +1079,8 @@
         "papal-states-1789-1870",
         "balkans-1821-1870",
         "ottoman-balkans-1878",
-        "europe-1914"
+        "europe-1914",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -1066,7 +1107,8 @@
         "papal-states-1789-1870",
         "europe-1933-1945",
         "europe-divided-1950",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -1097,7 +1139,8 @@
         "europe-1914",
         "europe-1933-1945",
         "europe-divided-1950",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -1126,7 +1169,8 @@
         "ottoman-balkans-1878",
         "europe-1914",
         "europe-1933-1945",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -1157,7 +1201,8 @@
         "europe-1914",
         "europe-1933-1945",
         "europe-divided-1950",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -1187,7 +1232,8 @@
         "ottoman-balkans-1878",
         "europe-1914",
         "europe-1933-1945",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -1219,7 +1265,8 @@
         "ottoman-balkans-1878",
         "europe-1914",
         "europe-divided-1950",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -1250,7 +1297,8 @@
         "europe-1914",
         "europe-1933-1945",
         "europe-divided-1950",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -1279,7 +1327,8 @@
         "ottoman-balkans-1878",
         "europe-1914",
         "europe-1933-1945",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -1307,7 +1356,8 @@
         "papal-states-1789-1870",
         "balkans-1821-1870",
         "europe-divided-1950",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -1336,7 +1386,8 @@
         "balkans-1821-1870",
         "ottoman-balkans-1878",
         "europe-1933-1945",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -1368,7 +1419,8 @@
         "ottoman-balkans-1878",
         "europe-1914",
         "europe-divided-1950",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -1399,7 +1451,8 @@
         "ottoman-balkans-1878",
         "europe-1914",
         "europe-divided-1950",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -1413,7 +1466,8 @@
         "europe-1914",
         "europe-1933-1945",
         "europe-divided-1950",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -1428,7 +1482,8 @@
         "europe-1914",
         "europe-1933-1945",
         "europe-divided-1950",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -1443,7 +1498,8 @@
         "europe-1914",
         "europe-1933-1945",
         "europe-divided-1950",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -1458,7 +1514,8 @@
         "europe-1914",
         "europe-1933-1945",
         "europe-divided-1950",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -1473,7 +1530,8 @@
         "europe-1914",
         "europe-1933-1945",
         "europe-divided-1950",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -1487,7 +1545,8 @@
         "ottoman-balkans-1878",
         "europe-1933-1945",
         "europe-divided-1950",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -1502,7 +1561,8 @@
         "europe-1914",
         "europe-1933-1945",
         "europe-divided-1950",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -1515,7 +1575,8 @@
         "europe-1914",
         "europe-1933-1945",
         "europe-divided-1950",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -1529,7 +1590,8 @@
         "europe-1914",
         "europe-1933-1945",
         "europe-divided-1950",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -1543,7 +1605,8 @@
         "europe-1914",
         "europe-1933-1945",
         "europe-divided-1950",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -1557,7 +1620,8 @@
         "europe-1914",
         "europe-1933-1945",
         "europe-divided-1950",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -1572,7 +1636,8 @@
         "europe-1914",
         "europe-1933-1945",
         "europe-divided-1950",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -1586,7 +1651,8 @@
         "balkans-1821-1870",
         "europe-1933-1945",
         "europe-divided-1950",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -1599,7 +1665,8 @@
         "papal-states-1789-1870",
         "balkans-1821-1870",
         "ottoman-balkans-1878",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -1614,7 +1681,8 @@
         "ottoman-balkans-1878",
         "europe-1914",
         "europe-divided-1950",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -1628,7 +1696,8 @@
         "balkans-1821-1870",
         "ottoman-balkans-1878",
         "europe-1914",
-        "central-europe-1956-1989"
+        "central-europe-1956-1989",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -1643,7 +1712,8 @@
         "ottoman-balkans-1878",
         "europe-1914",
         "europe-1933-1945",
-        "europe-divided-1950"
+        "europe-divided-1950",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -1658,7 +1728,8 @@
         "ottoman-balkans-1878",
         "europe-1914",
         "europe-1933-1945",
-        "europe-divided-1950"
+        "europe-divided-1950",
+        "first-crusade-1096-1099"
       ]
     },
     {
@@ -1673,8 +1744,15 @@
         "ottoman-balkans-1878",
         "europe-1914",
         "europe-1933-1945",
-        "europe-divided-1950"
+        "europe-divided-1950",
+        "first-crusade-1096-1099"
       ]
+    },
+    {
+      "text": "Anatolia",
+      "kind": "region",
+      "lon": 33.0,
+      "lat": 39.4
     }
   ],
   "maps": [
@@ -3278,6 +3356,83 @@
         {
           "place": "Bucharest",
           "side": "right"
+        }
+      ]
+    },
+    {
+      "id": "first-crusade-1096-1099",
+      "title": "The First Crusade, 1096 to 1099",
+      "intro": "The route of the crusading armies from Constantinople to Jerusalem, with the battles and sieges that marked it. The route is simplified and straight between places; the battle sites and dates are not yet checked.",
+      "bbox": [
+        25,
+        29.5,
+        40,
+        43
+      ],
+      "refPrefix": "",
+      "route": [
+        "Constantinople",
+        "Nicaea",
+        "Dorylaeum",
+        "Iconium",
+        "Heraclea",
+        "Tarsus",
+        "Antioch",
+        "Jerusalem",
+        "Ascalon"
+      ],
+      "stops": [
+        {
+          "place": "Nicaea",
+          "side": "left",
+          "ref": "Gesta Francorum, to check",
+          "note": "Besieged from May 1097 and surrendered in June to the Byzantine emperor, not to the crusaders"
+        },
+        {
+          "place": "Dorylaeum",
+          "side": "right",
+          "ref": "Gesta Francorum, to check",
+          "note": "Battle in July 1097, where the crusaders defeat the Seljuk army after a surprise attack"
+        },
+        {
+          "place": "Antioch",
+          "side": "right",
+          "ref": "Gesta Francorum, to check",
+          "note": "Siege from October 1097; the city is taken in June 1098 and the army is then besieged inside it"
+        },
+        {
+          "place": "Jerusalem",
+          "side": "right",
+          "ref": "Raymond of Aguilers, to check",
+          "note": "Captured on 15 July 1099 after a siege; the chroniclers describe the killing that followed"
+        },
+        {
+          "place": "Ascalon",
+          "side": "right",
+          "ref": "Fulcher of Chartres, to check",
+          "note": "Battle in August 1099, where the crusaders defeat the Fatimid army"
+        }
+      ],
+      "cities": [
+        {
+          "place": "Constantinople",
+          "side": "right"
+        },
+        {
+          "place": "Edessa",
+          "side": "right"
+        },
+        {
+          "place": "Iconium",
+          "side": "right"
+        },
+        {
+          "place": "Heraclea",
+          "side": "left"
+        },
+        {
+          "place": "Tarsus",
+          "side": "left"
         }
       ]
     }
