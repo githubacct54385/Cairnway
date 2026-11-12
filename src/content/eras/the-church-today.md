@@ -6,9 +6,9 @@ order: 15
 startYear: 1989
 endYear: 2026
 draft: true
-reviewStatus: "Draft, written 2026-11-12 from docs/PLAN-fifteenth-era.md. Figures checked against news coverage on 2026-11-12, not the reports themselves: Pew's 2025 report on Christian population change (2010 to 2020), Open Doors' 2026 World Watch List, and the 2025 papal succession (Francis died 21 April 2025; Leo XIV elected 8 May 2025). Every other date, name and claim is from the drafter's general knowledge and is unchecked, including the dates of the denominational decisions and the abuse reports. No specialist has reviewed this page. Living people are described only by their public actions and statements, and each statement needs its source before publication."
+reviewStatus: "Draft, written 2026-11-12 from docs/PLAN-fifteenth-era.md. Pew's 2025 report on Christian population change (2010 to 2020) checked against the report on 2026-11-12. Open Doors' 2026 World Watch List figures are from news coverage only, because the Open Doors pages could not be read that day. The 2025 papal succession is checked against news coverage (Francis died 21 April 2025; Leo XIV elected 8 May 2025). Every other date, name and claim is from the drafter's general knowledge and is unchecked, including the dates of the denominational decisions and the abuse reports. No specialist has reviewed this page. Living people are described only by their public actions and statements, and each statement needs its source before publication."
 flags:
-  - text: "The membership and persecution figures come from news coverage of the Pew (2025) and Open Doors (2026) reports, not from the reports themselves. Read both reports before publication. Counts vary widely between reports, so each figure must keep its report and date."
+  - text: "The Pew membership figures are now checked against the report itself. The Open Doors persecution figures are still from news coverage: the Open Doors pages could not be read on 2026-11-12. Read the Open Doors list before publication. Counts vary widely between reports, so each figure must keep its report and date."
     severity: high
   - text: "The abuse section gives findings and responses from several reports. None has yet been read. Each finding must be checked against its report before publication."
     severity: high
@@ -99,11 +99,12 @@ events:
     summary: "Pope Francis died on 21 April 2025. The conclave elected Robert Francis Prevost, who took the name Leo XIV, on 8 May 2025. The dates come from news coverage and are to be confirmed against Vatican statements."
     source: "News coverage (to be replaced by the Vatican's own announcements)"
 sources:
-  - title: "Pew Research Center, global Christianity reports (latest edition)"
-    author: "Pew Research Center"
+  - title: "How the Global Religious Landscape Changed From 2010 to 2020 (Pew Research Center, 9 June 2025)"
+    author: "Conrad Hackett and colleagues, Pew Research Center"
+    url: "https://www.pewresearch.org/religion/2025/06/09/christian-population-change/"
     license: "To check. The report's reuse terms must be recorded before any figure is quoted"
-    checked: "not yet checked"
-    usedFor: "Membership by region"
+    checked: "2026-11-12"
+    usedFor: "Membership by region, 2010 to 2020"
   - title: "Open Doors, World Watch List (latest edition)"
     author: "Open Doors"
     license: "To check"
@@ -150,12 +151,13 @@ large church, and the page gives its findings and responses without a verdict th
 
 ## The shape of the church today
 
-Christianity is the largest religion in the world by number of adherents. Pew Research Center's 2025 report, which compares 2010 with
-2020, counts about 2.3 billion Christians in 2020, or 28.8 per cent of the world's population, down 1.8 percentage points since 2010.
-Sub-Saharan Africa had the largest gain, to 697 million (up 31 per cent). Europe fell to 505 million (down 9 per cent), and North
-America to 238 million (down 11 per cent). Pew reports that the number of Christians grew in every other region. The main cause of
-the fall in share is people leaving Christianity, rather than population change alone. The figures are from news coverage of the
-report, and the report itself is not yet read.
+Christianity is the largest religion in the world by number of adherents. Pew Research Center's report of 9 June 2025, *How the
+Global Religious Landscape Changed From 2010 to 2020*, counts 2.1 billion Christians in 2010 and 2.3 billion in 2020, a rise of 6
+per cent. Christians fell as a share of the world's population, from 31 to 29 per cent. Sub-Saharan Africa had the largest gain,
+to 697 million (up 31 per cent), and now holds 31 per cent of the world's Christians. Europe fell to 505 million (down 9 per cent),
+and North America to 238 million (down 11 per cent). Pew reports that the number of Christians grew in Latin America and the
+Caribbean, Asia-Pacific and the Middle East and North Africa, but it gives no figures for those regions. The report links the fall
+in share to people leaving Christianity: "This change is largely driven by high rates of Christian disaffiliation."
 
 ## The church and the end of communism
 
