@@ -157,3 +157,37 @@ const first = eras[0];
     padding-top: 1rem;
   }
 </style>
+
+<script>
+  // The year labels sit in the same flex row as the bars, so the short later eras leave
+  // too little room for their labels. Hide any label whose text would run into the label
+  // to its right. The end year is always kept, and the bars still show every era boundary.
+  const GAP = 6;
+
+  function fitTimelineYears() {
+    const row = document.querySelector<HTMLElement>('.timeline-years');
+    if (!row || row.getBoundingClientRect().width === 0) return; // not laid out yet
+    const spans = Array.from(row.querySelectorAll<HTMLElement>(':scope > span'));
+    const range = document.createRange();
+    let nextLeft = Infinity;
+    for (let i = spans.length - 1; i >= 0; i--) {
+      const span = spans[i];
+      span.style.visibility = '';
+      range.selectNodeContents(span);
+      const box = range.getBoundingClientRect();
+      if (i === spans.length - 1) {
+        nextLeft = box.left;
+      } else if (box.right + GAP > nextLeft) {
+        span.style.visibility = 'hidden';
+      } else {
+        nextLeft = box.left;
+      }
+    }
+  }
+
+  fitTimelineYears();
+  window.addEventListener('load', fitTimelineYears);
+  window.addEventListener('resize', fitTimelineYears);
+  document.fonts?.ready.then(fitTimelineYears);
+</script>
+
