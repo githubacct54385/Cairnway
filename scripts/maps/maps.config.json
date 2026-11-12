@@ -2064,6 +2064,7 @@
   "maps": [
     {
       "id": "overview",
+      "credit": "Place positions checked against the Pleiades gazetteer of ancient places (pleiades.stoa.org), licensed CC BY 3.0. Base map made with Natural Earth (public domain).",
       "title": "The world of the first Christians",
       "intro": "The places that matter most in this era, from Jerusalem to Rome. Region names are the Roman ones used in Acts and Paul's letters.",
       "bbox": [
@@ -2113,6 +2114,7 @@
     },
     {
       "id": "journey-1",
+      "credit": "Place positions checked against the Pleiades gazetteer of ancient places (pleiades.stoa.org), licensed CC BY 3.0. Base map made with Natural Earth (public domain).",
       "title": "First journey",
       "ref": "Acts 13 to 14",
       "intro": "Acts says the church at Antioch sent out Barnabas and Paul. They crossed Cyprus, then went inland to cities in the Roman province of Galatia, in the regions Acts calls Pisidia and Lycaonia, and came back the same way.",
@@ -2204,6 +2206,7 @@
     },
     {
       "id": "journey-2",
+      "credit": "Place positions checked against the Pleiades gazetteer of ancient places (pleiades.stoa.org), licensed CC BY 3.0. Base map made with Natural Earth (public domain).",
       "title": "Second journey",
       "ref": "Acts 15:36 to 18:22",
       "intro": "Acts says Paul set out again with Silas, revisited the churches inland, then crossed by sea into Macedonia and Greece for the first time.",
@@ -2297,6 +2300,7 @@
     },
     {
       "id": "journey-3",
+      "credit": "Place positions checked against the Pleiades gazetteer of ancient places (pleiades.stoa.org), licensed CC BY 3.0. Base map made with Natural Earth (public domain).",
       "title": "Third journey",
       "ref": "Acts 18:23 to 21:17",
       "intro": "Acts says Paul spent a long stay in Ephesus, went back through Macedonia and Greece, then sailed down the coast toward Jerusalem.",
@@ -2388,6 +2392,7 @@
     },
     {
       "id": "voyage",
+      "credit": "Place positions checked against the Pleiades gazetteer of ancient places (pleiades.stoa.org), licensed CC BY 3.0. Base map made with Natural Earth (public domain).",
       "title": "Voyage to Rome",
       "ref": "Acts 27 to 28",
       "intro": "Acts says Paul, now a prisoner, was sent to Rome by ship. A storm drove the ship west for two weeks until it wrecked on Malta.",

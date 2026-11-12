@@ -285,6 +285,8 @@ def main():
         }
         if 'refPrefix' in m:
             out[m['id']]['refPrefix'] = m['refPrefix']
+        if 'credit' in m:
+            out[m['id']]['credit'] = m['credit']
 
     os.makedirs(os.path.dirname(OUT_JSON), exist_ok=True)
     with open(OUT_JSON, 'w') as f:

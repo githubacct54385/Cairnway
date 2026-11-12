@@ -30,6 +30,10 @@ const eras = defineCollection({
     // Optional: the path to this era's review ledger in docs/, for example docs/REVIEW-apostolic-age.md.
     // The draft banner links to it; an era without one links to the docs folder.
     reviewLedger: z.string().optional(),
+    // Optional: set once an AI model has checked every claim on the page against its sources (see the era's
+    // review ledger). The banner then says what has happened: sources checked by that model in that month,
+    // and no specialist review yet. Change the month whenever the page changes after the review.
+    aiReview: z.object({ model: z.string(), month: z.string() }).optional(),
     // Optional maps, by id in src/data/maps.json. An era without them shows no map section.
     overviewMap: z.string().optional(),
     mapSection: z
