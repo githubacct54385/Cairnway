@@ -11,12 +11,18 @@ public domain.
 
 ## Rebuilding
 
+The maps use Natural Earth's 10m vector layers and its 10m shaded relief (`SR_HR.zip`, public domain). Download
+the layers as GeoJSON (`ne_10m_land`, `ne_10m_rivers_lake_centerlines`, `ne_10m_lakes`, `ne_10m_admin_0_countries`)
+into a folder with a `geojson/` subfolder, and unzip `SR_HR.zip`. Then:
+
 ```sh
-git clone --depth 1 https://github.com/nvkelso/natural-earth-vector /tmp/ne
-python3 scripts/maps/build-maps.py /tmp/ne      # needs Python 3 and Pillow
+python3 scripts/maps/build-maps.py <ne-folder> <ne-folder>/SR_HR/SR_HR.tif   # needs Python 3, Pillow
 ```
 
-The relief crop was made by the `Relief crop` workflow (`.github/workflows/relief.yml`), which runs when the
-`tools/relief` branch is pushed. You only need it again if the map area grows beyond the crop.
+With the relief file, each map is cropped from the full-resolution relief at its own bounding box. Without it, the
+Mediterranean crop in `relief-med.png` is used. Each map's east-west scale follows the latitude at its centre.
+
+The Mediterranean relief crop was made by the `Relief crop` workflow (`.github/workflows/relief.yml`). With the full
+relief file, the crop is no longer needed.
 
 Place coordinates in `maps.config.json` are approximate and were entered by hand.

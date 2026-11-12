@@ -18,6 +18,13 @@ flags:
     severity: "medium"
   - text: "African canon council dates from memory"
     severity: "note"
+overviewMap: "church-around-400"
+figures:
+  - image: "/era-art/age-of-the-councils/junius-bassus-sarcophagus.jpg"
+    alt: "Engraving of the Sarcophagus of Junius Bassus, with scenes from the Old and New Testaments in two tiers"
+    caption: "The sarcophagus of Junius Bassus, a Roman official who died in 359, shows scenes from the Old and New Testaments in two rows of columned arches. This engraving comes from a Swedish reference work of about 1900. The original is in the Vatican."
+    credit: "Engraving from Nordisk familjebok, about 1900; Wikimedia Commons, File:Bildhuggarkonst, Junius Bassus sarkofag, Nordisk familjebok.png"
+    licence: "Public domain"
 keyPeople:
   - name: "Constantine"
     role: "Roman emperor"

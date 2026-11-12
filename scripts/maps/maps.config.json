@@ -183,6 +183,122 @@
     "Alexandria": [
       29.92,
       31.2
+    ],
+    "Ravenna": [
+      12.2,
+      44.42
+    ],
+    "Milan": [
+      9.19,
+      45.46
+    ],
+    "Trier": [
+      6.64,
+      49.76
+    ],
+    "Constantinople": [
+      28.98,
+      41.01
+    ],
+    "Nicaea": [
+      29.72,
+      40.43
+    ],
+    "Canterbury": [
+      1.08,
+      51.28
+    ],
+    "Whitby": [
+      -0.61,
+      54.49
+    ],
+    "Lindisfarne": [
+      -1.7,
+      55.67
+    ],
+    "Iona": [
+      -6.39,
+      56.33
+    ],
+    "York": [
+      -1.08,
+      53.96
+    ],
+    "Aachen": [
+      6.08,
+      50.78
+    ],
+    "Verdun": [
+      5.38,
+      49.16
+    ],
+    "Cluny": [
+      4.66,
+      46.43
+    ],
+    "Tours": [
+      0.68,
+      47.39
+    ],
+    "Paris": [
+      2.35,
+      48.86
+    ],
+    "Kiev": [
+      30.52,
+      50.45
+    ],
+    "Bari": [
+      16.87,
+      41.13
+    ],
+    "Venice": [
+      12.33,
+      45.44
+    ],
+    "Canossa": [
+      10.43,
+      44.61
+    ],
+    "Clermont": [
+      3.08,
+      45.78
+    ],
+    "Lyons": [
+      4.84,
+      45.76
+    ],
+    "Avignon": [
+      4.81,
+      43.95
+    ],
+    "Constance": [
+      9.18,
+      47.66
+    ],
+    "Prague": [
+      14.42,
+      50.08
+    ],
+    "Kosovo": [
+      21.1,
+      42.6
+    ],
+    "Assisi": [
+      12.61,
+      43.07
+    ],
+    "Oxford": [
+      -1.26,
+      51.75
+    ],
+    "Hastings": [
+      0.59,
+      50.85
+    ],
+    "Monte Cassino": [
+      13.79,
+      41.49
     ]
   },
   "labels": [
@@ -321,6 +437,66 @@
       "kind": "sea",
       "lon": 34.0,
       "lat": 43.0
+    },
+    {
+      "text": "Britannia",
+      "kind": "region",
+      "lon": -2.2,
+      "lat": 53.4
+    },
+    {
+      "text": "Hibernia",
+      "kind": "region",
+      "lon": -8.2,
+      "lat": 53.2
+    },
+    {
+      "text": "Gallia",
+      "kind": "region",
+      "lon": 2.5,
+      "lat": 46.3
+    },
+    {
+      "text": "Germania",
+      "kind": "region",
+      "lon": 10.8,
+      "lat": 51.2
+    },
+    {
+      "text": "Hispania",
+      "kind": "region",
+      "lon": -4.2,
+      "lat": 40.2
+    },
+    {
+      "text": "Pannonia",
+      "kind": "region",
+      "lon": 18.6,
+      "lat": 46.6
+    },
+    {
+      "text": "Dalmatia",
+      "kind": "region",
+      "lon": 16.4,
+      "lat": 43.6
+    },
+    {
+      "text": "Francia",
+      "kind": "region",
+      "lon": 3.6,
+      "lat": 48.4
+    },
+    {
+      "text": "North Sea",
+      "kind": "sea",
+      "lon": 3.0,
+      "lat": 56.0
+    },
+    {
+      "text": "Atlantic Ocean",
+      "kind": "sea",
+      "lon": -11.0,
+      "lat": 45.0
     }
   ],
   "maps": [
@@ -823,6 +999,344 @@
         }
       ],
       "refPrefix": ""
+    },
+    {
+      "id": "church-around-400",
+      "title": "The church around AD 400",
+      "intro": "The main churches and cities of the empire around the time of the councils of the fourth century. Boundaries are simplified.",
+      "bbox": [
+        -10,
+        30,
+        45,
+        56
+      ],
+      "cities": [
+        {
+          "place": "Rome",
+          "side": "right"
+        },
+        {
+          "place": "Milan",
+          "side": "right"
+        },
+        {
+          "place": "Trier",
+          "side": "left"
+        },
+        {
+          "place": "Ravenna",
+          "side": "right"
+        },
+        {
+          "place": "Constantinople",
+          "side": "right"
+        },
+        {
+          "place": "Nicaea",
+          "side": "left"
+        },
+        {
+          "place": "Antioch",
+          "side": "right"
+        },
+        {
+          "place": "Jerusalem",
+          "side": "right"
+        },
+        {
+          "place": "Alexandria",
+          "side": "right"
+        },
+        {
+          "place": "Carthage",
+          "side": "right"
+        },
+        {
+          "place": "Athens",
+          "side": "top"
+        },
+        {
+          "place": "Thessalonica",
+          "side": "right"
+        }
+      ]
+    },
+    {
+      "id": "churches-about-600",
+      "title": "Churches and kingdoms about 600",
+      "intro": "The churches in the era of Gregory the Great and Justinian: Rome and Ravenna, the eastern patriarchates, Carthage, and the new English church. Boundaries are simplified.",
+      "bbox": [
+        -12,
+        30,
+        45,
+        58
+      ],
+      "cities": [
+        {
+          "place": "Rome",
+          "side": "right"
+        },
+        {
+          "place": "Ravenna",
+          "side": "right"
+        },
+        {
+          "place": "Monte Cassino",
+          "side": "right"
+        },
+        {
+          "place": "Constantinople",
+          "side": "right"
+        },
+        {
+          "place": "Carthage",
+          "side": "right"
+        },
+        {
+          "place": "Alexandria",
+          "side": "right"
+        },
+        {
+          "place": "Jerusalem",
+          "side": "right"
+        },
+        {
+          "place": "Antioch",
+          "side": "right"
+        },
+        {
+          "place": "Canterbury",
+          "side": "right"
+        },
+        {
+          "place": "Tours",
+          "side": "left"
+        },
+        {
+          "place": "Iona",
+          "side": "left"
+        }
+      ]
+    },
+    {
+      "id": "english-and-east-700",
+      "title": "The English church and the East, about 700",
+      "intro": "Whitby, Lindisfarne and Canterbury in the north and west, with the eastern cities of the councils. Boundaries are simplified.",
+      "bbox": [
+        -12,
+        30,
+        45,
+        58
+      ],
+      "cities": [
+        {
+          "place": "Iona",
+          "side": "left"
+        },
+        {
+          "place": "Lindisfarne",
+          "side": "left"
+        },
+        {
+          "place": "Whitby",
+          "side": "left"
+        },
+        {
+          "place": "York",
+          "side": "right"
+        },
+        {
+          "place": "Canterbury",
+          "side": "right"
+        },
+        {
+          "place": "Rome",
+          "side": "right"
+        },
+        {
+          "place": "Constantinople",
+          "side": "right"
+        },
+        {
+          "place": "Nicaea",
+          "side": "left"
+        },
+        {
+          "place": "Damascus",
+          "side": "right"
+        },
+        {
+          "place": "Jerusalem",
+          "side": "right"
+        },
+        {
+          "place": "Alexandria",
+          "side": "right"
+        }
+      ]
+    },
+    {
+      "id": "carolingian-world",
+      "title": "The Carolingian world and the schism",
+      "intro": "The Frankish kingdoms around Aachen and Verdun, the papacy in Rome, and the eastern and northern frontiers. Boundaries are simplified.",
+      "bbox": [
+        -6,
+        34,
+        36,
+        56
+      ],
+      "cities": [
+        {
+          "place": "Aachen",
+          "side": "right"
+        },
+        {
+          "place": "Verdun",
+          "side": "left"
+        },
+        {
+          "place": "Tours",
+          "side": "left"
+        },
+        {
+          "place": "Cluny",
+          "side": "right"
+        },
+        {
+          "place": "Rome",
+          "side": "right"
+        },
+        {
+          "place": "Bari",
+          "side": "right"
+        },
+        {
+          "place": "Venice",
+          "side": "right"
+        },
+        {
+          "place": "Kiev",
+          "side": "right"
+        },
+        {
+          "place": "Constantinople",
+          "side": "right"
+        }
+      ]
+    },
+    {
+      "id": "crusades-and-reform",
+      "title": "Reform and crusade, about 1100",
+      "intro": "The reforming papacy and its opponents, the monasteries of Cluny and Cîteaux, and the road to Jerusalem. Boundaries are simplified.",
+      "bbox": [
+        -10,
+        30,
+        40,
+        56
+      ],
+      "cities": [
+        {
+          "place": "Hastings",
+          "side": "left"
+        },
+        {
+          "place": "Canterbury",
+          "side": "right"
+        },
+        {
+          "place": "Canossa",
+          "side": "left"
+        },
+        {
+          "place": "Clermont",
+          "side": "left"
+        },
+        {
+          "place": "Cluny",
+          "side": "right"
+        },
+        {
+          "place": "Rome",
+          "side": "right"
+        },
+        {
+          "place": "Venice",
+          "side": "right"
+        },
+        {
+          "place": "Bari",
+          "side": "right"
+        },
+        {
+          "place": "Constantinople",
+          "side": "right"
+        },
+        {
+          "place": "Antioch",
+          "side": "right"
+        },
+        {
+          "place": "Jerusalem",
+          "side": "right"
+        }
+      ]
+    },
+    {
+      "id": "schism-and-councils",
+      "title": "The schism and the councils",
+      "intro": "Avignon and Rome, the councils of Constance and Basel, and the frontier with the Ottomans at Kosovo. Boundaries are simplified.",
+      "bbox": [
+        -8,
+        36,
+        30,
+        54
+      ],
+      "cities": [
+        {
+          "place": "Oxford",
+          "side": "left"
+        },
+        {
+          "place": "Paris",
+          "side": "right"
+        },
+        {
+          "place": "Avignon",
+          "side": "left"
+        },
+        {
+          "place": "Lyons",
+          "side": "right"
+        },
+        {
+          "place": "Assisi",
+          "side": "right"
+        },
+        {
+          "place": "Rome",
+          "side": "right"
+        },
+        {
+          "place": "Constance",
+          "side": "right"
+        },
+        {
+          "place": "Prague",
+          "side": "right"
+        },
+        {
+          "place": "Venice",
+          "side": "right"
+        },
+        {
+          "place": "Kosovo",
+          "side": "right"
+        },
+        {
+          "place": "Constantinople",
+          "side": "right"
+        }
+      ]
     }
   ]
 }
