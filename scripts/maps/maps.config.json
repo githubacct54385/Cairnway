@@ -555,6 +555,14 @@
     "Modon": [
       21.7,
       36.82
+    ],
+    "Scutari": [
+      29.01,
+      41.02
+    ],
+    "Chalkis": [
+      23.6,
+      38.46
     ]
   },
   "labels": [
@@ -3661,7 +3669,7 @@
     {
       "id": "fourth-crusade-1202-1204",
       "title": "The Fourth Crusade, 1202 to 1204",
-      "intro": "The fleet route from Venice by way of Zara and Corfu to Constantinople, and the two places where the crusade became a war against Christians: the siege of Zara in 1202 and the siege and sack of Constantinople in 1203 and 1204. The route is simplified and straight between places; the sites and dates are not yet checked.",
+      "intro": "The fleet route from Venice by way of Zara, Corfu and Modon to Constantinople, with the places where the crusade became a war against Christians (Zara in 1202, and Constantinople in 1203 and 1204), and Negroponte, taken after the sack. The route is simplified and straight between places; the sites and dates are not yet checked.",
       "bbox": [
         11,
         34,
@@ -3684,10 +3692,29 @@
           "note": "Taken in November 1202 for Venice, though the pope had forbidden attacks on Christian cities; the crusade is diverted"
         },
         {
+          "place": "Modon",
+          "side": "left",
+          "ref": "Villehardouin, to check",
+          "note": "The fleet stops at this Venetian port in the Peloponnese on its way east (1203, to check)"
+        },
+        {
+          "place": "Scutari",
+          "side": "right",
+          "ref": "Villehardouin, to check",
+          "note": "The army lands on the Asian shore opposite the city in July 1203, and the emperor Alexios III flees at the first assault"
+        },
+        {
           "place": "Constantinople",
           "side": "left",
           "ref": "Villehardouin, Memoirs",
           "note": "Besieged in 1203, when the crusaders restore Isaac II; taken and sacked on 12 and 13 April 1204"
+        },
+        {
+          "place": "Chalkis",
+          "name": "Negroponte",
+          "side": "right",
+          "ref": "Villehardouin, to check",
+          "note": "Taken by Venice after the sack, as part of the division of the empire (1204, to check)"
         }
       ],
       "cities": [
@@ -3697,10 +3724,6 @@
         },
         {
           "place": "Corfu",
-          "side": "left"
-        },
-        {
-          "place": "Modon",
           "side": "left"
         }
       ]
