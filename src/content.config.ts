@@ -27,6 +27,9 @@ const eras = defineCollection({
     // Optional: what has been checked so far, shown in the draft banner instead of the generic text.
     // Say exactly what was checked and by whom (for example, an AI or a named reviewer).
     reviewStatus: z.string().optional(),
+    // Optional: the path to this era's review ledger in docs/, for example docs/REVIEW-apostolic-age.md.
+    // The draft banner links to it; an era without one links to the docs folder.
+    reviewLedger: z.string().optional(),
     // Optional maps, by id in src/data/maps.json. An era without them shows no map section.
     overviewMap: z.string().optional(),
     mapSection: z

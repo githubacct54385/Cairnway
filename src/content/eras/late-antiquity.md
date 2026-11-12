@@ -6,6 +6,7 @@ order: 4
 startYear: 451
 endYear: 600
 draft: true
+reviewLedger: "docs/REVIEW-late-antiquity.md"
 reviewStatus: "Draft, written 2026-11-12 from the planning document docs/PLAN-fourth-era.md. Five passages were read against the full text of the public-domain translations named in the sources: Gregory the Great's letter to Augustine of Canterbury and his letter naming Augustine (NPNF2 vol. 13), a passage of the Pastoral Rule (NPNF2 vol. 12), the Second Council of Constantinople and the Three Chapters (NPNF2 vol. 14), and Leo's Tome (already read in the third era). Every other date, the Justinian, Boethius, Benedict, Clovis, Patrick, Gregory of Tours and Isidore entries, and all statements about what modern scholars think have not been checked. No specialist has reviewed this page."
 flags:
   - text: "Most dates unverified"

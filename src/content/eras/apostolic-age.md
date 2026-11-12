@@ -6,6 +6,7 @@ order: 1
 startYear: 30
 endYear: 100
 draft: true
+reviewLedger: "docs/REVIEW-apostolic-age.md"
 reviewStatus: "Draft. Every citation to the Bible and to ancient writers has been checked by an AI against the full text of the translation named in the sources (November 2026). Statements about what modern scholars think have not yet been checked, and no specialist has reviewed this page."
 overviewMap: "overview"
 mapSection:
