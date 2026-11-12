@@ -415,6 +415,94 @@
     "St Petersburg": [
       30.32,
       59.94
+    ],
+    "Berlin": [
+      13.4,
+      52.52
+    ],
+    "Valence": [
+      4.89,
+      44.93
+    ],
+    "Bologna": [
+      11.34,
+      44.49
+    ],
+    "Ancona": [
+      13.52,
+      43.62
+    ],
+    "Sofia": [
+      23.32,
+      42.7
+    ],
+    "Plovdiv": [
+      24.75,
+      42.15
+    ],
+    "Bucharest": [
+      26.1,
+      44.43
+    ],
+    "Nafplio": [
+      22.81,
+      37.57
+    ],
+    "Munich": [
+      11.58,
+      48.14
+    ],
+    "Barmen": [
+      7.18,
+      51.27
+    ],
+    "Flossenbürg": [
+      12.35,
+      49.66
+    ],
+    "Lausanne": [
+      6.63,
+      46.52
+    ],
+    "Ankara": [
+      32.86,
+      39.93
+    ],
+    "Yerevan": [
+      44.51,
+      40.18
+    ],
+    "Aleppo": [
+      37.16,
+      36.2
+    ],
+    "Erzurum": [
+      41.27,
+      39.9
+    ],
+    "Budapest": [
+      19.04,
+      47.5
+    ],
+    "Gdańsk": [
+      18.65,
+      54.35
+    ],
+    "Kraków": [
+      19.94,
+      50.06
+    ],
+    "Warsaw": [
+      21.01,
+      52.23
+    ],
+    "San Salvador": [
+      -89.22,
+      13.69
+    ],
+    "Medellín": [
+      -75.57,
+      6.25
     ]
   },
   "labels": [
@@ -422,37 +510,93 @@
       "text": "Italia",
       "kind": "region",
       "lon": 16.3,
-      "lat": 40.55
+      "lat": 40.55,
+      "hideOn": [
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1914",
+        "europe-1933-1945",
+        "europe-divided-1950",
+        "central-europe-1956-1989"
+      ]
     },
     {
       "text": "Sicilia",
       "kind": "region",
       "lon": 14.2,
-      "lat": 37.5
+      "lat": 37.5,
+      "hideOn": [
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1914",
+        "europe-1933-1945",
+        "europe-divided-1950",
+        "central-europe-1956-1989"
+      ]
     },
     {
       "text": "Macedonia",
       "kind": "region",
       "lon": 21.9,
-      "lat": 41.4
+      "lat": 41.4,
+      "hideOn": [
+        "europe-1815",
+        "papal-states-1789-1870",
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1914",
+        "europe-1933-1945",
+        "europe-divided-1950",
+        "central-europe-1956-1989"
+      ]
     },
     {
       "text": "Achaia",
       "kind": "region",
       "lon": 21.7,
-      "lat": 39.2
+      "lat": 39.2,
+      "hideOn": [
+        "europe-1815",
+        "papal-states-1789-1870",
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1914",
+        "europe-1933-1945",
+        "europe-divided-1950",
+        "central-europe-1956-1989"
+      ]
     },
     {
       "text": "Asia",
       "kind": "region",
       "lon": 28.9,
-      "lat": 38.9
+      "lat": 38.9,
+      "hideOn": [
+        "europe-1815",
+        "papal-states-1789-1870",
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1914",
+        "europe-1933-1945",
+        "europe-divided-1950",
+        "central-europe-1956-1989"
+      ]
     },
     {
       "text": "Galatia",
       "kind": "region",
       "lon": 32.8,
-      "lat": 39.5
+      "lat": 39.5,
+      "hideOn": [
+        "europe-1815",
+        "papal-states-1789-1870",
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1914",
+        "europe-1933-1945",
+        "europe-divided-1950",
+        "central-europe-1956-1989"
+      ]
     },
     {
       "text": "Lycia",
@@ -460,7 +604,15 @@
       "lon": 29.5,
       "lat": 36.75,
       "hideOn": [
-        "journey-1"
+        "journey-1",
+        "europe-1815",
+        "papal-states-1789-1870",
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1914",
+        "europe-1933-1945",
+        "europe-divided-1950",
+        "central-europe-1956-1989"
       ]
     },
     {
@@ -471,7 +623,15 @@
       "hideOn": [
         "overview",
         "voyage",
-        "journey-1"
+        "journey-1",
+        "europe-1815",
+        "papal-states-1789-1870",
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1914",
+        "europe-1933-1945",
+        "europe-divided-1950",
+        "central-europe-1956-1989"
       ]
     },
     {
@@ -481,20 +641,48 @@
       "lat": 37.55,
       "hideOn": [
         "journey-2",
-        "journey-3"
+        "journey-3",
+        "europe-1815",
+        "papal-states-1789-1870",
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1914",
+        "europe-1933-1945",
+        "europe-divided-1950",
+        "central-europe-1956-1989"
       ]
     },
     {
       "text": "Syria",
       "kind": "region",
       "lon": 37.0,
-      "lat": 35.0
+      "lat": 35.0,
+      "hideOn": [
+        "europe-1815",
+        "papal-states-1789-1870",
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1914",
+        "europe-1933-1945",
+        "europe-divided-1950",
+        "central-europe-1956-1989"
+      ]
     },
     {
       "text": "Judaea",
       "kind": "region",
       "lon": 35.3,
-      "lat": 31.1
+      "lat": 31.1,
+      "hideOn": [
+        "europe-1815",
+        "papal-states-1789-1870",
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1914",
+        "europe-1933-1945",
+        "europe-divided-1950",
+        "central-europe-1956-1989"
+      ]
     },
     {
       "text": "Cyprus",
@@ -502,26 +690,60 @@
       "lon": 33.2,
       "lat": 35.4,
       "hideOn": [
-        "journey-1"
+        "journey-1",
+        "europe-1815",
+        "papal-states-1789-1870",
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1914",
+        "europe-1933-1945",
+        "europe-divided-1950",
+        "central-europe-1956-1989"
       ]
     },
     {
       "text": "Creta",
       "kind": "region",
       "lon": 25.1,
-      "lat": 35.6
+      "lat": 35.6,
+      "hideOn": [
+        "europe-1815",
+        "papal-states-1789-1870",
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1914",
+        "europe-1933-1945",
+        "europe-divided-1950",
+        "central-europe-1956-1989"
+      ]
     },
     {
       "text": "Aegyptus",
       "kind": "region",
       "lon": 30.5,
-      "lat": 30.0
+      "lat": 30.0,
+      "hideOn": [
+        "europe-1815",
+        "papal-states-1789-1870",
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1914",
+        "europe-1933-1945",
+        "europe-divided-1950",
+        "central-europe-1956-1989"
+      ]
     },
     {
       "text": "Mediterranean Sea",
       "kind": "sea",
       "lon": 19.5,
-      "lat": 34.2
+      "lat": 34.2,
+      "hideOn": [
+        "europe-1914",
+        "europe-1933-1945",
+        "europe-divided-1950",
+        "central-europe-1956-1989"
+      ]
     },
     {
       "text": "Aegean Sea",
@@ -530,14 +752,27 @@
       "lat": 38.6,
       "hideOn": [
         "churches",
-        "ignatius"
+        "ignatius",
+        "europe-1815",
+        "papal-states-1789-1870",
+        "europe-1914",
+        "europe-1933-1945",
+        "europe-divided-1950",
+        "central-europe-1956-1989"
       ]
     },
     {
       "text": "Adriatic Sea",
       "kind": "sea",
       "lon": 16.6,
-      "lat": 42.6
+      "lat": 42.6,
+      "hideOn": [
+        "ottoman-balkans-1878",
+        "europe-1914",
+        "europe-1933-1945",
+        "europe-divided-1950",
+        "central-europe-1956-1989"
+      ]
     },
     {
       "text": "Tyrrhenian Sea",
@@ -545,74 +780,183 @@
       "lon": 12.2,
       "lat": 39.6,
       "hideOn": [
-        "ignatius"
+        "ignatius",
+        "europe-1815",
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1914",
+        "europe-1933-1945",
+        "europe-divided-1950",
+        "central-europe-1956-1989"
       ]
     },
     {
       "text": "Black Sea",
       "kind": "sea",
       "lon": 34.0,
-      "lat": 43.0
+      "lat": 43.0,
+      "hideOn": [
+        "papal-states-1789-1870",
+        "europe-1914",
+        "europe-1933-1945",
+        "europe-divided-1950",
+        "central-europe-1956-1989"
+      ]
     },
     {
       "text": "Britannia",
       "kind": "region",
       "lon": -2.2,
-      "lat": 53.4
+      "lat": 53.4,
+      "hideOn": [
+        "europe-1815",
+        "papal-states-1789-1870",
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1914",
+        "europe-1933-1945",
+        "europe-divided-1950",
+        "central-europe-1956-1989"
+      ]
     },
     {
       "text": "Hibernia",
       "kind": "region",
       "lon": -8.2,
-      "lat": 53.2
+      "lat": 53.2,
+      "hideOn": [
+        "europe-1815",
+        "papal-states-1789-1870",
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1914",
+        "europe-1933-1945",
+        "europe-divided-1950",
+        "central-europe-1956-1989"
+      ]
     },
     {
       "text": "Gallia",
       "kind": "region",
       "lon": 2.5,
-      "lat": 46.3
+      "lat": 46.3,
+      "hideOn": [
+        "europe-1815",
+        "papal-states-1789-1870",
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1914",
+        "europe-1933-1945",
+        "europe-divided-1950",
+        "central-europe-1956-1989"
+      ]
     },
     {
       "text": "Germania",
       "kind": "region",
       "lon": 10.8,
-      "lat": 51.2
+      "lat": 51.2,
+      "hideOn": [
+        "europe-1815",
+        "papal-states-1789-1870",
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1914",
+        "europe-1933-1945",
+        "europe-divided-1950",
+        "central-europe-1956-1989"
+      ]
     },
     {
       "text": "Hispania",
       "kind": "region",
       "lon": -4.2,
-      "lat": 40.2
+      "lat": 40.2,
+      "hideOn": [
+        "europe-1815",
+        "papal-states-1789-1870",
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1914",
+        "europe-1933-1945",
+        "europe-divided-1950",
+        "central-europe-1956-1989"
+      ]
     },
     {
       "text": "Pannonia",
       "kind": "region",
       "lon": 18.6,
-      "lat": 46.6
+      "lat": 46.6,
+      "hideOn": [
+        "europe-1815",
+        "papal-states-1789-1870",
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1914",
+        "europe-1933-1945",
+        "europe-divided-1950",
+        "central-europe-1956-1989"
+      ]
     },
     {
       "text": "Dalmatia",
       "kind": "region",
       "lon": 16.4,
-      "lat": 43.6
+      "lat": 43.6,
+      "hideOn": [
+        "europe-1815",
+        "papal-states-1789-1870",
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1914",
+        "europe-1933-1945",
+        "europe-divided-1950",
+        "central-europe-1956-1989"
+      ]
     },
     {
       "text": "Francia",
       "kind": "region",
       "lon": 3.6,
-      "lat": 48.4
+      "lat": 48.4,
+      "hideOn": [
+        "europe-1815",
+        "papal-states-1789-1870",
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1914",
+        "europe-1933-1945",
+        "europe-divided-1950",
+        "central-europe-1956-1989"
+      ]
     },
     {
       "text": "North Sea",
       "kind": "sea",
       "lon": 3.0,
-      "lat": 56.0
+      "lat": 56.0,
+      "hideOn": [
+        "europe-1815",
+        "papal-states-1789-1870",
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1933-1945",
+        "central-europe-1956-1989"
+      ]
     },
     {
       "text": "Atlantic Ocean",
       "kind": "sea",
       "lon": -11.0,
-      "lat": 45.0
+      "lat": 45.0,
+      "hideOn": [
+        "papal-states-1789-1870",
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1933-1945",
+        "central-europe-1956-1989"
+      ]
     },
     {
       "text": "Bohemia",
@@ -634,7 +978,14 @@
         "crusades-and-reform",
         "schism-and-councils",
         "confessions-1700",
-        "europe-1789"
+        "europe-1789",
+        "europe-1815",
+        "papal-states-1789-1870",
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1914",
+        "europe-1933-1945",
+        "europe-divided-1950"
       ]
     },
     {
@@ -656,7 +1007,13 @@
         "carolingian-world",
         "crusades-and-reform",
         "schism-and-councils",
-        "europe-1789"
+        "europe-1789",
+        "europe-1815",
+        "papal-states-1789-1870",
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1914",
+        "europe-1933-1945"
       ]
     },
     {
@@ -677,7 +1034,12 @@
         "english-and-east-700",
         "carolingian-world",
         "crusades-and-reform",
-        "schism-and-councils"
+        "schism-and-councils",
+        "europe-1815",
+        "papal-states-1789-1870",
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1914"
       ]
     },
     {
@@ -700,7 +1062,11 @@
         "crusades-and-reform",
         "schism-and-councils",
         "thirty-years-war",
-        "europe-1789"
+        "europe-1789",
+        "papal-states-1789-1870",
+        "europe-1933-1945",
+        "europe-divided-1950",
+        "central-europe-1956-1989"
       ]
     },
     {
@@ -723,7 +1089,15 @@
         "crusades-and-reform",
         "schism-and-councils",
         "religion-1555",
-        "thirty-years-war"
+        "thirty-years-war",
+        "europe-1815",
+        "papal-states-1789-1870",
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1914",
+        "europe-1933-1945",
+        "europe-divided-1950",
+        "central-europe-1956-1989"
       ]
     },
     {
@@ -746,7 +1120,13 @@
         "crusades-and-reform",
         "schism-and-councils",
         "late-medieval-europe",
-        "thirty-years-war"
+        "thirty-years-war",
+        "papal-states-1789-1870",
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1914",
+        "europe-1933-1945",
+        "central-europe-1956-1989"
       ]
     },
     {
@@ -770,7 +1150,14 @@
         "schism-and-councils",
         "late-medieval-europe",
         "thirty-years-war",
-        "europe-1789"
+        "europe-1789",
+        "papal-states-1789-1870",
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1914",
+        "europe-1933-1945",
+        "europe-divided-1950",
+        "central-europe-1956-1989"
       ]
     },
     {
@@ -793,7 +1180,14 @@
         "crusades-and-reform",
         "schism-and-councils",
         "late-medieval-europe",
-        "europe-1789"
+        "europe-1789",
+        "europe-1815",
+        "papal-states-1789-1870",
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1914",
+        "europe-1933-1945",
+        "central-europe-1956-1989"
       ]
     },
     {
@@ -818,7 +1212,14 @@
         "late-medieval-europe",
         "thirty-years-war",
         "confessions-1700",
-        "europe-1789"
+        "europe-1789",
+        "europe-1815",
+        "papal-states-1789-1870",
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1914",
+        "europe-divided-1950",
+        "central-europe-1956-1989"
       ]
     },
     {
@@ -842,7 +1243,14 @@
         "schism-and-councils",
         "late-medieval-europe",
         "thirty-years-war",
-        "confessions-1700"
+        "confessions-1700",
+        "papal-states-1789-1870",
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1914",
+        "europe-1933-1945",
+        "europe-divided-1950",
+        "central-europe-1956-1989"
       ]
     },
     {
@@ -865,7 +1273,13 @@
         "crusades-and-reform",
         "schism-and-councils",
         "late-medieval-europe",
-        "religion-1555"
+        "religion-1555",
+        "papal-states-1789-1870",
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1914",
+        "europe-1933-1945",
+        "central-europe-1956-1989"
       ]
     },
     {
@@ -889,7 +1303,11 @@
         "schism-and-councils",
         "late-medieval-europe",
         "religion-1555",
-        "thirty-years-war"
+        "thirty-years-war",
+        "papal-states-1789-1870",
+        "balkans-1821-1870",
+        "europe-divided-1950",
+        "central-europe-1956-1989"
       ]
     },
     {
@@ -912,7 +1330,13 @@
         "crusades-and-reform",
         "schism-and-councils",
         "late-medieval-europe",
-        "religion-1555"
+        "religion-1555",
+        "europe-1815",
+        "papal-states-1789-1870",
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1933-1945",
+        "central-europe-1956-1989"
       ]
     },
     {
@@ -937,7 +1361,14 @@
         "late-medieval-europe",
         "religion-1555",
         "confessions-1700",
-        "europe-1789"
+        "europe-1789",
+        "europe-1815",
+        "papal-states-1789-1870",
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1914",
+        "europe-divided-1950",
+        "central-europe-1956-1989"
       ]
     },
     {
@@ -961,7 +1392,288 @@
         "schism-and-councils",
         "late-medieval-europe",
         "confessions-1700",
-        "europe-1789"
+        "europe-1789",
+        "europe-1815",
+        "papal-states-1789-1870",
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1914",
+        "europe-divided-1950",
+        "central-europe-1956-1989"
+      ]
+    },
+    {
+      "text": "Papal States",
+      "kind": "region",
+      "lon": 12.6,
+      "lat": 42.7,
+      "hideOn": [
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1914",
+        "europe-1933-1945",
+        "europe-divided-1950",
+        "central-europe-1956-1989"
+      ]
+    },
+    {
+      "text": "Tuscany",
+      "kind": "region",
+      "lon": 11.0,
+      "lat": 43.6,
+      "hideOn": [
+        "europe-1815",
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1914",
+        "europe-1933-1945",
+        "europe-divided-1950",
+        "central-europe-1956-1989"
+      ]
+    },
+    {
+      "text": "Kingdom of Sardinia",
+      "kind": "region",
+      "lon": 8.6,
+      "lat": 40.2,
+      "hideOn": [
+        "europe-1815",
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1914",
+        "europe-1933-1945",
+        "europe-divided-1950",
+        "central-europe-1956-1989"
+      ]
+    },
+    {
+      "text": "Kingdom of the Two Sicilies",
+      "kind": "region",
+      "lon": 15.4,
+      "lat": 39.4,
+      "hideOn": [
+        "europe-1815",
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1914",
+        "europe-1933-1945",
+        "europe-divided-1950",
+        "central-europe-1956-1989"
+      ]
+    },
+    {
+      "text": "France",
+      "kind": "region",
+      "lon": 2.5,
+      "lat": 46.6,
+      "hideOn": [
+        "papal-states-1789-1870",
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1914",
+        "europe-1933-1945",
+        "europe-divided-1950",
+        "central-europe-1956-1989"
+      ]
+    },
+    {
+      "text": "Austria",
+      "kind": "region",
+      "lon": 14.8,
+      "lat": 47.4,
+      "hideOn": [
+        "papal-states-1789-1870",
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1933-1945",
+        "europe-divided-1950",
+        "central-europe-1956-1989"
+      ]
+    },
+    {
+      "text": "Prussia",
+      "kind": "region",
+      "lon": 18.8,
+      "lat": 53.0,
+      "hideOn": [
+        "papal-states-1789-1870",
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1914",
+        "europe-1933-1945",
+        "europe-divided-1950",
+        "central-europe-1956-1989"
+      ]
+    },
+    {
+      "text": "Greece",
+      "kind": "region",
+      "lon": 22.2,
+      "lat": 39.0,
+      "hideOn": [
+        "papal-states-1789-1870",
+        "europe-1914",
+        "europe-1933-1945",
+        "europe-divided-1950",
+        "central-europe-1956-1989"
+      ]
+    },
+    {
+      "text": "Bulgaria",
+      "kind": "region",
+      "lon": 25.0,
+      "lat": 42.8,
+      "hideOn": [
+        "europe-1815",
+        "papal-states-1789-1870",
+        "europe-1914",
+        "europe-1933-1945",
+        "europe-divided-1950",
+        "central-europe-1956-1989"
+      ]
+    },
+    {
+      "text": "Danubian Principalities",
+      "kind": "region",
+      "lon": 25.6,
+      "lat": 44.6,
+      "hideOn": [
+        "europe-1815",
+        "papal-states-1789-1870",
+        "europe-1914",
+        "europe-1933-1945",
+        "europe-divided-1950",
+        "central-europe-1956-1989"
+      ]
+    },
+    {
+      "text": "Serbia",
+      "kind": "region",
+      "lon": 20.8,
+      "lat": 43.6,
+      "hideOn": [
+        "europe-1815",
+        "papal-states-1789-1870",
+        "europe-1914",
+        "europe-1933-1945",
+        "europe-divided-1950",
+        "central-europe-1956-1989"
+      ]
+    },
+    {
+      "text": "Bosnia",
+      "kind": "region",
+      "lon": 17.9,
+      "lat": 44.1,
+      "hideOn": [
+        "europe-1815",
+        "papal-states-1789-1870",
+        "balkans-1821-1870",
+        "europe-1914",
+        "europe-1933-1945",
+        "europe-divided-1950",
+        "central-europe-1956-1989"
+      ]
+    },
+    {
+      "text": "Armenia",
+      "kind": "region",
+      "lon": 43.2,
+      "lat": 39.6,
+      "hideOn": [
+        "europe-1815",
+        "papal-states-1789-1870",
+        "balkans-1821-1870",
+        "europe-1933-1945",
+        "europe-divided-1950",
+        "central-europe-1956-1989"
+      ]
+    },
+    {
+      "text": "Germany",
+      "kind": "region",
+      "lon": 10.5,
+      "lat": 51.0,
+      "hideOn": [
+        "europe-1815",
+        "papal-states-1789-1870",
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "central-europe-1956-1989"
+      ]
+    },
+    {
+      "text": "Italy",
+      "kind": "region",
+      "lon": 12.6,
+      "lat": 42.4,
+      "hideOn": [
+        "europe-1815",
+        "papal-states-1789-1870",
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1914",
+        "europe-divided-1950",
+        "central-europe-1956-1989"
+      ]
+    },
+    {
+      "text": "Soviet Union",
+      "kind": "region",
+      "lon": 46.0,
+      "lat": 57.0,
+      "hideOn": [
+        "europe-1815",
+        "papal-states-1789-1870",
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1914",
+        "central-europe-1956-1989"
+      ]
+    },
+    {
+      "text": "East Germany",
+      "kind": "region",
+      "lon": 12.4,
+      "lat": 51.4,
+      "hideOn": [
+        "europe-1815",
+        "papal-states-1789-1870",
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1914",
+        "europe-1933-1945",
+        "europe-divided-1950"
+      ]
+    },
+    {
+      "text": "Czechoslovakia",
+      "kind": "region",
+      "lon": 17.6,
+      "lat": 49.2,
+      "hideOn": [
+        "europe-1815",
+        "papal-states-1789-1870",
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1914",
+        "europe-1933-1945",
+        "europe-divided-1950"
+      ]
+    },
+    {
+      "text": "Romania",
+      "kind": "region",
+      "lon": 25.0,
+      "lat": 45.8,
+      "hideOn": [
+        "europe-1815",
+        "papal-states-1789-1870",
+        "balkans-1821-1870",
+        "ottoman-balkans-1878",
+        "europe-1914",
+        "europe-1933-1945",
+        "europe-divided-1950"
       ]
     }
   ],
@@ -2129,6 +2841,442 @@
         },
         {
           "place": "Stockholm",
+          "side": "right"
+        }
+      ]
+    },
+    {
+      "id": "europe-1815",
+      "title": "Europe after the Congress of Vienna, 1815",
+      "intro": "The restored states of Europe, with the Papal States returned to the pope and the Holy Alliance in place. Boundaries are simplified.",
+      "bbox": [
+        -10,
+        36,
+        40,
+        62
+      ],
+      "cities": [
+        {
+          "place": "London",
+          "side": "left"
+        },
+        {
+          "place": "Paris",
+          "side": "left"
+        },
+        {
+          "place": "Madrid",
+          "side": "left"
+        },
+        {
+          "place": "Lisbon",
+          "side": "left"
+        },
+        {
+          "place": "Berlin",
+          "side": "right"
+        },
+        {
+          "place": "Vienna",
+          "side": "right"
+        },
+        {
+          "place": "Rome",
+          "side": "right"
+        },
+        {
+          "place": "St Petersburg",
+          "side": "right"
+        },
+        {
+          "place": "Constantinople",
+          "side": "right"
+        },
+        {
+          "place": "Athens",
+          "side": "right"
+        },
+        {
+          "place": "Edinburgh",
+          "side": "right"
+        }
+      ]
+    },
+    {
+      "id": "papal-states-1789-1870",
+      "title": "The Papal States, 1789 to 1870",
+      "intro": "Rome and its territory in the years between the Revolution and the fall of Rome. The papal enclaves in France (Avignon and the Venaissin) were lost in 1790 and the Papal States were occupied in 1809 and again in 1860 and 1870. Boundaries are simplified and approximate.",
+      "bbox": [
+        3,
+        37.5,
+        19,
+        48
+      ],
+      "cities": [
+        {
+          "place": "Rome",
+          "side": "right"
+        },
+        {
+          "place": "Florence",
+          "side": "right"
+        },
+        {
+          "place": "Naples",
+          "side": "right"
+        },
+        {
+          "place": "Venice",
+          "side": "left"
+        },
+        {
+          "place": "Milan",
+          "side": "left"
+        },
+        {
+          "place": "Bologna",
+          "side": "right"
+        },
+        {
+          "place": "Ancona",
+          "side": "right"
+        },
+        {
+          "place": "Ravenna",
+          "side": "left"
+        },
+        {
+          "place": "Avignon",
+          "side": "left"
+        },
+        {
+          "place": "Valence",
+          "side": "left"
+        }
+      ]
+    },
+    {
+      "id": "balkans-1821-1870",
+      "title": "The Balkans and the Ottoman East, 1821 to 1870",
+      "intro": "Greece, the Danubian principalities, the Bulgarian Exarchate of 1870, and the Ottoman capital. Boundaries are simplified.",
+      "bbox": [
+        13,
+        34.5,
+        36,
+        47
+      ],
+      "cities": [
+        {
+          "place": "Constantinople",
+          "side": "right"
+        },
+        {
+          "place": "Athens",
+          "side": "left"
+        },
+        {
+          "place": "Nafplio",
+          "side": "left"
+        },
+        {
+          "place": "Belgrade",
+          "side": "right"
+        },
+        {
+          "place": "Bucharest",
+          "side": "right"
+        },
+        {
+          "place": "Sofia",
+          "side": "right"
+        },
+        {
+          "place": "Plovdiv",
+          "side": "right"
+        },
+        {
+          "place": "Thessalonica",
+          "side": "right"
+        },
+        {
+          "place": "Varna",
+          "side": "right"
+        },
+        {
+          "place": "Smyrna",
+          "side": "right"
+        }
+      ]
+    },
+    {
+      "id": "ottoman-balkans-1878",
+      "title": "The Ottoman Balkans and the Congress of Berlin, 1878",
+      "intro": "The Balkans and eastern Anatolia after the Russo-Turkish war, as settled at the Congress of Berlin. Boundaries are simplified and approximate.",
+      "bbox": [
+        5,
+        34.5,
+        46,
+        53
+      ],
+      "cities": [
+        {
+          "place": "Berlin",
+          "side": "right"
+        },
+        {
+          "place": "Vienna",
+          "side": "right"
+        },
+        {
+          "place": "Constantinople",
+          "side": "right"
+        },
+        {
+          "place": "Athens",
+          "side": "left"
+        },
+        {
+          "place": "Sofia",
+          "side": "right"
+        },
+        {
+          "place": "Belgrade",
+          "side": "right"
+        },
+        {
+          "place": "Bucharest",
+          "side": "right"
+        },
+        {
+          "place": "Ankara",
+          "side": "right"
+        },
+        {
+          "place": "Yerevan",
+          "side": "right"
+        }
+      ]
+    },
+    {
+      "id": "europe-1914",
+      "title": "Europe in 1914",
+      "intro": "The great powers on the eve of the First World War, with the Ottoman lands and the Armenian provinces. Boundaries are simplified.",
+      "bbox": [
+        -10,
+        36,
+        46,
+        60
+      ],
+      "cities": [
+        {
+          "place": "London",
+          "side": "left"
+        },
+        {
+          "place": "Paris",
+          "side": "left"
+        },
+        {
+          "place": "Berlin",
+          "side": "right"
+        },
+        {
+          "place": "Vienna",
+          "side": "right"
+        },
+        {
+          "place": "Rome",
+          "side": "right"
+        },
+        {
+          "place": "St Petersburg",
+          "side": "right"
+        },
+        {
+          "place": "Constantinople",
+          "side": "right"
+        },
+        {
+          "place": "Yerevan",
+          "side": "right"
+        },
+        {
+          "place": "Erzurum",
+          "side": "right"
+        },
+        {
+          "place": "Aleppo",
+          "side": "right"
+        },
+        {
+          "place": "Edinburgh",
+          "side": "right"
+        }
+      ]
+    },
+    {
+      "id": "europe-1933-1945",
+      "title": "Europe, 1933 to 1945",
+      "intro": "Germany, Italy, Spain and the Soviet Union, with the places where the churches met the regimes: Rome, Berlin, Barmen and Flossenbürg. Boundaries are simplified.",
+      "bbox": [
+        -10,
+        36,
+        50,
+        60
+      ],
+      "cities": [
+        {
+          "place": "Berlin",
+          "side": "right"
+        },
+        {
+          "place": "Munich",
+          "side": "right"
+        },
+        {
+          "place": "Barmen",
+          "side": "right"
+        },
+        {
+          "place": "Flossenbürg",
+          "side": "right"
+        },
+        {
+          "place": "Rome",
+          "side": "right"
+        },
+        {
+          "place": "Madrid",
+          "side": "left"
+        },
+        {
+          "place": "Lausanne",
+          "side": "left"
+        },
+        {
+          "place": "Moscow",
+          "side": "right"
+        },
+        {
+          "place": "Kiev",
+          "side": "right"
+        },
+        {
+          "place": "Edinburgh",
+          "side": "left"
+        }
+      ]
+    },
+    {
+      "id": "europe-divided-1950",
+      "title": "Europe divided, 1950",
+      "intro": "The Iron Curtain across Europe in 1950, with the Soviet-controlled churches to the east and the free churches to the west. Boundaries are simplified.",
+      "bbox": [
+        -10,
+        36,
+        40,
+        62
+      ],
+      "cities": [
+        {
+          "place": "London",
+          "side": "left"
+        },
+        {
+          "place": "Paris",
+          "side": "left"
+        },
+        {
+          "place": "Madrid",
+          "side": "left"
+        },
+        {
+          "place": "Amsterdam",
+          "side": "left"
+        },
+        {
+          "place": "Geneva",
+          "side": "left"
+        },
+        {
+          "place": "Berlin",
+          "side": "right"
+        },
+        {
+          "place": "Vienna",
+          "side": "right"
+        },
+        {
+          "place": "Rome",
+          "side": "right"
+        },
+        {
+          "place": "Prague",
+          "side": "right"
+        },
+        {
+          "place": "Budapest",
+          "side": "right"
+        },
+        {
+          "place": "Warsaw",
+          "side": "right"
+        },
+        {
+          "place": "Moscow",
+          "side": "right"
+        },
+        {
+          "place": "Stockholm",
+          "side": "right"
+        },
+        {
+          "place": "Athens",
+          "side": "right"
+        }
+      ]
+    },
+    {
+      "id": "central-europe-1956-1989",
+      "title": "Central and Eastern Europe, 1956 to 1989",
+      "intro": "The churches of the Soviet bloc and their neighbours, from the Hungarian uprising of 1956 to the revolutions of 1989. Boundaries are simplified.",
+      "bbox": [
+        12,
+        44,
+        29,
+        56
+      ],
+      "cities": [
+        {
+          "place": "Vienna",
+          "side": "left"
+        },
+        {
+          "place": "Prague",
+          "side": "right"
+        },
+        {
+          "place": "Budapest",
+          "side": "right"
+        },
+        {
+          "place": "Warsaw",
+          "side": "right"
+        },
+        {
+          "place": "Kraków",
+          "side": "right"
+        },
+        {
+          "place": "Gdańsk",
+          "side": "right"
+        },
+        {
+          "place": "Berlin",
+          "side": "right"
+        },
+        {
+          "place": "Bucharest",
           "side": "right"
         }
       ]

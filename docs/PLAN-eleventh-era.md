@@ -20,8 +20,8 @@ liberal churches and the missions.
 ## Decisions (owner, to confirm)
 
 1. **Start: AD 1648** (Peace of Westphalia), following the Reformation era.
-2. **End: AD 1789** (the French Revolution). Alternatives: 1773 (suppression of the Jesuits) or 1790 (the Civil
-   Constitution of the Clergy). Owner to choose.
+2. **End: AD 1789** (the French Revolution). **Decided:** the twelfth era begins there. The alternatives, 1773 (suppression
+   of the Jesuits) and 1790 (the Civil Constitution of the Clergy), were not chosen.
 3. **Length: 141 years.** Comparable to the Reformation era, and so the page should be organised by theme, as that plan is.
 4. **East is in scope in a limited way**: Peter the Great and the Russian Orthodox Church (the patriarchate abolished in
    1721), the Ottoman frontier receding, and the Orthodox response to Western thought. A few rows only.

@@ -23,9 +23,9 @@ churches' responses to it are central, so the page must treat them with care (se
    material given their own sections so they do not get lost.
 4. **East is in scope in full**: the Russian church and the revolution, the Armenian genocide, the Greek and Turkish exchange
    of populations, and the Ecumenical Patriarchate. This is a larger share than in the twelfth era.
-5. **The Holocaust and the churches**: the page will say what the sources show about church responses in Germany and
-   elsewhere, including the criticism of Pius XII. Owner to confirm how far to go and how to frame the debate, since the
-   scholarship is contested and the frontier-model review will need to check it.
+5. **The Holocaust and the churches (decided):** the page will say what the sources show about church responses in Germany
+   and elsewhere, including the criticism of Pius XII and the defences made for him. It will set out the debate and give no
+   verdict the sources do not support. The frontier-model review will need to check this section.
 
 ## Structure of the page
 
