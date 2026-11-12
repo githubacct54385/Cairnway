@@ -48,4 +48,4 @@ Suggestions and corrections are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
 - Original text: [CC BY 4.0](CONTENT-LICENSE.md)
 - Third-party material keeps its own license, listed in [SOURCES.md](SOURCES.md)
 
-This site summarizes published sources and is not itself a scholarly authority.
+This site summarizes published sources and is not itself a scholarly authority. It is made by a Christian, with the aim of presenting the evidence fairly; see the About page (`src/pages/about.astro`).

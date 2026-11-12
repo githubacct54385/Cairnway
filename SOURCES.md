@@ -19,11 +19,14 @@ This is a planning log, not legal advice. If a license is unclear, link to the s
 | Eusebius, *Church History* (McGiffert translation, Nicene and Post-Nicene Fathers) | Later tradition on Peter, Paul, James (Hegesippus), Pella, Domitian, John, and the author of 1 Clement | Public domain (older translation), to verify | not yet checked |
 | Raymond E. Brown, *An Introduction to the New Testament* | Date ranges in the "When were the sources written?" table | Copyrighted; cite only | not yet checked |
 | *The Cambridge History of Christianity, Vol. 1* | Further reading | Copyrighted; link or cite only | not yet checked |
+| Hurtado, *Lord Jesus Christ*; Bauckham, *Jesus and the God of Israel*; Dunn, *Did the First Christians Worship Jesus?*; Ehrman, *How Jesus Became God* | Scholarly positions on early devotion to Jesus; further reading | Copyrighted; cite only | not yet checked |
+| Dunn, *The Partings of the Ways*; Becker and Reed (eds.), *The Ways That Never Parted* | Scholarly positions on when Christianity and Judaism separated; further reading | Copyrighted; cite only | not yet checked |
+| Ignatius, *Letter to the Magnesians* (older translation, such as Lightfoot or the Ante-Nicene Fathers) | Ignatius setting Christianity against Judaism | Public domain (older translation), to verify | not yet checked |
 
 ## Candidates still to review
 
 - Suetonius, life of Nero (older translation)
-- Other letters of Ignatius (Ante-Nicene Fathers series)
+- Other letters of Ignatius, beyond Romans and Magnesians (Ante-Nicene Fathers series)
 - Pliny the Younger, Letter 10.96 (about AD 112)
 - Philip Schaff, *History of the Christian Church*, vol. 1 (public domain but dated)
 
