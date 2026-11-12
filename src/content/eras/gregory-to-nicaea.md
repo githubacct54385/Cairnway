@@ -1,10 +1,10 @@
 ---
-title: "From Gregory to Charlemagne"
-summary: "AD 600 to 800: Arab armies take the Christian lands of the East, the English church settles its date for Easter, the councils argue over the person of Christ and over images, and a Frankish king is crowned emperor in Rome."
-dateRange: "AD 600 to AD 800"
+title: "From Gregory to the Second Council of Nicaea"
+summary: "AD 600 to 787: Arab armies take the Christian lands of the East, the English church settles its date for Easter, the councils argue over the person of Christ, and a council at Nicaea restores the veneration of images."
+dateRange: "AD 600 to AD 787"
 order: 5
 draft: true
-reviewStatus: "Draft, written 2026-11-12 from docs/PLAN-fifth-era.md. Four events were read against the full text of the public-domain editions named in the sources: Bede on the English mission and the Synod of Whitby (Sellar translation, Gutenberg), and the Sixth Council's condemnation of Pope Honorius and the Seventh Council's acts on images (NPNF2 vol. 14). Every other date, the Islamic conquests, the Frankish events, Charlemagne's coronation, and all statements about what modern scholars think are not yet checked. No specialist has reviewed this page."
+reviewStatus: "Draft, written 2026-11-12 from docs/PLAN-fifth-era.md. Four events were read against the full text of the public-domain editions named in the sources: Bede on the English mission and the Synod of Whitby (Sellar translation, Gutenberg), and the Sixth Council's condemnation of Pope Honorius and the Seventh Council's acts on images (NPNF2 vol. 14). Every other date, the Islamic conquests, the Frankish events, and all statements about what modern scholars think are not yet checked. No specialist has reviewed this page."
 keyPeople:
   - name: "Colman and Wilfrid"
     role: "Bishops in the English church, on opposite sides at Whitby"
@@ -30,10 +30,6 @@ keyPeople:
     role: "Emperor in Constantinople (Leo); empress and regent (Irene)"
     summary: "Leo III is traditionally said to have begun the attack on images in the 720s. Irene restored the veneration of images at the Second Council of Nicaea, held in 787. The dates and the emperors' motives are debated and not yet checked here."
     source: "The Seven Ecumenical Councils (NPNF2 vol. 14), the Seventh Council (checked for the acts); the iconoclast dates are not yet checked"
-  - name: "Charlemagne"
-    role: "King of the Franks, crowned emperor at Rome in 800"
-    summary: "Extended Frankish rule over most of western Europe and, in 800, was crowned emperor at Rome. The coronation is debated, and its meaning for the Byzantine empire is not yet checked here."
-    source: "Einhard, Life of Charlemagne (edition to choose); not yet checked"
 events:
   - date: "AD 597 (checked)"
     title: "West: Augustine lands in Kent"
@@ -79,10 +75,6 @@ events:
     title: "East: The Second Council of Nicaea restores images"
     summary: "The Seventh Ecumenical Council met at Nicaea and restored the veneration of images. Its acts include bishops' confessions that they venerate the images of Christ, the Mother of God, the apostles and the saints, and anathemas against those who do not. The council's own view separated veneration from worship."
     source: "The Seven Ecumenical Councils (NPNF2 vol. 14), the Seventh Council (checked for the confessions and anathemas)"
-  - date: "AD 800"
-    title: "West: Charlemagne is crowned emperor at Rome"
-    summary: "Charlemagne, king of the Franks, was crowned emperor at Rome by Pope Leo III. Historians debate whether the coronation was planned by the pope or by Charlemagne, and what it meant for the Byzantine emperor. The details are not yet checked here."
-    source: "Einhard, Life of Charlemagne (edition to choose); not yet checked"
 sources:
   - title: "Ecclesiastical History of England"
     author: "Bede, translated by A. M. Sellar (Project Gutenberg, ebook 38326)"
@@ -96,7 +88,7 @@ sources:
     license: "Public domain (CCEL: Rights: Public Domain)"
     checked: "2026-11-12"
     usedFor: "The condemnation of Honorius; the Second Council of Nicaea and the images"
-  - title: "Theophanes; Sophronius; Einhard; Isidore; the Lateran council and Maximus"
+  - title: "Theophanes; Sophronius; Isidore; the Lateran council and Maximus"
     author: "Various (editions to choose)"
     license: "To check. Each edition's licence must be recorded before its text is quoted"
     checked: "not yet checked"
@@ -110,7 +102,7 @@ sources:
 
 ## Overview
 
-The fourth era ended with Gregory the Great and the first English converts. This era runs from Gregory's successors to the coronation of Charlemagne, two hundred years later. In those years the church lost most of its eastern lands to the armies of a new faith, kept the faith of the Byzantine empire in a long argument over images, and built a church among the English and the Franks that would shape the West for centuries.
+The fourth era ended with Gregory the Great and the first English converts. This era runs from Gregory's successors to the Second Council of Nicaea in 787, which restored the veneration of images. In those years the church lost most of its eastern lands to the armies of a new faith, kept the faith of the Byzantine empire in a long argument over images, and built a church among the English and the Franks that would shape the West for centuries.
 
 The page is arranged by East and West, as before. Events are tagged East or West. The East in this era is the Byzantine empire, its councils and its emperors. The West is the English kingdoms, the Franks and the papacy in Rome.
 
@@ -121,7 +113,6 @@ The page is arranged by East and West, as before. Events are tagged East or West
 | Bede, *Ecclesiastical History* | Completed 731 | The date is in Bede's preface; not yet checked |
 | Acts of the Sixth Council | 680 to 681 | Read in the full text (NPNF2 vol. 14) |
 | Acts of the Seventh Council | 787 | Read in the full text (NPNF2 vol. 14) |
-| Einhard, *Life of Charlemagne* | c. 830 | Not yet checked |
 
 ## Key beliefs and debates
 
@@ -170,7 +161,7 @@ The page quotes the Christian sources for this era. The Islamic sources for the 
 
 Modern scholarship is cited here, not copied. Titles and years are from memory and are being checked.
 
-- Peter Brown, *The Rise of Western Christendom* (2nd edition, 2003). The framework for 600 to 800.
+- Peter Brown, *The Rise of Western Christendom* (2nd edition, 2003). The framework for the period.
 - Judith Herrin, *Byzantium: The Surprising Life of a Medieval Empire* (2007). Iconoclasm and the eastern church.
 - Richard Fletcher, *The Conversion of Europe* (1997). The English mission and after.
 - Averil Cameron, *The Mediterranean World in Late Antiquity* (1993). The East before the conquests.
