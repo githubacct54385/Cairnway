@@ -216,6 +216,42 @@ debate over Christian nationalism divides churches and scholars. In post-communi
 positions on the state and on public morality. The Catholic Church's social teaching on migration and the environment, including
 *Laudato Si'*, has been widely discussed. Details not yet checked.
 
+## Criticisms and open questions
+
+This section sets out criticisms that have been made of the churches in this era, by people inside and outside them. It does not
+give the page's own verdict on how Christians should live. Each criticism is attributed to the person or report that makes it, and
+where a church has replied, the reply is given.
+
+### Criticism from inside the churches
+
+Leaders and members of several churches have criticised their own institutions. The most documented case is the handling of abuse:
+the reports of the John Jay College (2004) and the Southern Baptist Convention (2022) found that cases were not always reported to
+the authorities or dealt with openly, and the churches have said that they have since changed their procedures. Whether those changes
+have gone far enough is disputed. Other internal criticism has concerned the churches' relations with the poor, the treatment of
+women, and the way divisions over sexuality have been handled. Named critics, their statements and the replies to them are to be
+added with sources. Details not yet checked.
+
+### Criticism from outside the churches
+
+Critics outside the churches have argued that some Christian communities have been too close to political power, that some teaching
+on wealth and health offers blessings that are not supported by the evidence, and that some churches have made themselves less
+able to respond to the poor by dividing over doctrine. Others argue that churches have been unfairly singled out for criticism of
+their past conduct. Each argument is to be attributed and sourced, and each reply recorded. Details not yet checked.
+
+### Where the standards are contested
+
+Several criticisms depend on the standard applied. For example, a church that teaches a particular moral standard on sexuality may
+be criticised by some as unloving, and by others as faithful. Those on each side describe their own standard in their own words,
+and the page reports both without choosing. The same applies to the churches' relations with each other, to their attitude to
+the state, and to their response to persecution. See the sections on divisions and on politics above.
+
+### What the figures show
+
+Pew Research Center's 2025 report links the fall in the Christian share of the world's population mainly to people leaving the
+faith, rather than to population change alone. Open Doors' figures on persecution point to a rise in the number of Christians facing
+persecution, but its method and counts are disputed by some observers. The page reports the figures as the sources give them,
+with their methods. Details not yet checked.
+
 ## Where the church stands
 
 The main open questions are these: whether the divisions over sexuality and ordination will lead to more separate churches or to
