@@ -18,28 +18,37 @@ const first = eras[0];
 
   <div class="wrap timeline-wrap">
     <p class="timeline-label">Timeline, AD {eras[0].data.startYear} to {eras[eras.length - 1].data.endYear}</p>
-    <nav class="timeline" aria-label="Timeline of eras">
-      {
-        eras.map((era) => (
-          <a
-            class="segment"
-            href={`#era-${era.id}`}
-            style={`flex-grow: ${era.data.endYear - era.data.startYear}`}
-            aria-label={`${era.data.title}, ${era.data.dateRange}`}
-          >
-            <span class="bar" />
-          </a>
-        ))
-      }
-    </nav>
-    <div class="timeline-years" aria-hidden="true">
-      {
-        eras.map((era) => (
-          <span style={`flex-grow: ${era.data.endYear - era.data.startYear}`}>{era.data.startYear}</span>
-        ))
-      }
-      <span class="end">{eras[eras.length - 1].data.endYear}</span>
+    <div class="timeline-scroll">
+      <div class="timeline-track" style={`--eras: ${eras.length}`}>
+        <nav class="timeline" aria-label="Timeline of eras">
+          {
+            eras.map((era) => (
+              <a
+                class="segment"
+                href={`#era-${era.id}`}
+                style={`flex-grow: ${era.data.endYear - era.data.startYear}`}
+                aria-label={`${era.data.title}, ${era.data.dateRange}`}
+              >
+                <span class="bar" />
+              </a>
+            ))
+          }
+        </nav>
+        <div class="timeline-years" aria-hidden="true">
+          {
+            eras.map((era, i) => (
+              <span style={`flex-grow: ${era.data.endYear - era.data.startYear}`}>
+                <span class={`year tier-${i % 2}`}>{era.data.startYear}</span>
+              </span>
+            ))
+          }
+          <span class="end">
+            <span class="year tier-2">{eras[eras.length - 1].data.endYear}</span>
+          </span>
+        </div>
+      </div>
     </div>
+    <p class="timeline-hint">Swipe the bar to see every era.</p>
   </div>
 
   <div id="eras" class="wrap">
@@ -108,23 +117,65 @@ const first = eras[0];
     outline: 2px solid var(--fg);
     outline-offset: 2px;
   }
+  /* On a phone the bar scrolls inside its own box, so the page itself never scrolls.
+     The minimum width keeps every era's segment at least 44px wide. */
+  .timeline-scroll {
+    padding-bottom: 0.25rem;
+  }
+  .timeline-track {
+    min-width: calc(var(--eras) * 44px + (var(--eras) - 1) * 3px);
+  }
+  .timeline-hint {
+    display: none;
+    font-size: 0.8rem;
+    color: var(--muted);
+    margin-top: 0.3rem;
+  }
+  @media (max-width: 719px) {
+    .timeline-scroll {
+      overflow-x: auto;
+    }
+    .timeline-hint {
+      display: block;
+    }
+  }
+  /* Each year sits inside its era's segment, so it lines up with the bar. Labels alternate
+     between two tiers so neighbours never share a line. The end year gets a third tier. */
   .timeline-years {
     display: flex;
     gap: 3px;
+    height: 3rem;
+    margin-top: 0.3rem;
     font-size: 0.7rem;
     color: var(--muted);
-    margin-top: 0.2rem;
   }
-  .timeline-years span {
+  .timeline-years > span {
+    position: relative;
     flex-basis: 0;
     min-width: 0;
-    overflow: visible;
-    white-space: nowrap;
   }
-  .timeline-years .end {
+  .timeline-years > .end {
     flex-grow: 0;
-    flex-basis: auto;
-    text-align: right;
+    flex-basis: 0;
+  }
+  .year {
+    position: absolute;
+    left: 0;
+    white-space: nowrap;
+    line-height: 1;
+  }
+  .tier-0 {
+    top: 0;
+  }
+  .tier-1 {
+    top: 1.05rem;
+  }
+  .tier-2 {
+    top: 2.1rem;
+  }
+  .timeline-years .end .year {
+    left: auto;
+    right: 0;
   }
   .era-row {
     border-top: 1px solid var(--rule);
@@ -157,37 +208,4 @@ const first = eras[0];
     padding-top: 1rem;
   }
 </style>
-
-<script>
-  // The year labels sit in the same flex row as the bars, so the short later eras leave
-  // too little room for their labels. Hide any label whose text would run into the label
-  // to its right. The end year is always kept, and the bars still show every era boundary.
-  const GAP = 6;
-
-  function fitTimelineYears() {
-    const row = document.querySelector<HTMLElement>('.timeline-years');
-    if (!row || row.getBoundingClientRect().width === 0) return; // not laid out yet
-    const spans = Array.from(row.querySelectorAll<HTMLElement>(':scope > span'));
-    const range = document.createRange();
-    let nextLeft = Infinity;
-    for (let i = spans.length - 1; i >= 0; i--) {
-      const span = spans[i];
-      span.style.visibility = '';
-      range.selectNodeContents(span);
-      const box = range.getBoundingClientRect();
-      if (i === spans.length - 1) {
-        nextLeft = box.left;
-      } else if (box.right + GAP > nextLeft) {
-        span.style.visibility = 'hidden';
-      } else {
-        nextLeft = box.left;
-      }
-    }
-  }
-
-  fitTimelineYears();
-  window.addEventListener('load', fitTimelineYears);
-  window.addEventListener('resize', fitTimelineYears);
-  document.fonts?.ready.then(fitTimelineYears);
-</script>
 
