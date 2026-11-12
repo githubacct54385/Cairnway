@@ -42,6 +42,23 @@ the Cambridge History. Perseus and several Wikisource pages were blocked or miss
 8. **Tacitus.** One Wikisource page was read; its translator and licence were not stated, so the "public domain" claim
    for the Tacitus translation is unconfirmed. "Deflecting blame" is an interpretation, not a quote.
 
+9. **Peter and Paul in Rome (batch 1).** Every detail of how and where they died is later tradition, and the page says so.
+   Check that each "later tradition" sentence matches what Eusebius 2.25 and 3.1 actually report, that 1 Clement 5 is
+   described fairly (it names no place or method), and that "most scholars accept both died in Rome" is not overstated.
+10. **The "When were the sources written?" table (batch 1).** About 30 date ranges, all written from memory and attributed
+   to "standard introductions such as Brown". Nobody has compared them with Brown or any other introduction. Check every row.
+11. **Herod Agrippa I's death (batch 1).** The parallel with Josephus, "three years over all Judea", the AD 41 start and the
+   AD 44 date are from memory.
+12. **1 Clement's date and content (batch 1).** The c. AD 95 to 97 date, the Domitian link and the chapter numbers (1.1, 42,
+   44, 47) are from memory.
+
+13. **Batch 2's later-tradition claims.** Pella, Domitian, John at Ephesus, and Hegesippus on James all rest on what
+   Eusebius, Irenaeus and others report. Check each "says" against the passage cited, and check that the scholarly
+   positions given ("many modern historians doubt...", "most modern scholars agree...") are not overstated.
+14. **Junia and Phoebe.** These are live debates. Check that each side is stated fairly and that neither entry reads
+   as taking a side.
+15. **Worship section.** About 30 verse references and several Didache chapter numbers, all from memory.
+
 ## Second pass (2026-11-11)
 
 A second AI read the page and this ledger against its own general knowledge. **It did not open any sources**, so no
@@ -152,6 +169,140 @@ It suggests the Wikisource Tacitus is likely the Church and Brodribb translation
 | B15 | The first believers were Jewish; Acts has them meeting in the temple | none | U | Acts 2:46; 3:1 not fetched |
 | B16 | **Scholars debate when Christians and Jews came to be seen as distinct, some saying first century, others much later** | none | U | **No source. The page that was meant to confirm it was not found.** |
 
+## Batch 1 additions (2026-11-11)
+
+Added by an AI from general knowledge. **No source was opened for any of these, so every row is U.** "Later tradition"
+marks claims that come from writers after the first century.
+
+### New events
+
+| # | Claim | Cited | Status | Notes for the reviewer |
+| --- | --- | --- | --- | --- |
+| N1 | Seven men, including Stephen, chosen to oversee food distribution after complaints about Greek-speaking widows | Acts 6:1 to 6 | U | |
+| N2 | Stephen accused of speaking against the temple and the law, speaks before the council, stoned outside the city | Acts 6:8 to 7:60 | U | |
+| N3 | A young man named Saul watched and approved | Acts 7:58, 8:1 | U | |
+| N4 | Believers scatter into Judea and Samaria; Philip preaches in Samaria and to an Ethiopian official | Acts 8:1 to 40 | U | |
+| N5 | Stephen is the first person Acts presents as dying for his faith; Acts is the only source | none | U | |
+| N6 | Date c. AD 31 to 36 for Stephen | none | U | Derived from the crucifixion and Paul's conversion dates |
+| N7 | Herod Agrippa I (grandson of Herod the Great) killed James the brother of John with the sword, then arrested Peter, who Acts says was freed by an angel | Acts 12:1 to 11 | U | |
+| N8 | Apart from Judas, James is the only one of the twelve whose death Acts records | none | U | Judas: Acts 1:18. Confirm no other death of one of the twelve is in Acts |
+| N9 | Acts describes Herod's sudden death at Caesarea after a crowd hailed him as a god | Acts 12:20 to 23 | U | |
+| N10 | Josephus tells a similar story, with the crowd calling him a god, after he had ruled all of Judea for three years | Antiquities 19.8.2 (19.343 to 352) | U | Check "three years" and the section numbers |
+| N11 | Agrippa ruled Judea from AD 41; his death usually dated to AD 44 | none | U | |
+| N12 | Acts ends with Paul two years in Rome under guard and does not say what happened to him; the New Testament does not describe either apostle's death | Acts 28:30 to 31 | U | John 21:18 to 19 hints at Peter's death without describing it; confirm the wording is fair |
+| N13 | 1 Clement (c. AD 96) holds up Peter and Paul as examples who suffered and bore witness, without saying where, how or when they died | 1 Clement 5 | U | |
+| N14 | John has Jesus hint at the kind of death Peter would die | John 21:18 to 19 | U | |
+| N15 | Ignatius (c. AD 110), writing to Rome, mentions Peter and Paul as having given that church instructions | Ignatius, Romans 4.3 | U | |
+| N16 | From the late second century on, writers say both taught and died in Rome, some saying under Nero | Eusebius 2.25 (later tradition) | U | Eusebius quotes Dionysius of Corinth, Gaius and Tertullian there; check which say what |
+| N17 | Eusebius reports Paul beheaded and Peter crucified, and, citing Origen, that Peter asked to be crucified head downward | Eusebius 2.25.5; 3.1.2 | U | |
+| N18 | Most scholars accept both died in Rome, probably under Nero; a minority doubt Peter was ever there | none | U | **No source. Needs a named scholarly reference** |
+| N19 | Tradition that Paul was released and travelled again, based on Romans 15:24 and 1 Clement's "limit of the west"; debated | Romans 15:24; 1 Clement 5 | U | |
+| N20 | Date c. AD 64 to 68 for Peter's and Paul's deaths | none | U | Nero died in AD 68 |
+| N21 | 1 Clement was sent from Rome to Corinth after some Corinthian presbyters were removed, and urges their restoration | 1 Clement 44, 47 | U | |
+| N22 | It argues the apostles appointed the first leaders and arranged for successors | 1 Clement 42, 44 | U | |
+| N23 | The letter does not name its author; later tradition credits it to Clement | Eusebius 4.23.11 | U | Irenaeus, Against Heresies 3.3.3, could also be cited |
+| N24 | Most scholars date it c. AD 95 to 97, partly because of "sudden misfortunes" some link to Domitian; others argue earlier or later | 1 Clement 1.1 | U | |
+| N25 | "The apostles are now remembered as figures of the past" | none | U | Interpretation; check it reads as such |
+
+### Changes to key people
+
+| # | Claim | Status | Notes for the reviewer |
+| --- | --- | --- | --- |
+| N26 | Peter: Acts says nothing of his later life; later tradition places his death in Rome | U | |
+| N27 | Paul: Acts ends with him under guard in Rome; later tradition says he died there | U | |
+
+### "When were the sources written?" table
+
+Every range in this table is **U**. The page attributes them to standard introductions "such as Raymond E. Brown's",
+but no introduction was opened. The reviewer should compare each row with Brown (1997) and, ideally, one more
+introduction, and either fix the range or name the source that gives it.
+
+| # | Claim | Status | Notes for the reviewer |
+| --- | --- | --- | --- |
+| T1 | The Paul's letters rows (1 Thessalonians to Philippians and Philemon), and their notes | U | Check 1 Cor 16:8 (Ephesus) and Rom 15:25 to 26 (collection) |
+| T2 | The debated letters rows, with "if by Paul" and "if by a later writer" dates | U | |
+| T3 | The Gospels and Acts rows, including "most think Matthew drew on Mark" and "John probably written in stages" | U | |
+| T4 | The other New Testament writings rows. Revelation: Irenaeus places it late in Domitian's reign | U | Irenaeus, Against Heresies 5.30.3 |
+| T5 | 2 Peter is often thought the latest New Testament book, after this era | U | |
+| T6 | Josephus: Jewish War c. AD 75 to 79; Antiquities AD 93 to 94, dated by Josephus himself to Domitian's thirteenth year | U | Antiquities 20.267 |
+| T7 | Tacitus, Annals c. AD 115 to 120; Suetonius c. AD 120; Eusebius early fourth century | U | |
+| T8 | "None of the New Testament books states its own date" | U | |
+| T9 | "In the timeline below" (was "above"): the timeline renders after the text | S | Checked against `src/pages/eras/[slug].astro` |
+
+## Batch 2 additions (2026-11-11)
+
+Added by an AI from general knowledge, with **no source opened. Every row is U.**
+
+### Additions to existing events
+
+| # | Claim | Cited | Status | Notes for the reviewer |
+| --- | --- | --- | --- | --- |
+| M1 | Paul escaped Damascus in a basket through a window in the wall while the governor under King Aretas guarded the city | 2 Cor 11:32 to 33 | U | |
+| M2 | Acts tells the basket escape just before the Jerusalem visit and blames a plot by Jews in Damascus | Acts 9:23 to 26 | U | |
+| M3 | Aretas IV, king of the Nabataeans, died around AD 40 | none | U | Needs a reference work. Some date his death to AD 39 or 40 |
+| M4 | Gallio was the brother of the philosopher Seneca | none | U | |
+| M5 | An inscription at Delphi, a letter of Claudius naming Gallio as proconsul, lets historians date his term | Gallio inscription | U | Same as high-risk item 4 |
+| M6 | Josephus: some in Jerusalem objected, and Agrippa II removed Ananus after three months | Antiquities 20.201 to 203 | U | |
+| M7 | Hegesippus (via Eusebius): James thrown from the temple, stoned and beaten to death, just before the siege | Eusebius 2.23 | U | |
+
+### New events
+
+| # | Claim | Cited | Status | Notes for the reviewer |
+| --- | --- | --- | --- | --- |
+| M8 | Believers scattered after Stephen reached Antioch; some spoke to Greeks | Acts 11:19 to 21 | U | |
+| M9 | Barnabas sent from Jerusalem, fetched Paul from Tarsus, taught a year | Acts 11:22 to 26 | U | |
+| M10 | Disciples first called Christians at Antioch, "a name probably given by outsiders" | Acts 11:26 | U | The "outsiders" part is a common scholarly view; needs a source |
+| M11 | Antioch sent famine relief under Claudius; Josephus mentions a famine in Judea in the mid-40s | Acts 11:27 to 30; Antiquities 20.51 to 53, 20.101 | U | Check the section numbers |
+| M12 | Date c. AD 40 to 45 for Antioch | none | U | |
+| M13 | Romans is addressed to believers in a city Paul had not yet visited | Romans 1:7 to 15, 15:22 to 29 | U | |
+| M14 | Nobody knows who first brought the message to Rome; Acts lists visitors from Rome at Pentecost | Acts 2:10 | U | |
+| M15 | The Claudius expulsion "may show" disputes about Christ had reached Rome's Jewish community in the 40s | Suetonius, Claudius 25.4 | U | Hedged on purpose; links to E14 |
+| M16 | Paul greets many by name, including Prisca and Aquila, and plans to visit Rome on the way to Spain | Romans 16:3 to 16, 15:24 and 28 | U | |
+| M17 | Later tradition names Peter as founder of the Roman church; Romans does not mention him | none | U | Cite Irenaeus, Against Heresies 3.3.2, if kept |
+| M18 | Paul accused of taking a non-Jew into the inner temple courts; riot; Roman custody | Acts 21:27 to 36 | U | |
+| M19 | Held two years at Caesarea under Felix; appealed to the emperor under Festus as a Roman citizen; hearing before Agrippa II | Acts 23 to 26 (24:27, 25:10 to 12) | U | |
+| M20 | Felix and Festus are both known from Josephus; most place the change of governor c. AD 59 or 60, some earlier | Antiquities 20.137 to 182 | U | "Most" needs a source |
+| M21 | Paul's own letters do not describe these events | none | U | |
+| M22 | Revolt broke out in AD 66; Josephus described it as an eyewitness | Jewish War 2 | U | |
+| M23 | Eusebius: before the war the Jerusalem believers were warned by a revelation and settled in Pella, east of the Jordan; Epiphanius tells the same story | Eusebius 3.5.3 | U | Epiphanius not cited by passage; Panarion 29.7 and 30.2 |
+| M24 | Some scholars accept the Pella story, others doubt it; Pella was attacked early in the war | none | U | Josephus, Jewish War 2.458 for the attack |
+| M25 | Melito, Tertullian and Eusebius say Domitian persecuted Christians, the second emperor to do so after Nero | Eusebius 3.17 to 20, 4.26.9 | U | Tertullian, Apology 5 |
+| M26 | Cassius Dio: Domitian executed Flavius Clemens and exiled Domitilla for atheism and drifting into Jewish ways; some think they were Christians | Dio 67.14 | U | |
+| M27 | Revelation and 1 Clement hint at pressure on believers | Rev 1:9, 2:13; 1 Clement 1.1 | U | |
+| M28 | Many modern historians doubt an empire-wide persecution under Domitian | none | U | Needs a source |
+| M29 | Revelation's author John received visions on Patmos; messages to seven churches of Asia | Rev 1:1 to 11, 2 to 3 | U | |
+| M30 | Justin and Irenaeus identify him with the apostle; Irenaeus places the visions late in Domitian's reign and says John lived at Ephesus into Trajan's reign | Justin, Dialogue 81; Irenaeus 3.3.4, 5.30.3 | U | |
+| M31 | Dionysius of Alexandria doubted common authorship of Revelation and John because of their Greek; most modern scholars agree; some date Revelation to the late 60s | Eusebius 7.25 | U | |
+
+### New key people
+
+| # | Claim | Cited | Status | Notes for the reviewer |
+| --- | --- | --- | --- | --- |
+| M32 | John: Galilean fisherman, brother of James; with Peter in Acts; a "pillar" in Galatians | Mark 1:19 to 20; Acts 3 to 4, 8; Gal 2:9 | U | |
+| M33 | Tradition credits John with the Gospel, three letters and Revelation and a long life in Ephesus; most modern scholars doubt he wrote them; the beloved disciple is debated | Irenaeus 3.1.1, 3.3.4 | U | |
+| M34 | Stephen: one of seven, all with Greek names; full of faith and the Spirit; speech criticises the temple; prays for his killers, echoing Jesus in Luke | Acts 6 to 7; Luke 23:34, 46 | U | Luke 23:34 is missing from some early manuscripts; consider a note |
+| M35 | Timothy: from Lystra; Jewish believing mother, Greek father; co-sender of letters; Paul's envoy, "like a son" | Acts 16:1 to 3; 1 Thess 1:1, 3:2 to 6; 1 Cor 4:17; Phil 1:1, 2:19 to 22; Philemon 1 | U | 2 Corinthians 1:1 also names him |
+| M36 | Many scholars think 1 and 2 Timothy were written after Paul's death | none | U | Same as B13 |
+| M37 | Apollos: Alexandrian Jew, eloquent, knew only John's baptism; taught by Priscilla and Aquila; worked in Corinth; a rival faction formed around him; "I planted, Apollos watered" | Acts 18:24 to 19:1; 1 Cor 1:12, 3:4 to 9, 16:12 | U | |
+| M38 | Luther guessed Apollos wrote Hebrews | none | U | Needs a source |
+| M39 | Phoebe: sister, *diakonos* of the church at Cenchreae, *prostatis* of many and of Paul; translations and the "office" question debated; many think she carried the letter | Romans 16:1 to 2 | U | |
+| M40 | Andronicus and Junia: relatives, fellow prisoners, believers before Paul, "outstanding among the apostles" | Romans 16:7 | U | |
+| M41 | Chrysostom and most modern translations read Junia as a woman; some older ones print "Junias", not otherwise known; the phrase can mean "notable apostles" or "well known to the apostles" | Chrysostom, Homilies on Romans 31 | U | |
+
+### Worship and community life, and the glossary
+
+| # | Claim | Status | Notes for the reviewer |
+| --- | --- | --- | --- |
+| W1 | Every verse reference in the section (houses, baptism, Lord's Supper, first day, prayer and gifts, sharing, leaders) | U | Check each against the text |
+| W2 | Didache chapter numbers: 7 (baptism), 8 (prayer three times a day), 9 to 10 (thanksgiving prayers), 14 (Lord's day), 15 (overseers and deacons) | U | |
+| W3 | Didache found in Constantinople in 1873 and published ten years later; dated c. AD 50 to 120; probably compiled in stages | U | Found by Philotheos Bryennios; published 1883 |
+| W4 | A house could hold a few dozen people at most | U | Needs a source |
+| W5 | Maranatha means "our Lord, come" and suggests an Aramaic-speaking origin | U | It can also be read as "our Lord has come" |
+| W6 | Many scholars think Philippians 2:6 to 11 quotes an existing hymn; debated | U | |
+| W7 | Scholars debate when the ritual meal separated from an ordinary meal, and when single bishops began; Ignatius is the first to insist on one | U | |
+| W8 | Jewish believers probably went on keeping the Sabbath | U | Interpretation; flag if it reads as fact |
+| W9 | Glossary definitions (19 terms) | U | Check especially "Prefect, procurator" and "Proconsul" |
+
 ## Maps
 
 Stops and references come from `scripts/maps/maps.config.json`. The reviewer should open each Acts passage and confirm
@@ -176,6 +327,8 @@ the note matches.
 | S3 | The Tacitus and Suetonius translations used are public domain | U | The Wikisource Tacitus page did not name its translator |
 | S4 | *The Cambridge History of Christianity*, Volume 1, *Origins to Constantine*, edited by Margaret M. Mitchell and Frances M. Young | U | Bibliographic details from memory; verify publisher and year |
 | S5 | The "Further reading" section | U | It is placeholder text; no further reading is listed yet |
+| S6 | 1 Clement and Ignatius (older translation), Eusebius (McGiffert) are public domain; Brown is cite-only | U | Translations not chosen yet; pick one and confirm its licence |
+| S7 | Irenaeus, Justin, Chrysostom (older translations), and Cary's Dio (Loeb, 1914 to 1927) are public domain; Gallio inscription edition to be named | U | Cary's Dio volumes may have different US copyright status; check the volume with book 67 |
 
 ## Suggested instructions for the reviewing model
 
