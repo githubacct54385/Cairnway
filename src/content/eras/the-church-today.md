@@ -6,9 +6,9 @@ order: 15
 startYear: 1989
 endYear: 2026
 draft: true
-reviewStatus: "Draft, written 2026-11-12 from docs/PLAN-fifteenth-era.md. Not checked against any source. Every date, figure, name and claim is from the drafter's general knowledge and is unchecked, including the statistics, the dates of the denominational decisions and the abuse reports. No specialist has reviewed this page. Living people are described only by their public actions and statements, and each statement needs its source before publication."
+reviewStatus: "Draft, written 2026-11-12 from docs/PLAN-fifteenth-era.md. Pew's 2025 report on Christian population change (2010 to 2020) checked against the report on 2026-11-12. Open Doors' 2026 World Watch List figures are from news coverage only, because the Open Doors pages could not be read that day. The 2025 papal succession is checked against news coverage (Francis died 21 April 2025; Leo XIV elected 8 May 2025). Every other date, name and claim is from the drafter's general knowledge and is unchecked, including the dates of the denominational decisions and the abuse reports. No specialist has reviewed this page. Living people are described only by their public actions and statements, and each statement needs its source before publication."
 flags:
-  - text: "Statistics on membership, growth and persecution are not yet taken from a dated source. Counts vary widely between reports, and the page must give the report and its date for each figure."
+  - text: "The Pew membership figures are now checked against the report itself. The Open Doors persecution figures are still from news coverage: the Open Doors pages could not be read on 2026-11-12. Read the Open Doors list before publication. Counts vary widely between reports, so each figure must keep its report and date."
     severity: high
   - text: "The abuse section gives findings and responses from several reports. None has yet been read. Each finding must be checked against its report before publication."
     severity: high
@@ -27,7 +27,7 @@ keyPeople:
     source: "Not yet checked"
   - name: "Pope Francis"
     role: "Pope, 2013 to 2025"
-    summary: "Elected in 2013 and the first pope from Latin America. His encyclical *Laudato Si'* (2015) addressed the environment and the poor. His death in 2025 is to be checked. Details not yet checked."
+    summary: "Elected in 2013 and the first pope from Latin America. His encyclical *Laudato Si'* (2015) addressed the environment and the poor. He died on 21 April 2025, and was succeeded by Leo XIV (Robert Francis Prevost), elected on 8 May 2025. Dates checked against news coverage, not yet against Vatican statements."
     source: "Not yet checked"
   - name: "Bartholomew I"
     role: "Ecumenical Patriarch of Constantinople, from 1991"
@@ -94,16 +94,17 @@ events:
     title: "West: The Church of England approves prayers for same-sex couples"
     summary: "The General Synod agreed to a form of prayer for blessing same-sex couples, which the Anglican Communion's other provinces received in different ways. Date and wording not yet checked."
     source: "Not yet checked"
-  - date: "AD 2025 (unchecked)"
-    title: "Both: Death of Pope Francis and the election of his successor"
-    summary: "The date and circumstances are to be checked, and the successor's name and election are to be confirmed before publication."
-    source: "Not yet checked"
+  - date: "AD 2025 (checked against news coverage)"
+    title: "Both: Death of Pope Francis and the election of Leo XIV"
+    summary: "Pope Francis died on 21 April 2025. The conclave elected Robert Francis Prevost, who took the name Leo XIV, on 8 May 2025. The dates come from news coverage and are to be confirmed against Vatican statements."
+    source: "News coverage (to be replaced by the Vatican's own announcements)"
 sources:
-  - title: "Pew Research Center, global Christianity reports (latest edition)"
-    author: "Pew Research Center"
+  - title: "How the Global Religious Landscape Changed From 2010 to 2020 (Pew Research Center, 9 June 2025)"
+    author: "Conrad Hackett and colleagues, Pew Research Center"
+    url: "https://www.pewresearch.org/religion/2025/06/09/christian-population-change/"
     license: "To check. The report's reuse terms must be recorded before any figure is quoted"
-    checked: "not yet checked"
-    usedFor: "Membership by region"
+    checked: "2026-11-12"
+    usedFor: "Membership by region, 2010 to 2020"
   - title: "Open Doors, World Watch List (latest edition)"
     author: "Open Doors"
     license: "To check"
@@ -150,10 +151,13 @@ large church, and the page gives its findings and responses without a verdict th
 
 ## The shape of the church today
 
-Christianity is the largest religion in the world by number of adherents, according to the main surveys. Its growth since 1989 has
-been greatest in sub-Saharan Africa, parts of Asia, and Latin America, where Pentecostal and charismatic churches have grown fastest.
-Membership has fallen in much of Western Europe and has declined more slowly in North America. Figures for each region, and the
-reports they come from, are to be added and dated. Details not yet checked.
+Christianity is the largest religion in the world by number of adherents. Pew Research Center's report of 9 June 2025, *How the
+Global Religious Landscape Changed From 2010 to 2020*, counts 2.1 billion Christians in 2010 and 2.3 billion in 2020, a rise of 6
+per cent. Christians fell as a share of the world's population, from 31 to 29 per cent. Sub-Saharan Africa had the largest gain,
+to 697 million (up 31 per cent), and now holds 31 per cent of the world's Christians. Europe fell to 505 million (down 9 per cent),
+and North America to 238 million (down 11 per cent). Pew reports that the number of Christians grew in Latin America and the
+Caribbean, Asia-Pacific and the Middle East and North Africa, but it gives no figures for those regions. The report links the fall
+in share to people leaving Christianity: "This change is largely driven by high rates of Christian disaffiliation."
 
 ## The church and the end of communism
 
@@ -196,10 +200,14 @@ dialogues, especially between the Catholic and Orthodox churches, are set out in
 
 ## Persecution and migration
 
-Christians are reported to face persecution in many countries, including Nigeria, Pakistan, China, India and parts of the Middle East.
-The reported numbers depend on the report and its method, and the page gives each figure with its source and date. Christian
-communities in Iraq and Syria have shrunk sharply during and after recent wars, and many Christians have emigrated. Migrant
-congregations are now a large part of church life in Europe and North America. Details not yet checked.
+Christians are reported to face persecution in many countries, including Nigeria, Pakistan, China, India and parts of the Middle
+East. Open Doors' 2026 World Watch List, published in January 2026, puts the number of Christians facing high levels of persecution
+at 388 million, about one in seven Christians worldwide, and says two in five Christians in Asia are affected. It reports 4,849
+Christians killed for their faith, with Nigeria having the most killings, and 15 countries rated "extreme". These are Open Doors'
+own counts, using its stated method, which an outside body has audited, according to Open Doors; other reports count differently.
+The figures come from news coverage of the list, and the list itself is not yet read. Christian communities in Iraq and Syria have
+shrunk sharply during and after recent wars, and many Christians have emigrated. Migrant congregations are now a large part of
+church life in Europe and North America. Details not yet checked.
 
 ## Politics and the churches
 
@@ -207,6 +215,52 @@ In the United States, white evangelical Protestants have been closely aligned wi
 debate over Christian nationalism divides churches and scholars. In post-communist countries, churches have taken different
 positions on the state and on public morality. The Catholic Church's social teaching on migration and the environment, including
 *Laudato Si'*, has been widely discussed. Details not yet checked.
+
+## Criticisms and open questions
+
+This section sets out criticisms that have been made of the churches in this era, by people inside and outside them. It does not
+give the page's own verdict on how Christians should live. Each criticism is attributed to the person or report that makes it, and
+where a church has replied, the reply is given.
+
+### Criticism from inside the churches
+
+The most documented internal criticism concerns the handling of abuse. The Southern Baptist Convention commissioned Guidepost Solutions
+to investigate its Executive Committee's handling of abuse reports. The report was released on 22 May 2022, and Religion News Service
+reported its findings. The investigators wrote that "a few senior EC leaders, along with outside counsel, largely controlled the EC's
+response to these reports of abuse", and that "survivors and others who reported abuse were ignored, disbelieved or met with the
+constant refrain". They also wrote that the committee was "singularly focused on avoiding liability for the SBC to the exclusion of
+other considerations". The Executive Committee has since changed its procedures, and the reform process is disputed by some critics.
+Source: Religion News Service report of 22 May 2022, as reprinted by the Baptist Standard. The full report has not yet been read,
+and the Executive Committee's reply has not yet been added.
+
+The John Jay College study of 2004 reached similar conclusions about how Catholic dioceses dealt with allegations, but its report
+has not yet been read directly. Other internal criticism has concerned the churches' relations with the poor, the treatment of
+women, and the way divisions over sexuality have been handled. Named critics from these areas, their statements and the replies to
+them are still to be found and checked.
+
+### Criticism from outside the churches
+
+Historian Kate Bowler, in *Blessed: A History of the American Prosperity Gospel* (Oxford University Press, 2013), traces the teaching
+that faith brings material blessing, and reviewers describe her as taking it seriously rather than dismissing it. Her direct wording
+has not yet been checked against the book. Sociologists Andrew L. Whitehead and Samuel L. Perry, in *Taking America Back for God:
+Christian Nationalism in the United States* (Oxford University Press, 2020), argue from survey data that a belief that the United
+States is a Christian nation goes with views on race, immigration, marriage and sexuality. A review quotes them as saying that
+"not all Christian nationalists are white or evangelical or particularly religious in their behavior". The book itself has not yet
+been read, and the quotations are from that review. Replies from the churches and writers named here are still to be added.
+
+### Where the standards are contested
+
+Several criticisms depend on the standard applied. For example, a church that teaches a particular moral standard on sexuality may
+be criticised by some as unloving, and by others as faithful. Those on each side describe their own standard in their own words,
+and the page reports both without choosing. The same applies to the churches' relations with each other, to their attitude to
+the state, and to their response to persecution. See the sections on divisions and on politics above.
+
+### What the figures show
+
+Pew Research Center's 2025 report, which the page has read directly, links the fall in the Christian share of the world's population
+to people leaving the faith: "This change is largely driven by high rates of Christian disaffiliation." Open Doors' figures on
+persecution point to a rise, but they are news-based here and have not yet been checked against the report, and other reports count
+differently. The page reports the figures as the sources give them, with their methods.
 
 ## Where the church stands
 
