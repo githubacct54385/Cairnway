@@ -23,12 +23,35 @@ Licences and editions checked on 2026-11-11 (CHR-9). Public-domain status comes 
 | Dunn, *The Partings of the Ways*; Becker and Reed (eds.), *The Ways That Never Parted* | When Christianity and Judaism separated; further reading | Copyrighted; cited only | 2026-11-11 |
 | *The Cambridge History of Christianity, Vol. 1* | Further reading | Copyrighted; cited only | 2026-11-11 |
 
+## Second era, about AD 100 to 313 (planned, not yet drafted)
+
+Editions chosen and licences checked on 2026-11-11 (CHR-12). Each CCEL volume states "Rights: Public Domain" in its own
+header; the Pliny edition is a Project Gutenberg text of a translation first published in the 1700s. Full texts were
+downloaded and the named works confirmed present. Nothing has been quoted on the site yet.
+
+| Source | Use | License | Checked |
+| --- | --- | --- | --- |
+| Ignatius (seven letters), Polycarp to the Philippians, Martyrdom of Polycarp, Barnabas, Justin, Irenaeus: [Ante-Nicene Fathers vol. 1](https://ccel.org/ccel/schaff/anf01) | Ignatius's journey and "catholic church"; Polycarp; Sunday worship; the four Gospels; Gnostic teachers | Public domain (CCEL: "Rights: Public Domain"). Ignatius to be quoted from one named recension | 2026-11-11 |
+| Hermas, Clement of Alexandria: [ANF vol. 2](https://ccel.org/ccel/schaff/anf02) | The Shepherd of Hermas; Alexandria | Public domain (CCEL) | 2026-11-11 |
+| Tertullian, *Against Marcion*, *Apology*, *Passion of Perpetua and Felicitas*: [ANF vol. 3](https://ccel.org/ccel/schaff/anf03) | Marcion; Carthage; Perpetua | Public domain (CCEL) | 2026-11-11 |
+| Origen, *Against Celsus*: [ANF vol. 4](https://ccel.org/ccel/schaff/anf04) | What Celsus said about Christians | Public domain (CCEL) | 2026-11-11 |
+| Cyprian, Hippolytus, Novatian, the Muratorian fragment ("Canon Muratorianus"): [ANF vol. 5](https://ccel.org/ccel/schaff/anf05) | Decius and the lapsed; the Novatian split; early list of New Testament books | Public domain (CCEL). Date of the fragment is disputed | 2026-11-11 |
+| Lactantius, *Of the Manner in Which the Persecutors Died*: [ANF vol. 7](https://ccel.org/ccel/schaff/anf07) | The Great Persecution; the Milan agreement | Public domain (CCEL) | 2026-11-11 |
+| Eusebius, *Church History* and *Life of Constantine*: [NPNF2 vol. 1](https://ccel.org/ccel/schaff/npnf201) | Montanism, Lyon, Easter, persecutions, Constantine | Public domain (CCEL) | 2026-11-11 |
+| Pliny the Younger, *Letters*, Book 10: Melmoth, ed. Bosanquet ([Gutenberg 2811](https://www.gutenberg.org/ebooks/2811)) | Pliny to Trajan about Christians, and Trajan's reply (standard numbering 10.96 and 10.97) | Public domain (translation 1746; Gutenberg text). This edition numbers them XCVII and XCVIII | 2026-11-11 |
+| 2 Peter: [World English Bible](https://ebible.org/find/details.php?id=engwebp) | 2 Peter | Public domain; see Apostolic Age entry for the trademark note | 2026-11-11 |
+| Henry Chadwick, *The Early Church* (Penguin, revised 1993) | Overall framework and dates | Copyrighted; cited only. Bibliographic details to verify | not yet checked |
+| Harry Y. Gamble, *The New Testament Canon: Its Making and Meaning* (Fortress, 1985) | How the list of New Testament books came together | Copyrighted; cited only. Bibliographic details to verify | not yet checked |
+| Robert L. Wilken, *The Christians as the Romans Saw Them* (Yale, 2nd ed. 2003) | Pliny, Celsus, outsiders' views | Copyrighted; cited only. Bibliographic details to verify | not yet checked |
+| Raymond E. Brown, *An Introduction to the New Testament* | Date of 2 Peter | Copyrighted; cited only | 2026-11-11 |
+| Dura-Europos house church (excavated 1930s, Yale and French Academy) | Earliest identified church building | Archaeological site; cited, not reproduced. Source to name | not yet checked |
+
 ## Candidates still to review
 
 - Suetonius, life of Nero (older translation)
-- Other letters of Ignatius, beyond Romans and Magnesians (Ante-Nicene Fathers series)
+- Other letters of Ignatius: now chosen from ANF vol. 1 for the second era (see above)
 - Epiphanius on the flight to Pella (needs a public-domain English translation)
-- Pliny the Younger, Letter 10.96 (about AD 112)
+- Pliny the Younger, Letter 10.96: now chosen for the second era (see above)
 - Philip Schaff, *History of the Christian Church*, vol. 1 (public domain but dated)
 
 ## Maps and images (planned)

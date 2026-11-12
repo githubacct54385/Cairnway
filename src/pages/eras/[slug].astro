@@ -2,6 +2,7 @@
 import { getCollection, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import EraMap from '../../components/EraMap.astro';
+import type { ComponentProps } from 'astro/types';
 
 export async function getStaticPaths() {
   const eras = await getCollection('eras');
@@ -10,7 +11,8 @@ export async function getStaticPaths() {
 
 const { era } = Astro.props;
 const { Content } = await render(era);
-const { title, summary, dateRange, draft, reviewStatus, keyPeople, events, sources } = era.data;
+const { title, summary, dateRange, draft, reviewStatus, overviewMap, mapSection, keyPeople, events, sources } = era.data;
+type MapId = ComponentProps<typeof EraMap>['id'];
 ---
 
 <Base title={title} description={summary}>
@@ -27,24 +29,20 @@ const { title, summary, dateRange, draft, reviewStatus, keyPeople, events, sourc
       )
     }
 
-    {era.id === 'apostolic-age' && <EraMap id="overview" as="h2" />}
+    {overviewMap && <EraMap id={overviewMap as MapId} as="h2" />}
 
     <div data-reveal>
       <Content />
     </div>
 
     {
-      era.id === 'apostolic-age' && (
+      mapSection && (
         <section class="journeys">
-          <h2>Paul's journeys, as Acts tells them</h2>
-          <p>
-            These maps follow the account in Acts, simplified. Paul's own letters mention some of the same places and
-            give a different outline in places, and the dates of each journey are debated, so none are shown here.
-          </p>
-          <EraMap id="journey-1" />
-          <EraMap id="journey-2" />
-          <EraMap id="journey-3" />
-          <EraMap id="voyage" />
+          <h2>{mapSection.heading}</h2>
+          <p>{mapSection.intro}</p>
+          {mapSection.ids.map((id) => (
+            <EraMap id={id as MapId} />
+          ))}
         </section>
       )
     }
