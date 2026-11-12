@@ -34,6 +34,7 @@ src/content/eras/   one Markdown file per era (frontmatter holds people, events 
 src/pages/          home, era pages, search, sources and permissions
 src/layouts/        shared page layout
 src/scripts/        scroll animation
+scripts/cite.py     prints a cited passage from downloaded source texts, for checking citations
 SOURCES.md          log of every source and its license
 docs/               deployment and launch notes
 ```

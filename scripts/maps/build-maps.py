@@ -270,6 +270,8 @@ def main():
             'cities': cities,
             'labels': labels,
         }
+        if 'refPrefix' in m:
+            out[m['id']]['refPrefix'] = m['refPrefix']
 
     os.makedirs(os.path.dirname(OUT_JSON), exist_ok=True)
     with open(OUT_JSON, 'w') as f:
