@@ -1,9 +1,9 @@
-# Review ledger: From Gregory to Charlemagne (AD 600 to 800)
+# Review ledger: From Gregory to the Second Council of Nicaea (AD 600 to 787)
 
 Every factual claim on the fifth-era page, with how far it was checked. Statuses as in `REVIEW-late-antiquity.md`:
 **F** full text read, **P** partly, **U** unverified, **N** a modern-scholar claim.
 
-Page: `src/content/eras/gregory-to-charlemagne.md`. Plan: `docs/PLAN-fifth-era.md`. Texts: Bede (Sellar, Gutenberg 38326);
+Page: `src/content/eras/gregory-to-nicaea.md`. Plan: `docs/PLAN-fifth-era.md`. Texts: Bede (Sellar, Gutenberg 38326);
 NPNF2 vol. 14 (CCEL npnf214). Passages were printed with `scripts/cite.py`.
 
 ## Checked against full text (F)
@@ -32,8 +32,6 @@ NPNF2 vol. 14 (CCEL npnf214). Passages were printed with `scripts/cite.py`.
 | c. 716 to 740 Iconoclasm begins under Leo III | U | Standard date; to check against a source |
 | 731 Bede completes the Ecclesiastical History | U | From the preface; to check |
 | 732 battle near Tours or Poitiers | U | Not yet fetched |
-| 751 to 754 Pepin; papal alliance | U | Not on the page's events list in detail; to check before use |
-| 800 Charlemagne crowned at Rome | U | Einhard to fetch |
 | Theodore of Tarsus, archbishop from 669 | U | Date from memory |
 | Sophronius surrendered Jerusalem in 637 | U | From memory |
 | Irene and the restoration of images "held in 787" | F for the council's date only | Council date is in NPNF2-14 (Seventh Council) |
@@ -45,11 +43,9 @@ NPNF2 vol. 14 (CCEL npnf214). Passages were printed with `scripts/cite.py`.
 | Whether Honorius was in fact a heretic | N | Debated; the page reports both views |
 | Whether the Whitby decision changed the English church much | N | Debated; the page makes no claim |
 | Whether the Arab conquests changed Christian thought | N | Debated; the page makes no claim |
-| Charlemagne's coronation was planned by the pope or by Charlemagne | N | Debated; the page says so |
 
 ## Highest-risk items
 
 1. **Iconoclasm dates (c. 716 to 740).** Standard, but unchecked; the page states them as debated.
 2. **Islamic events and Sophronius's surrender.** No Islamic source read; kept as unchecked notes.
 3. **Hatfield (680).** Given only from the editor's introduction.
-4. **Charlemagne's coronation (800).** Not yet checked against Einhard.
