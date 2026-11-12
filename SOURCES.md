@@ -18,7 +18,14 @@ Licences and editions checked on 2026-11-11 (CHR-9). Public-domain status comes 
 | Eusebius, *Church History*: McGiffert ([NPNF2 vol. 1](https://ccel.org/ccel/schaff/npnf201)) | Later tradition on Peter, Paul, James, Pella, Domitian, John, 1 Clement | Public domain (CCEL) | 2026-11-11 |
 | Chrysostom, *Homilies on Romans* ([NPNF1 vol. 11](https://ccel.org/ccel/schaff/npnf111)) | Junia | Public domain (CCEL) | 2026-11-11 |
 | Gallio inscription, Delphi (*Fouilles de Delphes* III 4, 286; *SIG*³ II 801 D) | Dating Gallio's term | Ancient inscription; cited, not reproduced | 2026-11-11 |
-| Raymond E. Brown, *An Introduction to the New Testament* | Date ranges in the "When were the sources written?" table | Copyrighted; cited only | 2026-11-11 |
+| Seneca, *Moral Letters* 104: Gummere, Loeb ([Wikisource](https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_104)) | Gallio's fever in Achaia | Public domain (1917 to 1925) | 2026-11-12 |
+| Tacitus, *Annals* 15.73: Church and Brodribb ([Perseus](https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0078:book=15:chapter=73)) | Gallio as Seneca's brother | Public domain (1876) | 2026-11-12 |
+| Josephus, *Against Apion*: Whiston ([Gutenberg 2849](https://www.gutenberg.org/ebooks/2849)) | When the *Jewish War* was presented | Public domain (1737) | 2026-11-12 |
+| Pilate inscription, Caesarea (CIIP II 1277; [Judaism and Rome record](https://heurist.huma-num.fr/heurist/judaism_and_rome/view/288)) | Pilate's title | Ancient inscription; cited, not reproduced | 2026-11-12 |
+| Raymond E. Brown, *An Introduction to the New Testament* (Doubleday, 1997) | Date ranges in the "When were the sources written?" table; Paul's chronology; statements marked Brown (CHR-20) | Copyrighted; cited only | 2026-11-12 |
+| Henry Chadwick, *The Early Church* (Penguin, revised 1993) | Peter and Paul in Rome; 1 Clement's date; the Didache's date; single bishops (CHR-20) | Copyrighted; cited only | 2026-11-12 |
+| Candida Moss, *The Myth of Persecution* (HarperOne, 2013) | Domitian (CHR-20) | Copyrighted; cited only | 2026-11-12 |
+| Robert L. Wilken, *The Christians as the Romans Saw Them* (Yale, 1984; 2nd ed. 2003) | Dates of Tacitus and Suetonius (CHR-20) | Copyrighted; cited only | 2026-11-12 |
 | Hurtado, *Lord Jesus Christ*; Bauckham, *Jesus and the God of Israel*; Dunn, *Did the First Christians Worship Jesus?*; Ehrman, *How Jesus Became God* | Scholarly positions on early devotion to Jesus; further reading | Copyrighted; cited only | 2026-11-11 |
 | Dunn, *The Partings of the Ways*; Becker and Reed (eds.), *The Ways That Never Parted* | When Christianity and Judaism separated; further reading | Copyrighted; cited only | 2026-11-11 |
 | *The Cambridge History of Christianity, Vol. 1* | Further reading | Copyrighted; cited only | 2026-11-11 |
@@ -82,7 +89,7 @@ its own header. Full texts were downloaded; wording of individual passages has n
 | Item | Use | License | Checked |
 | --- | --- | --- | --- |
 | Natural Earth | Base geography for maps | Public domain | not yet checked |
-| Pleiades gazetteer | Ancient place names and locations | CC BY (credit required) | not yet checked |
+| [Pleiades gazetteer](https://pleiades.stoa.org/) | Place positions on the Apostolic Age maps, checked against it (CHR-20); credited on each of those maps | CC BY 3.0 (credit required), as stated on its downloads page | 2026-11-12 |
 
 ## After Chalcedon, AD 451 to 600 (draft)
 

@@ -16,7 +16,7 @@ const eraIndex = allEras.findIndex((e) => e.id === era.id);
 const prevEra = eraIndex > 0 ? allEras[eraIndex - 1] : undefined;
 const nextEra = eraIndex < allEras.length - 1 ? allEras[eraIndex + 1] : undefined;
 const bodyHeadings = headings.filter((h) => h.depth === 2);
-const { title, summary, dateRange, draft, reviewStatus, reviewLedger, overviewMap, mapSection, figures, keyPeople, events, sources } = era.data;
+const { title, summary, dateRange, draft, reviewStatus, reviewLedger, aiReview, overviewMap, mapSection, figures, keyPeople, events, sources } = era.data;
 type MapId = ComponentProps<typeof EraMap>['id'];
 ---
 
@@ -29,7 +29,12 @@ type MapId = ComponentProps<typeof EraMap>['id'];
     {
       draft && (
         <details class="banner draft-status">
-          <summary>Draft: not yet fully reviewed against its sources. Show details</summary>
+          <summary>
+            {aiReview
+              ? `Sources checked by ${aiReview.model} in ${aiReview.month}. Not yet reviewed by a specialist.`
+              : 'Draft: not yet fully reviewed against its sources.'}{' '}
+            Show details
+          </summary>
           <p>{reviewStatus ?? 'Not yet reviewed against its sources.'} Dates are approximate.</p>
           <p>
             {

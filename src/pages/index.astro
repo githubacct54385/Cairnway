@@ -19,6 +19,8 @@ const ticks = [500, 1000, 1500, 2000].filter((y) => y > spanStart && at(y) < 88)
 const ROMAN = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII', 'XIII', 'XIV', 'XV', 'XVI'];
 const numeral = (i: number) => ROMAN[i] ?? String(i + 1);
 const draftCount = eras.filter((era) => era.data.draft).length;
+const aiCount = eras.filter((era) => era.data.aiReview).length;
+const unchecked = eras.length - aiCount;
 ---
 
 <Base>
@@ -57,7 +59,9 @@ const draftCount = eras.filter((era) => era.data.draft).length;
     {
       draftCount > 0 && (
         <p class="scale-note draft-note">
-          {draftCount === eras.length ? 'Every era is' : `${draftCount} of ${eras.length} eras are`} marked Draft: not yet fully checked against their sources. Each era page says what has been checked.
+          {aiCount > 0 && `${aiCount} of ${eras.length} eras ${aiCount === 1 ? 'has' : 'have'} had their sources checked by an AI model. `}
+          {unchecked > 0 && (unchecked === eras.length ? 'Every era is still a draft, not yet fully checked against its sources. ' : `The other ${unchecked} ${unchecked === 1 ? 'is still a draft' : 'are still drafts'}, not yet fully checked against their sources. `)}
+          No era has yet been reviewed by a specialist. Each era page says what has been checked.
         </p>
       )
     }

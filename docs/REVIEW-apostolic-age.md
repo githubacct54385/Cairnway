@@ -7,7 +7,7 @@ Page: `src/content/eras/apostolic-age.md` and the maps in `scripts/maps/maps.con
 
 ## How "checked" is defined here (read this first)
 
-Nothing below has been checked by a human. The first drafts were checked only against summaries returned by a web-fetch
+Nothing below has been checked by a human. The latest check is the AI source check for CHR-20, first below; its statuses override the older ones in the tables further down. The first drafts were checked only against summaries returned by a web-fetch
 tool. On 2026-11-11 an AI then checked every citation to the Bible and to ancient writers against the full text of a
 named public-domain translation (status F; see "Full-text check" below). The statuses are:
 
@@ -22,6 +22,187 @@ F means an AI read the cited passage in full; it is not a review by a person. A 
 
 Sources the drafter could **not** read at all: Josephus (any work), Suetonius, the Gallio inscription, the Gospels, and
 the Cambridge History. Perseus and several Wikisource pages were blocked or missing.
+
+## AI source check (CHR-20, 2026-11-12)
+
+Tracked in Linear as CHR-20. Claude Opus 5.5, an AI model by Anthropic, went through every row below still marked U,
+P or S, and either checked it against a source it could read in full, rewrote it to name the book it rests on, or cut
+it back or removed it. Nothing was left in with only a warning label. This is still an AI check, not a review by a
+person; the specialist read-through is CHR-21.
+
+Three new statuses are used for this check:
+
+| Status | Meaning |
+| --- | --- |
+| **B** | Tied to a **named book** (in copyright, not read by the AI). The page now names the book. The owner checks it against the book and records the page number; until then it counts as not checked. See the checklist below. |
+| **G** | A **general characterisation**: the page now says plainly that scholars differ, or gives an interpretation in its own voice, and does not claim more. No source is needed beyond the passages cited. |
+| **X** | **Removed or cut back**, because no readable source supports it. |
+
+### Sources read for this check
+
+| Source | Edition | Used for |
+| --- | --- | --- |
+| Tacitus, *Annals* 15.33 and 15.73 | Church and Brodribb. 15.33 from the Internet Classics Archive; 15.73 on Perseus, because the Internet Classics Archive page stops at chapter 59 | Consuls of AD 64; Gallio as Seneca's brother |
+| Seneca, *Moral Letters* 104.1 | Gummere, Loeb (1917 to 1925), Wikisource | Gallio fell ill with a fever in Achaia |
+| Josephus, *Antiquities* 20.11.3 and 20.7.1 | Whiston, Project Gutenberg 2848 | "The thirteenth year of the reign of Caesar Domitian"; Felix "procurator of Judea" |
+| Josephus, *Against Apion* 1.9 | Whiston, Project Gutenberg 2849 | He presented the *Jewish War* to Vespasian and Titus |
+| Suetonius, *Claudius* 25 | Thomson and Forester, Project Gutenberg 6400 | Claudius gave Achaia and Macedonia back to the senate |
+| Pilate inscription | CIIP II 1277, via the Judaism and Rome database | Text, find (Caesarea, 1961), the restored title "[praef]ectus Iudae[a]e" |
+| 1 Clement 5 | Ante-Nicene Fathers vol. 1, CCEL | "The most recent spiritual heroes", examples from "our own generation" |
+| Acts 21:20; Romans 16:7, 16:14 to 15 | World English Bible, eBible.org | "All zealous for the law"; "Junia"; groups greeted "with them" |
+| Pleiades gazetteer | Places dump downloaded 2026-11-12, CC BY 3.0 | Every place on the Apostolic Age maps |
+| Open Library catalogue | openlibrary.org | Titles, years and publishers of the books in Further reading and the checklist |
+
+### What changed on the page
+
+- Tacitus wrote "more than 80 years later", not "about 80" (crucifixion c. AD 30 to 33; *Annals* c. AD 115 to 120).
+- Pilate: the inscription's title line is damaged; the page now says it is "usually restored as prefect".
+- Gallio: Seneca's brother is now sourced to Tacitus 15.73 and Seneca, Letter 104.
+- "A name probably given by outsiders" (Antioch) was removed.
+- "Nobody knows who first brought the message to Rome" became "neither Romans nor Acts says who".
+- "A house could hold a few dozen people at most" was removed; the page now points to the several groups greeted in Romans 16.
+- "Jewish believers probably went on keeping the Sabbath" is now grounded in Acts 21:20.
+- 1 Clement: "the apostles are now remembered as figures of the past" became "it looks back on Peter and Paul as examples from its own generation who have already died" (1 Clement 5).
+- Epiphanius on Pella was removed: no public-domain English text could be read.
+- Junia: "most modern translations" (never surveyed) became "as does the World English Bible".
+- Josephus, *Jewish War*: "c. AD 75 to 79" became "the AD 70s", from *Against Apion* 1.9.
+- Every "most scholars" statement now names its book (Brown, Chadwick, Moss, Wilken, Dunn), and the dates for Paul's career are attributed to Brown's chronology.
+- Each map now credits Pleiades (CC BY 3.0) and Natural Earth.
+
+### Row outcomes
+
+| Rows | New status | Note |
+| --- | --- | --- |
+| O1, O2, O4, O6, O7 | G | Definitions and framing in the page's own voice |
+| O5, P6 | B | Brown |
+| P12 | G | The page says only that traditions differ |
+| E1a | F | CIIP II 1277. Page now says the title is restored |
+| E2 | F | Rewritten to "more than 80 years"; depends on E4 and T7 |
+| E3, E14, E16, E26, E27 | G | Stated as debates or as what the sources report |
+| E4, E5 (dating part), E7, E9, E11, E17, E19, E20 | B | Brown: crucifixion year, chronology of Paul, Gallio's term, James's death and the Josephus passage |
+| E22 | F | *Annals* 15.33 dates the year by the consuls Laecanius and Licinius (AD 64) |
+| B2, B7, B10 to B14 | B | Brown |
+| B3 | G | "Lord" also at 1 Cor 8:6 (F) |
+| N6, N11 | B | Brown (chronology) |
+| N18, N20, N24 | B | Chadwick |
+| N25 | F | Rewritten to match 1 Clement 5 |
+| T1 to T5 | B | Brown; each row of the table is on the checklist |
+| T6 | F | *Antiquities* 20.11.3; *Against Apion* 1.9 |
+| T7 | B | Wilken, for Tacitus and Suetonius. "Eusebius, early fourth century" is G |
+| T8 | G | |
+| M3, M12, M20, M31, M33, M36, M38 | B | Brown |
+| M4 | F | Tacitus, *Annals* 15.73; Seneca, Letter 104.1 |
+| M5 | S | Still read only through descriptions; listed on the About page as not read |
+| M10 | X | "Given by outsiders" removed |
+| M14 | F | Rewritten to what Romans and Acts say |
+| M15, M24 | G | Already hedged ("may show"; "some accept, others doubt") |
+| M23 | X | Epiphanius removed; Eusebius 3.5.3 stays F |
+| M28 | B | Moss |
+| M41 | F | Cut back to Chrysostom and the World English Bible |
+| W3 (date range) | B | Chadwick. The 1873 find and 1883 publication stay F |
+| W4 | X | Removed; replaced with Romans 16:5, 14 and 15 (F) |
+| W5 | G | |
+| W6 | B | Brown |
+| W7 | B | Chadwick |
+| W8 | F | Acts 21:20; "probably" is the page's own inference (G) |
+| W9 | F / G | Proconsul and Achaia F (Suetonius, *Claudius* 25; Acts 18:12). Prefect and procurator F (CIIP II 1277; Josephus *Antiquities* 20.7.1). The other definitions G |
+| C4, C5, C6 | B | Hurtado; Bauckham; Dunn (2010); Ehrman |
+| C8, C11, C12 | B | Dunn, *The Partings of the Ways*; C12 also Becker and Reed |
+| C9 (date) | B | Brown |
+| S4 | P | Open Library lists a 2014 Cambridge University Press printing, not the 2006 first edition the page gives |
+| S5 | F | All eight titles confirmed in Open Library; Hurtado appears as 2002 and 2003 (page gives 2003) |
+| Place positions | F | Every place within about 4 km of Pleiades; no coordinate changed. See the table below |
+| Region names | G | The maps say they are placed roughly, without boundaries |
+
+### Map places against Pleiades
+
+All differences are under 4 km, too small to see at these map scales. "North of Cyprus" and "Inland Galatia" are route
+waypoints, not places, and are not shown as stops.
+
+| Place | Pleiades | Difference |
+| --- | --- | --- |
+| Jerusalem | [687928](https://pleiades.stoa.org/places/687928) | 0.6 km |
+| Caesarea | [678401](https://pleiades.stoa.org/places/678401) | 0.3 km |
+| Damascus | [678106](https://pleiades.stoa.org/places/678106) | 1.8 km |
+| Antioch | [658381](https://pleiades.stoa.org/places/658381) | 2.3 km |
+| Seleucia | [658483](https://pleiades.stoa.org/places/658483) | 0.1 km |
+| Tarsus | [648789](https://pleiades.stoa.org/places/648789) | 0.9 km |
+| Salamis | [707617](https://pleiades.stoa.org/places/707617) | 0.3 km |
+| Paphos | [707586](https://pleiades.stoa.org/places/707586) | 1.3 km |
+| Perga | [639048](https://pleiades.stoa.org/places/639048) | 0.6 km |
+| Attalia | [638778](https://pleiades.stoa.org/places/638778) | 0.0 km |
+| Pisidian Antioch | [609307](https://pleiades.stoa.org/places/609307) | 1.1 km |
+| Iconium | [648647](https://pleiades.stoa.org/places/648647) | 0.3 km |
+| Lystra | [648699](https://pleiades.stoa.org/places/648699) | 1.0 km |
+| Derbe | [648620](https://pleiades.stoa.org/places/648620) | 0.2 km |
+| Troas | [550434](https://pleiades.stoa.org/places/550434) | 1.1 km |
+| Neapolis | [501523](https://pleiades.stoa.org/places/501523) | 0.7 km |
+| Philippi | [501482](https://pleiades.stoa.org/places/501482) | 0.5 km |
+| Thessalonica | [491741](https://pleiades.stoa.org/places/491741) | 1.7 km |
+| Athens | Library of Hadrian, [728329644](https://pleiades.stoa.org/places/728329644) (central Athens) | 0.5 km |
+| Corinth | [570182](https://pleiades.stoa.org/places/570182) | 0.5 km |
+| Ephesus | [599612](https://pleiades.stoa.org/places/599612) | 0.2 km |
+| Assos | [550463](https://pleiades.stoa.org/places/550463) | 0.3 km |
+| Berea | [491546](https://pleiades.stoa.org/places/491546) | 0.0 km |
+| Mitylene | [550763](https://pleiades.stoa.org/places/550763) | 1.2 km |
+| Miletus | [599799](https://pleiades.stoa.org/places/599799) | 0.1 km |
+| Cos | [599728](https://pleiades.stoa.org/places/599728) | 0.4 km |
+| Rhodes | [590030](https://pleiades.stoa.org/places/590030) | 0.4 km |
+| Patara | [639042](https://pleiades.stoa.org/places/639042) | 0.5 km |
+| Tyre | [678437](https://pleiades.stoa.org/places/678437) | 0.2 km |
+| Ptolemais | [678010](https://pleiades.stoa.org/places/678010) | 0.1 km |
+| Sidon | [678393](https://pleiades.stoa.org/places/678393) | 0.3 km |
+| Myra | [639005](https://pleiades.stoa.org/places/639005) | 0.5 km |
+| Cnidus | [599575](https://pleiades.stoa.org/places/599575) | 0.3 km |
+| Salmone | [590037](https://pleiades.stoa.org/places/590037) (Sammonion, promontory) | 1.6 km |
+| Fair Havens | [589834](https://pleiades.stoa.org/places/589834) | 1.1 km |
+| Cauda | [589858](https://pleiades.stoa.org/places/589858) (island) | 1.0 km |
+| Malta | [462311](https://pleiades.stoa.org/places/462311) (island) | 3.7 km |
+| Syracuse | [462503](https://pleiades.stoa.org/places/462503) | 0.6 km |
+| Rhegium | [452416](https://pleiades.stoa.org/places/452416) | 0.3 km |
+| Puteoli | [432815](https://pleiades.stoa.org/places/432815) | 0.7 km |
+| Rome | [423025](https://pleiades.stoa.org/places/423025) | 1.3 km |
+
+### Owner's library checklist
+
+For each row: confirm the book says it, note the page number here and in the page citation, and fix the page if the
+book does not support it. Leave the page column blank until checked.
+
+| Book | Claim it must support | Where to look | Page |
+| --- | --- | --- | --- |
+| Brown, *An Introduction to the New Testament* (1997) | Crucifixion about AD 30 or 33 | Chronology of Jesus and of Paul | |
+| Brown | Paul's career dates: conversion c. 33 to 36, Jerusalem visit c. 36 to 39, Jerusalem meeting c. 49, Corinth c. 50 to 52, arrest c. 57 to 60 | The chapter on Paul's life and chronology | |
+| Brown | Aretas IV died around AD 40 | Chronology of Paul, on 2 Cor 11:32 | |
+| Brown | Gallio's term about AD 51 to 52 | Chronology of Paul (the Delphi inscription) | |
+| Brown | Change from Felix to Festus about AD 59 or 60 | Chronology of Paul | |
+| Brown | Most scholars regard the Josephus passage on James as authentic; James died c. AD 62 | The Letter of James | |
+| Brown | Paul's letters are mid-first century, among the earliest Christian writings; 1 Corinthians about twenty years after Jesus | The Pauline letters, general chapter | |
+| Brown | Seven undisputed letters; Colossians, Ephesians, 2 Thessalonians debated, Ephesians most often thought later; the Pastorals later; secretaries | Pseudonymity and the individual letter chapters | |
+| Brown | Galatians 2 and Acts 15: whether the same meeting, and how the decision was received | Galatians | |
+| Brown | Priority of Paul's letters over Acts, and the opposing view | Acts | |
+| Brown | Every row of "When were the sources written?" (about 30 date ranges and notes) | Each book's chapter, "Summary of basic information" boxes | |
+| Brown | Revelation and the Gospel of John not by the same author (most modern scholars) | Revelation; the Gospel of John | |
+| Brown | Most modern scholars doubt John son of Zebedee wrote the Johannine books; the beloved disciple debated | The Gospel of John | |
+| Brown | Many think 1 and 2 Timothy were written after Paul's death | The Pastoral letters | |
+| Brown | Luther first suggested Apollos wrote Hebrews | Hebrews, authorship | |
+| Brown | Philippians 2:6 to 11 as an earlier hymn, debated | Philippians | |
+| Brown | John's Gospel probably written near the end of the century | The Gospel of John | |
+| Chadwick, *The Early Church* (rev. 1993) | Peter and Paul both died in Rome, probably under Nero; a minority doubt Peter was there | Index: Peter; Paul; Rome | |
+| Chadwick | 1 Clement c. AD 95 to 97 | Index: Clement of Rome | |
+| Chadwick | Didache dated c. AD 50 to 120, compiled in stages | Index: Didache | |
+| Chadwick | When single bishops began; Ignatius first to insist on one | Index: bishops; Ignatius | |
+| Moss, *The Myth of Persecution* (2013) | Doubts about an empire-wide persecution under Domitian | Index: Domitian | |
+| Wilken, *The Christians as the Romans Saw Them* (1984) | *Annals* c. AD 115 to 120; Suetonius c. AD 120 | Index: Tacitus; Suetonius | |
+| Hurtado, *Lord Jesus Christ* (2003) | Very early devotion to Jesus alongside God, within the first few years | Introduction and conclusion | |
+| Bauckham, *Jesus and the God of Israel* (2008) | Earliest believers included Jesus in the identity of the one God | The opening essay | |
+| Dunn, *Did the First Christians Worship Jesus?* (2010) | Jesus honoured very highly but not yet worshipped in the same way as God | Conclusion | |
+| Ehrman, *How Jesus Became God* (2014) | Belief in Jesus's exaltation came early but meant something different from later creeds | The chapters on the earliest Christologies | |
+| Dunn, *The Partings of the Ways* (2nd ed. 2006) | The thirty-nine lashes show Paul still under synagogue discipline; Ignatius first to set Christianity against Judaism; the parting came gradually, AD 66 to 135 | Introduction and conclusion | |
+| Becker and Reed (eds.), *The Ways That Never Parted* (2003) | The lines stayed blurred in many places for centuries | Introduction | |
+
+No row is left as U. Rows still S or P: M5 (the Gallio inscription),
+S4 (the Cambridge History's year) and T9 (a check of the site's own code, which needs no other source). Every B row counts as not checked by a person until the page column above is
+filled in.
 
 ## Full-text check (2026-11-11)
 

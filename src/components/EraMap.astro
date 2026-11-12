@@ -91,6 +91,7 @@ const clipId = `land-${m.id}`;
       </ol>
     )
   }
+  {m.credit && <p class="map-credit meta">{m.credit}</p>}
 </figure>
 
 <script>
@@ -315,6 +316,11 @@ const clipId = `land-${m.id}`;
   }
   .map-stops .badge {
     margin-top: 0.2rem;
+  }
+  .map-credit {
+    width: min(100%, 44rem);
+    margin: 0.75rem auto 0;
+    font-size: 0.85rem;
   }
 </style>
 
