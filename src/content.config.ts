@@ -29,6 +29,10 @@ const eras = defineCollection({
     mapSection: z
       .object({ heading: z.string(), intro: z.string(), ids: z.array(z.string()).min(1) })
       .optional(),
+    // Open review flags, shown on the homepage. Keep to the highest-risk items from the era's review ledger.
+    flags: z
+      .array(z.object({ text: z.string(), severity: z.enum(['high', 'medium', 'note']) }))
+      .default([]),
     keyPeople: z
       .array(z.object({ name: z.string(), role: z.string(), summary: z.string(), source: z.string() }))
       .default([]),

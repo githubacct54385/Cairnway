@@ -4,9 +4,24 @@ import Base from '../layouts/Base.astro';
 import { SITE } from '../config';
 
 const eras = (await getCollection('eras')).sort((a, b) => a.data.order - b.data.order);
+const drafts = eras.filter((era) => era.data.draft).length;
+const openFlags = eras.reduce((total, era) => total + era.data.flags.length, 0);
+const severityRank = { high: 0, medium: 1, note: 2 } as const;
+const worst = (era: (typeof eras)[number]) =>
+  era.data.flags.reduce<'high' | 'medium' | 'note' | null>((top, flag) => {
+    if (!top) return flag.severity;
+    return severityRank[flag.severity] < severityRank[top] ? flag.severity : top;
+  }, null);
 ---
 
 <Base searchable={false}>
+  <div class="status-strip">
+    <div class="wrap status-inner">
+      <span>{eras.length} eras · {drafts} drafts</span>
+      <a href="#eras" class="flags-count"><strong>{openFlags} open flags</strong></a>
+    </div>
+  </div>
+
   <section class="hero" data-hero>
     <div class="hero-bg" data-hero-bg aria-hidden="true"></div>
     <div class="hero-inner wrap">
@@ -19,27 +34,141 @@ const eras = (await getCollection('eras')).sort((a, b) => a.data.order - b.data.
   <div id="eras" class="wrap">
     {
       eras.map((era) => (
-        <section class="era-section" data-reveal>
-          <span class="range">{era.data.dateRange}</span>
-          <h2>{era.data.title}</h2>
-          <p>{era.data.summary}</p>
-          {
-            era.data.draft && (
+        <details class="era-row" data-reveal>
+          <summary>
+            <span class="range">{era.data.dateRange}</span>
+            <span class="title">{era.data.title}</span>
+            <span class="pills">
+              {era.data.draft && <span class="pill draft">Draft</span>}
+              {era.data.flags.length > 0 && (
+                <span class={`pill count ${worst(era)}`}>{era.data.flags.length} flags</span>
+              )}
+            </span>
+          </summary>
+          <div class="era-body">
+            <p>{era.data.summary}</p>
+            {era.data.draft && (
               <p class="banner">{era.data.reviewStatus ?? 'Draft: not yet reviewed against its sources.'}</p>
-            )
-          }
-          <p>
-            <a class="button" href={`/eras/${era.id}/`}>
-              Explore this era
-            </a>
-          </p>
-        </section>
+            )}
+            {era.data.flags.length > 0 && (
+              <ul class="flag-list">
+                {era.data.flags.map((flag) => (
+                  <li class={flag.severity}>{flag.text}</li>
+                ))}
+              </ul>
+            )}
+            <p>
+              <a class="button" href={`/eras/${era.id}/`}>Explore this era</a>
+            </p>
+          </div>
+        </details>
       ))
     }
-    <section class="era-section" data-reveal>
-      <span class="range">Coming later</span>
-      <h2>More eras</h2>
-      <p>The timeline will grow one era at a time, each with its own sources and review.</p>
-    </section>
+    <p class="more-eras">More eras: the timeline will grow one era at a time, each with its own sources and review.</p>
   </div>
 </Base>
+
+<style>
+  /* Shorter hero, so the era list starts near the top of the phone screen. */
+  .hero {
+    min-height: 0;
+    padding: 1.5rem 1rem 1.25rem;
+  }
+  .hero h1 {
+    font-size: clamp(1.8rem, 6vw, 2.6rem);
+    margin-bottom: 0.5rem;
+  }
+  .hero p {
+    margin-bottom: 0.9rem;
+  }
+  .status-strip {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    background: var(--banner);
+    color: var(--banner-fg);
+    font-size: 0.9rem;
+    padding: 0.6rem 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  .status-inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  .flags-count {
+    color: inherit;
+  }
+  .era-row {
+    border-top: 1px solid var(--rule);
+    padding: 0.9rem 0;
+  }
+  .era-row summary {
+    list-style: none;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 0.2rem 0.75rem;
+    align-items: center;
+    min-height: 44px;
+  }
+  .era-row summary::-webkit-details-marker {
+    display: none;
+  }
+  .era-row .range {
+    grid-column: 1 / -1;
+    font-size: 0.8rem;
+    color: var(--muted);
+  }
+  .era-row .title {
+    font-weight: 600;
+  }
+  .pills {
+    display: flex;
+    gap: 0.35rem;
+  }
+  .pill {
+    font-size: 0.75rem;
+    padding: 0.15rem 0.55rem;
+    border-radius: 999px;
+    border: 1px solid var(--rule);
+    white-space: nowrap;
+  }
+  .pill.count.high {
+    background: #f8d7d2;
+    color: #7a1f14;
+    border-color: transparent;
+  }
+  .pill.count.medium {
+    background: var(--banner);
+    color: var(--banner-fg);
+    border-color: transparent;
+  }
+  .pill.count.note {
+    color: var(--muted);
+  }
+  .era-body {
+    padding-top: 0.6rem;
+  }
+  .flag-list {
+    padding-left: 1.1rem;
+    margin: 0.5rem 0 0.9rem;
+  }
+  .flag-list li {
+    margin-bottom: 0.3rem;
+  }
+  .flag-list li.high {
+    color: #9b2a1c;
+    font-weight: 600;
+  }
+  .flag-list li.note {
+    color: var(--muted);
+  }
+  .more-eras {
+    color: var(--muted);
+    font-size: 0.9rem;
+    border-top: 1px solid var(--rule);
+    padding-top: 1rem;
+  }
+</style>

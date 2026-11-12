@@ -5,6 +5,17 @@ dateRange: "AD 313 to AD 451"
 order: 3
 draft: true
 reviewStatus: "Draft. A few passages (the creeds, the Chalcedon definition, two lists of Bible books, Antony, Ambrose, Augustine's Confessions and City of God, Julian's death, Leo's Tome) were read against the full text of the public-domain translations named in the sources (November 2026). Most dates, the Donatist, Jerome, Ephesus and Theodosius entries, and all statements about what modern scholars think have not been checked, and no specialist has reviewed this page."
+flags:
+  - text: "Donatist dates (313 to 321) unverified"
+    severity: "high"
+  - text: "Most dates unverified: Athanasius, Jerome, Confessions"
+    severity: "high"
+  - text: "Theodosius laws not read"
+    severity: "medium"
+  - text: "Modern-scholar claims not checked"
+    severity: "medium"
+  - text: "African canon council dates from memory"
+    severity: "note"
 keyPeople:
   - name: "Constantine"
     role: "Roman emperor"
