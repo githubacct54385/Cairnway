@@ -4,6 +4,7 @@ summary: "The first generation of Christians: from the earliest Jerusalem commun
 dateRange: "c. AD 30 to c. AD 100"
 order: 1
 draft: true
+reviewStatus: "Draft. Every citation to the Bible and to ancient writers has been checked by an AI against the full text of the translation named in the sources (November 2026). Statements about what modern scholars think have not yet been checked, and no specialist has reviewed this page."
 keyPeople:
   - name: "Peter (Cephas)"
     role: "Early leader among Jesus's followers"
@@ -19,7 +20,7 @@ keyPeople:
     source: "Galatians 1:19, 2:9 and 12; 1 Corinthians 15:7; Acts 15:13 to 21; Josephus, Antiquities 20.9.1"
   - name: "Barnabas"
     role: "Early teacher and Paul's travelling partner"
-    summary: "Acts introduces him as Joseph, a Levite from Cyprus nicknamed Barnabas, which it translates as Son of Encouragement. The church at Antioch sent him out with Paul, and Paul mentions him in Galatians as someone who was drawn into the Antioch dispute."
+    summary: "Acts introduces him as Joseph (Joses in some manuscripts and in the World English Bible), a Levite from Cyprus nicknamed Barnabas, which it translates as Son of Encouragement. The church at Antioch sent him out with Paul, and Paul mentions him in Galatians as someone who was drawn into the Antioch dispute."
     source: "Acts 4:36 to 37, 13:1 to 3, 15:12; Galatians 2:13"
   - name: "Priscilla (Prisca) and Aquila"
     role: "Co-workers of Paul"
@@ -64,7 +65,7 @@ events:
     source: "Acts 6 to 8 (especially 6:1 to 6, 7:58 to 8:4, 8:26 to 40)"
   - date: "c. AD 33 to 36 (dating debated)"
     title: "Paul begins following Jesus"
-    summary: "Paul, who says he had opposed the movement, writes that God revealed Jesus to him and sent him to preach to non-Jews. Acts tells the story of his turning on the road to Damascus three times, and even these tellings differ: in one, the men with him hear the voice, and in another they do not."
+    summary: "Paul, who says he had opposed the movement, writes that God revealed Jesus to him and sent him to preach to non-Jews. Acts tells the story of his turning on the road to Damascus three times, and even these tellings differ: in one, the men with him hear the sound but see no one, and in another they see the light but do not understand the voice."
     source: "Galatians 1:11 to 17; Acts 9:1 to 19, 22:6 to 16, 26:12 to 18 (compare 9:7 and 22:9)"
   - date: "c. AD 36 to 39 (dating debated)"
     title: "Paul visits Peter and James in Jerusalem"
@@ -72,8 +73,8 @@ events:
     source: "Galatians 1:18 to 20; 2 Corinthians 11:32 to 33; Acts 9:23 to 26"
   - date: "c. AD 40 to 45 (dating debated)"
     title: "Believers are first called Christians at Antioch"
-    summary: "Acts says that believers scattered after Stephen's death reached Antioch in Syria, one of the largest cities of the eastern empire, and that some of them began speaking to Greeks as well as Jews. The Jerusalem church sent Barnabas, who fetched Paul from Tarsus, and the two taught there for a year. Acts says that it was in Antioch that the disciples were first called Christians, a name probably given by outsiders. Antioch became the base for Paul's journeys and the scene of his dispute with Peter. Acts also says the Antioch church sent famine relief to Jerusalem in the reign of Claudius, and Josephus mentions a famine in Judea in the mid-40s."
-    source: "Acts 11:19 to 30, 13:1 to 3; Galatians 2:11 to 14; Josephus, Antiquities 20.2.5 (20.51 to 53) and 20.5.2 (20.101)"
+    summary: "Acts says that believers scattered after Stephen's death reached Antioch in Syria, one of the largest cities of the eastern empire, and that some of them began speaking to people who were not Jews. (Manuscripts differ on the word in Acts 11:20: many translations read Greeks, while the World English Bible reads Hellenists.) The Jerusalem church sent Barnabas, who fetched Paul from Tarsus, and the two taught there for a year. Acts says that it was in Antioch that the disciples were first called Christians, a name probably given by outsiders. Antioch became the base for Paul's journeys and the scene of his dispute with Peter. Acts also says the Antioch church sent famine relief to Jerusalem in the reign of Claudius, and Josephus mentions a great famine in Judea under the Roman governors of the mid-to-late 40s."
+    source: "Acts 11:19 to 30, 13:1 to 3; Galatians 2:11 to 14; Josephus, Antiquities 20.2.5 and 20.5.2 (20.51 to 53, 20.101)"
   - date: "AD 41 to 44, probably c. AD 44"
     title: "Herod Agrippa I executes James, the son of Zebedee"
     summary: "Acts says King Herod, meaning Herod Agrippa I, the grandson of Herod the Great, had James the brother of John killed with the sword and then arrested Peter, who Acts says was freed from prison by an angel. Apart from Judas, James is the only one of the twelve apostles whose death Acts records. Acts then describes Herod's sudden death at Caesarea after a crowd hailed him as a god. Josephus tells a similar story of Agrippa's death at Caesarea, also with the crowd calling him a god, and places it after he had ruled all of Judea for three years. Agrippa ruled Judea from AD 41, so historians usually date his death to AD 44, which makes this one of the few events in Acts with an outside date. Acts does not say exactly how long before Agrippa's death James was killed."
@@ -96,19 +97,19 @@ events:
     source: "Romans 1:7 to 15, 15:22 to 29, 16:1 to 16; Acts 2:10; Suetonius, Life of Claudius 25.4"
   - date: "c. AD 57 to 60 (dating debated)"
     title: "Paul is arrested in Jerusalem and appeals to Caesar"
-    summary: "Acts says that when Paul brought his collection to Jerusalem, he was accused of taking a non-Jew into the inner temple courts. A riot followed and Roman soldiers took him into custody. He was moved to Caesarea and held there for two years under the governor Felix. When Festus replaced Felix, Paul, as a Roman citizen, appealed to have his case heard by the emperor, and after a hearing before King Agrippa II he was sent to Rome. Felix and Festus are both known from Josephus. Most scholars place the change of governor in about AD 59 or 60, which helps to date the end of Paul's career, though some argue for a few years earlier. Paul's own letters do not describe these events."
-    source: "Acts 21:17 to 26:32 (especially 21:27 to 36, 24:27, 25:10 to 12); Romans 15:25 to 31; Josephus, Antiquities 20.8 (20.137 to 182)"
+    summary: "Acts says that when Paul brought his collection to Jerusalem, he was accused of bringing non-Jews into the temple. A riot followed and Roman soldiers took him into custody. He was moved to Caesarea and held there for two years under the governor Felix. When Festus replaced Felix, Paul, as a Roman citizen, appealed to have his case heard by the emperor, and after a hearing before King Agrippa II he was sent to Rome. Felix and Festus are both known from Josephus. Most scholars place the change of governor in about AD 59 or 60, which helps to date the end of Paul's career, though some argue for a few years earlier. Paul's own letters do not describe these events."
+    source: "Acts 21:17 to 26:32 (especially 21:27 to 36, 24:27, 25:10 to 12); Romans 15:25 to 31; Josephus, Antiquities 20.7.1 to 20.8.9 (20.137 to 182)"
   - date: "c. AD 62"
     title: "James, the brother of Jesus, is killed in Jerusalem"
     summary: "Josephus reports that the high priest Ananus brought James, whom he calls the brother of Jesus who was called Christ, before a council and had him stoned. Most scholars regard this passage as authentic, in contrast with a more disputed passage about Jesus elsewhere in Josephus. Josephus adds that some people in Jerusalem objected, and that King Agrippa II removed Ananus as high priest after only three months. A different account, from the second-century Christian writer Hegesippus and preserved by Eusebius, says James was thrown down from the temple, stoned and beaten to death, and places his death just before the Roman siege of Jerusalem. Josephus wrote nearer the time."
     source: "Josephus, Antiquities 20.9.1 (20.197 to 203); Eusebius, Church History 2.23 (quoting Hegesippus; later tradition)"
   - date: "AD 64"
     title: "Nero blames Christians after the fire of Rome"
-    summary: "Tacitus reports that Nero blamed a group called Christians for the great fire at Rome and had many of them punished. Tacitus wrote decades later and suggests Nero was deflecting blame from himself, while describing Christians as widely disliked."
+    summary: "Tacitus reports that Nero blamed a group called Christians for the great fire at Rome and had many of them punished. Tacitus wrote decades later and suggests Nero was deflecting blame from himself, while describing Christians as hated for what he calls their abominations."
     source: "Tacitus, Annals 15.44"
   - date: "c. AD 64 to 68 (later tradition; dating debated)"
     title: "Peter and Paul die in Rome"
-    summary: "Acts ends with Paul spending two years in Rome under guard and does not say what happened to him, and the New Testament does not describe the death of either apostle. The earliest text that seems to refer to their deaths is 1 Clement, a letter from the church in Rome written about AD 96, which holds up Peter and Paul as examples who suffered and bore witness. It does not say where, how or when they died. The Gospel of John has Jesus hint at the kind of death Peter would die, and around AD 110 Ignatius of Antioch, writing to the Roman church, mentions Peter and Paul as having given it instructions. Later tradition says more. From the late second century on, Christian writers say both apostles taught in Rome and died there, and some say it was under Nero. Eusebius, writing in the early fourth century, reports that Paul was beheaded and Peter crucified, and, citing the earlier writer Origen, that Peter asked to be crucified head downward. Most scholars accept that both apostles died in Rome, probably under Nero, while a minority doubt that Peter was ever there. A separate tradition, based on Paul's stated plan to visit Spain and on 1 Clement's phrase that he reached the limit of the west, holds that he was released and travelled again before his death. Scholars debate this too."
+    summary: "Acts ends with Paul spending two years in Rome under guard and does not say what happened to him, and the New Testament does not describe the death of either apostle. The earliest text to speak of their deaths is 1 Clement, a letter from the church in Rome written about AD 96. It says that Peter and Paul were persecuted and put to death, and holds them up as examples, but it does not say where or how they died. The Gospel of John has Jesus hint at the kind of death Peter would die, and around AD 110 Ignatius of Antioch, writing to the Roman church, mentions Peter and Paul as having given it instructions. Later tradition says more. From the late second century on, Christian writers say both apostles taught in Rome and died there, and some say it was under Nero. Eusebius, writing in the early fourth century, reports that Paul was beheaded and Peter crucified, and, citing the earlier writer Origen, that Peter asked to be crucified head downward. Most scholars accept that both apostles died in Rome, probably under Nero, while a minority doubt that Peter was ever there. A separate tradition, based on Paul's stated plan to visit Spain and on 1 Clement's phrase that he reached the limit of the west, holds that he was released and travelled again before his death. Scholars debate this too."
     source: "Acts 28:30 to 31; John 21:18 to 19; Romans 15:24; 1 Clement 5; Ignatius, Letter to the Romans 4.3; Eusebius, Church History 2.25 and 3.1 (later tradition)"
   - date: "c. AD 66 to 68 (later tradition; debated)"
     title: "The Jewish revolt, and the Jerusalem church leaves for Pella"
@@ -117,11 +118,11 @@ events:
   - date: "AD 70"
     title: "The Jerusalem temple is destroyed"
     summary: "During the Jewish revolt, Roman forces under Titus captured Jerusalem and the temple burned. Josephus dates it to the month of Av and says Titus tried to save it. Other ancient writers say he ordered it destroyed, and modern scholars disagree about which is right."
-    source: "Josephus, Jewish War 6"
+    source: "Josephus, Jewish War 6.4.3 to 6.4.7"
   - date: "AD 81 to 96 (debated)"
     title: "Did Domitian persecute Christians?"
     summary: "Christian writers from the late second century on, including Melito of Sardis and Tertullian, and later Eusebius, say that the emperor Domitian persecuted Christians, making him the second emperor to do so, after Nero. The Roman historian Cassius Dio, writing in the early third century, says Domitian executed his cousin Flavius Clemens and exiled Clemens's wife Domitilla on a charge of atheism and drifting into Jewish ways, and some scholars think they may have been Christians. Revelation and 1 Clement both hint at pressure on believers in these years. Many modern historians doubt there was any empire-wide campaign against Christians under Domitian and think pressure was local and occasional. The question is open."
-    source: "Cassius Dio, Roman History 67.14; 1 Clement 1.1; Revelation 1:9, 2:13; Eusebius, Church History 3.17 to 20 and 4.26.9 (later tradition)"
+    source: "Cassius Dio, Roman History 67.14; 1 Clement 1.1; Revelation 1:9, 2:13; Tertullian, Apology 5; Eusebius, Church History 3.17 to 20 and 4.26.9 (later tradition)"
   - date: "c. AD 95 (dating debated)"
     title: "Revelation is written, and the tradition of John at Ephesus"
     summary: "The book of Revelation says its author, John, received his visions on the island of Patmos, off the coast of Asia, because of the word of God and his testimony about Jesus. It opens with messages to seven churches in the province of Asia, including Ephesus, Smyrna and Pergamum. In the second century, Justin Martyr and Irenaeus identify this John with the apostle John, and Irenaeus places the visions late in Domitian's reign and says John lived on at Ephesus into the reign of Trajan. In the third century, Dionysius of Alexandria already doubted that the same person wrote Revelation and the Gospel of John, because their Greek is so different, and most modern scholars agree. Some date Revelation to the late 60s instead."
@@ -132,74 +133,78 @@ events:
     source: "1 Clement 1.1, 42, 44, 47; Eusebius, Church History 4.23.11 (later tradition on the author)"
 sources:
   - title: "Acts and the letters of Paul"
-    author: "New Testament (quoted from the World English Bible)"
-    license: "Public domain (World English Bible); to verify"
-    checked: "not yet checked"
+    author: "New Testament, World English Bible (eBible.org)"
+    url: "https://ebible.org/find/details.php?id=engwebp"
+    license: "Public domain; \"World English Bible\" is a trademark of eBible.org, used here only to name the translation"
+    checked: "2026-11-11"
     usedFor: "Main narrative and the key people and events above"
   - title: "The Gospels of Matthew, Mark, Luke and John"
-    author: "New Testament (quoted from the World English Bible)"
-    license: "Public domain (World English Bible); to verify"
-    checked: "not yet checked"
+    author: "New Testament, World English Bible (eBible.org)"
+    url: "https://ebible.org/find/details.php?id=engwebp"
+    license: "Public domain; \"World English Bible\" is a trademark of eBible.org, used here only to name the translation"
+    checked: "2026-11-11"
     usedFor: "The execution of Jesus under Pontius Pilate; John 21 on Peter's death"
   - title: "Antiquities of the Jews and The Jewish War"
-    author: "Josephus (Whiston translation)"
-    license: "Public domain (older translation); to verify"
-    checked: "not yet checked"
+    author: "Josephus, translated by William Whiston (Project Gutenberg 2848 and 2850)"
+    url: "https://www.gutenberg.org/ebooks/2848"
+    license: "Public domain (translation published 1737)"
+    checked: "2026-11-11"
     usedFor: "The death of James and the removal of Ananus, the death of Herod Agrippa I, the famine of the 40s, Felix and Festus, the outbreak of the revolt, and the destruction of the temple"
-  - title: "Annals"
-    author: "Tacitus (older 19th-century translation)"
-    license: "Public domain (older translation); to verify"
-    checked: "not yet checked"
+  - title: "Annals, Book 15"
+    author: "Tacitus, translated by Alfred John Church and William Jackson Brodribb (Internet Classics Archive)"
+    url: "http://classics.mit.edu/Tacitus/annals.11.xv.html"
+    license: "Public domain (translation published 1876)"
+    checked: "2026-11-11"
     usedFor: "Nero and the fire of Rome"
   - title: "Life of Claudius"
-    author: "Suetonius (older English translation)"
-    license: "Public domain (older translation); to verify"
-    checked: "not yet checked"
+    author: "Suetonius, translated by Alexander Thomson, revised by T. Forester (Project Gutenberg 6400)"
+    url: "https://www.gutenberg.org/ebooks/6400"
+    license: "Public domain (nineteenth-century translation)"
+    checked: "2026-11-11"
     usedFor: "The expulsion of Jews from Rome under Claudius"
-  - title: "1 Clement, the Didache, and Ignatius, Letter to the Romans"
-    author: "Apostolic Fathers (older translation, such as Lightfoot or the Ante-Nicene Fathers series)"
-    license: "Public domain (older translation); to verify"
-    checked: "not yet checked"
-    usedFor: "The letter from Rome to Corinth, the earliest mentions of Peter's and Paul's deaths, and worship and leadership"
-  - title: "Against Heresies; Dialogue with Trypho; Homilies on Romans"
-    author: "Irenaeus, Justin Martyr and John Chrysostom (Ante-Nicene and Nicene and Post-Nicene Fathers series)"
-    license: "Public domain (older translation); to verify"
-    checked: "not yet checked"
-    usedFor: "Later tradition on John and Revelation, and Chrysostom's reading of Junia"
-  - title: "Roman History"
-    author: "Cassius Dio (Cary translation, Loeb Classical Library)"
-    license: "Public domain in the United States (published 1914 to 1927); to verify"
-    checked: "not yet checked"
+  - title: "1 Clement, the Didache, and Ignatius, Letters to the Romans and to the Magnesians"
+    author: "Ante-Nicene Fathers, volumes 1 and 7, edited by Roberts, Donaldson and Coxe (CCEL)"
+    url: "https://ccel.org/ccel/schaff/anf01"
+    license: "Public domain (published 1885 to 1886)"
+    checked: "2026-11-11"
+    usedFor: "The letter from Rome to Corinth, the earliest mentions of Peter's and Paul's deaths, Ignatius on Christianity and Judaism, and worship and leadership"
+  - title: "Against Heresies; Dialogue with Trypho; Apology; Homilies on Romans"
+    author: "Irenaeus, Justin Martyr, Tertullian and John Chrysostom, in the Ante-Nicene Fathers (volumes 1 and 3) and the Nicene and Post-Nicene Fathers (first series, volume 11) (CCEL)"
+    url: "https://ccel.org/ccel/schaff/npnf111"
+    license: "Public domain (published 1885 to 1889)"
+    checked: "2026-11-11"
+    usedFor: "Later tradition on John, Revelation and the Roman church, Tertullian on Domitian, and Chrysostom's reading of Junia"
+  - title: "Roman History, Book 67"
+    author: "Cassius Dio, translated by Earnest Cary, Loeb Classical Library volume 8 (LacusCurtius)"
+    url: "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/67*.html"
+    license: "Public domain (published 1925)"
+    checked: "2026-11-11"
     usedFor: "Domitian's execution of Flavius Clemens and exile of Domitilla"
   - title: "Church History"
-    author: "Eusebius of Caesarea (McGiffert translation, Nicene and Post-Nicene Fathers series)"
-    license: "Public domain (older translation); to verify"
-    checked: "not yet checked"
-    usedFor: "Later tradition: the deaths of Peter, Paul and James (quoting Hegesippus), the flight to Pella, Domitian, John at Ephesus, and the author of 1 Clement"
+    author: "Eusebius of Caesarea, translated by Arthur Cushman McGiffert, Nicene and Post-Nicene Fathers, second series, volume 1 (CCEL)"
+    url: "https://ccel.org/ccel/schaff/npnf201"
+    license: "Public domain (published 1890)"
+    checked: "2026-11-11"
+    usedFor: "Later tradition: the deaths of Peter, Paul and James (quoting Hegesippus), the flight to Pella, Domitian, John at Ephesus, Revelation, and the author of 1 Clement"
   - title: "The Gallio inscription at Delphi"
-    author: "Letter of the emperor Claudius (published in modern editions of Greek inscriptions)"
-    license: "Ancient text; cite the edition used"
-    checked: "not yet checked"
+    author: "Letter of the emperor Claudius; Fouilles de Delphes III 4, no. 286, and Sylloge Inscriptionum Graecarum (3rd edition) II, no. 801 D"
+    license: "Ancient inscription; cited, not reproduced"
+    checked: "2026-11-11"
     usedFor: "Dating Gallio's term in Corinth"
   - title: "An Introduction to the New Testament"
-    author: "Raymond E. Brown"
-    license: "Copyrighted; cite only, never copied"
-    checked: "not yet checked"
+    author: "Raymond E. Brown (1997)"
+    license: "Copyrighted; cited only, never reproduced"
+    checked: "2026-11-11"
     usedFor: "The usual date ranges in the table of when the sources were written"
   - title: "Modern studies of early devotion to Jesus and of Jews and Christians"
     author: "Larry Hurtado; Richard Bauckham; James D. G. Dunn; Bart D. Ehrman; Adam H. Becker and Annette Yoshiko Reed (eds.)"
-    license: "Copyrighted; cite only, never copied"
-    checked: "not yet checked"
+    license: "Copyrighted; cited only, never reproduced"
+    checked: "2026-11-11"
     usedFor: "The scholarly positions in What the first believers proclaimed and When did Christianity and Judaism become separate (full titles under Further reading)"
-  - title: "Letter to the Magnesians"
-    author: "Ignatius of Antioch (older translation, such as Lightfoot or the Ante-Nicene Fathers series)"
-    license: "Public domain (older translation); to verify"
-    checked: "not yet checked"
-    usedFor: "Ignatius setting Christianity against Judaism"
   - title: "The Cambridge History of Christianity, Volume 1: Origins to Constantine"
-    author: "Margaret M. Mitchell and Frances M. Young (eds.)"
-    license: "Copyrighted; link or cite only, never copied"
-    checked: "not yet checked"
+    author: "Margaret M. Mitchell and Frances M. Young (eds.) (2006)"
+    license: "Copyrighted; cited only, never reproduced"
+    checked: "2026-11-11"
     usedFor: "Further reading from modern scholarship"
 ---
 
@@ -276,7 +281,7 @@ as Raymond E. Brown's (see the sources for this era), and none of the New Testam
 
 In a letter written about twenty years after the death of Jesus, Paul reminds the church in Corinth of what he says he passed on to them as received: that Christ died for sins, was buried, was raised on the third day, and appeared to Peter, to the twelve, to a larger group, to James, to all the apostles, and finally to Paul himself (1 Corinthians 15:3 to 8). Believers called Jesus the Christ, which means the Anointed One, and Lord.
 
-Paul's letters also show how early believers spoke to Jesus and about him. Paul keeps an Aramaic prayer addressed to Jesus, *Maranatha*, "our Lord, come" (1 Corinthians 16:22). He writes that for believers there is one God, the Father, and one Lord, Jesus Christ, through whom all things exist. Those words echo the Jewish confession that God is one (1 Corinthians 8:6; compare Deuteronomy 6:4). And in a passage that may be an early hymn, he speaks of Christ being in the form of God, and of every knee bowing at the name of Jesus. Isaiah uses that last phrase of God himself (Philippians 2:6 to 11; compare Isaiah 45:23).
+Paul's letters also show how early believers spoke to Jesus and about him. Paul keeps an Aramaic prayer addressed to Jesus, *Maranatha*, "our Lord, come", which he leaves untranslated in his Greek (1 Corinthians 16:22; the World English Bible translates it as "Come, Lord!"). He writes that for believers there is one God, the Father, and one Lord, Jesus Christ, through whom all things exist. Those words echo the Jewish confession that God is one (1 Corinthians 8:6; compare Deuteronomy 6:4). And in a passage that may be an early hymn, he speaks of Christ being in the form of God, and of every knee bowing at the name of Jesus. Isaiah uses that last phrase of God himself (Philippians 2:6 to 11; compare Isaiah 45:23).
 
 Scholars read this evidence differently. Larry Hurtado and Richard Bauckham argue that Jewish believers were devoted to Jesus alongside God within the first few years of the movement. James Dunn is more cautious: he argues that early believers honoured Jesus very highly but did not yet worship him in the same way as God. Bart Ehrman agrees that belief in Jesus's exalted status came early, but argues that it meant something different from the later creeds. Christians have traditionally read these passages as early witness to their belief that Jesus is divine. The books by each of these scholars are listed under further reading below.
 
@@ -304,11 +309,11 @@ Our sources say much less about what early Christians did when they met than abo
 
 ### Meeting in houses
 
-There were no church buildings. Believers met in private homes, and Paul greets the assemblies that met in the houses of Prisca and Aquila, of Nympha, and of Philemon (Romans 16:5; 1 Corinthians 16:19; Colossians 4:15; Philemon 2). Acts describes the first Jerusalem believers attending the temple and breaking bread in their homes (Acts 2:46). A house could hold a few dozen people at most, so a city's believers may have met in several groups.
+There were no church buildings. Believers met in private homes, and Paul greets the assemblies that met in the houses of Prisca and Aquila, of Nympha (Nymphas in some manuscripts and in the World English Bible), and of Philemon (Romans 16:5; 1 Corinthians 16:19; Colossians 4:15; Philemon 2). Acts describes the first Jerusalem believers attending the temple and breaking bread in their homes (Acts 2:46). A house could hold a few dozen people at most, so a city's believers may have met in several groups.
 
 ### Baptism
 
-Acts presents baptism as the way new believers joined the community, from Pentecost onward (Acts 2:38 to 41). Paul describes it as being baptised into Christ's death and rising to a new life (Romans 6:3 to 4), and says that in Christ there is neither Jew nor Greek, slave nor free, male and female (Galatians 3:27 to 28). He also says he personally baptised only a few people in Corinth (1 Corinthians 1:14 to 17). The Didache prefers running water, allows pouring water three times on the head if there is not enough, and asks for fasting beforehand (Didache 7).
+Acts presents baptism as the way new believers joined the community, from Pentecost onward (Acts 2:38 to 41). Paul describes it as being baptised into Christ's death and rising to a new life (Romans 6:3 to 4), and says that in Christ there is neither Jew nor Greek, slave nor free, male nor female (Galatians 3:27 to 28). He also says he personally baptised only a few people in Corinth (1 Corinthians 1:14 to 17). The Didache prefers running water, allows pouring water three times on the head if there is not enough, and asks for fasting beforehand (Didache 7).
 
 ### The Lord's Supper
 
@@ -320,7 +325,7 @@ Paul asks the Corinthians to set money aside on the first day of every week (1 C
 
 ### Prayer, singing and spiritual gifts
 
-Paul describes meetings where each person might bring a hymn, a teaching, a revelation, a tongue or an interpretation (1 Corinthians 14:26), and he spends three chapters on prophecy, speaking in tongues and other gifts (1 Corinthians 12 to 14). He keeps one Aramaic prayer untranslated, Maranatha, meaning "our Lord, come" (1 Corinthians 16:22), which suggests it came from the earliest Aramaic-speaking believers. Many scholars think some passages in Paul's letters, such as Philippians 2:6 to 11, quote hymns that were already in use, though this is debated. The Didache tells believers to pray the Lord's Prayer three times a day (Didache 8).
+Paul describes meetings where each person might bring a psalm, a teaching, a revelation, a tongue or an interpretation (1 Corinthians 14:26), and he spends three chapters on prophecy, speaking in tongues and other gifts (1 Corinthians 12 to 14). He keeps one Aramaic prayer untranslated in his Greek, Maranatha, meaning "our Lord, come" (1 Corinthians 16:22; the World English Bible translates it as "Come, Lord!"), which suggests it came from the earliest Aramaic-speaking believers. Many scholars think some passages in Paul's letters, such as Philippians 2:6 to 11, quote hymns that were already in use, though this is debated. The Didache tells believers to pray the Lord's Prayer three times a day (Didache 8).
 
 ### Sharing resources
 
@@ -328,7 +333,7 @@ Acts says the Jerusalem believers held their possessions in common and gave to a
 
 ### Leaders
 
-Titles for leaders were not yet fixed. Paul's letters mention apostles, prophets and teachers (1 Corinthians 12:28), and greet overseers and deacons in Philippi (Philippians 1:1). Acts has Paul and Barnabas appoint elders in each church (Acts 14:23). By the end of the century, 1 Clement and the Didache speak of overseers (in Greek *episkopoi*, the word that later became bishop), elders and deacons (1 Clement 42 to 44; Didache 15). Scholars debate when churches began to have a single bishop at their head. The letters of Ignatius, written soon after this era, are the first to insist on it.
+Titles for leaders were not yet fixed. Paul's letters mention apostles, prophets and teachers (1 Corinthians 12:28), and greet the overseers and servants, or deacons, in Philippi (Philippians 1:1). Acts has Paul and Barnabas appoint elders in each church (Acts 14:23). By the end of the century, 1 Clement and the Didache speak of overseers (in Greek *episkopoi*, the word that later became bishop), elders and deacons (1 Clement 42 to 44; Didache 15). Scholars debate when churches began to have a single bishop at their head. The letters of Ignatius, written soon after this era, are the first to insist on it.
 
 ### The Didache
 
