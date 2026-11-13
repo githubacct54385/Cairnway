@@ -1,0 +1,74 @@
+{
+  "topic": "baptism",
+  "body": "rca",
+  "summary": "The Heidelberg Catechism, which the Reformed Church in America holds as one of its standards, teaches that baptism is a holy sign and seal appointed by Christ. The washing with water assures the believer that they are as surely washed from sin by Christ's blood and Spirit as the body is washed by water. The catechism says outward baptism is not itself the washing away of sin: only Christ's blood and the Holy Spirit cleanse. Infants are baptized because they are included in God's covenant and church, as circumcision marked children in the old covenant. The catechism does not address the mode of baptism, whether baptism is needed for salvation, or whether it can be repeated.",
+  "points": [
+    {
+      "question": "What is baptism?",
+      "answer": "An external washing with water, appointed by Christ with a promise: the believer is as certainly washed from sin by Christ's blood and Spirit as they are washed externally with water. The sacraments are holy visible signs and seals of the gospel promise.",
+      "at": "Heidelberg Catechism, Q. 66, 69"
+    },
+    {
+      "question": "What does it do?",
+      "answer": "It does not itself wash away sin; only Christ's blood and the Holy Spirit do. It is a divine sign and pledge that assures the believer of being spiritually cleansed, and the washing means receiving forgiveness and being renewed by the Holy Spirit.",
+      "at": "Heidelberg Catechism, Q. 70, 72-73"
+    },
+    {
+      "question": "Are infants baptized?",
+      "answer": "Yes. Infants are included in the covenant and church of God, and redemption and the Holy Spirit are promised to them as to adults, so baptism marks them as members of the church and distinguishes them from the children of unbelievers, taking the place of circumcision.",
+      "at": "Heidelberg Catechism, Q. 74"
+    }
+  ],
+  "scripture": [
+    "Matthew 28:19-20",
+    "Mark 16:16",
+    "Acts 2:38",
+    "Romans 6:3-4",
+    "Titus 3:5",
+    "Acts 22:16",
+    "Colossians 2:11-13",
+    "Genesis 17:7",
+    "Acts 2:39"
+  ],
+  "scriptureNote": "Passages printed with these questions in the edition read; a selection, not the full list.",
+  "document": {
+    "title": "The Heidelberg Catechism",
+    "section": "Of Holy Baptism, Lord's Days 26-27: Questions 69-74 (with Q. 66-68 on the sacraments)",
+    "issuer": "Reformed Church in America (holds the Heidelberg Catechism as a standard)",
+    "date": "1563; one of the RCA's doctrinal standards",
+    "url": "https://www.ccel.org/creeds/heidelberg-cat.html",
+    "edition": "English text on the Christian Classics Ethereal Library; the translator is not named on the page. The RCA's own published copy has not been compared"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "The catechism is from 1563, but the English translation and edition are not confirmed, so no quotation is used.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Questions 66-74 read in full on 2026-11-12 in the CCEL text. The RCA's own copy, its adoption of the catechism, and the Belgic Confession's article on baptism have not been checked or used. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "apostolic-age",
+    "second-century"
+  ],
+  "positions": {
+    "who": {
+      "answer": "infants-too",
+      "at": "Heidelberg Catechism, Q. 74"
+    },
+    "how": {
+      "answer": "not-stated"
+    },
+    "effect": {
+      "answer": "sign-and-seal",
+      "at": "Heidelberg Catechism, Q. 66, 69, 73"
+    },
+    "necessity": {
+      "answer": "not-stated"
+    },
+    "repeat": {
+      "answer": "not-stated"
+    }
+  }
+}
