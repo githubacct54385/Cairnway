@@ -2,6 +2,9 @@
 import { getCollection, render } from 'astro:content';
 import Base from '../../../layouts/Base.astro';
 import { reportFormUrl } from '../../../lib/report';
+import OnThisPage from '../../../components/OnThisPage.astro';
+import PrevNext from '../../../components/PrevNext.astro';
+import BackToTop from '../../../components/BackToTop.astro';
 import EraMap from '../../../components/EraMap.astro';
 import type { ComponentProps } from 'astro/types';
 
@@ -18,6 +21,15 @@ const prevEra = eraIndex > 0 ? allEras[eraIndex - 1] : undefined;
 const nextEra = eraIndex < allEras.length - 1 ? allEras[eraIndex + 1] : undefined;
 const bodyHeadings = headings.filter((h) => h.depth === 2);
 const { title, summary, dateRange, draft, reviewStatus, reviewLedger, aiReview, overviewMap, mapSection, figures, keyPeople, events, sources } = era.data;
+const link = (e?: (typeof allEras)[number]) => (e ? { href: `/history/eras/${e.id}/`, title: e.data.title } : undefined);
+const contents = [
+  ...(figures.length > 0 ? [{ href: '#images', text: 'Images from the period' }] : []),
+  ...bodyHeadings.map((h) => ({ href: `#${h.slug}`, text: h.text })),
+  ...(mapSection ? [{ href: '#journeys', text: mapSection.heading }] : []),
+  ...(events.length > 0 ? [{ href: '#key-events', text: 'Key events' }] : []),
+  ...(keyPeople.length > 0 ? [{ href: '#key-people', text: 'Key people' }] : []),
+  ...(sources.length > 0 ? [{ href: '#sources', text: 'Sources for this era' }] : []),
+];
 type MapId = ComponentProps<typeof EraMap>['id'];
 ---
 
@@ -54,26 +66,9 @@ type MapId = ComponentProps<typeof EraMap>['id'];
       )
     }
 
-    <nav class="era-jump" aria-label="Previous and next eras, at the top">
-      {prevEra ? <a href={`/history/eras/${prevEra.id}/`}>← {prevEra.data.title}</a> : <span />}
-      {nextEra ? <a href={`/history/eras/${nextEra.id}/`}>{nextEra.data.title} →</a> : <span />}
-    </nav>
+    <PrevNext variant="top" noun="era" prev={link(prevEra)} next={link(nextEra)} />
 
-    <nav class="on-page" aria-label="On this page">
-      <details class="on-page-details">
-        <summary>On this page</summary>
-        <ul>
-          {figures.length > 0 && <li><a href="#images">Images from the period</a></li>}
-          {bodyHeadings.map((h) => (
-            <li><a href={`#${h.slug}`}>{h.text}</a></li>
-          ))}
-          {mapSection && <li><a href="#journeys">{mapSection.heading}</a></li>}
-          {events.length > 0 && <li><a href="#key-events">Key events</a></li>}
-          {keyPeople.length > 0 && <li><a href="#key-people">Key people</a></li>}
-          {sources.length > 0 && <li><a href="#sources">Sources for this era</a></li>}
-        </ul>
-      </details>
-    </nav>
+    <OnThisPage items={contents} />
 
     {overviewMap && <EraMap id={overviewMap as MapId} as="h2" />}
 
@@ -172,48 +167,10 @@ type MapId = ComponentProps<typeof EraMap>['id'];
     <p class="report">
       <a href={reportFormUrl('history', title, `/history/eras/${era.id}/`)}>Report a problem with this era</a>
     </p>
-    <nav class="era-nav" aria-label="Previous and next eras">
-      {
-        prevEra ? (
-          <a class="era-nav-prev" href={`/history/eras/${prevEra.id}/`}>
-            <span class="meta">Previous era</span>
-            {prevEra.data.title}
-          </a>
-        ) : (
-          <span />
-        )
-      }
-      {
-        nextEra ? (
-          <a class="era-nav-next" href={`/history/eras/${nextEra.id}/`}>
-            <span class="meta">Next era</span>
-            {nextEra.data.title}
-          </a>
-        ) : (
-          <span />
-        )
-      }
-    </nav>
+    <PrevNext variant="bottom" noun="era" prev={link(prevEra)} next={link(nextEra)} />
   </article>
 
-  <button type="button" class="to-top" data-to-top hidden>Back to top</button>
-  <script>
-    // The contents list is closed on phones and open on wider screens.
-  const contents = document.querySelector<HTMLDetailsElement>('.on-page-details');
-  if (contents && window.matchMedia('(min-width: 40rem)').matches) {
-    contents.open = true;
-  }
-
-  const toTop = document.querySelector<HTMLButtonElement>('[data-to-top]');
-    if (toTop) {
-      const update = () => {
-        toTop.hidden = window.scrollY < 600;
-      };
-      window.addEventListener('scroll', update, { passive: true });
-      toTop.addEventListener('click', () => window.scrollTo({ top: 0 }));
-      update();
-    }
-  </script>
+  <BackToTop />
 </Base>
 
 <style>
@@ -238,128 +195,5 @@ type MapId = ComponentProps<typeof EraMap>['id'];
 
   .page [id] {
     scroll-margin-top: 1.25rem;
-  }
-
-  .on-page {
-    margin: 1.5rem 0 0;
-    padding: 0.6rem 1rem;
-    border: 1px solid var(--rule);
-    border-radius: 0.5rem;
-    background: var(--card);
-    font-family: system-ui, sans-serif;
-    font-size: 0.95rem;
-  }
-  .on-page summary {
-    cursor: pointer;
-    font-weight: 600;
-  }
-  /* Closed by default on phones so the content starts sooner. A script opens it on wider screens. */
-  .draft-status {
-    padding: 0.6rem 1rem;
-  }
-  .draft-status summary {
-    cursor: pointer;
-    font-family: system-ui, sans-serif;
-    font-size: 0.95rem;
-    font-weight: 600;
-  }
-  .draft-status p {
-    margin: 0.5rem 0 0.2rem;
-    font-size: 0.95rem;
-  }
-  .era-jump {
-    display: flex;
-    justify-content: space-between;
-    gap: 1rem;
-    margin: 1rem 0 0;
-    font-family: system-ui, sans-serif;
-    font-size: 0.9rem;
-  }
-  .era-jump a {
-    text-decoration: none;
-  }
-  .era-jump a:hover,
-  .era-jump a:focus-visible {
-    text-decoration: underline;
-  }
-  .era-jump a:last-child {
-    margin-left: auto;
-    text-align: right;
-  }
-
-  .on-page ul {
-    margin: 0.6rem 0 0.2rem;
-    padding-left: 1.1rem;
-  }
-  .on-page li {
-    margin-bottom: 0.3rem;
-  }
-  @media (min-width: 40rem) {
-    .on-page ul {
-      columns: 2;
-      column-gap: 2rem;
-    }
-  }
-
-  .era-nav {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-    margin-top: 3rem;
-    padding-top: 1.5rem;
-    border-top: 1px solid var(--rule);
-    font-family: system-ui, sans-serif;
-  }
-  .era-nav a {
-    display: block;
-    padding: 0.9rem 1rem;
-    border: 1px solid var(--rule);
-    border-radius: 0.75rem;
-    background: var(--card);
-    color: var(--fg);
-    text-decoration: none;
-  }
-  .era-nav a:hover,
-  .era-nav a:focus-visible {
-    border-color: var(--accent);
-  }
-  .era-nav-next {
-    text-align: right;
-  }
-  .era-nav .meta {
-    display: block;
-    font-size: 0.85rem;
-    color: var(--muted);
-  }
-  @media (max-width: 30rem) {
-    .era-nav {
-      grid-template-columns: 1fr;
-    }
-    .era-nav-next {
-      text-align: left;
-    }
-  }
-
-  .to-top {
-    position: fixed;
-    right: 1rem;
-    bottom: 1rem;
-    z-index: 15;
-    padding: 0.6rem 1rem;
-    border: 1px solid var(--accent);
-    border-radius: 999px;
-    background: var(--card);
-    color: var(--accent);
-    font: 0.95rem system-ui, sans-serif;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-    cursor: pointer;
-  }
-  .to-top[hidden] {
-    display: none;
-  }
-  .to-top:hover,
-  .to-top:focus-visible {
-    background: var(--accent);
-    color: var(--bg);
   }
 </style>

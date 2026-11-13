@@ -502,3 +502,9 @@ a {
 .report-page .notice { padding: 0.9rem 1rem; border: 1px solid var(--rule); border-radius: 6px; background: var(--card); font-family: system-ui, sans-serif; }
 .report-page .fine { font-size: 0.85rem; color: var(--muted); font-family: system-ui, sans-serif; }
 .report-page .about-line { margin: 0; font-family: system-ui, sans-serif; }
+
+/* The collapsible "draft" notice at the top of era and topic pages. */
+.draft-status { padding: 0.6rem 1rem; }
+.draft-status summary { cursor: pointer; font-family: system-ui, sans-serif; font-size: 0.95rem; font-weight: 600; }
+.draft-status p { margin: 0.5rem 0 0.2rem; font-size: 0.95rem; }
+.page [id] { scroll-margin-top: 1.25rem; }

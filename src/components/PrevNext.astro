@@ -1,0 +1,108 @@
+---
+// Previous and next links. variant "top" is the slim pair near the start of a page; "bottom" is the pair of cards at
+// the end. Used by era pages (noun "era") and Crossroads topic pages (noun "topic").
+interface Link {
+  href: string;
+  title: string;
+}
+interface Props {
+  prev?: Link;
+  next?: Link;
+  noun: string;
+  variant: 'top' | 'bottom';
+}
+const { prev, next, noun, variant } = Astro.props;
+---
+
+{
+  variant === 'top' ? (
+    <nav class="pn-top" aria-label={`Previous and next ${noun}s, at the top`}>
+      {prev ? <a href={prev.href}>← {prev.title}</a> : <span />}
+      {next ? <a href={next.href}>{next.title} →</a> : <span />}
+    </nav>
+  ) : (
+    <nav class="pn-bottom" aria-label={`Previous and next ${noun}s`}>
+      {
+        prev ? (
+          <a class="pn-prev" href={prev.href}>
+            <span class="meta">Previous {noun}</span>
+            {prev.title}
+          </a>
+        ) : (
+          <span />
+        )
+      }
+      {
+        next ? (
+          <a class="pn-next" href={next.href}>
+            <span class="meta">Next {noun}</span>
+            {next.title}
+          </a>
+        ) : (
+          <span />
+        )
+      }
+    </nav>
+  )
+}
+
+<style>
+  .pn-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin: 1rem 0 0;
+    font-family: system-ui, sans-serif;
+    font-size: 0.9rem;
+  }
+  .pn-top a {
+    text-decoration: none;
+  }
+  .pn-top a:hover,
+  .pn-top a:focus-visible {
+    text-decoration: underline;
+  }
+  .pn-top a:last-child {
+    margin-left: auto;
+    text-align: right;
+  }
+
+  .pn-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--rule);
+    font-family: system-ui, sans-serif;
+  }
+  .pn-bottom a {
+    display: block;
+    padding: 0.9rem 1rem;
+    border: 1px solid var(--rule);
+    border-radius: 0.75rem;
+    background: var(--card);
+    color: var(--fg);
+    text-decoration: none;
+  }
+  .pn-bottom a:hover,
+  .pn-bottom a:focus-visible {
+    border-color: var(--accent);
+  }
+  .pn-next {
+    text-align: right;
+  }
+  .pn-bottom .meta {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--muted);
+  }
+  @media (max-width: 30rem) {
+    .pn-bottom {
+      grid-template-columns: 1fr;
+    }
+    .pn-next {
+      text-align: left;
+    }
+  }
+</style>
