@@ -51,5 +51,23 @@
   "relatedEras": [
     "apostolic-age",
     "second-century"
-  ]
+  ],
+  "positions": {
+    "who": {
+      "answer": "not-stated"
+    },
+    "how": {
+      "answer": "not-stated"
+    },
+    "effect": {
+      "answer": "gives-grace",
+      "at": "Small Catechism, Fourth Part, \"Secondly\""
+    },
+    "necessity": {
+      "answer": "not-stated"
+    },
+    "repeat": {
+      "answer": "not-stated"
+    }
+  }
 }

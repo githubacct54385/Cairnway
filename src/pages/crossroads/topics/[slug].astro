@@ -2,6 +2,7 @@
 import { render } from 'astro:content';
 import Base from '../../../layouts/Base.astro';
 import Teaching from '../../../components/Teaching.astro';
+import Comparison from '../../../components/Comparison.astro';
 import { CROSSROADS } from '../../../config';
 import { loadCrossroads, topicPath, churchPath } from '../../../lib/crossroads';
 
@@ -44,6 +45,9 @@ const related = eras.filter((e) => topic.data.relatedEras.includes(e.id)).sort((
       </p>
     </details>
 
+    <Comparison topic={topic} bodies={bodies} entries={entries} />
+
+    <h2>Each church in full</h2>
     <nav class="jump" aria-label="Churches on this page">
       {byBody.filter((x) => x.entry).map((x) => <a href={`#${x.body.id}`}>{x.body.data.name}</a>)}
     </nav>

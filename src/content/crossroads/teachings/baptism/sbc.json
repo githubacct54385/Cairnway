@@ -44,5 +44,26 @@
   "relatedEras": [
     "apostolic-age",
     "second-century"
-  ]
+  ],
+  "positions": {
+    "who": {
+      "answer": "believers-only",
+      "at": "Article VII",
+      "reading": true
+    },
+    "how": {
+      "answer": "immersion",
+      "at": "Article VII"
+    },
+    "effect": {
+      "answer": "symbol",
+      "at": "Article VII"
+    },
+    "necessity": {
+      "answer": "not-stated"
+    },
+    "repeat": {
+      "answer": "not-stated"
+    }
+  }
 }

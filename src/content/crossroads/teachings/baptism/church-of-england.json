@@ -45,5 +45,25 @@
   "relatedEras": [
     "apostolic-age",
     "second-century"
-  ]
+  ],
+  "positions": {
+    "who": {
+      "answer": "infants-too",
+      "at": "Article XXVII"
+    },
+    "how": {
+      "answer": "not-stated"
+    },
+    "effect": {
+      "answer": "sign-and-seal",
+      "at": "Article XXVII",
+      "reading": true
+    },
+    "necessity": {
+      "answer": "not-stated"
+    },
+    "repeat": {
+      "answer": "not-stated"
+    }
+  }
 }

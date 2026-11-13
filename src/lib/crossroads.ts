@@ -38,6 +38,25 @@ export async function loadCrossroads() {
       if (!eraIds.has(e)) throw new Error(`Crossroads entry ${t.id}: unknown era "${e}"`);
     }
   }
+  // Comparison data: every entry in a topic with questions must answer every question with a known answer,
+  // and must point to the passage unless it says "not-stated".
+  for (const topic of topics) {
+    if (topic.data.questions.length === 0) continue;
+    for (const t of teachings.filter((x) => x.data.topic === topic.id)) {
+      for (const q of topic.data.questions) {
+        const pos = t.data.positions[q.id];
+        if (!pos) throw new Error(`Crossroads entry ${t.id}: no position for question "${q.id}" (use "not-stated" if the document is silent)`);
+        if (pos.answer === 'not-stated') continue;
+        if (!q.answers.some((a) => a.id === pos.answer)) {
+          throw new Error(`Crossroads entry ${t.id}: "${pos.answer}" is not an answer to question "${q.id}"`);
+        }
+        if (!pos.at) throw new Error(`Crossroads entry ${t.id}: question "${q.id}" needs an "at" pointing to the passage`);
+      }
+      for (const id of Object.keys(t.data.positions)) {
+        if (!topic.data.questions.some((q) => q.id === id)) throw new Error(`Crossroads entry ${t.id}: unknown question "${id}"`);
+      }
+    }
+  }
   for (const t of topics) {
     for (const e of t.data.relatedEras) {
       if (!eraIds.has(e)) throw new Error(`Crossroads topic ${t.id}: unknown era "${e}"`);
