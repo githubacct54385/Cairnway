@@ -4,7 +4,7 @@
 // each change is uploaded as a version on the "staging" preview URL, and goes live only
 // after approval. See docs/DEPLOY.md.
 {
-  "name": "ancient-paths",
+  "name": "cairnway",
   "main": "worker/index.ts",
   "compatibility_date": "2026-11-01",
   "assets": {
@@ -17,10 +17,11 @@
     // Where reports become issues.
     "GITHUB_REPO": "githubacct54385/ancient-paths"
   },
-  // Private store for reporters' contact details and the per-IP rate limit. Created automatically on first deploy.
-  "kv_namespaces": [{ "binding": "REPORT_CONTACTS" }],
-  // The live site at ancient-paths.<subdomain>.workers.dev.
+  // Private store for reporters' contact details and the per-IP rate limit. This is the namespace the Worker used when it
+  // was called ancient-paths, bound by its id so the stored contacts carry over to the renamed Worker.
+  "kv_namespaces": [{ "binding": "REPORT_CONTACTS", "id": "60b2e0e2066146ba81b6cee7002d8592" }],
+  // The live site at cairnway.<subdomain>.workers.dev.
   "workers_dev": true,
-  // Needed for the staging address: staging-ancient-paths.<subdomain>.workers.dev.
+  // Needed for the staging address: staging-cairnway.<subdomain>.workers.dev.
   "preview_urls": true
 }
