@@ -1,0 +1,74 @@
+{
+  "summary": "The Confession of Faith in a Mennonite Perspective teaches that baptism of believers with water is a sign of cleansing from sin and a pledge before the church to walk in the way of Jesus through the power of the Holy Spirit. Through it believers are incorporated into Christ's body, the church, and commit to serve and, if need be, to suffer. Baptism is for those who confess their sins, repent, accept Jesus Christ as Savior and Lord, have reached the age of accountability, and freely ask for it. The confession does not say how the water is applied, whether baptism is needed for salvation, or whether it can be repeated.",
+  "points": [
+    {
+      "question": "What is baptism?",
+      "answer": "A sign that a person has repented, received forgiveness, renounced evil and died to sin through God's grace, and a pledge before the church of their covenant with God.",
+      "at": "Article 11: Baptism"
+    },
+    {
+      "question": "Who receives it?",
+      "answer": "Those who confess their sins, repent, accept Jesus Christ as Savior and Lord and commit to follow him as members of his body, who are of the age of accountability and freely request baptism.",
+      "at": "Article 11: Baptism"
+    },
+    {
+      "question": "What does it do?",
+      "answer": "Cleansed believers are incorporated into Christ's body on earth, the church; baptism is also a pledge to serve Christ and a public commitment to identify with his life and suffering. The confession calls it a sign, a term it uses in place of \"sacrament\" or \"ordinance\" and describes as both God's action and the baptized person's.",
+      "at": "Article 11: Baptism, and its commentary"
+    }
+  ],
+  "scripture": [
+    "Romans 6:1-4",
+    "Acts 2:38-39",
+    "Matthew 28:19-20",
+    "Luke 12:50",
+    "1 John 5:7-8",
+    "Mark 10:38",
+    "John 4:1",
+    "Galatians 3:27"
+  ],
+  "scriptureNote": "The references printed with Article 11.",
+  "document": {
+    "title": "Confession of Faith in a Mennonite Perspective",
+    "section": "Article 11: Baptism",
+    "issuer": "Mennonite Church USA",
+    "date": "1995 (from general knowledge, unchecked)",
+    "url": "https://www.mennoniteusa.org/who-are-mennonites/what-we-believe/confession-of-faith/baptism/",
+    "edition": "Text on mennoniteusa.org, read in full on 2026-11-12. The confession is also published by MennoMedia"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "The confession is published by MennoMedia and the site states no reuse permission, so no quotation is used.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Article 11 and its commentary read on mennoniteusa.org on 2026-11-12. The year and the confession's relationship to Mennonite Church Canada have not been checked. Grouping this under \"declaration of faith\" is our reading: the confession says baptism is a sign of both God's action and the person's pledge, which sits between the \"sign and seal\" and \"declaration\" answers. Not yet checked by a second reviewer."
+  },
+  "positions": {
+    "who": {
+      "answer": "believers-only",
+      "at": "Article 11: Baptism"
+    },
+    "how": {
+      "answer": "not-stated"
+    },
+    "effect": {
+      "answer": "declaration",
+      "at": "Article 11: Baptism, and its commentary",
+      "reading": true
+    },
+    "necessity": {
+      "answer": "not-stated"
+    },
+    "repeat": {
+      "answer": "not-stated"
+    }
+  },
+  "topic": "baptism",
+  "body": "mennonite-church-usa",
+  "relatedEras": [
+    "apostolic-age",
+    "second-century"
+  ]
+}

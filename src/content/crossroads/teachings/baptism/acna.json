@@ -1,0 +1,79 @@
+{
+  "summary": "The Anglican Church in North America's catechism, To Be a Christian, teaches that baptism is one of the two sacraments Christ ordained, which are generally necessary for salvation. The sign is water with the Trinitarian formula, and the grace is death to sin and new birth, through union with Christ, when baptism is rightly received. Candidates must repent and have faith. Infants are baptized as a sign that God's promise embraces them in the covenant community, and those who present them vow to raise them in the faith. The text read does not say how the water is applied or whether baptism can be repeated.",
+  "points": [
+    {
+      "question": "What is baptism?",
+      "answer": "One of the two sacraments of the Gospel ordained by Christ, which are generally necessary for our salvation.",
+      "at": "Catechism (2016 draft), Q. 104"
+    },
+    {
+      "question": "What is the sign, and what does it set forth?",
+      "answer": "The sign is water used in the name of the Father, Son and Holy Spirit. The grace set forth is death to sin and new birth to righteousness through union with Christ in his death and resurrection; in baptism rightly received, the person is made God's child by grace through faith.",
+      "at": "Catechism (2016 draft), Q. 105-106"
+    },
+    {
+      "question": "What is asked of the person baptized?",
+      "answer": "Repentance, turning from sin, and faith, turning to Jesus Christ as Savior and Lord.",
+      "at": "Catechism (2016 draft), Q. 107"
+    },
+    {
+      "question": "Are infants baptized?",
+      "answer": "Yes, as a sign of God's promise that they are embraced in the covenant community of the Church. Those who present them vow to raise them in the knowledge and fear of the Lord, expecting that they will profess the faith as their own.",
+      "at": "Catechism (2016 draft), Q. 108"
+    }
+  ],
+  "scripture": [
+    "1 Peter 3:21",
+    "Matthew 28:19",
+    "John 3:3-5",
+    "Romans 6:1-11",
+    "Galatians 3:27-29",
+    "Acts 2:38-39"
+  ],
+  "scriptureNote": "Passages the catechism cites with these questions.",
+  "document": {
+    "title": "To Be a Christian: An Anglican Catechism",
+    "section": "The Sacraments, Questions 103-109 in the text read (the published edition numbers them differently)",
+    "issuer": "Anglican Church in North America",
+    "date": "2016 draft; approved edition published 2020",
+    "url": "https://anglicanchurch.net/catechism/",
+    "edition": "The 2016 text posted on the ACNA's website (PDF). The 2020 published edition may differ in wording and numbering"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "The catechism is a recent copyrighted work, so no quotation is used.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Questions 103-109 read in the 2016 draft on 2026-11-12. The approved 2020 edition, the Book of Common Prayer 2019 baptism service, and the Articles of Religion have not been used. \"Generally necessary\" is the catechism's wording, taken from Article 25, and is matched to the \"yes, with limits\" answer as our reading. Not yet checked by a second reviewer."
+  },
+  "positions": {
+    "who": {
+      "answer": "infants-too",
+      "at": "Catechism (2016 draft), Q. 107-108"
+    },
+    "how": {
+      "answer": "not-stated"
+    },
+    "effect": {
+      "answer": "sign-and-seal",
+      "at": "Catechism (2016 draft), Q. 105-106",
+      "reading": true
+    },
+    "necessity": {
+      "answer": "needed",
+      "at": "Catechism (2016 draft), Q. 104",
+      "reading": true
+    },
+    "repeat": {
+      "answer": "not-stated"
+    }
+  },
+  "topic": "baptism",
+  "body": "acna",
+  "relatedEras": [
+    "apostolic-age",
+    "second-century"
+  ]
+}

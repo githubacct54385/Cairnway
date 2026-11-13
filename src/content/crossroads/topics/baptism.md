@@ -35,9 +35,9 @@ questions:
       - id: sign-and-seal
         short: Sign and seal
         full: It is a sign and seal of grace and new birth
-      - id: symbol
-        short: Symbol
-        full: It is a symbol of the believer's faith and obedience
+      - id: declaration
+        short: Declaration of faith
+        full: It is a public sign and declaration of the believer's faith and commitment
   - id: necessity
     label: Is it needed for salvation?
     short: Needed to be saved
@@ -48,6 +48,9 @@ questions:
       - id: not-strictly
         short: Not strictly
         full: It is not strictly necessary for salvation
+      - id: required
+        short: Required
+        full: It is required for salvation
   - id: repeat
     label: Can it be repeated?
     short: Repeated

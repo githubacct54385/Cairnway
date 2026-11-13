@@ -1,0 +1,68 @@
+{
+  "summary": "The Assemblies of God's Statement of Fundamental Truths says that baptism by immersion is commanded by the Scriptures. All who repent and believe on Christ as Savior and Lord should be baptized, so that they can declare publicly that they have died with Christ and been raised with him to walk in newness of life. The statement, in the wording read, does not address infants, whether baptism is needed for salvation, or whether it can be repeated.",
+  "points": [
+    {
+      "question": "How is it given?",
+      "answer": "By immersion, which the statement says the Scriptures command.",
+      "at": "Fundamental Truth 6, Baptism in Water"
+    },
+    {
+      "question": "Who receives it?",
+      "answer": "All who repent and believe on Christ as Savior and Lord.",
+      "at": "Fundamental Truth 6, Baptism in Water"
+    },
+    {
+      "question": "What does it mean?",
+      "answer": "A public declaration that the person has died with Christ and been raised with him to walk in newness of life.",
+      "at": "Fundamental Truth 6, Baptism in Water"
+    }
+  ],
+  "scripture": [
+    "Matthew 28:19"
+  ],
+  "scriptureNote": "The only passage in the AG lesson that reproduces the statement; the official statement lists its own references, which were not read.",
+  "document": {
+    "title": "Statement of Fundamental Truths",
+    "section": "Truth 6: The Ordinances of the Church, (a) Baptism in Water",
+    "issuer": "General Council of the Assemblies of God (USA)",
+    "date": "Adopted 1916 (from general knowledge, unchecked); baptism wording as quoted in a 2017 AG lesson",
+    "url": "https://ag.org/Beliefs/Statement-of-Fundamental-Truths",
+    "edition": "Wording read in an Assemblies of God men's ministry discipleship lesson (men.ag.org) that reproduces the statement. The ag.org page itself returned an access error and was not read"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "No rights statement found for the Statement of Fundamental Truths, so no quotation is used.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Written from the first paragraph of an AG lesson that quotes the statement, read on 2026-11-12, and a search summary of the article; the official ag.org text could not be fetched, so the exact wording and the list of references are unchecked. The AG calls baptism an ordinance rather than a sacrament; that comes from a secondary source and is not stated in the entry. \"Believers only\" is our reading, since the wording says who should be baptized and does not mention infants. Not yet checked by a second reviewer."
+  },
+  "positions": {
+    "who": {
+      "answer": "believers-only",
+      "at": "Fundamental Truth 6, Baptism in Water",
+      "reading": true
+    },
+    "how": {
+      "answer": "immersion",
+      "at": "Fundamental Truth 6, Baptism in Water"
+    },
+    "effect": {
+      "answer": "declaration",
+      "at": "Fundamental Truth 6, Baptism in Water"
+    },
+    "necessity": {
+      "answer": "not-stated"
+    },
+    "repeat": {
+      "answer": "not-stated"
+    }
+  },
+  "topic": "baptism",
+  "body": "assemblies-of-god",
+  "relatedEras": [
+    "apostolic-age",
+    "second-century"
+  ]
+}

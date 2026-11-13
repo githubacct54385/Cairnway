@@ -1,0 +1,80 @@
+{
+  "summary": "The Church of Jesus Christ of Latter-day Saints teaches, in its Gospel Topics page on baptism, that baptism is the first step toward salvation and exaltation and is required for church membership and for eternal life. It must be by full immersion, performed by someone holding priesthood authority, and it includes receiving the Holy Ghost. Baptism is for those who have reached the age of accountability, which the page says the Lord revealed to be eight. Little children are redeemed through Christ and need no baptism, and the page calls the claim that they do a denial of Christ's mercy. The page does not address whether other churches' baptisms are accepted or whether baptism can be repeated.",
+  "points": [
+    {
+      "question": "What is baptism for?",
+      "answer": "It is the first step toward salvation and exaltation, required for church membership and for eternal life. Those baptized covenant to take Christ's name, keep his commandments and serve him, and renew that covenant through the sacrament.",
+      "at": "Gospel Topics: Baptism"
+    },
+    {
+      "question": "How is it given?",
+      "answer": "By full immersion in water, symbolizing dying to sin, being reborn spiritually and resurrection, by someone who holds priesthood authority.",
+      "at": "Gospel Topics: Baptism"
+    },
+    {
+      "question": "Who receives it?",
+      "answer": "Those who have reached the age of accountability, which the page says the Lord revealed to be eight. Little children are redeemed through Christ's mercy; the page says that saying they need baptism denies his mercy and atonement.",
+      "at": "Gospel Topics: Baptism"
+    },
+    {
+      "question": "What does it give?",
+      "answer": "Faithful keepers of the baptismal covenant receive the Holy Ghost as a constant companion, forgiveness of sins and the promise of eternal life.",
+      "at": "Gospel Topics: Baptism"
+    }
+  ],
+  "scripture": [
+    "Romans 6:3-6",
+    "Mosiah 18:8-10",
+    "2 Nephi 31:19-20",
+    "Doctrine and Covenants 20:37",
+    "Doctrine and Covenants 20:73-74",
+    "Doctrine and Covenants 68:27",
+    "Moroni 8:8-9, 20-24"
+  ],
+  "scriptureNote": "Some of the passages the page cites; several come from the church's additional scripture (the Book of Mormon and the Doctrine and Covenants), not from the Bible.",
+  "document": {
+    "title": "Baptism (Gospel Topics, Topics and Questions)",
+    "section": "The page \"Baptism\"",
+    "issuer": "The Church of Jesus Christ of Latter-day Saints",
+    "date": "2023",
+    "url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/baptism?lang=eng",
+    "edition": "The church's own website, read through a summarizing tool on 2026-11-12"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "The page carries no separate rights statement; no quotation is used.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "The page was summarized by a reading tool and not read in full by a person or a second pass. It does not address whether the church accepts baptisms from other churches or baptism for the dead, both part of LDS teaching; other official sources are needed before this entry says anything on them. Matching \"gives forgiveness\" to the \"gives grace\" answer is our reading, since the page ties forgiveness to keeping the covenant. Not yet checked by a second reviewer."
+  },
+  "positions": {
+    "who": {
+      "answer": "believers-only",
+      "at": "Gospel Topics: Baptism"
+    },
+    "how": {
+      "answer": "immersion",
+      "at": "Gospel Topics: Baptism"
+    },
+    "effect": {
+      "answer": "gives-grace",
+      "at": "Gospel Topics: Baptism",
+      "reading": true
+    },
+    "necessity": {
+      "answer": "required",
+      "at": "Gospel Topics: Baptism"
+    },
+    "repeat": {
+      "answer": "not-stated"
+    }
+  },
+  "topic": "baptism",
+  "body": "lds",
+  "relatedEras": [
+    "apostolic-age",
+    "second-century"
+  ]
+}
