@@ -58,5 +58,27 @@
   "relatedEras": [
     "apostolic-age",
     "second-century"
-  ]
+  ],
+  "positions": {
+    "who": {
+      "answer": "infants-too",
+      "at": "CCC 1246, 1250, 1252"
+    },
+    "how": {
+      "answer": "not-only-immersion",
+      "at": "CCC 1239"
+    },
+    "effect": {
+      "answer": "gives-grace",
+      "at": "CCC 1213, 1263, 1265"
+    },
+    "necessity": {
+      "answer": "needed",
+      "at": "CCC 1257"
+    },
+    "repeat": {
+      "answer": "once",
+      "at": "CCC 1272"
+    }
+  }
 }

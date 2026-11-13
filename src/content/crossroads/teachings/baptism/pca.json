@@ -71,5 +71,27 @@
   "relatedEras": [
     "apostolic-age",
     "second-century"
-  ]
+  ],
+  "positions": {
+    "who": {
+      "answer": "infants-too",
+      "at": "Westminster Confession 28.4"
+    },
+    "how": {
+      "answer": "not-only-immersion",
+      "at": "Westminster Confession 28.3"
+    },
+    "effect": {
+      "answer": "sign-and-seal",
+      "at": "Westminster Confession 28.1, 28.6"
+    },
+    "necessity": {
+      "answer": "not-strictly",
+      "at": "Westminster Confession 28.5"
+    },
+    "repeat": {
+      "answer": "once",
+      "at": "Westminster Confession 28.7"
+    }
+  }
 }

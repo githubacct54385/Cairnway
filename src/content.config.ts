@@ -71,6 +71,27 @@ const topics = defineCollection({
     status: z.enum(['live', 'planned']).default('planned'),
     // Optional links to Ancient Paths eras (ids from the eras collection). Checked at build time.
     relatedEras: z.array(z.string()).default([]),
+    // The narrower questions inside the topic, each with a fixed list of possible answers. Every church entry picks
+    // one answer per question, or says the document does not address it. This is what the comparison view reads.
+    questions: z
+      .array(
+        z.object({
+          id: z.string(),
+          label: z.string(), // the full question
+          short: z.string(), // column heading
+          answers: z
+            .array(
+              z.object({
+                id: z.string(),
+                short: z.string(), // the label inside a cell; keep to about three words
+                full: z.string(), // one clear sentence, used in the grouped view
+              }),
+            )
+            .min(1)
+            .max(4),
+        }),
+      )
+      .default([]),
   }),
 });
 
@@ -114,6 +135,19 @@ const teachings = defineCollection({
     // What was and was not checked against the source. Honest and specific.
     review: z.object({ status: z.enum(['draft', 'ai-checked']), note: z.string() }),
     relatedEras: z.array(z.string()).default([]),
+    // One position per question in the topic. "not-stated" means the document used does not address it; it is
+    // never counted as disagreement. Set reading to true where choosing the answer is our interpretation of the
+    // wording rather than the document's own statement, so the page can say so.
+    positions: z
+      .record(
+        z.string(),
+        z.object({
+          answer: z.string(),
+          at: z.string().optional(),
+          reading: z.boolean().default(false),
+        }),
+      )
+      .default({}),
   }),
 });
 

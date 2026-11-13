@@ -1,0 +1,195 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  topic: CollectionEntry<'topics'>;
+  bodies: CollectionEntry<'bodies'>[];
+  entries: CollectionEntry<'teachings'>[];
+}
+
+// A comparison of the churches on one topic: a grid, the same answers grouped, and a "compare with" control.
+// Everything is rendered into the page as plain HTML, so it reads fine without JavaScript. The script only adds
+// the view switch and the compare control. The data comes from the topic's questions and each entry's positions.
+const { topic, bodies, entries } = Astro.props;
+const questions = topic.data.questions;
+const rows = bodies
+  .map((body) => ({ body, entry: entries.find((e) => e.data.body === body.id) }))
+  .filter((r): r is { body: typeof r.body; entry: NonNullable<typeof r.entry> } => !!r.entry)
+  .map(({ body, entry }) => ({
+    body,
+    cells: questions.map((q) => {
+      const pos = entry.data.positions[q.id];
+      const stated = pos.answer !== 'not-stated';
+      const index = stated ? q.answers.findIndex((a) => a.id === pos.answer) : -1;
+      return { q, stated, index, answer: stated ? q.answers[index] : undefined, reading: pos.reading, at: pos.at };
+    }),
+  }));
+const hasReading = rows.some((r) => r.cells.some((c) => c.reading));
+---
+
+{
+  questions.length > 0 && (
+    <section class="compare" data-compare aria-labelledby="compare-heading">
+      <h2 id="compare-heading">At a glance</h2>
+      <p class="meta">
+        How the churches' documents answer each question. A colour means the same answer within one column; colours do not carry
+        meaning between columns. A dashed cell means the document we used does not address the question, which is not
+        the same as disagreeing.
+      </p>
+
+      <div class="compare-tools" hidden data-tools>
+        <div class="seg" role="group" aria-label="View">
+          <button type="button" data-view="grid" aria-pressed="true">Grid</button>
+          <button type="button" data-view="groups" aria-pressed="false">Grouped by answer</button>
+        </div>
+        <label>
+          Compare with
+          <select data-compare-with>
+            <option value="">No one</option>
+            {rows.map((r) => <option value={r.body.id}>{r.body.data.name}</option>)}
+          </select>
+        </label>
+      </div>
+
+      <div data-view-grid>
+        <div class="grid-scroll">
+          <table class="compare-grid">
+            <caption class="visually-hidden">Each church's answer to each baptism question</caption>
+            <thead>
+              <tr>
+                <th scope="col"><span class="visually-hidden">Church</span></th>
+                {questions.map((q) => <th scope="col" title={q.label}>{q.short}</th>)}
+              </tr>
+            </thead>
+            <tbody>
+              {
+                rows.map((r) => (
+                  <tr data-church={r.body.id}>
+                    <th scope="row"><a href={`#${r.body.id}`}>{r.body.data.name}</a></th>
+                    {r.cells.map((c) => (
+                      <td data-q={c.q.id} data-ans={c.stated ? c.answer!.id : ''}>
+                        <a
+                          class={`chip ${c.stated ? `g${c.index}` : 'ns'}`}
+                          href={`#${r.body.id}`}
+                          title={c.stated ? `${c.answer!.full}${c.reading ? ' (our reading of the wording)' : ''}. ${c.at ?? ''}` : 'The document used does not address this.'}
+                        >
+                          {c.stated ? c.answer!.short : 'Not stated'}
+                          {c.reading && <span class="star" aria-label="our reading">*</span>}
+                        </a>
+                      </td>
+                    ))}
+                  </tr>
+                ))
+              }
+            </tbody>
+          </table>
+        </div>
+        <p class="compare-summary" data-summary aria-live="polite"></p>
+        {hasReading && <p class="meta">* Where the document does not say this in so many words, the answer is our reading of its wording. The entry shows the passage.</p>}
+      </div>
+
+      <div data-view-groups>
+        {
+          questions.map((q) => (
+            <div class="group">
+              <h3>{q.label}</h3>
+              {q.answers.map((a, i) => {
+                const names = rows.filter((r) => r.cells.find((c) => c.q.id === q.id)?.answer?.id === a.id);
+                return (
+                  names.length > 0 && (
+                    <div class="group-row">
+                      <span class={`chip g${i}`}>{a.short}</span>
+                      <p>
+                        {a.full}: {names.map((r, k) => <><a href={`#${r.body.id}`}>{r.body.data.name}</a>{k < names.length - 1 ? ', ' : ''}</>)}
+                      </p>
+                    </div>
+                  )
+                );
+              })}
+              {
+                (() => {
+                  const none = rows.filter((r) => !r.cells.find((c) => c.q.id === q.id)?.stated);
+                  return (
+                    none.length > 0 && (
+                      <div class="group-row">
+                        <span class="chip ns">Not stated</span>
+                        <p>{none.map((r) => r.body.data.name).join(', ')}</p>
+                      </div>
+                    )
+                  );
+                })()
+              }
+            </div>
+          ))
+        }
+      </div>
+    </section>
+  )
+}
+
+<script>
+  const root = document.querySelector<HTMLElement>('[data-compare]');
+  if (root) {
+    const tools = root.querySelector<HTMLElement>('[data-tools]')!;
+    const grid = root.querySelector<HTMLElement>('[data-view-grid]')!;
+    const groups = root.querySelector<HTMLElement>('[data-view-groups]')!;
+    const select = root.querySelector<HTMLSelectElement>('[data-compare-with]')!;
+    const summary = root.querySelector<HTMLElement>('[data-summary]')!;
+    const buttons = Array.from(root.querySelectorAll<HTMLButtonElement>('[data-view]'));
+    const cells = Array.from(root.querySelectorAll<HTMLTableCellElement>('td[data-q]'));
+    const names = new Map(
+      Array.from(root.querySelectorAll<HTMLTableRowElement>('tr[data-church]')).map((tr) => [
+        tr.dataset.church!,
+        tr.querySelector('th a')!.textContent!.trim(),
+      ]),
+    );
+    const answer = (church: string, q: string) =>
+      cells.find((c) => c.dataset.q === q && c.closest('tr')!.dataset.church === church)?.dataset.ans ?? '';
+    const questions = Array.from(new Set(cells.map((c) => c.dataset.q!)));
+
+    tools.hidden = false;
+    groups.hidden = true;
+
+    const show = (view: string) => {
+      grid.hidden = view !== 'grid';
+      groups.hidden = view !== 'groups';
+      buttons.forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.view === view)));
+    };
+    buttons.forEach((b) => b.addEventListener('click', () => show(b.dataset.view!)));
+
+    const compare = () => {
+      const who = select.value;
+      cells.forEach((c) => {
+        const chip = c.querySelector<HTMLElement>('.chip')!;
+        chip.classList.remove('off', 'self');
+        if (!who) return;
+        const church = c.closest('tr')!.dataset.church!;
+        const mine = answer(who, c.dataset.q!);
+        const theirs = c.dataset.ans!;
+        if (church === who) chip.classList.add('self');
+        else if (theirs && mine && theirs !== mine) chip.classList.add('off');
+      });
+      if (!who) {
+        summary.textContent = '';
+        return;
+      }
+      const parts: string[] = [];
+      names.forEach((name, church) => {
+        if (church === who) return;
+        let shared = 0;
+        let agree = 0;
+        questions.forEach((q) => {
+          const a = answer(who, q);
+          const b = answer(church, q);
+          if (a && b) {
+            shared += 1;
+            if (a === b) agree += 1;
+          }
+        });
+        parts.push(shared ? `${name}: ${agree} of ${shared} shared answers match` : `${name}: no shared answers`);
+      });
+      summary.textContent = `Compared with ${names.get(who)}, counting only questions both documents answer. ${parts.join('. ')}.`;
+    };
+    select.addEventListener('change', compare);
+  }
+</script>

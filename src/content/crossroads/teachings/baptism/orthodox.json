@@ -58,5 +58,26 @@
     "note": "Read in the azbyka.ru English text on 2026-11-12. The 1839/1840 dates come from general knowledge and have not been checked against a source. The entry does not yet use other Orthodox documents, and other Orthodox churches may state their teaching differently."
   },
   "topic": "baptism",
-  "body": "orthodox"
+  "body": "orthodox",
+  "positions": {
+    "who": {
+      "answer": "infants-too",
+      "at": "Longer Catechism, Q. 292"
+    },
+    "how": {
+      "answer": "immersion",
+      "at": "Longer Catechism, Q. 290"
+    },
+    "effect": {
+      "answer": "gives-grace",
+      "at": "Longer Catechism, Q. 288"
+    },
+    "necessity": {
+      "answer": "not-stated"
+    },
+    "repeat": {
+      "answer": "once",
+      "at": "Longer Catechism, Q. 303-304"
+    }
+  }
 }
