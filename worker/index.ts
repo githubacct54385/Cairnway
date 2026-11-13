@@ -60,6 +60,13 @@ function validate(input: Record<string, unknown>): Clean | string {
   return { section, page, about, kind, details, source, contact };
 }
 
+/**
+ * Reports sent from a preview address (staging-<worker>.<subdomain>.workers.dev, or a per-version preview such as
+ * 1a2b3c4d-<worker>...) are marked "staging" so they are easy to tell from real ones. Any other address, including the
+ * live site and a future custom domain, gets no mark, so a new domain can never be mislabelled by accident.
+ */
+const isPreviewHost = (hostname: string) => /^(staging|[0-9a-f]{8})-[a-z0-9-]+\.[^.]+\.workers\.dev$/.test(hostname);
+
 async function verifyTurnstile(secret: string, token: string, ip: string) {
   const body = new FormData();
   body.set('secret', secret);
@@ -112,7 +119,9 @@ async function handleReport(request: Request, env: Env): Promise<Response> {
   }
 
   const reference = `R-${Date.now().toString(36).toUpperCase()}`;
+  const staging = isPreviewHost(new URL(request.url).hostname);
   const body = [
+    staging ? '**Environment:** staging' : '',
     `**Page:** ${clean.page}`,
     clean.about ? `**About:** ${defuse(clean.about)}` : '',
     `**Kind:** ${clean.kind}`,
@@ -141,9 +150,9 @@ async function handleReport(request: Request, env: Env): Promise<Response> {
       'x-github-api-version': '2022-11-28',
     },
     body: JSON.stringify({
-      title: `${REPORT_SECTIONS[clean.section].name} report: ${(clean.about || clean.page).slice(0, 120)}`,
+      title: `${staging ? '[staging] ' : ''}${REPORT_SECTIONS[clean.section].name} report: ${(clean.about || clean.page).slice(0, 120)}`,
       body,
-      labels: [REPORT_SECTIONS[clean.section].label, 'from-form'],
+      labels: [REPORT_SECTIONS[clean.section].label, 'from-form', ...(staging ? ['staging'] : [])],
     }),
   });
 
@@ -156,7 +165,7 @@ async function handleReport(request: Request, env: Env): Promise<Response> {
   if (env.REPORT_CONTACTS) {
     await env.REPORT_CONTACTS.put(
       `issue:${issue.number}`,
-      JSON.stringify({ contact: clean.contact, reference, section: clean.section, page: clean.page, at: new Date().toISOString() }),
+      JSON.stringify({ contact: clean.contact, reference, section: clean.section, environment: staging ? 'staging' : 'live', page: clean.page, at: new Date().toISOString() }),
     );
   }
   return json({ ok: true, reference });
