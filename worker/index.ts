@@ -1,24 +1,12 @@
-// The site's Worker. Everything is served as static files from ./dist except POST /api/report,
-// which receives the Crossroads "report a problem" form and turns it into a GitHub issue.
+// The site's Worker. Everything is served as static files from ./dist except POST /api/report (the "report a
+// problem" forms, which become GitHub issues) and /admin/ (the private reports page, worker/admin.ts).
 // See docs/DEPLOY.md ("Report form") for the one-time setup.
 
 import { REPORT_SECTIONS, type Section } from '../src/lib/report';
+import { handleAdmin } from './admin';
+import type { ContactRecord, Env, KV } from './types';
 
-interface KV {
-  get(key: string): Promise<string | null>;
-  put(key: string, value: string, options?: { expirationTtl?: number }): Promise<void>;
-}
-
-export interface Env {
-  ASSETS: { fetch(request: Request): Promise<Response> };
-  /** owner/name of the repository that receives the issues. Set in wrangler.jsonc. */
-  GITHUB_REPO: string;
-  /** Secrets. If either is missing the endpoint refuses reports instead of failing halfway. */
-  GITHUB_TOKEN?: string;
-  TURNSTILE_SECRET?: string;
-  /** Private store for reporters' contact details (never put in the public issue). */
-  REPORT_CONTACTS?: KV;
-}
+export type { Env } from './types';
 
 const LIMITS = { details: 4000, contact: 200, page: 200, about: 200, source: 1000 };
 const PER_IP_PER_HOUR = 5;
@@ -88,7 +76,7 @@ async function overLimit(kv: KV | undefined, ip: string) {
   return false;
 }
 
-async function handleReport(request: Request, env: Env): Promise<Response> {
+async function handleReport(request: Request, env: Env, ctx: { waitUntil(p: Promise<unknown>): void }): Promise<Response> {
   if (!env.GITHUB_TOKEN || !env.TURNSTILE_SECRET) {
     return json({ ok: false, error: 'not-configured', message: 'The report form is not switched on yet.' }, 503);
   }
@@ -162,22 +150,62 @@ async function handleReport(request: Request, env: Env): Promise<Response> {
   }
 
   const issue = (await res.json()) as { number: number };
-  if (env.REPORT_CONTACTS) {
-    await env.REPORT_CONTACTS.put(
-      `issue:${issue.number}`,
-      JSON.stringify({ contact: clean.contact, reference, section: clean.section, environment: staging ? 'staging' : 'live', page: clean.page, at: new Date().toISOString() }),
-    );
-  }
+  const record: ContactRecord = {
+    contact: clean.contact,
+    reference,
+    section: clean.section,
+    environment: staging ? 'staging' : 'live',
+    page: clean.page,
+    at: new Date().toISOString(),
+    kind: clean.kind,
+    about: clean.about || undefined,
+  };
+  if (env.REPORT_CONTACTS) await env.REPORT_CONTACTS.put(`issue:${issue.number}`, JSON.stringify(record));
+  // Best effort: a failing mail provider must never fail a report that is already filed.
+  ctx.waitUntil(notifyMaintainer(env, issue.number, record).catch((e) => console.error('Notification failed', String(e))));
   return json({ ok: true, reference });
 }
 
+const oneLine = (s: string) => s.replace(/[\r\n]+/g, ' ');
+
+/** Emails the maintainer the reporter's contact (which is never put in the public issue). Needs RESEND_API_KEY and NOTIFY_EMAIL. */
+async function notifyMaintainer(env: Env, number: number, r: ContactRecord) {
+  if (!env.RESEND_API_KEY || !env.NOTIFY_EMAIL) return;
+  const cfg = REPORT_SECTIONS[r.section === 'history' ? 'history' : 'crossroads'];
+  const tag = r.environment === 'staging' ? '[staging] ' : '';
+  const res = await fetch('https://api.resend.com/emails', {
+    method: 'POST',
+    headers: { authorization: `Bearer ${env.RESEND_API_KEY}`, 'content-type': 'application/json' },
+    body: JSON.stringify({
+      from: 'Cairnway reports <onboarding@resend.dev>',
+      to: [env.NOTIFY_EMAIL],
+      ...(isEmail(r.contact) ? { reply_to: r.contact } : {}),
+      subject: oneLine(`${tag}New ${cfg.name} report #${number}: ${r.about || r.page}`).slice(0, 200),
+      text: [
+        `Issue: https://github.com/${env.GITHUB_REPO}/issues/${number}`,
+        `Reference: ${r.reference}`,
+        `Environment: ${r.environment}`,
+        `Page: ${r.page}`,
+        r.kind ? `Kind: ${r.kind}` : '',
+        '',
+        `Reporter's contact: ${r.contact}`,
+        isEmail(r.contact) ? '(Reply to this email to write to them.)' : '(They gave a GitHub username, so there is no email to reply to.)',
+      ]
+        .filter((l, i, a) => l !== '' || a[i - 1] !== '')
+        .join('\n'),
+    }),
+  });
+  if (!res.ok) throw new Error(`Resend answered ${res.status}`);
+}
+
 export default {
-  async fetch(request: Request, env: Env): Promise<Response> {
+  async fetch(request: Request, env: Env, ctx: { waitUntil(p: Promise<unknown>): void }): Promise<Response> {
     const { pathname } = new URL(request.url);
     if (pathname === '/api/report') {
       if (request.method !== 'POST') return json({ ok: false, error: 'method', message: 'Use POST.' }, 405);
-      return handleReport(request, env);
+      return handleReport(request, env, ctx);
     }
+    if (pathname === '/admin' || pathname.startsWith('/admin/')) return handleAdmin(request, env);
     return env.ASSETS.fetch(request);
   },
 };

@@ -4,3 +4,4 @@ User-agent: *
 Allow: /
 Disallow: /history/review/
 Disallow: /review/
+Disallow: /admin/
