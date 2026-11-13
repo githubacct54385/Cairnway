@@ -115,14 +115,54 @@ async function loadReports(env: Env) {
   return rows.filter((r): r is { number: string; rec: ContactRecord } => r !== null).sort((a, b) => (b.rec.at ?? '').localeCompare(a.rec.at ?? ''));
 }
 
-async function reportsPage(env: Env) {
+type IssueState = 'open' | 'closed';
+
+/**
+ * Asks GitHub which of the form's issues are open or closed (one to five requests, 100 issues each).
+ * Returns null if GitHub cannot be reached, so the page can still list everything.
+ */
+async function loadIssueStates(env: Env): Promise<Map<string, IssueState> | null> {
+  if (!env.GITHUB_TOKEN) return null;
+  const states = new Map<string, IssueState>();
+  try {
+    for (let pageNo = 1; pageNo <= 5; pageNo++) {
+      const res = await fetch(`https://api.github.com/repos/${env.GITHUB_REPO}/issues?state=all&labels=from-form&per_page=100&page=${pageNo}`, {
+        headers: {
+          authorization: `Bearer ${env.GITHUB_TOKEN}`,
+          accept: 'application/vnd.github+json',
+          'user-agent': 'crossroads-report-form',
+          'x-github-api-version': '2022-11-28',
+        },
+      });
+      if (!res.ok) return null;
+      const batch = (await res.json()) as { number: number; state: string }[];
+      for (const i of batch) states.set(String(i.number), i.state === 'closed' ? 'closed' : 'open');
+      if (batch.length < 100) break;
+    }
+  } catch {
+    return null;
+  }
+  return states;
+}
+
+type Show = 'open' | 'closed' | 'all';
+
+async function reportsPage(env: Env, show: Show) {
   if (!env.REPORT_CONTACTS) return html(page('Reports', '<h1>Reports</h1><p>The private store is not set up.</p>'), 503);
-  const reports = await loadReports(env);
+  const [all, states] = await Promise.all([loadReports(env), loadIssueStates(env)]);
+  // An issue GitHub does not list (deleted, or its label was removed) counts as "unknown" and shows in the default view,
+  // so nothing disappears silently. If GitHub cannot be reached, every report is shown.
+  const stateOf = (n: string): IssueState | 'unknown' => states?.get(n) ?? 'unknown';
+  const count = (w: Show) => (w === 'all' ? all.length : all.filter((r) => (w === 'closed' ? stateOf(r.number) === 'closed' : stateOf(r.number) !== 'closed')).length);
+  const reports = states && show !== 'all' ? all.filter((r) => (show === 'closed' ? stateOf(r.number) === 'closed' : stateOf(r.number) !== 'closed')) : all;
+  const tab = (w: Show, label: string) => (w === show ? `<strong>${label} (${count(w)})</strong>` : `<a href="/admin/?show=${w}">${label} (${count(w)})</a>`);
   const items = reports
     .map(({ number, rec }) => {
+      const st = stateOf(number);
+      const stateTag = st === 'closed' ? '<span class="tag">closed</span>' : st === 'unknown' ? '<span class="tag">status unknown</span>' : '';
       const env_ = rec.environment === 'staging' ? '<span class="tag">staging</span>' : '';
       return `<div class="row"><h2><a href="https://github.com/${esc(env.GITHUB_REPO)}/issues/${esc(number)}" rel="noreferrer">#${esc(number)}</a>
- ${esc(rec.about || rec.page)}${env_}</h2>
+ ${esc(rec.about || rec.page)}${stateTag}${env_}</h2>
 <div class="muted">${esc(rec.at?.replace('T', ' ').slice(0, 16))} UTC · ${esc(rec.section)} · ${esc(rec.reference)}${rec.kind ? ` · ${esc(rec.kind)}` : ''}</div>
 <div>Contact: ${contactLink(rec.contact)}</div>
 <div class="muted">Page: ${esc(rec.page)}</div></div>`;
@@ -131,8 +171,10 @@ async function reportsPage(env: Env) {
   return html(
     page(
       'Reports',
-      `<h1>Reports</h1><p class="muted">${reports.length} report${reports.length === 1 ? '' : 's'}, newest first. Contacts are private: they are never in the GitHub issue.</p>
-${items || '<p>No reports yet.</p>'}
+      `<h1>Reports</h1>
+<p>${tab('open', 'Open')} · ${tab('closed', 'Closed')} · ${tab('all', 'All')}</p>
+<p class="muted">Newest first. Contacts are private: they are never in the GitHub issue.${states ? '' : ' GitHub could not be reached, so every report is shown and open or closed is not known.'}</p>
+${items || `<p>${show === 'closed' ? 'No closed reports.' : show === 'open' ? 'No open reports.' : 'No reports yet.'}</p>`}
 <form method="post" action="/admin/logout"><p><button>Sign out</button></p></form>`,
     ),
   );
@@ -162,7 +204,9 @@ export async function handleAdmin(request: Request, env: Env): Promise<Response>
   }
 
   if ((url.pathname === '/admin' || url.pathname === '/admin/') && request.method === 'GET') {
-    return (await isSignedIn(request, passcode)) ? reportsPage(env) : html(loginForm());
+    const q = url.searchParams.get('show');
+    const show: Show = q === 'closed' || q === 'all' ? q : 'open';
+    return (await isSignedIn(request, passcode)) ? reportsPage(env, show) : html(loginForm());
   }
   return new Response('Not found', { status: 404, headers: { 'cache-control': 'no-store' } });
 }
