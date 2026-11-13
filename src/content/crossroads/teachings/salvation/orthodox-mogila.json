@@ -1,0 +1,67 @@
+{
+  "topic": "salvation",
+  "body": "orthodox",
+  "summary": "The Orthodox Confession of Peter Mogila teaches that a Christian must have right faith and good works to have eternal life; it quotes James that a man is justified by works and not by faith only, and that faith without works is dead. On predestination it distinguishes God's foreknowledge from his predestination: predestination follows foreknowledge and always determines good, never evil, since that would be contrary to God's goodness. The questions read do not say whether believers can fall away.",
+  "points": [
+    {
+      "question": "How is a person made right with God?",
+      "answer": "Right faith and good works together: whoever holds both has a certain hope of eternal salvation. Citing James 2:24, the confession says a man is justified by good works and not by faith only, and that faith without works is dead.",
+      "at": "Orthodox Confession, Q. 1"
+    },
+    {
+      "question": "Did God choose who would be saved?",
+      "answer": "Foreknowledge, predestination and providence differ in meaning. Predestination, joined with foreknowledge, determines only good and not evil, since appointing evil would be contrary to God's goodness; the order is foreknowledge, then predestination, then providence.",
+      "at": "Orthodox Confession, Q. 30"
+    }
+  ],
+  "positions": {
+    "justification": {
+      "answer": "cooperation",
+      "at": "Orthodox Confession, Q. 1"
+    },
+    "election": {
+      "answer": "open-to-all",
+      "at": "Orthodox Confession, Q. 30",
+      "reading": true
+    },
+    "perseverance": {
+      "answer": "not-stated"
+    }
+  },
+  "scripture": [
+    "James 2:24",
+    "James 2:26",
+    "1 Timothy 1:19",
+    "Romans 8:29"
+  ],
+  "scriptureNote": "Passages the confession cites in the answers read.",
+  "document": {
+    "title": "The Orthodox Confession of the Catholic and Apostolic Eastern Church",
+    "section": "Part I, Question 1 (faith and good works) and the question on foreknowledge, predestination and providence (Question 30 in the edition read)",
+    "issuer": "The Orthodox Church (drafted by Metropolitan Peter Mogila of Kiev; endorsed by the Eastern patriarchs)",
+    "date": "1640s; endorsed by the Eastern patriarchs in 1643 (from general knowledge, unchecked)",
+    "url": "https://azbyka.ru/otechnik/world/the-orthodox-confession-of-the-catholic-and-apostolic-eastern-church",
+    "edition": "English translation attributed to Philip Lodvel (1772), as printed in the 1898 London edition on azbyka.ru"
+  },
+  "rights": {
+    "status": "public-domain",
+    "note": "The confession is from the 1640s and the English translation from 1772, so only one short sentence is quoted. The web copy's own rights are not separately confirmed.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Question 1 and the opening of the question on foreknowledge and predestination read on 2026-11-12 in the azbyka.ru English text; the rest of that answer and the questions on grace and free will were not read. Matching the predestination answer to \"offered to all\" is our reading: the confession ties predestination to foreknowledge and rules out predestining to evil, but the part read does not say it is based on foreseen response. Date and endorsement are from general knowledge. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "reformation",
+    "late-medieval-church"
+  ],
+  "excerpt": {
+    "text": "By good Works a Man is justified, and not by Faith only.",
+    "at": "Orthodox Confession, Q. 1"
+  },
+  "voice": {
+    "label": "Orthodox Confession (Peter Mogila)",
+    "tier": "synodical-confession"
+  }
+}

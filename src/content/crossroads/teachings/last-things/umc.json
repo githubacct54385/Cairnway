@@ -1,0 +1,57 @@
+{
+  "topic": "last-things",
+  "body": "umc",
+  "summary": "The United Methodist Church's Articles of Religion teach that Christ truly rose from the dead, ascended into heaven, and sits there until he returns to judge all men at the last day. Article XIV calls the Romish doctrine concerning purgatory, pardon, worshiping and adoration of images and relics, and invocation of saints, a fond thing, vainly invented and grounded on no warrant of Scripture but repugnant to the Word of God. The Articles do not describe the final state of the wicked.",
+  "points": [
+    {
+      "question": "Is there a purification after death?",
+      "answer": "The Romish doctrine concerning purgatory is a fond thing, vainly invented, grounded on no warrant of Scripture but repugnant to the Word of God.",
+      "at": "Article XIV"
+    },
+    {
+      "question": "What happens when Christ returns?",
+      "answer": "Christ sits in heaven until he returns to judge all men at the last day.",
+      "at": "Article III"
+    }
+  ],
+  "positions": {
+    "purgatory": {
+      "answer": "no-purgatory",
+      "at": "Article XIV"
+    },
+    "final": {
+      "answer": "not-stated"
+    },
+    "return": {
+      "answer": "return-and-judgment",
+      "at": "Article III"
+    }
+  },
+  "scripture": [],
+  "scriptureNote": "The Articles of Religion do not print scripture references.",
+  "document": {
+    "title": "The Articles of Religion of the Methodist Church",
+    "section": "Articles III (Of the Resurrection of Christ) and XIV (Of Purgatory)",
+    "issuer": "United Methodist Church",
+    "date": "1784 (John Wesley's revision of the Church of England's articles)",
+    "url": "https://www.umc.org/en/content/articles-of-religion",
+    "edition": "Text on umc.org, read 2026-11-12"
+  },
+  "rights": {
+    "status": "public-domain",
+    "note": "The article dates from 1784 and is long out of copyright. The UMC Book of Discipline as a whole is copyrighted and is not used.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Articles III and XIV read on umc.org on 2026-11-12. The UMC's Confession of Faith, which says more on resurrection and judgment, was not used. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "apostolic-age",
+    "reformation"
+  ],
+  "excerpt": {
+    "text": "Christ sits in heaven until he return to judge all men at the last day.",
+    "at": "Article III"
+  }
+}

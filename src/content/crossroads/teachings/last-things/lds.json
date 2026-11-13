@@ -1,0 +1,58 @@
+{
+  "topic": "last-things",
+  "body": "lds",
+  "summary": "The Church of Jesus Christ of Latter-day Saints teaches that after death the spirit lives on, with the righteous in spirit paradise, that all people will be resurrected, and that God will judge according to desires and obedience. Its Kingdoms of Glory page says people receive a kingdom of glory, celestial, terrestrial or telestial, according to how fully they convert to Christ; those who rejected the gospel receive telestial glory after release from spirit prison, and only sons of perdition, who knew God's power and rejected it, inherit no kingdom. The Articles of Faith say Christ will personally reign on the earth. The page treats \"spirit prison\", sometimes called hell, as temporary for most.",
+  "points": [
+    {
+      "question": "What is the final state of the wicked?",
+      "answer": "Most people inherit some kingdom of glory; those who rejected the gospel inherit the telestial kingdom after release from spirit prison, and only sons of perdition inherit no kingdom of glory.",
+      "at": "Gospel Topics: Kingdoms of Glory"
+    },
+    {
+      "question": "What happens when Christ returns?",
+      "answer": "All will be resurrected and judged according to their desires and obedience; the Articles of Faith say Christ will personally reign on the earth.",
+      "at": "Gospel Topics: Plan of Salvation; Article of Faith 10"
+    }
+  ],
+  "positions": {
+    "purgatory": {
+      "answer": "not-stated"
+    },
+    "final": {
+      "answer": "degrees-of-glory",
+      "at": "Gospel Topics: Kingdoms of Glory"
+    },
+    "return": {
+      "answer": "millennial-reign",
+      "at": "Article of Faith 10",
+      "reading": true
+    }
+  },
+  "scripture": [
+    "Doctrine and Covenants 76",
+    "Alma 40:12",
+    "1 Corinthians 15:20-22"
+  ],
+  "scriptureNote": "Some of the passages the pages cite, from the church's additional scripture.",
+  "document": {
+    "title": "Plan of Salvation, Kingdoms of Glory and the Articles of Faith",
+    "section": "Gospel Topics: Plan of Salvation; Kingdoms of Glory; Article of Faith 10",
+    "issuer": "The Church of Jesus Christ of Latter-day Saints",
+    "date": "2023",
+    "url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/kingdoms-of-glory?lang=eng",
+    "edition": "The church's own website, read through a summarizing tool on 2026-11-12"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "The page carries no separate rights statement; no quotation is used.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "The Plan of Salvation and Kingdoms of Glory pages and Article of Faith 10 were summarized by a reading tool on 2026-11-12 and not read in full by a person or a second pass. The \"thousand-year reign\" answer is our reading: Article 10 says Christ will personally reign on the earth, and the page's own mention of a Millennium was not seen. The temporary spirit prison is not a purgatory in the Catholic sense and is left as \"not stated\" for that question. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "apostolic-age",
+    "reformation"
+  ]
+}

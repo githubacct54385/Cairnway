@@ -1,0 +1,57 @@
+{
+  "topic": "last-things",
+  "body": "sbc",
+  "summary": "The Southern Baptist Convention's Baptist Faith and Message (2000) teaches that God will bring the world to its end in his own time and way, that Jesus Christ will return personally and visibly in glory, and that the dead will be raised and judged in righteousness. The unrighteous will be consigned to hell, the place of everlasting punishment, while the righteous will receive resurrected, glorified bodies and dwell forever with the Lord in heaven. The article does not mention a millennium or purgatory.",
+  "points": [
+    {
+      "question": "What is the final state of the wicked?",
+      "answer": "The unrighteous will be consigned to hell, the place of everlasting punishment.",
+      "at": "Article X"
+    },
+    {
+      "question": "What happens when Christ returns?",
+      "answer": "Jesus Christ will return personally and visibly in glory, the dead will be raised, and Christ will judge all people in righteousness.",
+      "at": "Article X"
+    }
+  ],
+  "positions": {
+    "purgatory": {
+      "answer": "not-stated"
+    },
+    "final": {
+      "answer": "eternal-punishment",
+      "at": "Article X"
+    },
+    "return": {
+      "answer": "return-and-judgment",
+      "at": "Article X"
+    }
+  },
+  "scripture": [
+    "Matthew 25:31-46",
+    "1 Thessalonians 4:14-18",
+    "Revelation 20:1-22:13"
+  ],
+  "scriptureNote": "A selection of the passages listed with Article X.",
+  "document": {
+    "title": "The Baptist Faith and Message 2000",
+    "section": "Article X: Last Things",
+    "issuer": "Southern Baptist Convention",
+    "date": "2000",
+    "url": "https://bfm.sbc.net/bfm2000/",
+    "edition": "The SBC's own site"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "The SBC site carries a copyright notice and no stated reuse permission, so no quotation is used.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Article X was summarized by a reading tool on 2026-11-12 and not read in full by a person or a second pass. Baptist churches govern themselves, so this speaks for the SBC only. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "apostolic-age",
+    "reformation"
+  ]
+}

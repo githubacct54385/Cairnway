@@ -1,0 +1,63 @@
+{
+  "topic": "church-ministry",
+  "body": "pca",
+  "summary": "The Westminster Confession, which the Presbyterian Church in America holds as a doctrinal standard, teaches that the visible church, catholic or universal, consists of all those throughout the world who profess the true religion and their children, and that outside it there is no ordinary possibility of salvation. The Lord Jesus is the only head of the Church. Christ has appointed a government in the hands of church officers, and for its government there should be synods or councils, which may err and are not to be made the rule of faith. The chapters read do not say who may be ordained.",
+  "points": [
+    {
+      "question": "How is the church governed?",
+      "answer": "Christ has appointed a government in the hand of church officers, distinct from the civil magistrate, and synods or councils of the overseers and rulers of the particular churches help govern it; all synods and councils may err and are not the rule of faith.",
+      "at": "Westminster Confession 30.1, 31.1, 31.3"
+    },
+    {
+      "question": "Where is the true church?",
+      "answer": "The visible catholic church consists of all those throughout the world who profess the true religion and their children. Particular churches are more or less pure as the gospel is taught and the ordinances administered.",
+      "at": "Westminster Confession 25.2, 25.4"
+    },
+    {
+      "question": "Who is the head?",
+      "answer": "Only the Lord Jesus Christ; the Pope of Rome cannot in any sense be head of the church.",
+      "at": "Westminster Confession 25.6"
+    }
+  ],
+  "positions": {
+    "governance": {
+      "answer": "elders",
+      "at": "Westminster Confession 30-31",
+      "reading": true
+    },
+    "ordination": {
+      "answer": "not-stated"
+    },
+    "truechurch": {
+      "answer": "gospel-and-sacraments",
+      "at": "Westminster Confession 25.2, 25.4",
+      "reading": true
+    }
+  },
+  "scripture": [
+    "Ephesians 1:22-23",
+    "Matthew 16:19"
+  ],
+  "scriptureNote": "Passages commonly cited with these chapters; the proof texts were not read for this entry.",
+  "document": {
+    "title": "The Westminster Confession of Faith",
+    "section": "Chapter 25: Of the Church; Chapters 30-31: Of Church Censures and of Synods and Councils",
+    "issuer": "Presbyterian Church in America (holds the Westminster Standards); text of the Westminster Assembly",
+    "date": "1646 (Assembly); adopted by the PCA on its founding in 1973",
+    "url": "https://www.opc.org/wcf.html",
+    "edition": "Text read on The-Highway site; the PCA's own copy has not been compared"
+  },
+  "rights": {
+    "status": "public-domain",
+    "note": "The Confession's wording dates from 1646. The edition read is a modern-spelling web copy; its rights are not separately confirmed, so only one sentence is quoted.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Chapters 25 (sections 2, 4 and 6), 30 (section 1) and 31 (sections 1 and 3) read in one web copy (the-highway.com) on 2026-11-12. \"Elders and synods\" and \"gospel and sacraments\" are our reading: the Confession speaks of church officers and synods without naming elders, and describes the visible church as those who profess the true religion rather than by the marks. The PCA's Book of Church Order, which sets out its form of government, was not used. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "apostolic-age",
+    "second-century"
+  ]
+}

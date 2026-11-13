@@ -1,0 +1,64 @@
+{
+  "topic": "scripture-authority",
+  "body": "lds",
+  "summary": "The Church of Jesus Christ of Latter-day Saints teaches that its official scriptures, the standard works, are the Bible, the Book of Mormon, the Doctrine and Covenants and the Pearl of Great Price. The words of prophets and apostles, when they speak or write under the Holy Ghost, are considered scripture. The Articles of Faith say the Bible is the word of God as far as it is translated correctly, that the Book of Mormon is also the word of God, and that God has revealed and will yet reveal great and important things.",
+  "points": [
+    {
+      "question": "What is Scripture's authority?",
+      "answer": "The standard works are the Bible, Book of Mormon, Doctrine and Covenants and Pearl of Great Price. The Bible is the word of God as far as it is translated correctly; the Book of Mormon is also the word of God, and God continues to reveal truth.",
+      "at": "Gospel Topics: Scriptures; Articles of Faith 8-9"
+    },
+    {
+      "question": "Who interprets it?",
+      "answer": "The words of prophets and apostles, when spoken or written under the Holy Ghost, are considered scripture. Members are encouraged to apply scripture to their own lives and to study it daily.",
+      "at": "Gospel Topics: Scriptures"
+    },
+    {
+      "question": "Which books?",
+      "answer": "The Bible, the Book of Mormon, the Doctrine and Covenants and the Pearl of Great Price.",
+      "at": "Gospel Topics: Scriptures"
+    }
+  ],
+  "positions": {
+    "authority": {
+      "answer": "scripture-and-more",
+      "at": "Gospel Topics: Scriptures; Articles of Faith 8-9"
+    },
+    "interpreter": {
+      "answer": "church-teaching",
+      "at": "Gospel Topics: Scriptures",
+      "reading": true
+    },
+    "canon": {
+      "answer": "additional",
+      "at": "Gospel Topics: Scriptures"
+    }
+  },
+  "scripture": [
+    "Moroni 10:3-5",
+    "2 Nephi 32:3",
+    "Doctrine and Covenants 68:4"
+  ],
+  "scriptureNote": "Some of the passages the page cites, several from the church's additional scripture.",
+  "document": {
+    "title": "Scriptures (Gospel Topics) and the Articles of Faith",
+    "section": "Gospel Topics: Scriptures; Articles of Faith 8 and 9",
+    "issuer": "The Church of Jesus Christ of Latter-day Saints",
+    "date": "2023",
+    "url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/scriptures?lang=eng",
+    "edition": "The church's own website, read through a summarizing tool on 2026-11-12"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "The page carries no separate rights statement; no quotation is used.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "The Scriptures page and the Articles of Faith (items 5-11) were summarized by a reading tool on 2026-11-12 and not read in full by a person or a second pass. The Scriptures page does not use the phrase \"as far as it is translated correctly\"; that comes from Article of Faith 8. \"The church's authority\" is our reading: the page says prophets' words are scripture but does not frame it as interpretation. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "reformation",
+    "second-century"
+  ]
+}

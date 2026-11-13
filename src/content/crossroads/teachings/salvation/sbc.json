@@ -1,0 +1,63 @@
+{
+  "topic": "salvation",
+  "body": "sbc",
+  "summary": "The Southern Baptist Convention's Baptist Faith and Message (2000) teaches that salvation redeems the whole person and is offered freely to all who accept Jesus Christ as Lord and Savior; there is no salvation apart from personal faith in him. It includes regeneration, justification, sanctification and glorification. Justification is God's gracious and full pardon of repentant sinners who believe in Christ, bringing them into a state of peace and favor with him. Election is God's gracious purpose by which he regenerates, justifies, sanctifies and glorifies sinners, consistent with human free agency. True believers cannot fall away from the state of grace; they will persevere to the end, though they may fall through neglect and temptation and so grieve the Spirit.",
+  "points": [
+    {
+      "question": "How is a person made right with God?",
+      "answer": "Salvation is offered freely to all who accept Jesus Christ as Lord and Savior, with repentance and faith inseparable. Justification is God's gracious pardon of repentant sinners who believe, bringing them into peace and favor with him.",
+      "at": "Article IV"
+    },
+    {
+      "question": "What is election?",
+      "answer": "God's gracious purpose by which he regenerates, justifies, sanctifies and glorifies sinners, consistent with human free agency, and expressing his sovereign goodness. The article does not say whether election rests on foreseen response.",
+      "at": "Article V"
+    },
+    {
+      "question": "Can salvation be lost?",
+      "answer": "No. True believers cannot fall away from the state of grace but will persevere to the end; they can fall through neglect and temptation, which grieves the Spirit and brings discipline, yet they are kept by God's power.",
+      "at": "Article V"
+    }
+  ],
+  "positions": {
+    "justification": {
+      "answer": "grace-through-faith",
+      "at": "Article IV"
+    },
+    "election": {
+      "answer": "not-stated"
+    },
+    "perseverance": {
+      "answer": "cannot-fall",
+      "at": "Article V"
+    }
+  },
+  "scripture": [
+    "Ephesians 2:8-22",
+    "Romans 8:29-39",
+    "John 10:28-29",
+    "1 Peter 1:2-5"
+  ],
+  "scriptureNote": "A selection of the passages listed with Articles IV and V.",
+  "document": {
+    "title": "The Baptist Faith and Message 2000",
+    "section": "Articles III (The Fall and Human Ability), IV (Salvation) and V (God's Purpose of Grace)",
+    "issuer": "Southern Baptist Convention",
+    "date": "2000",
+    "url": "https://bfm.sbc.net/bfm2000/",
+    "edition": "The SBC's own site"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "The SBC site carries a copyright notice and no stated reuse permission, so no quotation is used.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Articles III-V were summarized by a reading tool on 2026-11-12 and not read in full by a person or a second pass. The election answer is left \"not stated\": the article affirms election consistent with free agency but does not choose between the answers on offer. Baptist churches govern themselves, so this speaks for the SBC only. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "reformation",
+    "late-medieval-church"
+  ]
+}

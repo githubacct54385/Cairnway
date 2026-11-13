@@ -1,0 +1,58 @@
+{
+  "topic": "last-things",
+  "body": "rca",
+  "summary": "The Heidelberg Catechism, which the Reformed Church in America holds as one of its standards, says the comfort of Christ's return to judge is that believers will look for the very person who offered himself for them to come as judge from heaven and cast his and their enemies into everlasting condemnation. It says that after this life the believer's soul is immediately taken up to Christ, and that the body will be raised and reunited with the soul, made like Christ's glorious body. Believers will inherit perfect salvation and praise God forever. The questions read do not describe the state of the wicked.",
+  "points": [
+    {
+      "question": "Is there a purification after death?",
+      "answer": "After this life the believer's soul is immediately taken up to Christ its head; the catechism describes no purification.",
+      "at": "Heidelberg Catechism, Q. 57"
+    },
+    {
+      "question": "What happens when Christ returns?",
+      "answer": "Christ comes again from heaven as judge, casting his and the believer's enemies into everlasting condemnation, and the body is raised and reunited with the soul.",
+      "at": "Heidelberg Catechism, Q. 52, 57"
+    }
+  ],
+  "positions": {
+    "purgatory": {
+      "answer": "no-purgatory",
+      "at": "Heidelberg Catechism, Q. 57",
+      "reading": true
+    },
+    "final": {
+      "answer": "not-stated"
+    },
+    "return": {
+      "answer": "return-and-judgment",
+      "at": "Heidelberg Catechism, Q. 52, 57"
+    }
+  },
+  "scripture": [
+    "Luke 16:22",
+    "Luke 23:43",
+    "Philippians 1:21,23"
+  ],
+  "scriptureNote": "A selection of the references printed with these questions.",
+  "document": {
+    "title": "The Heidelberg Catechism",
+    "section": "Questions 52 (Christ will come again to judge), 57 (the resurrection of the body) and 58 (life everlasting)",
+    "issuer": "Reformed Church in America (holds the Heidelberg Catechism as a standard)",
+    "date": "1563; one of the RCA's doctrinal standards",
+    "url": "https://www.ccel.org/creeds/heidelberg-cat.html",
+    "edition": "English text on the Christian Classics Ethereal Library; the translator is not named on the page. The RCA's own copy has not been compared"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "The catechism is from 1563, but the English translation and edition are not confirmed, so no quotation is used.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Questions 52, 57 and 58 read on 2026-11-12 in the CCEL text. \"No purgatory\" is our reading: the catechism says the soul is taken up to Christ immediately but does not discuss purgatory. The Belgic Confession's Article 37 on the Last Judgment was seen only as a title, so the final-state cell is \"not stated\". The RCA's own copy was not compared. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "apostolic-age",
+    "reformation"
+  ]
+}

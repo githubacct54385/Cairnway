@@ -1,0 +1,59 @@
+{
+  "topic": "church-ministry",
+  "body": "catholic",
+  "summary": "The Catholic Church teaches that the sole Church of Christ subsists in the Catholic Church, governed by the successor of Peter and the bishops in communion with him. The Pope has full, supreme and universal power over the whole Church, and the college of bishops has authority only when united with him. Holy Orders is the sacrament of apostolic ministry in three degrees, episcopate, presbyterate and diaconate, conferred by bishops in apostolic succession. Only a baptized man validly receives ordination, because Jesus chose men for the twelve apostles.",
+  "points": [
+    {
+      "question": "How is the church governed?",
+      "answer": "By the Pope, Peter's successor, and the college of bishops united with him. Holy Orders has three degrees, bishop, priest and deacon, and bishops in apostolic succession confer them.",
+      "at": "CCC 880-883, 1536, 1576"
+    },
+    {
+      "question": "Who may be ordained?",
+      "answer": "Only a baptized man, since Jesus chose men for the twelve apostles and the apostles chose men as their successors.",
+      "at": "CCC 1577"
+    },
+    {
+      "question": "Where is the true church?",
+      "answer": "The sole Church of Christ subsists in the Catholic Church, governed by Peter's successor and the bishops in communion with him; in her subsists the fullness of Christ's body.",
+      "at": "CCC 816, 830"
+    }
+  ],
+  "positions": {
+    "governance": {
+      "answer": "bishops",
+      "at": "CCC 880-883, 1536"
+    },
+    "ordination": {
+      "answer": "men-only",
+      "at": "CCC 1577"
+    },
+    "truechurch": {
+      "answer": "one-communion",
+      "at": "CCC 816"
+    }
+  },
+  "scripture": [],
+  "scriptureNote": "Passages the document cites.",
+  "document": {
+    "title": "Catechism of the Catholic Church",
+    "section": "Paragraphs 816 and 830 (the one Church), 880-883 (the college of bishops and the Pope), 1536 and 1576-1577 (Holy Orders)",
+    "issuer": "Catholic Church (Holy See)",
+    "date": "1992; typical edition 1997",
+    "url": "https://www.vatican.va/archive/ENG0015/__P3G.HTM",
+    "edition": "English text on the Holy See's website (IntraText edition)"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "The Catechism is published by the Holy See with copyright reserved. No quotation is used until permission for the specific edition is confirmed.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Paragraphs 816, 830, 880-883, 1536, 1576 and 1577 read in the Holy See's English text on 2026-11-12. The rest of the sections on the Church and Holy Orders (including the Catechism's statements on other Christian communities) was not used. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "apostolic-age",
+    "second-century"
+  ]
+}

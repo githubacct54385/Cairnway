@@ -1,0 +1,52 @@
+{
+  "topic": "scripture-authority",
+  "body": "assemblies-of-god",
+  "summary": "The Assemblies of God's Statement of Fundamental Truths says the Scriptures, both the Old and New Testaments, are verbally inspired of God and are the revelation of God to man, the infallible, authoritative rule of faith and conduct. The truth does not name the books or say who interprets Scripture.",
+  "points": [
+    {
+      "question": "What is Scripture's authority?",
+      "answer": "The Scriptures of the Old and New Testaments are verbally inspired of God and are the infallible, authoritative rule of faith and conduct.",
+      "at": "Fundamental Truth 1"
+    }
+  ],
+  "positions": {
+    "authority": {
+      "answer": "scripture-alone",
+      "at": "Fundamental Truth 1",
+      "reading": true
+    },
+    "interpreter": {
+      "answer": "not-stated"
+    },
+    "canon": {
+      "answer": "not-stated"
+    }
+  },
+  "scripture": [
+    "2 Timothy 3:15-17",
+    "1 Thessalonians 2:13",
+    "2 Peter 1:21"
+  ],
+  "scriptureNote": "The references printed with Truth 1.",
+  "document": {
+    "title": "Statement of Fundamental Truths",
+    "section": "Truth 1: The Scriptures Inspired",
+    "issuer": "General Council of the Assemblies of God (USA)",
+    "date": "Adopted 1916 (from general knowledge, unchecked); baptism wording as quoted in a 2017 AG lesson",
+    "url": "https://ag.org/Beliefs/Statement-of-Fundamental-Truths",
+    "edition": "Text of the Statement of Fundamental Truths on the creeds.net website (a PDF copy of the Assemblies of God's statement); the ag.org page returned an access error and was not read"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "No rights statement found for the Statement of Fundamental Truths, so no quotation is used.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Truth 1 read in the creeds.net copy of the statement on 2026-11-12; that copy's date and its match to the current official wording are unchecked. \"Scripture alone\" is our reading: the statement calls Scripture the infallible, authoritative rule but does not compare it with tradition. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "reformation",
+    "second-century"
+  ]
+}

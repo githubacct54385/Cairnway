@@ -1,0 +1,69 @@
+{
+  "topic": "salvation",
+  "body": "lcms",
+  "summary": "The Augsburg Confession, which the Lutheran Church-Missouri Synod holds, teaches that people cannot be justified before God by their own strength, merits or works, but are freely justified for Christ's sake through faith when they believe they are received into favor and their sins forgiven. This faith God counts as righteousness. Faith must bring forth good fruits, and good works are necessary because God commands them, but they are not relied on to merit justification. The will has some liberty in civil matters but no power without the Holy Ghost to work spiritual righteousness. The Formula of Concord teaches that God's election extends only over the godly, is the cause of their salvation, and is found in Christ; God is in earnest that all come to him, and no one is elected to damnation. The Confession condemns those who deny that people once justified can lose the Holy Ghost.",
+  "points": [
+    {
+      "question": "How is a person justified?",
+      "answer": "Not by their own strength, merits or works, but freely, for Christ's sake, through faith, when they believe they are received into favor and their sins are forgiven for Christ's sake. This faith God counts for righteousness.",
+      "at": "Augsburg Confession IV"
+    },
+    {
+      "question": "What of good works?",
+      "answer": "Faith is bound to bring forth good fruits and it is necessary to do the good works God commands, but not to rely on them to merit justification; forgiveness and justification are apprehended by faith.",
+      "at": "Augsburg Confession VI"
+    },
+    {
+      "question": "Did God choose who would be saved?",
+      "answer": "God's foreknowledge extends over the godly and the wicked, but his election extends only over his beloved children and is a cause of their salvation. Christ, the Book of Life, is where all who are to be saved are elected; he calls all sinners and seriously wills that all come to him.",
+      "at": "Formula of Concord, Epitome XI"
+    },
+    {
+      "question": "Can salvation be lost?",
+      "answer": "Yes: the Confession condemns the Anabaptists who deny that those once justified can lose the Holy Ghost.",
+      "at": "Augsburg Confession XII"
+    }
+  ],
+  "positions": {
+    "justification": {
+      "answer": "faith-alone",
+      "at": "Augsburg Confession IV, VI"
+    },
+    "election": {
+      "answer": "chosen-for-life",
+      "at": "Formula of Concord, Epitome XI",
+      "reading": true
+    },
+    "perseverance": {
+      "answer": "can-fall",
+      "at": "Augsburg Confession XII"
+    }
+  },
+  "scripture": [
+    "Romans 3:21-4:25",
+    "Ephesians 1:4",
+    "1 Corinthians 2:14"
+  ],
+  "scriptureNote": "Passages cited in the articles read.",
+  "document": {
+    "title": "The Book of Concord: the Augsburg Confession and the Formula of Concord (Epitome)",
+    "section": "Augsburg Confession, Articles IV (Justification), VI (New Obedience), XII (Repentance) and XVIII (Free Will); Formula of Concord, Epitome, Article XI (Election)",
+    "issuer": "Lutheran Church-Missouri Synod (the confessions it holds)",
+    "date": "1530 (Augsburg Confession); 1577 (Formula of Concord)",
+    "url": "https://bookofconcord.org/augsburg-confession/",
+    "edition": "Text on bookofconcord.org; the translation is not named on the page"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "Editions of the Small Catechism differ in translation and rights. No quotation is used until the edition is confirmed.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Augsburg Articles IV, VI, XII and XVIII (opening) and the affirmative theses of Epitome XI (through thesis 8) read on bookofconcord.org on 2026-11-12. The Epitome's rejected errors, the Solid Declaration of Article XI, and the Apology were not read. \"Chosen for life only\" is our reading: the Formula teaches election of the godly to salvation and says no one is elected to damnation, but its wording is not stated in the same terms as the answer. The LCMS's own published copies and its other statements were not used. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "reformation",
+    "late-medieval-church"
+  ]
+}

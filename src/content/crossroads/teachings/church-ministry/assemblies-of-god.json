@@ -1,0 +1,56 @@
+{
+  "topic": "church-ministry",
+  "body": "assemblies-of-god",
+  "summary": "The Assemblies of God's Statement of Fundamental Truths says the Church is the body of Christ and the habitation of God through the Spirit, and that each believer, born of the Spirit, is an integral part of the general assembly and church of the firstborn. The Assemblies of God sees itself as an agency for evangelizing the world, a body for worship and a channel to build up saints. A divinely called and scripturally ordained ministry leads the Church in evangelization, worship and building up the body. The statement does not describe church government or say who may be ordained.",
+  "points": [
+    {
+      "question": "Where is the true church?",
+      "answer": "The Church is the body of Christ; each believer born of the Spirit is an integral part of the general assembly and church of the firstborn.",
+      "at": "Fundamental Truth 10"
+    },
+    {
+      "question": "Who may lead?",
+      "answer": "A divinely called and scripturally ordained ministry leads the Church in evangelization, worship and building up the saints.",
+      "at": "Fundamental Truth 11"
+    }
+  ],
+  "positions": {
+    "governance": {
+      "answer": "not-stated"
+    },
+    "ordination": {
+      "answer": "not-stated"
+    },
+    "truechurch": {
+      "answer": "all-believers",
+      "at": "Fundamental Truth 10"
+    }
+  },
+  "scripture": [
+    "Ephesians 1:22-23",
+    "Hebrews 12:23",
+    "Ephesians 4:11-16"
+  ],
+  "scriptureNote": "References printed with Truths 10 and 11.",
+  "document": {
+    "title": "Statement of Fundamental Truths",
+    "section": "Truths 10 (The Church and Its Mission) and 11 (The Ministry)",
+    "issuer": "General Council of the Assemblies of God (USA)",
+    "date": "Adopted 1916 (from general knowledge, unchecked); baptism wording as quoted in a 2017 AG lesson",
+    "url": "https://ag.org/Beliefs/Statement-of-Fundamental-Truths",
+    "edition": "Text of the Statement of Fundamental Truths on the creeds.net website (a PDF copy); the ag.org page returned an access error and was not read"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "No rights statement found for the Statement of Fundamental Truths, so no quotation is used.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Truths 10 and 11 read in the creeds.net copy on 2026-11-12; that copy's date and match to the current official wording are unchecked. The Assemblies of God's bylaws and its practice on the ordination of women were not used. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "apostolic-age",
+    "second-century"
+  ]
+}

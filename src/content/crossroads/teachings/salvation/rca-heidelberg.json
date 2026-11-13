@@ -1,0 +1,60 @@
+{
+  "topic": "salvation",
+  "body": "rca",
+  "summary": "The Heidelberg Catechism, which the Reformed Church in America holds as one of its standards, teaches that a person is righteous before God only by true faith in Jesus Christ: God, without any merit of the person but of mere grace, grants and counts to them the perfect satisfaction, righteousness and holiness of Christ, as though they had never sinned and had fully obeyed. The catechism explains that faith is not the ground of acceptance, since only Christ's satisfaction is, and that faith is the only way the person can receive it. The questions read do not address election in the sense of God's eternal choice or whether believers can fall away.",
+  "points": [
+    {
+      "question": "How are you righteous before God?",
+      "answer": "Only by true faith in Jesus Christ: God, without any merit of ours but of mere grace, grants and counts to us the perfect satisfaction, righteousness and holiness of Christ, as if we had never sinned, when we receive it with a believing heart.",
+      "at": "Heidelberg Catechism, Q. 60"
+    },
+    {
+      "question": "Why say \"by faith only\"?",
+      "answer": "Not because faith is worthy in itself, but because only Christ's satisfaction, righteousness and holiness is our righteousness before God, and faith is the only way we can receive and apply it.",
+      "at": "Heidelberg Catechism, Q. 61"
+    }
+  ],
+  "positions": {
+    "justification": {
+      "answer": "faith-alone",
+      "at": "Heidelberg Catechism, Q. 60-61"
+    },
+    "election": {
+      "answer": "not-stated"
+    },
+    "perseverance": {
+      "answer": "not-stated"
+    }
+  },
+  "scripture": [
+    "Romans 3:21-28",
+    "Ephesians 2:8-9",
+    "Titus 3:5",
+    "2 Corinthians 5:19-21"
+  ],
+  "scriptureNote": "A selection of the references printed with these questions.",
+  "document": {
+    "title": "The Heidelberg Catechism",
+    "section": "Lord's Days 23-24: Questions 59-64 on justification (Questions 60-61 read in full)",
+    "issuer": "Reformed Church in America (holds the Heidelberg Catechism as a standard)",
+    "date": "1563; one of the RCA's doctrinal standards",
+    "url": "https://www.ccel.org/creeds/heidelberg-cat.html",
+    "edition": "English text on the Christian Classics Ethereal Library; the translator is not named on the page. The RCA's own published copy has not been compared"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "The catechism is from 1563, but the English translation and edition are not confirmed, so no quotation is used.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Questions 60 and 61 read in full on 2026-11-12 in the CCEL text; Q. 59 and 62-64, which say more about good works, were not read in full. The RCA's own copy was not compared. Election and perseverance are left \"not stated\" for this row because they are not addressed in the questions read; the Canons of Dort row covers election. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "reformation",
+    "late-medieval-church"
+  ],
+  "voice": {
+    "label": "Heidelberg Catechism"
+  }
+}

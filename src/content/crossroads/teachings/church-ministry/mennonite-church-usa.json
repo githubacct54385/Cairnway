@@ -1,0 +1,55 @@
+{
+  "topic": "church-ministry",
+  "body": "mennonite-church-usa",
+  "summary": "The Confession of Faith in a Mennonite Perspective teaches that the church is the assembly of those who have accepted God's offer of salvation through faith in Jesus Christ, a society of believers from many nations established and sustained by the Holy Spirit. Ministry continues Christ's work: he gives gifts to all believers, and God also calls particular persons to leadership ministries. The church calls, trains and appoints gifted men and women to leadership roles such as pastor, deacon, elder, evangelist, missionary, teacher, conference minister and overseer.",
+  "points": [
+    {
+      "question": "Where is the true church?",
+      "answer": "The church is the assembly of those who have accepted God's offer of salvation through faith in Jesus Christ, the new community of disciples, established and sustained by the Holy Spirit.",
+      "at": "Article 9: The Church of Jesus Christ"
+    },
+    {
+      "question": "Who may be ordained?",
+      "answer": "The church calls, trains and appoints gifted men and women to leadership ministries, including pastor, deacon, elder, evangelist, missionary, teacher, conference minister and overseer.",
+      "at": "Article 15: Ministry and Leadership"
+    }
+  ],
+  "positions": {
+    "governance": {
+      "answer": "not-stated"
+    },
+    "ordination": {
+      "answer": "women-and-men",
+      "at": "Article 15: Ministry and Leadership"
+    },
+    "truechurch": {
+      "answer": "all-believers",
+      "at": "Article 9: The Church of Jesus Christ"
+    }
+  },
+  "scripture": [
+    "Ephesians 4:11-13"
+  ],
+  "scriptureNote": "A reference commonly cited with these articles; the printed references were not read.",
+  "document": {
+    "title": "Confession of Faith in a Mennonite Perspective",
+    "section": "Articles 9 (The Church of Jesus Christ) and 15 (Ministry and Leadership)",
+    "issuer": "Mennonite Church USA",
+    "date": "1995 (from general knowledge, unchecked)",
+    "url": "https://www.mennoniteusa.org/who-are-mennonites/what-we-believe/confession-of-faith/ministry-and-leadership/",
+    "edition": "Text on mennoniteusa.org, read in full on 2026-11-12. The confession is also published by MennoMedia"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "The confession is published by MennoMedia and the site states no reuse permission, so no quotation is used.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Articles 9 and 15 read in the opening on mennoniteusa.org on 2026-11-12, their commentaries only in part. The article numbers 9 and 15 come from the confession's order and were not read on the page. The article on church order and unity, which covers government, was not read, so governance is \"not stated\". Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "apostolic-age",
+    "second-century"
+  ]
+}

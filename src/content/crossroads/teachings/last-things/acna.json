@@ -1,0 +1,46 @@
+{
+  "topic": "last-things",
+  "body": "acna",
+  "summary": "The Anglican Church in North America's catechism has questions on the resurrection of the body and on Christ's return and judgment. Their text was not read in full for this entry, so the Church's position on each question here is not recorded.",
+  "points": [
+    {
+      "question": "What is covered?",
+      "answer": "The 2016 draft has questions headed \"When should you expect Jesus' return?\" (Q. 72) and \"What is the resurrection of the body?\" (Q. 144).",
+      "at": "Catechism (2016 draft), Q. 72, 144 (titles)"
+    }
+  ],
+  "positions": {
+    "purgatory": {
+      "answer": "not-stated"
+    },
+    "final": {
+      "answer": "not-stated"
+    },
+    "return": {
+      "answer": "not-stated"
+    }
+  },
+  "scripture": [],
+  "scriptureNote": "Passages the document cites.",
+  "document": {
+    "title": "To Be a Christian: An Anglican Catechism",
+    "section": "The Creed section on the resurrection of the body and the life everlasting (not read in full)",
+    "issuer": "Anglican Church in North America",
+    "date": "2016 draft; approved edition published 2020",
+    "url": "https://anglicanchurch.net/catechism/",
+    "edition": "The 2016 text posted on the ACNA's website (PDF). The 2020 published edition may differ in wording and numbering"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "The catechism is a recent copyrighted work, so no quotation is used.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Only the titles of the relevant questions were found on 2026-11-12; their answers were not read. This entry exists so the Anglican Church in North America appears on the page; its cells should be filled once the answers are read. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "apostolic-age",
+    "reformation"
+  ]
+}

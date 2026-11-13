@@ -1,0 +1,54 @@
+{
+  "topic": "last-things",
+  "body": "church-of-england",
+  "summary": "The Church of England's Articles of Religion call the Romish doctrine concerning purgatory, pardons, worshipping and adoration of images and relics, and invocation of saints a fond thing, vainly invented and grounded on no warranty of Scripture but repugnant to the Word of God. The Articles also affirm that Christ rose again and ascended into heaven, where he sits until he returns to judge all men at the last day. They do not describe the final state of the wicked.",
+  "points": [
+    {
+      "question": "Is there a purification after death?",
+      "answer": "The Romish doctrine concerning purgatory is a fond thing, vainly invented, grounded on no warranty of Scripture but repugnant to the Word of God.",
+      "at": "Article XXII"
+    },
+    {
+      "question": "What happens when Christ returns?",
+      "answer": "Christ sits in heaven until he returns to judge all men at the last day.",
+      "at": "Article IV"
+    }
+  ],
+  "positions": {
+    "purgatory": {
+      "answer": "no-purgatory",
+      "at": "Article XXII"
+    },
+    "final": {
+      "answer": "not-stated"
+    },
+    "return": {
+      "answer": "return-and-judgment",
+      "at": "Article IV",
+      "reading": true
+    }
+  },
+  "scripture": [],
+  "scriptureNote": "The Articles of Religion do not print scripture references.",
+  "document": {
+    "title": "The Articles of Religion (Thirty-Nine Articles)",
+    "section": "Articles IV (Of the Resurrection of Christ) and XXII (Of Purgatory)",
+    "issuer": "Church of England",
+    "date": "1571; printed in the Book of Common Prayer (1662)",
+    "url": "https://www.churchofengland.org/prayer-and-worship/worship-texts-and-resources/book-common-prayer/articles-religion",
+    "edition": "Articles of Religion as printed in the Episcopal Church's 1979 Prayer Book, on the Fordham Internet History Sourcebook (an American version of the Articles); the Church of England's own page was reached but its text was not retrieved"
+  },
+  "rights": {
+    "status": "public-domain",
+    "note": "The Articles date from 1571 and the wording is long out of copyright. The Church of England holds copyright in its modern editions, which are not used.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Article XXII read in the Fordham copy, the American version, on 2026-11-12; Article IV was not read, and the return and judgment answer is our reading from its title and the UMC's identically worded Article III. Not yet compared with the Church of England's own page. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "apostolic-age",
+    "reformation"
+  ]
+}

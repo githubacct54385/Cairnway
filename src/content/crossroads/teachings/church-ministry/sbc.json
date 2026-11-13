@@ -1,0 +1,63 @@
+{
+  "topic": "church-ministry",
+  "body": "sbc",
+  "summary": "The Southern Baptist Convention's Baptist Faith and Message (2000) teaches that a local New Testament church is an autonomous, self-governing congregation of baptized believers, bound by covenant, under the lordship of Christ and deciding matters through democratic processes. It has two offices, pastor (elder or overseer) and deacon. Women are gifted for service in the church, but the office of pastor is limited to men as Scripture qualifies them. The Body of Christ also includes all the redeemed of all ages, from every tribe, language, people and nation. The article was amended in June 2023.",
+  "points": [
+    {
+      "question": "How is the church governed?",
+      "answer": "Each local church is an autonomous, self-governing congregation of baptized believers under Christ's lordship, deciding matters democratically. It has two offices, pastor and deacon.",
+      "at": "Article VI"
+    },
+    {
+      "question": "Who may be ordained?",
+      "answer": "The office of pastor, elder or overseer is limited to men as qualified by Scripture, though women are gifted for service in the church.",
+      "at": "Article VI"
+    },
+    {
+      "question": "Where is the true church?",
+      "answer": "The Body of Christ includes the whole company of the redeemed of all ages, tribes, languages, peoples and nations, not only a local congregation.",
+      "at": "Article VI"
+    }
+  ],
+  "positions": {
+    "governance": {
+      "answer": "congregation",
+      "at": "Article VI"
+    },
+    "ordination": {
+      "answer": "men-only",
+      "at": "Article VI"
+    },
+    "truechurch": {
+      "answer": "all-believers",
+      "at": "Article VI"
+    }
+  },
+  "scripture": [
+    "Matthew 16:15-19",
+    "Ephesians 1:22-23",
+    "1 Timothy 3:1-15"
+  ],
+  "scriptureNote": "A selection of the passages listed with Article VI.",
+  "document": {
+    "title": "The Baptist Faith and Message 2000",
+    "section": "Article VI: The Church",
+    "issuer": "Southern Baptist Convention",
+    "date": "2000",
+    "url": "https://bfm.sbc.net/bfm2000/",
+    "edition": "The SBC's own site"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "The SBC site carries a copyright notice and no stated reuse permission, so no quotation is used.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Article VI was summarized by a reading tool on 2026-11-12 and not read in full by a person or a second pass. Baptist churches govern themselves, so this speaks for the SBC only. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "apostolic-age",
+    "second-century"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "topic": "church-ministry",
+  "body": "lcms",
+  "summary": "The Augsburg Confession, which the Lutheran Church-Missouri Synod holds, teaches that one holy Church continues forever and is the congregation of saints in which the Gospel is rightly taught and the Sacraments rightly administered. To the true unity of the Church it is enough to agree on the doctrine of the Gospel and the administration of the sacraments, and human rites need not be alike everywhere. Properly the Church is the congregation of saints and true believers, though hypocrites are mingled with them. No one should publicly teach or administer the sacraments unless regularly called. The Confession does not say who may be ordained.",
+  "points": [
+    {
+      "question": "Where is the true church?",
+      "answer": "One holy Church continues forever: the congregation of saints in which the Gospel is rightly taught and the sacraments rightly administered. Agreement on the doctrine of the Gospel and the sacraments is enough for its true unity.",
+      "at": "Augsburg Confession VII"
+    },
+    {
+      "question": "Who may lead?",
+      "answer": "No one should publicly teach in the Church or administer the sacraments unless he is regularly called.",
+      "at": "Augsburg Confession XIV"
+    }
+  ],
+  "positions": {
+    "governance": {
+      "answer": "not-stated"
+    },
+    "ordination": {
+      "answer": "not-stated"
+    },
+    "truechurch": {
+      "answer": "gospel-and-sacraments",
+      "at": "Augsburg Confession VII"
+    }
+  },
+  "scripture": [
+    "Ephesians 4:5-6",
+    "Matthew 23:2"
+  ],
+  "scriptureNote": "Passages cited in the articles read.",
+  "document": {
+    "title": "The Book of Concord: the Augsburg Confession",
+    "section": "Articles VII (Of the Church), VIII (What the Church Is) and XIV (Of Ecclesiastical Order)",
+    "issuer": "Lutheran Church-Missouri Synod (the confession it holds); written by Martin Luther",
+    "date": "1530",
+    "url": "https://bookofconcord.org/augsburg-confession/",
+    "edition": "Text on bookofconcord.org; the translation is not named on the page"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "Editions of the Small Catechism differ in translation and rights. No quotation is used until the edition is confirmed.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Articles VII, VIII and XIV read on bookofconcord.org on 2026-11-12. The Confession does not set out a form of church government, and the LCMS's own statements on ordination and church polity were not used. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "apostolic-age",
+    "second-century"
+  ]
+}

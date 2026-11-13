@@ -1,0 +1,67 @@
+{
+  "topic": "last-things",
+  "body": "orthodox",
+  "summary": "The Orthodox Confession of Peter Mogila teaches that Christ will come again to judge the living and the dead, that all will give account of their thoughts, words and works, and that each will receive a full and everlasting reward. The wicked will be punished with greater or lesser torments, but without end. The confession says there is no medium state between the blessed and the damned, yet many sinners are freed from the chains of Hades by the prayers of the Church, chiefly the Liturgy. It rejects the fire of Purgatory, saying nothing in Scripture teaches a temporary punishment after death to purge the soul.",
+  "points": [
+    {
+      "question": "Is there a purification after death?",
+      "answer": "No. The fire of Purgatory is nowhere taught in Scripture, and the Church in the Second Council of Constantinople condemned Origen for the opinion. Yet alms, good works and especially the Liturgy offered for the departed can bring relief and deliverance from Hades.",
+      "at": "Orthodox Confession, Q. 64-66"
+    },
+    {
+      "question": "What is the final state of the wicked?",
+      "answer": "Some will be punished with greater and some with lesser torments, but all without end.",
+      "at": "Orthodox Confession, Q. 60, 63, 68"
+    },
+    {
+      "question": "What happens when Christ returns?",
+      "answer": "Christ will come again to judge the living and the dead, all will give an account, and each receives an everlasting reward according to merit.",
+      "at": "Orthodox Confession, Q. 58-60"
+    }
+  ],
+  "positions": {
+    "purgatory": {
+      "answer": "no-purgatory",
+      "at": "Orthodox Confession, Q. 66"
+    },
+    "final": {
+      "answer": "eternal-punishment",
+      "at": "Orthodox Confession, Q. 60, 63"
+    },
+    "return": {
+      "answer": "return-and-judgment",
+      "at": "Orthodox Confession, Q. 58-60"
+    }
+  },
+  "scripture": [
+    "Matthew 25:31-46",
+    "Mark 9:44",
+    "Luke 12:47"
+  ],
+  "scriptureNote": "Passages the confession cites in the answers read.",
+  "document": {
+    "title": "The Orthodox Confession of the Catholic and Apostolic Eastern Church",
+    "section": "Part I, Questions 58-68 (the second coming, judgment, the state of souls and purgatory)",
+    "issuer": "The Orthodox Church (drafted by Metropolitan Peter Mogila of Kiev; endorsed by the Eastern patriarchs)",
+    "date": "1640s; endorsed by the Eastern patriarchs in 1643 (from general knowledge, unchecked)",
+    "url": "https://azbyka.ru/otechnik/world/the-orthodox-confession-of-the-catholic-and-apostolic-eastern-church",
+    "edition": "English translation attributed to Philip Lodvel (1772), as printed in the 1898 London edition on azbyka.ru"
+  },
+  "rights": {
+    "status": "public-domain",
+    "note": "The confession is from the 1640s and the English translation from 1772, so only one short sentence is quoted. The web copy's own rights are not separately confirmed.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Questions 58-61, 63-68 read in the azbyka.ru English text on 2026-11-12, mostly in their opening paragraphs. Date and endorsement from general knowledge. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "apostolic-age",
+    "reformation"
+  ],
+  "voice": {
+    "label": "Orthodox Confession (Peter Mogila)",
+    "tier": "synodical-confession"
+  }
+}

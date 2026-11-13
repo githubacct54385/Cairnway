@@ -1,0 +1,58 @@
+{
+  "topic": "church-ministry",
+  "body": "acna",
+  "summary": "The Anglican Church in North America's catechism teaches that the Church is the whole community of faithful Christians in heaven and on earth, gathering in local congregations to worship in Word and Sacrament under the leadership of those God appoints, and that it is one, holy, catholic and apostolic. It names three ordained ministries, bishops, priests and deacons, and says bishops lead in preaching, teaching and shepherding, guard the faith, unity and discipline of the Church, and bless, confirm and ordain, following the apostles. The text read does not say who may be ordained.",
+  "points": [
+    {
+      "question": "How is the church governed?",
+      "answer": "By three ordained ministries, bishops, priests and deacons. Bishops are chief pastors who lead in teaching, guard the faith and discipline of the Church, and ordain.",
+      "at": "Catechism (2016 draft), Q. 124-125"
+    },
+    {
+      "question": "Where is the true church?",
+      "answer": "The Church is the whole community of faithful Christians in heaven and on earth, which gathers locally to worship in Word and Sacrament, and is one, holy, catholic and apostolic.",
+      "at": "Catechism (2016 draft), Q. 89, 92"
+    }
+  ],
+  "positions": {
+    "governance": {
+      "answer": "bishops",
+      "at": "Catechism (2016 draft), Q. 124-125"
+    },
+    "ordination": {
+      "answer": "not-stated"
+    },
+    "truechurch": {
+      "answer": "all-believers",
+      "at": "Catechism (2016 draft), Q. 89"
+    }
+  },
+  "scripture": [
+    "Matthew 28:19-20",
+    "1 Peter 2:9",
+    "Titus 1:7-9",
+    "1 Timothy 3:1-7"
+  ],
+  "scriptureNote": "Passages the catechism cites with these questions.",
+  "document": {
+    "title": "To Be a Christian: An Anglican Catechism",
+    "section": "Questions 89-92 and 124-125 in the text read",
+    "issuer": "Anglican Church in North America",
+    "date": "2016 draft; approved edition published 2020",
+    "url": "https://anglicanchurch.net/catechism/",
+    "edition": "The 2016 text posted on the ACNA's website (PDF). The 2020 published edition may differ in wording and numbering"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "The catechism is a recent copyrighted work, so no quotation is used.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Questions 89, 92, 124 and 125 read in the 2016 draft on 2026-11-12; the approved 2020 edition may differ. The ACNA's own canons, which address the ordination of women, were not used, so that cell is \"not stated\". Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "apostolic-age",
+    "second-century"
+  ]
+}

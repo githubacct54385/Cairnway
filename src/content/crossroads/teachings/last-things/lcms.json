@@ -1,0 +1,53 @@
+{
+  "topic": "last-things",
+  "body": "lcms",
+  "summary": "The Augsburg Confession, which the Lutheran Church-Missouri Synod holds, teaches that at the consummation of the world Christ will appear for judgment and raise all the dead. He will give the godly and elect eternal life and everlasting joys, but ungodly men and the devils he will condemn to be tormented without end. It condemns those who teach that there will be an end to the punishments of the condemned, and a fifth point rejects those who spread teachings of an earthly kingdom for the godly before the resurrection. The article read does not address purification after death.",
+  "points": [
+    {
+      "question": "What is the final state of the wicked?",
+      "answer": "Ungodly men and the devils will be condemned to be tormented without end; the Confession condemns those who think there will be an end to their punishments.",
+      "at": "Augsburg Confession XVII"
+    },
+    {
+      "question": "What happens when Christ returns?",
+      "answer": "Christ will appear for judgment and raise up all the dead, giving the godly and elect eternal life and everlasting joys.",
+      "at": "Augsburg Confession XVII"
+    }
+  ],
+  "positions": {
+    "purgatory": {
+      "answer": "not-stated"
+    },
+    "final": {
+      "answer": "eternal-punishment",
+      "at": "Augsburg Confession XVII"
+    },
+    "return": {
+      "answer": "return-and-judgment",
+      "at": "Augsburg Confession XVII"
+    }
+  },
+  "scripture": [],
+  "scriptureNote": "Passages the document cites.",
+  "document": {
+    "title": "The Book of Concord: the Augsburg Confession",
+    "section": "Article XVII: Of Christ's Return to Judgment",
+    "issuer": "Lutheran Church-Missouri Synod (the confession it holds); written by Martin Luther",
+    "date": "1530",
+    "url": "https://bookofconcord.org/augsburg-confession/",
+    "edition": "Text on bookofconcord.org; the translation is not named on the page"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "Editions of the Small Catechism differ in translation and rights. No quotation is used until the edition is confirmed.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Article XVII, items 1-4, read on bookofconcord.org on 2026-11-12; item 5 on earthly kingdoms was seen only in outline. The Smalcald Articles, which reject purgatory, and the Apology were not read, so the purgatory cell is \"not stated\". Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "apostolic-age",
+    "reformation"
+  ]
+}

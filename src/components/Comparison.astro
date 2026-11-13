@@ -76,7 +76,7 @@ const hasReading = rows.some((r) => r.cells.some((c) => c.reading));
                   <tr data-church={r.slug} data-label={r.label}>
                     <th scope="row">
                       <a href={`#${r.slug}`}>{r.body.data.name}</a>
-                      {r.voice && <span class="voice">{r.voice.label}<br /><em>{TIERS[r.voice.tier]}</em></span>}
+                      {r.voice && <span class="voice">{r.voice.label}{r.voice.tier && <><br /><em>{TIERS[r.voice.tier]}</em></>}</span>}
                     </th>
                     {r.cells.map((c) => (
                       <td data-q={c.q.id} data-ans={c.stated ? c.answer!.id : ''}>

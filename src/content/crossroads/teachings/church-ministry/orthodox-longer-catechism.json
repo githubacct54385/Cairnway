@@ -1,0 +1,61 @@
+{
+  "topic": "church-ministry",
+  "body": "orthodox",
+  "summary": "The Longer Catechism, a standard Russian Orthodox statement of the faith, calls the Church a divinely instituted community united by the orthodox faith, the law of God, the hierarchy and the sacraments. It is one because it has one Head, Christ, and is apostolic because it has its doctrine and the succession of the gifts of the Holy Spirit from the apostles through the laying on of hands. The hierarchy has three degrees, bishop, priest and deacon, and an ecumenical council is the authority over the whole Church. The questions read do not say who may be ordained beyond that Orders are given to those rightly chosen.",
+  "points": [
+    {
+      "question": "How is the church governed?",
+      "answer": "By a hierarchy of bishops, priests and deacons in unbroken succession from the apostles. An ecumenical council has authority over the whole Catholic Church; the chief divisions are under the Orthodox patriarchs and the Holy Synod.",
+      "at": "Longer Catechism, Q. 274, 277-281, 357-359"
+    },
+    {
+      "question": "Where is the true church?",
+      "answer": "The Church is one, holy, catholic and apostolic; it is one spiritual body with one Head, Christ, and is called Orthodox, or rightly believing.",
+      "at": "Longer Catechism, Q. 252, 258, 270, 274"
+    }
+  ],
+  "positions": {
+    "governance": {
+      "answer": "bishops",
+      "at": "Longer Catechism, Q. 277-281, 359"
+    },
+    "ordination": {
+      "answer": "not-stated"
+    },
+    "truechurch": {
+      "answer": "one-communion",
+      "at": "Longer Catechism, Q. 252, 258, 274",
+      "reading": true
+    }
+  },
+  "scripture": [
+    "Ephesians 4:4-6",
+    "1 Corinthians 3:10-11"
+  ],
+  "scriptureNote": "Passages quoted in the answers read.",
+  "document": {
+    "title": "The Longer Catechism of the Orthodox, Catholic, Eastern Church",
+    "section": "Part I, Questions 252-281 (the Church and the hierarchy) and 357-359 (Orders)",
+    "issuer": "Russian Orthodox Church (drafted by Metropolitan Philaret of Moscow)",
+    "date": "1839 (approved by the Holy Synod); first published 1840",
+    "url": "https://azbyka.ru/otechnik/Filaret_Moskovskij/the-longer-catechism-of-the-orthodox-catholic-eastern-church/",
+    "edition": "English translation as hosted by azbyka.ru; the translator is not named on the page"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "The text is old, but the translator and edition are not confirmed, so no quotation is used until they are.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Questions 252-281 and 357-359 read in the azbyka.ru English text on 2026-11-12. \"One communion\" is our reading: the catechism says the Church is one, apostolic and Orthodox, with a hierarchy descended from the apostles, but does not use the phrase in these terms. Whether women may be ordained is not addressed. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "apostolic-age",
+    "second-century"
+  ],
+  "voice": {
+    "label": "Longer Catechism (Russian Church)",
+    "tier": "single-church-catechism"
+  }
+}
