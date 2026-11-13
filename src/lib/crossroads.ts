@@ -1,27 +1,9 @@
 import { getCollection } from 'astro:content';
 import { CROSSROADS } from '../config';
+import { reportFormUrl } from './report';
 
-const REPO = 'https://github.com/githubacct54385/ancient-paths';
-
-/**
- * A link to the on-site report form with the page and entry already filled in.
- * The form posts to the Worker (worker/index.ts), which opens a GitHub issue; the reporter needs no GitHub account.
- */
-export function reportUrl(about: string, path: string) {
-  const q = new URLSearchParams({ page: path, about });
-  return `${CROSSROADS.base}/report/?${q.toString()}`;
-}
-
-/** The GitHub issue form, kept as a "prefer GitHub?" option under the on-site form. */
-export function githubReportUrl(about: string, path: string) {
-  const q = new URLSearchParams({
-    template: 'crossroads-report.yml',
-    title: `Crossroads: ${about}`,
-    page: path,
-  });
-  if (about) q.set('statement', about);
-  return `${REPO}/issues/new?${q.toString()}`;
-}
+/** The on-site report form for a Crossroads entry (see src/lib/report.ts). */
+export const reportUrl = (about: string, path: string) => reportFormUrl('crossroads', about, path);
 
 export const TIERS = {
   conciliar: 'Council or creed',

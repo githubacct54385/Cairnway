@@ -2,6 +2,8 @@
 // which receives the Crossroads "report a problem" form and turns it into a GitHub issue.
 // See docs/DEPLOY.md ("Report form") for the one-time setup.
 
+import { REPORT_SECTIONS, type Section } from '../src/lib/report';
+
 interface KV {
   get(key: string): Promise<string | null>;
   put(key: string, value: string, options?: { expirationTtl?: number }): Promise<void>;
@@ -18,15 +20,7 @@ export interface Env {
   REPORT_CONTACTS?: KV;
 }
 
-const KINDS = [
-  'The summary misrepresents the document',
-  'A broken or wrong source link',
-  'A factual error (date, body, citation)',
-  'A rights or copyright concern',
-  'Something else',
-];
-
-const LIMITS = { details: 4000, contact: 200, page: 200, about: 200 };
+const LIMITS = { details: 4000, contact: 200, page: 200, about: 200, source: 1000 };
 const PER_IP_PER_HOUR = 5;
 
 const json = (body: unknown, status = 200) =>
@@ -41,25 +35,29 @@ const defuse = (text: string) => text.replace(/@(?=[A-Za-z0-9])/g, '@​');
 const isEmail = (v: string) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v);
 const isHandle = (v: string) => /^@?[A-Za-z0-9](?:[A-Za-z0-9-]{0,38})$/.test(v);
 
-type Clean = { page: string; about: string; kind: string; details: string; contact: string };
+type Clean = { section: Section; page: string; about: string; kind: string; details: string; source: string; contact: string };
 
 function validate(input: Record<string, unknown>): Clean | string {
   const str = (k: string) => (typeof input[k] === 'string' ? (input[k] as string).trim() : '');
+  const section: Section = str('section') === 'history' ? 'history' : 'crossroads';
+  const cfg = REPORT_SECTIONS[section];
   const page = str('page');
   const about = str('about');
   const kind = str('kind');
   const details = str('details');
+  const source = cfg.asksSource ? str('source') : '';
   const contact = str('contact');
 
-  if (!page.startsWith('/') || page.length > LIMITS.page) return 'The page is missing. Please open the form from a Crossroads entry.';
-  if (about.length > LIMITS.about) return 'The entry name is too long.';
-  if (!KINDS.includes(kind)) return 'Please choose what kind of problem it is.';
+  if (!page.startsWith('/') || page.length > LIMITS.page) return `The page is missing. Please open the form from a ${cfg.name} page.`;
+  if (about.length > LIMITS.about) return 'The page name is too long.';
+  if (!cfg.kinds.includes(kind)) return 'Please choose what kind of problem it is.';
   if (details.length < 10) return 'Please say what is wrong (at least a sentence).';
   if (details.length > LIMITS.details) return `Please keep the details under ${LIMITS.details} characters.`;
+  if (source.length > LIMITS.source) return `Please keep the source under ${LIMITS.source} characters.`;
   if (!contact || contact.length > LIMITS.contact || !(isEmail(contact) || isHandle(contact))) {
     return 'Please give an email address or a GitHub username so we can reply.';
   }
-  return { page, about, kind, details, contact };
+  return { section, page, about, kind, details, source, contact };
 }
 
 async function verifyTurnstile(secret: string, token: string, ip: string) {
@@ -116,12 +114,16 @@ async function handleReport(request: Request, env: Env): Promise<Response> {
   const reference = `R-${Date.now().toString(36).toUpperCase()}`;
   const body = [
     `**Page:** ${clean.page}`,
-    clean.about ? `**Entry:** ${defuse(clean.about)}` : '',
+    clean.about ? `**About:** ${defuse(clean.about)}` : '',
     `**Kind:** ${clean.kind}`,
     '',
     '### What is wrong',
     '',
     defuse(clean.details),
+    '',
+    clean.source ? '### Source suggested' : '',
+    '',
+    clean.source ? defuse(clean.source) : '',
     '',
     '---',
     `Reference \`${reference}\`. Submitted through the on-site form; the reporter's contact details are stored privately.`,
@@ -139,9 +141,9 @@ async function handleReport(request: Request, env: Env): Promise<Response> {
       'x-github-api-version': '2022-11-28',
     },
     body: JSON.stringify({
-      title: `Crossroads report: ${(clean.about || clean.page).slice(0, 120)}`,
+      title: `${REPORT_SECTIONS[clean.section].name} report: ${(clean.about || clean.page).slice(0, 120)}`,
       body,
-      labels: ['crossroads', 'from-form'],
+      labels: [REPORT_SECTIONS[clean.section].label, 'from-form'],
     }),
   });
 
@@ -154,7 +156,7 @@ async function handleReport(request: Request, env: Env): Promise<Response> {
   if (env.REPORT_CONTACTS) {
     await env.REPORT_CONTACTS.put(
       `issue:${issue.number}`,
-      JSON.stringify({ contact: clean.contact, reference, page: clean.page, at: new Date().toISOString() }),
+      JSON.stringify({ contact: clean.contact, reference, section: clean.section, page: clean.page, at: new Date().toISOString() }),
     );
   }
   return json({ ok: true, reference });
