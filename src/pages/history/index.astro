@@ -34,7 +34,11 @@ const unchecked = eras.length - aiCount;
 
   <div class="home-wrap">
     <section class="overview" aria-labelledby="timeline-heading">
-      <h2 id="timeline-heading" class="overview-title">Timeline, AD {spanStart} to {spanEnd}</h2>
+      <div class="sticky" id="timeline-sticky">
+      <div class="overview-head">
+        <h2 id="timeline-heading" class="overview-title">Timeline, AD {spanStart} to {spanEnd}</h2>
+        <span class="now" id="timeline-now" aria-hidden="true"></span>
+      </div>
 
       <div class="scale" aria-hidden="true">
         <div class="bar">
@@ -42,6 +46,7 @@ const unchecked = eras.length - aiCount;
             eras.map((era, i) => (
               <span
                 class={`seg seg-${i % 2}`}
+                data-seg={i}
                 style={`left: ${at(era.data.startYear)}%; width: ${at(era.data.endYear) - at(era.data.startYear)}%;`}
               />
             ))
@@ -52,6 +57,7 @@ const unchecked = eras.length - aiCount;
           {ticks.map((y) => <span class="tick" style={`left: ${at(y)}%`}>{y}</span>)}
           <span class="tick tick-end" style={`left: 100%`}>{spanEnd}</span>
         </div>
+      </div>
       </div>
       <p class="scale-note">Drawn to scale: each era's width is its length in years. The list below gives every era in order.</p>
     </section>
@@ -68,13 +74,19 @@ const unchecked = eras.length - aiCount;
     <ol id="eras" class="era-list">
       {
         eras.map((era, i) => (
-          <li class="era-row" id={`era-${era.id}`} data-reveal>
+          <li class="era-row" id={`era-${era.id}`} data-reveal data-idx={i} data-label={`${numeral(i)}, ${era.data.dateRange}`}>
             <div class="era-meta">
               <span class={`era-num seg-${i % 2}`} aria-hidden="true">{numeral(i)}</span>
               <span class="range">{era.data.dateRange}</span>
             </div>
             <div class="era-body">
               <h3><a href={`/history/eras/${era.id}/`}>{era.data.title}</a></h3>
+              <div class="mini" aria-hidden="true">
+                <span
+                  class={`mini-fill seg-${i % 2}`}
+                  style={`left: ${at(era.data.startYear)}%; width: ${Math.max(at(era.data.endYear) - at(era.data.startYear), 1)}%;`}
+                />
+              </div>
               <p>{era.data.summary}</p>
               <p class="row-actions">
                 <a class="read-link" href={`/history/eras/${era.id}/`}>
@@ -88,6 +100,46 @@ const unchecked = eras.length - aiCount;
     </ol>
   </div>
 </Base>
+
+<script>
+  // Phones: the thin bar at the top stays pinned and shows which era is at the top of the screen.
+  const sticky = document.getElementById('timeline-sticky');
+  const now = document.getElementById('timeline-now');
+  const rows = Array.from(document.querySelectorAll<HTMLElement>('.era-row'));
+  const segs = Array.from(document.querySelectorAll<HTMLElement>('.seg'));
+  const phone = window.matchMedia('(max-width: 719.98px)');
+  let current = -2;
+  let queued = false;
+
+  function update() {
+    queued = false;
+    let idx = -1;
+    if (phone.matches && sticky) {
+      const line = sticky.getBoundingClientRect().bottom + 8;
+      rows.forEach((row, i) => {
+        if (row.getBoundingClientRect().top <= line) idx = i;
+      });
+    }
+    if (idx === current) return;
+    current = idx;
+    segs.forEach((seg, i) => {
+      seg.classList.toggle('on', i === idx);
+      seg.classList.toggle('dim', idx >= 0 && i !== idx);
+    });
+    rows.forEach((row, i) => row.classList.toggle('current', i === idx));
+    if (now) now.textContent = idx >= 0 ? rows[idx].dataset.label ?? '' : '';
+  }
+  function queue() {
+    if (!queued) {
+      queued = true;
+      requestAnimationFrame(update);
+    }
+  }
+  window.addEventListener('scroll', queue, { passive: true });
+  window.addEventListener('resize', queue);
+  phone.addEventListener('change', queue);
+  update();
+</script>
 
 <style>
   .hero {
@@ -116,6 +168,19 @@ const unchecked = eras.length - aiCount;
   .overview {
     margin-bottom: 1.5rem;
   }
+  .overview-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 0.5rem;
+    margin-bottom: 0.6rem;
+  }
+  .now {
+    font-family: system-ui, sans-serif;
+    font-size: 0.75rem;
+    color: var(--accent);
+    white-space: nowrap;
+  }
   .overview-title {
     font-size: 0.85rem;
     font-family: system-ui, sans-serif;
@@ -123,7 +188,7 @@ const unchecked = eras.length - aiCount;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--muted);
-    margin: 0 0 0.6rem;
+    margin: 0;
   }
   .scale {
     position: relative;
@@ -266,8 +331,84 @@ const unchecked = eras.length - aiCount;
     color: var(--muted);
   }
 
+  /* Phones: a thin overview bar pinned to the top, and each era row gets its own mini bar
+     showing where that era falls in the whole span. */
+  .overview {
+    display: contents;
+  }
+  .sticky {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    background: var(--bg);
+    margin-inline: -1rem;
+    padding: 0.6rem 1rem 0.2rem;
+    border-bottom: 1px solid var(--rule);
+  }
+  .bar {
+    height: 8px;
+    border-radius: 4px;
+  }
+  .ticks {
+    height: 1.2rem;
+  }
+  .seg {
+    transition: opacity 0.15s;
+  }
+  .seg.dim {
+    opacity: 0.3;
+  }
+  .seg.on {
+    background: var(--fg);
+    opacity: 1;
+  }
+  .mini {
+    position: relative;
+    height: 6px;
+    border-radius: 3px;
+    background: var(--rule);
+    overflow: hidden;
+    margin: 0.1rem 0 0.6rem;
+  }
+  .mini-fill {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    min-width: 3px;
+    background: var(--accent);
+  }
+  .mini-fill.seg-1 {
+    opacity: 0.55;
+  }
+  .era-row.current {
+    background: color-mix(in srgb, var(--accent) 6%, transparent);
+  }
+
   /* Tablet and desktop: the dates sit in a left column, the era reads on the right. */
   @media (min-width: 720px) {
+    .overview {
+      display: block;
+    }
+    .sticky {
+      position: static;
+      margin-inline: 0;
+      padding: 0;
+      border-bottom: 0;
+    }
+    .now,
+    .mini {
+      display: none;
+    }
+    .overview-head {
+      margin-bottom: 0.6rem;
+    }
+    .bar {
+      height: 16px;
+      border-radius: 8px;
+    }
+    .ticks {
+      height: 1.5rem;
+    }
     .era-row {
       grid-template-columns: 11rem 1fr;
       align-items: start;
