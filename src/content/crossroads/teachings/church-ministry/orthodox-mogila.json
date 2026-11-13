@@ -1,0 +1,64 @@
+{
+  "topic": "church-ministry",
+  "body": "orthodox",
+  "summary": "The Orthodox Confession of Peter Mogila teaches that the Church is one, holy, catholic and apostolic, like Christ's one spouse, and takes its name from no single see predominant over others, since those are particular churches. Jesus Christ is its only foundation. Every Christian must submit to the Church, which has authority in its general councils to examine Scripture and judge patriarchs, popes and bishops. Though the Church is a creature, it has Christ as its Head and the Holy Spirit to guide it, and is the pillar and ground of the truth.",
+  "points": [
+    {
+      "question": "How is the church governed?",
+      "answer": "In general councils, which have authority to examine and warrant Scripture and to judge patriarchs, popes, bishops and all others; no one see is predominant over the others.",
+      "at": "Orthodox Confession, Q. 84, 86"
+    },
+    {
+      "question": "Where is the true church?",
+      "answer": "The Church is one, holy, catholic and apostolic; Christ is its only foundation and Head, and the Holy Spirit teaches and guides it.",
+      "at": "Orthodox Confession, Q. 83, 85, 96"
+    }
+  ],
+  "positions": {
+    "governance": {
+      "answer": "bishops",
+      "at": "Orthodox Confession, Q. 84, 86",
+      "reading": true
+    },
+    "ordination": {
+      "answer": "not-stated"
+    },
+    "truechurch": {
+      "answer": "one-communion",
+      "at": "Orthodox Confession, Q. 83-86",
+      "reading": true
+    }
+  },
+  "scripture": [
+    "Ephesians 4:5",
+    "2 Corinthians 11:2",
+    "1 Corinthians 3:11",
+    "Matthew 18:17"
+  ],
+  "scriptureNote": "Passages the confession cites in the answers read.",
+  "document": {
+    "title": "The Orthodox Confession of the Catholic and Apostolic Eastern Church",
+    "section": "Part I, Questions 83-86 and 96 (the Church)",
+    "issuer": "The Orthodox Church (drafted by Metropolitan Peter Mogila of Kiev; endorsed by the Eastern patriarchs)",
+    "date": "1640s; endorsed by the Eastern patriarchs in 1643 (from general knowledge, unchecked)",
+    "url": "https://azbyka.ru/otechnik/world/the-orthodox-confession-of-the-catholic-and-apostolic-eastern-church",
+    "edition": "English translation attributed to Philip Lodvel (1772), as printed in the 1898 London edition on azbyka.ru"
+  },
+  "rights": {
+    "status": "public-domain",
+    "note": "The confession is from the 1640s and the English translation from 1772, so only one short sentence is quoted. The web copy's own rights are not separately confirmed.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Questions 83-86 and 96 read on 2026-11-12 in the azbyka.ru English text; the confession's questions on holy orders (about Q. 111-112) were not read. \"Bishops\" and \"one communion\" are our reading: the confession speaks of councils judging bishops and of one Church, not of a communion defined by bishops. Date and endorsement from general knowledge. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "apostolic-age",
+    "second-century"
+  ],
+  "voice": {
+    "label": "Orthodox Confession (Peter Mogila)",
+    "tier": "synodical-confession"
+  }
+}

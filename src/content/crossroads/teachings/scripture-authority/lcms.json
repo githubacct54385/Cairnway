@@ -1,0 +1,56 @@
+{
+  "topic": "scripture-authority",
+  "body": "lcms",
+  "summary": "The Formula of Concord, which the Lutheran Church-Missouri Synod holds, teaches that the Holy Scriptures alone remain the only judge, rule and standard by which all teachings are to be tested. The creeds and confessions are not judges as Scripture is; they are only a testimony and declaration of the faith, of how Scripture has been understood. The text read does not list the books of Scripture.",
+  "points": [
+    {
+      "question": "What is Scripture's authority?",
+      "answer": "Scriptures alone remain the only judge, rule and standard by which all doctrines must be discerned as good or evil, right or wrong.",
+      "at": "Formula of Concord, Epitome, Rule and Norm"
+    },
+    {
+      "question": "What of the creeds and confessions?",
+      "answer": "They are not judges as Scripture is, but a testimony and declaration of the faith, showing how the Scriptures have at any time been understood.",
+      "at": "Formula of Concord, Epitome, Rule and Norm"
+    }
+  ],
+  "positions": {
+    "authority": {
+      "answer": "scripture-alone",
+      "at": "Formula of Concord, Epitome, Rule and Norm"
+    },
+    "interpreter": {
+      "answer": "scripture-interprets",
+      "at": "Formula of Concord, Epitome, Rule and Norm",
+      "reading": true
+    },
+    "canon": {
+      "answer": "not-stated"
+    }
+  },
+  "scripture": [
+    "Psalm 119:105"
+  ],
+  "scriptureNote": "Passage commonly cited with this section; the Epitome's own references were not read.",
+  "document": {
+    "title": "The Book of Concord: the Formula of Concord (Epitome)",
+    "section": "Epitome, Rule and Norm",
+    "issuer": "Lutheran Church-Missouri Synod (the confessions it holds)",
+    "date": "1577",
+    "url": "https://bookofconcord.org/epitome/",
+    "edition": "Text on bookofconcord.org; the translation is not named on the page"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "Editions of the Small Catechism differ in translation and rights. No quotation is used until the edition is confirmed.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "The opening of the Epitome's Rule and Norm read on bookofconcord.org on 2026-11-12. \"Scripture itself\" for the interpreter question is our reading, since the text says Scripture alone judges and the confessions only testify. The LCMS's own statements on the inerrancy of Scripture were not used. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "reformation",
+    "second-century"
+  ]
+}

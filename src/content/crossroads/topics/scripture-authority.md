@@ -1,6 +1,9 @@
 ---
-title: Scripture and authority
+title: "Scripture and authority"
 order: 4
-question: What is the Bible's place, and who interprets it?
-status: planned
+question: "What is the Bible's authority, and who interprets it?"
+status: live
+relatedEras: ["reformation", "second-century"]
+questions: [{"id": "authority", "label": "What is Scripture's authority?", "short": "Authority", "answers": [{"id": "scripture-alone", "short": "Scripture alone", "full": "Scripture is the final authority; church teaching and tradition are judged by it"}, {"id": "scripture-and-tradition", "short": "Scripture and tradition", "full": "Scripture and church tradition together are the church's authority"}, {"id": "scripture-and-more", "short": "Scripture and more", "full": "Scripture is joined by further scripture and the words of living prophets"}]}, {"id": "interpreter", "label": "Who interprets Scripture authoritatively?", "short": "Who interprets", "answers": [{"id": "church-teaching", "short": "The church's authority", "full": "The church's teaching authority, such as its bishops, councils or prophets"}, {"id": "scripture-interprets", "short": "Scripture itself", "full": "Scripture interprets itself; no church or council stands above it"}, {"id": "community", "short": "The believing community", "full": "The believing community, led by the Spirit and in harmony with Christ"}]}, {"id": "canon", "label": "Which books are Scripture?", "short": "Which books", "answers": [{"id": "protestant-canon", "short": "39 + 27 books", "full": "The 39 Old Testament and 27 New Testament books; other books may be read but not for doctrine"}, {"id": "with-deuterocanon", "short": "Includes Apocrypha", "full": "The Old and New Testaments including the deuterocanonical books"}, {"id": "additional", "short": "Adds more scripture", "full": "The Bible and further scripture, such as the Book of Mormon"}]}]
 ---
+Christians agree that the Bible is God's word. They differ on whether it stands alone as the final authority or alongside church tradition or further scripture, on who may interpret it with authority, and on which books belong in it.

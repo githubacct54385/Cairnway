@@ -1,0 +1,59 @@
+{
+  "topic": "scripture-authority",
+  "body": "catholic",
+  "summary": "The Catholic Church teaches that Sacred Tradition and Sacred Scripture flow from the same source and together form one deposit of faith; the Church does not draw her certainty about revealed truths from Scripture alone, and both are to be honored with equal reverence. The task of authentically interpreting the Word of God, written or handed on, belongs to the Church's living teaching office alone, which is the bishops in communion with the Pope. That office is not above the Word of God but serves it. The canon has 46 Old Testament and 27 New Testament books, discerned through apostolic Tradition.",
+  "points": [
+    {
+      "question": "What is Scripture's authority?",
+      "answer": "Tradition and Scripture come from the same wellspring and together form one deposit of faith; the Church does not derive her certainty about revealed truths from Scripture alone, and both are to be accepted with equal reverence.",
+      "at": "CCC 80-82, 84"
+    },
+    {
+      "question": "Who interprets it?",
+      "answer": "The living teaching office of the Church alone, meaning the bishops in communion with the successor of Peter, in the name of Jesus Christ. It is the servant of the Word of God, not superior to it.",
+      "at": "CCC 85-86"
+    },
+    {
+      "question": "Which books?",
+      "answer": "46 books of the Old Testament (45 counting Jeremiah and Lamentations as one) and 27 of the New, a list the Church discerned by apostolic Tradition.",
+      "at": "CCC 120"
+    }
+  ],
+  "positions": {
+    "authority": {
+      "answer": "scripture-and-tradition",
+      "at": "CCC 80-82"
+    },
+    "interpreter": {
+      "answer": "church-teaching",
+      "at": "CCC 85-86"
+    },
+    "canon": {
+      "answer": "with-deuterocanon",
+      "at": "CCC 120"
+    }
+  },
+  "scripture": [],
+  "scriptureNote": "Passages the document cites.",
+  "document": {
+    "title": "Catechism of the Catholic Church",
+    "section": "Paragraphs 80-86 (Tradition, Scripture and the Magisterium), 105-106 (inspiration) and 120 (the canon)",
+    "issuer": "Catholic Church (Holy See)",
+    "date": "1992; typical edition 1997",
+    "url": "https://www.vatican.va/archive/ENG0015/__P3G.HTM",
+    "edition": "English text on the Holy See's website (IntraText edition)"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "The Catechism is published by the Holy See with copyright reserved. No quotation is used until permission for the specific edition is confirmed.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Paragraphs 80, 82, 84-86, 105-106 and 120-121 read in the Holy See's English text on 2026-11-12. Paragraphs 81, 83, 87-104 and 107-119, on Tradition, the sense of the faith and the interpretation of Scripture, were not read. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "reformation",
+    "second-century"
+  ]
+}

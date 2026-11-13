@@ -1,0 +1,66 @@
+{
+  "topic": "scripture-authority",
+  "body": "pca",
+  "summary": "The Westminster Confession, which the Presbyterian Church in America holds as a doctrinal standard, lists the 39 Old Testament and 27 New Testament books as Scripture. It teaches that everything needed for God's glory, salvation, faith and life is set down in Scripture or follows from it by good and necessary consequence, and that nothing is to be added to it by new revelations of the Spirit or by traditions of men. The infallible rule for interpreting Scripture is Scripture itself, and the Holy Spirit speaking in Scripture is the supreme judge.",
+  "points": [
+    {
+      "question": "What is Scripture's authority?",
+      "answer": "The whole counsel of God for his glory, man's salvation, faith and life is set down in Scripture or follows from it by good and necessary consequence; nothing is to be added by new revelations or traditions of men, though the Spirit's inward illumination is needed to understand it.",
+      "at": "Westminster Confession 1.6"
+    },
+    {
+      "question": "Who interprets it?",
+      "answer": "The infallible rule of interpretation is Scripture itself: a doubtful passage is to be searched out by other places that speak more clearly.",
+      "at": "Westminster Confession 1.9"
+    },
+    {
+      "question": "Which books?",
+      "answer": "The 39 books of the Old Testament and 27 of the New, listed by name.",
+      "at": "Westminster Confession 1.2"
+    }
+  ],
+  "positions": {
+    "authority": {
+      "answer": "scripture-alone",
+      "at": "Westminster Confession 1.6"
+    },
+    "interpreter": {
+      "answer": "scripture-interprets",
+      "at": "Westminster Confession 1.9"
+    },
+    "canon": {
+      "answer": "protestant-canon",
+      "at": "Westminster Confession 1.2"
+    }
+  },
+  "scripture": [
+    "2 Timothy 3:15-17",
+    "2 Peter 1:20-21"
+  ],
+  "scriptureNote": "Passages commonly cited with this chapter; its own proof texts were not read for this entry.",
+  "document": {
+    "title": "The Westminster Confession of Faith",
+    "section": "Chapter 1: Of the Holy Scripture, sections 2, 6, 9 and 10",
+    "issuer": "Presbyterian Church in America (holds the Westminster Standards); text of the Westminster Assembly",
+    "date": "1646 (Assembly); adopted by the PCA on its founding in 1973",
+    "url": "https://www.opc.org/wcf.html",
+    "edition": "Text read on The-Highway site; the PCA's own copy has not been compared"
+  },
+  "rights": {
+    "status": "public-domain",
+    "note": "The Confession's wording dates from 1646. The edition read is a modern-spelling web copy; its rights are not separately confirmed, so only one sentence is quoted.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Sections 2, 6 and 9 of chapter 1 read in one web copy (the-highway.com) on 2026-11-12; section 10 (the Spirit speaking in Scripture as supreme judge) was not read in full, nor was section 3 on the Apocrypha, which the Confession says are not inspired. The PCA's own copy was not compared. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "reformation",
+    "second-century"
+  ],
+  "excerpt": {
+    "text": "The infallible rule of interpretation of Scripture is the Scripture itself.",
+    "at": "Westminster Confession 1.9"
+  }
+}

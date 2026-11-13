@@ -1,0 +1,70 @@
+{
+  "topic": "salvation",
+  "body": "pca",
+  "summary": "The Westminster Confession, which the Presbyterian Church in America holds as a doctrinal standard, teaches that God freely justifies those he effectually calls, not by putting righteousness in them but by pardoning their sins and counting them righteous for Christ's sake alone, through Christ's obedience and satisfaction credited to them as they receive and rest on him by faith. Faith is the alone instrument of justification, though it is never alone in the person justified. By God's eternal decree some are predestinated to everlasting life and others foreordained to everlasting death; those chosen to life were chosen before the world began, without any foreseen faith or good works, and the rest God passed by. Those whom God has accepted and sanctified cannot totally or finally fall away but will persevere to the end.",
+  "points": [
+    {
+      "question": "How is a person justified?",
+      "answer": "Freely, by God's pardon and by his counting the person righteous, for Christ's sake alone, by crediting Christ's obedience and satisfaction to them; faith, itself the gift of God, is the alone instrument, yet is always accompanied by other graces and works by love.",
+      "at": "Westminster Confession 11.1-11.2"
+    },
+    {
+      "question": "Did God choose who would be saved?",
+      "answer": "Yes. Some are predestinated to everlasting life and others foreordained to everlasting death. Those chosen to life were chosen in Christ before the world began, out of mere free grace, without any foreseeing of faith, good works or perseverance; the rest God passed by and ordained to dishonor and wrath for their sin.",
+      "at": "Westminster Confession 3.3-3.7"
+    },
+    {
+      "question": "Can salvation be lost?",
+      "answer": "No. Those whom God has accepted in his Beloved, effectually called and sanctified, can neither totally nor finally fall away from the state of grace but will persevere to the end and be eternally saved.",
+      "at": "Westminster Confession 17.1"
+    }
+  ],
+  "positions": {
+    "justification": {
+      "answer": "faith-alone",
+      "at": "Westminster Confession 11.1-11.2"
+    },
+    "election": {
+      "answer": "chosen-and-passed",
+      "at": "Westminster Confession 3.3-3.7"
+    },
+    "perseverance": {
+      "answer": "cannot-fall",
+      "at": "Westminster Confession 17.1"
+    }
+  },
+  "scripture": [
+    "Romans 3:24",
+    "Ephesians 2:8-9",
+    "Ephesians 1:4",
+    "Romans 9:11-18",
+    "Romans 8:30",
+    "1 Peter 1:5"
+  ],
+  "scriptureNote": "A selection of the proof texts printed with these chapters.",
+  "document": {
+    "title": "The Westminster Confession of Faith",
+    "section": "Chapter 3: Of God's Eternal Decree; Chapter 11: Of Justification; Chapter 17: Of the Perseverance of the Saints",
+    "issuer": "Presbyterian Church in America (holds the Westminster Standards); text of the Westminster Assembly",
+    "date": "1646 (Assembly); adopted by the PCA on its founding in 1973",
+    "url": "https://www.opc.org/wcf.html",
+    "edition": "Text read on The-Highway site (chapters 3, 11 and 17); the PCA's own copy has not been compared"
+  },
+  "rights": {
+    "status": "public-domain",
+    "note": "The Confession's wording dates from 1646. The edition read is a modern-spelling web copy; its rights are not separately confirmed, so only one sentence is quoted.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Chapters 3, 11 and 17 read in one web copy (the-highway.com) on 2026-11-12, including the proof texts for chapter 3. As with the earlier PCA entries, the PCA's own copy has not been compared. Other Reformed churches may state these differently; the RCA's Canons of Dort row is shown separately. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "reformation",
+    "late-medieval-church"
+  ],
+  "excerpt": {
+    "text": "Faith, thus receiving and resting on Christ and His righteousness, is the alone instrument of justification.",
+    "at": "Westminster Confession 11.2"
+  }
+}

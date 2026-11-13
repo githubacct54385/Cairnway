@@ -1,0 +1,59 @@
+{
+  "topic": "last-things",
+  "body": "catholic",
+  "summary": "The Catholic Church teaches that those who die in God's grace but still imperfectly purified are assured of salvation but undergo a purification after death, called Purgatory, to achieve the holiness needed for heaven. Hell exists and is eternal: those who die in mortal sin go to hell, whose chief punishment is eternal separation from God. The resurrection of all the dead, just and unjust, will precede the Last Judgment, which will come when Christ returns in glory. After it the righteous will reign forever with Christ, glorified in body and soul, and the universe itself will be renewed.",
+  "points": [
+    {
+      "question": "Is there a purification after death?",
+      "answer": "Yes. All who die in God's grace but imperfectly purified undergo a final purification, Purgatory, to reach the holiness needed to enter heaven; the Church offers prayer and the Eucharist for them.",
+      "at": "CCC 1030-1032"
+    },
+    {
+      "question": "What is the final state of the wicked?",
+      "answer": "Hell exists and is eternal: souls of those who die in mortal sin descend into hell, where the chief punishment is eternal separation from God.",
+      "at": "CCC 1035"
+    },
+    {
+      "question": "What happens when Christ returns?",
+      "answer": "The dead of both the just and the unjust will be raised before the Last Judgment, which comes when Christ returns in glory; afterwards the righteous reign with Christ forever and the universe is renewed.",
+      "at": "CCC 1038-1042"
+    }
+  ],
+  "positions": {
+    "purgatory": {
+      "answer": "purification",
+      "at": "CCC 1030-1032"
+    },
+    "final": {
+      "answer": "eternal-punishment",
+      "at": "CCC 1035"
+    },
+    "return": {
+      "answer": "return-and-judgment",
+      "at": "CCC 1038-1042"
+    }
+  },
+  "scripture": [],
+  "scriptureNote": "Passages the document cites.",
+  "document": {
+    "title": "Catechism of the Catholic Church",
+    "section": "Paragraphs 1030-1032 (purification), 1035 (hell), 1038-1042 and 1047 (resurrection, judgment, new heaven and earth)",
+    "issuer": "Catholic Church (Holy See)",
+    "date": "1992; typical edition 1997",
+    "url": "https://www.vatican.va/archive/ENG0015/__P3G.HTM",
+    "edition": "English text on the Holy See's website (IntraText edition)"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "The Catechism is published by the Holy See with copyright reserved. No quotation is used until permission for the specific edition is confirmed.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Paragraphs 1030-1032, 1035, 1038, 1040, 1042 and 1047 read in the Holy See's English text on 2026-11-12. The rest of the article on the last things (heaven, the particular judgment, indulgences) was not used. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "apostolic-age",
+    "reformation"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "topic": "scripture-authority",
+  "body": "umc",
+  "summary": "The United Methodist Church's Articles of Religion teach that Holy Scripture contains all things necessary to salvation, so that whatever is not read in it or provable by it is not to be required of anyone as an article of faith. The canonical books of the Old and New Testaments, of whose authority there was never any doubt, are named. The article does not say who interprets Scripture.",
+  "points": [
+    {
+      "question": "What is Scripture's authority?",
+      "answer": "It contains all things necessary to salvation; whatever is not read in it or proved by it is not to be required of anyone as an article of faith.",
+      "at": "Article V"
+    },
+    {
+      "question": "Which books?",
+      "answer": "The canonical books of the Old and New Testaments, of whose authority there was never any doubt, listed by name.",
+      "at": "Article V"
+    }
+  ],
+  "positions": {
+    "authority": {
+      "answer": "scripture-alone",
+      "at": "Article V"
+    },
+    "interpreter": {
+      "answer": "not-stated"
+    },
+    "canon": {
+      "answer": "protestant-canon",
+      "at": "Article V"
+    }
+  },
+  "scripture": [],
+  "scriptureNote": "The Articles of Religion do not print scripture references.",
+  "document": {
+    "title": "The Articles of Religion of the Methodist Church",
+    "section": "Article V: Of the Sufficiency of the Holy Scriptures for Salvation",
+    "issuer": "United Methodist Church",
+    "date": "1784 (John Wesley's revision of the Church of England's articles)",
+    "url": "https://www.umc.org/en/content/articles-of-religion",
+    "edition": "Text on umc.org, read 2026-11-12"
+  },
+  "rights": {
+    "status": "public-domain",
+    "note": "The article dates from 1784 and is long out of copyright. The UMC Book of Discipline as a whole is copyrighted and is not used.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Article V read on umc.org on 2026-11-12 (the list of books was read in part). The UMC's Confession of Faith and its Wesleyan teaching on Scripture, tradition, reason and experience, which give a fuller account, were not used. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "reformation",
+    "second-century"
+  ]
+}

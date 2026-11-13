@@ -1,0 +1,64 @@
+{
+  "topic": "salvation",
+  "body": "catholic",
+  "summary": "The Catholic Church teaches that justification is the work of God's grace: the grace of the Holy Spirit cleanses from sin and communicates the righteousness of God through faith in Jesus Christ and through Baptism. It is more than forgiveness; it is also sanctification and the renewal of the interior person, with faith, hope and charity poured into the heart. Grace requires the person's free response, and the Church speaks of man's collaboration and of merit that is first of all the gift of God. God predestines no one to hell; that takes a willful turning away from him, persisted in until the end. Mortal sin destroys charity and the state of grace and, unless repented of, excludes from Christ's kingdom.",
+  "points": [
+    {
+      "question": "How is a person justified?",
+      "answer": "By God's grace, which cleanses from sin and gives the righteousness of God through faith in Jesus Christ and Baptism. Justification is both the remission of sins and the sanctification and renewal of the interior person, and it is conferred in Baptism.",
+      "at": "CCC 1987-1992"
+    },
+    {
+      "question": "What part does the person play?",
+      "answer": "God's initiative demands a free response. Preparation for grace is itself a work of grace, and the Church speaks of collaboration with God in justification and sanctification. No one can merit the initial grace of justification, but afterwards one can merit graces for sanctification and eternal life, a merit that is first of all God's gift.",
+      "at": "CCC 2001-2002, 2008, 2010"
+    },
+    {
+      "question": "Did God choose who would be saved?",
+      "answer": "God's eternal plan of predestination includes each person's free response to his grace. God predestines no one to go to hell; for this a willful turning away from him (a mortal sin) is needed, persisted in until the end.",
+      "at": "CCC 600, 1037"
+    },
+    {
+      "question": "Can salvation be lost?",
+      "answer": "Yes, by mortal sin, which results in the loss of charity and sanctifying grace and, if not redeemed by repentance and God's forgiveness, in exclusion from Christ's kingdom and eternal death.",
+      "at": "CCC 1861"
+    }
+  ],
+  "positions": {
+    "justification": {
+      "answer": "cooperation",
+      "at": "CCC 1987-1992, 2001-2002"
+    },
+    "election": {
+      "answer": "open-to-all",
+      "at": "CCC 600, 1037"
+    },
+    "perseverance": {
+      "answer": "can-fall",
+      "at": "CCC 1861"
+    }
+  },
+  "scripture": [],
+  "scriptureNote": "Passages the document cites.",
+  "document": {
+    "title": "Catechism of the Catholic Church",
+    "section": "Paragraphs 600 and 1037 (God's plan and no one predestined to hell), 1861 (mortal sin) and 1987-2010 (grace, justification and merit)",
+    "issuer": "Catholic Church (Holy See)",
+    "date": "1992; typical edition 1997",
+    "url": "https://www.vatican.va/archive/ENG0015/__P3G.HTM",
+    "edition": "English text on the Holy See's website (IntraText edition)"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "The Catechism is published by the Holy See with copyright reserved. No quotation is used until permission for the specific edition is confirmed.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Paragraphs 600, 1037, 1861, 1987-1992, 1996-1998, 2000-2002, 2006, 2008 and 2010 read in the Holy See's English text on 2026-11-12. The rest of the article on grace and justification (including paragraphs on the Council of Trent's decree, 2003-2005, 2007, 2009 and 2011-2029), and the Catechism's teaching on predestination in other places, were not used. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "reformation",
+    "late-medieval-church"
+  ]
+}

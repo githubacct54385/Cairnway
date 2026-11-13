@@ -1,0 +1,67 @@
+{
+  "topic": "salvation",
+  "body": "lds",
+  "summary": "The Church of Jesus Christ of Latter-day Saints teaches, on its Gospel Topics page about salvation, that \"saved\" has several meanings: everyone is saved from physical death by the resurrection as a free gift, while salvation from sin and eternal life, or exaltation, depend on a person's choices. Through God's grace people can be saved from their sins as they repent and follow Jesus Christ. Cleansing from sin requires faith in Christ, repentance, baptism and receiving the Holy Ghost, and salvation from sin is conditional on continuing in faithfulness and keeping the commandments to the end; people cannot be saved in their sins. Exaltation also requires priesthood ordinances and covenants. The page does not address predestination or election.",
+  "points": [
+    {
+      "question": "How is a person saved from sin?",
+      "answer": "Through God's grace, as a person repents and follows Jesus Christ. Cleansing requires faith in Christ, repentance, baptism and receiving the Holy Ghost through proper priesthood authority; the page says people cannot be saved in their sins.",
+      "at": "Gospel Topics: Salvation"
+    },
+    {
+      "question": "What part do obedience and endurance play?",
+      "answer": "Salvation from sin is conditional on continuing in faithfulness and keeping God's commandments to the end. Exaltation, or eternal life, also requires making and keeping sacred covenants, and is received only after the Final Judgment.",
+      "at": "Gospel Topics: Salvation"
+    },
+    {
+      "question": "Does everyone receive some salvation?",
+      "answer": "Yes, in one sense: the resurrection from physical death comes to everyone as a free gift, and most people are also assured of salvation from the second death.",
+      "at": "Gospel Topics: Salvation"
+    }
+  ],
+  "positions": {
+    "justification": {
+      "answer": "cooperation",
+      "at": "Gospel Topics: Salvation",
+      "reading": true
+    },
+    "election": {
+      "answer": "not-stated"
+    },
+    "perseverance": {
+      "answer": "can-fall",
+      "at": "Gospel Topics: Salvation",
+      "reading": true
+    }
+  },
+  "scripture": [
+    "Romans 10:9-10",
+    "Acts 2:37-38",
+    "John 3:5",
+    "2 Nephi 25:23",
+    "Alma 11:36-37",
+    "Doctrine and Covenants 76:40-45"
+  ],
+  "scriptureNote": "Some of the passages the page cites; several come from the Book of Mormon and the Doctrine and Covenants.",
+  "document": {
+    "title": "Baptism (Gospel Topics, Topics and Questions)",
+    "section": "Gospel Topics: Salvation",
+    "issuer": "The Church of Jesus Christ of Latter-day Saints",
+    "date": "2023",
+    "url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/salvation?lang=eng",
+    "edition": "The church's own website, read through a summarizing tool on 2026-11-12"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "The page carries no separate rights statement; no quotation is used.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "The page was summarized by a reading tool and not read in full by a person or a second pass on 2026-11-12. \"Grace and cooperation\" and \"can be lost\" are our reading: the page ties salvation from sin to repentance, ordinances and enduring in faithfulness, but does not use those terms. Several passages it cites are from the church's additional scripture. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "reformation",
+    "late-medieval-church"
+  ]
+}

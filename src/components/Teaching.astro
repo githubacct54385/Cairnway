@@ -27,7 +27,7 @@ const label = voice ? `${body.data.name}: ${voice.label}` : body.data.name;
   {
     voice && (
       <p class="docline">
-        <strong>{voice.label}</strong> <span class="tag">{TIERS[voice.tier]}</span>
+        <strong>{voice.label}</strong> {voice.tier && <span class="tag">{TIERS[voice.tier]}</span>}
       </p>
     )
   }

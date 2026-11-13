@@ -1,0 +1,60 @@
+{
+  "topic": "scripture-authority",
+  "body": "church-of-england",
+  "summary": "The Church of England's Articles of Religion teach that Holy Scripture contains all things necessary to salvation, so that nothing not read in it or provable by it is to be required of anyone as an article of faith. The canonical books are named; the other books may be read for example of life but not to establish doctrine. Article XX gives the Church power to decree rites and authority in controversies of faith, but it may not ordain anything contrary to God's Word written or expound one place of Scripture so that it contradicts another. Article XXI says general councils may err.",
+  "points": [
+    {
+      "question": "What is Scripture's authority?",
+      "answer": "It contains all things necessary to salvation; whatever is not read in it or provable by it is not to be required of anyone as an article of faith.",
+      "at": "Article VI"
+    },
+    {
+      "question": "Who interprets it?",
+      "answer": "The Church has authority in controversies of faith, but may not decree anything contrary to God's Word written, and the Church is a witness and keeper of Holy Writ, not above it.",
+      "at": "Article XX"
+    },
+    {
+      "question": "Which books?",
+      "answer": "The canonical books of the Old and New Testaments, listed by name; the other books may be read for example of life and instruction of manners but not to establish doctrine.",
+      "at": "Article VI"
+    }
+  ],
+  "positions": {
+    "authority": {
+      "answer": "scripture-alone",
+      "at": "Article VI"
+    },
+    "interpreter": {
+      "answer": "scripture-interprets",
+      "at": "Articles XX, XXI",
+      "reading": true
+    },
+    "canon": {
+      "answer": "protestant-canon",
+      "at": "Article VI"
+    }
+  },
+  "scripture": [],
+  "scriptureNote": "The Articles of Religion do not print scripture references.",
+  "document": {
+    "title": "The Articles of Religion (Thirty-Nine Articles)",
+    "section": "Articles VI (Of the Sufficiency of the Holy Scriptures), XX (Of the Authority of the Church) and XXI (Of the Authority of General Councils)",
+    "issuer": "Church of England",
+    "date": "1571; printed in the Book of Common Prayer (1662)",
+    "url": "https://www.churchofengland.org/prayer-and-worship/worship-texts-and-resources/book-common-prayer/articles-religion",
+    "edition": "Articles of Religion as printed in the Episcopal Church's 1979 Prayer Book, on the Fordham Internet History Sourcebook (an American version of the Articles); the Church of England's own page was reached but its text was not retrieved"
+  },
+  "rights": {
+    "status": "public-domain",
+    "note": "The Articles date from 1571 and the wording is long out of copyright. The Church of England holds copyright in its modern editions, which are not used.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Articles VI and XX read in the Fordham copy on 2026-11-12; Article XXI, which says councils may err, was not read directly. \"Scripture itself\" is our reading of Articles XX and XXI, since the Church is given authority in controversies but only under Scripture. Not yet compared with the Church of England's own page; the Fordham copy is the American version. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "reformation",
+    "second-century"
+  ]
+}

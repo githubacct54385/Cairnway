@@ -1,0 +1,58 @@
+{
+  "topic": "salvation",
+  "body": "rca",
+  "summary": "The Canons of Dort, which the Reformed Church in America holds as one of its standards, teach that election is God's unchangeable purpose, made before the foundation of the world out of mere grace, by which he chose from the fallen human race a certain number of persons to redemption in Christ, though they were no better or more deserving than others, and decreed to give them faith, justification and sanctification. Not all are elected: others are passed by in the eternal decree and left in the misery they plunged themselves into, and are condemned for their unbelief and their other sins. The articles read do not address justification or perseverance in the terms of this topic.",
+  "points": [
+    {
+      "question": "Did God choose who would be saved?",
+      "answer": "Yes. Election is the unchangeable purpose of God, before the foundation of the world and out of mere grace, to choose from the fallen human race a certain number of persons to redemption in Christ, giving them faith, justification and sanctification, though they are by nature neither better nor more deserving.",
+      "at": "Canons of Dort, First Head, Article 7"
+    },
+    {
+      "question": "What of those not chosen?",
+      "answer": "Not all but some only are elected, while others are passed by in the eternal decree: God decreed to leave them in the common misery they wilfully plunged themselves into and not to give them saving faith, and to condemn them at last for the declaration of his justice, on account of their unbelief and their other sins.",
+      "at": "Canons of Dort, First Head, Article 15"
+    }
+  ],
+  "positions": {
+    "justification": {
+      "answer": "not-stated"
+    },
+    "election": {
+      "answer": "chosen-and-passed",
+      "at": "Canons of Dort, First Head, Articles 7, 15"
+    },
+    "perseverance": {
+      "answer": "not-stated"
+    }
+  },
+  "scripture": [
+    "Ephesians 1:4-6",
+    "Romans 9:11-24"
+  ],
+  "scriptureNote": "Passages commonly cited with these articles; the Canons' own references were not read.",
+  "document": {
+    "title": "The Canons of Dort",
+    "section": "First Head of Doctrine: Articles 7 (election) and 15 (reprobation)",
+    "issuer": "Reformed Church in America (holds the Canons of Dort as one of its standards)",
+    "date": "1619 (Synod of Dort); one of the RCA's doctrinal standards",
+    "url": "https://www.urcna.org/1656/custom/23903",
+    "edition": "English text on the United Reformed Churches' website; the RCA's own published copy has not been compared"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "The catechism is from 1563, but the English translation and edition are not confirmed, so no quotation is used.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Articles 7 and 15 of the First Head read on 2026-11-12 in the URCNA English text. The rest of the Canons, including the Fifth Head on the perseverance of the saints, which would answer the third question, was not read, so perseverance is left \"not stated\". The RCA's own copy and its adoption of the Canons are unchecked. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "reformation",
+    "late-medieval-church"
+  ],
+  "voice": {
+    "label": "Canons of Dort"
+  }
+}

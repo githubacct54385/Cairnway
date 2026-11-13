@@ -1,0 +1,58 @@
+{
+  "topic": "last-things",
+  "body": "assemblies-of-god",
+  "summary": "The Assemblies of God's Statement of Fundamental Truths teaches that the resurrection of those who have fallen asleep in Christ, and their translation together with the living at his coming, is the imminent and blessed hope of the Church. Christ's second coming includes the rapture of the saints, followed by his visible return with them to reign on the earth for one thousand years, bringing the salvation of national Israel and universal peace. After the millennium there is a final judgment in which the wicked dead are raised and judged by their works; whoever is not found in the Book of Life will be consigned to everlasting punishment in the lake of fire, the second death.",
+  "points": [
+    {
+      "question": "What is the final state of the wicked?",
+      "answer": "Those not found in the Book of Life, with the devil and his angels, will be consigned to everlasting punishment in the lake of fire, the second death.",
+      "at": "Fundamental Truth 15"
+    },
+    {
+      "question": "What happens when Christ returns?",
+      "answer": "The rapture of the saints, then Christ's visible return with them to reign on earth for one thousand years, bringing the salvation of national Israel and universal peace.",
+      "at": "Fundamental Truths 13-14"
+    }
+  ],
+  "positions": {
+    "purgatory": {
+      "answer": "not-stated"
+    },
+    "final": {
+      "answer": "eternal-punishment",
+      "at": "Fundamental Truth 15"
+    },
+    "return": {
+      "answer": "millennial-reign",
+      "at": "Fundamental Truth 14"
+    }
+  },
+  "scripture": [
+    "1 Thessalonians 4:16-17",
+    "Revelation 20:1-6",
+    "Matthew 25:46",
+    "Revelation 20:11-15"
+  ],
+  "scriptureNote": "References printed with Truths 13-15.",
+  "document": {
+    "title": "Statement of Fundamental Truths",
+    "section": "Truths 13 (The Blessed Hope), 14 (The Millennial Reign of Christ) and 15 (The Final Judgment)",
+    "issuer": "General Council of the Assemblies of God (USA)",
+    "date": "Adopted 1916 (from general knowledge, unchecked); baptism wording as quoted in a 2017 AG lesson",
+    "url": "https://ag.org/Beliefs/Statement-of-Fundamental-Truths",
+    "edition": "Text of the Statement of Fundamental Truths on the creeds.net website (a PDF copy); the ag.org page returned an access error and was not read"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "No rights statement found for the Statement of Fundamental Truths, so no quotation is used.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Truths 13-15 read in the creeds.net copy on 2026-11-12; that copy's date and match to the current official wording are unchecked. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "apostolic-age",
+    "reformation"
+  ]
+}

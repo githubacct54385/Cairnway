@@ -1,0 +1,60 @@
+{
+  "topic": "salvation",
+  "body": "mennonite-church-usa",
+  "summary": "The Confession of Faith in a Mennonite Perspective teaches that through Jesus' life, death and resurrection God offers salvation from sin and a new way of life to all people, received when we repent of sin and accept Jesus Christ as Savior and Lord. We are saved by God's grace, not by our own merits. The Holy Spirit moves people to accept the gift, and God brings people into right relationship without coercion; the response includes yielding to grace, placing full trust in God, repenting, turning from evil, joining the fellowship of the redeemed and showing the obedience of faith. The article does not address election in the traditional terms or whether believers can fall away.",
+  "points": [
+    {
+      "question": "How is a person saved?",
+      "answer": "By God's grace and not by our own merits. We receive salvation when we repent and accept Jesus Christ as Savior and Lord; the response includes yielding to grace, trusting God alone, repenting, turning from evil, joining the fellowship of the redeemed and showing the obedience of faith.",
+      "at": "Article 8: Salvation"
+    },
+    {
+      "question": "Who is offered salvation?",
+      "answer": "All people: through Jesus' life, death and resurrection God offers salvation from sin and a new way of life to all, and God brings people into right relationship without coercion.",
+      "at": "Article 8: Salvation"
+    }
+  ],
+  "positions": {
+    "justification": {
+      "answer": "grace-through-faith",
+      "at": "Article 8: Salvation"
+    },
+    "election": {
+      "answer": "open-to-all",
+      "at": "Article 8: Salvation",
+      "reading": true
+    },
+    "perseverance": {
+      "answer": "not-stated"
+    }
+  },
+  "scripture": [
+    "Ephesians 2:8-9",
+    "Romans 3:24-25",
+    "Romans 5:6-10",
+    "John 3:16",
+    "Romans 1:5"
+  ],
+  "scriptureNote": "A selection of the references printed with Article 8.",
+  "document": {
+    "title": "Confession of Faith in a Mennonite Perspective",
+    "section": "Article 8: Salvation",
+    "issuer": "Mennonite Church USA",
+    "date": "1995 (from general knowledge, unchecked)",
+    "url": "https://www.mennoniteusa.org/who-are-mennonites/what-we-believe/confession-of-faith/salvation/",
+    "edition": "Text on mennoniteusa.org, read in full on 2026-11-12. The confession is also published by MennoMedia"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "The confession is published by MennoMedia and the site states no reuse permission, so no quotation is used.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Article 8 read in full on mennoniteusa.org on 2026-11-12; its commentary was read only in part. \"Offered to all\" is our reading, since the article says salvation is offered to all and received without coercion but does not discuss election. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "reformation",
+    "late-medieval-church"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "topic": "scripture-authority",
+  "body": "sbc",
+  "summary": "The Southern Baptist Convention's Baptist Faith and Message (2000) teaches that the Bible is God's revelation, written by people under divine inspiration, totally true and trustworthy, and the final standard by which human conduct, creeds and religious opinions should be tested. All Scripture is a testimony to Christ. The article does not list the books of Scripture or set out a method of interpretation.",
+  "points": [
+    {
+      "question": "What is Scripture's authority?",
+      "answer": "The Bible is totally true and trustworthy and is the supreme standard by which human conduct, creeds and religious opinions should be tested.",
+      "at": "Article I"
+    }
+  ],
+  "positions": {
+    "authority": {
+      "answer": "scripture-alone",
+      "at": "Article I"
+    },
+    "interpreter": {
+      "answer": "not-stated"
+    },
+    "canon": {
+      "answer": "not-stated"
+    }
+  },
+  "scripture": [
+    "2 Timothy 3:15-17",
+    "2 Peter 1:19-21"
+  ],
+  "scriptureNote": "Two of the passages listed with Article I.",
+  "document": {
+    "title": "The Baptist Faith and Message 2000",
+    "section": "Article I: The Scriptures",
+    "issuer": "Southern Baptist Convention",
+    "date": "2000",
+    "url": "https://bfm.sbc.net/bfm2000/",
+    "edition": "The SBC's own site"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "The SBC site carries a copyright notice and no stated reuse permission, so no quotation is used.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Article I was summarized by a reading tool on 2026-11-12 and not read in full by a person or a second pass. Baptist churches govern themselves, so this speaks for the SBC only. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "reformation",
+    "second-century"
+  ]
+}

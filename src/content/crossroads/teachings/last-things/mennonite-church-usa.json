@@ -1,0 +1,48 @@
+{
+  "topic": "last-things",
+  "body": "mennonite-church-usa",
+  "summary": "The Confession of Faith in a Mennonite Perspective teaches God's final victory, the end of this present age of struggle between good and evil, the resurrection of the dead, and a new heaven and new earth where the people of God will reign with Christ in justice, righteousness and peace. The church is called to live now as a foretaste of that coming reign. The opening of the article read does not describe purification after death, the final state of the wicked, or a millennium.",
+  "points": [
+    {
+      "question": "What do believers hope for?",
+      "answer": "God's final victory, the resurrection of the dead, and a new heaven and new earth in which the people of God reign with Christ in justice, righteousness and peace.",
+      "at": "Article 24: The Reign of God"
+    }
+  ],
+  "positions": {
+    "purgatory": {
+      "answer": "not-stated"
+    },
+    "final": {
+      "answer": "not-stated"
+    },
+    "return": {
+      "answer": "not-stated"
+    }
+  },
+  "scripture": [
+    "Revelation 21"
+  ],
+  "scriptureNote": "Not read; the article's printed references were not retrieved.",
+  "document": {
+    "title": "Confession of Faith in a Mennonite Perspective",
+    "section": "Article 24: The Reign of God",
+    "issuer": "Mennonite Church USA",
+    "date": "1995 (from general knowledge, unchecked)",
+    "url": "https://www.mennoniteusa.org/who-are-mennonites/what-we-believe/confession-of-faith/the-reign-of-god/",
+    "edition": "Text on mennoniteusa.org, read in full on 2026-11-12. The confession is also published by MennoMedia"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "The confession is published by MennoMedia and the site states no reuse permission, so no quotation is used.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "The opening of Article 24 read on mennoniteusa.org on 2026-11-12; the rest of the article and its commentary were not read. The article number comes from the confession's order and was not read on the page. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "apostolic-age",
+    "reformation"
+  ]
+}

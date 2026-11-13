@@ -1,0 +1,69 @@
+{
+  "topic": "salvation",
+  "body": "church-of-england",
+  "summary": "The Church of England's Articles of Religion teach that we are accounted righteous before God only for the merit of Christ, by faith, and not for our own works or deservings, so that we are justified by faith only. Good works are the fruits of faith, pleasing to God but unable to put away our sins. Article XVII says predestination to life is God's everlasting purpose, before the foundations of the world, to deliver from curse and damnation those he has chosen in Christ out of mankind; it speaks of the comfort of the doctrine for the godly and warns against its use by curious and carnal persons. Article XVI says that after receiving the Holy Ghost we may depart from grace given, fall into sin, and by God's grace rise again.",
+  "points": [
+    {
+      "question": "How is a person justified?",
+      "answer": "We are accounted righteous before God only for the merit of Christ, by faith, and not for our own works or deservings; that we are justified by faith only is a most wholesome doctrine and very full of comfort.",
+      "at": "Article XI"
+    },
+    {
+      "question": "What of good works?",
+      "answer": "They are fruits of faith and follow after justification; they cannot put away our sins or stand the severity of God's judgment, yet they are pleasing to God in Christ and spring from a true and lively faith.",
+      "at": "Article XII"
+    },
+    {
+      "question": "Did God choose who would be saved?",
+      "answer": "Predestination to life is God's everlasting purpose, made before the foundations of the world, to deliver from curse and damnation those he has chosen in Christ out of mankind, and bring them to everlasting salvation. The chosen are called, justified freely, adopted and made like Christ.",
+      "at": "Article XVII"
+    },
+    {
+      "question": "Can salvation be lost?",
+      "answer": "After receiving the Holy Ghost we may depart from grace given, fall into sin, and by God's grace rise again and amend our lives; repentance is not to be denied to those who fall after baptism. Those who say they can no more sin are condemned.",
+      "at": "Article XVI"
+    }
+  ],
+  "positions": {
+    "justification": {
+      "answer": "faith-alone",
+      "at": "Article XI"
+    },
+    "election": {
+      "answer": "chosen-for-life",
+      "at": "Article XVII"
+    },
+    "perseverance": {
+      "answer": "can-fall",
+      "at": "Article XVI",
+      "reading": true
+    }
+  },
+  "scripture": [],
+  "scriptureNote": "The Articles of Religion do not print scripture references.",
+  "document": {
+    "title": "The Articles of Religion (Thirty-Nine Articles)",
+    "section": "Articles XI (Of the Justification of Man), XII (Of Good Works), XVI (Of Sin after Baptism) and XVII (Of Predestination and Election)",
+    "issuer": "Church of England",
+    "date": "1571; printed in the Book of Common Prayer (1662)",
+    "url": "https://www.churchofengland.org/prayer-and-worship/worship-texts-and-resources/book-common-prayer/articles-religion",
+    "edition": "Articles of Religion as printed in the Episcopal Church's 1979 Prayer Book, on the Fordham Internet History Sourcebook. This American version differs from the Church of England's own text in places (for example Article XXXVI); Articles XI, XII, XVI and XVII read the same. The Church of England's own page was reached but its text was not retrieved"
+  },
+  "rights": {
+    "status": "public-domain",
+    "note": "The Articles date from 1571 and the wording is long out of copyright. The Church of England holds copyright in its modern editions, which are not used.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Articles XI, XII, XVI and XVII read in the Fordham Sourcebook's copy (the Episcopal Church's American version of the Articles) on 2026-11-12 and not yet compared with the Church of England's own page. The Article's \"depart from grace given\" is taken here as meaning grace can be lost, which is our reading, since the Article speaks of falling into sin and rising again. Article XVII's concluding warnings were not read in full. Other Anglican churches, including the ACNA, state this in their own documents. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "reformation",
+    "late-medieval-church"
+  ],
+  "excerpt": {
+    "text": "That we are justified by Faith only, is a most wholesome Doctrine, and very full of comfort.",
+    "at": "Article XI"
+  }
+}

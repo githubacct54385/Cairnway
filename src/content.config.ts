@@ -140,7 +140,7 @@ const teachings = defineCollection({
     voice: z
       .object({
         label: z.string(), // for example "Longer Catechism (Russian Church)"
-        tier: z.enum(['conciliar', 'synodical-confession', 'single-church-catechism', 'jurisdictional-statement']),
+        tier: z.enum(['conciliar', 'synodical-confession', 'single-church-catechism', 'jurisdictional-statement']).optional(),
       })
       .optional(),
     // One position per question in the topic. "not-stated" means the document used does not address it; it is

@@ -1,0 +1,55 @@
+{
+  "topic": "church-ministry",
+  "body": "rca",
+  "summary": "The Belgic Confession, which the Reformed Church in America holds as one of its standards, has articles on the catholic Christian church, the marks of the true church, the government of the church and its offices, and the ministers, elders and deacons. Only the article titles were read.",
+  "points": [
+    {
+      "question": "How is the church governed?",
+      "answer": "Article 31 is titled \"The Ministers, Elders, and Deacons\", and Article 30 \"The Government of the Church and its Offices\".",
+      "at": "Belgic Confession, Articles 30-31 (titles)"
+    },
+    {
+      "question": "Where is the true church?",
+      "answer": "Article 27 is titled \"The Catholic Christian Church\" and Article 29 \"The Marks of the True Church, and Wherein it Differs from the False Church\".",
+      "at": "Belgic Confession, Articles 27, 29 (titles)"
+    }
+  ],
+  "positions": {
+    "governance": {
+      "answer": "elders",
+      "at": "Belgic Confession, Articles 30-31",
+      "reading": true
+    },
+    "ordination": {
+      "answer": "not-stated"
+    },
+    "truechurch": {
+      "answer": "gospel-and-sacraments",
+      "at": "Belgic Confession, Articles 27, 29",
+      "reading": true
+    }
+  },
+  "scripture": [],
+  "scriptureNote": "Passages the document cites.",
+  "document": {
+    "title": "The Belgic Confession",
+    "section": "Articles 27-32 (the church, its government and offices), read as titles only",
+    "issuer": "Reformed Church in America (holds the Belgic Confession as one of its standards)",
+    "date": "1561; one of the RCA's doctrinal standards",
+    "url": "https://www.urcna.org/1656/custom/23901",
+    "edition": "English text on the United Reformed Churches' website; the RCA's own copy has not been compared"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "The catechism is from 1563, but the English translation and edition are not confirmed, so no quotation is used.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Only the table of contents of the Belgic Confession was read on 2026-11-12; the text of Articles 27-32 was not, so both answers rest on the article titles and are our reading. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "apostolic-age",
+    "second-century"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "topic": "scripture-authority",
+  "body": "acna",
+  "summary": "The Anglican Church in North America's catechism teaches that Holy Scripture is God's Word written, given by the Holy Spirit through prophets and apostles, and is the Church's final authority in all matters of faith and practice. The thirty-nine Old Testament and twenty-seven New Testament books form the whole of Scripture. The fourteen books of the Apocrypha may be read for example of life and instruction of manners but not to establish doctrine.",
+  "points": [
+    {
+      "question": "What is Scripture's authority?",
+      "answer": "Holy Scripture is God's Word written and the Church's final authority in all matters of faith and practice.",
+      "at": "Catechism (2016 draft), Q. 26"
+    },
+    {
+      "question": "Which books?",
+      "answer": "The thirty-nine books of the Old Testament and twenty-seven of the New. The fourteen books of the Apocrypha may be read for example of life but not to establish any doctrine.",
+      "at": "Catechism (2016 draft), Q. 27, 37"
+    }
+  ],
+  "positions": {
+    "authority": {
+      "answer": "scripture-alone",
+      "at": "Catechism (2016 draft), Q. 26"
+    },
+    "interpreter": {
+      "answer": "not-stated"
+    },
+    "canon": {
+      "answer": "protestant-canon",
+      "at": "Catechism (2016 draft), Q. 27, 37"
+    }
+  },
+  "scripture": [
+    "2 Timothy 3:16"
+  ],
+  "scriptureNote": "Passage the catechism cites with these questions.",
+  "document": {
+    "title": "To Be a Christian: An Anglican Catechism",
+    "section": "Questions 26-31 and 37 (Holy Scripture) in the text read",
+    "issuer": "Anglican Church in North America",
+    "date": "2016 draft; approved edition published 2020",
+    "url": "https://anglicanchurch.net/catechism/",
+    "edition": "The 2016 text posted on the ACNA's website (PDF). The 2020 published edition may differ in wording and numbering"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "The catechism is a recent copyrighted work, so no quotation is used.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Questions 26-28 and 37 read in the 2016 draft on 2026-11-12; the approved 2020 edition may differ. How the Church interprets Scripture was not read, so that cell is \"not stated\". Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "reformation",
+    "second-century"
+  ]
+}

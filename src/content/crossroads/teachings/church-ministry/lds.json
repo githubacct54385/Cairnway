@@ -1,0 +1,57 @@
+{
+  "topic": "church-ministry",
+  "body": "lds",
+  "summary": "The Church of Jesus Christ of Latter-day Saints teaches in its Articles of Faith that a person must be called of God by prophecy and by the laying on of hands by those in authority, and that the church has the same organization as the primitive church: apostles, prophets, pastors, teachers and evangelists. Its Gospel Topics page on priesthood says priesthood authority was lost after the first apostles and restored to Joseph Smith, that the senior living Apostle, the President of the Church, alone exercises all priesthood keys, and that men have the responsibility to administer the priesthood while women share in its work.",
+  "points": [
+    {
+      "question": "How is the church governed?",
+      "answer": "The church has the same organization as the primitive church, with apostles, prophets, pastors, teachers and evangelists. The President of the Church, the senior Apostle, is the only person authorized to exercise all priesthood keys.",
+      "at": "Articles of Faith 6; Gospel Topics: Priesthood"
+    },
+    {
+      "question": "Who may hold the priesthood?",
+      "answer": "The page says men have the responsibility to administer the priesthood, with wives as equal partners and women sharing in its work.",
+      "at": "Gospel Topics: Priesthood"
+    }
+  ],
+  "positions": {
+    "governance": {
+      "answer": "apostles-prophets",
+      "at": "Articles of Faith 6; Gospel Topics: Priesthood"
+    },
+    "ordination": {
+      "answer": "men-only",
+      "at": "Gospel Topics: Priesthood",
+      "reading": true
+    },
+    "truechurch": {
+      "answer": "not-stated"
+    }
+  },
+  "scripture": [
+    "Doctrine and Covenants 107:1-5",
+    "Alma 13:7-8"
+  ],
+  "scriptureNote": "Some of the passages the page cites, from the church's additional scripture.",
+  "document": {
+    "title": "Articles of Faith and Priesthood (Gospel Topics)",
+    "section": "Articles of Faith 5 and 6; Gospel Topics: Priesthood",
+    "issuer": "The Church of Jesus Christ of Latter-day Saints",
+    "date": "2023",
+    "url": "https://www.churchofjesuschrist.org/study/scriptures/pgp/a-of-f/1?lang=eng",
+    "edition": "The church's own website, read through a summarizing tool on 2026-11-12"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "The page carries no separate rights statement; no quotation is used.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "The Articles of Faith and the Priesthood page were summarized by a reading tool on 2026-11-12 and not read in full by a person or a second pass. \"Men only\" is our reading: the page says men have the responsibility to administer the priesthood but also that women share in its work. The church's claim to be the only true church was seen only as an index title and was not read, so that cell is \"not stated\". Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "apostolic-age",
+    "second-century"
+  ]
+}

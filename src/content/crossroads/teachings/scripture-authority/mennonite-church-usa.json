@@ -1,0 +1,56 @@
+{
+  "topic": "scripture-authority",
+  "body": "mennonite-church-usa",
+  "summary": "The Confession of Faith in a Mennonite Perspective says all Scripture is inspired by God through the Holy Spirit for instruction in salvation and training in righteousness, and that Mennonites accept it as the Word of God and the fully reliable and trustworthy standard for Christian faith and life. It says Scripture is to be understood and interpreted in harmony with Jesus Christ as the church is led by the Holy Spirit. The text read does not list the books of Scripture.",
+  "points": [
+    {
+      "question": "What is Scripture's authority?",
+      "answer": "The Word of God and the fully reliable and trustworthy standard for Christian faith and life.",
+      "at": "Article 4: Scripture"
+    },
+    {
+      "question": "Who interprets it?",
+      "answer": "Scripture is to be understood and interpreted in harmony with Jesus Christ, as the church is led by the Holy Spirit.",
+      "at": "Article 4: Scripture"
+    }
+  ],
+  "positions": {
+    "authority": {
+      "answer": "scripture-alone",
+      "at": "Article 4: Scripture",
+      "reading": true
+    },
+    "interpreter": {
+      "answer": "community",
+      "at": "Article 4: Scripture"
+    },
+    "canon": {
+      "answer": "not-stated"
+    }
+  },
+  "scripture": [
+    "2 Timothy 3:16"
+  ],
+  "scriptureNote": "The opening reference of the article, partly read.",
+  "document": {
+    "title": "Confession of Faith in a Mennonite Perspective",
+    "section": "Article 4: Scripture",
+    "issuer": "Mennonite Church USA",
+    "date": "1995 (from general knowledge, unchecked)",
+    "url": "https://www.mennoniteusa.org/who-are-mennonites/what-we-believe/confession-of-faith/scripture/",
+    "edition": "Text on mennoniteusa.org, read in full on 2026-11-12. The confession is also published by MennoMedia"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "The confession is published by MennoMedia and the site states no reuse permission, so no quotation is used.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Article 4 read in the opening on mennoniteusa.org on 2026-11-12. \"Scripture alone\" is our reading: the article calls Scripture the trustworthy standard and does not compare it with tradition. The commentary was not read. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "reformation",
+    "second-century"
+  ]
+}

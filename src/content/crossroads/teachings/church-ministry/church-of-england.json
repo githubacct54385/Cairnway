@@ -1,0 +1,54 @@
+{
+  "topic": "church-ministry",
+  "body": "church-of-england",
+  "summary": "The Church of England's Articles of Religion teach that the visible Church of Christ is a congregation of faithful men in which the pure Word of God is preached and the sacraments duly ministered; the Church of Rome, like those of Jerusalem, Alexandria and Antioch, has erred. No one may take on the office of public preaching or ministering the sacraments unless lawfully called. Article XXXVI, in the version read, says the Book of Consecration of Bishops and Ordering of Priests and Deacons contains all things necessary for ordination, so that those ordered by it are lawfully ordained.",
+  "points": [
+    {
+      "question": "Where is the true church?",
+      "answer": "The visible Church is a congregation of faithful men in which the pure Word of God is preached and the sacraments duly ministered according to Christ's ordinance. Particular churches, including Rome, have erred.",
+      "at": "Article XIX"
+    },
+    {
+      "question": "How is the church governed?",
+      "answer": "By bishops, priests and deacons: the Articles speak of the consecration of bishops and the ordering of priests and deacons, and say no one may preach or minister the sacraments unless lawfully called.",
+      "at": "Articles XXIII, XXXVI"
+    }
+  ],
+  "positions": {
+    "governance": {
+      "answer": "bishops",
+      "at": "Article XXXVI",
+      "reading": true
+    },
+    "ordination": {
+      "answer": "not-stated"
+    },
+    "truechurch": {
+      "answer": "gospel-and-sacraments",
+      "at": "Article XIX"
+    }
+  },
+  "scripture": [],
+  "scriptureNote": "The Articles of Religion do not print scripture references.",
+  "document": {
+    "title": "The Articles of Religion (Thirty-Nine Articles)",
+    "section": "Articles XIX (Of the Church), XXIII (Of Ministering in the Congregation) and XXXVI (Of Consecration of Bishops and Ministers)",
+    "issuer": "Church of England",
+    "date": "1571; printed in the Book of Common Prayer (1662)",
+    "url": "https://www.churchofengland.org/prayer-and-worship/worship-texts-and-resources/book-common-prayer/articles-religion",
+    "edition": "Articles of Religion as printed in the Episcopal Church's 1979 Prayer Book, on the Fordham Internet History Sourcebook. This American version's Article XXXVI refers to the 1792 General Convention; the Church of England's text differs and was not retrieved"
+  },
+  "rights": {
+    "status": "public-domain",
+    "note": "The Articles date from 1571 and the wording is long out of copyright. The Church of England holds copyright in its modern editions, which are not used.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Articles XIX and XXXVI read in the Fordham copy, the American version, on 2026-11-12; Article XXIII was read only in its opening. \"Bishops\" is our reading of Article XXXVI, which speaks of the forms of consecrating bishops and ordering priests and deacons. Not yet compared with the Church of England's own page. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "apostolic-age",
+    "second-century"
+  ]
+}

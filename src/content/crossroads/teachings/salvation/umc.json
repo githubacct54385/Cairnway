@@ -1,0 +1,68 @@
+{
+  "topic": "salvation",
+  "body": "umc",
+  "summary": "The United Methodist Church's Articles of Religion teach that after the fall a person cannot turn to faith and call on God by their own natural strength; without God's grace going before, there is no power to do works pleasing to God. We are accounted righteous before God only for the merit of Christ, by faith, and not for our own works; that we are justified by faith only is a most wholesome doctrine. Good works are the fruits of faith, pleasing to God but unable to put away our sins. After we have received the Holy Ghost we may depart from grace given and fall into sin, and by God's grace rise again. The articles read do not address election.",
+  "points": [
+    {
+      "question": "How is a person justified?",
+      "answer": "We are accounted righteous before God only for the merit of Christ, by faith, and not for our own works or deservings; justified by faith only is a most wholesome doctrine and very full of comfort.",
+      "at": "Article IX"
+    },
+    {
+      "question": "Can a person turn to God unaided?",
+      "answer": "No: since the fall a person cannot prepare themselves by natural strength and works to faith and calling on God, and needs God's grace going before and working with them.",
+      "at": "Article VIII"
+    },
+    {
+      "question": "What of good works?",
+      "answer": "They are the fruits of faith, pleasing to God in Christ, but they cannot put away our sins or stand God's judgment.",
+      "at": "Article X"
+    },
+    {
+      "question": "Can salvation be lost?",
+      "answer": "After we have received the Holy Ghost we may depart from grace given and fall into sin, and by God's grace rise again and amend our lives; those who deny repentance to the fallen, or say they can no more sin, are condemned.",
+      "at": "Article XII"
+    }
+  ],
+  "positions": {
+    "justification": {
+      "answer": "faith-alone",
+      "at": "Article IX"
+    },
+    "election": {
+      "answer": "not-stated"
+    },
+    "perseverance": {
+      "answer": "can-fall",
+      "at": "Article XII",
+      "reading": true
+    }
+  },
+  "scripture": [],
+  "scriptureNote": "The Articles of Religion do not print scripture references.",
+  "document": {
+    "title": "The Articles of Religion of the Methodist Church",
+    "section": "Articles VIII (Of Free Will), IX (Of the Justification of Man), X (Of Good Works) and XII (Of Sin After Justification)",
+    "issuer": "United Methodist Church",
+    "date": "1784 (John Wesley's revision of the Church of England's articles)",
+    "url": "https://www.umc.org/en/content/articles-of-religion",
+    "edition": "Text on umc.org, read 2026-11-12"
+  },
+  "rights": {
+    "status": "public-domain",
+    "note": "The article dates from 1784 and is long out of copyright. The UMC Book of Discipline as a whole is copyrighted and is not used.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Articles VIII-XII read on umc.org on 2026-11-12. \"Can be lost\" is our reading, since the article says we may depart from grace given and fall into sin and rise again. The Articles are silent on election; the UMC's Confession of Faith and Wesleyan teaching on prevenient grace and free will, which would likely place it with \"offered to all\", were not used. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "reformation",
+    "late-medieval-church"
+  ],
+  "excerpt": {
+    "text": "That we are justified by faith, only, is a most wholesome doctrine, and very full of comfort.",
+    "at": "Article IX"
+  }
+}

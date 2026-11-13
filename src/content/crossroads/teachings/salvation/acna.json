@@ -1,0 +1,64 @@
+{
+  "topic": "salvation",
+  "body": "acna",
+  "summary": "The Anglican Church in North America's catechism teaches that people cannot mend their broken relationship with God, since sin has corrupted the conscience and captured the will, and that God saves by grace, his undeserved love given through Jesus. The proper response is repentance, turning from sin, and faith, which means believing the gospel, trusting Jesus as Savior and obeying him as Lord. Salvation brings reconciliation, forgiveness, adoption, union with Christ, new life in the Spirit and the promise of eternal life; God then transforms the believer over time. The catechism says God offers forgiveness and salvation to all people. The text read does not speak of election or of whether believers can fall away.",
+  "points": [
+    {
+      "question": "Can a person save themselves?",
+      "answer": "No. Sin has corrupted the conscience and captured the will; only God can save.",
+      "at": "Catechism (2016 draft), Q. 5"
+    },
+    {
+      "question": "How does God save?",
+      "answer": "By grace, his undeserved love given in and through Jesus. The response is to repent and put faith in Jesus as Savior and Lord; faith means believing the gospel, entrusting oneself to him as Savior and obeying him as Lord.",
+      "at": "Catechism (2016 draft), Q. 8, 11-13"
+    },
+    {
+      "question": "Who is offered salvation?",
+      "answer": "In his mercy God offers forgiveness and salvation from sin to all people through the life, death and resurrection of Jesus.",
+      "at": "Catechism (2016 draft), Q. 134"
+    }
+  ],
+  "positions": {
+    "justification": {
+      "answer": "grace-through-faith",
+      "at": "Catechism (2016 draft), Q. 8, 11-13"
+    },
+    "election": {
+      "answer": "open-to-all",
+      "at": "Catechism (2016 draft), Q. 134",
+      "reading": true
+    },
+    "perseverance": {
+      "answer": "not-stated"
+    }
+  },
+  "scripture": [
+    "Ephesians 2:1-9",
+    "John 3:16",
+    "Romans 10:9-10",
+    "Acts 16:31"
+  ],
+  "scriptureNote": "Passages the catechism cites with these questions.",
+  "document": {
+    "title": "To Be a Christian: An Anglican Catechism",
+    "section": "The Salvation section (Questions 1-18) and Question 134 in the text read (the published edition numbers them differently)",
+    "issuer": "Anglican Church in North America",
+    "date": "2016 draft; approved edition published 2020",
+    "url": "https://anglicanchurch.net/catechism/",
+    "edition": "The 2016 text posted on the ACNA's website (PDF). The 2020 published edition may differ in wording and numbering"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "The catechism is a recent copyrighted work, so no quotation is used.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Questions 1-18 and 133-134 read in the 2016 draft on 2026-11-12; the approved 2020 edition may differ. \"Offered to all\" is our reading: the catechism says salvation is offered to all but does not discuss election or whether response is part of God's plan. The ACNA also holds the Articles of Religion, whose Articles XI and XVII are the Church of England's and were not used for this row. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "reformation",
+    "late-medieval-church"
+  ]
+}
