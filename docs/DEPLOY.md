@@ -88,7 +88,8 @@ Two more secrets make it easy to see who sent each report. Both are optional: wi
 
 - **`/admin/` (reports page).** Lists every report with its issue link, kind, page, environment and the reporter's contact.
   Set a long random passcode: `npx wrangler versions secret put ADMIN_PASSCODE`. Without it `/admin/` answers "Not found".
-  Sign-in lasts 12 hours and is limited to 10 tries per 15 minutes per connection. This is a stop-gap: once the site has a
+  The page asks GitHub (with the same token) whether each report's issue is open or closed and shows open ones by default, with
+  Closed and All tabs; if GitHub cannot be reached it lists everything. Sign-in lasts 12 hours and is limited to 10 tries per 15 minutes per connection. This is a stop-gap: once the site has a
   domain, put `/admin/` behind Cloudflare Access (so invited reviewers can use it) and remove the passcode.
 - **Email notification (Resend).** Each report emails you the issue link and the reporter's contact. If they gave an email,
   Reply-To is their address, so you can answer from your mail app. Create a free Resend account, create an API key, then set
