@@ -2,4 +2,5 @@
 # (see "prelaunch" in src/config.ts), so search engines will not list it. At launch, flip that flag.
 User-agent: *
 Allow: /
+Disallow: /history/review/
 Disallow: /review/

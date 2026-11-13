@@ -1,7 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
-import Base from '../../layouts/Base.astro';
-import EraMap from '../../components/EraMap.astro';
+import Base from '../../../layouts/Base.astro';
+import EraMap from '../../../components/EraMap.astro';
 import type { ComponentProps } from 'astro/types';
 
 export async function getStaticPaths() {
@@ -22,7 +22,7 @@ type MapId = ComponentProps<typeof EraMap>['id'];
 
 <Base title={title} description={summary}>
   <article class="wrap page">
-    <p class="meta"><a href="/">All eras</a></p>
+    <p class="meta"><a href="/history/">All eras</a></p>
     <h1>{title}</h1>
     <p class="meta">{dateRange}</p>
     <p>{summary}</p>
@@ -54,8 +54,8 @@ type MapId = ComponentProps<typeof EraMap>['id'];
     }
 
     <nav class="era-jump" aria-label="Previous and next eras, at the top">
-      {prevEra ? <a href={`/eras/${prevEra.id}/`}>← {prevEra.data.title}</a> : <span />}
-      {nextEra ? <a href={`/eras/${nextEra.id}/`}>{nextEra.data.title} →</a> : <span />}
+      {prevEra ? <a href={`/history/eras/${prevEra.id}/`}>← {prevEra.data.title}</a> : <span />}
+      {nextEra ? <a href={`/history/eras/${nextEra.id}/`}>{nextEra.data.title} →</a> : <span />}
     </nav>
 
     <nav class="on-page" aria-label="On this page">
@@ -163,7 +163,7 @@ type MapId = ComponentProps<typeof EraMap>['id'];
             ))}
           </ul>
           <p class="meta">
-            See <a href="/sources/">Sources and permissions</a> for the full list.
+            See <a href="/history/sources/">Sources and permissions</a> for the full list.
           </p>
         </section>
       )
@@ -171,7 +171,7 @@ type MapId = ComponentProps<typeof EraMap>['id'];
     <nav class="era-nav" aria-label="Previous and next eras">
       {
         prevEra ? (
-          <a class="era-nav-prev" href={`/eras/${prevEra.id}/`}>
+          <a class="era-nav-prev" href={`/history/eras/${prevEra.id}/`}>
             <span class="meta">Previous era</span>
             {prevEra.data.title}
           </a>
@@ -181,7 +181,7 @@ type MapId = ComponentProps<typeof EraMap>['id'];
       }
       {
         nextEra ? (
-          <a class="era-nav-next" href={`/eras/${nextEra.id}/`}>
+          <a class="era-nav-next" href={`/history/eras/${nextEra.id}/`}>
             <span class="meta">Next era</span>
             {nextEra.data.title}
           </a>
