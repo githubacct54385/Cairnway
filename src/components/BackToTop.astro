@@ -1,0 +1,42 @@
+---
+// A floating "Back to top" button that appears after scrolling down.
+---
+
+<button type="button" class="to-top" data-to-top hidden>Back to top</button>
+
+<script>
+  const toTop = document.querySelector<HTMLButtonElement>('[data-to-top]');
+  if (toTop) {
+    const update = () => {
+      toTop.hidden = window.scrollY < 600;
+    };
+    window.addEventListener('scroll', update, { passive: true });
+    toTop.addEventListener('click', () => window.scrollTo({ top: 0 }));
+    update();
+  }
+</script>
+
+<style>
+  .to-top {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    z-index: 15;
+    padding: 0.6rem 1rem;
+    border: 1px solid var(--accent);
+    border-radius: 999px;
+    background: var(--card);
+    color: var(--accent);
+    font: 0.95rem system-ui, sans-serif;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+  }
+  .to-top[hidden] {
+    display: none;
+  }
+  .to-top:hover,
+  .to-top:focus-visible {
+    background: var(--accent);
+    color: var(--bg);
+  }
+</style>

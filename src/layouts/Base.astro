@@ -69,6 +69,7 @@ const mainAttrs = searchable ? { 'data-pagefind-body': '' } : {};
       <nav aria-label="Sections">
         <a href="/history/" aria-current={section === 'history' ? 'true' : undefined}>{SITE.title}</a>
         <a href={`${CROSSROADS.base}/`} aria-current={section === 'crossroads' ? 'true' : undefined}>{CROSSROADS.name}</a>
+        <a href="/about/" aria-current={current === '/about/' ? 'page' : undefined}>About</a>
       </nav>
     </header>
     {
@@ -116,7 +117,7 @@ const mainAttrs = searchable ? { 'data-pagefind-body': '' } : {};
           ) : (
             <p>
               Made by a Christian, with the aim of presenting the evidence fairly. Each section says how its pages are
-              sourced and checked.
+              sourced and checked. <a href="/about/">About {UMBRELLA.name}</a>.
             </p>
           )
         }

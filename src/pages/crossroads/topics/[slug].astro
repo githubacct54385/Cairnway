@@ -3,6 +3,9 @@ import { render } from 'astro:content';
 import Base from '../../../layouts/Base.astro';
 import Teaching from '../../../components/Teaching.astro';
 import Comparison from '../../../components/Comparison.astro';
+import OnThisPage from '../../../components/OnThisPage.astro';
+import PrevNext from '../../../components/PrevNext.astro';
+import BackToTop from '../../../components/BackToTop.astro';
 import { CROSSROADS } from '../../../config';
 import { loadCrossroads, topicPath, churchPath, entrySlug } from '../../../lib/crossroads';
 
@@ -16,12 +19,13 @@ export async function getStaticPaths() {
         topic,
         bodies,
         eras,
+        liveTopics: topics.filter((t) => t.data.status === 'live').sort((a, b) => a.data.order - b.data.order),
         entries: teachings.filter((t) => t.data.topic === topic.id),
       },
     }));
 }
 
-const { topic, bodies, entries, eras } = Astro.props;
+const { topic, bodies, entries, eras, liveTopics } = Astro.props;
 const { Content } = await render(topic);
 const path = topicPath(topic.id);
 const byBody = bodies.map((b) => ({
@@ -29,7 +33,16 @@ const byBody = bodies.map((b) => ({
   entries: entries.filter((e) => e.data.body === b.id).sort((x, y) => x.id.localeCompare(y.id)),
 }));
 const missing = byBody.filter((x) => x.entries.length === 0);
+const at = liveTopics.findIndex((t) => t.id === topic.id);
+const link = (t?: (typeof liveTopics)[number]) => (t ? { href: topicPath(t.id), title: t.data.title } : undefined);
+const prevTopic = link(at > 0 ? liveTopics[at - 1] : undefined);
+const nextTopic = link(at < liveTopics.length - 1 ? liveTopics[at + 1] : undefined);
 const related = eras.filter((e) => topic.data.relatedEras.includes(e.id)).sort((a, b) => a.data.order - b.data.order);
+const contents = [
+  { href: '#compare-heading', text: 'At a glance: compare the churches' },
+  { href: '#churches', text: 'Each church in full' },
+  ...(related.length > 0 ? [{ href: '#history', text: 'Where this comes from in history' }] : []),
+];
 ---
 
 <Base title={topic.data.title} description={topic.data.question} section="crossroads" searchable={false}>
@@ -48,9 +61,13 @@ const related = eras.filter((e) => topic.data.relatedEras.includes(e.id)).sort((
       </p>
     </details>
 
+    <PrevNext variant="top" noun="topic" prev={prevTopic} next={nextTopic} />
+
+    <OnThisPage items={contents} />
+
     <Comparison topic={topic} bodies={bodies} entries={entries} />
 
-    <h2>Each church in full</h2>
+    <h2 id="churches">Each church in full</h2>
     <nav class="jump" aria-label="Churches on this page">
       {byBody.flatMap((x) => x.entries.map((e) => <a href={`#${entrySlug(e)}`}>{e.data.voice ? `${x.body.data.name}: ${e.data.voice.label}` : x.body.data.name}</a>))}
     </nav>
@@ -81,7 +98,7 @@ const related = eras.filter((e) => topic.data.relatedEras.includes(e.id)).sort((
     {
       related.length > 0 && (
         <>
-          <h2>Where this comes from in history</h2>
+          <h2 id="history">Where this comes from in history</h2>
           <p>Ancient Paths covers the early practice that these documents appeal to:</p>
           <ul>
             {related.map((e) => (
@@ -91,5 +108,9 @@ const related = eras.filter((e) => topic.data.relatedEras.includes(e.id)).sort((
         </>
       )
     }
+
+    <PrevNext variant="bottom" noun="topic" prev={prevTopic} next={nextTopic} />
   </article>
+
+  <BackToTop />
 </Base>

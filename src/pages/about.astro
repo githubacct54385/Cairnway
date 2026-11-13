@@ -1,0 +1,91 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE, UMBRELLA, CROSSROADS } from '../config';
+---
+
+<Base
+  title={`About ${UMBRELLA.name}`}
+  description={`What ${UMBRELLA.name} is, why it has its name, who makes it, and how its pages are written and checked.`}
+  section="home"
+  searchable={false}
+>
+  <div class="wrap page">
+    <h1>About {UMBRELLA.name}</h1>
+    <p>
+      {UMBRELLA.name} is a small site with two parts, built for people who want to see the evidence for themselves, whatever
+      they believe. Every claim on it points to a source.
+    </p>
+    <ul>
+      <li>
+        <strong><a href="/history/">{SITE.title}</a></strong> traces what happened: the story of Christianity from the first
+        century onward, one era at a time.
+      </li>
+      <li>
+        <strong><a href={`${CROSSROADS.base}/`}>{CROSSROADS.name}</a></strong> reports what churches officially teach today on
+        questions such as baptism, in the words of their own catechisms and confessions.
+      </li>
+    </ul>
+    <p>
+      The two are kept apart on purpose. One describes the past and the other describes what churches say now. Neither tells
+      you which church is right.
+    </p>
+
+    <h2>Why "{UMBRELLA.name}"?</h2>
+    <p>
+      A cairn is a small stack of stones that marks a path where the way is hard to see. Walkers do not build one for
+      themselves. They find it, trust that someone went before them, and often add a stone for the next person.
+    </p>
+    <p>
+      That is the idea behind the site. Christians have always had to find their way using what earlier believers left
+      behind: writings, creeds, councils and catechisms. {UMBRELLA.name} tries to set those markers out in plain view, each one
+      traced to where it came from, so a reader can look at the ground and decide where to walk.
+    </p>
+    <p>
+      The word "way" is there too. The book of Acts says the first Christians were known as followers of "the Way" (Acts
+      9:2; 24:14), and the prophets spoke of paths and signposts for God's people. The name of the history section,
+      {SITE.title}, comes from one of those passages; see <a href="/history/about/">its About page</a>.
+    </p>
+
+    <h2>Who makes it</h2>
+    <p>
+      {UMBRELLA.name} is made by a Christian, with the aim of presenting the evidence fairly. It is a personal project,
+      not the work of a church, a denomination or a publisher.
+    </p>
+
+    <h2>How the pages are written and checked</h2>
+    <p>
+      Pages are drafted with the help of an AI and then checked against their sources. Nothing here has yet been reviewed by a
+      specialist, and every page says how far its checking has got. Where the sources do not support a claim, we cut it back
+      or leave it out.
+    </p>
+    <ul>
+      <li>
+        <a href="/history/about/">How {SITE.title} is checked</a>, including the AI source check and the public review
+        records for each era.
+      </li>
+      <li>
+        <a href={`${CROSSROADS.base}/about/`}>How {CROSSROADS.name} works</a>: official documents only, one named church body
+        per tradition, and no position stated unless a church's own document states it.
+      </li>
+    </ul>
+
+    <h2>What {UMBRELLA.name} is not</h2>
+    <ul>
+      <li>It is not a scholarly authority. Please read the works we cite.</li>
+      <li>It does not speak for any church. No church has reviewed or endorsed what it says about them.</li>
+      <li>It does not rank the churches or say which is correct.</li>
+    </ul>
+
+    <h2>Corrections and reuse</h2>
+    <p>
+      If something is wrong, misleading or improperly used, please tell us. Each era and each Crossroads entry has a "Report a
+      problem" link, and you do not need an account to use it. Reports are read and acted on as time permits.
+    </p>
+    <p>
+      The text we write is free to reuse under the
+      <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0</a> license. The site's code is
+      open source on <a href="https://github.com/githubacct54385/ancient-paths">GitHub</a>. Quotations, images and maps from
+      other sources keep their own licenses, listed on each section's Sources page.
+    </p>
+  </div>
+</Base>

@@ -1,0 +1,52 @@
+---
+// The "On this page" contents box. Closed on phones so the content starts sooner; a script opens it on wider screens.
+interface Props {
+  items: { href: string; text: string }[];
+}
+const { items } = Astro.props;
+---
+
+<nav class="on-page" aria-label="On this page">
+  <details class="on-page-details">
+    <summary>On this page</summary>
+    <ul>
+      {items.map((i) => <li><a href={i.href}>{i.text}</a></li>)}
+    </ul>
+  </details>
+</nav>
+
+<script>
+  const contents = document.querySelector<HTMLDetailsElement>('.on-page-details');
+  if (contents && window.matchMedia('(min-width: 40rem)').matches) {
+    contents.open = true;
+  }
+</script>
+
+<style>
+  .on-page {
+    margin: 1.5rem 0 0;
+    padding: 0.6rem 1rem;
+    border: 1px solid var(--rule);
+    border-radius: 0.5rem;
+    background: var(--card);
+    font-family: system-ui, sans-serif;
+    font-size: 0.95rem;
+  }
+  .on-page summary {
+    cursor: pointer;
+    font-weight: 600;
+  }
+  .on-page ul {
+    margin: 0.6rem 0 0.2rem;
+    padding-left: 1.1rem;
+  }
+  .on-page li {
+    margin-bottom: 0.3rem;
+  }
+  @media (min-width: 40rem) {
+    .on-page ul {
+      columns: 2;
+      column-gap: 2rem;
+    }
+  }
+</style>

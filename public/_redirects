@@ -1,8 +1,7 @@
 # Old Ancient Paths addresses, from before the site moved under /history (CHR-1).
+# /about is now the whole site's About page, so it is not redirected any more.
 # Cloudflare treats a trailing slash as part of the match, so each page has both forms.
 /eras/*     /history/eras/:splat  301
-/about      /history/about/       301
-/about/     /history/about/       301
 /sources    /history/sources/     301
 /sources/   /history/sources/     301
 /search     /history/search/      301
