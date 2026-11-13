@@ -1,0 +1,86 @@
+{
+  "topic": "scripture-authority",
+  "body": "orthodox",
+  "summary": "The Longer Catechism, a standard Russian Orthodox statement of the faith, says holy tradition is the doctrine of the faith, the law of God, the sacraments and ritual handed down by true believers, and that the Church is its sure repository. It calls holy tradition the most ancient instrument of revelation and holy Scripture its more exact, unchangeable record. Tradition must be followed when it agrees with Scripture, and it is a guide to the right understanding of Scripture and to the sacraments. The catechism reckons the Old Testament at 22 books, following the Hebrew, and says the other books were appointed by the Fathers to be read by those preparing for admission to the Church.\n\nThe Orthodox Confession of Peter Mogila says every Christian should submit to and obey the Church, as Christ taught, and that the Church is fully empowered to examine and warrant the Scripture and to judge patriarchs, popes and bishops in her general councils. The questions read do not set out the relationship of Scripture and tradition or list the books of Scripture.",
+  "points": [
+    {
+      "question": "What is Scripture's authority?",
+      "answer": "Holy tradition is the most ancient instrument of revelation; Scripture was given so that revelation might be preserved exactly and unchangeably. We must follow tradition that agrees with revelation and with Scripture.",
+      "at": "Longer Catechism, Q. 17-23"
+    },
+    {
+      "question": "Who interprets it?",
+      "answer": "Tradition is needed as a guide to the right understanding of Scripture. The Church, made up of all true believers united by holy tradition, is its sure repository, \"the pillar and ground of the truth\".",
+      "at": "Longer Catechism, Q. 18, 24"
+    },
+    {
+      "question": "Which books?",
+      "answer": "Twenty-two books of the Old Testament, agreeing with the Hebrew; certain others, such as the Wisdom of Sirach, are not counted because they are not in the Hebrew, and the Fathers appointed them to be read by those preparing to join the Church.",
+      "at": "Longer Catechism, Q. 31-35"
+    },
+    {
+      "question": "Who interprets Scripture?",
+      "answer": "Every Christian must submit to the Church; in her general councils she has authority to examine and warrant the Scripture, and to inquire into the conduct of patriarchs, popes, bishops and all others.",
+      "at": "Orthodox Confession, Q. 86"
+    }
+  ],
+  "positions": {
+    "authority": {
+      "answer": "scripture-and-tradition",
+      "at": "Longer Catechism, Q. 17-24"
+    },
+    "interpreter": {
+      "answer": "church-teaching",
+      "at": "Longer Catechism, Q. 18, 24; Orthodox Confession, Q. 86"
+    },
+    "canon": {
+      "answer": "protestant-canon",
+      "at": "Longer Catechism, Q. 31-35",
+      "reading": true
+    }
+  },
+  "scripture": [
+    "2 Thessalonians 2:15",
+    "1 Timothy 3:15",
+    "Matthew 18:17"
+  ],
+  "scriptureNote": "Passages the documents cite in the answers read.",
+  "document": {
+    "title": "The Longer Catechism of the Orthodox, Catholic, Eastern Church",
+    "section": "Part I, Questions 17-24 (holy tradition and holy Scripture) and 31-35 (the books of the Old Testament)",
+    "issuer": "Russian Orthodox Church (drafted by Metropolitan Philaret of Moscow)",
+    "date": "1839 (approved by the Holy Synod); first published 1840",
+    "url": "https://azbyka.ru/otechnik/Filaret_Moskovskij/the-longer-catechism-of-the-orthodox-catholic-eastern-church/",
+    "edition": "English translation as hosted by azbyka.ru; the translator is not named on the page",
+    "tier": "single-church-catechism"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "The text is old, but the translator and edition are not confirmed, so no quotation is used until they are.",
+    "checked": "2026-11-12"
+  },
+  "additionalDocuments": [
+    {
+      "title": "The Orthodox Confession of the Catholic and Apostolic Eastern Church",
+      "section": "Part I, Question 86 (the church and Scripture)",
+      "issuer": "The Orthodox Church (drafted by Metropolitan Peter Mogila of Kiev; endorsed by the Eastern patriarchs)",
+      "date": "1640s; endorsed by the Eastern patriarchs in 1643 (from general knowledge, unchecked)",
+      "url": "https://azbyka.ru/otechnik/world/the-orthodox-confession-of-the-catholic-and-apostolic-eastern-church",
+      "edition": "English translation attributed to Philip Lodvel (1772), as printed in the 1898 London edition on azbyka.ru",
+      "tier": "synodical-confession",
+      "rights": {
+        "status": "public-domain",
+        "note": "The confession is from the 1640s and the English translation from 1772, so only one short sentence is quoted. The web copy's own rights are not separately confirmed.",
+        "checked": "2026-11-12"
+      }
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "note": "The Longer Catechism: Questions 17-24 and 31-35 read in the azbyka.ru English text on 2026-11-12. \"The church's authority\" and \"39 + 27 books\" are our reading: the catechism names the Church as repository of tradition and counts 22 Hebrew Old Testament books (the same books Protestants count as 39), but does not itself state them in these terms; the Orthodox Confession cites Wisdom as Scripture, so the Orthodox churches' practice is not uniform. Not yet checked by a second reviewer. The Orthodox Confession: Question 86 read on 2026-11-12 in the azbyka.ru English text, with Q. 83-85 and 96 on the nature of the Church; the confession's longer treatment of Scripture, tradition and the canon was not read, so those two cells are \"not stated\". The confession cites the Wisdom of Solomon as Scripture elsewhere. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "reformation",
+    "second-century"
+  ]
+}

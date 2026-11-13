@@ -33,7 +33,7 @@ const label = voice ? `${body.data.name}: ${voice.label}` : body.data.name;
   }
 
   <p class="label">Our summary</p>
-  <p>{d.summary}</p>
+  {d.summary.split('\n\n').map((para) => <p>{para}</p>)}
 
   {
     d.points.length > 0 && (
@@ -76,13 +76,19 @@ const label = voice ? `${body.data.name}: ${voice.label}` : body.data.name;
     )
   }
 
-  <p class="label">The document</p>
-  <p>
-    <a href={d.document.url}>{d.document.title}</a>, {d.document.section}.<br />
-    <span class="docline">
-      Issued by {d.document.issuer}. Date: {d.document.date}. Read in: {d.document.edition}.
-    </span>
-  </p>
+  <p class="label">{d.additionalDocuments.length > 0 ? 'The documents' : 'The document'}</p>
+  {
+    [d.document, ...d.additionalDocuments].map((doc) => (
+      <p>
+        <a href={doc.url}>{doc.title}</a>, {doc.section}.{' '}
+        {doc.tier && <span class="tag">{TIERS[doc.tier]}</span>}
+        <br />
+        <span class="docline">
+          Issued by {doc.issuer}. Date: {doc.date}. Read in: {doc.edition}.
+        </span>
+      </p>
+    ))
+  }
 
   <details>
     <summary>How this entry was checked</summary>
@@ -93,6 +99,13 @@ const label = voice ? `${body.data.name}: ${voice.label}` : body.data.name;
     <p>
       <strong>Rights ({d.rights.status.replace('-', ' ')}):</strong> {d.rights.note} Checked {d.rights.checked}.
     </p>
+    {
+      d.additionalDocuments.map((doc) => (
+        <p>
+          <strong>Rights, {doc.title} ({doc.rights.status.replace('-', ' ')}):</strong> {doc.rights.note} Checked {doc.rights.checked}.
+        </p>
+      ))
+    }
   </details>
 
   <p class="report">

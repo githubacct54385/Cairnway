@@ -1,0 +1,97 @@
+{
+  "topic": "last-things",
+  "body": "orthodox",
+  "summary": "The Longer Catechism, a standard Russian Orthodox statement of the faith, says that until the general resurrection the souls of the righteous are in light and rest with a foretaste of happiness, and those of the wicked are in the reverse state, with full retribution coming after the resurrection of the body and the last judgment. Souls who died in faith without time to bear fruits of repentance may be helped toward a blessed resurrection by prayers and works of mercy, especially the bloodless sacrifice of the Liturgy. Christ will come to judge in glory, and the catechism speaks of everlasting happiness and everlasting torment. The questions read do not use the word purgatory.\n\nThe Orthodox Confession of Peter Mogila teaches that Christ will come again to judge the living and the dead, that all will give account of their thoughts, words and works, and that each will receive a full and everlasting reward. The wicked will be punished with greater or lesser torments, but without end. The confession says there is no medium state between the blessed and the damned, yet many sinners are freed from the chains of Hades by the prayers of the Church, chiefly the Liturgy. It rejects the fire of Purgatory, saying nothing in Scripture teaches a temporary punishment after death to purge the soul.",
+  "points": [
+    {
+      "question": "Is there a purification after death?",
+      "answer": "Souls of the righteous are in light and rest and the wicked in the reverse, until the general resurrection. Prayers for souls who died in faith without bearing fruit, especially the Liturgy, may help them toward a blessed resurrection.",
+      "at": "Longer Catechism, Q. 372-376"
+    },
+    {
+      "question": "What is the final state of the wicked?",
+      "answer": "The catechism speaks of everlasting torment alongside everlasting happiness, when it urges meditation on death, the resurrection, the last judgment, and each.",
+      "at": "Longer Catechism, Q. 385"
+    },
+    {
+      "question": "What happens when Christ returns?",
+      "answer": "He will come to judge in glory with all the holy angels, and perfect retribution according to works is received after the resurrection of the body and God's last judgment.",
+      "at": "Longer Catechism, Q. 229, 373"
+    },
+    {
+      "question": "Is there a purification after death?",
+      "answer": "No. The fire of Purgatory is nowhere taught in Scripture, and the Church in the Second Council of Constantinople condemned Origen for the opinion. Yet alms, good works and especially the Liturgy offered for the departed can bring relief and deliverance from Hades.",
+      "at": "Orthodox Confession, Q. 64-66"
+    },
+    {
+      "question": "What is the final state of the wicked?",
+      "answer": "Some will be punished with greater and some with lesser torments, but all without end.",
+      "at": "Orthodox Confession, Q. 60, 63, 68"
+    },
+    {
+      "question": "What happens when Christ returns?",
+      "answer": "Christ will come again to judge the living and the dead, all will give an account, and each receives an everlasting reward according to merit.",
+      "at": "Orthodox Confession, Q. 58-60"
+    }
+  ],
+  "positions": {
+    "purgatory": {
+      "answer": "no-purgatory",
+      "at": "Longer Catechism, Q. 372-376; Orthodox Confession, Q. 66"
+    },
+    "final": {
+      "answer": "eternal-punishment",
+      "at": "Longer Catechism, Q. 385; Orthodox Confession, Q. 60, 63"
+    },
+    "return": {
+      "answer": "return-and-judgment",
+      "at": "Longer Catechism, Q. 229, 373; Orthodox Confession, Q. 58-60"
+    }
+  },
+  "scripture": [
+    "Luke 16:22",
+    "Matthew 25:31",
+    "Matthew 25:31-46",
+    "Mark 9:44",
+    "Luke 12:47"
+  ],
+  "scriptureNote": "Passages the documents cite in the answers read.",
+  "document": {
+    "title": "The Longer Catechism of the Orthodox, Catholic, Eastern Church",
+    "section": "Part I, Questions 214-215, 229 and 372-376 and 385 (hell, the second coming and the state of the dead)",
+    "issuer": "Russian Orthodox Church (drafted by Metropolitan Philaret of Moscow)",
+    "date": "1839 (approved by the Holy Synod); first published 1840",
+    "url": "https://azbyka.ru/otechnik/Filaret_Moskovskij/the-longer-catechism-of-the-orthodox-catholic-eastern-church/",
+    "edition": "English translation as hosted by azbyka.ru; the translator is not named on the page",
+    "tier": "single-church-catechism"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "The text is old, but the translator and edition are not confirmed, so no quotation is used until they are.",
+    "checked": "2026-11-12"
+  },
+  "additionalDocuments": [
+    {
+      "title": "The Orthodox Confession of the Catholic and Apostolic Eastern Church",
+      "section": "Part I, Questions 58-68 (the second coming, judgment, the state of souls and purgatory)",
+      "issuer": "The Orthodox Church (drafted by Metropolitan Peter Mogila of Kiev; endorsed by the Eastern patriarchs)",
+      "date": "1640s; endorsed by the Eastern patriarchs in 1643 (from general knowledge, unchecked)",
+      "url": "https://azbyka.ru/otechnik/world/the-orthodox-confession-of-the-catholic-and-apostolic-eastern-church",
+      "edition": "English translation attributed to Philip Lodvel (1772), as printed in the 1898 London edition on azbyka.ru",
+      "tier": "synodical-confession",
+      "rights": {
+        "status": "public-domain",
+        "note": "The confession is from the 1640s and the English translation from 1772, so only one short sentence is quoted. The web copy's own rights are not separately confirmed.",
+        "checked": "2026-11-12"
+      }
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "note": "The Longer Catechism: Questions 214-215, 229, 372-376 and 385 read in the azbyka.ru English text on 2026-11-12. \"No purgatory\" and \"everlasting punishment\" are our reading: the catechism describes a rest or torment of souls until the resurrection and mentions everlasting torment, but does not discuss purgatory or hell at length in the questions read. The Orthodox Confession addresses purgatory directly. Not yet checked by a second reviewer. The Orthodox Confession: Questions 58-61, 63-68 read in the azbyka.ru English text on 2026-11-12, mostly in their opening paragraphs. Date and endorsement from general knowledge. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "apostolic-age",
+    "reformation"
+  ]
+}

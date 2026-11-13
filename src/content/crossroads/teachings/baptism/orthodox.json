@@ -1,0 +1,129 @@
+{
+  "topic": "baptism",
+  "body": "orthodox",
+  "summary": "The Longer Catechism, a standard Russian Orthodox statement of the faith, teaches that baptism is a sacrament in which a believer is plunged in water three times in the name of the Trinity, dies to the sinful life and is born again of the Holy Spirit. It asks repentance and faith of the one baptized, baptizes infants on the faith of their parents and sponsors, and holds that baptism cannot be repeated. The Orthodox churches have no single catechism; other documents are combined in this entry.\n\nThe Orthodox Confession of Peter Mogila, a seventeenth-century confession of the Orthodox churches, teaches that baptism is the first of seven mysteries (sacraments): a washing away of original sin by being immersed three times in water in the name of the Trinity, after which a person, born again of water and the Spirit, is restored to God's grace. It is given once and is not repeated. Infants are baptized, with a sponsor who renounces the devil and confesses the creed on their behalf; adults do this themselves. The confession calls baptism an undoubted seal and pledge of eternal salvation. The questions read do not say whether baptism is necessary for salvation.",
+  "points": [
+    {
+      "question": "What is baptism?",
+      "answer": "A sacrament in which a believer, immersed three times in water in the name of the Father, Son and Holy Spirit, dies to the life of sin and is born again of the Holy Spirit to a spiritual life.",
+      "at": "Longer Catechism, Q. 288"
+    },
+    {
+      "question": "How is it administered?",
+      "answer": "The catechism calls triple immersion in water, in the name of the Trinity, what is most essential.",
+      "at": "Longer Catechism, Q. 290"
+    },
+    {
+      "question": "What is asked of the person baptized?",
+      "answer": "Repentance and faith; the Creed is recited before baptism.",
+      "at": "Longer Catechism, Q. 291"
+    },
+    {
+      "question": "Are infants baptized?",
+      "answer": "Yes, on the faith of their parents and sponsors, who are bound to teach them. The catechism argues that baptism takes the place of circumcision, which was given to infants.",
+      "at": "Longer Catechism, Q. 292-294"
+    },
+    {
+      "question": "Can it be repeated?",
+      "answer": "No. Baptism is spiritual birth, and a person is born once.",
+      "at": "Longer Catechism, Q. 303-304"
+    },
+    {
+      "question": "What is baptism?",
+      "answer": "The first mystery: a washing away and rooting out of original sin by three immersions in water with the Trinitarian formula, after which a person is born again of water and the Spirit and restored to God's grace, with the way opened into the Kingdom of Heaven.",
+      "at": "Orthodox Confession, Q. 102"
+    },
+    {
+      "question": "Who receives it, and what is asked of them?",
+      "answer": "Infants, whose sponsor renounces the devil and confesses the creed for them, and adults, who make these renunciations and the confession of faith themselves.",
+      "at": "Orthodox Confession, Q. 103"
+    },
+    {
+      "question": "How is it given?",
+      "answer": "By dipping the person three times in pure, natural water while the minister says the Trinitarian formula. It is ordinarily given by a minister; in urgent necessity any person, man or woman, may baptize with water and the same words.",
+      "at": "Orthodox Confession, Q. 102-103"
+    },
+    {
+      "question": "What does it give?",
+      "answer": "It is called an undoubted seal and pledge of eternal salvation, with fruits and benefits the confession goes on to list.",
+      "at": "Orthodox Confession, Q. 103"
+    },
+    {
+      "question": "Can it be repeated?",
+      "answer": "No, provided the person who baptized believed rightly in the Trinity and used the right words.",
+      "at": "Orthodox Confession, Q. 102"
+    }
+  ],
+  "positions": {
+    "who": {
+      "answer": "infants-too",
+      "at": "Longer Catechism, Q. 292; Orthodox Confession, Q. 103"
+    },
+    "how": {
+      "answer": "immersion",
+      "at": "Longer Catechism, Q. 290; Orthodox Confession, Q. 102-103"
+    },
+    "effect": {
+      "answer": "gives-grace",
+      "at": "Longer Catechism, Q. 288; Orthodox Confession, Q. 102-103"
+    },
+    "necessity": {
+      "answer": "not-stated"
+    },
+    "repeat": {
+      "answer": "once",
+      "at": "Longer Catechism, Q. 303-304; Orthodox Confession, Q. 102"
+    }
+  },
+  "excerpt": {
+    "text": "But this Mystery being once received, is not to be again repeated.",
+    "at": "Orthodox Confession, Q. 102"
+  },
+  "scripture": [
+    "John 3:5",
+    "Matthew 28:19",
+    "Acts 19:4",
+    "Acts 2:38",
+    "Mark 16:16",
+    "Colossians 2:11-12"
+  ],
+  "scriptureNote": "Passages the documents cite in the answers read.",
+  "document": {
+    "title": "The Longer Catechism of the Orthodox, Catholic, Eastern Church",
+    "section": "Part I, \"On Baptism\", Questions 288-294 and 303-304 (numbering of the edition read)",
+    "issuer": "Russian Orthodox Church (drafted by Metropolitan Philaret of Moscow)",
+    "date": "1839 (approved by the Holy Synod); first published 1840",
+    "url": "https://azbyka.ru/otechnik/Filaret_Moskovskij/the-longer-catechism-of-the-orthodox-catholic-eastern-church/",
+    "edition": "English translation as hosted by azbyka.ru; the translator is not named on the page",
+    "tier": "single-church-catechism"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "The text is old, but the translator and edition are not confirmed, so no quotation is used until they are.",
+    "checked": "2026-11-12"
+  },
+  "additionalDocuments": [
+    {
+      "title": "The Orthodox Confession of the Catholic and Apostolic Eastern Church",
+      "section": "Part I, Questions 101-103: the mysteries and baptism",
+      "issuer": "The Orthodox Church (drafted by Metropolitan Peter Mogila of Kiev; endorsed by the Eastern patriarchs)",
+      "date": "1640s; endorsed by the Eastern patriarchs in 1643 (from general knowledge, unchecked)",
+      "url": "https://azbyka.ru/otechnik/world/the-orthodox-confession-of-the-catholic-and-apostolic-eastern-church",
+      "edition": "English translation attributed to Philip Lodvel (1772), as printed in the 1898 London edition on azbyka.ru",
+      "tier": "synodical-confession",
+      "rights": {
+        "status": "public-domain",
+        "note": "The confession is from the 1640s and the English translation from 1772, so only one short sentence is quoted. The web copy's own rights are not separately confirmed.",
+        "checked": "2026-11-12"
+      }
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "note": "The Longer Catechism: Read in the azbyka.ru English text on 2026-11-12. The 1839/1840 dates come from general knowledge and have not been checked against a source. The entry does not yet use other Orthodox documents, and other Orthodox churches may state their teaching differently. The Orthodox Confession: Questions 101-103 read on 2026-11-12 in the azbyka.ru English text; the rest of Question 103 (the fruits of baptism) was not read. The date and the patriarchs' endorsement come from general knowledge. The Confession of Dositheus (1672), which also covers baptism, was not retrievable in full and has not been used. The two documents come from different churches and eras and are shown separately in this entry."
+  },
+  "relatedEras": [
+    "apostolic-age",
+    "second-century"
+  ]
+}
