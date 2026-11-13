@@ -1,6 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
-import Base from '../layouts/Base.astro';
+import Base from '../../layouts/Base.astro';
 
 // Reviewer-only page. Not linked from the site, kept out of the sitemap and robots, and marked noindex.
 const eras = (await getCollection('eras')).sort((a, b) => a.data.order - b.data.order);

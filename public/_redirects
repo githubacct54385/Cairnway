@@ -1,0 +1,11 @@
+# Old Ancient Paths addresses, from before the site moved under /history (CHR-1).
+# Cloudflare treats a trailing slash as part of the match, so each page has both forms.
+/eras/*     /history/eras/:splat  301
+/about      /history/about/       301
+/about/     /history/about/       301
+/sources    /history/sources/     301
+/sources/   /history/sources/     301
+/search     /history/search/      301
+/search/    /history/search/      301
+/review     /history/review/      301
+/review/    /history/review/      301

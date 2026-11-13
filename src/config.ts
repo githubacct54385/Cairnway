@@ -8,3 +8,12 @@ export const SITE = {
    */
   prelaunch: true,
 };
+
+/**
+ * The umbrella site that holds both sections. The name is provisional until the domain is registered
+ * (see CHR-1); change it here only. Ancient Paths (SITE above) is the history section, served under /history.
+ */
+export const UMBRELLA = {
+  name: 'Cairnway',
+  description: 'Christian history and what the churches teach, each traced to its sources.',
+};

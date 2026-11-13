@@ -1,6 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
-import Base from '../layouts/Base.astro';
+import Base from '../../layouts/Base.astro';
 
 const eras = (await getCollection('eras')).sort((a, b) => a.data.order - b.data.order);
 ---
