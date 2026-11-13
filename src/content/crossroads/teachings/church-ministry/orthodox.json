@@ -1,0 +1,88 @@
+{
+  "topic": "church-ministry",
+  "body": "orthodox",
+  "summary": "The Longer Catechism, a standard Russian Orthodox statement of the faith, calls the Church a divinely instituted community united by the orthodox faith, the law of God, the hierarchy and the sacraments. It is one because it has one Head, Christ, and is apostolic because it has its doctrine and the succession of the gifts of the Holy Spirit from the apostles through the laying on of hands. The hierarchy has three degrees, bishop, priest and deacon, and an ecumenical council is the authority over the whole Church. The questions read do not say who may be ordained beyond that Orders are given to those rightly chosen.\n\nThe Orthodox Confession of Peter Mogila teaches that the Church is one, holy, catholic and apostolic, like Christ's one spouse, and takes its name from no single see predominant over others, since those are particular churches. Jesus Christ is its only foundation. Every Christian must submit to the Church, which has authority in its general councils to examine Scripture and judge patriarchs, popes and bishops. Though the Church is a creature, it has Christ as its Head and the Holy Spirit to guide it, and is the pillar and ground of the truth.",
+  "points": [
+    {
+      "question": "How is the church governed?",
+      "answer": "By a hierarchy of bishops, priests and deacons in unbroken succession from the apostles. An ecumenical council has authority over the whole Catholic Church; the chief divisions are under the Orthodox patriarchs and the Holy Synod.",
+      "at": "Longer Catechism, Q. 274, 277-281, 357-359"
+    },
+    {
+      "question": "Where is the true church?",
+      "answer": "The Church is one, holy, catholic and apostolic; it is one spiritual body with one Head, Christ, and is called Orthodox, or rightly believing.",
+      "at": "Longer Catechism, Q. 252, 258, 270, 274"
+    },
+    {
+      "question": "How is the church governed?",
+      "answer": "In general councils, which have authority to examine and warrant Scripture and to judge patriarchs, popes, bishops and all others; no one see is predominant over the others.",
+      "at": "Orthodox Confession, Q. 84, 86"
+    },
+    {
+      "question": "Where is the true church?",
+      "answer": "The Church is one, holy, catholic and apostolic; Christ is its only foundation and Head, and the Holy Spirit teaches and guides it.",
+      "at": "Orthodox Confession, Q. 83, 85, 96"
+    }
+  ],
+  "positions": {
+    "governance": {
+      "answer": "bishops",
+      "at": "Longer Catechism, Q. 277-281, 359; Orthodox Confession, Q. 84, 86"
+    },
+    "ordination": {
+      "answer": "not-stated"
+    },
+    "truechurch": {
+      "answer": "one-communion",
+      "at": "Longer Catechism, Q. 252, 258, 274; Orthodox Confession, Q. 83-86",
+      "reading": true
+    }
+  },
+  "scripture": [
+    "Ephesians 4:4-6",
+    "1 Corinthians 3:10-11",
+    "Ephesians 4:5",
+    "2 Corinthians 11:2",
+    "1 Corinthians 3:11",
+    "Matthew 18:17"
+  ],
+  "scriptureNote": "Passages the documents cite in the answers read.",
+  "document": {
+    "title": "The Longer Catechism of the Orthodox, Catholic, Eastern Church",
+    "section": "Part I, Questions 252-281 (the Church and the hierarchy) and 357-359 (Orders)",
+    "issuer": "Russian Orthodox Church (drafted by Metropolitan Philaret of Moscow)",
+    "date": "1839 (approved by the Holy Synod); first published 1840",
+    "url": "https://azbyka.ru/otechnik/Filaret_Moskovskij/the-longer-catechism-of-the-orthodox-catholic-eastern-church/",
+    "edition": "English translation as hosted by azbyka.ru; the translator is not named on the page",
+    "tier": "single-church-catechism"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "The text is old, but the translator and edition are not confirmed, so no quotation is used until they are.",
+    "checked": "2026-11-12"
+  },
+  "additionalDocuments": [
+    {
+      "title": "The Orthodox Confession of the Catholic and Apostolic Eastern Church",
+      "section": "Part I, Questions 83-86 and 96 (the Church)",
+      "issuer": "The Orthodox Church (drafted by Metropolitan Peter Mogila of Kiev; endorsed by the Eastern patriarchs)",
+      "date": "1640s; endorsed by the Eastern patriarchs in 1643 (from general knowledge, unchecked)",
+      "url": "https://azbyka.ru/otechnik/world/the-orthodox-confession-of-the-catholic-and-apostolic-eastern-church",
+      "edition": "English translation attributed to Philip Lodvel (1772), as printed in the 1898 London edition on azbyka.ru",
+      "tier": "synodical-confession",
+      "rights": {
+        "status": "public-domain",
+        "note": "The confession is from the 1640s and the English translation from 1772, so only one short sentence is quoted. The web copy's own rights are not separately confirmed.",
+        "checked": "2026-11-12"
+      }
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "note": "The Longer Catechism: Questions 252-281 and 357-359 read in the azbyka.ru English text on 2026-11-12. \"One communion\" is our reading: the catechism says the Church is one, apostolic and Orthodox, with a hierarchy descended from the apostles, but does not use the phrase in these terms. Whether women may be ordained is not addressed. Not yet checked by a second reviewer. The Orthodox Confession: Questions 83-86 and 96 read on 2026-11-12 in the azbyka.ru English text; the confession's questions on holy orders (about Q. 111-112) were not read. \"Bishops\" and \"one communion\" are our reading: the confession speaks of councils judging bishops and of one Church, not of a communion defined by bishops. Date and endorsement from general knowledge. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "apostolic-age",
+    "second-century"
+  ]
+}

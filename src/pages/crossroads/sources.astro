@@ -22,12 +22,16 @@ const { topics, bodies, teachings } = await loadCrossroads();
               {bodies.flatMap((b) =>
                 teachings
                   .filter((e) => e.data.topic === t.id && e.data.body === b.id)
-                  .map((e) => (
+                  .flatMap((e) => [
+                    { doc: e.data.document, rights: e.data.rights },
+                    ...e.data.additionalDocuments.map((doc) => ({ doc, rights: doc.rights })),
+                  ])
+                  .map(({ doc, rights }) => (
                     <li>
-                      <a href={e.data.document.url}>{e.data.document.title}</a>, {e.data.document.section}
+                      <a href={doc.url}>{doc.title}</a>, {doc.section}
                       <div class="meta">
-                        {b.data.name}. Issued by {e.data.document.issuer}. Date: {e.data.document.date}. Edition: {e.data.document.edition}.
-                        Rights: {e.data.rights.status.replace('-', ' ')}; {e.data.rights.note} Checked {e.data.rights.checked}.
+                        {b.data.name}. Issued by {doc.issuer}. Date: {doc.date}. Edition: {doc.edition}.
+                        Rights: {rights.status.replace('-', ' ')}; {rights.note} Checked {rights.checked}.
                       </div>
                     </li>
                   )),

@@ -126,7 +126,29 @@ const teachings = defineCollection({
       date: z.string(), // year or date the document was issued or adopted
       url: z.string().url(),
       edition: z.string(), // the edition or translation read, since wording and rights differ by edition
+      // Only where a church has no single catechism: how widely this document speaks for the church.
+      tier: z.enum(['conciliar', 'synodical-confession', 'single-church-catechism', 'jurisdictional-statement']).optional(),
     }),
+    // Further documents used in the same entry (for example the Orthodox churches' several documents). Each one
+    // carries its own edition and rights status, and the points and positions say which document they come from.
+    additionalDocuments: z
+      .array(
+        z.object({
+          title: z.string(),
+          section: z.string(),
+          issuer: z.string(),
+          date: z.string(),
+          url: z.string().url(),
+          edition: z.string(),
+          tier: z.enum(['conciliar', 'synodical-confession', 'single-church-catechism', 'jurisdictional-statement']).optional(),
+          rights: z.object({
+            status: z.enum(['public-domain', 'summary-only', 'permission-recorded']),
+            note: z.string(),
+            checked: z.string(),
+          }),
+        }),
+      )
+      .default([]),
     rights: z.object({
       status: z.enum(['public-domain', 'summary-only', 'permission-recorded']),
       note: z.string(),

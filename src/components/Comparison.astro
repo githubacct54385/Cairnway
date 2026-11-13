@@ -24,6 +24,7 @@ const rows = bodies
     body,
     slug: entrySlug(entry),
     voice: entry.data.voice,
+    docCount: 1 + entry.data.additionalDocuments.length,
     // A church with several documents gets a row for each; the document is named after the church.
     label: entry.data.voice ? `${body.data.name}: ${entry.data.voice.label}` : body.data.name,
     cells: questions.map((q) => {
@@ -76,6 +77,7 @@ const hasReading = rows.some((r) => r.cells.some((c) => c.reading));
                   <tr data-church={r.slug} data-label={r.label}>
                     <th scope="row">
                       <a href={`#${r.slug}`}>{r.body.data.name}</a>
+                      {r.docCount > 1 && <span class="voice">Based on {r.docCount} documents</span>}
                       {r.voice && <span class="voice">{r.voice.label}{r.voice.tier && <><br /><em>{TIERS[r.voice.tier]}</em></>}</span>}
                     </th>
                     {r.cells.map((c) => (
