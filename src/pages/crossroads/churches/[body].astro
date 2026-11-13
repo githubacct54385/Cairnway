@@ -1,0 +1,35 @@
+---
+import Base from '../../../layouts/Base.astro';
+import Teaching from '../../../components/Teaching.astro';
+import { CROSSROADS } from '../../../config';
+import { loadCrossroads, churchPath } from '../../../lib/crossroads';
+
+export async function getStaticPaths() {
+  const { topics, bodies, teachings } = await loadCrossroads();
+  return bodies.map((body) => ({
+    params: { body: body.id },
+    props: { body, topics, entries: teachings.filter((t) => t.data.body === body.id) },
+  }));
+}
+
+const { body, topics, entries } = Astro.props;
+const path = churchPath(body.id);
+---
+
+<Base title={body.data.name} section="crossroads" searchable={false}>
+  <article class="wrap page">
+    <p class="meta"><a href={`${CROSSROADS.base}/churches/`}>All churches</a></p>
+    <h1>{body.data.name}</h1>
+    <p class="meta">{body.data.tradition}</p>
+    <p>{body.data.note}</p>
+    {
+      entries.length === 0 && <p>No entries yet.</p>
+    }
+    {
+      entries.map((entry) => {
+        const topic = topics.find((t) => t.id === entry.data.topic)!;
+        return <Teaching entry={entry} body={body} topicTitle={topic.data.title} path={path} lead="topic" />;
+      })
+    }
+  </article>
+</Base>

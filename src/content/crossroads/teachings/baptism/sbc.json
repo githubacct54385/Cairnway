@@ -1,0 +1,48 @@
+{
+  "summary": "The Southern Baptist Convention's Baptist Faith and Message (2000) teaches that Christian baptism is the immersion of a believer in water in the name of the Father, the Son and the Holy Spirit. It is an act of obedience that pictures the believer's faith in Christ's death, burial and resurrection and the believer's own death to sin and new life, and it testifies to faith in the final resurrection. It is a church ordinance and a prerequisite to church membership and the Lord's Supper. The article does not speak of infant baptism, because baptism is for believers.",
+  "points": [
+    {
+      "question": "What is baptism?",
+      "answer": "The immersion of a believer in water in the name of the Father, Son and Holy Spirit.",
+      "at": "Baptist Faith and Message 2000, Article VII"
+    },
+    {
+      "question": "What does it mean?",
+      "answer": "An act of obedience that symbolizes the believer's faith in a crucified, buried and risen Savior, the believer's death to sin and new life, and a testimony to faith in the final resurrection.",
+      "at": "Article VII"
+    },
+    {
+      "question": "Who receives it?",
+      "answer": "A believer. It is required before church membership and before taking the Lord's Supper.",
+      "at": "Article VII"
+    }
+  ],
+  "scripture": [
+    "Matthew 3:13-17",
+    "Romans 6:3-5"
+  ],
+  "scriptureNote": "Two of the passages listed with Article VII; the full list is on the source page.",
+  "document": {
+    "title": "The Baptist Faith and Message 2000",
+    "section": "Article VII: Baptism and the Lord's Supper",
+    "issuer": "Southern Baptist Convention",
+    "date": "2000",
+    "url": "https://bfm.sbc.net/bfm2000/",
+    "edition": "The SBC's own site"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "The SBC site carries a copyright notice and no stated reuse permission, so no quotation is used.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Article VII was summarized by a reading tool on 2026-11-12 and was not read in full by a person or a second pass. Baptist churches govern themselves, so this speaks for the SBC and not for every Baptist church."
+  },
+  "topic": "baptism",
+  "body": "sbc",
+  "relatedEras": [
+    "apostolic-age",
+    "second-century"
+  ]
+}

@@ -17,3 +17,10 @@ export const UMBRELLA = {
   name: 'Cairnway',
   description: 'Christian history and what the churches teach, each traced to its sources.',
 };
+
+/** The beliefs section: what churches officially teach. Change `base` here to change the route. */
+export const CROSSROADS = {
+  name: 'Crossroads',
+  base: '/crossroads',
+  description: 'What the churches themselves teach on the questions Christians ask, with the documents behind each answer.',
+};

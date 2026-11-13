@@ -1,0 +1,40 @@
+---
+import Base from '../../layouts/Base.astro';
+import { loadCrossroads } from '../../lib/crossroads';
+
+const { topics, bodies, teachings } = await loadCrossroads();
+---
+
+<Base title="Sources and permissions" description="Every document used on Crossroads, its issuer, edition and rights status." section="crossroads" searchable={false}>
+  <div class="wrap page">
+    <h1>Sources and permissions</h1>
+    <p>
+      Every document used on Crossroads, with the body that issued it, the edition read, and whether we may quote it.
+      This is a working log, not legal advice. Where rights are unclear we link and summarize instead of quoting.
+    </p>
+    {
+      topics
+        .filter((t) => teachings.some((e) => e.data.topic === t.id))
+        .map((t) => (
+          <section>
+            <h2>{t.data.title}</h2>
+            <ul class="sources-list">
+              {bodies.flatMap((b) =>
+                teachings
+                  .filter((e) => e.data.topic === t.id && e.data.body === b.id)
+                  .map((e) => (
+                    <li>
+                      <a href={e.data.document.url}>{e.data.document.title}</a>, {e.data.document.section}
+                      <div class="meta">
+                        {b.data.name}. Issued by {e.data.document.issuer}. Date: {e.data.document.date}. Edition: {e.data.document.edition}.
+                        Rights: {e.data.rights.status.replace('-', ' ')}; {e.data.rights.note} Checked {e.data.rights.checked}.
+                      </div>
+                    </li>
+                  )),
+              )}
+            </ul>
+          </section>
+        ))
+    }
+  </div>
+</Base>

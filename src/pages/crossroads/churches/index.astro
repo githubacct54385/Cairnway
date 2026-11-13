@@ -1,0 +1,28 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { CROSSROADS } from '../../../config';
+import { loadCrossroads, churchPath } from '../../../lib/crossroads';
+
+const { bodies, teachings } = await loadCrossroads();
+---
+
+<Base title="Churches" description="The church bodies Crossroads covers, and what each one's documents are." section="crossroads" searchable={false}>
+  <div class="wrap page">
+    <h1>Churches</h1>
+    <p>
+      Crossroads attributes each position to a specific church body, not to a whole tradition. The tradition name is
+      only a way to find things.
+    </p>
+    <ul class="topic-list">
+      {
+        bodies.map((b) => (
+          <li class="card">
+            <h3><a href={churchPath(b.id)}>{b.data.name}</a></h3>
+            <p class="meta">{b.data.tradition} · {teachings.filter((t) => t.data.body === b.id).length} entries</p>
+            <p>{b.data.note}</p>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</Base>

@@ -1,0 +1,49 @@
+{
+  "summary": "Article XXVII of the Church of England's Articles of Religion teaches that baptism is more than a sign of Christian profession and a mark that distinguishes Christians: it is also a sign of regeneration or new birth, by which those who receive it rightly are grafted into the Church. In it the promises of forgiveness and adoption are visibly signed and sealed, faith is confirmed and grace increased. The baptism of young children is to be kept in the Church.",
+  "points": [
+    {
+      "question": "What is baptism?",
+      "answer": "Not only a sign of profession and a mark of difference between Christians and others, but also a sign of regeneration or new birth.",
+      "at": "Article XXVII"
+    },
+    {
+      "question": "What does it do?",
+      "answer": "Those who receive it rightly are grafted into the Church; the promises of forgiveness of sin and of adoption as God's children are visibly signed and sealed; faith is confirmed and grace increased by prayer to God.",
+      "at": "Article XXVII"
+    },
+    {
+      "question": "Are infants baptized?",
+      "answer": "Yes. The baptism of young children is in any wise to be retained in the Church, as most agreeable with the institution of Christ.",
+      "at": "Article XXVII"
+    }
+  ],
+  "excerpt": {
+    "text": "The baptism of young children is in any wise to be retained in the Church as most agreeable with the institution of Christ.",
+    "at": "Article XXVII"
+  },
+  "scripture": [],
+  "scriptureNote": "The Articles of Religion do not print scripture references.",
+  "document": {
+    "title": "The Articles of Religion (Thirty-Nine Articles)",
+    "section": "Article XXVII: Of Baptism",
+    "issuer": "Church of England",
+    "date": "1571; printed in the Book of Common Prayer (1662)",
+    "url": "https://www.churchofengland.org/prayer-and-worship/worship-texts-and-resources/book-common-prayer/articles-religion",
+    "edition": "Wording read in a web copy of the Articles; the Church of England's own page was reached but its text of this article was not retrieved"
+  },
+  "rights": {
+    "status": "public-domain",
+    "note": "The Articles date from 1571 and the wording is long out of copyright. The Church of England holds copyright in its modern editions, which are not used.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Wording read in a secondary web transcription on 2026-11-12 and not yet compared with the Church of England's own page. The Articles do not describe the form of baptism; the Book of Common Prayer's baptism services, which do, have not been used. Other Anglican churches are not represented."
+  },
+  "topic": "baptism",
+  "body": "church-of-england",
+  "relatedEras": [
+    "apostolic-age",
+    "second-century"
+  ]
+}

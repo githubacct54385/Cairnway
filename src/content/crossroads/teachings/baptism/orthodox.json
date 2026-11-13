@@ -1,0 +1,62 @@
+{
+  "summary": "The Longer Catechism, a standard Russian Orthodox statement of the faith, teaches that baptism is a sacrament in which a believer is plunged in water three times in the name of the Trinity, dies to the sinful life and is born again of the Holy Spirit. It asks repentance and faith of the one baptized, baptizes infants on the faith of their parents and sponsors, and holds that baptism cannot be repeated. This entry draws on one document; the Orthodox churches have no single catechism.",
+  "points": [
+    {
+      "question": "What is baptism?",
+      "answer": "A sacrament in which a believer, immersed three times in water in the name of the Father, Son and Holy Spirit, dies to the life of sin and is born again of the Holy Spirit to a spiritual life.",
+      "at": "Longer Catechism, Q. 288"
+    },
+    {
+      "question": "How is it administered?",
+      "answer": "The catechism calls triple immersion in water, in the name of the Trinity, what is most essential.",
+      "at": "Longer Catechism, Q. 290"
+    },
+    {
+      "question": "What is asked of the person baptized?",
+      "answer": "Repentance and faith; the Creed is recited before baptism.",
+      "at": "Longer Catechism, Q. 291"
+    },
+    {
+      "question": "Are infants baptized?",
+      "answer": "Yes, on the faith of their parents and sponsors, who are bound to teach them. The catechism argues that baptism takes the place of circumcision, which was given to infants.",
+      "at": "Longer Catechism, Q. 292-294"
+    },
+    {
+      "question": "Can it be repeated?",
+      "answer": "No. Baptism is spiritual birth, and a person is born once.",
+      "at": "Longer Catechism, Q. 303-304"
+    }
+  ],
+  "scripture": [
+    "John 3:5",
+    "Matthew 28:19",
+    "Acts 19:4",
+    "Acts 2:38",
+    "Mark 16:16",
+    "Colossians 2:11-12"
+  ],
+  "scriptureNote": "Passages the catechism cites in these answers.",
+  "relatedEras": [
+    "apostolic-age",
+    "second-century"
+  ],
+  "document": {
+    "title": "The Longer Catechism of the Orthodox, Catholic, Eastern Church",
+    "section": "Part I, \"On Baptism\", Questions 288-294 and 303-304 (numbering of the edition read)",
+    "issuer": "Russian Orthodox Church (drafted by Metropolitan Philaret of Moscow)",
+    "date": "1839 (approved by the Holy Synod); first published 1840",
+    "url": "https://azbyka.ru/otechnik/Filaret_Moskovskij/the-longer-catechism-of-the-orthodox-catholic-eastern-church/",
+    "edition": "English translation as hosted by azbyka.ru; the translator is not named on the page"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "The text is old, but the translator and edition are not confirmed, so no quotation is used until they are.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Read in the azbyka.ru English text on 2026-11-12. The 1839/1840 dates come from general knowledge and have not been checked against a source. The entry does not yet use other Orthodox documents, and other Orthodox churches may state their teaching differently."
+  },
+  "topic": "baptism",
+  "body": "orthodox"
+}

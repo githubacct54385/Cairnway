@@ -1,0 +1,49 @@
+---
+import Base from '../../layouts/Base.astro';
+import { CROSSROADS } from '../../config';
+import { loadCrossroads, topicPath } from '../../lib/crossroads';
+
+const { topics, bodies, teachings } = await loadCrossroads();
+const count = (id: string) => teachings.filter((t) => t.data.topic === id).length;
+---
+
+<Base title="What the churches teach" section="crossroads" searchable={false}>
+  <div class="wrap page">
+    <h1>{CROSSROADS.name}</h1>
+    <p>
+      Pick a question and see what each church officially teaches about it, in the words of its own catechism or
+      confession, with the scripture the document cites. We summarize in our own words and link to the document.
+    </p>
+    <p class="banner">
+      Early preview. One topic is written, and every entry is a draft that has not been fully checked.
+      <a href={`${CROSSROADS.base}/about/`}>How Crossroads works</a>.
+    </p>
+
+    <h2>Topics</h2>
+    <ul class="topic-list">
+      {
+        topics.map((t) =>
+          t.data.status === 'live' ? (
+            <li class="card">
+              <h3><a href={topicPath(t.id)}>{t.data.title}</a></h3>
+              <p class="meta">{count(t.id)} churches</p>
+              <p>{t.data.question}</p>
+            </li>
+          ) : (
+            <li class="card planned">
+              <h3>{t.data.title} <span class="tag">Coming</span></h3>
+              <p>{t.data.question}</p>
+            </li>
+          ),
+        )
+      }
+    </ul>
+
+    <h2>Churches</h2>
+    <p>
+      Each church is represented by one issuing body and its own documents. A tradition can include many churches that
+      teach differently; <a href={`${CROSSROADS.base}/churches/`}>see who is included and who is not yet</a>.
+    </p>
+    <p class="meta">{bodies.map((b) => b.data.name).join(' · ')}</p>
+  </div>
+</Base>

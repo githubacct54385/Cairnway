@@ -1,0 +1,92 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { reportUrl } from '../lib/crossroads';
+import { CROSSROADS } from '../config';
+
+interface Props {
+  entry: CollectionEntry<'teachings'>;
+  body: CollectionEntry<'bodies'>;
+  topicTitle: string;
+  /** Page the report link points back to. */
+  path: string;
+  /** Which name leads the card: the church (on a topic page) or the topic (on a church page). */
+  lead?: 'body' | 'topic';
+}
+
+const { entry, body, topicTitle, path, lead = 'body' } = Astro.props;
+const d = entry.data;
+const heading = lead === 'body' ? body.data.name : topicTitle;
+const sub = lead === 'body' ? body.data.tradition : body.data.name;
+---
+
+<article class="teaching" id={body.id}>
+  <h3>{heading}</h3>
+  <p class="docline">{sub}</p>
+
+  <p class="label">Our summary</p>
+  <p>{d.summary}</p>
+
+  {
+    d.points.length > 0 && (
+      <dl>
+        {d.points.map((p) => (
+          <>
+            <dt>{p.question}</dt>
+            <dd>
+              {p.answer} <span class="at">({p.at})</span>
+            </dd>
+          </>
+        ))}
+      </dl>
+    )
+  }
+
+  {
+    d.excerpt && (
+      <>
+        <p class="label">From the document</p>
+        <blockquote class="excerpt">
+          <p>{d.excerpt.text}</p>
+          <cite>
+            {d.document.title}, {d.excerpt.at}
+          </cite>
+        </blockquote>
+      </>
+    )
+  }
+
+  {
+    d.scripture.length > 0 && (
+      <>
+        <p class="label">Scripture the document cites</p>
+        <p>
+          {d.scripture.join('; ')}.{' '}
+          {d.scriptureNote && <span class="meta">{d.scriptureNote}</span>}
+        </p>
+      </>
+    )
+  }
+
+  <p class="label">The document</p>
+  <p>
+    <a href={d.document.url}>{d.document.title}</a>, {d.document.section}.<br />
+    <span class="docline">
+      Issued by {d.document.issuer}. Date: {d.document.date}. Read in: {d.document.edition}.
+    </span>
+  </p>
+
+  <details>
+    <summary>How this entry was checked</summary>
+    <p>
+      <strong>{d.review.status === 'draft' ? 'Draft.' : 'Checked by an AI model.'}</strong>
+      {d.review.note}
+    </p>
+    <p>
+      <strong>Rights ({d.rights.status.replace('-', ' ')}):</strong> {d.rights.note} Checked {d.rights.checked}.
+    </p>
+  </details>
+
+  <p class="report">
+    <a href={reportUrl(`${topicTitle}, ${body.data.name}`, path, `${body.data.name}: ${topicTitle}`)}>Report a problem with this entry</a>
+  </p>
+</article>

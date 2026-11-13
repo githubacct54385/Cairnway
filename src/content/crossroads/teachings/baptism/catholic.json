@@ -1,0 +1,62 @@
+{
+  "summary": "The Catholic Church teaches that baptism is the first of the sacraments and the doorway to the others. By it a person is freed from sin, including original sin, and becomes a child of God and a member of the Church. It is given once and cannot be repeated. The Church baptizes infants and adults, and holds baptism necessary for salvation for those to whom the Gospel has been proclaimed, while entrusting to God's mercy those who could not receive it.",
+  "points": [
+    {
+      "question": "What does baptism do?",
+      "answer": "It frees a person from all sin, original and personal, makes them an adopted child of God and a member of Christ and of the Church, and marks the soul permanently as belonging to Christ.",
+      "at": "CCC 1213, 1263, 1265, 1267, 1272"
+    },
+    {
+      "question": "Who receives it?",
+      "answer": "Any person not yet baptized. Adults are prepared first (the catechumenate). Infants are baptized because they too need new birth; the Church calls infant baptism an immemorial tradition, with explicit testimony from the second century.",
+      "at": "CCC 1246-1247, 1250, 1252"
+    },
+    {
+      "question": "How is it administered?",
+      "answer": "With water and the Trinitarian formula. Triple immersion is described as the most expressive form, but pouring water three times over the head has also been used from ancient times.",
+      "at": "CCC 1239-1240"
+    },
+    {
+      "question": "Who may baptize?",
+      "answer": "Ordinarily a bishop, priest or (in the Latin Church) deacon. In necessity anyone, even an unbaptized person, may baptize if they intend what the Church intends and use the Trinitarian formula.",
+      "at": "CCC 1256"
+    },
+    {
+      "question": "Is it necessary for salvation?",
+      "answer": "Yes, for those to whom the Gospel has been proclaimed and who could ask for it. The Church also recognizes baptism of blood (martyrdom) and of desire, and entrusts unbaptized infants to God's mercy.",
+      "at": "CCC 1257-1261"
+    }
+  ],
+  "scripture": [
+    "John 3:5",
+    "Matthew 28:19-20",
+    "Mark 16:16",
+    "Acts 2:38",
+    "Romans 6:3-4",
+    "1 Timothy 2:4"
+  ],
+  "scriptureNote": "Passages the Catechism cites in these paragraphs. Others appear elsewhere in the article.",
+  "document": {
+    "title": "Catechism of the Catholic Church",
+    "section": "Part Two, Section Two, Chapter One, Article 1: The Sacrament of Baptism (paragraphs 1213-1284)",
+    "issuer": "Catholic Church (Holy See)",
+    "date": "1992; typical edition 1997",
+    "url": "https://www.vatican.va/archive/ENG0015/__P3G.HTM",
+    "edition": "English text on the Holy See's website (IntraText edition)"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "The Catechism is published by the Holy See with copyright reserved. No quotation is used until permission for the specific edition is confirmed.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Summary and points written from paragraphs 1213, 1239-1240, 1246-1247, 1250, 1252-1253, 1256-1261, 1263, 1265, 1267, 1270, 1272 and 1274, read in the Holy See's English text on 2026-11-12. Paragraphs 1214-1238, 1241-1245, 1248-1249, 1251, 1254-1255, 1262, 1264, 1266, 1268-1269, 1271, 1273 and 1275-1284 were not used. Not yet checked by a second reviewer."
+  },
+  "topic": "baptism",
+  "body": "catholic",
+  "relatedEras": [
+    "apostolic-age",
+    "second-century"
+  ]
+}
