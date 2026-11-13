@@ -1,0 +1,89 @@
+---
+import { render } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+import Teaching from '../../../components/Teaching.astro';
+import { CROSSROADS } from '../../../config';
+import { loadCrossroads, topicPath, churchPath } from '../../../lib/crossroads';
+
+export async function getStaticPaths() {
+  const { topics, bodies, teachings, eras } = await loadCrossroads();
+  return topics
+    .filter((t) => t.data.status === 'live')
+    .map((topic) => ({
+      params: { slug: topic.id },
+      props: {
+        topic,
+        bodies,
+        eras,
+        entries: teachings.filter((t) => t.data.topic === topic.id),
+      },
+    }));
+}
+
+const { topic, bodies, entries, eras } = Astro.props;
+const { Content } = await render(topic);
+const path = topicPath(topic.id);
+const byBody = bodies.map((b) => ({ body: b, entry: entries.find((e) => e.data.body === b.id) }));
+const missing = byBody.filter((x) => !x.entry);
+const related = eras.filter((e) => topic.data.relatedEras.includes(e.id)).sort((a, b) => a.data.order - b.data.order);
+---
+
+<Base title={topic.data.title} description={topic.data.question} section="crossroads" searchable={false}>
+  <article class="wrap page">
+    <p class="meta"><a href={`${CROSSROADS.base}/`}>All topics</a></p>
+    <h1>{topic.data.title}</h1>
+    <p class="meta">{topic.data.question}</p>
+    <div><Content /></div>
+
+    <details class="banner draft-status">
+      <summary>Draft: every entry below is unreviewed by a specialist. Show details</summary>
+      <p>
+        These summaries were written by an AI from the documents named in each entry and have not been checked by a
+        second person. Each entry says exactly what was read and what was not. Where a church has no official text on
+        a question, we say nothing rather than guess.
+      </p>
+    </details>
+
+    <nav class="jump" aria-label="Churches on this page">
+      {byBody.filter((x) => x.entry).map((x) => <a href={`#${x.body.id}`}>{x.body.data.name}</a>)}
+    </nav>
+
+    {
+      byBody.map(
+        ({ body, entry }) =>
+          entry && <Teaching entry={entry} body={body} topicTitle={topic.data.title} path={path} />,
+      )
+    }
+
+    {
+      missing.length > 0 && (
+        <p class="meta">
+          Not yet included: {missing.map((m) => m.body.data.name).join(', ')}.
+        </p>
+      )
+    }
+
+    {
+      topic.id === 'baptism' && (
+        <p class="meta">
+          The entries differ in how much their documents say. A shorter entry does not mean a church cares less; it may
+          mean the document used says less on the question, or that other documents were not used yet.
+        </p>
+      )
+    }
+
+    {
+      related.length > 0 && (
+        <>
+          <h2>Where this comes from in history</h2>
+          <p>Ancient Paths covers the early practice that these documents appeal to:</p>
+          <ul>
+            {related.map((e) => (
+              <li><a href={`/history/eras/${e.id}/`}>{e.data.title}</a> <span class="meta">({e.data.dateRange})</span></li>
+            ))}
+          </ul>
+        </>
+      )
+    }
+  </article>
+</Base>

@@ -1,0 +1,55 @@
+{
+  "summary": "In Luther's Small Catechism, which the Lutheran Church-Missouri Synod holds as part of its confession, baptism is not plain water but water joined to God's command and word. It gives forgiveness of sins, deliverance from death and the devil, and eternal salvation to all who believe the promises of God. The water works through God's word and faith that trusts it, and it signifies the daily drowning of the old self and the rising of a new one. The Small Catechism's baptism section does not address who should be baptized or how the water is applied.",
+  "points": [
+    {
+      "question": "What is baptism?",
+      "answer": "Not simple water only, but water comprehended in God's command and connected with God's word, namely Christ's command to baptize in the name of the Father, Son and Holy Spirit.",
+      "at": "Small Catechism, Fourth Part, \"First\""
+    },
+    {
+      "question": "What does it give?",
+      "answer": "Forgiveness of sins, deliverance from death and the devil, and eternal salvation to all who believe the words and promises of God.",
+      "at": "Small Catechism, Fourth Part, \"Secondly\""
+    },
+    {
+      "question": "How can water do this?",
+      "answer": "The water does not do it; the word of God in and with the water does, together with faith that trusts that word. With the word it is a washing of rebirth.",
+      "at": "Small Catechism, Fourth Part, \"Thirdly\""
+    },
+    {
+      "question": "What does it signify?",
+      "answer": "That the old self is to be drowned daily by repentance and a new person to rise to live before God in righteousness.",
+      "at": "Small Catechism, Fourth Part, \"Fourthly\""
+    }
+  ],
+  "scripture": [
+    "Matthew 28:19",
+    "Mark 16:16",
+    "Titus 3:5-8",
+    "Romans 6:4"
+  ],
+  "scriptureNote": "Passages the Small Catechism cites in this part.",
+  "document": {
+    "title": "Luther's Small Catechism (in the Book of Concord)",
+    "section": "Fourth Chief Part: The Sacrament of Holy Baptism",
+    "issuer": "Lutheran Church-Missouri Synod (the confession it holds); written by Martin Luther",
+    "date": "1529",
+    "url": "https://bookofconcord.org/small-catechism/holy-baptism/",
+    "edition": "Text on bookofconcord.org; the translation is not named on the page, and the site also credits a 1986 Concordia Publishing House edition"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "Editions of the Small Catechism differ in translation and rights. No quotation is used until the edition is confirmed.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Read in the bookofconcord.org text on 2026-11-12. The LCMS's own published catechism and its Large Catechism and statements on infant baptism have not been used yet, so the entry says nothing on who may be baptized. Not yet checked by a second reviewer."
+  },
+  "topic": "baptism",
+  "body": "lcms",
+  "relatedEras": [
+    "apostolic-age",
+    "second-century"
+  ]
+}

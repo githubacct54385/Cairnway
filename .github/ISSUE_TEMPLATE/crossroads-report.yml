@@ -1,0 +1,42 @@
+name: Report a problem on Crossroads
+description: A misrepresented teaching, a broken or wrong source, a factual error, or a rights concern on a Crossroads page.
+labels: ["crossroads"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      description: Filled in for you when you arrive from a Crossroads page.
+    validations:
+      required: true
+  - type: input
+    id: statement
+    attributes:
+      label: Which statement or church?
+      placeholder: "For example: the Catholic Church entry on infant baptism"
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of problem?
+      options:
+        - The summary misrepresents the document
+        - A broken or wrong source link
+        - A factual error (date, body, citation)
+        - A rights or copyright concern
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: What is wrong?
+      description: Please include links that support your report. Do not paste long passages from copyrighted works.
+    validations:
+      required: true
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: Permission
+      options:
+        - label: I wrote this report myself and agree it may be used under the project's licenses (CC BY 4.0 for text).
+          required: true

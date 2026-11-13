@@ -1,14 +1,37 @@
 ---
 import Base from '../layouts/Base.astro';
-import { UMBRELLA, SITE } from '../config';
-
-// Placeholder umbrella homepage. The real one, with a door to each section, comes in the next step of CHR-1.
+import { SITE, UMBRELLA, CROSSROADS } from '../config';
 ---
 
-<Base title={UMBRELLA.name} description={UMBRELLA.description} searchable={false}>
-  <div class="wrap page">
-    <h1>{UMBRELLA.name}</h1>
-    <p>{UMBRELLA.description}</p>
-    <p><a class="button" href="/history/">{SITE.title}: the history of the church</a></p>
+<Base title={UMBRELLA.name} section="home" searchable={false}>
+  <section class="hero hero-home">
+    <div class="hero-inner wrap">
+      <h1>{UMBRELLA.name}</h1>
+      <p>{UMBRELLA.description}</p>
+    </div>
+  </section>
+  <div class="wrap page doors-wrap">
+    <h2 class="visually-hidden">Choose a section</h2>
+    <ul class="cards doors">
+      <li class="card door">
+        <h3><a href="/history/">{SITE.title}</a></h3>
+        <p class="meta">Church history</p>
+        <p>The story of Christianity from the first century to today, one era at a time, with a source for every claim.</p>
+        <a class="button" href="/history/">Walk the timeline</a>
+      </li>
+      <li class="card door">
+        <h3><a href={`${CROSSROADS.base}/`}>{CROSSROADS.name}</a></h3>
+        <p class="meta">What the churches teach · early preview</p>
+        <p>
+          Pick a question, such as baptism, and see what each church says in its own catechism or confession, with the
+          document and the scripture it cites.
+        </p>
+        <a class="button" href={`${CROSSROADS.base}/`}>See what churches teach</a>
+      </li>
+    </ul>
+    <p class="meta">
+      The two sections are separate on purpose. {SITE.title} traces what happened; {CROSSROADS.name} reports what each church
+      officially teaches today. Both cite their sources.
+    </p>
   </div>
 </Base>

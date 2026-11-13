@@ -1,0 +1,53 @@
+---
+import Base from '../../layouts/Base.astro';
+import { CROSSROADS } from '../../config';
+---
+
+<Base title="How Crossroads works" section="crossroads" searchable={false}>
+  <div class="wrap page">
+    <h1>How Crossroads works</h1>
+    <p>
+      Crossroads answers one question: what does a particular church officially teach? It does not say which church is
+      right, and it does not describe what individual members believe.
+    </p>
+
+    <h2>What we use, and what we leave out</h2>
+    <ul>
+      <li>Official documents only: catechisms, confessions, doctrinal statements and council documents.</li>
+      <li>One named church body for each tradition. A position is attributed to that body, not to everyone in the tradition.</li>
+      <li>If no official document states a position, we say nothing. We never infer a view from silence.</li>
+      <li>No commentary from theologians or writers in this first version.</li>
+    </ul>
+
+    <h2>What each entry shows</h2>
+    <p>
+      A short summary in our own words; what the document says on the narrower questions; a short quotation only where
+      we have confirmed the text is free to quote; the scripture the document itself cites; the document, its issuing
+      body, date and the edition we read; and how the entry was checked.
+    </p>
+
+    <h2>Eastern Orthodox churches</h2>
+    <p>
+      The Orthodox churches do not have a single catechism. Where we cover them we use several documents, each named
+      on its own entry, and we do not merge them into one voice. For baptism the entry draws on one of them, the Longer
+      Catechism used in Russia. A thin Orthodox entry usually means we have not yet used the other documents.
+    </p>
+
+    <h2>How entries are checked</h2>
+    <p>
+      Entries are drafted with the help of an AI from the documents themselves. Each entry says which paragraphs were
+      read and which were not. No specialist has reviewed any entry yet, and an AI check does not guarantee accuracy.
+      An entry marked Draft has not had a second reading.
+    </p>
+
+    <h2>Rights</h2>
+    <p>
+      We link to documents rather than copying them. We quote only where the text is old enough to be free or we have
+      recorded permission, and each entry records its status. Churches have not endorsed this site. If you think
+      something is misrepresented, wrongly quoted or should be removed, use the report link on the entry.
+    </p>
+    <p>
+      <a href={`${CROSSROADS.base}/sources/`}>See every document used</a>.
+    </p>
+  </div>
+</Base>

@@ -272,3 +272,141 @@ a {
 .sources-list li {
   margin-bottom: 0.9rem;
 }
+
+/* Shared header: section links, and the second row of pages within a section. */
+.site-header nav a[aria-current='true'] {
+  color: var(--fg);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 0.3em;
+}
+.subnav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.25rem 1.25rem;
+  padding: 0.5rem 1rem;
+  border-block: 1px solid var(--rule);
+  font-family: system-ui, sans-serif;
+  font-size: 0.9rem;
+}
+.subnav a {
+  text-decoration: none;
+}
+.subnav a[aria-current='page'] {
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 0.3em;
+}
+.subnav-title {
+  font-weight: 700;
+  color: var(--fg);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* Umbrella homepage. */
+.hero-home {
+  min-height: 42vh;
+}
+.doors {
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+}
+.door h3 {
+  font-size: 1.6rem;
+}
+.door h3 a {
+  text-decoration: none;
+}
+.doors-wrap {
+  width: min(100% - 2rem, 56rem);
+}
+
+/* Crossroads. */
+.tag {
+  display: inline-block;
+  padding: 0.1rem 0.6rem;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  font-family: system-ui, sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.teaching {
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-radius: 0.75rem;
+  padding: 1rem 1.25rem;
+  margin: 1.25rem 0;
+}
+.teaching h3 {
+  margin: 0 0 0.15rem;
+}
+.teaching .docline {
+  font-family: system-ui, sans-serif;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+.teaching dl {
+  margin: 0.75rem 0 0;
+}
+.teaching dt {
+  font-weight: 600;
+  margin-top: 0.6rem;
+}
+.teaching dd {
+  margin: 0.1rem 0 0;
+}
+.teaching .at {
+  font-family: system-ui, sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.excerpt {
+  margin: 0.75rem 0;
+  padding-left: 1rem;
+  border-left: 3px solid var(--accent);
+}
+.excerpt cite {
+  display: block;
+  font-family: system-ui, sans-serif;
+  font-size: 0.8rem;
+  color: var(--muted);
+  font-style: normal;
+}
+.label {
+  font-family: system-ui, sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 1rem 0 0.15rem;
+}
+.report {
+  font-family: system-ui, sans-serif;
+  font-size: 0.85rem;
+}
+.topic-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 0.75rem;
+}
+.planned {
+  opacity: 0.75;
+}
+.jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1rem;
+  margin: 1rem 0;
+  font-family: system-ui, sans-serif;
+  font-size: 0.9rem;
+}

@@ -1,0 +1,75 @@
+{
+  "summary": "The Westminster Confession, which the Presbyterian Church in America holds as a doctrinal standard, teaches that baptism is a sacrament instituted by Christ that admits a person into the visible church and is a sign and seal of the covenant of grace. It is applied with water, and pouring or sprinkling is a right way to baptize; dipping is not necessary. Both professing believers and the infants of believing parents are baptized. The Confession holds that baptism is not necessary for salvation and does not guarantee regeneration, and that its grace is conferred by the Holy Spirit in God's time. It is administered once.",
+  "points": [
+    {
+      "question": "What is baptism?",
+      "answer": "A sacrament of the New Testament, ordained by Christ, that admits a person into the visible church and is a sign and seal of the covenant of grace, of being joined to Christ, of regeneration and forgiveness, and of giving oneself to God.",
+      "at": "Westminster Confession 28.1"
+    },
+    {
+      "question": "How is it administered?",
+      "answer": "With water in the name of the Father, Son and Holy Spirit, by a lawfully called minister of the gospel. Dipping is not necessary; pouring or sprinkling is right.",
+      "at": "Westminster Confession 28.2-28.3"
+    },
+    {
+      "question": "Who receives it?",
+      "answer": "Those who profess faith in and obedience to Christ, and also the infants of one or both believing parents.",
+      "at": "Westminster Confession 28.4"
+    },
+    {
+      "question": "Is it necessary for salvation?",
+      "answer": "No. Neglecting it is a great sin, but grace and salvation are not so bound to it that no one can be saved without it, nor are all who are baptized certainly regenerated.",
+      "at": "Westminster Confession 28.5"
+    },
+    {
+      "question": "When does it work?",
+      "answer": "Its efficacy is not tied to the moment of baptism; by right use the promised grace is really given by the Holy Spirit, to those it belongs to, at God's appointed time.",
+      "at": "Westminster Confession 28.6"
+    },
+    {
+      "question": "Can it be repeated?",
+      "answer": "No, baptism is administered only once to any person.",
+      "at": "Westminster Confession 28.7"
+    }
+  ],
+  "excerpt": {
+    "text": "Dipping of the person into the water is not necessary; but baptism is rightly administered by pouring, or sprinkling water upon the person.",
+    "at": "Westminster Confession 28.3"
+  },
+  "scripture": [
+    "Matthew 28:19",
+    "1 Corinthians 12:13",
+    "Romans 4:11",
+    "Colossians 2:11-12",
+    "Galatians 3:27",
+    "Titus 3:5",
+    "Mark 16:15-16",
+    "Acts 2:38-39",
+    "Genesis 17:7",
+    "John 3:5"
+  ],
+  "scriptureNote": "A selection of the proof texts printed with the Confession's chapter 28. The Confession's wording and its proof texts are the Westminster Divines'; the list is not exhaustive.",
+  "document": {
+    "title": "The Westminster Confession of Faith",
+    "section": "Chapter 28: Of Baptism",
+    "issuer": "Presbyterian Church in America (holds the Westminster Standards); text of the Westminster Assembly",
+    "date": "1646 (Assembly); adopted by the PCA on its founding in 1973",
+    "url": "https://www.opc.org/wcf.html",
+    "edition": "Text and proof texts read on the OPC and The-Highway websites; the PCA's own published copy has not been compared"
+  },
+  "rights": {
+    "status": "public-domain",
+    "note": "The Confession's wording dates from 1646. The edition read is a modern-spelling web copy; its rights are not separately confirmed, so only one sentence is quoted.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Chapter 28 read in full on 2026-11-12 in two web copies. Which Reformed body to name, and the PCA's adoption date, still need to be confirmed against the PCA's own documents. Other Reformed churches, for example those that hold the Heidelberg Catechism, teach somewhat differently and are not represented."
+  },
+  "topic": "baptism",
+  "body": "pca",
+  "relatedEras": [
+    "apostolic-age",
+    "second-century"
+  ]
+}
