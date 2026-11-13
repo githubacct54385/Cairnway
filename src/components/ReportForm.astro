@@ -1,0 +1,164 @@
+---
+import { TURNSTILE_SITE_KEY } from '../config';
+import { REPORT_SECTIONS, githubReportUrl, type Section } from '../lib/report';
+
+interface Props {
+  section: Section;
+}
+const { section } = Astro.props;
+const cfg = REPORT_SECTIONS[section];
+const fallback = githubReportUrl(section, '', `${cfg.base}/`);
+---
+
+<div class="wrap page report-page">
+    <h1>Report a problem</h1>
+    <p>{cfg.intro} You do not need an account.</p>
+
+    {
+      TURNSTILE_SITE_KEY ? (
+        <form id="report-form" novalidate data-sitekey={TURNSTILE_SITE_KEY} data-section={section}>
+          <p class="about-line" id="about-line" hidden>
+            {cfg.aboutPrompt}: <strong id="about-text"></strong>
+          </p>
+          <input type="hidden" name="page" />
+          <input type="hidden" name="about" />
+
+          <label>
+            What kind of problem?
+            <select name="kind" required>
+              <option value="">Choose one</option>
+              {cfg.kinds.map((k) => <option value={k}>{k}</option>)}
+            </select>
+          </label>
+
+          <label>
+            What is wrong?
+            <textarea name="details" rows="6" required maxlength="4000" />
+            <small>Include a link to a source if you can. Please do not paste long passages from copyrighted works.</small>
+          </label>
+
+          <label>
+            How can we reach you?
+            <input name="contact" required maxlength="200" autocomplete="email" placeholder="Email address or GitHub username" />
+            <small>
+              Only so we can reply about this report. It is stored privately, never shown on the site or in the public
+              issue, and not used for anything else.
+            </small>
+          </label>
+
+          {
+            cfg.asksSource && (
+              <label>
+                Source for your suggestion (optional)
+                <textarea name="source" rows="3" maxlength="1000" />
+                <small>A book, article or primary source, with a link if you have one.</small>
+              </label>
+            )
+          }
+
+          <div class="hp" aria-hidden="true">
+            <label>Leave this empty <input name="website" tabindex="-1" autocomplete="off" /></label>
+          </div>
+
+          <div id="turnstile"></div>
+          <p id="report-status" role="status" aria-live="polite"></p>
+          <button type="submit">Send report</button>
+          <p class="fine">
+            Your report becomes a public issue on our GitHub page (without your contact details), so we can track and fix
+            it in the open. Text you submit may be used under the project's CC BY 4.0 licence.
+          </p>
+        </form>
+      ) : (
+        <p class="notice">
+          The on-site form is not switched on yet. For now, <a href={fallback}>report it on GitHub</a> (needs a free
+          GitHub account).
+        </p>
+      )
+    }
+
+    <noscript>
+      <p>This form needs JavaScript. You can also <a href={fallback}>report it on GitHub</a>.</p>
+    </noscript>
+    <p class="fine">Prefer GitHub? <a id="gh-link" href={fallback} data-about-field={cfg.githubAboutField} data-name={cfg.name} data-with-page={section === 'crossroads' ? '1' : ''}>Open the GitHub form instead</a>.</p>
+  </div>
+
+<script>
+  const form = document.getElementById('report-form') as HTMLFormElement | null;
+  const params = new URLSearchParams(location.search);
+  const page = params.get('page') ?? '';
+  const about = params.get('about') ?? '';
+  const section = form?.dataset.section ?? 'crossroads';
+
+  // Keep the "prefer GitHub" link pointed at the same page.
+  const gh = document.getElementById('gh-link') as HTMLAnchorElement | null;
+  if (gh && (page || about)) {
+    const u = new URL(gh.href);
+    if (page && gh.dataset.withPage) u.searchParams.set('page', page);
+    if (about) {
+      u.searchParams.set(gh.dataset.aboutField!, about);
+      u.searchParams.set('title', `${gh.dataset.name}: ${about}`);
+    }
+    gh.href = u.toString();
+  }
+
+  if (form) {
+    const set = (name: string, v: string) => ((form.elements.namedItem(name) as HTMLInputElement).value = v);
+    set('page', page.startsWith('/') ? page : '');
+    set('about', about);
+    if (about) {
+      document.getElementById('about-text')!.textContent = about;
+      document.getElementById('about-line')!.hidden = false;
+    }
+
+    const status = document.getElementById('report-status')!;
+    const button = form.querySelector('button')!;
+    let widgetId: string | undefined;
+    let token = '';
+
+    const w = window as any;
+    w.__onTurnstile = () => {
+      widgetId = w.turnstile.render('#turnstile', {
+        sitekey: form.dataset.sitekey,
+        callback: (t: string) => (token = t),
+        'expired-callback': () => (token = ''),
+      });
+    };
+    const s = document.createElement('script');
+    s.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit&onload=__onTurnstile';
+    s.async = true;
+    document.head.append(s);
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const data = Object.fromEntries(new FormData(form).entries()) as Record<string, string>;
+      if (!data.page) return (status.textContent = 'Please open this form from the "Report a problem" link on the page you want to report.');
+      if (!data.kind) return (status.textContent = 'Please choose what kind of problem it is.');
+      if (data.details.trim().length < 10) return (status.textContent = 'Please say what is wrong (at least a sentence).');
+      if (!data.contact.trim()) return (status.textContent = 'Please give an email address or GitHub username so we can reply.');
+      if (!token) return (status.textContent = 'Please wait for the spam check to finish, then send again.');
+
+      button.disabled = true;
+      status.textContent = 'Sending…';
+      try {
+        const res = await fetch('/api/report', {
+          method: 'POST',
+          headers: { 'content-type': 'application/json' },
+          body: JSON.stringify({ ...data, section, turnstile: token }),
+        });
+        const out = await res.json().catch(() => ({}));
+        if (res.ok && out.ok) {
+          form.innerHTML = `<p class="notice"><strong>Thank you.</strong> Your report was received (reference ${out.reference}). We will reply using the contact you gave.</p>`;
+          return;
+        }
+        status.textContent = out.message ?? 'Something went wrong. Please try again.';
+      } catch {
+        status.textContent = 'We could not reach the server. Please try again.';
+      }
+      button.disabled = false;
+      if (w.turnstile && widgetId) {
+        w.turnstile.reset(widgetId);
+        token = '';
+      }
+    });
+  }
+</script>

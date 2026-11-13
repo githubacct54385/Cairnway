@@ -53,10 +53,12 @@ These steps need your own accounts, so they are done by hand.
 The GitHub `production` environment, with its approval rule (reviewer: the repository owner; branch: `main` only), is
 set up in the repository settings, under Settings, then Environments.
 
-## Report form (Crossroads)
+## Report form (both sections)
 
-The Worker has one endpoint, `POST /api/report` (`worker/index.ts`). The form at `/crossroads/report/` sends reports
-there, and the Worker opens a GitHub issue labelled `crossroads` and `from-form`. The reporter's email or GitHub
+The Worker has one endpoint, `POST /api/report` (`worker/index.ts`). The forms at `/crossroads/report/` and
+`/history/report/` (one shared component, `src/components/ReportForm.astro`) send reports there, and the Worker opens a
+GitHub issue labelled `from-form` plus `crossroads` or `content`, depending on the section. What each section asks lives
+in `src/lib/report.ts`. The reporter's email or GitHub
 username is **not** put in the public issue: it is stored in the `REPORT_CONTACTS` KV namespace under `issue:<number>`.
 Until the steps below are done the report page shows a link to the GitHub issue form instead.
 
