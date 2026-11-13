@@ -1,5 +1,5 @@
 {
-  "summary": "The Longer Catechism, a standard Russian Orthodox statement of the faith, teaches that baptism is a sacrament in which a believer is plunged in water three times in the name of the Trinity, dies to the sinful life and is born again of the Holy Spirit. It asks repentance and faith of the one baptized, baptizes infants on the faith of their parents and sponsors, and holds that baptism cannot be repeated. This entry draws on one document; the Orthodox churches have no single catechism.",
+  "summary": "The Longer Catechism, a standard Russian Orthodox statement of the faith, teaches that baptism is a sacrament in which a believer is plunged in water three times in the name of the Trinity, dies to the sinful life and is born again of the Holy Spirit. It asks repentance and faith of the one baptized, baptizes infants on the faith of their parents and sponsors, and holds that baptism cannot be repeated. The Orthodox churches have no single catechism; other documents appear in their own rows.",
   "points": [
     {
       "question": "What is baptism?",
@@ -79,5 +79,9 @@
       "answer": "once",
       "at": "Longer Catechism, Q. 303-304"
     }
+  },
+  "voice": {
+    "label": "Longer Catechism (Russian Church)",
+    "tier": "single-church-catechism"
   }
 }

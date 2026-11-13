@@ -1,0 +1,67 @@
+{
+  "topic": "lords-supper",
+  "body": "orthodox",
+  "summary": "The Orthodox Confession of Peter Mogila teaches that the Eucharist is the Body and Blood of Christ under the species of bread and wine, in which Christ is present really and properly. At the consecration the priest invokes the Holy Spirit and the substance of the bread and wine is changed into the substance of Christ's body and blood, so that the bread becomes the very Body of Christ and the wine his very Blood, with only the appearances remaining. Only a lawfully ordained priest may celebrate it, and it is given to clergy and laity in both kinds. The confession also says the mystery is offered as a sacrifice for all orthodox Christians, living and dead, and calls it a propitiation as well as a commemoration of Christ's death.",
+  "points": [
+    {
+      "question": "What happens to the bread and wine?",
+      "answer": "By the working of the Holy Spirit, called down on the gifts, the substance of the bread and wine is changed into the very substance of Christ's body and blood; only the visible species remain, so that the body is received by faith.",
+      "at": "Orthodox Confession, Q. 107"
+    },
+    {
+      "question": "Is it a sacrifice?",
+      "answer": "Yes. The priest offers the unbloody sacrifice, and the mystery is offered as a sacrifice for all orthodox Christians, living and dead. Its fruits include a commemoration of Christ's death and a propitiation for sins of the living and the dead.",
+      "at": "Orthodox Confession, Q. 107"
+    },
+    {
+      "question": "Who may administer and receive?",
+      "answer": "Only a lawfully ordained priest may administer it, even in urgent need. Clergy and laity alike receive both the bread and the wine.",
+      "at": "Orthodox Confession, Q. 107"
+    }
+  ],
+  "positions": {
+    "what": {
+      "answer": "changed",
+      "at": "Orthodox Confession, Q. 107"
+    },
+    "sacrifice": {
+      "answer": "sacrifice",
+      "at": "Orthodox Confession, Q. 107"
+    }
+  },
+  "scripture": [
+    "John 6:54",
+    "1 Corinthians 11:23-26",
+    "John 19:34"
+  ],
+  "scriptureNote": "Passages the confession cites in these questions.",
+  "document": {
+    "title": "The Orthodox Confession of the Catholic and Apostolic Eastern Church",
+    "section": "Part I, Questions 106-107: the third mystery, the Eucharist",
+    "issuer": "The Orthodox Church (drafted by Metropolitan Peter Mogila of Kiev; endorsed by the Eastern patriarchs)",
+    "date": "1640s; endorsed by the Eastern patriarchs in 1643 (from general knowledge, unchecked)",
+    "url": "https://azbyka.ru/otechnik/world/the-orthodox-confession-of-the-catholic-and-apostolic-eastern-church",
+    "edition": "English translation attributed to Philip Lodvel (1772), as printed in the 1898 London edition on azbyka.ru"
+  },
+  "rights": {
+    "status": "public-domain",
+    "note": "The confession is from the 1640s and the English translation from 1772, so only one short sentence is quoted. The web copy's own rights are not separately confirmed.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Questions 106-107 read in part on 2026-11-12 in the azbyka.ru English text; the later parts of the answer to Q. 107 (the remaining fruits and the honor due to the mysteries) were read only in outline. The numbering in the edition read repeats Q. 107. Date and the patriarchs' endorsement are from general knowledge and unchecked. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "apostolic-age",
+    "reformation"
+  ],
+  "excerpt": {
+    "text": "The Bread becomes the very Body of Christ, and the Wine his very Blood.",
+    "at": "Orthodox Confession, Q. 107"
+  },
+  "voice": {
+    "label": "Orthodox Confession (Peter Mogila)",
+    "tier": "synodical-confession"
+  }
+}

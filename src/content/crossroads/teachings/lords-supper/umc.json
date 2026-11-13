@@ -1,0 +1,64 @@
+{
+  "topic": "lords-supper",
+  "body": "umc",
+  "summary": "The United Methodist Church's Articles of Religion teach that the Lord's Supper is not only a sign of Christian love but a sacrament of redemption by Christ's death, in which to those who receive rightly, worthily and with faith the bread is a partaking of the body of Christ and the cup a partaking of his blood. Transubstantiation is rejected as unproved by Scripture and as giving rise to superstitions. Christ's body is given, taken and eaten only in a heavenly and spiritual manner, and faith is the means by which it is received. The cup is not to be denied to the laity. Article XX calls Christ's one offering the perfect redemption and calls the sacrifice of masses a blasphemous fable and dangerous deceit.",
+  "points": [
+    {
+      "question": "What is it?",
+      "answer": "A sacrament of our redemption by Christ's death, not only a sign of love among Christians; to those who receive rightly, worthily and with faith the bread is a partaking of Christ's body and the cup of his blood.",
+      "at": "Article XVIII"
+    },
+    {
+      "question": "What happens to the bread and wine?",
+      "answer": "Transubstantiation cannot be proved by Scripture and is rejected. Christ's body is given, taken and eaten only in a heavenly and spiritual manner, and faith is the means.",
+      "at": "Article XVIII"
+    },
+    {
+      "question": "Who receives both bread and cup?",
+      "answer": "All Christians alike; the cup is not to be denied to lay people.",
+      "at": "Article XIX"
+    },
+    {
+      "question": "Is it a sacrifice?",
+      "answer": "No. Christ's offering, once made, is the perfect redemption, propitiation and satisfaction for all sins, and the sacrifice of masses is a blasphemous fable and dangerous deceit.",
+      "at": "Article XX"
+    }
+  ],
+  "positions": {
+    "what": {
+      "answer": "spiritual",
+      "at": "Article XVIII"
+    },
+    "sacrifice": {
+      "answer": "not-sacrifice",
+      "at": "Article XX"
+    }
+  },
+  "scripture": [],
+  "scriptureNote": "The Articles of Religion do not print scripture references.",
+  "document": {
+    "title": "The Articles of Religion of the Methodist Church",
+    "section": "Articles XVIII (Of the Lord's Supper), XIX (Of Both Kinds) and XX (Of the One Oblation of Christ)",
+    "issuer": "United Methodist Church",
+    "date": "1784 (John Wesley's revision of the Church of England's articles)",
+    "url": "https://www.umc.org/en/content/articles-of-religion",
+    "edition": "Text on umc.org, read 2026-11-12"
+  },
+  "rights": {
+    "status": "public-domain",
+    "note": "The article dates from 1784 and is long out of copyright. The UMC Book of Discipline as a whole is copyrighted and is not used.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Articles XVIII-XX read on umc.org on 2026-11-12. The UMC's This Holy Mystery, which states a fuller position and is more open to Christ's presence, was not used. Other Methodist bodies are not represented. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "apostolic-age",
+    "reformation"
+  ],
+  "excerpt": {
+    "text": "The body of Christ is given, taken, and eaten in the Supper, only after a heavenly and spiritual manner.",
+    "at": "Article XVIII"
+  }
+}

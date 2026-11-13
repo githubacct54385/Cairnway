@@ -1,0 +1,66 @@
+{
+  "topic": "lords-supper",
+  "body": "rca",
+  "summary": "The Heidelberg Catechism, which the Reformed Church in America holds as one of its standards, teaches that the Lord's Supper assures believers that they share in Christ's one sacrifice and all his benefits, as sure as they eat the broken bread and drink the cup. The bread and wine do not become Christ's body and blood; as in baptism, they are signs and confirmation, called his body by the nature of sacraments. The catechism contrasts the Supper with the Roman mass, which it calls a denial of Christ's one sacrifice and an accursed idolatry. The Supper is for those who are truly sorrowful for their sins and trust they are forgiven.",
+  "points": [
+    {
+      "question": "What does it assure believers of?",
+      "answer": "That they are partakers of Christ's one sacrifice on the cross and all his benefits, as certainly as they eat the broken bread and drink the cup in remembrance of him.",
+      "at": "Heidelberg Catechism, Q. 75"
+    },
+    {
+      "question": "Do the bread and wine become Christ's body and blood?",
+      "answer": "No. As the water in baptism is not changed into Christ's blood, so the bread is not changed into his body; it is a sign and confirmation, and is called his body according to the nature of sacraments.",
+      "at": "Heidelberg Catechism, Q. 78"
+    },
+    {
+      "question": "How does it differ from the mass?",
+      "answer": "The Supper testifies to full pardon through Christ's one sacrifice once accomplished on the cross, and that believers are joined to Christ, who is now in heaven. The mass is said to teach that Christ must be offered daily by priests and is bodily under the bread and wine, so that it denies the one sacrifice and is an accursed idolatry.",
+      "at": "Heidelberg Catechism, Q. 80"
+    },
+    {
+      "question": "Who is it for?",
+      "answer": "For those who are truly sorrowful for their sins and trust that they are forgiven for Christ's sake, and who desire to have their faith strengthened.",
+      "at": "Heidelberg Catechism, Q. 81"
+    }
+  ],
+  "positions": {
+    "what": {
+      "answer": "spiritual",
+      "at": "Heidelberg Catechism, Q. 75, 78",
+      "reading": true
+    },
+    "sacrifice": {
+      "answer": "not-sacrifice",
+      "at": "Heidelberg Catechism, Q. 80"
+    }
+  },
+  "scripture": [
+    "Matthew 26:26-29",
+    "1 Corinthians 10:16-17",
+    "Hebrews 9:26-28",
+    "Hebrews 10:10-14"
+  ],
+  "scriptureNote": "A selection of the references printed with these questions.",
+  "document": {
+    "title": "The Heidelberg Catechism",
+    "section": "Lord's Days 28-30: Questions 75-81 (82 and Questions 76-77 and 79 not read in full)",
+    "issuer": "Reformed Church in America (holds the Heidelberg Catechism as a standard)",
+    "date": "1563; one of the RCA's doctrinal standards",
+    "url": "https://www.ccel.org/creeds/heidelberg-cat.html",
+    "edition": "English text on the Christian Classics Ethereal Library; the translator is not named on the page. The RCA's own published copy has not been compared"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "The catechism is from 1563, but the English translation and edition are not confirmed, so no quotation is used.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Questions 75, 78, 80 and 81 read in full and Q. 79 in part on 2026-11-12 in the CCEL text; Q. 76-77 (on being joined to Christ's body by the Spirit) and Q. 82 were not read in full. Matching the answer to \"present by faith\" is our reading, since Q. 78 rules out a change in the elements and the passage on spiritual presence was not read. The RCA's own copy and the Belgic Confession's article on the Supper were not used. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "apostolic-age",
+    "reformation"
+  ]
+}

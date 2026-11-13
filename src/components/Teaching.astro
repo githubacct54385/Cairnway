@@ -1,6 +1,6 @@
 ---
 import type { CollectionEntry } from 'astro:content';
-import { reportUrl } from '../lib/crossroads';
+import { reportUrl, entrySlug, TIERS } from '../lib/crossroads';
 import { CROSSROADS } from '../config';
 
 interface Props {
@@ -15,13 +15,22 @@ interface Props {
 
 const { entry, body, topicTitle, path, lead = 'body' } = Astro.props;
 const d = entry.data;
+const voice = d.voice;
 const heading = lead === 'body' ? body.data.name : topicTitle;
 const sub = lead === 'body' ? body.data.tradition : body.data.name;
+const label = voice ? `${body.data.name}: ${voice.label}` : body.data.name;
 ---
 
-<article class="teaching" id={body.id}>
+<article class="teaching" id={entrySlug(entry)}>
   <h3>{heading}</h3>
   <p class="docline">{sub}</p>
+  {
+    voice && (
+      <p class="docline">
+        <strong>{voice.label}</strong> <span class="tag">{TIERS[voice.tier]}</span>
+      </p>
+    )
+  }
 
   <p class="label">Our summary</p>
   <p>{d.summary}</p>
@@ -87,6 +96,6 @@ const sub = lead === 'body' ? body.data.tradition : body.data.name;
   </details>
 
   <p class="report">
-    <a href={reportUrl(`${topicTitle}, ${body.data.name}`, path, `${body.data.name}: ${topicTitle}`)}>Report a problem with this entry</a>
+    <a href={reportUrl(`${topicTitle}, ${label}`, path, `${label}: ${topicTitle}`)}>Report a problem with this entry</a>
   </p>
 </article>

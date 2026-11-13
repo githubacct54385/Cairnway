@@ -1,0 +1,61 @@
+{
+  "topic": "lords-supper",
+  "body": "orthodox",
+  "summary": "The Longer Catechism, a standard Russian Orthodox statement of the faith, teaches that the Communion is a sacrament in which the believer, under the forms of bread and wine, partakes of the very Body and Blood of Christ to everlasting life. At the moment the words of institution are spoken in the Liturgy the bread and wine are changed, or transubstantiated, into the very Body and Blood of Christ; it adds, citing the Eastern patriarchs' exposition, that the word does not define how this happens, which only God understands. The catechism makes the Communion the chief part of divine service, asks believers to confess and communicate, and calls the faithful to receive at least once a year. The questions read do not address whether the Liturgy is a sacrifice.",
+  "points": [
+    {
+      "question": "What is the Communion?",
+      "answer": "A sacrament in which the believer, under the forms of bread and wine, partakes of the very Body and Blood of Christ, to everlasting life. It forms the chief and most essential part of divine service.",
+      "at": "Longer Catechism, Q. 315, 317"
+    },
+    {
+      "question": "What happens to the bread and wine?",
+      "answer": "At the moment the words of institution are spoken, they are changed, or transubstantiated, into the very Body and Blood of Christ. Citing the Eastern patriarchs, the catechism says the word does not define the manner of the change, which only God understands; it means the bread truly, really and substantially becomes the very Body of the Lord.",
+      "at": "Longer Catechism, Q. 338-340"
+    },
+    {
+      "question": "Who may receive, and how often?",
+      "answer": "Anyone who desires to approach is asked to prepare, and the Church calls those who live religiously to confess to a spiritual father and communicate several times a year, requiring all to receive at least once a year.",
+      "at": "Longer Catechism, Q. 341, 343"
+    }
+  ],
+  "positions": {
+    "what": {
+      "answer": "changed",
+      "at": "Longer Catechism, Q. 339-340"
+    },
+    "sacrifice": {
+      "answer": "not-stated"
+    }
+  },
+  "scripture": [
+    "Matthew 26:26-28",
+    "John 6:56"
+  ],
+  "scriptureNote": "Passages quoted in the answers read.",
+  "document": {
+    "title": "The Longer Catechism of the Orthodox, Catholic, Eastern Church",
+    "section": "Part I, \"On the Communion\", Questions 315-344 (numbering of the edition read)",
+    "issuer": "Russian Orthodox Church (drafted by Metropolitan Philaret of Moscow)",
+    "date": "1839 (approved by the Holy Synod); first published 1840",
+    "url": "https://azbyka.ru/otechnik/Filaret_Moskovskij/the-longer-catechism-of-the-orthodox-catholic-eastern-church/",
+    "edition": "English translation as hosted by azbyka.ru; the translator is not named on the page"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "The text is old, but the translator and edition are not confirmed, so no quotation is used until they are.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Questions 315-317, 322, 338-341 and 343 read in the azbyka.ru English text on 2026-11-12. The catechism's treatment of the Liturgy as an offering and of prayer for the dead was not read closely, so the sacrifice question is left \"not stated\" here rather than guessed; the Orthodox Confession row addresses it. The rest of the section was not used. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "apostolic-age",
+    "reformation"
+  ],
+  "voice": {
+    "label": "Longer Catechism (Russian Church)",
+    "tier": "single-church-catechism"
+  }
+}

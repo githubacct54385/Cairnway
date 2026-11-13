@@ -1,0 +1,61 @@
+{
+  "topic": "lords-supper",
+  "body": "mennonite-church-usa",
+  "summary": "The Confession of Faith in a Mennonite Perspective teaches that the Lord's Supper is a sign by which the church thankfully remembers the new covenant Jesus established by his death, and in which members renew their covenant with God and with each other. The supper \"re-presents\" the presence of the risen Christ in the church, and the gathered body shares in the body and blood of Christ and recognizes that its life is sustained by Christ. The confession calls it a sign rather than a sacrament or ordinance. All are invited who have been baptized into the community of faith, are living at peace with God and each other, and are willing to be accountable in their congregation. It does not say that the bread and cup change, and does not address whether it is a sacrifice.",
+  "points": [
+    {
+      "question": "What is it?",
+      "answer": "A sign by which the church thankfully remembers the new covenant Jesus established by his death, renews its covenant with God and each other, and proclaims the Lord's death until he comes.",
+      "at": "Article 12: The Lord's Supper"
+    },
+    {
+      "question": "Is Christ present?",
+      "answer": "The supper re-presents the presence of the risen Christ in the church; in partaking, the gathered body shares in the body and blood of Christ. The commentary says the bread is a sign of Christ's body and the cup a sign of the new covenant, and that the supper both represents Christ and is a way he is present again in the body of believers.",
+      "at": "Article 12 and its commentary"
+    },
+    {
+      "question": "Who is invited?",
+      "answer": "All who have been baptized into the community of faith, are living at peace with God and their brothers and sisters in the faith, and are willing to be accountable in their congregation.",
+      "at": "Article 12: The Lord's Supper"
+    }
+  ],
+  "positions": {
+    "what": {
+      "answer": "memorial",
+      "at": "Article 12 and its commentary",
+      "reading": true
+    },
+    "sacrifice": {
+      "answer": "not-stated"
+    }
+  },
+  "scripture": [
+    "1 Corinthians 11:26",
+    "Jeremiah 31:31-34",
+    "1 Corinthians 11:24-25",
+    "1 Corinthians 10:16",
+    "Luke 22:15-20"
+  ],
+  "scriptureNote": "The references printed with Article 12.",
+  "document": {
+    "title": "Confession of Faith in a Mennonite Perspective",
+    "section": "Article 12: The Lord's Supper",
+    "issuer": "Mennonite Church USA",
+    "date": "1995 (from general knowledge, unchecked)",
+    "url": "https://www.mennoniteusa.org/who-are-mennonites/what-we-believe/confession-of-faith/baptism/",
+    "edition": "Text on mennoniteusa.org, read in full on 2026-11-12. The confession is also published by MennoMedia"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "The confession is published by MennoMedia and the site states no reuse permission, so no quotation is used.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Article 12 and the start of its commentary read in full on mennoniteusa.org on 2026-11-12. Grouping it under \"remembrance\" is our reading: the confession calls the supper a sign that re-presents Christ's presence in the church and shares in his body and blood, which is more than a bare memorial but does not say the elements change. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "apostolic-age",
+    "reformation"
+  ]
+}

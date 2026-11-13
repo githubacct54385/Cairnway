@@ -2,5 +2,5 @@
   "name": "Eastern Orthodox",
   "tradition": "Eastern Orthodox",
   "order": 2,
-  "note": "The Orthodox churches have no single catechism. Crossroads uses several documents, each named on its own entry: for baptism, the Longer Catechism of the Orthodox, Catholic, Eastern Church (Russia, 1839). The documents come from different churches and centuries and are never merged into one voice."
+  "note": "The Orthodox churches have no single catechism. Crossroads uses several documents, each in its own row, named and tagged by how widely it speaks (a council or creed, a confession endorsed by church synods, one church's catechism, or one jurisdiction's statement). The documents come from different churches and centuries and are never merged into one voice."
 }

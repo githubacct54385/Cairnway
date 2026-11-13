@@ -1,0 +1,57 @@
+{
+  "topic": "lords-supper",
+  "body": "lcms",
+  "summary": "In Luther's Small Catechism, the Sacrament of the Altar is the true body and blood of our Lord Jesus Christ, under the bread and wine, for Christians to eat and to drink, instituted by Christ himself. Its benefit is forgiveness of sins, life and salvation, given through the words \"given and shed for you\" and not by the eating and drinking alone. The catechism calls the person worthy who has faith in those words, and unfit the one who does not believe or doubts. It does not say that the bread and wine are changed, and does not address whether the Supper is a sacrifice.",
+  "points": [
+    {
+      "question": "What is it?",
+      "answer": "The true body and blood of our Lord Jesus Christ, under the bread and wine, for Christians to eat and drink, instituted by Christ himself.",
+      "at": "Small Catechism, Sacrament of the Altar, Q. 1"
+    },
+    {
+      "question": "What does it give?",
+      "answer": "Forgiveness of sins, life and salvation, given through the words \"given and shed for you, for the remission of sins\" — not by the bodily eating and drinking alone.",
+      "at": "Small Catechism, Sacrament of the Altar, Q. 3-4"
+    },
+    {
+      "question": "Who receives it worthily?",
+      "answer": "The person who has faith in the words \"given and shed for you\"; fasting and bodily preparation are a good outward discipline but not what makes one worthy. Whoever does not believe or doubts is unfit.",
+      "at": "Small Catechism, Sacrament of the Altar, Q. 5"
+    }
+  ],
+  "positions": {
+    "what": {
+      "answer": "truly-present",
+      "at": "Small Catechism, Sacrament of the Altar, Q. 1"
+    },
+    "sacrifice": {
+      "answer": "not-stated"
+    }
+  },
+  "scripture": [
+    "Matthew 26:26-28",
+    "1 Corinthians 11:23-25"
+  ],
+  "scriptureNote": "The institution texts the catechism quotes.",
+  "document": {
+    "title": "Luther's Small Catechism (in the Book of Concord)",
+    "section": "The Sacrament of the Altar, Questions 1-5 as numbered in the text read",
+    "issuer": "Lutheran Church-Missouri Synod (the confession it holds); written by Martin Luther",
+    "date": "1529",
+    "url": "https://bookofconcord.org/small-catechism/holy-baptism/",
+    "edition": "Text on bookofconcord.org; the translation is not named on the page, and the site also credits a 1986 Concordia Publishing House edition"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "Editions of the Small Catechism differ in translation and rights. No quotation is used until the edition is confirmed.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "The Sacrament of the Altar read in the bookofconcord.org text on 2026-11-12. The LCMS's own published catechism, the Large Catechism, the Augsburg Confession and the Formula of Concord, which say more about the manner of Christ's presence and reject the Roman Mass, were not used; the question of sacrifice is therefore left \"not stated\". The LCMS's practice of restricting communion is not addressed by this text. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "apostolic-age",
+    "reformation"
+  ]
+}

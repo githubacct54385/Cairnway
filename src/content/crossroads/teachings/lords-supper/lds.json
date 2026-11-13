@@ -1,0 +1,60 @@
+{
+  "topic": "lords-supper",
+  "body": "lds",
+  "summary": "The Church of Jesus Christ of Latter-day Saints teaches, on its Gospel Topics page about the sacrament, that the sacrament is an ordinance of worship in which members remember Christ's life, ministry and Atonement and renew the covenants they made at baptism. The broken bread reminds them of Christ's body and physical suffering, and the water of his spiritual suffering. Partakers promise to remember him always and keep his commandments, and the Lord renews the promised forgiveness of sins and the companionship of his Spirit. Members partake weekly. The page calls the Atonement a sacrifice but describes the sacrament as a remembrance of it. It does not say whether the bread and water change.",
+  "points": [
+    {
+      "question": "What is it?",
+      "answer": "An ordinance of worship in which members remember Christ's life, ministry and Atonement, and renew their baptismal covenants. The bread reminds them of Christ's body, and the water of his spiritual suffering.",
+      "at": "Gospel Topics: Sacrament"
+    },
+    {
+      "question": "What do partakers promise and receive?",
+      "answer": "They promise to remember Christ always and keep his commandments; in return the Lord renews the promised remission of sins and the companionship of his Spirit.",
+      "at": "Gospel Topics: Sacrament"
+    },
+    {
+      "question": "Who partakes, and how often?",
+      "answer": "Church members, who need not be perfect but come humbly and repentantly, preparing each week.",
+      "at": "Gospel Topics: Sacrament"
+    }
+  ],
+  "positions": {
+    "what": {
+      "answer": "memorial",
+      "at": "Gospel Topics: Sacrament",
+      "reading": true
+    },
+    "sacrifice": {
+      "answer": "not-stated"
+    }
+  },
+  "scripture": [
+    "Luke 22:19-20",
+    "3 Nephi 18:1-11",
+    "Mosiah 18:8-10",
+    "Doctrine and Covenants 20:77"
+  ],
+  "scriptureNote": "Some of the passages the page cites; several come from the Book of Mormon and the Doctrine and Covenants.",
+  "document": {
+    "title": "Baptism (Gospel Topics, Topics and Questions)",
+    "section": "Gospel Topics: Sacrament",
+    "issuer": "The Church of Jesus Christ of Latter-day Saints",
+    "date": "2023",
+    "url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/baptism?lang=eng",
+    "edition": "The church's own website, read through a summarizing tool on 2026-11-12"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "The page carries no separate rights statement; no quotation is used.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "The page was summarized by a reading tool and not read in full by a person or a second pass on 2026-11-12. \"Remembrance\" is our reading: the page speaks of remembering and covenant renewal and says nothing about the elements changing. The LDS church uses water, not wine, and the page does not say who administers the sacrament. Several passages it cites are from the church's additional scripture. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "apostolic-age",
+    "reformation"
+  ]
+}
