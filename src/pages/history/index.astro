@@ -102,19 +102,18 @@ const unchecked = eras.length - aiCount;
 </Base>
 
 <script>
-  // Phones: the thin bar at the top stays pinned and shows which era is at the top of the screen.
+  // The thin bar at the top stays pinned and shows which era is at the top of the screen.
   const sticky = document.getElementById('timeline-sticky');
   const now = document.getElementById('timeline-now');
   const rows = Array.from(document.querySelectorAll<HTMLElement>('.era-row'));
   const segs = Array.from(document.querySelectorAll<HTMLElement>('.seg'));
-  const phone = window.matchMedia('(max-width: 719.98px)');
   let current = -2;
   let queued = false;
 
   function update() {
     queued = false;
     let idx = -1;
-    if (phone.matches && sticky) {
+    if (sticky) {
       const line = sticky.getBoundingClientRect().bottom + 8;
       rows.forEach((row, i) => {
         if (row.getBoundingClientRect().top <= line) idx = i;
@@ -137,7 +136,6 @@ const unchecked = eras.length - aiCount;
   }
   window.addEventListener('scroll', queue, { passive: true });
   window.addEventListener('resize', queue);
-  phone.addEventListener('change', queue);
   update();
 </script>
 
@@ -331,8 +329,8 @@ const unchecked = eras.length - aiCount;
     color: var(--muted);
   }
 
-  /* Phones: a thin overview bar pinned to the top, and each era row gets its own mini bar
-     showing where that era falls in the whole span. */
+  /* A thin overview bar stays pinned to the top and highlights the era at the top of the screen.
+     On phones each era row also gets its own mini bar showing where it falls in the whole span. */
   .overview {
     display: contents;
   }
@@ -386,30 +384,28 @@ const unchecked = eras.length - aiCount;
 
   /* Tablet and desktop: the dates sit in a left column, the era reads on the right. */
   @media (min-width: 720px) {
-    .overview {
-      display: block;
-    }
     .sticky {
-      position: static;
       margin-inline: 0;
-      padding: 0;
-      border-bottom: 0;
+      padding: 0.75rem 0 0.25rem;
     }
-    .now,
-    .mini {
-      display: none;
-    }
-    .overview-head {
-      margin-bottom: 0.6rem;
+    .now {
+      font-size: 0.85rem;
     }
     .bar {
-      height: 16px;
-      border-radius: 8px;
+      height: 12px;
+      border-radius: 6px;
     }
     .ticks {
       height: 1.5rem;
     }
+    /* The dates already sit beside each title here, so the per-row mini bar is phone-only. */
+    .mini {
+      display: none;
+    }
+    /* Room for the current-era tint to extend past the text. */
     .era-row {
+      padding-inline: 0.75rem;
+      margin-inline: -0.75rem;
       grid-template-columns: 11rem 1fr;
       align-items: start;
     }
