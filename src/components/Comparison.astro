@@ -1,5 +1,6 @@
 ---
 import type { CollectionEntry } from 'astro:content';
+import { entrySlug, TIERS } from '../lib/crossroads';
 
 interface Props {
   topic: CollectionEntry<'topics'>;
@@ -13,10 +14,18 @@ interface Props {
 const { topic, bodies, entries } = Astro.props;
 const questions = topic.data.questions;
 const rows = bodies
-  .map((body) => ({ body, entry: entries.find((e) => e.data.body === body.id) }))
-  .filter((r): r is { body: typeof r.body; entry: NonNullable<typeof r.entry> } => !!r.entry)
+  .flatMap((body) =>
+    entries
+      .filter((e) => e.data.body === body.id)
+      .sort((a, b) => a.id.localeCompare(b.id))
+      .map((entry) => ({ body, entry })),
+  )
   .map(({ body, entry }) => ({
     body,
+    slug: entrySlug(entry),
+    voice: entry.data.voice,
+    // A church with several documents gets a row for each; the document is named after the church.
+    label: entry.data.voice ? `${body.data.name}: ${entry.data.voice.label}` : body.data.name,
     cells: questions.map((q) => {
       const pos = entry.data.positions[q.id];
       const stated = pos.answer !== 'not-stated';
@@ -46,7 +55,7 @@ const hasReading = rows.some((r) => r.cells.some((c) => c.reading));
           Compare with
           <select data-compare-with>
             <option value="">No one</option>
-            {rows.map((r) => <option value={r.body.id}>{r.body.data.name}</option>)}
+            {rows.map((r) => <option value={r.slug}>{r.label}</option>)}
           </select>
         </label>
       </div>
@@ -64,13 +73,16 @@ const hasReading = rows.some((r) => r.cells.some((c) => c.reading));
             <tbody>
               {
                 rows.map((r) => (
-                  <tr data-church={r.body.id}>
-                    <th scope="row"><a href={`#${r.body.id}`}>{r.body.data.name}</a></th>
+                  <tr data-church={r.slug} data-label={r.label}>
+                    <th scope="row">
+                      <a href={`#${r.slug}`}>{r.body.data.name}</a>
+                      {r.voice && <span class="voice">{r.voice.label}<br /><em>{TIERS[r.voice.tier]}</em></span>}
+                    </th>
                     {r.cells.map((c) => (
                       <td data-q={c.q.id} data-ans={c.stated ? c.answer!.id : ''}>
                         <a
                           class={`chip ${c.stated ? `g${c.index}` : 'ns'}`}
-                          href={`#${r.body.id}`}
+                          href={`#${r.slug}`}
                           title={c.stated ? `${c.answer!.full}${c.reading ? ' (our reading of the wording)' : ''}. ${c.at ?? ''}` : 'The document used does not address this.'}
                         >
                           {c.stated ? c.answer!.short : 'Not stated'}
@@ -100,7 +112,7 @@ const hasReading = rows.some((r) => r.cells.some((c) => c.reading));
                     <div class="group-row">
                       <span class={`chip g${i}`}>{a.short}</span>
                       <p>
-                        {a.full}: {names.map((r, k) => <><a href={`#${r.body.id}`}>{r.body.data.name}</a>{k < names.length - 1 ? ', ' : ''}</>)}
+                        {a.full}: {names.map((r, k) => <><a href={`#${r.slug}`}>{r.label}</a>{k < names.length - 1 ? ', ' : ''}</>)}
                       </p>
                     </div>
                   )
@@ -113,7 +125,7 @@ const hasReading = rows.some((r) => r.cells.some((c) => c.reading));
                     none.length > 0 && (
                       <div class="group-row">
                         <span class="chip ns">Not stated</span>
-                        <p>{none.map((r) => r.body.data.name).join(', ')}</p>
+                        <p>{none.map((r) => r.label).join(', ')}</p>
                       </div>
                     )
                   );
@@ -140,7 +152,7 @@ const hasReading = rows.some((r) => r.cells.some((c) => c.reading));
     const names = new Map(
       Array.from(root.querySelectorAll<HTMLTableRowElement>('tr[data-church]')).map((tr) => [
         tr.dataset.church!,
-        tr.querySelector('th a')!.textContent!.trim(),
+        tr.dataset.label!,
       ]),
     );
     const answer = (church: string, q: string) =>

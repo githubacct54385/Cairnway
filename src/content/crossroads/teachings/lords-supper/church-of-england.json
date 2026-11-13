@@ -1,0 +1,64 @@
+{
+  "topic": "lords-supper",
+  "body": "church-of-england",
+  "summary": "The Church of England's Articles of Religion teach that the Lord's Supper is not only a sign of Christian love but a sacrament of redemption by Christ's death, in which to those who receive rightly, worthily and with faith the bread is a partaking of the body of Christ and the cup of his blood. Transubstantiation cannot be proved from Scripture and is rejected. Christ's body is given, taken and eaten only in a heavenly and spiritual manner, and the means by which it is received is faith. The sacrament was not by Christ's ordinance reserved, carried about, lifted up or worshipped. Article XXXI says Christ's one offering is the perfect redemption, and calls the sacrifices of Masses in which priests were said to offer Christ for the living and the dead blasphemous fables and dangerous deceits.",
+  "points": [
+    {
+      "question": "What is it?",
+      "answer": "Not only a sign of the love Christians should have for one another, but a sacrament of our redemption by Christ's death. To those who receive rightly, worthily and with faith, the bread is a partaking of the body of Christ and the cup a partaking of his blood.",
+      "at": "Article XXVIII"
+    },
+    {
+      "question": "What happens to the bread and wine?",
+      "answer": "Transubstantiation cannot be proved from Scripture, is repugnant to its plain words and overthrows the nature of a sacrament. Christ's body is given, taken and eaten only in a heavenly and spiritual manner, and faith is the means by which it is received.",
+      "at": "Article XXVIII"
+    },
+    {
+      "question": "May the sacrament be reserved or worshipped?",
+      "answer": "No. It was not by Christ's ordinance reserved, carried about, lifted up or worshipped.",
+      "at": "Article XXVIII"
+    },
+    {
+      "question": "Is it a sacrifice?",
+      "answer": "No. Christ's one offering is the perfect redemption, propitiation and satisfaction for all sins, and the sacrifices of Masses are called blasphemous fables and dangerous deceits.",
+      "at": "Article XXXI"
+    }
+  ],
+  "positions": {
+    "what": {
+      "answer": "spiritual",
+      "at": "Article XXVIII"
+    },
+    "sacrifice": {
+      "answer": "not-sacrifice",
+      "at": "Article XXXI"
+    }
+  },
+  "scripture": [],
+  "scriptureNote": "The Articles of Religion do not print scripture references.",
+  "document": {
+    "title": "The Articles of Religion (Thirty-Nine Articles)",
+    "section": "Articles XXVIII (Of the Lord's Supper) and XXXI (Of the one oblation of Christ finished upon the Cross)",
+    "issuer": "Church of England",
+    "date": "1571; printed in the Book of Common Prayer (1662)",
+    "url": "https://www.churchofengland.org/prayer-and-worship/worship-texts-and-resources/book-common-prayer/articles-religion",
+    "edition": "Wording read in a web copy of the Articles; the Church of England's own page was reached but its text of this article was not retrieved"
+  },
+  "rights": {
+    "status": "public-domain",
+    "note": "The Articles date from 1571 and the wording is long out of copyright. The Church of England holds copyright in its modern editions, which are not used.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Articles XXVIII and XXXI read in a secondary web transcription on 2026-11-12 and not yet compared with the Church of England's own page. The Book of Common Prayer's communion service, which says more about what happens, has not been used. Other Anglican churches, including the ACNA, state this in their own documents. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "apostolic-age",
+    "reformation"
+  ],
+  "excerpt": {
+    "text": "The Body of Christ is given, taken, and eaten, in the Supper, only after an heavenly and spiritual manner.",
+    "at": "Article XXVIII"
+  }
+}

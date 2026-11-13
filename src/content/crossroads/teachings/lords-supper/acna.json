@@ -1,0 +1,66 @@
+{
+  "topic": "lords-supper",
+  "body": "acna",
+  "summary": "The Anglican Church in North America's catechism teaches that Christ instituted the Lord's Supper for the continued remembrance of the sacrifice of his atoning death and to convey the benefits the faithful receive through it. The outward sign is bread and wine; the spiritual thing signified is the body and blood of Christ, which are truly taken and received in the Supper by faith. Receivers are nourished and strengthened in soul and in the unity of the Body of Christ, and are asked to examine themselves beforehand. The text read does not say whether the bread and wine are changed or whether the Supper is a sacrifice.",
+  "points": [
+    {
+      "question": "Why did Christ institute it?",
+      "answer": "For the continued remembrance of the sacrifice of his atoning death, and to convey the benefits the faithful receive through that sacrifice.",
+      "at": "Catechism (2016 draft), Q. 110"
+    },
+    {
+      "question": "What is the sign, and what does it signify?",
+      "answer": "The visible sign is bread and wine, which Christ commands us to receive. The spiritual thing signified is the body and blood of Christ, which are truly taken and received in the Lord's Supper by faith.",
+      "at": "Catechism (2016 draft), Q. 111-112"
+    },
+    {
+      "question": "What benefits come from it?",
+      "answer": "As the body is nourished by bread and wine, the soul is strengthened and refreshed by the body and blood of Christ, and the love and unity of fellow Christians in one Body is strengthened.",
+      "at": "Catechism (2016 draft), Q. 113"
+    },
+    {
+      "question": "What is asked of those who receive?",
+      "answer": "Self-examination: whether one truly repents, intends to lead the new life in Christ, has a living faith in God's mercy, remembers Christ's atoning death thankfully, and has shown love and forgiveness to all.",
+      "at": "Catechism (2016 draft), Q. 114"
+    }
+  ],
+  "positions": {
+    "what": {
+      "answer": "spiritual",
+      "at": "Catechism (2016 draft), Q. 111-112",
+      "reading": true
+    },
+    "sacrifice": {
+      "answer": "not-stated"
+    }
+  },
+  "scripture": [
+    "Luke 22:17-20",
+    "1 Corinthians 10:16-17",
+    "1 Corinthians 11:23",
+    "John 6:52-56",
+    "1 Corinthians 11:27-32"
+  ],
+  "scriptureNote": "Passages the catechism cites with these questions.",
+  "document": {
+    "title": "To Be a Christian: An Anglican Catechism",
+    "section": "The Sacraments, Questions 110-114 in the text read (the published edition numbers them differently)",
+    "issuer": "Anglican Church in North America",
+    "date": "2016 draft; approved edition published 2020",
+    "url": "https://anglicanchurch.net/catechism/",
+    "edition": "The 2016 text posted on the ACNA's website (PDF). The 2020 published edition may differ in wording and numbering"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "The catechism is a recent copyrighted work, so no quotation is used.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Questions 110-114 read in the 2016 draft on 2026-11-12; the approved 2020 edition may differ. \"Present by faith\" is our reading: the catechism says the body and blood are truly received by faith but does not say whether the elements change, so the answer rests on the wording, not a statement. The Book of Common Prayer 2019 communion service and the Articles of Religion were not used. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "apostolic-age",
+    "reformation"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "topic": "lords-supper",
+  "body": "pca",
+  "summary": "The Westminster Confession, which the Presbyterian Church in America holds as a doctrinal standard, teaches that the Lord's Supper is a sacrament Christ instituted for the perpetual remembrance of his sacrifice, the sealing of its benefits to believers, their spiritual nourishment, and a bond of communion with him and each other. Christ is not offered up in it and no real sacrifice is made; it is only a commemoration of his once-for-all offering and a spiritual offering of praise. The elements remain truly and only bread and wine, though they are sacramentally called by the names of what they represent; the Confession rejects transubstantiation. Worthy receivers receive and feed on Christ crucified inwardly by faith, really but spiritually and not carnally. The ignorant and ungodly may not be admitted.",
+  "points": [
+    {
+      "question": "What is it for?",
+      "answer": "For the perpetual remembrance of Christ's sacrifice, the sealing of its benefits to true believers, their spiritual nourishment and growth, and a bond and pledge of communion with Christ and with each other.",
+      "at": "Westminster Confession 29.1"
+    },
+    {
+      "question": "Is it a sacrifice?",
+      "answer": "No. Christ is not offered up to the Father and no real sacrifice is made; it is a commemoration of his one offering on the cross and a spiritual offering of praise. The Confession calls the Roman sacrifice of the mass most injurious to Christ's one sacrifice.",
+      "at": "Westminster Confession 29.2"
+    },
+    {
+      "question": "What are the bread and wine?",
+      "answer": "The elements keep their substance and nature as bread and wine, but have such relation to Christ crucified that they are sacramentally called his body and blood. Transubstantiation is rejected.",
+      "at": "Westminster Confession 29.5-29.6"
+    },
+    {
+      "question": "What do believers receive?",
+      "answer": "Worthy receivers inwardly by faith, really but not carnally or corporally, receive and feed upon Christ crucified and all the benefits of his death; Christ is spiritually present to their faith, as the elements are to their senses.",
+      "at": "Westminster Confession 29.7"
+    },
+    {
+      "question": "Who may be admitted?",
+      "answer": "Not the ignorant and ungodly, who cannot receive the thing signified and are guilty of the body and blood of the Lord by unworthy coming.",
+      "at": "Westminster Confession 29.8"
+    }
+  ],
+  "positions": {
+    "what": {
+      "answer": "spiritual",
+      "at": "Westminster Confession 29.5-29.7"
+    },
+    "sacrifice": {
+      "answer": "not-sacrifice",
+      "at": "Westminster Confession 29.2"
+    }
+  },
+  "scripture": [
+    "1 Corinthians 11:23-26",
+    "1 Corinthians 10:16-17"
+  ],
+  "scriptureNote": "Passages commonly cited with this chapter; the proof texts printed with the Confession were not read for this entry.",
+  "document": {
+    "title": "The Westminster Confession of Faith",
+    "section": "Chapter 29: Of the Lord's Supper",
+    "issuer": "Presbyterian Church in America (holds the Westminster Standards); text of the Westminster Assembly",
+    "date": "1646 (Assembly); adopted by the PCA on its founding in 1973",
+    "url": "https://www.opc.org/wcf.html",
+    "edition": "Text and proof texts read on the OPC and The-Highway websites; the PCA's own published copy has not been compared"
+  },
+  "rights": {
+    "status": "public-domain",
+    "note": "The Confession's wording dates from 1646. The edition read is a modern-spelling web copy; its rights are not separately confirmed, so only one sentence is quoted.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Chapter 29 read in full on 2026-11-12 in one web copy (the-highway.com). As with the baptism entry, the PCA's own copy has not been compared, and the Confession's proof texts were not read for this chapter. Other Reformed churches may state this differently. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "apostolic-age",
+    "reformation"
+  ],
+  "excerpt": {
+    "text": "In this sacrament, Christ is not offered up to His Father.",
+    "at": "Westminster Confession 29.2"
+  }
+}

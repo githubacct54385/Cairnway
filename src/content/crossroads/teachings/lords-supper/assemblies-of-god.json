@@ -1,0 +1,53 @@
+{
+  "topic": "lords-supper",
+  "body": "assemblies-of-god",
+  "summary": "The Assemblies of God's Statement of Fundamental Truths, as summarized in a church lesson that reproduces it, teaches that the Lord's Supper consists of bread and the fruit of the vine and is significant in three ways: it remembers what the Lord did on the cross, it affirms believers' sharing in the divine nature of Jesus Christ, and it proclaims his second coming. The same lesson says the AG treats it, like baptism, as an ordinance of memorial with no saving power in the act itself. The statement, as read, does not address whether the bread and cup change or whether the Supper is a sacrifice.",
+  "points": [
+    {
+      "question": "What is it?",
+      "answer": "Bread and the \"fruit of the vine\", observed as a remembrance of what the Lord did on the cross, a declaration of sharing in the divine nature of Jesus Christ, and a proclamation of his second coming.",
+      "at": "Fundamental Truth 6, The Lord's Supper"
+    },
+    {
+      "question": "Is it a sacrament?",
+      "answer": "The lesson says the AG does not hold that special grace comes from the rite itself, calling baptism and the Supper ordinances and occasions of memorial. This comes from a book quoted in the lesson, not from the statement.",
+      "at": "AG discipleship lesson, quoting Menzies"
+    }
+  ],
+  "positions": {
+    "what": {
+      "answer": "memorial",
+      "at": "Fundamental Truth 6, The Lord's Supper",
+      "reading": true
+    },
+    "sacrifice": {
+      "answer": "not-stated"
+    }
+  },
+  "scripture": [
+    "1 Corinthians 11:26",
+    "2 Peter 1:4"
+  ],
+  "scriptureNote": "Passages the lesson gives for the statement's three points.",
+  "document": {
+    "title": "Statement of Fundamental Truths",
+    "section": "Truth 6: The Ordinances of the Church, (b) The Lord's Supper",
+    "issuer": "General Council of the Assemblies of God (USA)",
+    "date": "Adopted 1916 (from general knowledge, unchecked); baptism wording as quoted in a 2017 AG lesson",
+    "url": "https://ag.org/Beliefs/Statement-of-Fundamental-Truths",
+    "edition": "Wording read in an Assemblies of God men's ministry discipleship lesson (men.ag.org) that reproduces the statement. The ag.org page itself returned an access error and was not read"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "No rights statement found for the Statement of Fundamental Truths, so no quotation is used.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Written from the same AG men's ministry lesson used for the baptism entry, read on 2026-11-12; the official ag.org text could not be fetched, so the exact wording is unchecked. \"Remembrance\" is our reading: the statement also says the Supper expresses sharing in the divine nature of Christ, and the line that the AG does not treat the rite as conveying grace comes from a book the lesson quotes. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "apostolic-age",
+    "reformation"
+  ]
+}

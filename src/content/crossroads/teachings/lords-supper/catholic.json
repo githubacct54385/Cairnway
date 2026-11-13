@@ -1,0 +1,60 @@
+{
+  "topic": "lords-supper",
+  "body": "catholic",
+  "summary": "The Catholic Church teaches that the Eucharist is both a sacrifice and a sacrament in which Christ is truly, really and substantially present. At the consecration the whole substance of the bread and wine is changed into the substance of Christ's body and blood, which the Church calls transubstantiation, and Christ remains present as long as the consecrated species last. The Eucharist is also a sacrifice: it makes present, memorializes and applies the one sacrifice of the cross, offered now in an unbloody manner through the ministry of priests. Communion separates the faithful from sin and is properly the sacrament of those in full communion with the Church; the Church does not allow intercommunion with the ecclesial communities from the Reformation, though it recognizes the Eastern churches' sacraments.",
+  "points": [
+    {
+      "question": "What are the bread and wine?",
+      "answer": "By consecration the whole substance of the bread is changed into the body of Christ and the whole substance of the wine into his blood. Christ is present whole and entire, and his presence lasts as long as the consecrated species remain.",
+      "at": "CCC 1374, 1376-1377"
+    },
+    {
+      "question": "Is it a sacrifice?",
+      "answer": "Yes. The Eucharist is the memorial of Christ's Passover and re-presents, memorializes and applies the sacrifice of the cross. The sacrifice of Christ and the sacrifice of the Eucharist are one single sacrifice, differing only in the manner of offering.",
+      "at": "CCC 1362-1367"
+    },
+    {
+      "question": "What does it do for the receiver?",
+      "answer": "It unites the faithful to Christ, cleanses from past sins and preserves from future ones, but is not ordered to the forgiveness of mortal sins, which belongs to the sacrament of Reconciliation.",
+      "at": "CCC 1393-1395"
+    },
+    {
+      "question": "Who may receive?",
+      "answer": "The faithful with the required dispositions, who are in full communion with the Church. Catholic intercommunion with the Eastern churches is possible and encouraged; with the Reformation communities it is not, though a Catholic minister may give the sacraments in grave necessity to those who hold the Catholic faith about them.",
+      "at": "CCC 1388, 1395, 1399-1401"
+    }
+  ],
+  "positions": {
+    "what": {
+      "answer": "changed",
+      "at": "CCC 1376"
+    },
+    "sacrifice": {
+      "answer": "sacrifice",
+      "at": "CCC 1365-1367"
+    }
+  },
+  "scripture": [],
+  "scriptureNote": "Passages the document cites.",
+  "document": {
+    "title": "Catechism of the Catholic Church",
+    "section": "Part Two, Section Two, Chapter One, Article 3: The Sacrament of the Eucharist (paragraphs 1322-1419)",
+    "issuer": "Catholic Church (Holy See)",
+    "date": "1992; typical edition 1997",
+    "url": "https://www.vatican.va/archive/ENG0015/__P3G.HTM",
+    "edition": "English text on the Holy See's website (IntraText edition)"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "The Catechism is published by the Holy See with copyright reserved. No quotation is used until permission for the specific edition is confirmed.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "Paragraphs 1322-1323, 1362-1367, 1374, 1376-1377, 1383, 1388, 1393, 1395 and 1398-1401 read in the Holy See's English text on 2026-11-12. The rest of the article (paragraphs 1324-1361, 1368-1373, 1375, 1378-1382, 1384-1387, 1389-1392, 1394, 1396-1397 and 1402-1419) was not used, including the sections on the liturgy, devotion and reservation. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "apostolic-age",
+    "reformation"
+  ]
+}

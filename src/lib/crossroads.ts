@@ -17,6 +17,16 @@ export function reportUrl(page: string, path: string, statement?: string) {
   return `${REPO}/issues/new?${q.toString()}`;
 }
 
+export const TIERS = {
+  conciliar: 'Council or creed',
+  'synodical-confession': 'Confession endorsed by church synods',
+  'single-church-catechism': 'One church\'s catechism',
+  'jurisdictional-statement': 'Statement of one jurisdiction',
+} as const;
+
+/** The part of an entry's id after the topic, for example "orthodox-longer-catechism". Used as the page anchor. */
+export const entrySlug = (entry: { id: string }) => entry.id.split('/').pop()!;
+
 export const topicPath = (id: string) => `${CROSSROADS.base}/topics/${id}/`;
 export const churchPath = (id: string) => `${CROSSROADS.base}/churches/${id}/`;
 
@@ -36,6 +46,17 @@ export async function loadCrossroads() {
     if (!bodyIds.has(t.data.body)) throw new Error(`Crossroads entry ${t.id}: unknown church body "${t.data.body}"`);
     for (const e of t.data.relatedEras) {
       if (!eraIds.has(e)) throw new Error(`Crossroads entry ${t.id}: unknown era "${e}"`);
+    }
+  }
+  // Several documents from one church on one topic: each needs its own voice label, and each label must be unique.
+  const seen = new Map<string, number>();
+  for (const t of teachings) {
+    const key = `${t.data.topic}/${t.data.body}`;
+    seen.set(key, (seen.get(key) ?? 0) + 1);
+  }
+  for (const t of teachings) {
+    if ((seen.get(`${t.data.topic}/${t.data.body}`) ?? 0) > 1 && !t.data.voice) {
+      throw new Error(`Crossroads entry ${t.id}: this church has several entries on the topic, so each needs a "voice" naming its document`);
     }
   }
   // Comparison data: every entry in a topic with questions must answer every question with a known answer,

@@ -4,7 +4,7 @@ import { CROSSROADS } from '../../config';
 import { loadCrossroads, topicPath } from '../../lib/crossroads';
 
 const { topics, bodies, teachings } = await loadCrossroads();
-const count = (id: string) => teachings.filter((t) => t.data.topic === id).length;
+const count = (id: string) => new Set(teachings.filter((t) => t.data.topic === id).map((t) => t.data.body)).size;
 ---
 
 <Base title="What the churches teach" section="crossroads" searchable={false}>

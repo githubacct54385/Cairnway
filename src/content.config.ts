@@ -135,6 +135,14 @@ const teachings = defineCollection({
     // What was and was not checked against the source. Honest and specific.
     review: z.object({ status: z.enum(['draft', 'ai-checked']), note: z.string() }),
     relatedEras: z.array(z.string()).default([]),
+    // Only for churches that have several documents on one topic (the Orthodox churches have no single catechism).
+    // Each document gets its own entry and row, named here, and tagged with how widely it speaks for the church.
+    voice: z
+      .object({
+        label: z.string(), // for example "Longer Catechism (Russian Church)"
+        tier: z.enum(['conciliar', 'synodical-confession', 'single-church-catechism', 'jurisdictional-statement']),
+      })
+      .optional(),
     // One position per question in the topic. "not-stated" means the document used does not address it; it is
     // never counted as disagreement. Set reading to true where choosing the answer is our interpretation of the
     // wording rather than the document's own statement, so the page can say so.

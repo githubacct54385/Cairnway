@@ -1,0 +1,52 @@
+{
+  "topic": "lords-supper",
+  "body": "sbc",
+  "summary": "The Southern Baptist Convention's Baptist Faith and Message (2000) teaches that the Lord's Supper is a symbolic act of obedience in which members of the church, by eating the bread and the fruit of the vine, memorialize the death of the Redeemer and anticipate his second coming. It is a church ordinance. The article calls baptism a prerequisite to church membership and to the Lord's Supper. It does not address a presence of Christ in the elements or whether the Supper is a sacrifice.",
+  "points": [
+    {
+      "question": "What is it?",
+      "answer": "A symbolic act of obedience by which church members, through the bread and the fruit of the vine, memorialize the death of the Redeemer and anticipate his second coming.",
+      "at": "Article VII"
+    },
+    {
+      "question": "Who receives it?",
+      "answer": "Members of the church; baptism is required before the privileges of church membership and before the Lord's Supper.",
+      "at": "Article VII"
+    }
+  ],
+  "positions": {
+    "what": {
+      "answer": "memorial",
+      "at": "Article VII"
+    },
+    "sacrifice": {
+      "answer": "not-stated"
+    }
+  },
+  "scripture": [
+    "Matthew 26:26-30",
+    "1 Corinthians 11:23-29"
+  ],
+  "scriptureNote": "Two of the passages listed with Article VII; the full list is on the source page.",
+  "document": {
+    "title": "The Baptist Faith and Message 2000",
+    "section": "Article VII: Baptism and the Lord's Supper (the second paragraph)",
+    "issuer": "Southern Baptist Convention",
+    "date": "2000",
+    "url": "https://bfm.sbc.net/bfm2000/",
+    "edition": "The SBC's own site"
+  },
+  "rights": {
+    "status": "summary-only",
+    "note": "The SBC site carries a copyright notice and no stated reuse permission, so no quotation is used.",
+    "checked": "2026-11-12"
+  },
+  "review": {
+    "status": "draft",
+    "note": "The article was summarized by a reading tool on 2026-11-12 and was not read in full by a person or a second pass; the second paragraph's wording is as the tool reported and from general knowledge, and has not been checked against the page. Baptist churches govern themselves, so this speaks for the SBC only. Not yet checked by a second reviewer."
+  },
+  "relatedEras": [
+    "apostolic-age",
+    "reformation"
+  ]
+}
