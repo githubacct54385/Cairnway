@@ -1,13 +1,24 @@
-// Cloudflare Worker that serves the built site (./dist) as static files.
+// Cloudflare Worker that serves the built site (./dist) as static files, plus one endpoint:
+// POST /api/report (worker/index.ts), the Crossroads "report a problem" form.
 // Deploys are done by .github/workflows/deploy.yml, not by Cloudflare's Git integration:
 // each change is uploaded as a version on the "staging" preview URL, and goes live only
 // after approval. See docs/DEPLOY.md.
 {
   "name": "ancient-paths",
+  "main": "worker/index.ts",
   "compatibility_date": "2026-11-01",
   "assets": {
-    "directory": "./dist"
+    "directory": "./dist",
+    "binding": "ASSETS",
+    // Only /api/* runs the Worker; every other request is answered straight from the static files.
+    "run_worker_first": ["/api/*"]
   },
+  "vars": {
+    // Where reports become issues.
+    "GITHUB_REPO": "githubacct54385/ancient-paths"
+  },
+  // Private store for reporters' contact details and the per-IP rate limit. Created automatically on first deploy.
+  "kv_namespaces": [{ "binding": "REPORT_CONTACTS" }],
   // The live site at ancient-paths.<subdomain>.workers.dev.
   "workers_dev": true,
   // Needed for the staging address: staging-ancient-paths.<subdomain>.workers.dev.

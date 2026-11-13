@@ -1,0 +1,172 @@
+// The site's Worker. Everything is served as static files from ./dist except POST /api/report,
+// which receives the Crossroads "report a problem" form and turns it into a GitHub issue.
+// See docs/DEPLOY.md ("Report form") for the one-time setup.
+
+interface KV {
+  get(key: string): Promise<string | null>;
+  put(key: string, value: string, options?: { expirationTtl?: number }): Promise<void>;
+}
+
+export interface Env {
+  ASSETS: { fetch(request: Request): Promise<Response> };
+  /** owner/name of the repository that receives the issues. Set in wrangler.jsonc. */
+  GITHUB_REPO: string;
+  /** Secrets. If either is missing the endpoint refuses reports instead of failing halfway. */
+  GITHUB_TOKEN?: string;
+  TURNSTILE_SECRET?: string;
+  /** Private store for reporters' contact details (never put in the public issue). */
+  REPORT_CONTACTS?: KV;
+}
+
+const KINDS = [
+  'The summary misrepresents the document',
+  'A broken or wrong source link',
+  'A factual error (date, body, citation)',
+  'A rights or copyright concern',
+  'Something else',
+];
+
+const LIMITS = { details: 4000, contact: 200, page: 200, about: 200 };
+const PER_IP_PER_HOUR = 5;
+
+const json = (body: unknown, status = 200) =>
+  new Response(JSON.stringify(body), {
+    status,
+    headers: { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-store' },
+  });
+
+/** Stops "@name" in a report from pinging real GitHub users. */
+const defuse = (text: string) => text.replace(/@(?=[A-Za-z0-9])/g, '@​');
+
+const isEmail = (v: string) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v);
+const isHandle = (v: string) => /^@?[A-Za-z0-9](?:[A-Za-z0-9-]{0,38})$/.test(v);
+
+type Clean = { page: string; about: string; kind: string; details: string; contact: string };
+
+function validate(input: Record<string, unknown>): Clean | string {
+  const str = (k: string) => (typeof input[k] === 'string' ? (input[k] as string).trim() : '');
+  const page = str('page');
+  const about = str('about');
+  const kind = str('kind');
+  const details = str('details');
+  const contact = str('contact');
+
+  if (!page.startsWith('/') || page.length > LIMITS.page) return 'The page is missing. Please open the form from a Crossroads entry.';
+  if (about.length > LIMITS.about) return 'The entry name is too long.';
+  if (!KINDS.includes(kind)) return 'Please choose what kind of problem it is.';
+  if (details.length < 10) return 'Please say what is wrong (at least a sentence).';
+  if (details.length > LIMITS.details) return `Please keep the details under ${LIMITS.details} characters.`;
+  if (!contact || contact.length > LIMITS.contact || !(isEmail(contact) || isHandle(contact))) {
+    return 'Please give an email address or a GitHub username so we can reply.';
+  }
+  return { page, about, kind, details, contact };
+}
+
+async function verifyTurnstile(secret: string, token: string, ip: string) {
+  const body = new FormData();
+  body.set('secret', secret);
+  body.set('response', token);
+  if (ip) body.set('remoteip', ip);
+  const res = await fetch('https://challenges.cloudflare.com/turnstile/v0/siteverify', { method: 'POST', body });
+  if (!res.ok) return false;
+  const out = (await res.json()) as { success?: boolean };
+  return out.success === true;
+}
+
+/** Counts reports per IP per hour in KV. Not exact (KV is eventually consistent), but enough to stop floods. */
+async function overLimit(kv: KV | undefined, ip: string) {
+  if (!kv || !ip) return false;
+  const key = `rl:${ip}:${new Date().toISOString().slice(0, 13)}`;
+  const n = Number((await kv.get(key)) ?? '0');
+  if (n >= PER_IP_PER_HOUR) return true;
+  await kv.put(key, String(n + 1), { expirationTtl: 3700 });
+  return false;
+}
+
+async function handleReport(request: Request, env: Env): Promise<Response> {
+  if (!env.GITHUB_TOKEN || !env.TURNSTILE_SECRET) {
+    return json({ ok: false, error: 'not-configured', message: 'The report form is not switched on yet.' }, 503);
+  }
+
+  let input: Record<string, unknown>;
+  try {
+    const parsed = await request.json();
+    if (typeof parsed !== 'object' || parsed === null || Array.isArray(parsed)) throw new Error();
+    input = parsed as Record<string, unknown>;
+  } catch {
+    return json({ ok: false, error: 'bad-request', message: 'That did not look like a report.' }, 400);
+  }
+
+  // Honeypot: real people never fill this hidden field. Pretend it worked.
+  if (typeof input.website === 'string' && input.website !== '') return json({ ok: true, reference: 'R-0000' });
+
+  const clean = validate(input);
+  if (typeof clean === 'string') return json({ ok: false, error: 'invalid', message: clean }, 400);
+
+  const ip = request.headers.get('cf-connecting-ip') ?? '';
+  const token = typeof input.turnstile === 'string' ? input.turnstile : '';
+  if (!token || !(await verifyTurnstile(env.TURNSTILE_SECRET, token, ip))) {
+    return json({ ok: false, error: 'challenge', message: 'The spam check did not pass. Please try again.' }, 400);
+  }
+
+  if (await overLimit(env.REPORT_CONTACTS, ip)) {
+    return json({ ok: false, error: 'rate-limited', message: 'Too many reports from your connection just now. Please try again later.' }, 429);
+  }
+
+  const reference = `R-${Date.now().toString(36).toUpperCase()}`;
+  const body = [
+    `**Page:** ${clean.page}`,
+    clean.about ? `**Entry:** ${defuse(clean.about)}` : '',
+    `**Kind:** ${clean.kind}`,
+    '',
+    '### What is wrong',
+    '',
+    defuse(clean.details),
+    '',
+    '---',
+    `Reference \`${reference}\`. Submitted through the on-site form; the reporter's contact details are stored privately.`,
+  ]
+    .filter((l, i, a) => l !== '' || a[i - 1] !== '')
+    .join('\n');
+
+  const res = await fetch(`https://api.github.com/repos/${env.GITHUB_REPO}/issues`, {
+    method: 'POST',
+    headers: {
+      authorization: `Bearer ${env.GITHUB_TOKEN}`,
+      accept: 'application/vnd.github+json',
+      'content-type': 'application/json',
+      'user-agent': 'crossroads-report-form',
+      'x-github-api-version': '2022-11-28',
+    },
+    body: JSON.stringify({
+      title: `Crossroads report: ${(clean.about || clean.page).slice(0, 120)}`,
+      body,
+      labels: ['crossroads', 'from-form'],
+    }),
+  });
+
+  if (!res.ok) {
+    console.error('GitHub issue creation failed', res.status);
+    return json({ ok: false, error: 'upstream', message: 'We could not save your report just now. Please try again later.' }, 502);
+  }
+
+  const issue = (await res.json()) as { number: number };
+  if (env.REPORT_CONTACTS) {
+    await env.REPORT_CONTACTS.put(
+      `issue:${issue.number}`,
+      JSON.stringify({ contact: clean.contact, reference, page: clean.page, at: new Date().toISOString() }),
+    );
+  }
+  return json({ ok: true, reference });
+}
+
+export default {
+  async fetch(request: Request, env: Env): Promise<Response> {
+    const { pathname } = new URL(request.url);
+    if (pathname === '/api/report') {
+      if (request.method !== 'POST') return json({ ok: false, error: 'method', message: 'Use POST.' }, 405);
+      return handleReport(request, env);
+    }
+    return env.ASSETS.fetch(request);
+  },
+};

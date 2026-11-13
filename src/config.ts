@@ -24,3 +24,10 @@ export const CROSSROADS = {
   base: '/crossroads',
   description: 'What the churches themselves teach on the questions Christians ask, with the documents behind each answer.',
 };
+
+/**
+ * Cloudflare Turnstile (the spam check on the report form). The site key is public. Create a widget in the
+ * Cloudflare dashboard (Turnstile), paste its site key here, and set the secret with `wrangler secret put TURNSTILE_SECRET`.
+ * While this is empty the report page shows the GitHub form instead. See docs/DEPLOY.md.
+ */
+export const TURNSTILE_SITE_KEY = '';

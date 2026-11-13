@@ -1,6 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { CROSSROADS } from '../../config';
+import { CROSSROADS, TURNSTILE_SITE_KEY } from '../../config';
 ---
 
 <Base title="How Crossroads works" section="crossroads" searchable={false}>
@@ -54,7 +54,7 @@ import { CROSSROADS } from '../../config';
     <p>
       We link to documents rather than copying them. We quote only where the text is old enough to be free or we have
       recorded permission, and each entry records its status. Churches have not endorsed this site. If you think
-      something is misrepresented, wrongly quoted or should be removed, use the report link on the entry.
+      something is misrepresented, wrongly quoted or should be removed, use the report link on the entry.{TURNSTILE_SITE_KEY && ' You do not need an account: the form asks only for how to reach you, and that is kept private.'}
     </p>
     <p>
       <a href={`${CROSSROADS.base}/sources/`}>See every document used</a>.

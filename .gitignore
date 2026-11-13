@@ -7,3 +7,7 @@ dist/
 *.log
 __pycache__/
 .wrangler/
+
+# Local secrets for wrangler dev
+.dev.vars
+.wrangler/
