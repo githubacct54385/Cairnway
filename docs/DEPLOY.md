@@ -93,6 +93,8 @@ Local testing: put `TURNSTILE_SECRET` and `GITHUB_TOKEN` in a `.dev.vars` file (
 `1x00000000000000000000AA`, secret `1x0000000000000000000000000000000AA`. A dummy GitHub token makes the final step
 fail with "We could not save your report", which still proves the rest of the path.
 
+Reports sent from a preview address (`staging-…` or a per-version `1a2b3c4d-…` address on `workers.dev`) get an extra `staging` label, a `[staging]` title prefix and an "Environment: staging" line. Create the label once (`gh label create staging`). The live address and any custom domain get no mark.
+
 Limits: five reports per connection per hour, details up to 4,000 characters.
 
 ## The site address
