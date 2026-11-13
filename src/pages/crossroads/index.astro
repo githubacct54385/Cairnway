@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import { CROSSROADS } from '../../config';
 import { loadCrossroads, topicPath } from '../../lib/crossroads';
+import Agreement from '../../components/Agreement.astro';
 
 const { topics, bodies, teachings } = await loadCrossroads();
 const count = (id: string) => new Set(teachings.filter((t) => t.data.topic === id).map((t) => t.data.body)).size;
@@ -38,6 +39,8 @@ const count = (id: string) => new Set(teachings.filter((t) => t.data.topic === i
         )
       }
     </ul>
+
+    <Agreement bodies={bodies} topics={topics} teachings={teachings} />
 
     <h2>Churches</h2>
     <p>

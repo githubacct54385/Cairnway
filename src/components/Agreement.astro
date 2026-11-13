@@ -1,0 +1,253 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { buildAgreement, type Node } from '../lib/agreement';
+
+interface Props {
+  bodies: CollectionEntry<'bodies'>[];
+  topics: CollectionEntry<'topics'>[];
+  teachings: CollectionEntry<'teachings'>[];
+}
+
+// Which churches give the same answers most often. Two views of the same numbers: a picker that ranks every other church
+// against the one you choose, and a tree that shows the groups. Everything is drawn at build time; the script only
+// switches which church the picker shows and marks it in the tree. Without it, every church's ranking is listed.
+const { bodies, topics, teachings } = Astro.props;
+const { people, pairs, root, order, questionCount, topicCount } = buildAgreement(bodies, topics, teachings);
+const n = people.length;
+const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+
+const ranking = (i: number) =>
+  people
+    .map((p, j) => ({ p, j, ...pairs[i][j] }))
+    .filter((r) => r.j !== i)
+    .sort((a, b) => (b.shared ? b.same / b.shared : -1) - (a.shared ? a.same / a.shared : -1) || b.shared - a.shared);
+
+// The tree is drawn twice, a narrow version and a wide one, so the text stays readable at every width.
+function tree(W: number, rowH: number, labelW: number) {
+  const top = 6;
+  const x0 = labelW + 8;
+  const x1 = W - 24;
+  const H = top + n * rowH + 34;
+  const sx = (h: number) => x0 + h * (x1 - x0);
+  const y = new Map<Node, number>();
+  (function place(t: Node) {
+    if (t.leaf !== undefined) return void y.set(t, top + order.indexOf(t.leaf) * rowH + rowH / 2);
+    place(t.left!);
+    place(t.right!);
+    y.set(t, (y.get(t.left!)! + y.get(t.right!)!) / 2);
+  })(root);
+  let s = `<svg viewBox="0 0 ${W} ${H}" width="100%" aria-hidden="true" focusable="false">`;
+  for (const v of [0, 0.25, 0.5, 0.75, 1]) {
+    const x = sx(v);
+    s += `<line class="grid" x1="${x}" x2="${x}" y1="${top}" y2="${top + n * rowH}"/>`;
+    s += `<text class="tick" x="${x}" y="${top + n * rowH + 14}" text-anchor="middle">${Math.round((1 - v) * 100)}%</text>`;
+  }
+  s += `<text class="tick" x="${(x0 + x1) / 2}" y="${H - 3}" text-anchor="middle">Answers in common, on average across the group</text>`;
+  (function draw(t: Node) {
+    if (t.leaf !== undefined) {
+      const p = people[t.leaf];
+      s += `<text class="leaf" data-id="${esc(p.id)}" x="${labelW}" y="${y.get(t)! + 4}" text-anchor="end">${esc(p.short)}</text>`;
+      return;
+    }
+    draw(t.left!);
+    draw(t.right!);
+    const x = sx(t.h);
+    s += `<path class="join" d="M${sx(t.left!.h)} ${y.get(t.left!)}H${x}V${y.get(t.right!)}H${sx(t.right!.h)}"/>`;
+  })(root);
+  return s + '</svg>';
+}
+const narrow = tree(320, 26, 76);
+const wide = tree(400, 28, 86);
+---
+
+<section class="agree" data-agree aria-labelledby="agree-heading">
+  <h2 id="agree-heading">Which churches agree most</h2>
+  <p class="meta">
+    Across {questionCount} questions in {topicCount} topics, how often two churches' documents give the same answer.
+    A question counts only when both documents address it; silence is never counted as disagreement. Where a church has
+    several documents on a topic, it counts as the same answer if any of them matches. With this few questions, treat the
+    numbers as a rough guide, and remember every entry is still a draft.
+  </p>
+
+  <div class="agree-grid">
+    <div class="agree-pick">
+      <label class="agree-label" for="agree-select">Compare everyone with</label>
+      <select id="agree-select" class="agree-select" hidden data-agree-select>
+        {people.map((p) => <option value={p.id}>{p.name}</option>)}
+      </select>
+      {
+        people.map((p, i) => (
+          <div class="agree-list" data-for={p.id}>
+            <h3 class="agree-list-title">{p.name}</h3>
+            <ol>
+              {ranking(i).map((r) => (
+                <li>
+                  <span class="agree-name">{r.p.short}</span>
+                  {r.shared ? (
+                    <>
+                      <span class="agree-track" aria-hidden="true">
+                        <span class="agree-fill" style={`width: ${Math.round((r.same / r.shared) * 100)}%`} />
+                      </span>
+                      <span class="agree-count">{r.same} of {r.shared}</span>
+                    </>
+                  ) : (
+                    <span class="agree-count agree-none">No shared questions</span>
+                  )}
+                </li>
+              ))}
+            </ol>
+          </div>
+        ))
+      }
+    </div>
+
+    <div class="agree-tree">
+      <h3 class="agree-tree-title">The groups</h3>
+      <p class="meta">Churches that join further left agree more. The one you pick is marked.</p>
+      <div class="tree-narrow" set:html={narrow} />
+      <div class="tree-wide" set:html={wide} />
+    </div>
+  </div>
+</section>
+
+<script>
+  const root = document.querySelector<HTMLElement>('[data-agree]');
+  const select = root?.querySelector<HTMLSelectElement>('[data-agree-select]');
+  if (root && select) {
+    const lists = Array.from(root.querySelectorAll<HTMLElement>('.agree-list'));
+    const leaves = Array.from(root.querySelectorAll<SVGTextElement>('.leaf'));
+    const show = () => {
+      lists.forEach((l) => (l.hidden = l.dataset.for !== select.value));
+      leaves.forEach((l) => l.classList.toggle('sel', l.dataset.id === select.value));
+    };
+    select.hidden = false;
+    // The picker already names the church, so the per-list heading is only needed when every list is showing.
+    lists.forEach((l) => l.querySelector('.agree-list-title')?.setAttribute('hidden', ''));
+    select.addEventListener('change', show);
+    show();
+  }
+</script>
+
+<style>
+  .agree {
+    margin: 2rem 0;
+  }
+  .agree-grid {
+    display: grid;
+    gap: 1.5rem;
+  }
+  .agree-label {
+    display: block;
+    font-family: system-ui, sans-serif;
+    font-size: 0.85rem;
+    color: var(--muted);
+    margin-bottom: 0.35rem;
+  }
+  .agree-select {
+    width: 100%;
+    min-height: 44px;
+    font: inherit;
+    font-family: system-ui, sans-serif;
+    padding: 0.4rem 0.6rem;
+    margin-bottom: 0.75rem;
+    color: var(--fg);
+    background: var(--card);
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+  }
+  .agree-list ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .agree-list li {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    min-height: 2rem;
+    font-family: system-ui, sans-serif;
+    font-size: 0.9rem;
+  }
+  .agree-list-title {
+    font-size: 1rem;
+    margin: 1rem 0 0.4rem;
+  }
+  .agree-name {
+    flex: none;
+    width: 5.5rem;
+  }
+  .agree-track {
+    flex: 1;
+    position: relative;
+    height: 0.9rem;
+    border-radius: 3px;
+    background: var(--rule);
+    overflow: hidden;
+  }
+  .agree-fill {
+    position: absolute;
+    inset: 0 auto 0 0;
+    background: var(--accent);
+  }
+  .agree-count {
+    flex: none;
+    min-width: 4.2rem;
+    text-align: right;
+    color: var(--muted);
+    font-size: 0.8rem;
+  }
+  .agree-none {
+    flex: 1;
+    min-width: 0;
+    text-align: left;
+    font-style: italic;
+  }
+  .agree-tree-title {
+    font-size: 1rem;
+    margin: 0 0 0.25rem;
+  }
+  .tree-wide {
+    display: none;
+  }
+  .agree :global(svg .grid) {
+    stroke: var(--rule);
+    stroke-width: 1;
+  }
+  .agree :global(svg .tick) {
+    fill: var(--muted);
+    font-family: system-ui, sans-serif;
+    font-size: 11px;
+  }
+  .agree :global(svg .leaf) {
+    fill: var(--fg);
+    font-family: system-ui, sans-serif;
+    font-size: 12px;
+  }
+  .agree :global(svg .leaf.sel) {
+    fill: var(--accent);
+    font-weight: 700;
+  }
+  .agree :global(svg .join) {
+    fill: none;
+    stroke: var(--accent);
+    stroke-width: 1.5;
+  }
+
+  /* Tablet and desktop: the tree and the picker sit side by side, tree first. */
+  @media (min-width: 720px) {
+    .agree-grid {
+      grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
+      gap: 2rem;
+      align-items: start;
+    }
+    .agree-tree {
+      order: -1;
+    }
+    .tree-narrow {
+      display: none;
+    }
+    .tree-wide {
+      display: block;
+    }
+  }
+</style>
