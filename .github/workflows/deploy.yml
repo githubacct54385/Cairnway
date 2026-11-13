@@ -2,7 +2,7 @@
 #
 # 1. Every change to main is built and uploaded to Cloudflare as a new Worker version, tagged
 #    with its commit. It does not go live; it appears at the staging address
-#    (staging-ancient-paths.<subdomain>.workers.dev). The "staging" job records that address as a
+#    (staging-cairnway.<subdomain>.workers.dev). The "staging" job records that address as a
 #    GitHub deployment, so the run page and the repository's Deployments list link to it.
 # 2. The "production" job waits for approval in the GitHub "production" environment. Approving
 #    it deploys that exact uploaded version (by its version ID) to the live site. Nothing is rebuilt.
@@ -83,7 +83,7 @@ jobs:
     # The "production" environment requires approval before this job runs.
     environment:
       name: production
-      url: https://ancient-paths.lifetrackerappweb.workers.dev/
+      url: https://cairnway.lifetrackerappweb.workers.dev/
     concurrency:
       group: deploy-production
       cancel-in-progress: false

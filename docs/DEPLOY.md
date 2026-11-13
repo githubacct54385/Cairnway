@@ -1,11 +1,11 @@
 # Deploying to Cloudflare
 
-The site is plain static files, served by a Cloudflare Worker called `ancient-paths` (see `wrangler.jsonc`).
+The site is plain static files, served by a Cloudflare Worker called `cairnway` (see `wrangler.jsonc`).
 
 | Address | What it shows |
 | --- | --- |
-| https://ancient-paths.lifetrackerappweb.workers.dev/ | **Production**: the live site |
-| https://staging-ancient-paths.lifetrackerappweb.workers.dev/ | **Staging**: the newest change merged to `main`, waiting for approval |
+| https://cairnway.lifetrackerappweb.workers.dev/ | **Production**: the live site |
+| https://staging-cairnway.lifetrackerappweb.workers.dev/ | **Staging**: the newest change merged to `main`, waiting for approval |
 
 ## How changes flow
 
@@ -32,7 +32,7 @@ dashboard and roll back to an earlier version.
 
 These steps need your own accounts, so they are done by hand.
 
-1. **Stop Cloudflare's own Git deploys.** In the Cloudflare dashboard, open Workers & Pages, then the `ancient-paths`
+1. **Stop Cloudflare's own Git deploys.** In the Cloudflare dashboard, open Workers & Pages, then the `cairnway`
    Worker, then Settings, then Builds, and disconnect the Git repository. Otherwise Cloudflare keeps deploying every
    merge straight to production and skips the approval step.
 2. **Create an API token.** In the Cloudflare dashboard, go to My Profile, then API Tokens, then Create Token, and use
@@ -52,6 +52,22 @@ These steps need your own accounts, so they are done by hand.
 
 The GitHub `production` environment, with its approval rule (reviewer: the repository owner; branch: `main` only), is
 set up in the repository settings, under Settings, then Environments.
+
+## The Worker was renamed from `ancient-paths` to `cairnway`
+
+The Worker's name sets its `workers.dev` address, so the rename created a new Worker. What has to be done by hand, in order
+(the pull request that renames it is a draft so it cannot merge, and break the pipeline, before step 3; keep this list for the next rename):
+
+1. Build and deploy the new Worker once from your computer, so it exists: `npm run build && npx wrangler deploy`. The KV
+   namespace is bound by id in `wrangler.jsonc`, so the stored contacts carry over.
+2. Set every secret on the new Worker (they belong to a Worker, not the account): `TURNSTILE_SECRET`, `GITHUB_TOKEN`,
+   `ADMIN_PASSCODE`, `RESEND_API_KEY`, `NOTIFY_EMAIL`, each with `npx wrangler secret put NAME`.
+3. In Turnstile, add the new hostnames to the widget: `cairnway.<subdomain>.workers.dev` and
+   `staging-cairnway.<subdomain>.workers.dev`.
+4. Merge the pull request that renames it in the repository. From then on the pipeline uploads to `cairnway`.
+5. If Cloudflare Access was turned on for the old Worker's preview URLs, turn it on again for the new one.
+6. Check the new addresses, then delete the old Worker in the dashboard (Workers & Pages, `ancient-paths`, Settings, Delete).
+   The old address stops working when you do.
 
 ## Report form (both sections)
 
