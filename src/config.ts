@@ -30,4 +30,4 @@ export const CROSSROADS = {
  * Cloudflare dashboard (Turnstile), paste its site key here, and set the secret with `wrangler secret put TURNSTILE_SECRET`.
  * While this is empty the report page shows the GitHub form instead. See docs/DEPLOY.md.
  */
-export const TURNSTILE_SITE_KEY = '';
+export const TURNSTILE_SITE_KEY = '0x4AAAAAAF_1QKYccnV2VW3G';
