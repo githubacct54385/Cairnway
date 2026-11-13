@@ -130,7 +130,7 @@ fail with "We could not save your report", which still proves the rest of the pa
 
 Reports sent from a preview address (`staging-…` or a per-version `1a2b3c4d-…` address on `workers.dev`) get an extra `staging` label, a `[staging]` title prefix and an "Environment: staging" line. Create the label once (`gh label create staging`). The live address and any custom domain get no mark.
 
-Limits: five reports per connection per hour, details up to 4,000 characters.
+Limits: 20 filed reports per connection per hour (100 on staging addresses; failed or rejected attempts do not count), details up to 4,000 characters.
 
 ## The site address
 

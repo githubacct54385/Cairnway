@@ -9,7 +9,10 @@ import type { ContactRecord, Env, KV } from './types';
 export type { Env } from './types';
 
 const LIMITS = { details: 4000, contact: 200, page: 200, about: 200, source: 1000 };
-const PER_IP_PER_HOUR = 5;
+// Reports allowed per connection per clock hour. Only reports that were actually filed count, so a typo, a failed spam
+// check or a GitHub outage never uses one up. Preview (staging) addresses get a much higher allowance for testing.
+const PER_IP_PER_HOUR = 20;
+const PER_IP_PER_HOUR_PREVIEW = 100;
 
 const json = (body: unknown, status = 200) =>
   new Response(JSON.stringify(body), {
@@ -66,14 +69,20 @@ async function verifyTurnstile(secret: string, token: string, ip: string) {
   return out.success === true;
 }
 
-/** Counts reports per IP per hour in KV. Not exact (KV is eventually consistent), but enough to stop floods. */
-async function overLimit(kv: KV | undefined, ip: string) {
+const hourKey = (ip: string) => `rl:${ip}:${new Date().toISOString().slice(0, 13)}`;
+
+/** Has this connection already filed its allowance this hour? Not exact (KV is eventually consistent), but enough to stop floods. */
+async function overLimit(kv: KV | undefined, ip: string, limit: number) {
   if (!kv || !ip) return false;
-  const key = `rl:${ip}:${new Date().toISOString().slice(0, 13)}`;
+  return Number((await kv.get(hourKey(ip))) ?? '0') >= limit;
+}
+
+/** Counts one filed report against this connection's hour. */
+async function countReport(kv: KV | undefined, ip: string) {
+  if (!kv || !ip) return;
+  const key = hourKey(ip);
   const n = Number((await kv.get(key)) ?? '0');
-  if (n >= PER_IP_PER_HOUR) return true;
   await kv.put(key, String(n + 1), { expirationTtl: 3700 });
-  return false;
 }
 
 async function handleReport(request: Request, env: Env, ctx: { waitUntil(p: Promise<unknown>): void }): Promise<Response> {
@@ -102,12 +111,12 @@ async function handleReport(request: Request, env: Env, ctx: { waitUntil(p: Prom
     return json({ ok: false, error: 'challenge', message: 'The spam check did not pass. Please try again.' }, 400);
   }
 
-  if (await overLimit(env.REPORT_CONTACTS, ip)) {
-    return json({ ok: false, error: 'rate-limited', message: 'Too many reports from your connection just now. Please try again later.' }, 429);
+  const staging = isPreviewHost(new URL(request.url).hostname);
+  if (await overLimit(env.REPORT_CONTACTS, ip, staging ? PER_IP_PER_HOUR_PREVIEW : PER_IP_PER_HOUR)) {
+    return json({ ok: false, error: 'rate-limited', message: 'You have sent a lot of reports from this connection in the last hour. Please try again in a little while.' }, 429);
   }
 
   const reference = `R-${Date.now().toString(36).toUpperCase()}`;
-  const staging = isPreviewHost(new URL(request.url).hostname);
   const body = [
     staging ? '**Environment:** staging' : '',
     `**Page:** ${clean.page}`,
@@ -161,6 +170,7 @@ async function handleReport(request: Request, env: Env, ctx: { waitUntil(p: Prom
     about: clean.about || undefined,
   };
   if (env.REPORT_CONTACTS) await env.REPORT_CONTACTS.put(`issue:${issue.number}`, JSON.stringify(record));
+  await countReport(env.REPORT_CONTACTS, ip);
   // Best effort: a failing mail provider must never fail a report that is already filed.
   ctx.waitUntil(notifyMaintainer(env, issue.number, record).catch((e) => console.error('Notification failed', String(e))));
   return json({ ok: true, reference });
