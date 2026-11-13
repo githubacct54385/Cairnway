@@ -484,3 +484,21 @@ a {
 
 .voice { display: block; font-weight: 400; font-size: 0.72rem; color: var(--muted); line-height: 1.3; margin-top: 0.15rem; }
 .voice em { font-style: normal; }
+
+/* Report form */
+.report-page form { display: grid; gap: 1.1rem; max-width: 38rem; margin-block: 1.5rem; font-family: system-ui, sans-serif; }
+.report-page label { display: grid; gap: 0.35rem; font-weight: 600; font-size: 0.95rem; }
+.report-page label small { font-weight: 400; color: var(--muted); }
+.report-page select, .report-page textarea, .report-page input:not([type='hidden']) {
+  font: inherit; font-weight: 400; padding: 0.55rem 0.65rem; border: 1px solid var(--rule);
+  border-radius: 6px; background: var(--card); color: var(--fg);
+}
+.report-page button {
+  justify-self: start; font: inherit; font-weight: 600; padding: 0.6rem 1.2rem; border-radius: 6px;
+  border: 1px solid var(--accent); background: var(--accent); color: var(--bg); cursor: pointer;
+}
+.report-page button:disabled { opacity: 0.6; cursor: wait; }
+.report-page .hp { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
+.report-page .notice { padding: 0.9rem 1rem; border: 1px solid var(--rule); border-radius: 6px; background: var(--card); font-family: system-ui, sans-serif; }
+.report-page .fine { font-size: 0.85rem; color: var(--muted); font-family: system-ui, sans-serif; }
+.report-page .about-line { margin: 0; font-family: system-ui, sans-serif; }

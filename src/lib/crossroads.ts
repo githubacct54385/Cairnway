@@ -4,16 +4,22 @@ import { CROSSROADS } from '../config';
 const REPO = 'https://github.com/githubacct54385/ancient-paths';
 
 /**
- * A link that opens the "report a problem" form with the page already filled in.
- * This is the interim reporting route; CHR-1 plans a web form for people without a GitHub account.
+ * A link to the on-site report form with the page and entry already filled in.
+ * The form posts to the Worker (worker/index.ts), which opens a GitHub issue; the reporter needs no GitHub account.
  */
-export function reportUrl(page: string, path: string, statement?: string) {
+export function reportUrl(about: string, path: string) {
+  const q = new URLSearchParams({ page: path, about });
+  return `${CROSSROADS.base}/report/?${q.toString()}`;
+}
+
+/** The GitHub issue form, kept as a "prefer GitHub?" option under the on-site form. */
+export function githubReportUrl(about: string, path: string) {
   const q = new URLSearchParams({
     template: 'crossroads-report.yml',
-    title: `Crossroads: ${page}`,
-    page: `${path}`,
+    title: `Crossroads: ${about}`,
+    page: path,
   });
-  if (statement) q.set('statement', statement);
+  if (about) q.set('statement', about);
   return `${REPO}/issues/new?${q.toString()}`;
 }
 

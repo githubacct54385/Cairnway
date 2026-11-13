@@ -109,6 +109,6 @@ const label = voice ? `${body.data.name}: ${voice.label}` : body.data.name;
   </details>
 
   <p class="report">
-    <a href={reportUrl(`${topicTitle}, ${label}`, path, `${label}: ${topicTitle}`)}>Report a problem with this entry</a>
+    <a href={reportUrl(`${label}: ${topicTitle}`, path)}>Report a problem with this entry</a>
   </p>
 </article>

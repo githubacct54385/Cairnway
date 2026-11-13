@@ -53,6 +53,46 @@ These steps need your own accounts, so they are done by hand.
 The GitHub `production` environment, with its approval rule (reviewer: the repository owner; branch: `main` only), is
 set up in the repository settings, under Settings, then Environments.
 
+## Report form (Crossroads)
+
+The Worker has one endpoint, `POST /api/report` (`worker/index.ts`). The form at `/crossroads/report/` sends reports
+there, and the Worker opens a GitHub issue labelled `crossroads` and `from-form`. The reporter's email or GitHub
+username is **not** put in the public issue: it is stored in the `REPORT_CONTACTS` KV namespace under `issue:<number>`.
+Until the steps below are done the report page shows a link to the GitHub issue form instead.
+
+One-time setup:
+
+1. **Turnstile (spam check).** Cloudflare dashboard, Turnstile, add a widget for the site's hostnames (include the
+   `workers.dev` addresses, and the real domain later). Paste the **site key** into `TURNSTILE_SITE_KEY` in
+   `src/config.ts`. Set the secret key:
+
+   ```sh
+   npx wrangler secret put TURNSTILE_SECRET
+   ```
+
+2. **GitHub token.** Create a fine-grained personal access token for this repository only, with the single permission
+   Issues: Read and write. Set it:
+
+   ```sh
+   npx wrangler secret put GITHUB_TOKEN
+   ```
+
+   Secrets set this way apply to the Worker for every version. Rotate the token before it expires.
+3. **KV namespace.** Created automatically by the first deploy (`kv_namespaces` in `wrangler.jsonc`).
+
+Reading a reporter's contact (the issue number is on the GitHub issue):
+
+```sh
+npx wrangler kv key get --binding REPORT_CONTACTS "issue:123" --remote
+```
+
+Local testing: put `TURNSTILE_SECRET` and `GITHUB_TOKEN` in a `.dev.vars` file (ignored by git) and run
+`npm run build && npx wrangler dev`. Cloudflare publishes Turnstile test keys that always pass: site key
+`1x00000000000000000000AA`, secret `1x0000000000000000000000000000000AA`. A dummy GitHub token makes the final step
+fail with "We could not save your report", which still proves the rest of the path.
+
+Limits: five reports per connection per hour, details up to 4,000 characters.
+
 ## The site address
 
 The build uses `SITE_URL` for the sitemap and canonical links, and falls back to the workers.dev address. Once there is
