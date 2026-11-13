@@ -100,6 +100,8 @@ const bodies = defineCollection({
   schema: z.object({
     name: z.string(), // the issuing body, for example "Lutheran Church-Missouri Synod"
     tradition: z.string(), // broad grouping used for browsing only, for example "Lutheran"
+    // A short label for tight spaces such as the agreement diagram, for example "Lutheran" or "PCA".
+    short: z.string().optional(),
     order: z.number(),
     // What this body's documents are, and any limit on what they can show.
     note: z.string(),

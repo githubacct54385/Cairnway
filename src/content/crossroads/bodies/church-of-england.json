@@ -1,6 +1,7 @@
 {
   "name": "Church of England",
   "tradition": "Anglican",
+  "short": "C of E",
   "order": 6,
   "note": "The Articles of Religion (1571) and the Book of Common Prayer are the Church of England's historic formularies. The Anglican Church in North America is included as a separate body; other Anglican churches are not represented here yet."
 }

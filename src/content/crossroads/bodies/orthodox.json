@@ -1,6 +1,7 @@
 {
   "name": "Eastern Orthodox",
   "tradition": "Eastern Orthodox",
+  "short": "Orthodox",
   "order": 2,
   "note": "The Orthodox churches have no single catechism. Crossroads uses several documents, combined in one entry, each named and tagged by how widely it speaks (a council or creed, a confession endorsed by church synods, one church's catechism, or one jurisdiction's statement). The documents come from different churches and centuries and are never merged into one voice."
 }
