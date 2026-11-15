@@ -151,19 +151,44 @@ const clipId = `land-${m.id}`;
     });
 
     const taken: Box[] = [];
-    const pins = [...frame.querySelectorAll<HTMLElement>('.map-pin')].map((el) => {
-      // A city right on the map's edge would have its dot cut off. Move it just far enough in to show.
+    // Where each dot or badge sits. A city right on the map's edge would have its dot cut off, so it is
+    // moved just far enough in to show. Dots and badges that touch (Arsuf and Jaffa are 7 km apart)
+    // are pushed apart until each one can be seen.
+    const EDGE = 8;
+    const pts = [...frame.querySelectorAll<HTMLElement>('.map-pin')].map((el) => {
       const r0 = el.getBoundingClientRect();
-      const EDGE = 8;
-      const sx = Math.min(Math.max(r0.left - fr.left, EDGE), fr.width - EDGE) - (r0.left - fr.left);
-      const sy = Math.min(Math.max(r0.top - fr.top, EDGE), fr.height - EDGE) - (r0.top - fr.top);
-      if (sx || sy) el.style.translate = `${sx}px ${sy}px`;
-      const r = el.getBoundingClientRect();
-      const x = r.left - fr.left;
-      const y = r.top - fr.top;
-      const half = (el.querySelector('.badge') ? 0.75 : 0.45) * rem;
-      taken.push({ l: x - half, t: y - half, r: x + half, b: y + half, air: AIR_DOT });
-      return { el, x, y, name: el.querySelector<HTMLElement>('.name')!, stop: el.hasAttribute('data-stop') };
+      const x0 = r0.left - fr.left;
+      const y0 = r0.top - fr.top;
+      const onMap = x0 >= -2 && x0 <= fr.width + 2 && y0 >= -2 && y0 <= fr.height + 2;
+      const x = onMap ? Math.min(Math.max(x0, EDGE), fr.width - EDGE) : x0;
+      const y = onMap ? Math.min(Math.max(y0, EDGE), fr.height - EDGE) : y0;
+      return { el, x0, y0, x, y, rad: (el.querySelector('.badge') ? 0.65 : 0.4) * rem };
+    });
+    for (let pass = 0; pass < 40; pass++) {
+      let moved = false;
+      for (let i = 0; i < pts.length; i++) {
+        for (let j = i + 1; j < pts.length; j++) {
+          const a = pts[i];
+          const b = pts[j];
+          let dx = b.x - a.x;
+          let dy = b.y - a.y;
+          let d = Math.hypot(dx, dy);
+          const want = a.rad + b.rad + 3;
+          if (d >= want) continue;
+          if (d < 0.01) { dx = 1; dy = 0; d = 1; }
+          const push = (want - d) / 2;
+          a.x -= (dx / d) * push; a.y -= (dy / d) * push;
+          b.x += (dx / d) * push; b.y += (dy / d) * push;
+          moved = true;
+        }
+      }
+      if (!moved) break;
+    }
+    const pins = pts.map((p) => {
+      if (Math.abs(p.x - p.x0) > 0.5 || Math.abs(p.y - p.y0) > 0.5) p.el.style.translate = `${p.x - p.x0}px ${p.y - p.y0}px`;
+      const half = p.rad + 1;
+      taken.push({ l: p.x - half, t: p.y - half, r: p.x + half, b: p.y + half, air: AIR_DOT });
+      return { el: p.el, x: p.x, y: p.y, name: p.el.querySelector<HTMLElement>('.name')!, stop: p.el.hasAttribute('data-stop') };
     });
 
     // Where the name's box would sit, relative to its dot, for each way of placing it.

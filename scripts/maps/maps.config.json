@@ -3752,10 +3752,10 @@
       "title": "The Third Crusade, 1189 to 1192",
       "intro": "Richard I's route from Sicily and Cyprus to Acre and along the coast, with the battles of Arsuf and Jaffa. Frederick Barbarossa's army took the inland route, and he drowned in a river in Cilicia in 1190. Hattin, the battle of 1187 that began the crusade, is marked for background. The routes are simplified, and the sites and dates are not yet checked.",
       "bbox": [
-        12,
-        30.5,
-        37,
-        42
+        31.5,
+        31.4,
+        37.0,
+        35.9
       ],
       "refPrefix": "",
       "route": [
@@ -3788,16 +3788,8 @@
       ],
       "cities": [
         {
-          "place": "Messina",
-          "side": "left"
-        },
-        {
           "place": "Limassol",
           "side": "left"
-        },
-        {
-          "place": "Silifke",
-          "side": "right"
         },
         {
           "place": "Hattin",
