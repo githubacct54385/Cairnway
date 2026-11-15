@@ -58,16 +58,17 @@ downloaded and the named works confirmed present. The ancient writers are cited 
 | Carl H. Kraeling, *The Christian Building* (The Excavations at Dura-Europos, Final Report VIII, Part II; Dura-Europos Publications, 1967) | Further reading on the Dura-Europos building | Copyrighted; cited only. Checked in Open Library and in the Yale record's bibliography | 2026-11-15 |
 | *The Nag Hammadi Library in English* (Coptic Gnostic Library Project, 1977) | The year the Nag Hammadi texts were published in English | Copyrighted; cited only. Checked in Open Library | 2026-11-15 |
 
-## Third era, about AD 313 to 451 (planned, not yet drafted)
+## The Age of the Councils, AD 313 to 451 (draft)
 
 Editions chosen and licenses checked on 2026-11-11 (CHR-12 follow-on). Each CCEL volume states "Rights: Public Domain" in
-its own header. Full texts were downloaded; wording of individual passages has not been checked yet.
+its own header. Every claim on the page was checked against these texts in the AI source check of November 2026
+(CHR-20); see `docs/REVIEW-age-of-the-councils.md`.
 
 | Source | Use | License | Checked |
 | --- | --- | --- | --- |
-| Eusebius, *Life of Constantine*: [NPNF2 vol. 1](https://ccel.org/ccel/schaff/npnf201) | Constantine and Nicaea | Public domain (CCEL) | 2026-11-11 |
-| Socrates and Sozomen, *Church History*: [NPNF2 vol. 2](https://ccel.org/ccel/schaff/npnf202) | Arius, Nicaea, Julian, Constantinople | Public domain (CCEL) | 2026-11-11 |
-| Theodoret and others: [NPNF2 vol. 3](https://ccel.org/ccel/schaff/npnf203) | Theodosius and Ambrose | Public domain (CCEL) | 2026-11-11 |
+| Eusebius, *Life of Constantine* and *Church History*: [NPNF2 vol. 1](https://ccel.org/ccel/schaff/npnf201) | Constantine and Nicaea; the origin of the Donatist schism (translator's note on 10.5) | Public domain (CCEL) | 2026-11-15 |
+| Socrates, *Church History*: [NPNF2 vol. 2](https://ccel.org/ccel/schaff/npnf202) | Julian | Public domain (CCEL) | 2026-11-15 |
+| Theodoret, *Church History*: [NPNF2 vol. 3](https://ccel.org/ccel/schaff/npnf203) | Julian's last words (3.20) | Public domain (CCEL) | 2026-11-15 |
 | Athanasius, *Life of Antony*, *Festal Letter* 39, *Apologia*: [NPNF2 vol. 4](https://ccel.org/ccel/schaff/npnf204) | Athanasius, monks, the list of New Testament books | Public domain (CCEL) | 2026-11-11 |
 | Jerome: [NPNF2 vol. 6](https://ccel.org/ccel/schaff/npnf206) | The Latin Bible | Public domain (CCEL) | 2026-11-11 |
 | Ambrose: [NPNF2 vol. 10](https://ccel.org/ccel/schaff/npnf210) | Ambrose and Theodosius | Public domain (CCEL) | 2026-11-11 |
@@ -75,8 +76,10 @@ its own header. Full texts were downloaded; wording of individual passages has n
 | *The Seven Ecumenical Councils*: [NPNF2 vol. 14](https://ccel.org/ccel/schaff/npnf214) | Nicaea, Constantinople, Ephesus, Chalcedon, African canons | Public domain (CCEL) | 2026-11-11 |
 | Augustine, *Confessions*: [NPNF1 vol. 1](https://ccel.org/ccel/schaff/npnf101); *City of God*: [vol. 2](https://ccel.org/ccel/schaff/npnf102) | Augustine; the sack of Rome | Public domain (CCEL) | 2026-11-11 |
 | Augustine against the Donatists: [NPNF1 vol. 4](https://ccel.org/ccel/schaff/npnf104); anti-Pelagian writings: [vol. 5](https://ccel.org/ccel/schaff/npnf105) | Donatists; Pelagius | Public domain (CCEL) | 2026-11-11 |
-| Julian, *Works*; Ammianus Marcellinus; *Theodosian Code* | Julian; the empire; Theodosius's laws | Not yet downloaded or checked | not yet checked |
-| Chadwick, *The Early Church*; Rowan Williams, *Arius*; Peter Brown, *Augustine of Hippo*; J. N. D. Kelly, *Early Christian Doctrines*; Timothy Barnes, *Constantine and Eusebius* | Framework and scholarly positions | Copyrighted; cited only. Bibliographic details to verify | not yet checked |
+| Junius Bassus sarcophagus engraving: [Wikimedia Commons file](https://commons.wikimedia.org/wiki/File:Bildhuggarkonst,_Junius_Bassus_sarkofag,_Nordisk_familjebok.png) | The figure (from Nordisk familjebok) | PD-Ugglan, as stated on the file page | 2026-11-15 |
+| Henry Chadwick, *The Early Church* (Penguin, 1993 printing) | Constantine's Christianity; how far Arius's opponents can be trusted; the Church of the East and the churches that refused Chalcedon (CHR-20) | Copyrighted; cited only. On the owner's checklist | 2026-11-15 |
+| Harry Y. Gamble, *The New Testament Canon* (Fortress, 1985) | How the lists of books came about (CHR-20) | Copyrighted; cited only. On the owner's checklist | 2026-11-15 |
+| Rowan Williams, *Arius* (1987); Peter Brown, *Augustine of Hippo* (1967); J. N. D. Kelly, *Early Christian Doctrines* (1958); Timothy D. Barnes, *Constantine and Eusebius* (Harvard, 1981) | Further reading only | Copyrighted; cited only. Titles and years checked in Open Library | 2026-11-15 |
 
 ## Candidates still to review
 
@@ -91,7 +94,7 @@ its own header. Full texts were downloaded; wording of individual passages has n
 | Item | Use | License | Checked |
 | --- | --- | --- | --- |
 | Natural Earth | Base geography for maps | Public domain | not yet checked |
-| [Pleiades gazetteer](https://pleiades.stoa.org/) | Place positions on the Apostolic Age and After the Apostles maps, checked against it (CHR-20); credited on each of those maps | CC BY 3.0 (credit required), as stated on its downloads page | 2026-11-12 |
+| [Pleiades gazetteer](https://pleiades.stoa.org/) | Place positions on the Apostolic Age, After the Apostles and Age of the Councils maps, checked against it (CHR-20); credited on each of those maps | CC BY 3.0 (credit required), as stated on its downloads page | 2026-11-12 |
 
 ## After Chalcedon, AD 451 to 600 (draft)
 
