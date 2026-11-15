@@ -1,6 +1,6 @@
 ---
 title: "From the Friars to the Council of Constance"
-summary: "AD 1215 to 1417: the friars preach in the towns, Aquinas builds a system of theology, the papacy moves to Avignon, the Black Death kills perhaps a third of Europe, two and then three popes claim the church, and the Council of Constance burns Jan Hus and ends the schism."
+summary: "The friars preach in the towns, Aquinas builds a system of theology, the papacy moves to Avignon, the Black Death kills perhaps a third of Europe, two and then three popes claim the church, and the Council of Constance burns Jan Hus and ends the schism."
 dateRange: "AD 1215 to AD 1417"
 order: 8
 startYear: 1215

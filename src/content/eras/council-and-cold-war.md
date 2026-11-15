@@ -1,6 +1,6 @@
 ---
 title: "Council and Cold War"
-summary: "AD 1945 to 1989: the churches are rebuilt and the World Council of Churches is founded, communist states arrest bishops and control the churches of eastern Europe, the Second Vatican Council opens the Catholic church to the modern world, the global church grows in Latin America and Africa, and John Paul II's Poland helps bring the Cold War to an end."
+summary: "The churches are rebuilt and the World Council of Churches is founded, communist states arrest bishops and control the churches of eastern Europe, the Second Vatican Council opens the Catholic church to the modern world, the global church grows in Latin America and Africa, and John Paul II's Poland helps bring the Cold War to an end."
 dateRange: "AD 1945 to AD 1989"
 order: 14
 startYear: 1945

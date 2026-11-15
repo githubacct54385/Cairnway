@@ -1,6 +1,6 @@
 ---
 title: "The Reformation"
-summary: "AD 1517 to 1648: Luther's Ninety-Five Theses start a movement that splits western Christendom, princes and cities choose their churches, England breaks from Rome, the Catholic Church reforms itself at Trent, and wars of religion end in the Peace of Westphalia."
+summary: "Luther's Ninety-Five Theses start a movement that splits western Christendom, princes and cities choose their churches, England breaks from Rome, the Catholic Church reforms itself at Trent, and wars of religion end in the Peace of Westphalia."
 dateRange: "AD 1517 to AD 1648"
 order: 10
 startYear: 1517

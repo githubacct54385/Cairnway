@@ -1,6 +1,6 @@
 ---
 title: "Revolution and Restoration"
-summary: "AD 1789 to 1870: the Revolution takes the church's property and imprisons a pope, Napoleon makes a concordat and then takes Rome, the restored states try to turn back the clock, Romantics and Oxford reformers revive faith, and the First Vatican Council defines papal infallibility as Italian troops enter Rome."
+summary: "The Revolution takes the church's property and imprisons a pope, Napoleon makes a concordat and then takes Rome, the restored states try to turn back the clock, Romantics and Oxford reformers revive faith, and the First Vatican Council defines papal infallibility as Italian troops enter Rome."
 dateRange: "AD 1789 to AD 1870"
 order: 12
 startYear: 1789

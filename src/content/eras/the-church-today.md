@@ -1,6 +1,6 @@
 ---
 title: "The Church Today"
-summary: "1989 to the present: the church after the Cold War, growing fast in the global South and shrinking in parts of Europe and North America, divided over sexuality, ordination and authority, and facing abuse scandals, persecution and the war in Ukraine."
+summary: "The church after the Cold War, growing fast in the global South and shrinking in parts of Europe and North America, divided over sexuality, ordination and authority, and facing abuse scandals, persecution and the war in Ukraine."
 dateRange: "AD 1989 to the present"
 order: 15
 startYear: 1989

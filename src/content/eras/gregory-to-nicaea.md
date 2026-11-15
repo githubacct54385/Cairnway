@@ -1,6 +1,6 @@
 ---
 title: "From Gregory to the Second Council of Nicaea"
-summary: "AD 600 to 787: Arab armies take the Christian lands of the East, the English church settles its date for Easter, the councils argue over the person of Christ, and a council at Nicaea restores the veneration of images."
+summary: "Arab armies take the Christian lands of the East, the English church settles its date for Easter, the councils argue over the person of Christ, and a council at Nicaea restores the veneration of images."
 dateRange: "AD 600 to AD 787"
 order: 5
 startYear: 600
