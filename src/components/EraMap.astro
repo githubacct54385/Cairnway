@@ -7,10 +7,23 @@ interface Props {
   id: keyof typeof maps;
   /** Heading level for the map title. */
   as?: 'h2' | 'h3';
+  /** The era's own text. When given, the map shows only places and regions that text names. */
+  text?: string;
 }
 
-const { id, as: Heading = 'h3' } = Astro.props;
-const m = maps[id];
+const { id, as: Heading = 'h3', text } = Astro.props;
+const base = maps[id];
+// Show a place only if the content mentions it. Journey stops are the map's subject, so they stay.
+const plain = (t: string) => t.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+const corpus = text === undefined ? undefined : plain(text);
+const mentioned = (name: string) =>
+  corpus === undefined || new RegExp(`(?<![a-z])${plain(name).replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(?![a-z])`).test(corpus);
+const m = {
+  ...base,
+  cities: base.cities.filter((c) => mentioned(c.name)),
+  // Country and region names are left off: on a phone they crowd out the cities. Seas stay, if named.
+  labels: base.labels.filter((l) => l.kind === 'sea' && mentioned(l.text)),
+};
 const [x, y, w, h] = m.viewBox;
 const u = m.unit;
 const clipId = `land-${m.id}`;
@@ -102,11 +115,15 @@ const clipId = `land-${m.id}`;
   //  - Region and sea names give way: each is nudged aside if it would cover a city, and hidden
   //    only when there is no free spot nearby.
   const PAD = 4;
-  const GAP = 2;
+  // Breathing room kept around each kind of thing, in px. Two names need more air than a name and a dot.
+  const AIR_NAME = 7;
+  const AIR_DOT = 3;
 
-  type Box = { l: number; t: number; r: number; b: number };
-  const hit = (a: Box, b: Box) =>
-    a.l < b.r + GAP && b.l < a.r + GAP && a.t < b.b + GAP && b.t < a.b + GAP;
+  type Box = { l: number; t: number; r: number; b: number; air: number };
+  const hit = (a: Box, b: Box) => {
+    const g = Math.max(a.air, b.air);
+    return a.l < b.r + g && b.l < a.r + g && a.t < b.b + g && b.t < a.b + g;
+  };
   const area = (a: Box, b: Box) =>
     Math.max(0, Math.min(a.r, b.r) - Math.max(a.l, b.l)) *
     Math.max(0, Math.min(a.b, b.b) - Math.max(a.t, b.t));
@@ -115,7 +132,7 @@ const clipId = `land-${m.id}`;
     const fr = frame.getBoundingClientRect();
     if (!fr.width) return;
     const rem = parseFloat(getComputedStyle(document.documentElement).fontSize) || 16;
-    const inner: Box = { l: PAD, t: PAD, r: fr.width - PAD, b: fr.height - PAD };
+    const inner: Box = { l: PAD, t: PAD, r: fr.width - PAD, b: fr.height - PAD, air: 0 };
     const outside = (b: Box) =>
       Math.max(0, inner.l - b.l) + Math.max(0, b.r - inner.r) +
       Math.max(0, inner.t - b.t) + Math.max(0, b.b - inner.b);
@@ -129,15 +146,49 @@ const clipId = `land-${m.id}`;
       el.style.translate = '';
       el.style.visibility = '';
     });
+    frame.querySelectorAll<HTMLElement>('.map-pin').forEach((el) => {
+      el.style.translate = '';
+    });
 
     const taken: Box[] = [];
-    const pins = [...frame.querySelectorAll<HTMLElement>('.map-pin')].map((el) => {
-      const r = el.getBoundingClientRect();
-      const x = r.left - fr.left;
-      const y = r.top - fr.top;
-      const half = (el.querySelector('.badge') ? 0.75 : 0.45) * rem;
-      taken.push({ l: x - half, t: y - half, r: x + half, b: y + half });
-      return { el, x, y, name: el.querySelector<HTMLElement>('.name')!, stop: el.hasAttribute('data-stop') };
+    // Where each dot or badge sits. A city right on the map's edge would have its dot cut off, so it is
+    // moved just far enough in to show. Dots and badges that touch (Arsuf and Jaffa are 7 km apart)
+    // are pushed apart until each one can be seen.
+    const EDGE = 8;
+    const pts = [...frame.querySelectorAll<HTMLElement>('.map-pin')].map((el) => {
+      const r0 = el.getBoundingClientRect();
+      const x0 = r0.left - fr.left;
+      const y0 = r0.top - fr.top;
+      const onMap = x0 >= -2 && x0 <= fr.width + 2 && y0 >= -2 && y0 <= fr.height + 2;
+      const x = onMap ? Math.min(Math.max(x0, EDGE), fr.width - EDGE) : x0;
+      const y = onMap ? Math.min(Math.max(y0, EDGE), fr.height - EDGE) : y0;
+      return { el, x0, y0, x, y, rad: (el.querySelector('.badge') ? 0.65 : 0.4) * rem };
+    });
+    for (let pass = 0; pass < 40; pass++) {
+      let moved = false;
+      for (let i = 0; i < pts.length; i++) {
+        for (let j = i + 1; j < pts.length; j++) {
+          const a = pts[i];
+          const b = pts[j];
+          let dx = b.x - a.x;
+          let dy = b.y - a.y;
+          let d = Math.hypot(dx, dy);
+          const want = a.rad + b.rad + 3;
+          if (d >= want) continue;
+          if (d < 0.01) { dx = 1; dy = 0; d = 1; }
+          const push = (want - d) / 2;
+          a.x -= (dx / d) * push; a.y -= (dy / d) * push;
+          b.x += (dx / d) * push; b.y += (dy / d) * push;
+          moved = true;
+        }
+      }
+      if (!moved) break;
+    }
+    const pins = pts.map((p) => {
+      if (Math.abs(p.x - p.x0) > 0.5 || Math.abs(p.y - p.y0) > 0.5) p.el.style.translate = `${p.x - p.x0}px ${p.y - p.y0}px`;
+      const half = p.rad + 1;
+      taken.push({ l: p.x - half, t: p.y - half, r: p.x + half, b: p.y + half, air: AIR_DOT });
+      return { el: p.el, x: p.x, y: p.y, name: p.el.querySelector<HTMLElement>('.name')!, stop: p.el.hasAttribute('data-stop') };
     });
 
     // Where the name's box would sit, relative to its dot, for each way of placing it.
@@ -169,7 +220,7 @@ const clipId = `land-${m.id}`;
         const all = spots(w, h);
         for (const key of ORDER[side] ?? ORDER.right) {
           const [ox, oy] = all[key];
-          const box = { l: p.x + ox, t: p.y + oy, r: p.x + ox + w, b: p.y + oy + h };
+          const box = { l: p.x + ox, t: p.y + oy, r: p.x + ox + w, b: p.y + oy + h, air: AIR_NAME };
           const cost = taken.reduce((s, o) => s + (hit(box, o) ? 1 + area(box, o) : 0), 0) + outside(box) * 4;
           if (!best || cost < best.cost) best = { box, ox, oy, cost, scale };
           if (cost === 0) break;
@@ -214,7 +265,7 @@ const clipId = `land-${m.id}`;
         let y = cy + dy;
         x = Math.min(Math.max(x, inner.l + w / 2), inner.r - w / 2);
         y = Math.min(Math.max(y, inner.t + h / 2), inner.b - h / 2);
-        const box = { l: x - w / 2, t: y - h / 2, r: x + w / 2, b: y + h / 2 };
+        const box = { l: x - w / 2, t: y - h / 2, r: x + w / 2, b: y + h / 2, air: AIR_NAME };
         if (taken.some((o) => hit(box, o))) continue;
         el.style.translate = `${x - cx}px ${y - cy}px`;
         taken.push(box);
