@@ -24,9 +24,6 @@ on:
 permissions:
   contents: read
 
-env:
-  WRANGLER_VERSION: 4.160.1
-
 jobs:
   staging:
     runs-on: ubuntu-latest
@@ -40,8 +37,8 @@ jobs:
       group: deploy-staging
       cancel-in-progress: false
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7
         with:
           node-version: 22
       - run: npm ci
@@ -56,7 +53,7 @@ jobs:
         run: |
           set -o pipefail
           subject="$(git log -1 --format=%s | cut -c1-100)"
-          npx --yes "wrangler@${WRANGLER_VERSION}" versions upload \
+          npx --no-install wrangler versions upload \
             --tag "$GITHUB_SHA" \
             --message "$subject" \
             --preview-alias staging | tee upload.log
@@ -88,7 +85,9 @@ jobs:
       group: deploy-production
       cancel-in-progress: false
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
       - name: Check this is still the newest change on main
         id: current
         run: |
@@ -101,6 +100,14 @@ jobs:
             echo "### Superseded, nothing deployed" >> "$GITHUB_STEP_SUMMARY"
             echo "A newer change (\`${latest::7}\`) is on main. Approve the newest Deploy run instead." >> "$GITHUB_STEP_SUMMARY"
           fi
+      # Wrangler comes from the lockfile (a devDependency), not from a fresh download, so the Cloudflare token is only
+      # ever used with the version this repository pins.
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7
+        if: steps.current.outputs.deploy == 'true'
+        with:
+          node-version: 22
+      - run: npm ci
+        if: steps.current.outputs.deploy == 'true'
       - name: Make the reviewed version live
         if: steps.current.outputs.deploy == 'true'
         env:
@@ -108,7 +115,7 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           VERSION_ID: ${{ needs.staging.outputs.version_id }}
         run: |
-          npx --yes "wrangler@${WRANGLER_VERSION}" versions deploy \
+          npx --no-install wrangler versions deploy \
             "${VERSION_ID}@100" \
             --message "Approved: ${GITHUB_SHA::7}" \
             --yes
