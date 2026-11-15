@@ -14,11 +14,14 @@ import Base from '../../layouts/Base.astro';
     </p>
   </div>
 
-  <script is:inline src="/pagefind/pagefind-ui.js" onerror="document.getElementById('search-dev-note').hidden = false"></script>
+  <script is:inline src="/pagefind/pagefind-ui.js"></script>
   <script is:inline>
     window.addEventListener('DOMContentLoaded', function () {
       if (window.PagefindUI) {
         new window.PagefindUI({ element: '#search', showImages: false });
+      } else {
+        // The search index only exists in a built site, so the script is missing under "npm run dev".
+        document.getElementById('search-dev-note').hidden = false;
       }
     });
   </script>
