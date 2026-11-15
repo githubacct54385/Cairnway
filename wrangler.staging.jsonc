@@ -1,0 +1,22 @@
+// The staging copy of the site: a separate Worker, "cairnway-staging", at cairnway-staging.<subdomain>.workers.dev.
+// Every merge to main is deployed here first (.github/workflows/deploy.yml); production gets the same built files only
+// after approval. It is a different Worker from "cairnway", so it has its OWN secrets and no access to production's:
+// set them with `npx wrangler secret put NAME --config wrangler.staging.jsonc` (see docs/DEPLOY.md). It binds no KV
+// namespace, so it cannot read or write production data.
+{
+  "name": "cairnway-staging",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/*"]
+  },
+  "vars": {
+    // Staging reports go to a separate test repository, never the real one.
+    "GITHUB_REPO": "githubacct54385/Cairnway-staging"
+  },
+  "ratelimits": [{ "name": "IP_LIMITER", "namespace_id": "1002", "simple": { "limit": 5, "period": 60 } }],
+  "workers_dev": true,
+  "preview_urls": false
+}

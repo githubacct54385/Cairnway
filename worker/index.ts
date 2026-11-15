@@ -66,11 +66,12 @@ function validate(input: Record<string, unknown>): Clean | string {
 }
 
 /**
- * Reports sent from a preview address (staging-<worker>.<subdomain>.workers.dev, or a per-version preview such as
+ * Reports sent from a preview address (the cairnway-staging Worker, staging-<worker>.<subdomain>.workers.dev, or a per-version preview such as
  * 1a2b3c4d-<worker>...) are marked "staging" so they are easy to tell from real ones. Any other address, including the
  * live site and a future custom domain, gets no mark, so a new domain can never be mislabeled by accident.
  */
-const isPreviewHost = (hostname: string) => /^(staging|[0-9a-f]{8})-[a-z0-9-]+\.[^.]+\.workers\.dev$/.test(hostname);
+const isPreviewHost = (hostname: string) =>
+  /^(cairnway-staging|(staging|[0-9a-f]{8})-[a-z0-9-]+)\.[^.]+\.workers\.dev$/.test(hostname);
 
 async function verifyTurnstile(secret: string, token: string, ip: string, hostname: string) {
   const body = new FormData();

@@ -1,11 +1,10 @@
 # Staging, then production after approval.
 #
-# 1. Every change to main is built and uploaded to Cloudflare as a new Worker version, tagged
-#    with its commit. It does not go live; it appears at the staging address
-#    (staging-cairnway.<subdomain>.workers.dev). The "staging" job records that address as a
-#    GitHub deployment, so the run page and the repository's Deployments list link to it.
-# 2. The "production" job waits for approval in the GitHub "production" environment. Approving
-#    it deploys that exact uploaded version (by its version ID) to the live site. Nothing is rebuilt.
+# 1. Every change to main is built once and deployed to the separate "cairnway-staging" Worker
+#    (cairnway-staging.<subdomain>.workers.dev), which has its own secrets and no access to production's. The
+#    built site is also saved as a workflow artifact. The "staging" job records the address as a GitHub deployment.
+# 2. The "production" job waits for approval in the GitHub "production" environment. Approving it deploys the
+#    SAME built files (the saved artifact, not a rebuild) to the live "cairnway" Worker.
 #
 # If several changes merge before you approve, GitHub queues them: the newest waits behind the
 # oldest. Approving a run whose commit is no longer the newest on main does nothing (it reports
@@ -31,8 +30,6 @@ jobs:
     environment:
       name: staging
       url: ${{ steps.upload.outputs.url }}
-    outputs:
-      version_id: ${{ steps.upload.outputs.version_id }}
     concurrency:
       group: deploy-staging
       cancel-in-progress: false
@@ -45,7 +42,14 @@ jobs:
       - run: npm run build
         env:
           SITE_URL: ${{ vars.SITE_URL }}
-      - name: Upload a new version to the staging address
+      - name: Save the built site for the production job
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
+        with:
+          name: site
+          path: dist
+          retention-days: 14
+          include-hidden-files: true
+      - name: Deploy to the staging Worker
         id: upload
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
@@ -53,21 +57,14 @@ jobs:
         run: |
           set -o pipefail
           subject="$(git log -1 --format=%s | cut -c1-100)"
-          npx --no-install wrangler versions upload \
-            --tag "$GITHUB_SHA" \
-            --message "$subject" \
-            --preview-alias staging | tee upload.log
-          url="$(grep -oE 'https://staging-[A-Za-z0-9.-]+\.workers\.dev' upload.log | head -1 || true)"
-          version_id="$(grep -oE 'Worker Version ID: [0-9a-f-]+' upload.log | awk '{print $4}' | head -1 || true)"
-          if [ -z "$version_id" ]; then echo "::error::Could not read the Worker Version ID from the upload output"; exit 1; fi
+          npx --no-install wrangler deploy --config wrangler.staging.jsonc \
+            --message "${GITHUB_SHA::7} ${subject}" | tee upload.log
+          url="$(grep -oE 'https://cairnway-staging[A-Za-z0-9.-]*\.workers\.dev' upload.log | head -1 || true)"
           echo "url=$url" >> "$GITHUB_OUTPUT"
-          echo "version_id=$version_id" >> "$GITHUB_OUTPUT"
           {
-            echo "### Uploaded to staging"
+            echo "### Deployed to staging"
             echo
             echo "Commit: \`${GITHUB_SHA::7}\` ${subject}"
-            echo
-            echo "Worker version: \`${version_id}\`"
             echo
             if [ -n "$url" ]; then echo "Review it at $url"; else echo "See the log above for the staging address."; fi
             echo
@@ -108,16 +105,18 @@ jobs:
           node-version: 22
       - run: npm ci
         if: steps.current.outputs.deploy == 'true'
-      - name: Make the reviewed version live
+      - name: Get the site that was reviewed on staging
+        if: steps.current.outputs.deploy == 'true'
+        uses: actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131 # v7
+        with:
+          name: site
+          path: dist
+      - name: Make the reviewed site live
         if: steps.current.outputs.deploy == 'true'
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          VERSION_ID: ${{ needs.staging.outputs.version_id }}
         run: |
-          npx --no-install wrangler versions deploy \
-            "${VERSION_ID}@100" \
-            --message "Approved: ${GITHUB_SHA::7}" \
-            --yes
+          npx --no-install wrangler deploy --message "Approved: ${GITHUB_SHA::7}"
           echo "### Live" >> "$GITHUB_STEP_SUMMARY"
-          echo "Version \`${VERSION_ID}\` (commit \`${GITHUB_SHA::7}\`) is now the live site." >> "$GITHUB_STEP_SUMMARY"
+          echo "Commit \`${GITHUB_SHA::7}\` (the files reviewed on staging) is now the live site." >> "$GITHUB_STEP_SUMMARY"
