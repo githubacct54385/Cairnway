@@ -103,7 +103,7 @@ async function countReport(kv: KV | undefined) {
 
 async function handleReport(request: Request, env: Env, ctx: { waitUntil(p: Promise<unknown>): void }): Promise<Response> {
   // The reporter's contact exists only in the notification email, so the form stays off unless that email can be sent.
-  if (!env.GITHUB_TOKEN || !env.TURNSTILE_SECRET || !env.RESEND_API_KEY || !env.NOTIFY_EMAIL) {
+  if (!env.GITHUB_TOKEN || !env.GITHUB_REPO || !env.TURNSTILE_SECRET || !env.RESEND_API_KEY || !env.NOTIFY_EMAIL) {
     return json({ ok: false, error: 'not-configured', message: 'The report form is not switched on yet.' }, 503);
   }
 

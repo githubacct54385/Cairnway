@@ -46,18 +46,12 @@ These steps need your own accounts, so they are done by hand.
    gh secret set CLOUDFLARE_ACCOUNT_ID
    ```
 
-5. **Set up the staging Worker** (once). The first run of `Deploy` after this change creates `cairnway-staging`. Then:
-   - Create a private test repository (default name `githubacct54385/Cairnway-staging`, set as `GITHUB_REPO` in
-     `wrangler.staging.jsonc`) and a fine-grained token for **that repository only** with Issues: Read and write.
-   - Set staging's own secrets, each with `--config wrangler.staging.jsonc`:
-     `npx wrangler secret put GITHUB_TOKEN --config wrangler.staging.jsonc`, and the same for `TURNSTILE_SECRET`,
-     `RESEND_API_KEY` and `NOTIFY_EMAIL`. Never reuse production's `GITHUB_TOKEN` here. The Turnstile widget's site key is
-     built into the page, so staging uses the same widget: add `cairnway-staging.<subdomain>.workers.dev` to its hostnames.
-   - Create the `staging` label in the test repository.
-   - Keep staging private: Workers & Pages, `cairnway-staging`, Settings, Domains & Routes, enable Cloudflare Access for
-     the workers.dev address and allow only your Google account. Do this before launch: staging and production serve the
-     same files, so once the site is public, staging is not marked "noindex". Reports sent from staging are filed in the
-     test repository, never the real one.
+5. **Staging Worker** (once). The first run of `Deploy` after this change creates `cairnway-staging`. It deliberately has
+   **no secrets**, so the report form is switched off there (it answers "not switched on") and nothing on staging can
+   reach GitHub, email or production data. Test the form locally instead (see "Local testing" below). Keep staging
+   private: Workers & Pages, `cairnway-staging`, Settings, Domains & Routes, enable Cloudflare Access for the workers.dev
+   address and allow only your Google account. Do this before launch: staging and production serve the same files, so
+   once the site is public, staging is not marked "noindex". Never set secrets on the staging Worker.
 6. **Token scope.** `CLOUDFLARE_API_TOKEN` must be able to deploy both `cairnway` and `cairnway-staging`. Cloudflare scopes
    Worker permissions to an account, not to one Worker, so a token limited to Workers on this account can still edit any
    other Worker there (for example Life Tracker). To close that gap, move Cairnway to its own Cloudflare account.
@@ -135,7 +129,7 @@ Local testing: put `TURNSTILE_SECRET`, `GITHUB_TOKEN`, `RESEND_API_KEY` and `NOT
 `1x00000000000000000000AA`, secret `1x0000000000000000000000000000000AA`. A dummy GitHub token makes the final step
 fail with "We could not save your report", which still proves the rest of the path.
 
-Reports sent from the staging Worker (`cairnway-staging.…`, or a `staging-…` or per-version `1a2b3c4d-…` address on `workers.dev`) get an extra `staging` label, a `[staging]` title prefix and an "Environment: staging" line. Create the label once (`gh label create staging`). The live address and any custom domain get no mark.
+The staging Worker has no secrets, so it files no reports. If a report is ever sent from a preview address (`staging-…` or a per-version `1a2b3c4d-…`), it gets an extra `staging` label, a `[staging]` title prefix and an "Environment: staging" line (create the label once with `gh label create staging`). The live address and any custom domain get no mark.
 
 Limits: 5 reports per minute per connection and 200 per day for the whole site (1,000 on staging; failed or rejected attempts do not count), details up to 4,000 characters.
 
