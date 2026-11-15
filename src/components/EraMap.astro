@@ -21,7 +21,8 @@ const mentioned = (name: string) =>
 const m = {
   ...base,
   cities: base.cities.filter((c) => mentioned(c.name)),
-  labels: base.labels.filter((l) => mentioned(l.text)),
+  // Country and region names are left off: on a phone they crowd out the cities. Seas stay, if named.
+  labels: base.labels.filter((l) => l.kind === 'sea' && mentioned(l.text)),
 };
 const [x, y, w, h] = m.viewBox;
 const u = m.unit;
@@ -145,9 +146,18 @@ const clipId = `land-${m.id}`;
       el.style.translate = '';
       el.style.visibility = '';
     });
+    frame.querySelectorAll<HTMLElement>('.map-pin').forEach((el) => {
+      el.style.translate = '';
+    });
 
     const taken: Box[] = [];
     const pins = [...frame.querySelectorAll<HTMLElement>('.map-pin')].map((el) => {
+      // A city right on the map's edge would have its dot cut off. Move it just far enough in to show.
+      const r0 = el.getBoundingClientRect();
+      const EDGE = 8;
+      const sx = Math.min(Math.max(r0.left - fr.left, EDGE), fr.width - EDGE) - (r0.left - fr.left);
+      const sy = Math.min(Math.max(r0.top - fr.top, EDGE), fr.height - EDGE) - (r0.top - fr.top);
+      if (sx || sy) el.style.translate = `${sx}px ${sy}px`;
       const r = el.getBoundingClientRect();
       const x = r.left - fr.left;
       const y = r.top - fr.top;
