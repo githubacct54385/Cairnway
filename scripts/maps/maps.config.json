@@ -2476,8 +2476,9 @@
     },
     {
       "id": "churches",
+      "credit": "Place positions checked against the Pleiades gazetteer of ancient places (pleiades.stoa.org), licensed CC BY 3.0. Base map made with Natural Earth (public domain).",
       "title": "Cities named in the sources for this era",
-      "intro": "The cities that appear most often in the writings of AD 100 to 313, from Antioch in the east to Carthage in the west. Lyons and Vienne in Gaul, where Irenaeus was bishop, lie off the western edge of this map.",
+      "intro": "Cities named in the writings of AD 100 to 313 that this page uses, from Antioch in the east to Carthage in the west. Lyons and Vienne in Gaul, where Irenaeus was bishop, lie off the western edge of this map.",
       "bbox": [
         6.0,
         30.0,
@@ -2517,9 +2518,10 @@
     },
     {
       "id": "ignatius",
+      "credit": "Place positions checked against the Pleiades gazetteer of ancient places (pleiades.stoa.org), licensed CC BY 3.0. Base map made with Natural Earth (public domain).",
       "title": "Ignatius on the road to Rome",
       "ref": "Eusebius, Church History 3.36",
-      "intro": "Eusebius says Ignatius was sent from Syria to Rome under military guard, and that he wrote from Smyrna and from Troas. Polycarp's letter shows the Philippians had seen him pass. Nothing records the rest of the way, so the lines between these stops are straight and show only the order.",
+      "intro": "Eusebius says Ignatius was sent from Syria to Rome under military guard, and that he wrote from Smyrna and from Troas. Polycarp's letter speaks of the patience the Philippians had seen in Ignatius, which suggests he passed through Philippi. The sources used here do not record the rest of the way, so the lines between these stops are straight and show only the order.",
       "bbox": [
         10.6,
         34.5,
@@ -2555,7 +2557,7 @@
         {
           "place": "Philippi",
           "ref": "Polycarp 9, 13",
-          "note": "Polycarp says the Philippians saw Ignatius, Rufus and Zosimus",
+          "note": "Polycarp speaks of the patience the Philippians saw in Ignatius, Zosimus and Rufus",
           "side": "right"
         },
         {

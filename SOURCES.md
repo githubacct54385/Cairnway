@@ -34,7 +34,7 @@ Licenses and editions checked on 2026-11-11 (CHR-9). Public-domain status comes 
 
 Editions chosen and licenses checked on 2026-11-11 (CHR-12). Each CCEL volume states "Rights: Public Domain" in its own
 header; the Pliny edition is a Project Gutenberg text of a translation first published in the 1700s. Full texts were
-downloaded and the named works confirmed present. The ancient writers are cited on the page "After the Apostles"; see `docs/REVIEW-second-century.md` for how far each citation was checked.
+downloaded and the named works confirmed present. The ancient writers are cited on the page "After the Apostles"; see `docs/REVIEW-second-century.md` for how far each citation was checked. Every claim on the page was checked in the AI source check of November 2026 (CHR-20).
 
 | Source | Use | License | Checked |
 | --- | --- | --- | --- |
@@ -48,13 +48,15 @@ downloaded and the named works confirmed present. The ancient writers are cited 
 | Augustine, *City of God* 18.52: [NPNF1 vol. 2](https://ccel.org/ccel/schaff/npnf102) | The tradition of ten persecutions | Public domain (CCEL) | 2026-11-11 |
 | Pliny the Younger, *Letters*, Book 10: Melmoth, ed. Bosanquet ([Gutenberg 2811](https://www.gutenberg.org/ebooks/2811)) | Pliny to Trajan about Christians, and Trajan's reply (standard numbering 10.96 and 10.97) | Public domain (translation 1746; Gutenberg text). This edition numbers them XCVII and XCVIII | 2026-11-11 |
 | 2 Peter: [World English Bible](https://ebible.org/find/details.php?id=engwebp) | 2 Peter | Public domain; see Apostolic Age entry for the trademark note | 2026-11-11 |
-| Henry Chadwick, *The Early Church* (Penguin, revised 1993) | Overall framework and dates | Copyrighted; cited only. Bibliographic details to verify | not yet checked |
-| Harry Y. Gamble, *The New Testament Canon: Its Making and Meaning* (Fortress, 1985) | How the list of New Testament books came together | Copyrighted; cited only. Bibliographic details to verify | not yet checked |
-| Robert L. Wilken, *The Christians as the Romans Saw Them* (Yale, 2nd ed. 2003) | Pliny, Celsus, outsiders' views | Copyrighted; cited only. Bibliographic details to verify | not yet checked |
-| Raymond E. Brown, *An Introduction to the New Testament* | Date of 2 Peter | Copyrighted; cited only | 2026-11-11 |
-| Candida Moss, *The Myth of Christian Persecution* (HarperOne, 2013) | One view on how widely Christians were persecuted | Copyrighted; cited only. Bibliographic details to verify | not yet checked |
-| Carl H. Kraeling, *The Christian Building* (Excavations at Dura-Europos, Final Report VIII, Part II, 1967) | Dura-Europos house church | Copyrighted; cited only. Bibliographic details to verify | not yet checked |
-| Dura-Europos house church (excavated 1930s, Yale and French Academy) | Earliest identified church building | Archaeological site; cited, not reproduced. Source to name | not yet checked |
+| Jerome, *Lives of Illustrious Men*: [NPNF2 vol. 3](https://ccel.org/ccel/schaff/npnf203) | Tertullian of Carthage (53); Lactantius and Crispus (80) | Public domain (CCEL) | 2026-11-15 |
+| Yale University Art Gallery, [Baptistery wall painting: Christ Healing the Paralytic](https://artgallery.yale.edu/collections/objects/34498) (1932.1202) | Date (about AD 232), place and excavation of the Dura-Europos paintings | Museum record; cited, not reproduced | 2026-11-15 |
+| Henry Chadwick, *The Early Church* (Penguin, revised; 1993 printing) | Single bishops; Nag Hammadi (1945); Decius as the first empire-wide persecution; local persecution before Decius (CHR-20) | Copyrighted; cited only. Title and printing checked in Open Library | 2026-11-15 |
+| Harry Y. Gamble, *The New Testament Canon: Its Making and Meaning* (Fortress, 1985) | How the list of New Testament books came together; Marcion's role; the fourth-century date argued for the Muratorian fragment (CHR-20) | Copyrighted; cited only. Title, publisher and year checked in Open Library | 2026-11-15 |
+| Robert L. Wilken, *The Christians as the Romans Saw Them* (Yale, 1984; 2nd ed. 2003) | Pliny, Celsus, outsiders' views; Pliny's letter c. AD 112 as the earliest official view (CHR-20) | Copyrighted; cited only. Checked in Open Library | 2026-11-15 |
+| Raymond E. Brown, *An Introduction to the New Testament* (Doubleday, 1997) | Date of 2 Peter | Copyrighted; cited only | 2026-11-12 |
+| Candida Moss, *The Myth of Persecution* (HarperOne, 2013) | One view on how widely Christians were persecuted | Copyrighted; cited only. Title corrected from "The Myth of Christian Persecution" (Open Library) | 2026-11-15 |
+| Carl H. Kraeling, *The Christian Building* (The Excavations at Dura-Europos, Final Report VIII, Part II; Dura-Europos Publications, 1967) | Further reading on the Dura-Europos building | Copyrighted; cited only. Checked in Open Library and in the Yale record's bibliography | 2026-11-15 |
+| *The Nag Hammadi Library in English* (Coptic Gnostic Library Project, 1977) | The year the Nag Hammadi texts were published in English | Copyrighted; cited only. Checked in Open Library | 2026-11-15 |
 
 ## Third era, about AD 313 to 451 (planned, not yet drafted)
 
@@ -89,7 +91,7 @@ its own header. Full texts were downloaded; wording of individual passages has n
 | Item | Use | License | Checked |
 | --- | --- | --- | --- |
 | Natural Earth | Base geography for maps | Public domain | not yet checked |
-| [Pleiades gazetteer](https://pleiades.stoa.org/) | Place positions on the Apostolic Age maps, checked against it (CHR-20); credited on each of those maps | CC BY 3.0 (credit required), as stated on its downloads page | 2026-11-12 |
+| [Pleiades gazetteer](https://pleiades.stoa.org/) | Place positions on the Apostolic Age and After the Apostles maps, checked against it (CHR-20); credited on each of those maps | CC BY 3.0 (credit required), as stated on its downloads page | 2026-11-12 |
 
 ## After Chalcedon, AD 451 to 600 (draft)
 
