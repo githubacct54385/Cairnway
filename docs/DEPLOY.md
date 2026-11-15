@@ -73,7 +73,7 @@ The Worker's name sets its `workers.dev` address, so the rename created a new Wo
 
 The Worker has one endpoint, `POST /api/report` (`worker/index.ts`). The forms at `/crossroads/report/` and
 `/history/report/` (one shared component, `src/components/ReportForm.astro`) send reports there, and the Worker opens a
-GitHub issue labelled `from-form` plus `crossroads` or `content`, depending on the section. What each section asks lives
+GitHub issue labeled `from-form` plus `crossroads` or `content`, depending on the section. What each section asks lives
 in `src/lib/report.ts`. The reporter's email or GitHub
 username is **not** put in the public issue: it is stored in the `REPORT_CONTACTS` KV namespace under `issue:<number>`.
 Until the steps below are done the report page shows a link to the GitHub issue form instead.

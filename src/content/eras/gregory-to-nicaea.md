@@ -14,12 +14,12 @@ figures:
     alt: "St Matthew, from the Lindisfarne Gospels"
     caption: "St Matthew writes his Gospel, with his symbol, the angel, above him. This page is from the Lindisfarne Gospels, made about 710 to 721 on Lindisfarne, the island monastery of the English north. It is kept in the British Library, and comes from the period just before Whitby."
     credit: "St Matthew, Lindisfarne Gospels, about 710 to 721, British Library, Cotton MS Nero D IV f.25v; Wikimedia Commons (CC0)"
-    licence: "CC0"
+    license: "CC0"
   - image: "/era-art/gregory-to-nicaea/sinai-christ-icon.jpg"
     alt: "Christ Pantocrator, a 6th-century icon from Saint Catherine's Monastery on Mount Sinai"
     caption: "Christ Pantocrator, a painted icon from the monastery of Saint Catherine on Mount Sinai, made in the 6th century. It is one of the oldest surviving icons of Christ, painted before the controversy over images that the councils of this era dealt with."
     credit: "Icon of Christ Pantocrator, Saint Catherine's Monastery, Sinai, 6th century; Wikimedia Commons, File:Christ Icon Sinai 6th century.jpg"
-    licence: "Public domain"
+    license: "Public domain"
 keyPeople:
   - name: "Colman and Wilfrid"
     role: "Bishops in the English church, on opposite sides at Whitby"
@@ -31,7 +31,7 @@ keyPeople:
     source: "The Seven Ecumenical Councils (NPNF2 vol. 14), the Sixth Council, session 13 (checked)"
   - name: "Theodore of Tarsus"
     role: "Archbishop of Canterbury, from 669"
-    summary: "Sent to England from Rome to organise the English church. Bede praises his work in building dioceses and holding councils. The Council of Hatfield (680) is linked with his name."
+    summary: "Sent to England from Rome to organize the English church. Bede praises his work in building dioceses and holding councils. The Council of Hatfield (680) is linked with his name."
     source: "Bede, Ecclesiastical History (Sellar translation); the Hatfield dating is not yet checked"
   - name: "Bede"
     role: "Monk of Jarrow and historian"
@@ -105,7 +105,7 @@ sources:
     usedFor: "The condemnation of Honorius; the Second Council of Nicaea and the images"
   - title: "Theophanes; Sophronius; Isidore; the Lateran council and Maximus"
     author: "Various (editions to choose)"
-    license: "To check. Each edition's licence must be recorded before its text is quoted"
+    license: "To check. Each edition's license must be recorded before its text is quoted"
     checked: "not yet checked"
     usedFor: "Events not yet drafted from full texts"
   - title: "Modern studies of the period"
@@ -145,17 +145,17 @@ Bede's account of Whitby shows the question was about more than a calendar. The 
 
 ### Was the rise of Islam a turning point for the church?
 
-The loss of Syria, Jerusalem and Egypt moved the centre of Christian life towards Constantinople and Rome. Historians debate how fast this happened and how far it changed Christian thought. This page does not yet make that argument, and its Islamic events are not yet checked.
+The loss of Syria, Jerusalem and Egypt moved the center of Christian life towards Constantinople and Rome. Historians debate how fast this happened and how far it changed Christian thought. This page does not yet make that argument, and its Islamic events are not yet checked.
 
 ## Worship and community life
 
 ### Monks and the English church
 
-Bede wrote about monasteries in Northumbria, and his account names the abbesses and monks who kept the faith there. The Synod of Whitby was held at a monastery under Abbess Hilda. Monasteries were the centres of learning and of the church's life in the North.
+Bede wrote about monasteries in Northumbria, and his account names the abbesses and monks who kept the faith there. The Synod of Whitby was held at a monastery under Abbess Hilda. Monasteries were the centers of learning and of the church's life in the North.
 
 ### Bishops and councils in the East
 
-The Seventh Council shows bishops confessing the faith in turn, and anathematising those who disagreed. Councils in this era were places of formal argument, but the acts also show how much depended on what the emperor wanted.
+The Seventh Council shows bishops confessing the faith in turn, and anathematizing those who disagreed. Councils in this era were places of formal argument, but the acts also show how much depended on what the emperor wanted.
 
 ## Islam: outside the Christian sources
 
@@ -170,7 +170,7 @@ The page quotes the Christian sources for this era. The Islamic sources for the 
 | Monothelitism | The view that Christ had only one will, condemned by the Sixth Council |
 | Synod | A church council, especially a local one (such as Whitby) |
 | Tonsure | The shaving of the head that marked a monk or cleric; the English and the Scots differed on its form |
-| Veneration | Honour given to images or saints, distinguished from the worship given to God |
+| Veneration | Honor given to images or saints, distinguished from the worship given to God |
 
 ## Further reading
 

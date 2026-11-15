@@ -35,7 +35,7 @@ Three new statuses are used for this check:
 | Status | Meaning |
 | --- | --- |
 | **B** | Tied to a **named book** (in copyright, not read by the AI). The page now names the book. The owner checks it against the book and records the page number; until then it counts as not checked. See the checklist below. |
-| **G** | A **general characterisation**: the page now says plainly that scholars differ, or gives an interpretation in its own voice, and does not claim more. No source is needed beyond the passages cited. |
+| **G** | A **general characterization**: the page now says plainly that scholars differ, or gives an interpretation in its own voice, and does not claim more. No source is needed beyond the passages cited. |
 | **X** | **Removed or cut back**, because no readable source supports it. |
 
 ### Sources read for this check
@@ -195,7 +195,7 @@ book does not support it. Leave the page column blank until checked.
 | Wilken, *The Christians as the Romans Saw Them* (1984) | *Annals* c. AD 115 to 120; Suetonius c. AD 120 | Index: Tacitus; Suetonius | |
 | Hurtado, *Lord Jesus Christ* (2003) | Very early devotion to Jesus alongside God, within the first few years | Introduction and conclusion | |
 | Bauckham, *Jesus and the God of Israel* (2008) | Earliest believers included Jesus in the identity of the one God | The opening essay | |
-| Dunn, *Did the First Christians Worship Jesus?* (2010) | Jesus honoured very highly but not yet worshipped in the same way as God | Conclusion | |
+| Dunn, *Did the First Christians Worship Jesus?* (2010) | Jesus honored very highly but not yet worshipped in the same way as God | Conclusion | |
 | Ehrman, *How Jesus Became God* (2014) | Belief in Jesus's exaltation came early but meant something different from later creeds | The chapters on the earliest Christologies | |
 | Dunn, *The Partings of the Ways* (2nd ed. 2006) | The thirty-nine lashes show Paul still under synagogue discipline; Ignatius first to set Christianity against Judaism; the parting came gradually, AD 66 to 135 | Introduction and conclusion | |
 | Becker and Reed (eds.), *The Ways That Never Parted* (2003) | The lines stayed blurred in many places for centuries | Introduction | |
@@ -249,7 +249,7 @@ says; "FIXED" means it did not, and the page was corrected.
 
 Of the high-risk items above, these are now resolved as far as the ancient texts go: 1 (the Josephus wording; the
 authenticity claim is still scholarly), 5 (John at the meeting), 6 (map stops and references) and 8 (the Tacitus
-translator and licence). Item 4 (Gallio) is improved but still secondary.
+translator and license). Item 4 (Gallio) is improved but still secondary.
 
 Status counts after this check: F 95, P 19, S 10, U 50.
 
@@ -259,7 +259,7 @@ Status counts after this check: F 95, P 19, S 10, U 50.
    Josephus. The claim that "most scholars regard this passage as authentic" and the contrast with the other Josephus
    passage about Jesus are from memory.
 2. **The scholarly positions in "Key beliefs and debates".** The two unsourced sentences were replaced on 2026-11-11
-   with the evidence and named scholars (rows C1 to C12). Each scholar's view is summarised from memory; check it
+   with the evidence and named scholars (rows C1 to C12). Each scholar's view is summarized from memory; check it
    against the book listed under Further reading.
 3. **Event date ranges.** Every "c. AD …" range is from general knowledge, not a cited source: AD 30 to 33, 33 to 36,
    36 to 39, 49, 50 to 52, 62, 64.
@@ -272,7 +272,7 @@ Status counts after this check: F 95, P 19, S 10, U 50.
 7. **"Galatia" on the maps.** The label sits in central Turkey. The journey-1 cities (Pisidian Antioch, Iconium, Lystra,
    Derbe) were in the Roman province of Galatia, and the "North Galatia or South Galatia" question for the letter to the
    Galatians is a real scholarly debate. Check the label and the page text do not imply an answer.
-8. **Tacitus.** One Wikisource page was read; its translator and licence were not stated, so the "public domain" claim
+8. **Tacitus.** One Wikisource page was read; its translator and license were not stated, so the "public domain" claim
    for the Tacitus translation is unconfirmed. "Deflecting blame" is an interpretation, not a quote.
 
 9. **Peter and Paul in Rome (batch 1).** Every detail of how and where they died is later tradition, and the page says so.
@@ -369,7 +369,7 @@ It suggests the Wikisource Tacitus is likely the Church and Brodribb translation
 | E14 | Scholars disagree about the year (AD 49, or AD 41 to 53), scale, and whether Chrestus means Christ | none | S | Wikipedia summary of scholarship |
 | E15 | Acts places Paul in Corinth during Gallio's term | Acts 18:1 to 17 | F | Acts 18:12 "when Gallio was proconsul of Achaia". Acts 18:12 not fetched |
 | E16 | Historians use outside evidence about Gallio's term to anchor Paul's career | none | S | From the Wikipedia Claudius article; inscription not read |
-| E17 | "Most land at about AD 51 to 52" (header: c. AD 50 to 52) | none | P | Source gave AD 51, 52, and a wider 50 to 54 window; "most" is the drafter's generalisation |
+| E17 | "Most land at about AD 51 to 52" (header: c. AD 50 to 52) | none | P | Source gave AD 51, 52, and a wider 50 to 54 window; "most" is the drafter's generalization |
 | E18 | Josephus: high priest Ananus brought James before a council and had him stoned | Antiquities 20.9.1 (20.200) | F | Ant. 20.9.1 "delivered them to be stoned". Josephus not read; "council" and the stoning are from memory |
 | E19 | James's death c. AD 62 | none | P | Ant. 20.9.1 places it between Festus's death and Albinus's arrival; the year is inferred |
 | E20 | Most scholars regard the James passage as authentic, unlike a more disputed passage about Jesus | none | U | From memory |
@@ -429,7 +429,7 @@ marks claims that come from writers after the first century.
 | N16 | From the late second century on, writers say both taught and died in Rome, some saying under Nero | Eusebius 2.25 (later tradition) | F | Eusebius 2.25.8 (Dionysius of Corinth) "taught together ... in Italy, and suffered martyrdom at the same time"; Irenaeus 3.1.1 and 3.3.2 (Rome). Eusebius quotes Dionysius of Corinth, Gaius and Tertullian there; check which say what |
 | N17 | Eusebius reports Paul beheaded and Peter crucified, and, citing Origen, that Peter asked to be crucified head downward | Eusebius 2.25.5; 3.1.2 | F | Eusebius 2.25.5 "Paul was beheaded in Rome itself"; 3.1.2 "crucified head-downwards"; 3.1.3 "related by Origen" |
 | N18 | Most scholars accept both died in Rome, probably under Nero; a minority doubt Peter was ever there | none | U | **No source. Needs a named scholarly reference** |
-| N19 | Tradition that Paul was released and travelled again, based on Romans 15:24 and 1 Clement's "limit of the west"; debated | Romans 15:24; 1 Clement 5 | F | Rom 15:24, 28; 1 Clement 5 "the extreme limit of the west" |
+| N19 | Tradition that Paul was released and traveled again, based on Romans 15:24 and 1 Clement's "limit of the west"; debated | Romans 15:24; 1 Clement 5 | F | Rom 15:24, 28; 1 Clement 5 "the extreme limit of the west" |
 | N20 | Date c. AD 64 to 68 for Peter's and Paul's deaths | none | U | Nero died in AD 68 |
 | N21 | 1 Clement was sent from Rome to Corinth after some Corinthian presbyters were removed, and urges their restoration | 1 Clement 44, 47 | F | 1 Clement 44, 47 |
 | N22 | It argues the apostles appointed the first leaders and arranged for successors | 1 Clement 42, 44 | F | 1 Clement 42, 44 |
@@ -513,7 +513,7 @@ Added by an AI from general knowledge, with **no source opened. Every row is U.*
 | --- | --- | --- | --- | --- |
 | M32 | John: Galilean fisherman, brother of James; with Peter in Acts; a "pillar" in Galatians | Mark 1:19 to 20; Acts 3 to 4, 8; Gal 2:9 | F | Mark 1:19-20; Acts 3:1, 8:14; Gal 2:9 |
 | M33 | Tradition credits John with the Gospel, three letters and Revelation and a long life in Ephesus; most modern scholars doubt he wrote them; the beloved disciple is debated | Irenaeus 3.1.1, 3.3.4 | P | Irenaeus 3.1.1, 3.3.4; John 21:20-24 confirmed; modern scholarly doubts not checked |
-| M34 | Stephen: one of seven, all with Greek names; full of faith and the Spirit; speech criticises the temple; prays for his killers, echoing Jesus in Luke | Acts 6 to 7; Luke 23:34, 46 | F | Acts 6:5, 7:48, 7:59-60; Luke 23:34, 46. Luke 23:34 is missing from some early manuscripts; consider a note |
+| M34 | Stephen: one of seven, all with Greek names; full of faith and the Spirit; speech criticizes the temple; prays for his killers, echoing Jesus in Luke | Acts 6 to 7; Luke 23:34, 46 | F | Acts 6:5, 7:48, 7:59-60; Luke 23:34, 46. Luke 23:34 is missing from some early manuscripts; consider a note |
 | M35 | Timothy: from Lystra; Jewish believing mother, Greek father; co-sender of letters; Paul's envoy, "like a son" | Acts 16:1 to 3; 1 Thess 1:1, 3:2 to 6; 1 Cor 4:17; Phil 1:1, 2:19 to 22; Philemon 1 | F | Acts 16:1-3; 1 Cor 4:17; Phil 2:22 "As a child serves a father"; letters' openings name Timothy. 2 Corinthians 1:1 also names him |
 | M36 | Many scholars think 1 and 2 Timothy were written after Paul's death | none | U | Same as B13 |
 | M37 | Apollos: Alexandrian Jew, eloquent, knew only John's baptism; taught by Priscilla and Aquila; worked in Corinth; a rival faction formed around him; "I planted, Apollos watered" | Acts 18:24 to 19:1; 1 Cor 1:12, 3:4 to 9, 16:12 | F | Acts 18:24-19:1; 1 Cor 1:12, 3:6, 16:12 |
@@ -548,7 +548,7 @@ Written by an AI from memory; **no source opened, so every row is U.** The descr
 | C2 | One God, the Father, and one Lord, Jesus Christ, through whom all things exist; echoes the Shema | 1 Cor 8:6; Deut 6:4 | F | 1 Cor 8:6; Deut 6:4 |
 | C3 | Philippians 2:6 to 11, possibly an early hymn: Christ in the form of God; every knee bowing at Jesus's name, a phrase Isaiah uses of God | Phil 2:6 to 11; Isa 45:23 | F | Phil 2:6, 2:10; Isa 45:23 |
 | C4 | Hurtado and Bauckham argue Jewish believers were devoted to Jesus alongside God within the first few years | Further reading | U | Check that "within the first few years" fairly states both |
-| C5 | Dunn: early believers honoured Jesus very highly but did not yet worship him in the same way as God | Further reading | U | Dunn's view is nuanced; check the wording against his 2010 book |
+| C5 | Dunn: early believers honored Jesus very highly but did not yet worship him in the same way as God | Further reading | U | Dunn's view is nuanced; check the wording against his 2010 book |
 | C6 | Ehrman: belief in Jesus's exalted status came early but meant something different from the later creeds; Christians have traditionally read these passages as witness to Jesus's divinity | Further reading | U | The last part is attributed to Christian tradition, as CONTRIBUTING asks |
 | C7 | Paul received the synagogue punishment of thirty-nine lashes five times | 2 Cor 11:24 | F | 2 Cor 11:24 "forty stripes minus one from the Jews". "Forty lashes minus one" in the text |
 | C8 | This suggests he and the synagogues still treated him as a Jew under their discipline | none | U | Interpretation; a common one, but it needs a source |
@@ -565,23 +565,23 @@ the note matches.
 | Map | Stops and references to check | Status |
 | --- | --- | --- |
 | First journey (Acts 13 to 14) | Antioch 13:1 to 3 (S); Seleucia 13:4; Salamis 13:5; Paphos 13:6 to 12 (governor Sergius Paulus); Perga 13:13 (John Mark leaves); Pisidian Antioch 13:14 to 50 (synagogue sermon); Iconium 13:51 to 14:5; Lystra 14:6 to 20 (Paul stoned); Derbe 14:20 to 21; Attalia 14:25 to 26 | F (all stops and notes match) |
-| Second journey (Acts 15:36 to 18:22) | Antioch 15:36 to 41 (Paul and Silas); Derbe and Lystra 16:1 to 5 (Timothy); Troas 16:8 to 10; Philippi 16:12 to 40 (Lydia; jailed); Thessalonica 17:1 to 9; Berea 17:10 to 14; Athens 17:15 to 34 (Areopagus); Corinth 18:1 to 17 ("eighteen months", Gallio); Ephesus 18:19 to 21; Caesarea 18:22. The route also passes Tarsus and "Inland Galatia" as waypoints for Acts 15:41 and 16:6 (Acts 15:41 says only "Syria and Cilicia"; Tarsus is an assumed, unlabelled waypoint) | F. FIXED: Antioch is 15:35 to 41. Tarsus is an inferred waypoint (15:41 says Syria and Cilicia); WEB spells Berea "Beroea" |
+| Second journey (Acts 15:36 to 18:22) | Antioch 15:36 to 41 (Paul and Silas); Derbe and Lystra 16:1 to 5 (Timothy); Troas 16:8 to 10; Philippi 16:12 to 40 (Lydia; jailed); Thessalonica 17:1 to 9; Berea 17:10 to 14; Athens 17:15 to 34 (Areopagus); Corinth 18:1 to 17 ("eighteen months", Gallio); Ephesus 18:19 to 21; Caesarea 18:22. The route also passes Tarsus and "Inland Galatia" as waypoints for Acts 15:41 and 16:6 (Acts 15:41 says only "Syria and Cilicia"; Tarsus is an assumed, unlabeled waypoint) | F. FIXED: Antioch is 15:35 to 41. Tarsus is an inferred waypoint (15:41 says Syria and Cilicia); WEB spells Berea "Beroea" |
 | Third journey (Acts 18:23 to 21:17) | Antioch 18:23; Ephesus 19:1 to 41 ("about two to three years"); Greece, probably Corinth, 20:1 to 3 (three months); Philippi 20:6; Troas 20:6 to 12 (Eutychus); Miletus 20:15 to 38; Tyre 21:3 to 6; Caesarea 21:8 to 14 (Philip); Jerusalem 21:15 to 17. Route passes Assos, Mitylene, Cos, Rhodes, Patara and Ptolemais | F. FIXED: Antioch is 18:22 to 23 (18:23 says "there") |
 | Voyage to Rome (Acts 27 to 28) | Caesarea 27:1 to 2; Sidon 27:3; Myra 27:5 to 6; Fair Havens 27:8 to 12; Cauda 27:16; Malta 27:39 to 28:11 (three months, stated in 28:11); Syracuse 28:12; Puteoli 28:13 to 14; Rome 28:16 to 31 ("two years under guard"). Route passes Cnidus, Salmone, Rhegium | F. Caesarea is inferred (Paul is held there in 25:1 to 26:32); WEB spells Cauda "Clauda"; three months is 28:11 |
 | Place positions | Longitude and latitude entered from the drafter's knowledge, not a gazetteer. Pleiades is the intended source. Several ancient sites are approximate (Lystra, Derbe, Perga, Attalia, Fair Havens, Cauda, Salmone, Berea) | U |
 | Region names and placement | Italia, Sicilia, Macedonia, Achaia, Asia, Galatia, Lycia, Pamphylia, Cilicia, Syria, Judaea, Cyprus, Creta, Aegyptus: placed roughly, with no boundaries. See high-risk item 7 on Galatia | U |
-| Map base data | Coastlines, rivers, lakes and shaded relief are Natural Earth (public domain), which describes today's coastlines. Some ancient coastlines differ (for example harbours that have silted up) | S |
+| Map base data | Coastlines, rivers, lakes and shaded relief are Natural Earth (public domain), which describes today's coastlines. Some ancient coastlines differ (for example harbors that have silted up) | S |
 
 ## Sources on the page
 
 | # | Claim | Status | Notes for the reviewer |
 | --- | --- | --- | --- |
-| S1 | World English Bible is public domain | F | eBible.org about file: "in the Public Domain"; the name is a trademark. Bible Gateway lists it as such and notes the name is trademarked. Confirm the licence and the trademark terms at ebible.org |
+| S1 | World English Bible is public domain | F | eBible.org about file: "in the Public Domain"; the name is a trademark. Bible Gateway lists it as such and notes the name is trademarked. Confirm the license and the trademark terms at ebible.org |
 | S2 | Whiston's Josephus is a public-domain translation | F | Project Gutenberg 2848 and 2850, translator William Whiston. Not opened. The text was never read from this translation |
 | S3 | The Tacitus and Suetonius translations used are public domain | F | MIT Classics names Church and Brodribb; Gutenberg 6400 names Thomson, revised by Forester. The Wikisource Tacitus page did not name its translator |
 | S4 | *The Cambridge History of Christianity*, Volume 1, *Origins to Constantine*, edited by Margaret M. Mitchell and Frances M. Young | U | Bibliographic details from memory; verify publisher and year |
 | S5 | The "Further reading" section lists eight books with titles and years | U | Bibliographic details (subtitles, years, editions) from memory; check each |
-| S6 | 1 Clement and Ignatius (older translation), Eusebius (McGiffert) are public domain; Brown is cite-only | F | CCEL: "Rights: Public Domain". Translations not chosen yet; pick one and confirm its licence |
+| S6 | 1 Clement and Ignatius (older translation), Eusebius (McGiffert) are public domain; Brown is cite-only | F | CCEL: "Rights: Public Domain". Translations not chosen yet; pick one and confirm its license |
 | S7 | Irenaeus, Justin, Chrysostom (older translations), and Cary's Dio (Loeb, 1914 to 1927) are public domain; Gallio inscription edition to be named | F | CCEL "Rights: Public Domain"; LacusCurtius: Loeb vol. VIII, 1925, "The text is in the public domain". Cary's Dio volumes may have different US copyright status; check the volume with book 67 |
 
 ## Suggested instructions for the reviewing model

@@ -63,7 +63,7 @@ Check the relief crop (5°E to 45°E) before drafting Map 2; Whitby and Lindisfa
 | --- | --- | --- |
 | Bede, *Ecclesiastical History of England* | Sellar, Gutenberg 38326 | In hand; public domain (Gutenberg) |
 | Councils (Sixth and Seventh) | NPNF2 vol. 14 (CCEL) | In hand; public domain (CCEL) |
-| Theophanes, *Chronicle* | Mango and Scott, or Turtledove | To choose; licence to check |
+| Theophanes, *Chronicle* | Mango and Scott, or Turtledove | To choose; license to check |
 | Sophronius, letters and sermons | To choose | To check |
 | Isidore, *History of the Goths* | To choose | To check |
 
@@ -78,7 +78,7 @@ Recommendation: Brown, Herrin, Fletcher. All details to verify.
 
 ## Process and site work
 
-Same as the earlier eras: choose editions and record licences first; check each citation as written with `scripts/cite.py`;
+Same as the earlier eras: choose editions and record licenses first; check each citation as written with `scripts/cite.py`;
 keep the ledger as we go (`docs/REVIEW-gregory-to-nicaea.md`); set `reviewStatus` from the first commit.
 
 Site: the home page "More eras" card needs revisiting once five eras are listed. No code change is needed for the page.
@@ -91,7 +91,7 @@ Site: the home page "More eras" card needs revisiting once five eras are listed.
 ## Order of work
 
 1. Owner confirmed the end date (AD 787). Islam scope still to confirm.
-2. Fetch the remaining sources (Theophanes, Sophronius) and record licences.
+2. Fetch the remaining sources (Theophanes, Sophronius) and record licenses.
 3. Draft the page with the ledger, checking citations as written.
 4. Add the maps and build; check the home page and search.
 5. Open the PR and create E5b and E5c.

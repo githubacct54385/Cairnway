@@ -22,11 +22,11 @@ years. Both are dated **U** and need checking.
 3. **Length: 81 years.**
 4. **East is in scope in a limited way**: the Greek War of Independence (from 1821), the Russian church under the tsars, the
    Ottoman reforms of the Tanzimat (1839 onwards), and the Bulgarian Exarchate, set up by firman in 1870.
-5. **Organised by theme, not by strict chronology**, as the eleventh era is.
+5. **Organized by theme, not by strict chronology**, as the eleventh era is.
 
 ## Structure of the page
 
-1. **Revolution and the church's property (1789 to 1801):** the Civil Constitution's effects, dechristianisation, the death of
+1. **Revolution and the church's property (1789 to 1801):** the Civil Constitution's effects, dechristianization, the death of
    Pius VI in French captivity (1799), and the Concordat of 1801.
 2. **Napoleon and the church's lands (1801 to 1815):** the end of the Holy Roman Empire (1806), the annexation of the Papal
    States and the arrest of Pius VII (1809), and the Congress of Vienna.
@@ -45,7 +45,7 @@ years. Both are dated **U** and need checking.
 | Date | Region | Event | Main source (candidate) |
 | --- | --- | --- | --- |
 | 1789 | Both | Declaration of the Rights of Man; church lands taken (see the eleventh era) | U |
-| 1793 to 1794 | West | Dechristianisation; Cult of Reason, then the Cult of the Supreme Being | U |
+| 1793 to 1794 | West | Dechristianization; Cult of Reason, then the Cult of the Supreme Being | U |
 | 1799 | West | Pius VI dies in French captivity at Valence | U |
 | 1801 | West | Concordat between Napoleon and Pius VII | U (text, to check) |
 | 1806 | West | End of the Holy Roman Empire | U |
@@ -84,7 +84,7 @@ Places to add to `scripts/maps/maps.config.json`: Valence, Paris (present), Vien
 Constantinople (present), Sofia or Plovdiv (check the exarchate's seat), Oxford (check), Edinburgh (present). Coordinates
 approximate.
 
-## Sources to choose (expected public domain; licences to record)
+## Sources to choose (expected public domain; licenses to record)
 
 | Source | Candidate edition | Used for |
 | --- | --- | --- |
@@ -106,18 +106,18 @@ Recommendation: Chadwick as the framework. All titles and years are from memory 
 
 ## Process and site work
 
-Same as the earlier eras: choose editions and record licences first; check each citation as written with `scripts/cite.py`;
+Same as the earlier eras: choose editions and record licenses first; check each citation as written with `scripts/cite.py`;
 keep the ledger as we go (`docs/REVIEW-revolution-and-restoration.md`); set `reviewStatus` from the first commit.
 
 ## Images (period art, CC0 or public domain only)
 
 Plan two or three images from the Met and Wikimedia Commons: a Napoleonic-era print of a church or the Concordat, a
-Romantic-era painting of a religious scene, and a print of the Vatican Council or of Rome in 1870 (only if the licence is
+Romantic-era painting of a religious scene, and a print of the Vatican Council or of Rome in 1870 (only if the license is
 clear). Record each in `docs/IMAGES.md`.
 
 ## Order of work
 
 1. Confirm the boundary (1789 start, 1870 end) and the eleventh era's end date.
-2. Choose editions and record licences for the sources above.
+2. Choose editions and record licenses for the sources above.
 3. Draft the page, with the three maps and the figures.
 4. Add the map places and labels, rebuild the maps, and check the frames at phone width.

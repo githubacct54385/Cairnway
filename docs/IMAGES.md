@@ -1,10 +1,10 @@
-# Images: licence manifest
+# Images: license manifest
 
-Every image on the site is listed here, with its source, licence and the date its licence was checked. Nothing is added
-to a page until its row is complete. The licence on each image's source page (the Wikimedia Commons file page) is the
+Every image on the site is listed here, with its source, license and the date its license was checked. Nothing is added
+to a page until its row is complete. The license on each image's source page (the Wikimedia Commons file page) is the
 one that counts; this table records what was seen there.
 
-| File on site | Original file | Source page | Licence | Checked | Used on |
+| File on site | Original file | Source page | License | Checked | Used on |
 | --- | --- | --- | --- | --- | --- |
 | `public/era-art/apostolic-age/neo-couple.jpg` | File:MANNapoli 9058 couple painting.jpg | commons.wikimedia.org/wiki/File:MANNapoli_9058_couple_painting.jpg | CC0 | 2026-11-12 (API metadata) | The Apostolic Age |
 | `public/era-art/apostolic-age/young-man-scroll.jpg` | File:MANNapoli 120620 a Fresco young man with rolls from Pompeii Italy.jpg | commons.wikimedia.org (same file name) | CC0 | 2026-11-12 (API metadata) | The Apostolic Age |
@@ -18,14 +18,14 @@ Notes:
   are on Commons if a larger image is needed.
 - The dates (Pompeii and Boscoreale, buried in AD 79) come from the Commons descriptions and the museum names. Each
   caption should be checked against the museum's own record before publication.
-- Museum photographs of public domain artworks: the licences above are the ones recorded on Commons. Check any new
+- Museum photographs of public domain artworks: the licenses above are the ones recorded on Commons. Check any new
   image's source page before adding it.
 
 ## Added for eras 2 to 8
 
-Licence checks: Commons rows from the Commons API metadata; Met rows from the Met Open Access flag (CC0).
+License checks: Commons rows from the Commons API metadata; Met rows from the Met Open Access flag (CC0).
 
-| File on site | Credit | Licence | Checked | Used on |
+| File on site | Credit | License | Checked | Used on |
 | --- | --- | --- | --- | --- |
 | `public/era-art/second-century/dura-christ-paralytic.jpg` | Painting from Dura-Europos, about AD 232; Wikimedia Commons, File:Christ Healing the Paralytic - Dura-Europos circa 232.jpg | Public domain | 2026-11-12 | Era page |
 | `public/era-art/age-of-the-councils/junius-bassus-sarcophagus.jpg` | Engraving from Nordisk familjebok, about 1900; Wikimedia Commons, File:Bildhuggarkonst, Junius Bassus sarkofag, Nordisk familjebok.png | Public domain | 2026-11-12 | Era page |
@@ -39,12 +39,12 @@ Licence checks: Commons rows from the Commons API metadata; Met rows from the Me
 
 ## Added for eras 10 and 11
 
-Licence checks: Met rows from the Met Open Access flag (public domain, CC0), checked on 2026-11-12 with the Met's object record. Captions are drafted and not yet checked against the record.
+License checks: Met rows from the Met Open Access flag (public domain, CC0), checked on 2026-11-12 with the Met's object record. Captions are drafted and not yet checked against the record.
 
-| File on site | Credit | Licence | Checked | Used on |
+| File on site | Credit | License | Checked | Used on |
 | --- | --- | --- | --- | --- |
 | `public/era-art/reformation/met-cranach-luther.jpg` | Lucas Cranach the Elder, Martin Luther, probably 1532, oil on wood; Metropolitan Museum of Art, Open Access (object 436047) | CC0 | 2026-11-12 | Era page (Reformation) |
-| `public/era-art/reformation/met-durer-crucifixion.jpg` | Albrecht Dürer, Crucifixion from The Small Woodcut Passion, 1509 to 1510, hand-coloured woodcut; Metropolitan Museum of Art, Open Access (object 361985) | CC0 | 2026-11-12 | Era page (Reformation) |
+| `public/era-art/reformation/met-durer-crucifixion.jpg` | Albrecht Dürer, Crucifixion from The Small Woodcut Passion, 1509 to 1510, hand-colored woodcut; Metropolitan Museum of Art, Open Access (object 361985) | CC0 | 2026-11-12 | Era page (Reformation) |
 | `public/era-art/reformation/met-melanchthon-medal.jpg` | Friedrich Hagenauer, Philipp Melanchthon, 1543, bronze; Metropolitan Museum of Art, Open Access (object 855362) | CC0 | 2026-11-12 | Era page (Reformation) |
 | `public/era-art/reason-and-revival/met-champaigne-annunciation.jpg` | Philippe de Champaigne, The Annunciation, ca. 1644, oil on oak; Metropolitan Museum of Art, Open Access (object 438724) | CC0 | 2026-11-12 | Era page (Reason and Revival) |
 | `public/era-art/reason-and-revival/met-peter-great-ivory.jpg` | Peter the Great, late 18th to early 19th century, walrus ivory; Metropolitan Museum of Art, Open Access (object 205473) | CC0 | 2026-11-12 | Era page (Reason and Revival) |
@@ -52,9 +52,9 @@ Licence checks: Met rows from the Met Open Access flag (public domain, CC0), che
 
 ## Added for era 9 (late medieval church)
 
-Licence checks: Met rows from the Met Open Access flag (public domain, CC0), checked on 2026-11-12 with the Met's object record. Captions are drafted and not yet checked against the record.
+License checks: Met rows from the Met Open Access flag (public domain, CC0), checked on 2026-11-12 with the Met's object record. Captions are drafted and not yet checked against the record.
 
-| File on site | Credit | Licence | Checked | Used on |
+| File on site | Credit | License | Checked | Used on |
 | --- | --- | --- | --- | --- |
 | `public/era-art/late-medieval-church/met-bernardino-preaching.jpg` | Francesco di Giorgio Martini, Saint Bernardino Preaching from a Pulpit, ca. 1470 to 1475, tempera on parchment; Metropolitan Museum of Art, Open Access (object 461450) | CC0 | 2026-11-12 | Era page (late medieval church) |
 | `public/era-art/late-medieval-church/met-savonarola-medal.jpg` | Niccolò Fiorentino, Girolamo Savonarola, late 15th century, bronze; Metropolitan Museum of Art, Open Access (object 200635) | CC0 | 2026-11-12 | Era page (late medieval church) |

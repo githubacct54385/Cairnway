@@ -88,7 +88,7 @@ Charles V, Elizabeth I, William of Orange, Gustavus Adolphus (background), Ferdi
 Places to add to `scripts/maps/maps.config.json`: Wittenberg, Worms, Augsburg, Trent, Geneva, Zurich, Westphalia (Münster
 and Osnabrück). Check the relief crop (5°E to 45°E): England, Scotland and the Netherlands fall partly or wholly outside it.
 
-## Sources to choose (expected public domain; licences to record)
+## Sources to choose (expected public domain; licenses to record)
 
 | Source | Candidate edition | Used for |
 | --- | --- | --- |
@@ -110,7 +110,7 @@ Recommendation: MacCulloch, Wilson, Eire. All details to verify.
 
 ## Process and site work
 
-Same as the earlier eras: choose editions and record licences first; check each citation as written with `scripts/cite.py`;
+Same as the earlier eras: choose editions and record licenses first; check each citation as written with `scripts/cite.py`;
 keep the ledger as we go (`docs/REVIEW-reformation.md`); set `reviewStatus` from the first commit.
 
 Site: the era is 131 years long, so it will sit between the eighth era and the next. The homepage timeline will show a
@@ -135,7 +135,7 @@ whether to keep it as its own era (recommended in docs/PLAN-ninth-era.md) or fol
 ## Order of work
 
 1. Owner confirms the boundaries (1517 and 1648) and the era 9 question.
-2. Choose editions and record licences; add the sources to `SOURCES.md`.
+2. Choose editions and record licenses; add the sources to `SOURCES.md`.
 3. Draft the page with the ledger, checking citations as written.
 4. Add the maps and build; check the homepage, the section navigation and search.
 5. Open the PR; create the scholarly-claims and specialist-read issues.

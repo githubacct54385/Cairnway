@@ -13,7 +13,7 @@ figures:
     alt: "Ivory diptych leaf with the Coronation of the Virgin"
     caption: "The right leaf of an Italian ivory diptych from the late 14th century. The Coronation of the Virgin is shown in a Gothic arcade, with angels playing instruments. Small devotional diptychs like this were used for private prayer."
     credit: "Diptych leaf, late 14th century, Italian ivory; Metropolitan Museum of Art, Open Access (object 471981)"
-    licence: "CC0"
+    license: "CC0"
 keyPeople:
   - name: "Dominic and Francis"
     role: "Founders of the Dominican and Franciscan friars"
@@ -74,7 +74,7 @@ events:
     source: "Not yet checked"
   - date: "AD 1384 (unchecked)"
     title: "West: Wycliffe dies"
-    summary: "Wycliffe, who had criticised church wealth and the papacy, died at Lutterworth. His followers continued to spread his ideas, and his views were condemned in 1410 at Oxford. The dates are not yet checked."
+    summary: "Wycliffe, who had criticized church wealth and the papacy, died at Lutterworth. His followers continued to spread his ideas, and his views were condemned in 1410 at Oxford. The dates are not yet checked."
     source: "Not yet checked"
   - date: "AD 1389 (unchecked)"
     title: "East: The Battle of Kosovo"

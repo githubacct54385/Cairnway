@@ -59,14 +59,14 @@ Norwich, John Hus's teacher Jerome of Prague.
 Places to add to `scripts/maps/maps.config.json`: Avignon, Oxford, Prague, Constance, Lyons, Kosovo. Check the relief crop
 (5°E to 45°E): Oxford and Prague may fall outside it.
 
-## Sources to choose (expected public domain; licences to record)
+## Sources to choose (expected public domain; licenses to record)
 
 | Source | Candidate edition | Used for |
 | --- | --- | --- |
 | Aquinas, *Summa Theologiae* | Fathers of the English Dominican Province (1911), public domain | Aquinas |
 | Boniface VIII, *Unam sanctam* | Public-domain translation in a 1900s collection, to check | 1302 |
 | Boccaccio, *Decameron*, introduction | Public-domain translation to check | Black Death |
-| Wycliffe, tracts | Public-domain edition to check; licence check needed | Wycliffe |
+| Wycliffe, tracts | Public-domain edition to check; license check needed | Wycliffe |
 | Hus, *De ecclesia* or letters | Public-domain translation to check | Hus |
 | Decrees of Constance (*Haec sancta*) | Latin or public-domain translation, to check | 1415 |
 
@@ -81,7 +81,7 @@ Recommendation: Tierney, Strayer, Cantor, plus a Constance study once chosen. Al
 
 ## Process and site work
 
-Same as the earlier eras: choose editions and record licences first; check each citation as written with `scripts/cite.py`;
+Same as the earlier eras: choose editions and record licenses first; check each citation as written with `scripts/cite.py`;
 keep the ledger as we go (`docs/REVIEW-friars-to-constance.md`); set `reviewStatus` from the first commit.
 
 Site: the homepage timeline scales by era length, so the eighth era (202 years) will sit between the seventh and the
@@ -90,7 +90,7 @@ future Reformation era. No code change is needed.
 ## Order of work
 
 1. Owner confirms the start (1215) and the end (1417).
-2. Choose editions and record licences; add the sources to `SOURCES.md`.
+2. Choose editions and record licenses; add the sources to `SOURCES.md`.
 3. Draft the page with the ledger, checking citations as written.
 4. Add the maps and build; check the homepage and search.
 5. Open the PR; create the scholarly-claims and specialist-read issues.

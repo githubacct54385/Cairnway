@@ -19,7 +19,7 @@ flags:
 keyPeople:
   - name: "Pope John Paul II"
     role: "Pope, 1978 to 2005"
-    summary: "Pope through the end of the Cold War and into the twenty-first century. He travelled widely and was central to the response to the abuse crisis in its early stages. Details not yet checked."
+    summary: "Pope through the end of the Cold War and into the twenty-first century. He traveled widely and was central to the response to the abuse crisis in its early stages. Details not yet checked."
     source: "Not yet checked"
   - name: "Pope Benedict XVI"
     role: "Pope, 2005 to 2013"
@@ -48,7 +48,7 @@ events:
     source: "Not yet checked"
   - date: "AD 1991 (unchecked)"
     title: "East: The Soviet Union dissolves"
-    summary: "The Russian Orthodox Church gained a freer position within the Russian state, and churches in the former Soviet republics were reorganised. Details not yet checked."
+    summary: "The Russian Orthodox Church gained a freer position within the Russian state, and churches in the former Soviet republics were reorganized. Details not yet checked."
     source: "Not yet checked"
   - date: "AD 1998 (unchecked)"
     title: "West: Lambeth Conference resolutions on sexuality"
@@ -144,7 +144,7 @@ The fourteenth era ended with the fall of the Berlin Wall in 1989. This era runs
 only era on this site that is still happening. Its sources are recent, its figures change, and some of its disputes have not
 been settled. The page therefore states the date of its last check and says where the sources disagree.
 
-The church's centre of gravity has moved south. Most Christians now live in Africa, Asia and Latin America, while many churches
+The church's center of gravity has moved south. Most Christians now live in Africa, Asia and Latin America, while many churches
 in Europe and North America have shrunk. The divisions of the period cut across these regions: over sexuality and the ordination
 of women, over authority and Scripture, over worship, and over politics and war. Abuse by clergy has become a question for every
 large church, and the page gives its findings and responses without a verdict the sources do not support.
@@ -162,7 +162,7 @@ in share to people leaving Christianity: "This change is largely driven by high 
 ## The church and the end of communism
 
 The fall of communism changed the position of the Eastern churches. In Russia the Orthodox Church regained a public role within
-the state, while in central Europe churches that had been restricted or persecuted reorganised. The Orthodox world was divided
+the state, while in central Europe churches that had been restricted or persecuted reorganized. The Orthodox world was divided
 by the 2018 and 2019 decisions on the Orthodox Church of Ukraine, and by the Russian invasion of Ukraine in 2022. Several churches
 took positions on the war, and some broke communion with Moscow. These events are described with the sources to be cited. Details
 not yet checked.
@@ -251,7 +251,7 @@ been read, and the quotations are from that review. Replies from the churches an
 ### Where the standards are contested
 
 Several criticisms depend on the standard applied. For example, a church that teaches a particular moral standard on sexuality may
-be criticised by some as unloving, and by others as faithful. Those on each side describe their own standard in their own words,
+be criticized by some as unloving, and by others as faithful. Those on each side describe their own standard in their own words,
 and the page reports both without choosing. The same applies to the churches' relations with each other, to their attitude to
 the state, and to their response to persecution. See the sections on divisions and on politics above.
 

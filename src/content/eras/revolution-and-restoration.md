@@ -6,11 +6,11 @@ order: 12
 startYear: 1789
 endYear: 1870
 draft: true
-reviewStatus: "Draft, written 2026-11-12 from docs/PLAN-twelfth-era.md. Nothing on this page has been checked against its sources yet. Every date, event, person and claim is from the drafter's general knowledge and is marked as not yet checked. The sources listed have not been opened, and their licences are not yet checked. No specialist has reviewed this page."
+reviewStatus: "Draft, written 2026-11-12 from docs/PLAN-twelfth-era.md. Nothing on this page has been checked against its sources yet. Every date, event, person and claim is from the drafter's general knowledge and is marked as not yet checked. The sources listed have not been opened, and their licenses are not yet checked. No specialist has reviewed this page."
 flags:
   - text: "All dates and events unchecked, drafted from general knowledge"
     severity: "high"
-  - text: "Sources listed but not opened; licences unknown"
+  - text: "Sources listed but not opened; licenses unknown"
     severity: "high"
   - text: "The Greek and Ottoman material is thin and needs an Eastern specialist"
     severity: "medium"
@@ -62,7 +62,7 @@ events:
     summary: "The French state takes the church's lands and the Revolution begins its wider attack on the church. This continues the eleventh era. Details not yet checked."
     source: "Not yet checked"
   - date: "AD 1793 to 1794 (unchecked)"
-    title: "West: Dechristianisation in France"
+    title: "West: Dechristianization in France"
     summary: "Churches are closed and a Cult of Reason, then a Cult of the Supreme Being, is promoted. Details not yet checked."
     source: "Not yet checked"
   - date: "AD 1799 (unchecked)"
@@ -174,7 +174,7 @@ The page is arranged by theme. The East is covered in less detail, and its mater
 
 ## The Revolution and the church's property
 
-The Revolution went further against the church than the Civil Constitution of the Clergy had. Dechristianisation closed many
+The Revolution went further against the church than the Civil Constitution of the Clergy had. Dechristianization closed many
 churches, and the state promoted a Cult of Reason and then a Cult of the Supreme Being. Pope Pius VI died in French captivity
 at Valence in 1799. Details not yet checked.
 
@@ -237,7 +237,7 @@ recovery or an innovation is debated. The page does not yet give a view.
 
 ### Did Vatican I answer the modern world?
 
-Supporters saw the council as a defence of the faith against modern error. Critics, including some Catholic historians, saw it
+Supporters saw the council as a defense of the faith against modern error. Critics, including some Catholic historians, saw it
 as a turn away from the church's own traditions. The page does not yet give a view.
 
 ## Glossary
@@ -245,7 +245,7 @@ as a turn away from the church's own traditions. The page does not yet give a vi
 | Term | Meaning on this page |
 | --- | --- |
 | Concordat | An agreement between the papacy and a state about the church's position in it |
-| Dechristianisation | The attempt, in revolutionary France, to remove Christianity from public life |
+| Dechristianization | The attempt, in revolutionary France, to remove Christianity from public life |
 | Infallibility | The Vatican I doctrine that the pope, speaking ex cathedra on faith and morals, cannot err |
 | Tractarians | The writers of the *Tracts for the Times*, in the Oxford Movement |
 | Tanzimat | The Ottoman reforms begun in 1839 |

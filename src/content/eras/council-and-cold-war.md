@@ -6,11 +6,11 @@ order: 14
 startYear: 1945
 endYear: 1989
 draft: true
-reviewStatus: "Draft, written 2026-11-12 from docs/PLAN-fourteenth-era.md. Nothing on this page has been checked against its sources yet. Every date, event, person and claim is from the drafter's general knowledge and is marked as not yet checked. The sources listed have not been opened, and their licences are not yet checked. Most of the sources for this period are in copyright and may be cited and linked but not quoted. No specialist has reviewed this page."
+reviewStatus: "Draft, written 2026-11-12 from docs/PLAN-fourteenth-era.md. Nothing on this page has been checked against its sources yet. Every date, event, person and claim is from the drafter's general knowledge and is marked as not yet checked. The sources listed have not been opened, and their licenses are not yet checked. Most of the sources for this period are in copyright and may be cited and linked but not quoted. No specialist has reviewed this page."
 flags:
   - text: "All dates and events unchecked, drafted from general knowledge"
     severity: "high"
-  - text: "Council texts and most sources for this period are in copyright; quote only what the licence allows"
+  - text: "Council texts and most sources for this period are in copyright; quote only what the license allows"
     severity: "high"
   - text: "The churches under communism need a specialist reviewer, especially Romania and Bulgaria"
     severity: "medium"
@@ -19,7 +19,7 @@ flags:
 overviewMap: "europe-divided-1950"
 mapSection:
   heading: "Central Europe, 1956 to 1989"
-  intro: "A map of the churches of the Soviet bloc and their neighbours, from the Hungarian uprising of 1956 to the revolutions of 1989. Boundaries are simplified and approximate."
+  intro: "A map of the churches of the Soviet bloc and their neighbors, from the Hungarian uprising of 1956 to the revolutions of 1989. Boundaries are simplified and approximate."
   ids:
     - "central-europe-1956-1989"
 keyPeople:

@@ -59,7 +59,7 @@ Innocent III, Francis of Assisi, Saladin, Alexios I Komnenos, Gratian. Possible:
 Places to add to `scripts/maps/maps.config.json`: Canossa, Clermont, Jerusalem, Antioch, Cîteaux, Canterbury, Venice.
 Check the relief crop (5°E to 45°E): England and parts of the Crusader states may fall outside it.
 
-## Sources to choose (expected public domain; licences to record)
+## Sources to choose (expected public domain; licenses to record)
 
 | Source | Candidate edition | Used for |
 | --- | --- | --- |
@@ -82,7 +82,7 @@ Recommendation: Moore, Tyerman, Constable. All details to verify.
 
 ## Process and site work
 
-Same as the earlier eras: choose editions and record licences first; check each citation as written with `scripts/cite.py`;
+Same as the earlier eras: choose editions and record licenses first; check each citation as written with `scripts/cite.py`;
 keep the ledger as we go (`docs/REVIEW-reform-and-crusade.md`); set `reviewStatus` from the first commit.
 
 Site: the homepage timeline scales by era length, so the seventh era (161 years) will be narrower than the sixth. No code
@@ -91,7 +91,7 @@ change is needed.
 ## Order of work
 
 1. Owner confirms the start (1054) and the end (1215).
-2. Choose editions and record licences; add the sources to `SOURCES.md`.
+2. Choose editions and record licenses; add the sources to `SOURCES.md`.
 3. Draft the page with the ledger, checking citations as written.
 4. Add the maps and build; check the homepage and search.
 5. Open the PR; create the scholarly-claims and specialist-read issues.

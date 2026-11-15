@@ -26,27 +26,27 @@ figures:
     alt: "Fresco of a Pompeian couple: a woman holding a wax tablet and a man holding a scroll"
     caption: "Terentius Neo and his wife. A fresco from Pompeii, now in the Naples Archaeological Museum. Reading and writing were part of the world the letters were written in."
     credit: "Fresco from Pompeii, Naples Archaeological Museum; Wikimedia Commons, File:MANNapoli 9058 couple painting.jpg"
-    licence: "CC0"
+    license: "CC0"
   - image: "/era-art/apostolic-age/young-man-scroll.jpg"
     alt: "Fresco of a young man with a crown of leaves holding rolled scrolls"
     caption: "A young man with scrolls. A fresco from Pompeii, Naples Archaeological Museum."
     credit: "Fresco from Pompeii, Naples Archaeological Museum; Wikimedia Commons, File:MANNapoli 120620 a Fresco young man with rolls from Pompeii Italy.jpg"
-    licence: "CC0"
+    license: "CC0"
   - image: "/era-art/apostolic-age/partridge-mosaic.jpg"
     alt: "Mosaic of a partridge over a basket of fish"
     caption: "A partridge and fish mosaic from Pompeii, Naples Archaeological Museum. It shows the daily food and trade of the period."
     credit: "Mosaic from Pompeii, Naples Archaeological Museum; Wikimedia Commons, File:MANNapoli 9980 Mosaic pernice ladra Pompeii Italy.jpg"
-    licence: "CC0"
+    license: "CC0"
   - image: "/era-art/apostolic-age/peacock-boscoreale.jpg"
     alt: "Fresco of a peacock in an arched frame"
     caption: "A peacock fresco from Boscoreale, near Pompeii, also buried in AD 79. A calm, decorative image of the wall paintings that filled Roman houses."
     credit: "Fresco from Boscoreale; Wikimedia Commons, File:Pavo cristatus fresco Pompeii Boscoreale.jpg"
-    licence: "CC0"
+    license: "CC0"
   - image: "/era-art/apostolic-age/menander-reading.jpg"
     alt: "Fresco of a seated man reading a scroll against a gold background"
     caption: "A man reading. A faded fresco from the House of Menander, Pompeii."
     credit: "Fresco from the House of Menander, Pompeii; Wikimedia Commons, File:Menander fresco Pompeii Italy.jpg"
-    licence: "CC0"
+    license: "CC0"
 keyPeople:
   - name: "Peter (Cephas)"
     role: "Early leader among Jesus's followers"
@@ -61,7 +61,7 @@ keyPeople:
     summary: "Paul calls him the Lord's brother and says he met him in Jerusalem. In Acts, James gives the judgment that ends the Jerusalem meeting: non-Jewish believers should not be burdened, but should avoid a short list of practices. Josephus reports that he was stoned at the order of the high priest Ananus. Christian traditions differ on what brother means here, such as a full sibling, half-brother or cousin."
     source: "Galatians 1:19, 2:9 and 12; 1 Corinthians 15:7; Acts 15:13 to 21; Josephus, Antiquities 20.9.1"
   - name: "Barnabas"
-    role: "Early teacher and Paul's travelling partner"
+    role: "Early teacher and Paul's traveling partner"
     summary: "Acts introduces him as Joseph (Joses in some manuscripts and in the World English Bible), a Levite from Cyprus nicknamed Barnabas, which it translates as Son of Encouragement. The church at Antioch sent him out with Paul, and Paul mentions him in Galatians as someone who was drawn into the Antioch dispute."
     source: "Acts 4:36 to 37, 13:1 to 3, 15:12; Galatians 2:13"
   - name: "Priscilla (Prisca) and Aquila"
@@ -74,7 +74,7 @@ keyPeople:
     source: "Mark 1:19 to 20; Acts 3:1 to 4:22, 8:14 to 25; Galatians 2:9; John 21:20 to 24; Irenaeus, Against Heresies 3.1.1, 3.3.4 (later tradition); Brown, An Introduction to the New Testament (the Gospel of John)"
   - name: "Stephen"
     role: "One of the seven; the first martyr in Acts"
-    summary: "Acts presents him as one of seven men chosen to oversee the food distribution in the Jerusalem community, all with Greek names, and describes him as full of faith and the Holy Spirit. His long speech in Acts retells the history of Israel and criticises the temple. As he is stoned, Acts has him pray for his killers, echoing the words of Jesus at the crucifixion in Luke. Acts is the only source for him."
+    summary: "Acts presents him as one of seven men chosen to oversee the food distribution in the Jerusalem community, all with Greek names, and describes him as full of faith and the Holy Spirit. His long speech in Acts retells the history of Israel and criticizes the temple. As he is stoned, Acts has him pray for his killers, echoing the words of Jesus at the crucifixion in Luke. Acts is the only source for him."
     source: "Acts 6:1 to 8:2; Luke 23:34 and 46"
   - name: "Timothy"
     role: "Paul's co-worker and envoy"
@@ -151,7 +151,7 @@ events:
     source: "Tacitus, Annals 15.44"
   - date: "c. AD 64 to 68 (later tradition; dating debated)"
     title: "Peter and Paul die in Rome"
-    summary: "Acts ends with Paul spending two years in Rome under guard and does not say what happened to him, and the New Testament does not describe the death of either apostle. The earliest text to speak of their deaths is 1 Clement, a letter from the church in Rome written about AD 96. It says that Peter and Paul were persecuted and put to death, and holds them up as examples, but it does not say where or how they died. The Gospel of John has Jesus hint at the kind of death Peter would die, and around AD 110 Ignatius of Antioch, writing to the Roman church, mentions Peter and Paul as having given it instructions. Later tradition says more. From the late second century on, Christian writers say both apostles taught in Rome and died there, and some say it was under Nero. Eusebius, writing in the early fourth century, reports that Paul was beheaded and Peter crucified, and, citing the earlier writer Origen, that Peter asked to be crucified head downward. Historians such as Henry Chadwick accept that both apostles died in Rome, probably under Nero, while a minority of scholars doubt that Peter was ever there. A separate tradition, based on Paul's stated plan to visit Spain and on 1 Clement's phrase that he reached the limit of the west, holds that he was released and travelled again before his death. Scholars debate this too."
+    summary: "Acts ends with Paul spending two years in Rome under guard and does not say what happened to him, and the New Testament does not describe the death of either apostle. The earliest text to speak of their deaths is 1 Clement, a letter from the church in Rome written about AD 96. It says that Peter and Paul were persecuted and put to death, and holds them up as examples, but it does not say where or how they died. The Gospel of John has Jesus hint at the kind of death Peter would die, and around AD 110 Ignatius of Antioch, writing to the Roman church, mentions Peter and Paul as having given it instructions. Later tradition says more. From the late second century on, Christian writers say both apostles taught in Rome and died there, and some say it was under Nero. Eusebius, writing in the early fourth century, reports that Paul was beheaded and Peter crucified, and, citing the earlier writer Origen, that Peter asked to be crucified head downward. Historians such as Henry Chadwick accept that both apostles died in Rome, probably under Nero, while a minority of scholars doubt that Peter was ever there. A separate tradition, based on Paul's stated plan to visit Spain and on 1 Clement's phrase that he reached the limit of the west, holds that he was released and traveled again before his death. Scholars debate this too."
     source: "Acts 28:30 to 31; John 21:18 to 19; Romans 15:24; 1 Clement 5; Ignatius, Letter to the Romans 4.3; Eusebius, Church History 2.25 and 3.1 (later tradition); Chadwick, The Early Church"
   - date: "c. AD 66 to 68 (later tradition; debated)"
     title: "The Jewish revolt, and the Jerusalem church leaves for Pella"
@@ -352,7 +352,7 @@ In a letter written about twenty years after the death of Jesus, Paul reminds th
 
 Paul's letters also show how early believers spoke to Jesus and about him. Paul keeps an Aramaic prayer addressed to Jesus, *Maranatha*, "our Lord, come", which he leaves untranslated in his Greek (1 Corinthians 16:22; the World English Bible translates it as "Come, Lord!"). He writes that for believers there is one God, the Father, and one Lord, Jesus Christ, through whom all things exist. Those words echo the Jewish confession that God is one (1 Corinthians 8:6; compare Deuteronomy 6:4). And in a passage that may be an early hymn, he speaks of Christ being in the form of God, and of every knee bowing at the name of Jesus. Isaiah uses that last phrase of God himself (Philippians 2:6 to 11; compare Isaiah 45:23).
 
-Scholars read this evidence differently. Larry Hurtado and Richard Bauckham argue that Jewish believers were devoted to Jesus alongside God within the first few years of the movement. James Dunn is more cautious: he argues that early believers honoured Jesus very highly but did not yet worship him in the same way as God. Bart Ehrman agrees that belief in Jesus's exalted status came early, but argues that it meant something different from the later creeds. Christians have traditionally read these passages as early witness to their belief that Jesus is divine. The books by each of these scholars are listed under further reading below.
+Scholars read this evidence differently. Larry Hurtado and Richard Bauckham argue that Jewish believers were devoted to Jesus alongside God within the first few years of the movement. James Dunn is more cautious: he argues that early believers honored Jesus very highly but did not yet worship him in the same way as God. Bart Ehrman agrees that belief in Jesus's exalted status came early, but argues that it meant something different from the later creeds. Christians have traditionally read these passages as early witness to their belief that Jesus is divine. The books by each of these scholars are listed under further reading below.
 
 ### Did non-Jewish believers need to follow Jewish law?
 
@@ -382,11 +382,11 @@ There were no church buildings. Believers met in private homes, and Paul greets 
 
 ### Baptism
 
-Acts presents baptism as the way new believers joined the community, from Pentecost onward (Acts 2:38 to 41). Paul describes it as being baptised into Christ's death and rising to a new life (Romans 6:3 to 4), and says that in Christ there is neither Jew nor Greek, slave nor free, male nor female (Galatians 3:27 to 28). He also says he personally baptised only a few people in Corinth (1 Corinthians 1:14 to 17). The Didache prefers running water, allows pouring water three times on the head if there is not enough, and asks for fasting beforehand (Didache 7).
+Acts presents baptism as the way new believers joined the community, from Pentecost onward (Acts 2:38 to 41). Paul describes it as being baptized into Christ's death and rising to a new life (Romans 6:3 to 4), and says that in Christ there is neither Jew nor Greek, slave nor free, male nor female (Galatians 3:27 to 28). He also says he personally baptized only a few people in Corinth (1 Corinthians 1:14 to 17). The Didache prefers running water, allows pouring water three times on the head if there is not enough, and asks for fasting beforehand (Didache 7).
 
 ### The Lord's Supper
 
-The earliest written account of the Lord's Supper is in 1 Corinthians, where Paul passes on what he says he received: on the night he was handed over, Jesus took bread and a cup and told his followers to do this in remembrance of him (1 Corinthians 11:23 to 26). In Corinth it was part of a shared meal, and Paul criticises the community because some ate and drank their fill while others went hungry (1 Corinthians 11:17 to 34). The Didache gives thanksgiving prayers over the cup and the bread (Didache 9 to 10). Scholars debate how and when the ritual came to be separated from an ordinary meal.
+The earliest written account of the Lord's Supper is in 1 Corinthians, where Paul passes on what he says he received: on the night he was handed over, Jesus took bread and a cup and told his followers to do this in remembrance of him (1 Corinthians 11:23 to 26). In Corinth it was part of a shared meal, and Paul criticizes the community because some ate and drank their fill while others went hungry (1 Corinthians 11:17 to 34). The Didache gives thanksgiving prayers over the cup and the bread (Didache 9 to 10). Scholars debate how and when the ritual came to be separated from an ordinary meal.
 
 ### The first day of the week
 
@@ -398,7 +398,7 @@ Paul describes meetings where each person might bring a psalm, a teaching, a rev
 
 ### Sharing resources
 
-Acts says the Jerusalem believers held their possessions in common and gave to anyone in need (Acts 2:44 to 45, 4:32 to 37). Paul spent years organising a collection from his non-Jewish churches for the poor among the believers in Jerusalem, and he saw it as a sign of unity between Jewish and non-Jewish believers (1 Corinthians 16:1 to 4; 2 Corinthians 8 to 9; Romans 15:25 to 28).
+Acts says the Jerusalem believers held their possessions in common and gave to anyone in need (Acts 2:44 to 45, 4:32 to 37). Paul spent years organizing a collection from his non-Jewish churches for the poor among the believers in Jerusalem, and he saw it as a sign of unity between Jewish and non-Jewish believers (1 Corinthians 16:1 to 4; 2 Corinthians 8 to 9; Romans 15:25 to 28).
 
 ### Leaders
 
@@ -406,7 +406,7 @@ Titles for leaders were not yet fixed. Paul's letters mention apostles, prophets
 
 ### The Didache
 
-The Didache, or "Teaching of the Twelve Apostles", is a short manual on Christian life and practice. It is not in the New Testament, and it was known only by name until a copy was found in a library in Constantinople in 1873 and published ten years later. Scholars date it anywhere from about AD 50 to 120, and many think it was put together in stages. It is our best evidence for how some early communities baptised, prayed, fasted and shared the Lord's Supper.
+The Didache, or "Teaching of the Twelve Apostles", is a short manual on Christian life and practice. It is not in the New Testament, and it was known only by name until a copy was found in a library in Constantinople in 1873 and published ten years later. Scholars date it anywhere from about AD 50 to 120, and many think it was put together in stages. It is our best evidence for how some early communities baptized, prayed, fasted and shared the Lord's Supper.
 
 ## Glossary
 

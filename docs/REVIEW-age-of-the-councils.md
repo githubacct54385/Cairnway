@@ -62,7 +62,7 @@ Donatists), `npnf105` (anti-Pelagian). Passages were printed with `scripts/cite.
 | Chalcedon definition: perfect in Godhead and manhood, consubstantial, two natures unconfusedly, immutably, indivisibly, inseparably | F | NPNF2-14 |
 | Oriental Orthodox refused the definition | U | |
 
-## Debates and judgement calls (for a reviewer)
+## Debates and judgment calls (for a reviewer)
 
 | Section | The call | Status |
 | --- | --- | --- |

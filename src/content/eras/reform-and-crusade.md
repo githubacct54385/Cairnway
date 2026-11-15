@@ -6,7 +6,7 @@ order: 7
 startYear: 1054
 endYear: 1215
 draft: true
-reviewStatus: "Draft, written 2026-11-12 from docs/PLAN-seventh-era.md. Three claims about the Fourth Lateran Council were checked against the canons (Schroeder's translation, Fordham Internet History Sourcebook): the annual confession (Canon 21), the Eucharist doctrine (Canon 1) and the call for a crusade (the Holy Land decrees). The Fourth Crusade's diversion to Zara (1202) and capture of Constantinople (12 April 1204) were checked in Villehardouin's Memoirs (Marzials translation, Project Gutenberg 6032). Gregory VII's register was not found online and is unchecked. Every other date, event, person and claim is from the drafter's general knowledge and is not yet checked. The translations' licences are not yet checked. No specialist has reviewed this page."
+reviewStatus: "Draft, written 2026-11-12 from docs/PLAN-seventh-era.md. Three claims about the Fourth Lateran Council were checked against the canons (Schroeder's translation, Fordham Internet History Sourcebook): the annual confession (Canon 21), the Eucharist doctrine (Canon 1) and the call for a crusade (the Holy Land decrees). The Fourth Crusade's diversion to Zara (1202) and capture of Constantinople (12 April 1204) were checked in Villehardouin's Memoirs (Marzials translation, Project Gutenberg 6032). Gregory VII's register was not found online and is unchecked. Every other date, event, person and claim is from the drafter's general knowledge and is not yet checked. The translations' licenses are not yet checked. No specialist has reviewed this page."
 overviewMap: "crusades-and-reform"
 mapSection:
   heading: "The Crusades, 1096 to 1204"
@@ -22,7 +22,7 @@ figures:
     alt: "Chasse (reliquary casket) with the Crucifixion and Christ in Majesty"
     caption: "A gilded copper reliquary casket with champlevé enamel, made in France about 1180 to 1190. Its panels show the Crucifixion and Christ in Majesty with the apostles. Caskets like this held relics, and were made in the workshops of Limoges."
     credit: "Chasse, ca. 1180 to 1190, French (Limoges) enamel; Metropolitan Museum of Art, Open Access (object 464483)"
-    licence: "CC0"
+    license: "CC0"
 keyPeople:
   - name: "Gregory VII"
     role: "Pope, 1073 to 1085"
@@ -38,7 +38,7 @@ keyPeople:
     source: "Not yet checked"
   - name: "Thomas Becket"
     role: "Archbishop of Canterbury, 1162 to 1170"
-    summary: "Quarrelled with King Henry II over the rights of the church and its courts. He was murdered in Canterbury Cathedral in 1170 and was soon venerated as a saint. Details not yet checked."
+    summary: "Quarreled with King Henry II over the rights of the church and its courts. He was murdered in Canterbury Cathedral in 1170 and was soon venerated as a saint. Details not yet checked."
     source: "Not yet checked"
   - name: "Innocent III"
     role: "Pope, 1198 to 1216"
@@ -55,7 +55,7 @@ events:
     source: "Not yet checked"
   - date: "AD 1066 (unchecked)"
     title: "West: The Norman conquest of England"
-    summary: "William of Normandy defeated Harold at Hastings and reorganised the English church with Norman bishops and abbots. The date is from general knowledge and not yet checked."
+    summary: "William of Normandy defeated Harold at Hastings and reorganized the English church with Norman bishops and abbots. The date is from general knowledge and not yet checked."
     source: "Not yet checked"
   - date: "AD 1077 (unchecked)"
     title: "West: Canossa"
@@ -79,7 +79,7 @@ events:
     source: "Not yet checked"
   - date: "AD 1170 (unchecked)"
     title: "West: Thomas Becket is murdered"
-    summary: "Becket was killed in Canterbury Cathedral by knights who had heard the king's anger. He was canonised within three years. The date and the circumstances are not yet checked."
+    summary: "Becket was killed in Canterbury Cathedral by knights who had heard the king's anger. He was canonized within three years. The date and the circumstances are not yet checked."
     source: "Not yet checked"
   - date: "AD 1187 (unchecked)"
     title: "Both: Saladin takes Jerusalem"
@@ -100,7 +100,7 @@ events:
 sources:
   - title: "Register of Gregory VII"
     author: "To be chosen as a public-domain translation"
-    license: "To check. Each edition's licence must be recorded before its text is quoted"
+    license: "To check. Each edition's license must be recorded before its text is quoted"
     checked: "not yet checked"
     usedFor: "Gregory VII and Canossa"
   - title: "Chronicle of the First Crusade"
@@ -155,7 +155,7 @@ Franciscans and Dominicans preached in towns and cities, which was new for relig
 
 ### Monasteries and the reform of religious life
 
-The Cistercians, founded at Cîteaux in 1098, emphasised a simple life and manual work. Their houses spread quickly across Europe. Details not yet checked.
+The Cistercians, founded at Cîteaux in 1098, emphasized a simple life and manual work. Their houses spread quickly across Europe. Details not yet checked.
 
 ### Law and the schools
 
