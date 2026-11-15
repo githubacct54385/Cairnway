@@ -95,43 +95,134 @@ const clipId = `land-${m.id}`;
 </figure>
 
 <script>
-  // Keeps map labels and city names inside the map frame at any width. Labels that would run past
-  // an edge are shifted in, and city names on the right flip to the left of their dot.
+  // Lays out the names on a map so no two ever sit on top of each other, at any width.
+  // Order of importance: numbered stops, then cities, then region names, then sea names.
+  //  - A city or stop name is never hidden. It tries each side of its dot (and the four corners),
+  //    then the same again in slightly smaller type, and only then takes the least-bad spot.
+  //  - Region and sea names give way: each is nudged aside if it would cover a city, and hidden
+  //    only when there is no free spot nearby.
   const PAD = 4;
+  const GAP = 2;
+
+  type Box = { l: number; t: number; r: number; b: number };
+  const hit = (a: Box, b: Box) =>
+    a.l < b.r + GAP && b.l < a.r + GAP && a.t < b.b + GAP && b.t < a.b + GAP;
+  const area = (a: Box, b: Box) =>
+    Math.max(0, Math.min(a.r, b.r) - Math.max(a.l, b.l)) *
+    Math.max(0, Math.min(a.b, b.b) - Math.max(a.t, b.t));
 
   function fitFrame(frame: HTMLElement) {
     const fr = frame.getBoundingClientRect();
     if (!fr.width) return;
+    const rem = parseFloat(getComputedStyle(document.documentElement).fontSize) || 16;
+    const inner: Box = { l: PAD, t: PAD, r: fr.width - PAD, b: fr.height - PAD };
+    const outside = (b: Box) =>
+      Math.max(0, inner.l - b.l) + Math.max(0, b.r - inner.r) +
+      Math.max(0, inner.t - b.t) + Math.max(0, b.b - inner.b);
 
-    frame.querySelectorAll<HTMLElement>('.map-pin').forEach((pin) => {
-      pin.dataset.side ??= pin.className.match(/side-(\w+)/)?.[1] ?? 'right';
-      const original = pin.dataset.side;
-      pin.classList.remove('side-left', 'side-right');
-      pin.classList.add(`side-${original}`);
-      const name = pin.querySelector<HTMLElement>('.name');
-      if (!name || (original !== 'right' && original !== 'left')) return;
-      const overflows = () => {
-        const r = name.getBoundingClientRect();
-        return r.left < fr.left + PAD || r.right > fr.right - PAD;
-      };
-      if (overflows()) {
-        const other = original === 'right' ? 'left' : 'right';
-        pin.classList.replace(`side-${original}`, `side-${other}`);
-        if (overflows()) pin.classList.replace(`side-${other}`, `side-${original}`);
-      }
+    // Reset anything a previous run did.
+    frame.querySelectorAll<HTMLElement>('.map-pin .name').forEach((n) => {
+      n.style.cssText = '';
+      n.parentElement!.classList.remove('placed');
     });
-
     frame.querySelectorAll<HTMLElement>('.map-label').forEach((el) => {
       el.style.translate = '';
-      const r = el.getBoundingClientRect();
-      let dx = 0;
-      let dy = 0;
-      if (r.left < fr.left + PAD) dx = fr.left + PAD - r.left;
-      else if (r.right > fr.right - PAD) dx = fr.right - PAD - r.right;
-      if (r.top < fr.top + PAD) dy = fr.top + PAD - r.top;
-      else if (r.bottom > fr.bottom - PAD) dy = fr.bottom - PAD - r.bottom;
-      if (dx || dy) el.style.translate = `${dx}px ${dy}px`;
+      el.style.visibility = '';
     });
+
+    const taken: Box[] = [];
+    const pins = [...frame.querySelectorAll<HTMLElement>('.map-pin')].map((el) => {
+      const r = el.getBoundingClientRect();
+      const x = r.left - fr.left;
+      const y = r.top - fr.top;
+      const half = (el.querySelector('.badge') ? 0.75 : 0.45) * rem;
+      taken.push({ l: x - half, t: y - half, r: x + half, b: y + half });
+      return { el, x, y, name: el.querySelector<HTMLElement>('.name')!, stop: el.hasAttribute('data-stop') };
+    });
+
+    // Where the name's box would sit, relative to its dot, for each way of placing it.
+    const spots = (w: number, h: number) => ({
+      right: [0.85 * rem, -h / 2],
+      left: [-0.85 * rem - w, -h / 2],
+      top: [-w / 2, -0.8 * rem - h],
+      bottom: [-w / 2, 0.8 * rem],
+      'top-right': [0.5 * rem, -0.5 * rem - h],
+      'top-left': [-0.5 * rem - w, -0.5 * rem - h],
+      'bottom-right': [0.5 * rem, 0.5 * rem],
+      'bottom-left': [-0.5 * rem - w, 0.5 * rem],
+    } as Record<string, number[]>);
+    const ORDER: Record<string, string[]> = {
+      right: ['right', 'left', 'top-right', 'bottom-right', 'top-left', 'bottom-left', 'top', 'bottom'],
+      left: ['left', 'right', 'top-left', 'bottom-left', 'top-right', 'bottom-right', 'top', 'bottom'],
+      top: ['top', 'bottom', 'top-right', 'top-left', 'bottom-right', 'bottom-left', 'right', 'left'],
+      bottom: ['bottom', 'top', 'bottom-right', 'bottom-left', 'top-right', 'top-left', 'right', 'left'],
+    };
+
+    const place = (p: (typeof pins)[number]) => {
+      const base = parseFloat(getComputedStyle(p.name).fontSize);
+      const side = p.el.className.match(/side-(\w+)/)?.[1] ?? 'right';
+      let best: { box: Box; ox: number; oy: number; cost: number; scale: number } | null = null;
+      for (const scale of [1, 0.85]) {
+        p.name.style.fontSize = `${base * scale}px`;
+        const w = p.name.offsetWidth;
+        const h = p.name.offsetHeight;
+        const all = spots(w, h);
+        for (const key of ORDER[side] ?? ORDER.right) {
+          const [ox, oy] = all[key];
+          const box = { l: p.x + ox, t: p.y + oy, r: p.x + ox + w, b: p.y + oy + h };
+          const cost = taken.reduce((s, o) => s + (hit(box, o) ? 1 + area(box, o) : 0), 0) + outside(box) * 4;
+          if (!best || cost < best.cost) best = { box, ox, oy, cost, scale };
+          if (cost === 0) break;
+        }
+        if (best && best.cost === 0) break;
+      }
+      const b = best!;
+      p.name.style.fontSize = `${base * b.scale}px`;
+      p.name.style.left = `${b.ox}px`;
+      p.name.style.top = `${b.oy}px`;
+      p.name.style.right = 'auto';
+      p.name.style.bottom = 'auto';
+      p.name.style.transform = 'none';
+      p.el.classList.add('placed');
+      taken.push(b.box);
+    };
+    pins.filter((p) => p.stop).forEach(place);
+    pins.filter((p) => !p.stop).forEach(place);
+
+    // Region names first, then seas. Each tries its own spot, then small nudges, then hides.
+    const labels = [...frame.querySelectorAll<HTMLElement>('.map-label')];
+    const ranked = [
+      ...labels.filter((l) => l.classList.contains('map-region')),
+      ...labels.filter((l) => !l.classList.contains('map-region')),
+    ];
+    for (const el of ranked) {
+      const r = el.getBoundingClientRect();
+      const w = r.width;
+      const h = r.height;
+      const cx = r.left - fr.left + w / 2;
+      const cy = r.top - fr.top + h / 2;
+      const tries: number[][] = [[0, 0]];
+      for (const k of [0.6, 1.2, 2]) {
+        for (const [dx, dy] of [[0, -1], [0, 1], [-1, 0], [1, 0], [-1, -1], [1, -1], [-1, 1], [1, 1]]) {
+          tries.push([dx * k * (dx ? w / 2 : 0) , dy * k * h]);
+        }
+      }
+      let placed = false;
+      for (const [dx, dy] of tries) {
+        // Keep it inside the frame, then see whether the spot is free.
+        let x = cx + dx;
+        let y = cy + dy;
+        x = Math.min(Math.max(x, inner.l + w / 2), inner.r - w / 2);
+        y = Math.min(Math.max(y, inner.t + h / 2), inner.b - h / 2);
+        const box = { l: x - w / 2, t: y - h / 2, r: x + w / 2, b: y + h / 2 };
+        if (taken.some((o) => hit(box, o))) continue;
+        el.style.translate = `${x - cx}px ${y - cy}px`;
+        taken.push(box);
+        placed = true;
+        break;
+      }
+      if (!placed) el.style.visibility = 'hidden';
+    }
   }
 
   function fitAll() {
