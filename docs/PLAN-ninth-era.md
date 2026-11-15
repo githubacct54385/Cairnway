@@ -50,7 +50,7 @@ complaints were heard.
 | 1453 | East | Fall of Constantinople to Mehmed II, 29 May | U |
 | c. 1455 | West | Gutenberg's printed Bible at Mainz | U (date to check) |
 | 1459 | East | Serbia falls to the Ottomans | U |
-| 1478 | West | Sixtus IV authorises the Spanish Inquisition | U |
+| 1478 | West | Sixtus IV authorizes the Spanish Inquisition | U |
 | 1492 | West | Alexander VI (Borgia) elected pope | U |
 | 1494 to 1498 | West | Savonarola's rule and reform in Florence; he is executed in 1498 | U |
 | 1506 | West | Julius II begins the new St Peter's | U |
@@ -81,7 +81,7 @@ Places to add to `scripts/maps/maps.config.json`: Basel, Florence, Constantinopl
 Moscow, Naples, Milan, Savona. Check the relief crop: Moscow and the eastern Balkans may fall outside the current
 Europe-focused crop, so the crop may need widening. Place coordinates are approximate and hand-entered, as before.
 
-## Sources to choose (expected public domain; licences to record)
+## Sources to choose (expected public domain; licenses to record)
 
 | Source | Candidate edition | Used for |
 | --- | --- | --- |
@@ -94,7 +94,7 @@ Europe-focused crop, so the crop may need widening. Place coordinates are approx
 | Savonarola, sermons or *Triumph of the Cross* | Public-domain translation, to check | Reform |
 | Sphrantzes or Doukas on 1453 | Translations are mostly under copyright; to check | Fall of Constantinople |
 
-Licences for each must be recorded before any text is quoted. Where only a modern translation exists, cite and paraphrase,
+Licenses for each must be recorded before any text is quoted. Where only a modern translation exists, cite and paraphrase,
 and do not reproduce it.
 
 ## Modern books (to choose; owner needs library copies)
@@ -109,7 +109,7 @@ All titles and years are from memory and must be verified.
 
 ## Process and site work
 
-Same as the earlier eras: choose editions and record licences first; check each citation as written with `scripts/cite.py`;
+Same as the earlier eras: choose editions and record licenses first; check each citation as written with `scripts/cite.py`;
 keep the ledger as we go (`docs/REVIEW-late-medieval-church.md`); set `reviewStatus` from the first commit.
 
 Site: the homepage timeline scales by era length, so this 100-year era will sit between the eighth and the Reformation
@@ -125,7 +125,7 @@ good at phone width.
 ## Order of work
 
 1. Owner confirms the boundaries (1417 and 1517) and whether the era stays separate.
-2. Choose editions and record licences; add the sources to `SOURCES.md`.
+2. Choose editions and record licenses; add the sources to `SOURCES.md`.
 3. Draft the page with the ledger, checking citations as written.
 4. Add the maps and images; build; check the homepage, the on-page navigation and search.
 5. Open the PR; create the scholarly-claims and specialist-read issues.

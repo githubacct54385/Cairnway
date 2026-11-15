@@ -20,7 +20,7 @@ python3 scripts/maps/build-maps.py <ne-folder> <ne-folder>/SR_HR/SR_HR.tif   # n
 ```
 
 With the relief file, each map is cropped from the full-resolution relief at its own bounding box. Without it, the
-Mediterranean crop in `relief-med.png` is used. Each map's east-west scale follows the latitude at its centre.
+Mediterranean crop in `relief-med.png` is used. Each map's east-west scale follows the latitude at its center.
 
 The Mediterranean relief crop was made by the `Relief crop` workflow (`.github/workflows/relief.yml`). With the full
 relief file, the crop is no longer needed.

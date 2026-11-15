@@ -5,7 +5,7 @@ This is a planning log, not legal advice. If a license is unclear, link to the s
 
 ## Apostolic Age (draft)
 
-Licences and editions checked on 2026-11-11 (CHR-9). Public-domain status comes from each edition's own statement.
+Licenses and editions checked on 2026-11-11 (CHR-9). Public-domain status comes from each edition's own statement.
 
 | Source | Use | License | Checked |
 | --- | --- | --- | --- |
@@ -32,7 +32,7 @@ Licences and editions checked on 2026-11-11 (CHR-9). Public-domain status comes 
 
 ## After the Apostles, about AD 100 to 313 (draft)
 
-Editions chosen and licences checked on 2026-11-11 (CHR-12). Each CCEL volume states "Rights: Public Domain" in its own
+Editions chosen and licenses checked on 2026-11-11 (CHR-12). Each CCEL volume states "Rights: Public Domain" in its own
 header; the Pliny edition is a Project Gutenberg text of a translation first published in the 1700s. Full texts were
 downloaded and the named works confirmed present. The ancient writers are cited on the page "After the Apostles"; see `docs/REVIEW-second-century.md` for how far each citation was checked.
 
@@ -58,7 +58,7 @@ downloaded and the named works confirmed present. The ancient writers are cited 
 
 ## Third era, about AD 313 to 451 (planned, not yet drafted)
 
-Editions chosen and licences checked on 2026-11-11 (CHR-12 follow-on). Each CCEL volume states "Rights: Public Domain" in
+Editions chosen and licenses checked on 2026-11-11 (CHR-12 follow-on). Each CCEL volume states "Rights: Public Domain" in
 its own header. Full texts were downloaded; wording of individual passages has not been checked yet.
 
 | Source | Use | License | Checked |
@@ -93,8 +93,8 @@ its own header. Full texts were downloaded; wording of individual passages has n
 
 ## After Chalcedon, AD 451 to 600 (draft)
 
-Editions named here; licences checked on 2026-11-12 for the CCEL volumes (each states "Rights: Public Domain" in its
-header). Other editions are to be chosen and their licences recorded before any text is quoted.
+Editions named here; licenses checked on 2026-11-12 for the CCEL volumes (each states "Rights: Public Domain" in its
+header). Other editions are to be chosen and their licenses recorded before any text is quoted.
 
 | Source | Use | License | Checked |
 | --- | --- | --- | --- |
@@ -106,7 +106,7 @@ header). Other editions are to be chosen and their licences recorded before any 
 
 ## Gregory to the Second Council of Nicaea, AD 600 to 787 (draft)
 
-Editions named here; licences checked on 2026-11-12. Bede (Sellar translation) is a Project Gutenberg text (ebook 38326);
+Editions named here; licenses checked on 2026-11-12. Bede (Sellar translation) is a Project Gutenberg text (ebook 38326);
 the CCEL volume states "Rights: Public Domain" in its header. Other editions to be chosen and licensed before quoting.
 
 | Source | Use | License | Checked |

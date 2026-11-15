@@ -6,7 +6,7 @@ order: 11
 startYear: 1648
 endYear: 1789
 draft: true
-reviewStatus: "Draft, written 2026-11-12 from docs/PLAN-eleventh-era.md. Nothing on this page has been checked against its sources yet. Every date, event, person and claim is from the drafter's general knowledge and is marked as not yet checked. The sources listed have not been opened, and their licences are not yet checked. The three artworks were chosen from the Metropolitan Museum's public-domain collection, and their captions are not yet checked against the museum's records. No specialist has reviewed this page."
+reviewStatus: "Draft, written 2026-11-12 from docs/PLAN-eleventh-era.md. Nothing on this page has been checked against its sources yet. Every date, event, person and claim is from the drafter's general knowledge and is marked as not yet checked. The sources listed have not been opened, and their licenses are not yet checked. The three artworks were chosen from the Metropolitan Museum's public-domain collection, and their captions are not yet checked against the museum's records. No specialist has reviewed this page."
 overviewMap: "confessions-1700"
 mapSection:
   heading: "Europe in 1789"
@@ -15,7 +15,7 @@ mapSection:
 flags:
   - text: "All dates and events unchecked, drafted from general knowledge"
     severity: "high"
-  - text: "Sources listed but not opened; licences unknown; several texts still to choose"
+  - text: "Sources listed but not opened; licenses unknown; several texts still to choose"
     severity: "high"
   - text: "Length (141 years) and end date (1789 or 1790) to be confirmed by the owner"
     severity: "note"
@@ -24,21 +24,21 @@ figures:
     alt: "Painting of the Annunciation: the Virgin kneels at a prie-dieu as the angel Gabriel approaches"
     caption: "The Annunciation by Philippe de Champaigne, about 1644, in oil on oak. It was painted just before this era begins, in the Catholic art of Paris, and shows the calm devotion that the Catholic renewal encouraged."
     credit: "Philippe de Champaigne, The Annunciation, ca. 1644, oil on oak; Metropolitan Museum of Art, Open Access (object 438724)"
-    licence: "CC0"
+    license: "CC0"
   - image: "/era-art/reason-and-revival/met-peter-great-ivory.jpg"
     alt: "Carved ivory portrait bust of Peter the Great in an openwork frame"
     caption: "A carved walrus-ivory portrait of Peter the Great, made in the late 18th or early 19th century. In 1721 Peter replaced the Russian patriarchate with the Holy Synod, a body run by the state."
     credit: "Peter the Great, late 18th to early 19th century, walrus ivory; Metropolitan Museum of Art, Open Access (object 205473)"
-    licence: "CC0"
+    license: "CC0"
   - image: "/era-art/reason-and-revival/met-devotional-madonna-paradise.jpg"
     alt: "Devotional picture of the Virgin of Good Counsel, made of engraving, fabric and metal thread"
-    caption: "A German devotional picture of the Virgin of Good Counsel, from the 18th century, made from hand-coloured engraving, fabric and metal thread. Pictures like this were made for private prayer and for the popular devotion of the period."
+    caption: "A German devotional picture of the Virgin of Good Counsel, from the 18th century, made from hand-colored engraving, fabric and metal thread. Pictures like this were made for private prayer and for the popular devotion of the period."
     credit: "Anonymous German, The Madonna of Paradise (Our Lady of Good Counsel), 18th century, mixed media; Metropolitan Museum of Art, Open Access (object 785981)"
-    licence: "CC0"
+    license: "CC0"
 keyPeople:
   - name: "Blaise Pascal"
     role: "Mathematician and writer, 1623 to 1662"
-    summary: "Wrote the Provincial Letters (1656 to 1657) in defence of the Jansenists and against the Jesuits. Details not yet checked."
+    summary: "Wrote the Provincial Letters (1656 to 1657) in defense of the Jansenists and against the Jesuits. Details not yet checked."
     source: "Not yet checked (Provincial Letters, to be chosen)"
   - name: "Philipp Jakob Spener"
     role: "Lutheran pastor in Frankfurt, later Dresden and Berlin"

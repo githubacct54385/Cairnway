@@ -32,16 +32,16 @@ without running into the early medieval period.
 | 455 | West | Vandals sack Rome | Procopius, *Vandalic War* |
 | 476 | West | Odoacer deposes the last western emperor; traditional end of the Western Empire | Marcellinus Comes (chronicle) |
 | c. 480 to 547 | West | Benedict of Nursia; his *Rule* (c. 530) | Gregory the Great, *Dialogues* 2 |
-| c. 496 to 508 | West | Clovis, king of the Franks, is baptised (date debated) | Gregory of Tours, *History of the Franks* 2 |
+| c. 496 to 508 | West | Clovis, king of the Franks, is baptized (date debated) | Gregory of Tours, *History of the Franks* 2 |
 | c. 524 | West | Boethius writes *The Consolation of Philosophy* in prison, then is executed | Boethius (public-domain translation to choose) |
 | 527 to 565 | East | Justinian reigns; codifies Roman law | *Corpus iuris civilis* (edition to choose); Procopius |
 | 529 to 534 | East | Justinian's Code and the Digest, Institutes and Novels | as above |
 | 537 | East | Hagia Sophia dedicated in Constantinople | Procopius, *Buildings* 1 |
 | 543 to 553 | East | The Three Chapters controversy; Council of Constantinople II (553) | *Seven Ecumenical Councils* (NPNF2 vol. 14, already chosen) |
-| c. 540 to 600 | East | Miaphysite (non-Chalcedonian) churches organise separately in Syria and Egypt | Secondary sources only; chronicle of John of Ephesus (to check) |
+| c. 540 to 600 | East | Miaphysite (non-Chalcedonian) churches organize separately in Syria and Egypt | Secondary sources only; chronicle of John of Ephesus (to check) |
 | 590 to 604 | West | Gregory the Great is pope; writes the *Pastoral Rule* and the *Dialogues* | NPNF2 vols. 12 and 13 (CCEL), chosen in principle |
 | 596 to 597 | West | Gregory sends Augustine of Canterbury to the English | Bede, *Ecclesiastical History* 1 (edition to choose) |
-| c. 600 | West | Isidore of Seville writes encyclopaedic works (*Etymologies*) | Isidore (edition to choose) |
+| c. 600 | West | Isidore of Seville writes encyclopedic works (*Etymologies*) | Isidore (edition to choose) |
 
 Dropped for now: the Council of Orange (529), Columbanus's monasteries (may return as a person), and the Visigothic
 church in Spain (one line in the West row if space allows).
@@ -62,7 +62,7 @@ Canterbury, Isidore of Seville. Possible: Cassiodorus, Columbanus.
 Map work: places to add to `scripts/maps/maps.config.json` are Ravenna, Canterbury, Monte Cassino, Subiaco, Tours and
 Seville. Ireland and Britain may fall outside the current relief crop (5°E to 45°E); check before drafting Map 1.
 
-## Sources to choose (expected public domain; licences to record)
+## Sources to choose (expected public domain; licenses to record)
 
 | Source | Candidate edition | Used for |
 | --- | --- | --- |
@@ -74,7 +74,7 @@ Seville. Ireland and Britain may fall outside the current relief crop (5°E to 4
 | Boethius, *Consolation* | Cooper or Stewart and Rand translations, if public domain | Boethius |
 | Patrick, *Confession* | Public-domain translation to choose | Patrick |
 | *Corpus iuris civilis* | Scott translation, if public domain | Justinian's law |
-| Isidore, *Etymologies* | Barney et al. (modern) or the Latin text; licence check needed | Isidore |
+| Isidore, *Etymologies* | Barney et al. (modern) or the Latin text; license check needed | Isidore |
 
 ## Modern books (to choose; owner needs library copies)
 
@@ -87,7 +87,7 @@ Recommendation: Brown for the framework, Fletcher for the conversions, Cameron f
 
 ## Process and site work
 
-Same process as eras 2 and 3: choose editions and record licences first; download the full texts before drafting;
+Same process as eras 2 and 3: choose editions and record licenses first; download the full texts before drafting;
 check each citation as it is written with `scripts/cite.py`; keep the ledger as we go
 (`docs/REVIEW-late-antiquity.md`); set `reviewStatus` from the first commit.
 

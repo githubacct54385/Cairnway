@@ -6,7 +6,7 @@ order: 13
 startYear: 1870
 endYear: 1945
 draft: true
-reviewStatus: "Draft, written 2026-11-12 from docs/PLAN-thirteenth-era.md. Nothing on this page has been checked against its sources yet. Every date, event, person and claim is from the drafter's general knowledge and is marked as not yet checked. The sources listed have not been opened, and their licences are not yet checked. The section on the churches and the Holocaust is contested and needs a specialist reviewer. No specialist has reviewed this page."
+reviewStatus: "Draft, written 2026-11-12 from docs/PLAN-thirteenth-era.md. Nothing on this page has been checked against its sources yet. Every date, event, person and claim is from the drafter's general knowledge and is marked as not yet checked. The sources listed have not been opened, and their licenses are not yet checked. The section on the churches and the Holocaust is contested and needs a specialist reviewer. No specialist has reviewed this page."
 flags:
   - text: "All dates and events unchecked, drafted from general knowledge"
     severity: "high"
@@ -65,7 +65,7 @@ events:
     source: "Not yet checked"
   - date: "AD 1891 (unchecked)"
     title: "West: Rerum Novarum"
-    summary: "The encyclical on labour, property and the rights of workers. Details not yet checked."
+    summary: "The encyclical on labor, property and the rights of workers. Details not yet checked."
     source: "Not yet checked"
   - date: "AD 1900 (unchecked)"
     title: "West: Harnack's lectures published as What Is Christianity?"
@@ -172,7 +172,7 @@ sections.
 ## Leo XIII and the social question
 
 Leo XIII was elected in 1878. *Aeterni Patris* (1879) called for the study of St Thomas Aquinas, and *Rerum Novarum* (1891)
-addressed labour, property and the rights of workers. The encyclical is usually seen as the start of modern Catholic social
+addressed labor, property and the rights of workers. The encyclical is usually seen as the start of modern Catholic social
 teaching. The Roman question, the dispute over the pope's position after 1870, remained open until 1929. Details not yet
 checked.
 
@@ -233,7 +233,7 @@ checked.
 
 ### Did modernism deserve condemnation?
 
-Supporters of the 1907 condemnation saw it as a defence of the faith. Critics, including some Catholic scholars, saw it as a
+Supporters of the 1907 condemnation saw it as a defense of the faith. Critics, including some Catholic scholars, saw it as a
 suppression of legitimate study. The page does not yet give a view.
 
 ### What did the churches know, and what did they do, about the Holocaust?
@@ -251,7 +251,7 @@ How much they did is debated. The page does not yet give a view.
 | Term | Meaning on this page |
 | --- | --- |
 | Modernism | A movement in Catholic thought that applied historical criticism to belief, condemned in 1907 |
-| Social question | The problems of industrial labour and poverty, and the church's response to them |
+| Social question | The problems of industrial labor and poverty, and the church's response to them |
 | Confessing Church | The German Protestant movement that opposed the Nazi takeover of the churches, from 1934 |
 | Lateran Treaties | The 1929 agreements that created Vatican City |
 | Exarchate | A church province set up by a patriarch or a state, outside the usual structure |

@@ -89,7 +89,7 @@ Antioch, Troas, Philippi, Ephesus, Corinth and Rome already exist in the config.
 
 ## Sources and editions (to choose and record before drafting)
 
-All candidates are expected to be public domain; licence and check date go in `SOURCES.md` as each is confirmed.
+All candidates are expected to be public domain; license and check date go in `SOURCES.md` as each is confirmed.
 
 | Source | Candidate edition | Used for |
 | --- | --- | --- |
@@ -100,7 +100,7 @@ All candidates are expected to be public domain; licence and check date go in `S
 | Origen, *Against Celsus* | Ante-Nicene Fathers vol. 4 (CCEL) | Event 13 |
 | Eusebius, *Church History* | McGiffert, NPNF2 vol. 1 (CCEL), already in use | Events 3 (Trajan context), 6, 11, 12, 15, 17 |
 | Pliny, *Letters* 10.96 and 10.97 | A public-domain translation (Melmoth or Church and Brodribb are candidates; find one online and confirm) | Event 3 |
-| Muratorian fragment | An English translation with a clear licence (not yet identified) | Event 16 |
+| Muratorian fragment | An English translation with a clear license (not yet identified) | Event 16 |
 | 2 Peter | World English Bible, already in use | Event 17 |
 
 ## Modern books (to choose; owner needs library copies)
@@ -149,12 +149,12 @@ name of a denomination (it means "universal").
 
 ## Process (from CHR-12)
 
-1. Choose editions and record licences in `SOURCES.md` before drafting.
+1. Choose editions and record licenses in `SOURCES.md` before drafting.
 2. Name a book for each scholarly claim as it is written ("Wilken argues...", not "scholars say").
 3. Download the full texts first and mark each ledger row **F** as it is written; write a small script that prints a
    cited passage so checking is fast.
 4. Set `reviewStatus` from the first commit so the banner is accurate at every stage.
-5. Keep a reviewer packet as we go: list judgement calls (contested framing, later tradition) from the start.
+5. Keep a reviewer packet as we go: list judgment calls (contested framing, later tradition) from the start.
 
 ## Site work
 

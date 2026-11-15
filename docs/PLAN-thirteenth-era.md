@@ -19,12 +19,12 @@ churches' responses to it are central, so the page must treat them with care (se
 1. **Start: AD 1870.**
 2. **End: AD 1945** (the end of the war in Europe). The alternative is 1939 (the start of the war), which would cut the page
    short. Not recommended.
-3. **Length: 75 years.** The longest era so far. The page should be organised by theme, with the ecumenical and Eastern
+3. **Length: 75 years.** The longest era so far. The page should be organized by theme, with the ecumenical and Eastern
    material given their own sections so they do not get lost.
 4. **East is in scope in full**: the Russian church and the revolution, the Armenian genocide, the Greek and Turkish exchange
    of populations, and the Ecumenical Patriarchate. This is a larger share than in the twelfth era.
 5. **The Holocaust and the churches (decided):** the page will say what the sources show about church responses in Germany
-   and elsewhere, including the criticism of Pius XII and the defences made for him. It will set out the debate and give no
+   and elsewhere, including the criticism of Pius XII and the defenses made for him. It will set out the debate and give no
    verdict the sources do not support. The frontier-model review will need to check this section.
 
 ## Structure of the page
@@ -50,7 +50,7 @@ churches' responses to it are central, so the page must treat them with care (se
 | --- | --- | --- | --- |
 | 1870 | West | Vatican I; Rome becomes the capital of Italy (see the twelfth era) | U |
 | 1879 | West | *Aeterni Patris*, Leo XIII's call for Thomist philosophy | U (text, to check) |
-| 1891 | West | *Rerum Novarum*, on labour and capital | U (translation, to check) |
+| 1891 | West | *Rerum Novarum*, on labor and capital | U (translation, to check) |
 | 1900 | West | Harnack's lectures *What Is Christianity?* in Berlin (winter 1899 to 1900) | F or U (English translation 1901, to check) |
 | 1900 | East and West | Boxer rising; missionaries and Chinese Christians killed | U |
 | 1907 | West | *Pascendi Dominici gregis* condemns modernism | U (translation, to check) |
@@ -89,7 +89,7 @@ Places to add to `scripts/maps/maps.config.json`: Berlin (present), Barmen (Wupp
 (Angora), Flossenbürg, Madrid (present), Moscow (present), Yerevan, Kiev (check), Istanbul (check the name used). Coordinates
 approximate.
 
-## Sources to choose (expected public domain; licences to record)
+## Sources to choose (expected public domain; licenses to record)
 
 | Source | Candidate edition | Used for |
 | --- | --- | --- |
@@ -116,7 +116,7 @@ verified.
 
 ## Process and site work
 
-Same as the earlier eras: choose editions and record licences first; check each citation as written with `scripts/cite.py`;
+Same as the earlier eras: choose editions and record licenses first; check each citation as written with `scripts/cite.py`;
 keep the ledger as we go (`docs/REVIEW-church-in-the-modern-world.md`); set `reviewStatus` from the first commit. This era
 needs the most careful source work, because of the Holocaust and the Armenian genocide sections and the copyright of many
 20th-century texts.
@@ -126,12 +126,12 @@ needs the most careful source work, because of the Holocaust and the Armenian ge
 Most photographs of 1914 to 1945 are still in copyright outside the United States, and many are not public domain even in the
 United States. Plan two or three images that are clearly free: a pre-1929 print or painting of the Vatican or the missions, a
 Russian Orthodox icon from the period (check the Met or another museum), and a photograph of the Lateran Treaties or Barmen
-only if its licence is clear. Record each in `docs/IMAGES.md`. Where no image is clearly free, use none and say so on the
+only if its license is clear. Record each in `docs/IMAGES.md`. Where no image is clearly free, use none and say so on the
 page.
 
 ## Order of work
 
 1. Confirm the boundary (1870 start, 1945 end) and the owner's decision on the Holocaust section.
-2. Choose editions and record licences for the sources above, starting with the public-domain ones.
+2. Choose editions and record licenses for the sources above, starting with the public-domain ones.
 3. Draft the page, with the three maps and the figures.
 4. Add the map places and labels, rebuild the maps, and check the frames at phone width.

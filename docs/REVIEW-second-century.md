@@ -138,7 +138,7 @@ Each person's summary uses the same passages as the events above. Rows not liste
 | Constantine: "Roman emperor, from 306" | U | |
 | Pliny: "Roman senator" | U | Not stated in the letters read |
 
-## Debates and judgement calls (reviewer packet)
+## Debates and judgment calls (reviewer packet)
 
 These are the sentences where the page takes a position, or reports one. A specialist should look at each.
 
@@ -150,7 +150,7 @@ These are the sentences where the page takes a position, or reports one. A speci
 | New Testament | Gamble describes a gradual process driven by use in worship, with outside pressure such as Marcion's | N, U |
 | New Testament | "How much weight to give Marcion is debated" | N, U |
 | Gnostic teachers | Nag Hammadi (1945) changed what we know; whether "Gnosticism" is a useful label is debated | N, U |
-| Montanism | Known mainly through opponents | F for the Eusebius quote; the generalisation is P |
+| Montanism | Known mainly through opponents | F for the Eusebius quote; the generalization is P |
 | Easter | Each side claimed apostolic tradition | F (Eusebius 5.23, 5.24) |
 | What outsiders thought | Wilken argues educated Romans took Christianity seriously enough to attack it | N, U |
 | Persecution | Tradition counts ten; Augustine reports it as what "some" think and does not endorse it | F (*City of God* 18.52) |

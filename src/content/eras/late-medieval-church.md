@@ -6,11 +6,11 @@ order: 9
 startYear: 1417
 endYear: 1517
 draft: true
-reviewStatus: "Draft, written 2026-11-12 from docs/PLAN-ninth-era.md. Nothing on this page has been checked against its sources yet. Every date, event, person and claim is from the drafter's general knowledge and is marked as not yet checked. The sources listed have not been opened, and their licences are not yet checked. No specialist has reviewed this page."
+reviewStatus: "Draft, written 2026-11-12 from docs/PLAN-ninth-era.md. Nothing on this page has been checked against its sources yet. Every date, event, person and claim is from the drafter's general knowledge and is marked as not yet checked. The sources listed have not been opened, and their licenses are not yet checked. No specialist has reviewed this page."
 flags:
   - text: "All dates and events unchecked, drafted from general knowledge"
     severity: "high"
-  - text: "Sources listed but not opened; licences unknown"
+  - text: "Sources listed but not opened; licenses unknown"
     severity: "high"
   - text: "Length (100 years) to be confirmed by the owner"
     severity: "note"
@@ -20,17 +20,17 @@ figures:
     alt: "Painting of a Franciscan friar preaching from a wooden pulpit against a blue background"
     caption: "Saint Bernardino of Siena preaching from a pulpit, painted by Francesco di Giorgio Martini about 1470 to 1475, in tempera on parchment. Bernardino was a Franciscan preacher who called for moral reform in the Italian towns."
     credit: "Francesco di Giorgio Martini, Saint Bernardino Preaching from a Pulpit, ca. 1470 to 1475, tempera on parchment; Metropolitan Museum of Art, Open Access (object 461450)"
-    licence: "CC0"
+    license: "CC0"
   - image: "/era-art/late-medieval-church/met-savonarola-medal.jpg"
     alt: "Bronze medal with a profile of Girolamo Savonarola and a crucifix"
     caption: "A bronze medal of Girolamo Savonarola by Niccolò Fiorentino, late 15th century. Savonarola's sermons against worldliness made him a figure of reform in Florence, and his execution in 1498 made him a martyr to some of his followers."
     credit: "Niccolò Fiorentino, Girolamo Savonarola, late 15th century, bronze; Metropolitan Museum of Art, Open Access (object 200635)"
-    licence: "CC0"
+    license: "CC0"
   - image: "/era-art/late-medieval-church/met-byzantine-hodegetria-icon.jpg"
     alt: "Icon of the Virgin and Child, with the Virgin in a dark blue-striped mantle and the Child in red"
     caption: "An icon of the Virgin and Child, painted in tempera on wood in the 13th century by a Byzantine or Crusader workshop. Icons like this were the devotional images of the Eastern churches, which the councils of Florence and Constantinople tried to bring into union with Rome."
     credit: "Icon of the Virgin and Child, Hodegetria variant, 13th century, tempera on wood; Metropolitan Museum of Art, Open Access (object 831188)"
-    licence: "CC0"
+    license: "CC0"
 keyPeople:
   - name: "Martin V"
     role: "Pope, 1417 to 1431"
@@ -94,8 +94,8 @@ events:
     summary: "The Ottoman sultan Mehmed II took the city on 29 May 1453. The end of the Byzantine Empire is a major event for the Eastern churches. Details not yet checked."
     source: "Not yet checked"
   - date: "AD 1478 (unchecked)"
-    title: "West: The Spanish Inquisition is authorised"
-    summary: "Pope Sixtus IV authorised the Spanish crown to appoint inquisitors. The bull and its terms are not yet checked."
+    title: "West: The Spanish Inquisition is authorized"
+    summary: "Pope Sixtus IV authorized the Spanish crown to appoint inquisitors. The bull and its terms are not yet checked."
     source: "Not yet checked"
   - date: "AD 1492 (unchecked)"
     title: "West: Alexander VI is elected"
@@ -142,7 +142,7 @@ sources:
 
 ## Overview
 
-The eighth era ended when the Council of Constance restored one pope in 1417. This era runs from that point to Luther's Ninety-Five Theses in 1517. In those hundred years, the councils tried to reform the papacy and failed to control it, the Hussite wars divided Bohemia, the Eastern and Western churches tried to reunite and then lost Constantinople, and the popes of the Renaissance rebuilt Rome as a centre of art and power. Many people wanted reform, and some of them, such as Savonarola, were punished for it.
+The eighth era ended when the Council of Constance restored one pope in 1417. This era runs from that point to Luther's Ninety-Five Theses in 1517. In those hundred years, the councils tried to reform the papacy and failed to control it, the Hussite wars divided Bohemia, the Eastern and Western churches tried to reunite and then lost Constantinople, and the popes of the Renaissance rebuilt Rome as a center of art and power. Many people wanted reform, and some of them, such as Savonarola, were punished for it.
 
 The page is arranged by East and West, as before. Events are tagged East, West or Both.
 

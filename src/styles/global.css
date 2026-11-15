@@ -411,7 +411,7 @@ a {
   font-size: 0.9rem;
 }
 
-/* Crossroads comparison: answer colours. A colour means "same answer" within one question only. */
+/* Crossroads comparison: answer colors. A color means "same answer" within one question only. */
 :root {
   --g0-bg: #e1ecf7; --g0-fg: #1f4a73;
   --g1-bg: #ece6f5; --g1-fg: #4b2f7a;

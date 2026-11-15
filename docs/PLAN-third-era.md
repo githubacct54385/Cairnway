@@ -2,7 +2,7 @@
 
 A planning document, not page content. Every date, passage reference and book detail below is from the drafter's general
 knowledge and is **U** (unverified) until checked, as in `PLAN-second-era.md` and `REVIEW-second-century.md`.
-Proposed slug (the era is organised by East and West, not by one theme): `age-of-the-councils` (file `src/content/eras/age-of-the-councils.md`, `order: 3`).
+Proposed slug (the era is organized by East and West, not by one theme): `age-of-the-councils` (file `src/content/eras/age-of-the-councils.md`, `order: 3`).
 
 ## Decisions (owner, 2026-11-11)
 
@@ -15,7 +15,7 @@ Proposed slug (the era is organised by East and West, not by one theme): `age-of
 
 The East and West split here is about **language and region**, Greek in the East and Latin in the West. It is **not** the
 split between Roman Catholic and Orthodox churches. That break (the "Great Schism") is conventionally dated to AD 1054,
-and the churches of this era were in communion with each other, though they quarrelled. The splits that do begin in this
+and the churches of this era were in communion with each other, though they quarreled. The splits that do begin in this
 era are different ones: the **Church of the East** parted from the rest after Ephesus (431), and the **Oriental Orthodox**
 churches (Coptic, Armenian, Syriac and others) parted after Chalcedon (451). The page should say so plainly, so a reader
 does not read the later schism back into the fourth century.
@@ -40,7 +40,7 @@ does not read the later schism back into the fourth century.
 | 431 | East | Council of Ephesus; Nestorius and "God-bearer"; the Church of the East parts | *Seven Ecumenical Councils*; Cyril of Alexandria |
 | 449 to 451 | Both | Leo's Tome and the Council of Chalcedon; the Oriental Orthodox part | *Seven Ecumenical Councils*; Leo, *Letter* 28 |
 
-Dropped as not notable enough for this page: the dedication of Constantinople (330), Constantine's building programme in
+Dropped as not notable enough for this page: the dedication of Constantinople (330), Constantine's building program in
 detail, and the 391 anti-pagan laws (mentioned only in the Theodosius row).
 
 ## Candidate people (about 12)
@@ -67,13 +67,13 @@ Athanasius in 367 and in African councils in the 390s); that Nicaea invented the
 | Map | Content | Status |
 | --- | --- | --- |
 | 1. Councils and great sees | Nicaea, Constantinople, Ephesus, Chalcedon, Rome, Alexandria, Antioch, Carthage and Hippo | Proposed |
-| 2. The desert and the monks | Antony in Egypt, Pachomius at Tabennese, later monastic centres | Optional, for later |
+| 2. The desert and the monks | Antony in Egypt, Pachomius at Tabennese, later monastic centers | Optional, for later |
 
 Map work: places to add to `scripts/maps/maps.config.json` are Nicaea, Chalcedon, Constantinople, Hippo, Thessalonica
 (already present as a place) and the Egyptian desert sites. Constantinople and Thessalonica are inside the existing
 relief crop (5°E to 45°E); Hippo at about 7.8°E is also inside. No change to the relief crop is needed.
 
-## Sources and editions to choose (all expected public domain; licences to be recorded)
+## Sources and editions to choose (all expected public domain; licenses to be recorded)
 
 | Source | Candidate edition | Used for |
 | --- | --- | --- |
@@ -101,7 +101,7 @@ Recommendation: Chadwick (framework), Williams (Arius), Brown (Augustine), Kelly
 
 ## Process and site work
 
-Same process as the second era: choose editions and record licences first; download the full texts before drafting; check
+Same process as the second era: choose editions and record licenses first; download the full texts before drafting; check
 each citation against them as it is written, using `scripts/cite.py`; keep the ledger as we go
 (`docs/REVIEW-age-of-the-councils.md`); set `reviewStatus` from the first commit.
 

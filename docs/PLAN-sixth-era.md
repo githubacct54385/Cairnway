@@ -62,7 +62,7 @@ Leo IX, Michael Cerularius. Possible: Gerbert of Aurillac (Pope Sylvester II), J
 Places to add to `scripts/maps/maps.config.json`: Aachen, Cluny, Verdun, Kiev, Bari, Baghdad. Check the relief crop
 (5°E to 45°E); Aachen and Kiev may fall outside it.
 
-## Sources to choose (expected public domain; licences to record)
+## Sources to choose (expected public domain; licenses to record)
 
 | Source | Candidate edition | Used for |
 | --- | --- | --- |
@@ -84,7 +84,7 @@ Recommendation: McKitterick, Herrin, Reuter. All details to verify.
 
 ## Process and site work
 
-Same as the earlier eras: choose editions and record licences first; check each citation as written with `scripts/cite.py`;
+Same as the earlier eras: choose editions and record licenses first; check each citation as written with `scripts/cite.py`;
 keep the ledger as we go (`docs/REVIEW-carolingians-to-schism.md`); set `reviewStatus` from the first commit.
 
 Site: the homepage timeline scales by era length, so the sixth era (254 years) will be a wide segment. No code change is
@@ -93,7 +93,7 @@ needed, but check the segment labels once the page exists.
 ## Order of work
 
 1. Owner confirms the start (800) and the end (1054).
-2. Choose editions and record licences; add the sources to `SOURCES.md`.
+2. Choose editions and record licenses; add the sources to `SOURCES.md`.
 3. Draft the page with the ledger, checking citations as written.
 4. Add the maps and build; check the homepage and search.
 5. Open the PR; create the scholarly-claims and specialist-read issues.

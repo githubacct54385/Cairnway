@@ -22,7 +22,7 @@ and its sources and people are not yet settled. That history is best left for a 
 3. **Length: 44 years.** Shorter than most eras, so it can have more detail on each event.
 4. **East is in scope**, with the Eastern churches under communism: the Russian Orthodox Church under Soviet control, the
    Romanian and Bulgarian churches, and the Ecumenical Patriarch's dialogue with Rome.
-5. **Organised by theme**: the churches under communism, the Council, its reception, the global church, and the end of the
+5. **Organized by theme**: the churches under communism, the Council, its reception, the global church, and the end of the
    Cold War.
 
 ## Structure of the page
@@ -83,18 +83,18 @@ Places to add to `scripts/maps/maps.config.json`: Amsterdam (check), Budapest, P
 Bucharest, Sofia (check), Berlin (present), San Salvador, Medellín, Rome (present), Istanbul or Constantinople (check the
 name). Coordinates approximate.
 
-## Sources to choose (licences to record; many are still in copyright)
+## Sources to choose (licenses to record; many are still in copyright)
 
 | Source | Candidate edition | Used for |
 | --- | --- | --- |
 | The Council documents (*Lumen Gentium*, *Nostra Aetate*, *Gaudium et Spes*) | Vatican text; English translations are under copyright, so check and link rather than reproduce | The Council |
 | Medellín documents (1968) | Text, to check | The global church |
 | *Humanae Vitae* (1968) | Vatican text, to check | The reception of the Council |
-| Speeches and sermons of Romero (1977 to 1980) | Check the licence before use | Latin America |
+| Speeches and sermons of Romero (1977 to 1980) | Check the license before use | Latin America |
 | The Helsinki Final Act (1975) | Public-document text, to check | The Eastern churches |
 
 Most 20th-century texts in this era are copyrighted. The page should link to them and quote only the short passages the
-licence allows, as the other eras do. Where a source cannot be read freely, say so on the page.
+license allows, as the other eras do. Where a source cannot be read freely, say so on the page.
 
 ## Modern books (to choose; owner needs library copies)
 
@@ -108,19 +108,19 @@ verified.
 
 ## Process and site work
 
-Same as the earlier eras: choose editions and record licences first; check each citation as written with `scripts/cite.py`;
+Same as the earlier eras: choose editions and record licenses first; check each citation as written with `scripts/cite.py`;
 keep the ledger as we go (`docs/REVIEW-council-and-cold-war.md`); set `reviewStatus` from the first commit. Because most of
 the sources are in copyright, the source check here is the most important step before the page is drafted.
 
 ## Images (free images only)
 
 Few images of this period are clearly free. Plan one or two from a museum with open-access collections or from Wikimedia
-Commons, only where the licence is clear, such as a Soviet-era church photograph released into the public domain, or a
-Vatican II image with a free licence. If none is clear, the page has no images and says so. Record each in `docs/IMAGES.md`.
+Commons, only where the license is clear, such as a Soviet-era church photograph released into the public domain, or a
+Vatican II image with a free license. If none is clear, the page has no images and says so. Record each in `docs/IMAGES.md`.
 
 ## Order of work
 
 1. Confirm the boundary (1945 start, 1989 end) and the owner's decision on the post-1989 history.
-2. Settle the licences for the Council texts and the other sources, since this affects what the page can quote.
+2. Settle the licenses for the Council texts and the other sources, since this affects what the page can quote.
 3. Draft the page, with the three maps and the figures.
 4. Add the map places and labels, rebuild the maps, and check the frames at phone width.

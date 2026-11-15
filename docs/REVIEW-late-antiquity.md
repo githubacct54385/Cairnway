@@ -10,7 +10,7 @@ Page: `src/content/eras/late-antiquity.md`. Plan: `docs/PLAN-fourth-era.md`. Ful
 
 | Claim | Status | Where |
 | --- | --- | --- |
-| Gregory's letter "Glory to God..." praises the conversion of the Angli through Augustine's labour | F | NPNF2-13, letter to Augustine, Bishop of the Angli |
+| Gregory's letter "Glory to God..." praises the conversion of the Angli through Augustine's labor | F | NPNF2-13, letter to Augustine, Bishop of the Angli |
 | Augustine was provost of Gregory's monastery and is now a fellow-bishop; Gregory grants him the pallium | F | NPNF2-13, letter about the pallium |
 | Pastoral Rule was issued at the start of Gregory's pontificate | F | NPNF2-12, preface to the Book of Pastoral Rule |
 | The ruler of souls must distinguish virtues from vices with vigilant care (meanness, wasteful liberality, misplaced severity) | F | NPNF2-12, Pastoral Rule, Part II |
@@ -25,13 +25,13 @@ Page: `src/content/eras/late-antiquity.md`. Plan: `docs/PLAN-fourth-era.md`. Ful
 | All dates on the page apart from the headings above | U | The dates come from general knowledge. The reviewer should treat each as a guess. |
 | Leo meets Attila (452) | U | Later tradition; the page says so. Sources to find: Prosper, the Liber Pontificalis |
 | Vandals sack Rome (455); Odoacer deposes the last emperor (476) | U | Procopius, the chronicles |
-| Clovis baptised (c. 496 to 508) | U | Gregory of Tours 2; date debated |
+| Clovis baptized (c. 496 to 508) | U | Gregory of Tours 2; date debated |
 | Patrick's mission and Confession | U | Edition to choose |
 | Boethius, Consolation (c. 524) and his execution | U | Edition to choose |
 | Benedict and his Rule (c. 530); the Dialogues as the source for his life | U | Dialogues not in hand (not in NPNF2 vols. 12 or 13) |
 | Justinian's codification (529 to 534) | U | Corpus iuris civilis not yet fetched |
 | Hagia Sophia dedicated 537 | U | Procopius, Buildings 1 |
-| Non-Chalcedonian churches organise separately (c. 540 to 600) | U | Secondary sources; John of Ephesus to check |
+| Non-Chalcedonian churches organize separately (c. 540 to 600) | U | Secondary sources; John of Ephesus to check |
 | Gregory makes peace with the Lombards; Gregory is one of the four Doctors | U | From memory; not on the page's sources |
 | Isidore, Etymologies (c. 600) | U | Edition to choose |
 | Muhammad begins to preach in Mecca c. 610; Arab armies take Syria, Egypt and Persian lands in the 630s to 640s | U | Islam note only; to check against a source before publication |

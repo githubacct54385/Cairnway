@@ -6,16 +6,16 @@ order: 10
 startYear: 1517
 endYear: 1648
 draft: true
-reviewStatus: "Draft, written 2026-11-12 from docs/PLAN-reformation-era.md. Nothing on this page has been checked against its sources yet. Every date, event, person and claim is from the drafter's general knowledge and is marked as not yet checked. The sources listed have not been opened, and their licences are not yet checked. The three artworks were chosen from the Metropolitan Museum's public-domain collection, and their captions are not yet checked against the museum's records. No specialist has reviewed this page."
+reviewStatus: "Draft, written 2026-11-12 from docs/PLAN-reformation-era.md. Nothing on this page has been checked against its sources yet. Every date, event, person and claim is from the drafter's general knowledge and is marked as not yet checked. The sources listed have not been opened, and their licenses are not yet checked. The three artworks were chosen from the Metropolitan Museum's public-domain collection, and their captions are not yet checked against the museum's records. No specialist has reviewed this page."
 overviewMap: "religion-1555"
 mapSection:
   heading: "The Thirty Years' War"
-  intro: "The war began in Bohemia in 1618 and spread across the empire. The map shows the main theatres and the places tied to the peace of 1648. Boundaries are simplified and the places are approximate."
+  intro: "The war began in Bohemia in 1618 and spread across the empire. The map shows the main theaters and the places tied to the peace of 1648. Boundaries are simplified and the places are approximate."
   ids: ["thirty-years-war"]
 flags:
   - text: "All dates and events unchecked, drafted from general knowledge"
     severity: "high"
-  - text: "Sources listed but not opened; licences unknown; Trent and Augsburg texts not chosen"
+  - text: "Sources listed but not opened; licenses unknown; Trent and Augsburg texts not chosen"
     severity: "high"
   - text: "Page is long; the owner has a fallback to split it at 1563 if it is too long to check"
     severity: "note"
@@ -24,17 +24,17 @@ figures:
     alt: "Portrait of Martin Luther by Lucas Cranach the Elder, against a blue background"
     caption: "Martin Luther, painted by Lucas Cranach the Elder, probably in 1532. Cranach's workshop in Wittenberg made many portraits of the reformer, which helped his face become known across Germany."
     credit: "Lucas Cranach the Elder, Martin Luther, probably 1532, oil on wood; Metropolitan Museum of Art, Open Access (object 436047)"
-    licence: "CC0"
+    license: "CC0"
   - image: "/era-art/reformation/met-durer-crucifixion.jpg"
-    alt: "Hand-coloured woodcut of the Crucifixion with mourners and soldiers"
-    caption: "The Crucifixion from Albrecht Dürer's Small Woodcut Passion, 1509 to 1510, printed and hand-coloured. Prints like these were sold to ordinary buyers for private devotion, and they were copied widely."
-    credit: "Albrecht Dürer, Crucifixion from The Small Woodcut Passion, 1509 to 1510, hand-coloured woodcut; Metropolitan Museum of Art, Open Access (object 361985)"
-    licence: "CC0"
+    alt: "Hand-colored woodcut of the Crucifixion with mourners and soldiers"
+    caption: "The Crucifixion from Albrecht Dürer's Small Woodcut Passion, 1509 to 1510, printed and hand-colored. Prints like these were sold to ordinary buyers for private devotion, and they were copied widely."
+    credit: "Albrecht Dürer, Crucifixion from The Small Woodcut Passion, 1509 to 1510, hand-colored woodcut; Metropolitan Museum of Art, Open Access (object 361985)"
+    license: "CC0"
   - image: "/era-art/reformation/met-melanchthon-medal.jpg"
     alt: "Bronze medal with a profile portrait of Philipp Melanchthon"
     caption: "A bronze medal of Philipp Melanchthon, made by Friedrich Hagenauer in 1543. Melanchthon was Luther's colleague and wrote the Augsburg Confession of 1530."
     credit: "Friedrich Hagenauer, Philipp Melanchthon, 1543, bronze; Metropolitan Museum of Art, Open Access (object 855362)"
-    licence: "CC0"
+    license: "CC0"
 keyPeople:
   - name: "Martin Luther"
     role: "Augustinian friar and professor at Wittenberg, 1483 to 1546"
@@ -136,7 +136,7 @@ events:
 sources:
   - title: "Luther's Works and the Ninety-Five Theses"
     author: "Martin Luther; a public-domain translation to be chosen (for example Wace and Buchheim, 1883)"
-    license: "To check. The translation's licence must be recorded before any text is quoted"
+    license: "To check. The translation's license must be recorded before any text is quoted"
     checked: "not yet checked"
     usedFor: "1517 and Luther's theology"
   - title: "The Creeds of Christendom (Augsburg Confession and Council of Trent)"

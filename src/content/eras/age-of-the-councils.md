@@ -25,7 +25,7 @@ figures:
     alt: "Engraving of the Sarcophagus of Junius Bassus, with scenes from the Old and New Testaments in two tiers"
     caption: "The sarcophagus of Junius Bassus, a Roman official who died in 359, shows scenes from the Old and New Testaments in two rows of columned arches. This engraving comes from a Swedish reference work of about 1900. The original is in the Vatican."
     credit: "Engraving from Nordisk familjebok, about 1900; Wikimedia Commons, File:Bildhuggarkonst, Junius Bassus sarkofag, Nordisk familjebok.png"
-    licence: "Public domain"
+    license: "Public domain"
 keyPeople:
   - name: "Constantine"
     role: "Roman emperor"
@@ -33,7 +33,7 @@ keyPeople:
     source: "Letter of the Emperor to all those not present at the Council (NPNF2 vol. 14); for the debate, see Further reading"
   - name: "Athanasius"
     role: "Bishop of Alexandria"
-    summary: "Defended the Nicene creed through decades of dispute and was removed from his see more than once. His writings include a defence of his own conduct and his thirty-ninth Festal Letter for the year 367, which lists the books of the Old and New Testaments. He is also the author of the Life of Antony."
+    summary: "Defended the Nicene creed through decades of dispute and was removed from his see more than once. His writings include a defense of his own conduct and his thirty-ninth Festal Letter for the year 367, which lists the books of the Old and New Testaments. He is also the author of the Life of Antony."
     source: "Athanasius, Festal Letter 39; Life of Antony; Apologia (NPNF2 vol. 4)"
   - name: "Antony"
     role: "Egyptian monk"
@@ -174,7 +174,7 @@ The previous era ended with toleration. This one starts there. In AD 313 the emp
 
 The page is arranged by East and West, because the Greek-speaking and Latin-speaking halves of the empire argued about different things in different languages. In the East the main questions were about the Son and the Spirit and, later, about the person of Christ. In the West the main figures, Ambrose, Jerome and Augustine, wrote about church and state, Scripture, sin and grace.
 
-This East and West is a matter of language and region. It is not the split between Roman Catholic and Orthodox churches, which is conventionally dated to AD 1054, long after this era. The churches of this era were in communion with each other, though they quarrelled. The splits that began in this era are different: the Church of the East after Ephesus, and the Oriental Orthodox churches after Chalcedon (both not yet checked here).
+This East and West is a matter of language and region. It is not the split between Roman Catholic and Orthodox churches, which is conventionally dated to AD 1054, long after this era. The churches of this era were in communion with each other, though they quarreled. The splits that began in this era are different: the Church of the East after Ephesus, and the Oriental Orthodox churches after Chalcedon (both not yet checked here).
 
 ## When were the sources written?
 
@@ -210,7 +210,7 @@ Augustine's prayer, give what you command and command what you will, came to sta
 
 ### Did Constantine make the empire Christian?
 
-The agreement of AD 313 gave Christians freedom, along with everyone else. This page does not yet check the laws of Theodosius that later favoured one kind of Christianity, so it does not claim that Christianity became the religion of the empire in this era. That claim is often overstated and needs a source before it appears here.
+The agreement of AD 313 gave Christians freedom, along with everyone else. This page does not yet check the laws of Theodosius that later favored one kind of Christianity, so it does not claim that Christianity became the religion of the empire in this era. That claim is often overstated and needs a source before it appears here.
 
 ## Worship and community life
 

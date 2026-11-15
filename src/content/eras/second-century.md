@@ -29,7 +29,7 @@ figures:
     alt: "Christ healing the paralytic, a painting from the house church at Dura-Europos"
     caption: "Christ healing the paralytic. A painting from the house church at Dura-Europos, a Roman frontier town on the Euphrates, made about AD 232. It is one of the oldest surviving Christian paintings. The paint has faded, so the figures are hard to read at first."
     credit: "Painting from Dura-Europos, about AD 232; Wikimedia Commons, File:Christ Healing the Paralytic - Dura-Europos circa 232.jpg"
-    licence: "Public domain"
+    license: "Public domain"
 keyPeople:
   - name: "Ignatius of Antioch"
     role: "Bishop, martyr and letter writer"
@@ -45,7 +45,7 @@ keyPeople:
     source: "Pliny, Letters 10.96 and 10.97 (numbered XCVII and XCVIII in the Melmoth translation)"
   - name: "Justin Martyr"
     role: "Christian teacher and defender of the faith"
-    summary: "Writes an Apology addressed to the emperor Antoninus Pius in which he describes how Christians baptise and meet on Sundays, and he says Marcion is teaching in his own day. Eusebius says he was a philosopher who preached the word in Rome and that a rival, the Cynic Crescens, plotted against him. The surviving record of his trial says he was condemned by Rusticus, the prefect of Rome, for refusing to sacrifice."
+    summary: "Writes an Apology addressed to the emperor Antoninus Pius in which he describes how Christians baptize and meet on Sundays, and he says Marcion is teaching in his own day. Eusebius says he was a philosopher who preached the word in Rome and that a rival, the Cynic Crescens, plotted against him. The surviving record of his trial says he was condemned by Rusticus, the prefect of Rome, for refusing to sacrifice."
     source: "Justin, First Apology 1, 58, 61, 65 to 67; Eusebius, Church History 4.16 (and the translator's note on the Acts of Justin)"
   - name: "Marcion"
     role: "Teacher from Pontus who broke with the church in Rome"
@@ -118,7 +118,7 @@ events:
     source: "Martyrdom of Polycarp 9, 21 (and translator's note); Eusebius, Church History 4.15"
   - date: "c. AD 160 to 168 (debated)"
     title: "Justin is tried and executed in Rome"
-    summary: "According to the surviving account of his trial, Justin and six companions were condemned by Rusticus, the prefect of Rome, when they refused to sacrifice to the gods. Eusebius says Justin had been plotted against by the philosopher Crescens. The translator of the edition we use says the date is very hard to determine, and that the tradition placing it under Marcus Aurelius has the most in its favour, since Rusticus became prefect of Rome in AD 163."
+    summary: "According to the surviving account of his trial, Justin and six companions were condemned by Rusticus, the prefect of Rome, when they refused to sacrifice to the gods. Eusebius says Justin had been plotted against by the philosopher Crescens. The translator of the edition we use says the date is very hard to determine, and that the tradition placing it under Marcus Aurelius has the most in its favor, since Rusticus became prefect of Rome in AD 163."
     source: "Eusebius, Church History 4.16 (translator's note on the Acts of Justin)"
   - date: "c. AD 170 to 180 (debated)"
     title: "Montanus and the new prophecy"
@@ -158,7 +158,7 @@ events:
     source: "Eusebius, Church History 6.39; Cyprian, Epistle 10 and On the Lapsed"
   - date: "c. AD 251"
     title: "The lapsed, Novatus and the unity of the church"
-    summary: "Cyprian, bishop of Carthage, wrote On the Unity of the Church to hold his church together, insisting that anyone cut off from the church is a stranger and an enemy and cannot have God as Father who does not have the church as mother. Eusebius records the dispute under the name of Novatus (Novatian). The rule for taking back those who had given way, and whether to rebaptise those baptised by heretics, divided church leaders; Eusebius says Cyprian and the bishops with him were the first to teach that it was necessary."
+    summary: "Cyprian, bishop of Carthage, wrote On the Unity of the Church to hold his church together, insisting that anyone cut off from the church is a stranger and an enemy and cannot have God as Father who does not have the church as mother. Eusebius records the dispute under the name of Novatus (Novatian). The rule for taking back those who had given way, and whether to rebaptize those baptized by heretics, divided church leaders; Eusebius says Cyprian and the bishops with him were the first to teach that it was necessary."
     source: "Cyprian, On the Unity of the Church 6; Eusebius, Church History 6.43, 7.3"
   - date: "c. AD 230 to 256 (debated)"
     title: "A house church at Dura-Europos"
@@ -263,7 +263,7 @@ This era begins where the Apostolic Age ends. The apostles are gone, and the chu
 
 The evidence is much richer than for the first century, and the story is much less tidy. Writers now argue with each other, with outsiders, and with Christians they regard as dangerous. Most of what we know of the groups they attacked, such as Marcion, the Montanists and the Gnostic teachers, comes from those who attacked them. Dates are often uncertain, and the timeline below says so wherever they are.
 
-The page is built in two parts. The first runs to about AD 200, a period of letters, first outside views, and arguments over what counts as Scripture. The second runs from AD 200 to 313, a period of larger and better-organised churches, empire-wide persecutions, and finally toleration.
+The page is built in two parts. The first runs to about AD 200, a period of letters, first outside views, and arguments over what counts as Scripture. The second runs from AD 200 to 313, a period of larger and better-organized churches, empire-wide persecutions, and finally toleration.
 
 ## When were the sources written?
 
@@ -318,7 +318,7 @@ Irenaeus's *Against Heresies* is our main source on Valentinus and others whom h
 
 ### Montanism
 
-Montanus began to prophesy in Phrygia, and his followers were criticised by those who thought prophecy had no place after the apostles. The critic quoted by Eusebius writes that he hesitated to refute them for fear of seeming to add to the Gospel of the New Testament, and that the movement "separated" them from the church (Eusebius, Church History 5.16). We know the movement through its opponents. The editor of the *Passion of Perpetua* says some have thought the martyrs and the writer were Montanists, so the question reaches into the sources we have.
+Montanus began to prophesy in Phrygia, and his followers were criticized by those who thought prophecy had no place after the apostles. The critic quoted by Eusebius writes that he hesitated to refute them for fear of seeming to add to the Gospel of the New Testament, and that the movement "separated" them from the church (Eusebius, Church History 5.16). We know the movement through its opponents. The editor of the *Passion of Perpetua* says some have thought the martyrs and the writer were Montanists, so the question reaches into the sources we have.
 
 ### Why was Easter disputed?
 
@@ -344,7 +344,7 @@ We know more about worship now than in the first century, mostly from one source
 
 ### Baptism
 
-Justin says those who are persuaded and promise to live by what Christians teach are taught to pray and fast for forgiveness, and are then brought to water and washed in the name of God the Father, of Jesus Christ, and of the Holy Spirit (First Apology 61). He adds that the baptised are brought to the brethren to pray together (First Apology 65). The Didache, from an earlier time, allows pouring if there is not enough running water.
+Justin says those who are persuaded and promise to live by what Christians teach are taught to pray and fast for forgiveness, and are then brought to water and washed in the name of God the Father, of Jesus Christ, and of the Holy Spirit (First Apology 61). He adds that the baptized are brought to the brethren to pray together (First Apology 65). The Didache, from an earlier time, allows pouring if there is not enough running water.
 
 ### Sunday
 
@@ -366,7 +366,7 @@ Ignatius pictures a bishop, elders and deacons together, with the Eucharist and 
 
 | Term | Meaning on this page |
 | --- | --- |
-| Apology | A defence of Christianity addressed to outsiders, such as Justin's to the emperor and Tertullian's to the Roman authorities |
+| Apology | A defense of Christianity addressed to outsiders, such as Justin's to the emperor and Tertullian's to the Roman authorities |
 | Bishop | From the Greek *episkopos*, overseer. In this era, the head of a local church |
 | Canon | The list of books accepted as Scripture. From a Greek word for a rule or measuring rod |
 | Catholic | From the Greek for "universal". See the debate above |

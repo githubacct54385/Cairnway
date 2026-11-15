@@ -24,8 +24,8 @@ knows, when it knew it, and what the sources do not yet settle. Every figure nee
 4. **Balance and the no-verdict rule.** The page sets out disputed matters (sexuality and ordination, abuse and its
    handling, the Ukraine war and the Orthodox churches, persecution counts) and gives no verdict the sources do not support,
    as the thirteenth era does with the Holocaust section. The frontier-model review must check this closely.
-5. **Living people and organisations.** The page does not judge living figures. It describes what they have said and done
-   and cites it. Statements by current church leaders are quoted only in short passages within licence.
+5. **Living people and organizations.** The page does not judge living figures. It describes what they have said and done
+   and cites it. Statements by current church leaders are quoted only in short passages within license.
 6. **Scope: the world church.** Africa, Asia and Latin America get as much room as Europe and North America, because most
    Christians now live there.
 
@@ -101,12 +101,12 @@ Kinshasa, Manila, Seoul, Beijing, Abuja (check), São Paulo, Mexico City, Baghda
 Canterbury (present), Rome (present), Istanbul (present, check the name), Lusaka. Coordinates approximate. Map 1 uses
 schematic regions and needs no exact coordinates beyond the places above.
 
-## Sources to choose (licences to record; most are in copyright or recent)
+## Sources to choose (licenses to record; most are in copyright or recent)
 
 | Source | Candidate edition | Used for |
 | --- | --- | --- |
 | Pew Research Center, *Global Christianity* reports (latest edition, to check) | Free to read; cite and link, do not reproduce | Membership by region |
-| World Christian Database or the *Operation World* volumes (to check) | Subscription or print; check licence | Membership and growth |
+| World Christian Database or the *Operation World* volumes (to check) | Subscription or print; check license | Membership and growth |
 | Open Doors, *World Watch List* (latest edition, to check) | Free report; cite and link | Persecution (note its method) |
 | John Jay College report on the Catholic Church in the United States (2004) | Public document, to check | Abuse |
 | Southern Baptist Convention, Guidepost report (2022, to check) | Public document, to check | Abuse |
@@ -117,14 +117,14 @@ schematic regions and needs no exact coordinates beyond the places above.
 | *Laudato Si'* (2015) | Vatican text, to check | Social teaching |
 | Ecumenical Patriarchate's tomos for Ukraine (2019) and the Russian Church's statements (2022, to check) | Public texts, to check | Ukraine |
 
-Most of these texts are in copyright or recent. The page should link to them, quote only short passages within licence, and
-say where a source cannot be read freely. Where the figures come from a single organisation, the page says so.
+Most of these texts are in copyright or recent. The page should link to them, quote only short passages within license, and
+say where a source cannot be read freely. Where the figures come from a single organization, the page says so.
 
 ## Modern books (to choose; owner needs library copies)
 
 - Philip Jenkins, *The Next Christendom* (2002, revised editions). Global Christianity.
-- Hugh McLeod, *The Secularisation of Western Europe, 1848 to 1914* (2000) is for the earlier period; for this one, choose a
-  study of secularisation since 1960 (candidates to check).
+- Hugh McLeod, *The Secularization of Western Europe, 1848 to 1914* (2000) is for the earlier period; for this one, choose a
+  study of secularization since 1960 (candidates to check).
 - Mark Noll, *The Old Religion in a New World* or a study of American evangelicalism since 1980 (candidates to check).
 - A study of the abuse crisis by a scholar of church history (candidates to check, for example on the Catholic Church in the
   United States).
@@ -135,7 +135,7 @@ section. All titles and years are from memory and must be verified.
 
 ## Process and site work
 
-Same as the earlier eras: choose editions and record licences first; check each citation as written with `scripts/cite.py`;
+Same as the earlier eras: choose editions and record licenses first; check each citation as written with `scripts/cite.py`;
 keep the ledger as we go (`docs/REVIEW-the-church-today.md`); set `reviewStatus` from the first commit, and record the
 date each figure was checked. This era needs the most careful source work of all, because its figures change and many of its
 sources are recent or in copyright. Because it is the last era, the `endYear` and the "as of" date should be checked at
@@ -144,14 +144,14 @@ each revision.
 ## Images (free images only)
 
 Few images of the period are clearly free, and photographs of recent events are almost always in copyright. Plan one or two
-images only where the licence is clear, such as a map or a public-domain photograph released before 1929 (not expected for
-this era), or an image released under a free licence from Wikimedia Commons (for example, an open-licence photograph of a
+images only where the license is clear, such as a map or a public-domain photograph released before 1929 (not expected for
+this era), or an image released under a free license from Wikimedia Commons (for example, an open-license photograph of a
 modern church building). If none is clear, the page has no images and says so. Record each in `docs/IMAGES.md`.
 
 ## Order of work
 
 1. Confirm the boundary (1989 start, present end) and the form (a fifteenth era, not a closing essay).
-2. Choose editions and record licences for the sources above, starting with the free public reports (Pew, Open Doors) and
+2. Choose editions and record licenses for the sources above, starting with the free public reports (Pew, Open Doors) and
    the public documents (the John Jay report, the Lambeth and Synod texts).
 3. Date every figure and record the date it was checked.
 4. Draft the page, with the three maps and the figures.

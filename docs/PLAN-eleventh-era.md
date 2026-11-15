@@ -22,10 +22,10 @@ liberal churches and the missions.
 1. **Start: AD 1648** (Peace of Westphalia), following the Reformation era.
 2. **End: AD 1789** (the French Revolution). **Decided:** the twelfth era begins there. The alternatives, 1773 (suppression
    of the Jesuits) and 1790 (the Civil Constitution of the Clergy), were not chosen.
-3. **Length: 141 years.** Comparable to the Reformation era, and so the page should be organised by theme, as that plan is.
+3. **Length: 141 years.** Comparable to the Reformation era, and so the page should be organized by theme, as that plan is.
 4. **East is in scope in a limited way**: Peter the Great and the Russian Orthodox Church (the patriarchate abolished in
    1721), the Ottoman frontier receding, and the Orthodox response to Western thought. A few rows only.
-5. **Organised by theme, not by strict chronology**: confessional renewal, pietism and revival, Enlightenment critique,
+5. **Organized by theme, not by strict chronology**: confessional renewal, pietism and revival, Enlightenment critique,
    and the state's power over the church.
 
 ## Structure of the page
@@ -81,7 +81,7 @@ Places to add to `scripts/maps/maps.config.json`: Halle, Herrnhut, Paris, Versai
 present), Geneva (already in the Reformation plan), London (check whether already present), Boston (New England), Savannah
 (Georgia). The Atlantic places are outside the current relief crop, so map 2 may need its own crop. Coordinates approximate.
 
-## Sources to choose (expected public domain; licences to record)
+## Sources to choose (expected public domain; licenses to record)
 
 | Source | Candidate edition | Used for |
 | --- | --- | --- |
@@ -105,7 +105,7 @@ Recommendation: Chadwick and Israel as the framework. All titles and years are f
 
 ## Process and site work
 
-Same as the earlier eras: choose editions and record licences first; check each citation as written with `scripts/cite.py`;
+Same as the earlier eras: choose editions and record licenses first; check each citation as written with `scripts/cite.py`;
 keep the ledger as we go (`docs/REVIEW-reason-and-revival.md`); set `reviewStatus` from the first commit.
 
 Site: the era is 141 years. The homepage timeline will show it after the Reformation era. Maps and images need to be checked
@@ -114,13 +114,13 @@ at phone width, since the page is long.
 ## Images (period art, CC0 or public domain only)
 
 Plan two or three images from the Met and Wikimedia Commons: a Pietist or Baroque devotional print, an eighteenth-century
-Russian or Orthodox icon, and a revolutionary-era print of a church or clergy (only if the licence is clear). Avoid works
+Russian or Orthodox icon, and a revolutionary-era print of a church or clergy (only if the license is clear). Avoid works
 whose copyright still runs, as before. Record each in `docs/IMAGES.md`.
 
 ## Order of work
 
 1. Owner confirms the boundaries (1648 and 1789) and the length.
-2. Choose editions and record licences; add the sources to `SOURCES.md`.
+2. Choose editions and record licenses; add the sources to `SOURCES.md`.
 3. Draft the page with the ledger, checking citations as written.
 4. Add the maps and images; build; check the homepage, the on-page navigation and search.
 5. Open the PR; create the scholarly-claims and specialist-read issues.
