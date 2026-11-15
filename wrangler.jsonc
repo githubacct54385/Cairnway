@@ -15,9 +15,11 @@
   },
   "vars": {
     // Where reports become issues.
-    "GITHUB_REPO": "githubacct54385/ancient-paths"
+    "GITHUB_REPO": "githubacct54385/Cairnway"
   },
-  // Holds only the per-IP hourly report counter. (It is the namespace that used to hold reporters' contacts; those
+  // Short-burst limit per connection for POST /api/report (atomic, unlike a KV counter). Per-IP allowance: 5 per minute.
+  "ratelimits": [{ "name": "IP_LIMITER", "namespace_id": "1001", "simple": { "limit": 5, "period": 60 } }],
+  // Holds only the approximate global daily report counter. (It is the namespace that used to hold reporters' contacts; those
   // records are no longer written or read.)
   "kv_namespaces": [{ "binding": "RATE_LIMIT", "id": "60b2e0e2066146ba81b6cee7002d8592" }],
   // The live site at cairnway.<subdomain>.workers.dev.

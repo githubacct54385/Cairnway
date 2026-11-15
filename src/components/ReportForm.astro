@@ -120,6 +120,7 @@ const fallback = githubReportUrl(section, '', `${cfg.base}/`);
     w.__onTurnstile = () => {
       widgetId = w.turnstile.render('#turnstile', {
         sitekey: form.dataset.sitekey,
+        action: 'report',
         callback: (t: string) => (token = t),
         'expired-callback': () => (token = ''),
       });
@@ -148,7 +149,12 @@ const fallback = githubReportUrl(section, '', `${cfg.base}/`);
         });
         const out = await res.json().catch(() => ({}));
         if (res.ok && out.ok) {
-          form.innerHTML = `<p class="notice"><strong>Thank you.</strong> Your report was received (reference ${out.reference}). We will reply using the contact you gave.</p>`;
+          const notice = document.createElement('p');
+          notice.className = 'notice';
+          const thanks = document.createElement('strong');
+          thanks.textContent = 'Thank you.';
+          notice.append(thanks, ` Your report was received (reference ${out.reference}). We will reply using the contact you gave.`);
+          form.replaceChildren(notice);
           return;
         }
         status.textContent = out.message ?? 'Something went wrong. Please try again.';
