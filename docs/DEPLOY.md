@@ -61,7 +61,7 @@ The Worker's name sets its `workers.dev` address, so the rename created a new Wo
 1. Build and deploy the new Worker once from your computer, so it exists: `npm run build && npx wrangler deploy`. The KV
    namespace is bound by id in `wrangler.jsonc`, so the stored contacts carry over.
 2. Set every secret on the new Worker (they belong to a Worker, not the account): `TURNSTILE_SECRET`, `GITHUB_TOKEN`,
-   `ADMIN_PASSCODE`, `RESEND_API_KEY`, `NOTIFY_EMAIL`, each with `npx wrangler secret put NAME`.
+   `RESEND_API_KEY`, `NOTIFY_EMAIL`, each with `npx wrangler secret put NAME`.
 3. In Turnstile, add the new hostnames to the widget: `cairnway.<subdomain>.workers.dev` and
    `staging-cairnway.<subdomain>.workers.dev`.
 4. Merge the pull request that renames it in the repository. From then on the pipeline uploads to `cairnway`.
@@ -75,7 +75,7 @@ The Worker has one endpoint, `POST /api/report` (`worker/index.ts`). The forms a
 `/history/report/` (one shared component, `src/components/ReportForm.astro`) send reports there, and the Worker opens a
 GitHub issue labeled `from-form` plus `crossroads` or `content`, depending on the section. What each section asks lives
 in `src/lib/report.ts`. The reporter's email or GitHub
-username is **not** put in the public issue: it is stored in the `REPORT_CONTACTS` KV namespace under `issue:<number>`.
+username is **not** put in the public issue: it is emailed to the maintainer (see below) and **not stored anywhere**.
 Until the steps below are done the report page shows a link to the GitHub issue form instead.
 
 One-time setup:
@@ -98,32 +98,27 @@ One-time setup:
    Secrets set this way apply to the Worker for every version. Rotate the token before it expires.
 3. **KV namespace.** Created automatically by the first deploy (`kv_namespaces` in `wrangler.jsonc`).
 
-### Private reports page and email notification
+### Email notification
 
-Two more secrets make it easy to see who sent each report. Both are optional: without them the form still works.
+There is no admin page and no stored list of reporters. Each report emails the maintainer the issue link and the
+reporter's contact, so the email is the only record of who to reply to. If the email fails, the report still becomes an
+issue, the failure is logged with the issue number, and the contact is lost. For that reason the form refuses reports
+(`not-configured`) unless both secrets below are set.
 
-- **`/admin/` (reports page).** Lists every report with its issue link, kind, page, environment and the reporter's contact.
-  Set a long random passcode: `npx wrangler versions secret put ADMIN_PASSCODE`. Without it `/admin/` answers "Not found".
-  The page asks GitHub (with the same token) whether each report's issue is open or closed and shows open ones by default, with
-  Closed and All tabs; if GitHub cannot be reached it lists everything. Sign-in lasts 12 hours and is limited to 10 tries per 15 minutes per connection. This is a stop-gap: once the site has a
-  domain, put `/admin/` behind Cloudflare Access (so invited reviewers can use it) and remove the passcode.
-- **Email notification (Resend).** Each report emails you the issue link and the reporter's contact. If they gave an email,
-  Reply-To is their address, so you can answer from your mail app. Create a free Resend account, create an API key, then set
-  `npx wrangler versions secret put RESEND_API_KEY` and `npx wrangler versions secret put NOTIFY_EMAIL` (the address of your
-  Resend account: until a domain is verified, Resend only delivers mail sent from `onboarding@resend.dev` to that address).
-  Resend sees each reporter's contact, so mention it in the privacy note (the form already does). When the site has a
-  domain, switch to Cloudflare's own email sending.
+- **Email notification (Resend).** If they gave an email, Reply-To is their address, so you can answer from your mail app.
+  Create a free Resend account, create an API key, then set `npx wrangler versions secret put RESEND_API_KEY` and
+  `npx wrangler versions secret put NOTIFY_EMAIL` (the address of your Resend account: until a domain is verified, Resend
+  only delivers mail sent from `onboarding@resend.dev` to that address). Resend sees each reporter's contact, so the form's
+  privacy note says so. When the site has a domain, switch to Cloudflare's own email sending.
 
 After setting secrets with `versions secret put`, start a new staging deploy (Actions, Deploy, Run workflow) so the newest
 upload carries all of them.
 
-Reading a reporter's contact (the issue number is on the GitHub issue):
+The `RATE_LIMIT` KV namespace only holds the per-connection hourly counter. Old `issue:<number>` records from before the
+admin page was removed may still be in it; delete them once you no longer need them (`npx wrangler kv key list --binding
+RATE_LIMIT --prefix issue: --remote`, then `kv key delete`).
 
-```sh
-npx wrangler kv key get --binding REPORT_CONTACTS "issue:123" --remote
-```
-
-Local testing: put `TURNSTILE_SECRET` and `GITHUB_TOKEN` in a `.dev.vars` file (ignored by git) and run
+Local testing: put `TURNSTILE_SECRET`, `GITHUB_TOKEN`, `RESEND_API_KEY` and `NOTIFY_EMAIL` in a `.dev.vars` file (ignored by git) and run
 `npm run build && npx wrangler dev`. Cloudflare publishes Turnstile test keys that always pass: site key
 `1x00000000000000000000AA`, secret `1x0000000000000000000000000000000AA`. A dummy GitHub token makes the final step
 fail with "We could not save your report", which still proves the rest of the path.

@@ -41,7 +41,7 @@ The site also has a search page, a page listing every source and its license, an
 - [GSAP](https://gsap.com) with ScrollTrigger for the scroll animation (it respects reduced-motion settings)
 - [Pagefind](https://pagefind.app) for search, built from the generated pages
 - Content as Markdown files in `src/content/eras/`, validated by a schema in `src/content.config.ts`
-- A [Cloudflare Worker](https://developers.cloudflare.com/workers/) in `worker/` for the report form and admin tasks,
+- A [Cloudflare Worker](https://developers.cloudflare.com/workers/) in `worker/` for the report form,
   protected by Cloudflare Turnstile
 
 ## Run it locally
@@ -63,7 +63,7 @@ src/pages/          home, history and crossroads pages, search, sources and perm
 src/layouts/        shared page layout
 src/scripts/        scroll animation
 src/config.ts       site names, descriptions and the prelaunch flag
-worker/             Cloudflare Worker: report form and admin
+worker/             Cloudflare Worker: report form
 scripts/cite.py     prints a cited passage from downloaded source texts, for checking citations
 SOURCES.md          log of every source and its license
 docs/               deployment, launch and review notes
