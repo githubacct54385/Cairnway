@@ -1,6 +1,6 @@
 ---
 title: "From Charlemagne to the Great Schism"
-summary: "AD 787 to 1054: the Franks reject the Council of Nicaea's decree on images, a Frankish king is made emperor in Rome, the Carolingian empire splits, the East and West argue over images and the papacy, monks reform the church from Cluny, and in 1054 the two churches excommunicate each other."
+summary: "The Franks reject the Council of Nicaea's decree on images, a Frankish king is made emperor in Rome, the Carolingian empire splits, the East and West argue over images and the papacy, monks reform the church from Cluny, and in 1054 the two churches excommunicate each other."
 dateRange: "AD 787 to AD 1054"
 order: 6
 startYear: 787

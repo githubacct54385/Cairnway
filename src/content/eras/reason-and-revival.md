@@ -1,6 +1,6 @@
 ---
 title: "Reason and Revival"
-summary: "AD 1648 to 1789: after the Thirty Years' War, Catholics and Protestants live with the settlement of Westphalia. Jansenists and Jesuits fight over grace, pietists and Methodists seek a warmer faith, Enlightenment thinkers question revelation, rulers take control of the church, and the French Revolution takes its lands."
+summary: "After the Thirty Years' War, Catholics and Protestants live with the settlement of Westphalia. Jansenists and Jesuits fight over grace, pietists and Methodists seek a warmer faith, Enlightenment thinkers question revelation, rulers take control of the church, and the French Revolution takes its lands."
 dateRange: "AD 1648 to AD 1789"
 order: 11
 startYear: 1648

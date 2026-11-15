@@ -1,6 +1,6 @@
 ---
 title: "Reform and Crusade"
-summary: "AD 1054 to 1215: the Western church reforms the papacy and the clergy, crusaders take Jerusalem and then Constantinople, friars and canon lawyers reshape church life, and the Fourth Lateran Council of 1215 sets the church's teaching for the centuries that follow."
+summary: "The Western church reforms the papacy and the clergy, crusaders take Jerusalem and then Constantinople, friars and canon lawyers reshape church life, and the Fourth Lateran Council of 1215 sets the church's teaching for the centuries that follow."
 dateRange: "AD 1054 to AD 1215"
 order: 7
 startYear: 1054

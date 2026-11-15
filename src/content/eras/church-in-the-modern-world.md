@@ -1,6 +1,6 @@
 ---
 title: "The Church in the Modern World"
-summary: "AD 1870 to 1945: Leo XIII answers the social question, modernism is condemned, missions spread across the world, the First World War and the Armenian genocide shake the East, the Russian Revolution brings persecution, and the churches of Germany, Italy and Spain face fascist regimes until the war ends."
+summary: "Leo XIII answers the social question, modernism is condemned, missions spread across the world, the First World War and the Armenian genocide shake the East, the Russian Revolution brings persecution, and the churches of Germany, Italy and Spain face fascist regimes until the war ends."
 dateRange: "AD 1870 to AD 1945"
 order: 13
 startYear: 1870

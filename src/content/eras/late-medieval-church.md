@@ -1,6 +1,6 @@
 ---
 title: "The Late Medieval Church"
-summary: "AD 1417 to 1517: the councils of Constance and Basel test the papacy, the Hussite wars and the Council of Florence strain the church's unity, Constantinople falls to the Ottomans, the Renaissance popes rebuild Rome, and the reformers who called for change prepare the ground for Luther."
+summary: "The councils of Constance and Basel test the papacy, the Hussite wars and the Council of Florence strain the church's unity, Constantinople falls to the Ottomans, the Renaissance popes rebuild Rome, and the reformers who called for change prepare the ground for Luther."
 dateRange: "AD 1417 to AD 1517"
 order: 9
 startYear: 1417
