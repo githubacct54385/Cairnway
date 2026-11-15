@@ -6,7 +6,7 @@ export interface KV {
 export interface Env {
   ASSETS: { fetch(request: Request): Promise<Response> };
   /** owner/name of the repository that receives the issues. Set in wrangler.jsonc. */
-  GITHUB_REPO: string;
+  GITHUB_REPO?: string;
   /** Secrets. If GITHUB_TOKEN or TURNSTILE_SECRET is missing the endpoint refuses reports instead of failing halfway. */
   GITHUB_TOKEN?: string;
   TURNSTILE_SECRET?: string;

@@ -1,11 +1,13 @@
 # Deploying to Cloudflare
 
-The site is plain static files, served by a Cloudflare Worker called `cairnway` (see `wrangler.jsonc`).
+The site is plain static files, served by a Cloudflare Worker called `cairnway` (see `wrangler.jsonc`). Staging is a
+**separate Worker**, `cairnway-staging` (see `wrangler.staging.jsonc`), so it has its own secrets and no access to
+production's secrets or data.
 
-| Address | What it shows |
-| --- | --- |
-| https://cairnway.lifetrackerappweb.workers.dev/ | **Production**: the live site |
-| https://staging-cairnway.lifetrackerappweb.workers.dev/ | **Staging**: the newest change merged to `main`, waiting for approval |
+| Address | Worker | What it shows |
+| --- | --- | --- |
+| https://cairnway.lifetrackerappweb.workers.dev/ | `cairnway` | **Production**: the live site |
+| https://cairnway-staging.lifetrackerappweb.workers.dev/ | `cairnway-staging` | **Staging**: the newest change merged to `main`, waiting for approval |
 
 ## How changes flow
 
@@ -13,19 +15,17 @@ The site is plain static files, served by a Cloudflare Worker called `cairnway` 
    merges.
 2. GitHub Actions builds the site (`ci.yml`). If it passes and the pull request is not a draft, it is squash-merged
    automatically. Marking a draft "Ready for review" runs the build again and merges it.
-3. The `Deploy` workflow (`deploy.yml`) builds `main` and uploads it to Cloudflare as a new version, tagged with its
-   commit. That version appears at the **staging** address. It is not live yet.
+3. The `Deploy` workflow (`deploy.yml`) builds `main` once, saves the built site as a workflow artifact, and deploys it to
+   the staging Worker. It is not live yet.
 4. Open the staging address and check the change. Links to it: the **View deployment** button on the `Deploy` run's
-   page, the **Deployments** list on the repository's home page (under "staging"), or the run's summary. In the
-   Cloudflare dashboard, each uploaded version is listed under the Worker's **Deployments** tab with its own preview
-   link, but the staging address itself is always the one above.
+   page, the **Deployments** list on the repository's home page (under "staging"), or the run's summary.
 5. To publish it, open the `Deploy` run in the repository's Actions tab, click **Review deployments**, tick
-   **production** and click **Approve and deploy**. GitHub also notifies the reviewer when a run is waiting. The exact
-   version you checked on staging becomes the live site; nothing is rebuilt.
+   **production** and click **Approve and deploy**. GitHub also notifies the reviewer when a run is waiting. The same
+   built files you checked on staging (the saved artifact) are deployed to the live Worker; the site is not rebuilt.
 
 If several changes merge before you approve, GitHub queues their runs: the newest waits behind the oldest. Approving a
 run whose commit is no longer the newest on `main` deploys nothing and reports "superseded"; then approve the newest
-run, which shows what staging shows. To undo a release, open the Worker's **Deployments** tab in the Cloudflare
+run, which shows what staging shows. To undo a release, open the `cairnway` Worker's **Deployments** tab in the Cloudflare
 dashboard and roll back to an earlier version.
 
 ## One-time setup
@@ -46,9 +46,15 @@ These steps need your own accounts, so they are done by hand.
    gh secret set CLOUDFLARE_ACCOUNT_ID
    ```
 
-5. **Optional: keep staging private.** In the Worker's settings, turn on Cloudflare Access for preview URLs. Then only
-   people you allow can open the staging address. Do this before launch: staging and production serve the same files,
-   so once the site is public, staging is not marked "noindex".
+5. **Staging Worker** (once). The first run of `Deploy` after this change creates `cairnway-staging`. It deliberately has
+   **no secrets**, so the report form is switched off there (it answers "not switched on") and nothing on staging can
+   reach GitHub, email or production data. Test the form locally instead (see "Local testing" below). Keep staging
+   private: Workers & Pages, `cairnway-staging`, Settings, Domains & Routes, enable Cloudflare Access for the workers.dev
+   address and allow only your Google account. Do this before launch: staging and production serve the same files, so
+   once the site is public, staging is not marked "noindex". Never set secrets on the staging Worker.
+6. **Token scope.** `CLOUDFLARE_API_TOKEN` must be able to deploy both `cairnway` and `cairnway-staging`. Cloudflare scopes
+   Worker permissions to an account, not to one Worker, so a token limited to Workers on this account can still edit any
+   other Worker there (for example Life Tracker). To close that gap, move Cairnway to its own Cloudflare account.
 
 The GitHub `production` environment, with its approval rule (reviewer: the repository owner; branch: `main` only), is
 set up in the repository settings, under Settings, then Environments.
@@ -59,7 +65,7 @@ The Worker's name sets its `workers.dev` address, so the rename created a new Wo
 (the pull request that renames it is a draft so it cannot merge, and break the pipeline, before step 3; keep this list for the next rename):
 
 1. Build and deploy the new Worker once from your computer, so it exists: `npm run build && npx wrangler deploy`. The KV
-   namespace is bound by id in `wrangler.jsonc`, so the stored contacts carry over.
+   namespace is bound by id in `wrangler.jsonc`.
 2. Set every secret on the new Worker (they belong to a Worker, not the account): `TURNSTILE_SECRET`, `GITHUB_TOKEN`,
    `RESEND_API_KEY`, `NOTIFY_EMAIL`, each with `npx wrangler secret put NAME`.
 3. In Turnstile, add the new hostnames to the widget: `cairnway.<subdomain>.workers.dev` and
@@ -123,9 +129,9 @@ Local testing: put `TURNSTILE_SECRET`, `GITHUB_TOKEN`, `RESEND_API_KEY` and `NOT
 `1x00000000000000000000AA`, secret `1x0000000000000000000000000000000AA`. A dummy GitHub token makes the final step
 fail with "We could not save your report", which still proves the rest of the path.
 
-Reports sent from a preview address (`staging-…` or a per-version `1a2b3c4d-…` address on `workers.dev`) get an extra `staging` label, a `[staging]` title prefix and an "Environment: staging" line. Create the label once (`gh label create staging`). The live address and any custom domain get no mark.
+The staging Worker has no secrets, so it files no reports. If a report is ever sent from a preview address (`staging-…` or a per-version `1a2b3c4d-…`), it gets an extra `staging` label, a `[staging]` title prefix and an "Environment: staging" line (create the label once with `gh label create staging`). The live address and any custom domain get no mark.
 
-Limits: 20 filed reports per connection per hour (100 on staging addresses; failed or rejected attempts do not count), details up to 4,000 characters.
+Limits: 5 reports per minute per connection and 200 per day for the whole site (1,000 on staging; failed or rejected attempts do not count), details up to 4,000 characters.
 
 ## The site address
 

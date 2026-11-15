@@ -1,0 +1,17 @@
+// The staging copy of the site: a separate Worker, "cairnway-staging", at cairnway-staging.<subdomain>.workers.dev.
+// Every merge to main is deployed here first (.github/workflows/deploy.yml); production gets the same built files only
+// after approval. It is a different Worker from "cairnway" and has NO secrets and no KV namespace, so the report form
+// is switched off here (POST /api/report answers "not switched on") and nothing on staging can reach GitHub, email or
+// production data. Test the report form locally with `npx wrangler dev` (docs/DEPLOY.md).
+{
+  "name": "cairnway-staging",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/*"]
+  },
+  "workers_dev": true,
+  "preview_urls": false
+}

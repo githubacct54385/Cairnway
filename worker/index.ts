@@ -66,11 +66,12 @@ function validate(input: Record<string, unknown>): Clean | string {
 }
 
 /**
- * Reports sent from a preview address (staging-<worker>.<subdomain>.workers.dev, or a per-version preview such as
+ * Reports sent from a preview address (the cairnway-staging Worker, staging-<worker>.<subdomain>.workers.dev, or a per-version preview such as
  * 1a2b3c4d-<worker>...) are marked "staging" so they are easy to tell from real ones. Any other address, including the
  * live site and a future custom domain, gets no mark, so a new domain can never be mislabeled by accident.
  */
-const isPreviewHost = (hostname: string) => /^(staging|[0-9a-f]{8})-[a-z0-9-]+\.[^.]+\.workers\.dev$/.test(hostname);
+const isPreviewHost = (hostname: string) =>
+  /^(cairnway-staging|(staging|[0-9a-f]{8})-[a-z0-9-]+)\.[^.]+\.workers\.dev$/.test(hostname);
 
 async function verifyTurnstile(secret: string, token: string, ip: string, hostname: string) {
   const body = new FormData();
@@ -102,7 +103,7 @@ async function countReport(kv: KV | undefined) {
 
 async function handleReport(request: Request, env: Env, ctx: { waitUntil(p: Promise<unknown>): void }): Promise<Response> {
   // The reporter's contact exists only in the notification email, so the form stays off unless that email can be sent.
-  if (!env.GITHUB_TOKEN || !env.TURNSTILE_SECRET || !env.RESEND_API_KEY || !env.NOTIFY_EMAIL) {
+  if (!env.GITHUB_TOKEN || !env.GITHUB_REPO || !env.TURNSTILE_SECRET || !env.RESEND_API_KEY || !env.NOTIFY_EMAIL) {
     return json({ ok: false, error: 'not-configured', message: 'The report form is not switched on yet.' }, 503);
   }
 
