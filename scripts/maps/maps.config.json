@@ -2571,8 +2571,9 @@
     },
     {
       "id": "church-around-400",
+      "credit": "Place positions checked against the Pleiades gazetteer of ancient places (pleiades.stoa.org), licensed CC BY 3.0. Base map made with Natural Earth (public domain).",
       "title": "The church around AD 400",
-      "intro": "The main churches and cities of the empire around the time of the councils of the fourth century. Boundaries are simplified.",
+      "intro": "Cities of the Roman Empire around AD 400, among them Nicaea and Constantinople, where councils met. No borders are drawn.",
       "bbox": [
         -10,
         30,
