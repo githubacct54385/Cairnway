@@ -4,7 +4,7 @@ import { CROSSROADS } from '../config';
 
 export type Section = 'crossroads' | 'history';
 
-export const REPO_URL = 'https://github.com/githubacct54385/ancient-paths';
+export const REPO_URL = 'https://github.com/githubacct54385/Cairnway';
 
 export const REPORT_SECTIONS: Record<
   Section,

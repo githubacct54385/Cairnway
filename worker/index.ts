@@ -9,10 +9,14 @@ import type { ContactRecord, Env, KV } from './types';
 export type { Env } from './types';
 
 const LIMITS = { details: 4000, contact: 200, page: 200, about: 200, source: 1000 };
-// Reports allowed per connection per clock hour. Only reports that were actually filed count, so a typo, a failed spam
-// check or a GitHub outage never uses one up. Preview (staging) addresses get a much higher allowance for testing.
-const PER_IP_PER_HOUR = 20;
-const PER_IP_PER_HOUR_PREVIEW = 100;
+// Global cap on reports filed per UTC day. Only reports that were actually filed count, so a typo, a failed spam check or
+// a GitHub outage never uses one up. It is approximate (KV is not atomic), which is fine for a safety valve. Preview
+// (staging) addresses get a much higher allowance for testing. The per-connection burst limit is the IP_LIMITER binding.
+const PER_DAY = 200;
+const PER_DAY_PREVIEW = 1000;
+const TURNSTILE_ACTION = 'report';
+// A path: no spaces, newlines or markdown, so it cannot carry links or formatting into the issue.
+const PAGE_PATTERN = /^\/[A-Za-z0-9/_.\-]*$/;
 
 const json = (body: unknown, status = 200) =>
   new Response(JSON.stringify(body), {
@@ -20,8 +24,18 @@ const json = (body: unknown, status = 200) =>
     headers: { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-store' },
   });
 
-/** Stops "@name" in a report from pinging real GitHub users. */
-const defuse = (text: string) => text.replace(/@(?=[A-Za-z0-9])/g, '@​');
+/**
+ * Puts reporter text in a fenced code block. Inside one, GitHub does not render links, #123 references, @mentions or
+ * markdown, and the text cannot close the block or fake a footer (the fence is longer than any run of backticks in it).
+ */
+function fence(text: string) {
+  const longest = Math.max(0, ...(text.match(/`+/g) ?? []).map((r) => r.length));
+  const bar = '`'.repeat(Math.max(3, longest + 1));
+  return `${bar}text\n${text}\n${bar}`;
+}
+
+/** One line of reporter text as inline code (no backticks, no line breaks). */
+const inlineCode = (text: string) => `\`${text.replace(/[`\r\n]+/g, ' ').trim()}\``;
 
 const isEmail = (v: string) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v);
 const isHandle = (v: string) => /^@?[A-Za-z0-9](?:[A-Za-z0-9-]{0,38})$/.test(v);
@@ -39,7 +53,7 @@ function validate(input: Record<string, unknown>): Clean | string {
   const source = cfg.asksSource ? str('source') : '';
   const contact = str('contact');
 
-  if (!page.startsWith('/') || page.length > LIMITS.page) return `The page is missing. Please open the form from a ${cfg.name} page.`;
+  if (!PAGE_PATTERN.test(page) || page.length > LIMITS.page) return `The page is missing. Please open the form from a ${cfg.name} page.`;
   if (about.length > LIMITS.about) return 'The page name is too long.';
   if (!cfg.kinds.includes(kind)) return 'Please choose what kind of problem it is.';
   if (details.length < 10) return 'Please say what is wrong (at least a sentence).';
@@ -58,37 +72,44 @@ function validate(input: Record<string, unknown>): Clean | string {
  */
 const isPreviewHost = (hostname: string) => /^(staging|[0-9a-f]{8})-[a-z0-9-]+\.[^.]+\.workers\.dev$/.test(hostname);
 
-async function verifyTurnstile(secret: string, token: string, ip: string) {
+async function verifyTurnstile(secret: string, token: string, ip: string, hostname: string) {
   const body = new FormData();
   body.set('secret', secret);
   body.set('response', token);
   if (ip) body.set('remoteip', ip);
   const res = await fetch('https://challenges.cloudflare.com/turnstile/v0/siteverify', { method: 'POST', body });
   if (!res.ok) return false;
-  const out = (await res.json()) as { success?: boolean };
-  return out.success === true;
+  const out = (await res.json()) as { success?: boolean; hostname?: string; action?: string };
+  // The token must have been issued for this site and for this form, not replayed from another site's widget.
+  return out.success === true && out.hostname === hostname && out.action === TURNSTILE_ACTION;
 }
 
-const hourKey = (ip: string) => `rl:${ip}:${new Date().toISOString().slice(0, 13)}`;
+const dayKey = () => `rl:day:${new Date().toISOString().slice(0, 10)}`;
 
-/** Has this connection already filed its allowance this hour? Not exact (KV is eventually consistent), but enough to stop floods. */
-async function overLimit(kv: KV | undefined, ip: string, limit: number) {
-  if (!kv || !ip) return false;
-  return Number((await kv.get(hourKey(ip))) ?? '0') >= limit;
+/** Has the site already filed its allowance of reports today? */
+async function overDailyCap(kv: KV | undefined, limit: number) {
+  if (!kv) return false;
+  return Number((await kv.get(dayKey())) ?? '0') >= limit;
 }
 
-/** Counts one filed report against this connection's hour. */
-async function countReport(kv: KV | undefined, ip: string) {
-  if (!kv || !ip) return;
-  const key = hourKey(ip);
+/** Counts one filed report against today's total. */
+async function countReport(kv: KV | undefined) {
+  if (!kv) return;
+  const key = dayKey();
   const n = Number((await kv.get(key)) ?? '0');
-  await kv.put(key, String(n + 1), { expirationTtl: 3700 });
+  await kv.put(key, String(n + 1), { expirationTtl: 90000 });
 }
 
 async function handleReport(request: Request, env: Env, ctx: { waitUntil(p: Promise<unknown>): void }): Promise<Response> {
   // The reporter's contact exists only in the notification email, so the form stays off unless that email can be sent.
   if (!env.GITHUB_TOKEN || !env.TURNSTILE_SECRET || !env.RESEND_API_KEY || !env.NOTIFY_EMAIL) {
     return json({ ok: false, error: 'not-configured', message: 'The report form is not switched on yet.' }, 503);
+  }
+
+  // Browsers always send Origin on a cross-site or same-site POST; require it to be this site.
+  const url = new URL(request.url);
+  if (request.headers.get('origin') !== url.origin) {
+    return json({ ok: false, error: 'origin', message: 'This report did not come from the site.' }, 403);
   }
 
   let input: Record<string, unknown>;
@@ -108,29 +129,32 @@ async function handleReport(request: Request, env: Env, ctx: { waitUntil(p: Prom
 
   const ip = request.headers.get('cf-connecting-ip') ?? '';
   const token = typeof input.turnstile === 'string' ? input.turnstile : '';
-  if (!token || !(await verifyTurnstile(env.TURNSTILE_SECRET, token, ip))) {
+  if (!token || !(await verifyTurnstile(env.TURNSTILE_SECRET, token, ip, url.hostname))) {
     return json({ ok: false, error: 'challenge', message: 'The spam check did not pass. Please try again.' }, 400);
   }
 
-  const staging = isPreviewHost(new URL(request.url).hostname);
-  if (await overLimit(env.RATE_LIMIT, ip, staging ? PER_IP_PER_HOUR_PREVIEW : PER_IP_PER_HOUR)) {
-    return json({ ok: false, error: 'rate-limited', message: 'You have sent a lot of reports from this connection in the last hour. Please try again in a little while.' }, 429);
+  const staging = isPreviewHost(url.hostname);
+  if (env.IP_LIMITER && ip && !(await env.IP_LIMITER.limit({ key: ip })).success) {
+    return json({ ok: false, error: 'rate-limited', message: 'You are sending reports too quickly. Please wait a minute and try again.' }, 429);
+  }
+  if (await overDailyCap(env.RATE_LIMIT, staging ? PER_DAY_PREVIEW : PER_DAY)) {
+    return json({ ok: false, error: 'rate-limited', message: 'We have received a lot of reports today. Please try again tomorrow.' }, 429);
   }
 
   const reference = `R-${Date.now().toString(36).toUpperCase()}`;
   const body = [
     staging ? '**Environment:** staging' : '',
-    `**Page:** ${clean.page}`,
-    clean.about ? `**About:** ${defuse(clean.about)}` : '',
+    `**Page:** ${inlineCode(clean.page)}`,
+    clean.about ? `**About:** ${inlineCode(clean.about)}` : '',
     `**Kind:** ${clean.kind}`,
     '',
     '### What is wrong',
     '',
-    defuse(clean.details),
+    fence(clean.details),
     '',
     clean.source ? '### Source suggested' : '',
     '',
-    clean.source ? defuse(clean.source) : '',
+    clean.source ? fence(clean.source) : '',
     '',
     '---',
     `Reference \`${reference}\`. Submitted through the on-site form; the reporter's contact details are not stored or shown here.`,
@@ -140,6 +164,8 @@ async function handleReport(request: Request, env: Env, ctx: { waitUntil(p: Prom
 
   const res = await fetch(`https://api.github.com/repos/${env.GITHUB_REPO}/issues`, {
     method: 'POST',
+    // A redirect (for example from a renamed repository) would turn the POST into a GET and file nothing: treat it as a failure.
+    redirect: 'manual',
     headers: {
       authorization: `Bearer ${env.GITHUB_TOKEN}`,
       accept: 'application/vnd.github+json',
@@ -159,7 +185,11 @@ async function handleReport(request: Request, env: Env, ctx: { waitUntil(p: Prom
     return json({ ok: false, error: 'upstream', message: 'We could not save your report just now. Please try again later.' }, 502);
   }
 
-  const issue = (await res.json()) as { number: number };
+  const issue = (await res.json().catch(() => ({}))) as { number?: unknown };
+  if (typeof issue.number !== 'number' || !Number.isInteger(issue.number)) {
+    console.error('GitHub answered without an issue number');
+    return json({ ok: false, error: 'upstream', message: 'We could not save your report just now. Please try again later.' }, 502);
+  }
   const record: ContactRecord = {
     contact: clean.contact,
     reference,
@@ -170,7 +200,7 @@ async function handleReport(request: Request, env: Env, ctx: { waitUntil(p: Prom
     kind: clean.kind,
     about: clean.about || undefined,
   };
-  await countReport(env.RATE_LIMIT, ip);
+  await countReport(env.RATE_LIMIT);
   // Best effort: a failing mail provider must never fail a report that is already filed. The issue number is logged so
   // the report can be found on GitHub; the contact is lost if the email fails, since it is not stored anywhere.
   ctx.waitUntil(notifyMaintainer(env, issue.number, record).catch((e) => console.error(`Notification failed for issue ${issue.number}`, String(e))));
