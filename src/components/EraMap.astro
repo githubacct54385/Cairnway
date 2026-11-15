@@ -20,7 +20,8 @@ const mentioned = (name: string) =>
   corpus === undefined || new RegExp(`(?<![a-z])${plain(name).replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(?![a-z])`).test(corpus);
 const m = {
   ...base,
-  cities: base.cities.filter((c) => mentioned(c.name)),
+  // Every city stays. Ones the text names are shown in full; the rest are quieter context, shown only where there is room.
+  cities: base.cities.map((c) => ({ ...c, ctx: !mentioned(c.name) })),
   // Country and region names are left off: on a phone they crowd out the cities. Seas stay, if named.
   labels: base.labels.filter((l) => l.kind === 'sea' && mentioned(l.text)),
 };
@@ -74,7 +75,7 @@ const clipId = `land-${m.id}`;
     }
     {
       m.cities.map((c) => (
-        <span class={`map-pin side-${c.side}`} style={`left:${c.x}%;top:${c.y}%`}>
+        <span class={`map-pin side-${c.side}${c.ctx ? ' map-ctx' : ''}`} style={`left:${c.x}%;top:${c.y}%`}>
           <i class="dot" />
           <span class="name">{c.name}</span>
         </span>
@@ -148,6 +149,7 @@ const clipId = `land-${m.id}`;
     });
     frame.querySelectorAll<HTMLElement>('.map-pin').forEach((el) => {
       el.style.translate = '';
+      el.style.visibility = '';
     });
 
     const taken: Box[] = [];
@@ -187,8 +189,10 @@ const clipId = `land-${m.id}`;
     const pins = pts.map((p) => {
       if (Math.abs(p.x - p.x0) > 0.5 || Math.abs(p.y - p.y0) > 0.5) p.el.style.translate = `${p.x - p.x0}px ${p.y - p.y0}px`;
       const half = p.rad + 1;
-      taken.push({ l: p.x - half, t: p.y - half, r: p.x + half, b: p.y + half, air: AIR_DOT });
-      return { el: p.el, x: p.x, y: p.y, name: p.el.querySelector<HTMLElement>('.name')!, stop: p.el.hasAttribute('data-stop') };
+      const dot: Box = { l: p.x - half, t: p.y - half, r: p.x + half, b: p.y + half, air: AIR_DOT };
+      const ctx = p.el.classList.contains('map-ctx');
+      if (!ctx) taken.push(dot);
+      return { el: p.el, x: p.x, y: p.y, dot, ctx, name: p.el.querySelector<HTMLElement>('.name')!, stop: p.el.hasAttribute('data-stop') };
     });
 
     // Where the name's box would sit, relative to its dot, for each way of placing it.
@@ -209,7 +213,7 @@ const clipId = `land-${m.id}`;
       bottom: ['bottom', 'top', 'bottom-right', 'bottom-left', 'top-right', 'top-left', 'right', 'left'],
     };
 
-    const place = (p: (typeof pins)[number]) => {
+    const place = (p: (typeof pins)[number]): boolean => {
       const base = parseFloat(getComputedStyle(p.name).fontSize);
       const side = p.el.className.match(/side-(\w+)/)?.[1] ?? 'right';
       let best: { box: Box; ox: number; oy: number; cost: number; scale: number } | null = null;
@@ -228,6 +232,7 @@ const clipId = `land-${m.id}`;
         if (best && best.cost === 0) break;
       }
       const b = best!;
+      if (p.ctx && b.cost > 0) return false;
       p.name.style.fontSize = `${base * b.scale}px`;
       p.name.style.left = `${b.ox}px`;
       p.name.style.top = `${b.oy}px`;
@@ -236,9 +241,21 @@ const clipId = `land-${m.id}`;
       p.name.style.transform = 'none';
       p.el.classList.add('placed');
       taken.push(b.box);
+      return true;
     };
     pins.filter((p) => p.stop).forEach(place);
-    pins.filter((p) => !p.stop).forEach(place);
+    pins.filter((p) => !p.stop && !p.ctx).forEach(place);
+    // Context cities come last and give way: no free spot for the dot and name, no city.
+    pins
+      .filter((p) => p.ctx)
+      .forEach((p) => {
+        if (!taken.some((o) => hit(p.dot, o)) && place(p)) {
+          taken.push(p.dot);
+          return;
+        }
+        p.name.style.cssText = '';
+        p.el.style.visibility = 'hidden';
+      });
 
     // Region names first, then seas. Each tries its own spot, then small nudges, then hides.
     const labels = [...frame.querySelectorAll<HTMLElement>('.map-label')];
@@ -419,6 +436,16 @@ const clipId = `land-${m.id}`;
       0 0 3px var(--map-land),
       0 0 3px var(--map-land),
       0 0 2px var(--map-land);
+  }
+  .map-ctx .dot {
+    width: 0.4rem;
+    height: 0.4rem;
+    border-width: 1.5px;
+    border-color: var(--map-region);
+  }
+  .map-ctx .name {
+    font-size: clamp(0.55rem, 1.5vw, 0.78rem);
+    color: var(--map-region);
   }
   .side-right .name {
     left: 0.85rem;
