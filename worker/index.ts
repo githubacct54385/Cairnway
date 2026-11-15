@@ -1,9 +1,9 @@
 // The site's Worker. Everything is served as static files from ./dist except POST /api/report (the "report a
-// problem" forms, which become GitHub issues) and /admin/ (the private reports page, worker/admin.ts).
+// problem" forms, which become GitHub issues). There is no admin page: the reporter's contact is only emailed to the
+// maintainer and is never stored.
 // See docs/DEPLOY.md ("Report form") for the one-time setup.
 
 import { REPORT_SECTIONS, type Section } from '../src/lib/report';
-import { handleAdmin } from './admin';
 import type { ContactRecord, Env, KV } from './types';
 
 export type { Env } from './types';
@@ -86,7 +86,8 @@ async function countReport(kv: KV | undefined, ip: string) {
 }
 
 async function handleReport(request: Request, env: Env, ctx: { waitUntil(p: Promise<unknown>): void }): Promise<Response> {
-  if (!env.GITHUB_TOKEN || !env.TURNSTILE_SECRET) {
+  // The reporter's contact exists only in the notification email, so the form stays off unless that email can be sent.
+  if (!env.GITHUB_TOKEN || !env.TURNSTILE_SECRET || !env.RESEND_API_KEY || !env.NOTIFY_EMAIL) {
     return json({ ok: false, error: 'not-configured', message: 'The report form is not switched on yet.' }, 503);
   }
 
@@ -112,7 +113,7 @@ async function handleReport(request: Request, env: Env, ctx: { waitUntil(p: Prom
   }
 
   const staging = isPreviewHost(new URL(request.url).hostname);
-  if (await overLimit(env.REPORT_CONTACTS, ip, staging ? PER_IP_PER_HOUR_PREVIEW : PER_IP_PER_HOUR)) {
+  if (await overLimit(env.RATE_LIMIT, ip, staging ? PER_IP_PER_HOUR_PREVIEW : PER_IP_PER_HOUR)) {
     return json({ ok: false, error: 'rate-limited', message: 'You have sent a lot of reports from this connection in the last hour. Please try again in a little while.' }, 429);
   }
 
@@ -132,7 +133,7 @@ async function handleReport(request: Request, env: Env, ctx: { waitUntil(p: Prom
     clean.source ? defuse(clean.source) : '',
     '',
     '---',
-    `Reference \`${reference}\`. Submitted through the on-site form; the reporter's contact details are stored privately.`,
+    `Reference \`${reference}\`. Submitted through the on-site form; the reporter's contact details are not stored or shown here.`,
   ]
     .filter((l, i, a) => l !== '' || a[i - 1] !== '')
     .join('\n');
@@ -169,18 +170,18 @@ async function handleReport(request: Request, env: Env, ctx: { waitUntil(p: Prom
     kind: clean.kind,
     about: clean.about || undefined,
   };
-  if (env.REPORT_CONTACTS) await env.REPORT_CONTACTS.put(`issue:${issue.number}`, JSON.stringify(record));
-  await countReport(env.REPORT_CONTACTS, ip);
-  // Best effort: a failing mail provider must never fail a report that is already filed.
-  ctx.waitUntil(notifyMaintainer(env, issue.number, record).catch((e) => console.error('Notification failed', String(e))));
+  await countReport(env.RATE_LIMIT, ip);
+  // Best effort: a failing mail provider must never fail a report that is already filed. The issue number is logged so
+  // the report can be found on GitHub; the contact is lost if the email fails, since it is not stored anywhere.
+  ctx.waitUntil(notifyMaintainer(env, issue.number, record).catch((e) => console.error(`Notification failed for issue ${issue.number}`, String(e))));
   return json({ ok: true, reference });
 }
 
 const oneLine = (s: string) => s.replace(/[\r\n]+/g, ' ');
 
-/** Emails the maintainer the reporter's contact (which is never put in the public issue). Needs RESEND_API_KEY and NOTIFY_EMAIL. */
+/** Emails the maintainer the reporter's contact (which is never put in the public issue or stored). */
 async function notifyMaintainer(env: Env, number: number, r: ContactRecord) {
-  if (!env.RESEND_API_KEY || !env.NOTIFY_EMAIL) return;
+  if (!env.RESEND_API_KEY || !env.NOTIFY_EMAIL) throw new Error('Email is not configured');
   const cfg = REPORT_SECTIONS[r.section === 'history' ? 'history' : 'crossroads'];
   const tag = r.environment === 'staging' ? '[staging] ' : '';
   const res = await fetch('https://api.resend.com/emails', {
@@ -215,7 +216,6 @@ export default {
       if (request.method !== 'POST') return json({ ok: false, error: 'method', message: 'Use POST.' }, 405);
       return handleReport(request, env, ctx);
     }
-    if (pathname === '/admin' || pathname.startsWith('/admin/')) return handleAdmin(request, env);
     return env.ASSETS.fetch(request);
   },
 };

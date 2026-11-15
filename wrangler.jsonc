@@ -10,16 +10,16 @@
   "assets": {
     "directory": "./dist",
     "binding": "ASSETS",
-    // Only /api/* and /admin/* run the Worker; every other request is answered straight from the static files.
-    "run_worker_first": ["/api/*", "/admin/*"]
+    // Only /api/* runs the Worker; every other request is answered straight from the static files.
+    "run_worker_first": ["/api/*"]
   },
   "vars": {
     // Where reports become issues.
     "GITHUB_REPO": "githubacct54385/ancient-paths"
   },
-  // Private store for reporters' contact details and the per-IP rate limit. This is the namespace the Worker used when it
-  // was called ancient-paths, bound by its id so the stored contacts carry over to the renamed Worker.
-  "kv_namespaces": [{ "binding": "REPORT_CONTACTS", "id": "60b2e0e2066146ba81b6cee7002d8592" }],
+  // Holds only the per-IP hourly report counter. (It is the namespace that used to hold reporters' contacts; those
+  // records are no longer written or read.)
+  "kv_namespaces": [{ "binding": "RATE_LIMIT", "id": "60b2e0e2066146ba81b6cee7002d8592" }],
   // The live site at cairnway.<subdomain>.workers.dev.
   "workers_dev": true,
   // Needed for the staging address: staging-cairnway.<subdomain>.workers.dev.

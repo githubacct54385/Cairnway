@@ -1,11 +1,6 @@
 export interface KV {
   get(key: string): Promise<string | null>;
   put(key: string, value: string, options?: { expirationTtl?: number }): Promise<void>;
-  list(options?: { prefix?: string; cursor?: string; limit?: number }): Promise<{
-    keys: { name: string }[];
-    list_complete: boolean;
-    cursor?: string;
-  }>;
 }
 
 export interface Env {
@@ -15,16 +10,14 @@ export interface Env {
   /** Secrets. If GITHUB_TOKEN or TURNSTILE_SECRET is missing the endpoint refuses reports instead of failing halfway. */
   GITHUB_TOKEN?: string;
   TURNSTILE_SECRET?: string;
-  /** Private store for reporters' contact details (never put in the public issue). */
-  REPORT_CONTACTS?: KV;
-  /** Passcode for the private reports page at /admin/. If missing the page is switched off. */
-  ADMIN_PASSCODE?: string;
-  /** Email notification through Resend. Both needed; if either is missing no email is sent. */
+  /** Per-connection hourly report counter. Holds no reporter details. */
+  RATE_LIMIT?: KV;
+  /** Email notification through Resend. Both are needed: the email is the only place the reporter's contact goes. */
   RESEND_API_KEY?: string;
   NOTIFY_EMAIL?: string;
 }
 
-/** What is kept privately for each report, under the key `issue:<number>`. Older records lack kind and about. */
+/** What the notification email is built from. It is not stored anywhere. */
 export interface ContactRecord {
   contact: string;
   reference: string;
