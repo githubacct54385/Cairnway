@@ -9,6 +9,8 @@ Nothing here is done until it is ticked in the pull request that does it.
 - [ ] Performance check on a mid-range phone
 - [ ] Real domain connected; `SITE_URL` set as a GitHub repository variable, and the production URL in
       `.github/workflows/deploy.yml` updated (see `docs/DEPLOY.md`)
+- [ ] Add `Strict-Transport-Security: max-age=31536000` to `public/_headers` once the real domain serves only HTTPS, and add the
+      domain to the Turnstile widget's hostnames
 - [ ] Staging address protected with Cloudflare Access, so it is not indexed once `prelaunch` is off
 - [ ] `prelaunch` set to `false` in `src/config.ts` (removes the noindex tag)
 - [ ] `public/robots.txt` replaced with an allow-all version that points to the sitemap

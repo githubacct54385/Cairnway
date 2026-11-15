@@ -1,0 +1,9 @@
+# Security headers for every page. Served by the Worker's static assets (Cloudflare reads this file from dist/).
+# scripts/write-headers.mjs runs after the build and fills in the script-hash placeholder below with the hash of every inline script on
+# the site, so only the scripts we ship can run. Styles allow 'unsafe-inline' because the pages use style attributes.
+/*
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'wasm-unsafe-eval' https://challenges.cloudflare.com {{SCRIPT_HASHES}}; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://challenges.cloudflare.com; frame-src https://challenges.cloudflare.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; object-src 'none'
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=(), interest-cohort=()
