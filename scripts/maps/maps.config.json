@@ -2633,8 +2633,9 @@
     },
     {
       "id": "churches-about-600",
-      "title": "Churches and kingdoms about 600",
-      "intro": "The churches in the era of Gregory the Great and Justinian: Rome and Ravenna, the eastern patriarchates, Carthage, and the new English church. Boundaries are simplified.",
+      "credit": "Place positions checked against the Pleiades gazetteer of ancient places (pleiades.stoa.org), licensed CC BY 3.0. Base map made with Natural Earth (public domain).",
+      "title": "Churches and cities about 600",
+      "intro": "Churches and cities of the era of Justinian and Gregory the Great, from Canterbury to Jerusalem. No borders are drawn.",
       "bbox": [
         -12,
         30,
@@ -2680,10 +2681,6 @@
         },
         {
           "place": "Tours",
-          "side": "left"
-        },
-        {
-          "place": "Iona",
           "side": "left"
         }
       ]

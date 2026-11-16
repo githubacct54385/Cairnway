@@ -94,20 +94,30 @@ its own header. Every claim on the page was checked against these texts in the A
 | Item | Use | License | Checked |
 | --- | --- | --- | --- |
 | Natural Earth | Base geography for maps | Public domain | not yet checked |
-| [Pleiades gazetteer](https://pleiades.stoa.org/) | Place positions on the Apostolic Age, After the Apostles and Age of the Councils maps, checked against it (CHR-20); credited on each of those maps | CC BY 3.0 (credit required), as stated on its downloads page | 2026-11-12 |
+| [Pleiades gazetteer](https://pleiades.stoa.org/) | Place positions on the maps of the first four eras, checked against it (CHR-20); credited on each of those maps | CC BY 3.0 (credit required), as stated on its downloads page | 2026-11-12 |
 
 ## After Chalcedon, AD 451 to 600 (draft)
 
-Editions named here; licenses checked on 2026-11-12 for the CCEL volumes (each states "Rights: Public Domain" in its
-header). Other editions are to be chosen and their licenses recorded before any text is quoted.
+Licenses checked on 2026-11-12 for the CCEL volumes (each states "Rights: Public Domain" in its header) and on
+2026-11-16 for the Project Gutenberg texts. Every claim on the page was checked against these in the AI source check of
+November 2026 (CHR-20); see `docs/REVIEW-late-antiquity.md`.
 
 | Source | Use | License | Checked |
 | --- | --- | --- | --- |
-| Leo the Great, *Letters* and Gregory the Great, *Pastoral Rule*: [NPNF2 vol. 12](https://ccel.org/ccel/schaff/npnf212) | Leo's Tome; Pastoral Rule | Public domain (CCEL) | 2026-11-12 |
+| Leo the Great, *Letters* and Gregory the Great, *Pastoral Rule*, with the editors' introductions: [NPNF2 vol. 12](https://ccel.org/ccel/schaff/npnf212) | Leo's Tome; Leo, Attila and the Vandals; Pastoral Rule; Gregory's dates, estates, the Lombards, the English mission | Public domain (CCEL) | 2026-11-16 |
 | Gregory the Great, *Letters*: [NPNF2 vol. 13](https://ccel.org/ccel/schaff/npnf213) | The mission to the English; Augustine of Canterbury | Public domain (CCEL) | 2026-11-12 |
 | The Seven Ecumenical Councils: [NPNF2 vol. 14](https://ccel.org/ccel/schaff/npnf214) | The Second Council of Constantinople and the Three Chapters | Public domain (CCEL) | 2026-11-12 |
-| Corpus iuris civilis, Procopius, Gregory of Tours, Bede, Isidore, Boethius, Patrick, Gregory's *Dialogues* | Not yet drafted from full texts | To check | not yet checked |
-| Peter Brown, Averil Cameron, Richard Fletcher, Ian Wood | Further reading | Copyrighted; cited only | not yet checked |
+| Procopius, *History of the Wars* (Dewing; [Gutenberg 16764](https://www.gutenberg.org/ebooks/16764), [20298](https://www.gutenberg.org/ebooks/20298)) and *Of the Buildings of Justinian* (Stewart, 1888; [Gutenberg 65404](https://www.gutenberg.org/ebooks/65404)) | Justinian's reign; the Nika revolt; Augustulus and Odoacer; Hagia Sophia | Public domain in the USA (Project Gutenberg) | 2026-11-16 |
+| Justinian, *Institutes* (Moyle; [Gutenberg 5983](https://www.gutenberg.org/ebooks/5983)) | Justinian's law books | Public domain in the USA (Project Gutenberg) | 2026-11-16 |
+| Gregory of Tours, *History of the Franks* (Brehaut, 1916; [Gutenberg 74955](https://www.gutenberg.org/ebooks/74955)) | Clovis | Public domain in the USA (Project Gutenberg) | 2026-11-16 |
+| Patrick, *Confession*, in *The Most Ancient Lives of Saint Patrick* (O'Leary; [Gutenberg 18482](https://www.gutenberg.org/ebooks/18482)) | Patrick | Public domain in the USA (Project Gutenberg) | 2026-11-16 |
+| Boethius, *Consolation of Philosophy* (James; [Gutenberg 14328](https://www.gutenberg.org/ebooks/14328)) | Boethius | Public domain in the USA (Project Gutenberg) | 2026-11-16 |
+| Benedict, *Rule* (Doyle; [Gutenberg 50040](https://www.gutenberg.org/ebooks/50040)) | The Rule | Public domain in the USA (Project Gutenberg) | 2026-11-16 |
+| Bede, *Ecclesiastical History* (Sellar; [Gutenberg 38326](https://www.gutenberg.org/ebooks/38326)) | Augustine in Kent, 597; Bede finished 731 | Public domain in the USA (Project Gutenberg) | 2026-11-16 |
+| Ernest Brehaut, *An Encyclopedist of the Dark Ages: Isidore of Seville* (1912; [Gutenberg 51511](https://www.gutenberg.org/ebooks/51511)) | Isidore | Public domain in the USA (Project Gutenberg) | 2026-11-16 |
+| Metropolitan Museum of Art, [Pyx fragments, 2021.37.24a, b](https://www.metmuseum.org/art/collection/search/330095) | The figure | Public domain (Met Open Access, per the collection API) | 2026-11-16 |
+| Henry Chadwick, *The Early Church* (Penguin, 1993 printing) | The gradual end of the western empire; Benedict at Monte Cassino and the Rule's spread; the non-Chalcedonian churches; the British and Irish contribution to the English conversion (CHR-20) | Copyrighted; cited only. On the owner's checklist | 2026-11-16 |
+| Peter Brown (1971), Averil Cameron (1993), Richard Fletcher (1997), Ian Wood (1994) | Further reading | Copyrighted; cited only. Titles and years checked in Open Library | 2026-11-16 |
 
 ## Gregory to the Second Council of Nicaea, AD 600 to 787 (draft)
 
