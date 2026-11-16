@@ -1,172 +1,187 @@
 ---
 title: "From the Friars to the Council of Constance"
-summary: "The friars preach in the towns, Aquinas builds a system of theology, the papacy moves to Avignon, the Black Death kills perhaps a third of Europe, two and then three popes claim the church, and the Council of Constance burns Jan Hus and ends the schism."
+summary: "The friars preach in the towns, Aquinas builds a system of theology, the papacy moves to Avignon, the Black Death kills a large part of Europe's people, two and then three popes claim the church, and the Council of Constance burns Jan Hus and ends the schism."
 dateRange: "AD 1215 to AD 1417"
 order: 8
 startYear: 1215
 endYear: 1417
 draft: true
-reviewStatus: "Draft, written 2026-11-12 from docs/PLAN-eighth-era.md. The 1215 council's confession requirement and crusade call were checked against the canons (Fordham Internet History Sourcebook). The 1348 Florence date and the speed of death were checked in Boccaccio's Decameron introduction (Payne translation, Project Gutenberg 23700). Aquinas's Summa Theologiae was not checked: the CCEL page loads its text by script and its translation credit could not be read. Every other date, event, person and claim, including the figure of a third of Europe, is from the drafter's general knowledge and is not yet checked. No specialist has reviewed this page."
+reviewLedger: "docs/REVIEW-friars-to-constance.md"
+aiReview:
+  model: "Claude Opus 5.5 (Anthropic)"
+  month: "November 2026"
+reviewStatus: "Draft. In November 2026 Claude Opus 5.5, an AI model by Anthropic, checked every citation, quotation, date, name and figure on this page and its map against its source, and rewrote or removed what the sources did not support. Quotations and references were read against the full text of the public-domain editions named in the sources: Boccaccio's Decameron, Boniface VIII's bull Unam Sanctam, Philip Schaff's History of the Christian Church (volumes 5 and 6, a Protestant church history), the Catholic Encyclopedia of 1913 (a Catholic reference work), Thatcher and McNeal's source book and Gibbon's Decline and Fall. The histories are used for events and dates, and always named. Where they disagree, the page gives both. Aquinas's Summa and the writings of Wyclif and Hus were not read. No statement on this page rests on a modern book. No specialist has reviewed this page."
 overviewMap: "schism-and-councils"
 figures:
   - image: "/era-art/friars-to-constance/met-gothic-diptych-coronation.jpg"
     alt: "Ivory diptych leaf with the Coronation of the Virgin"
-    caption: "The right leaf of an Italian ivory diptych from the late 14th century. The Coronation of the Virgin is shown in a Gothic arcade, with angels playing instruments. Small devotional diptychs like this were used for private prayer."
-    credit: "Diptych leaf, late 14th century, Italian ivory; Metropolitan Museum of Art, Open Access (object 471981)"
+    caption: "The right leaf of an Italian ivory diptych from the late 14th century, about 10.6 by 7.8 centimetres. Christ crowns the Virgin under a Gothic arcade, surrounded by angels, some playing instruments."
+    credit: "Right Leaf of a Diptych with Coronation of the Virgin, late 14th century, Italian; Metropolitan Museum of Art, Open Access (object 471981)"
     license: "CC0"
 keyPeople:
   - name: "Dominic and Francis"
     role: "Founders of the Dominican and Franciscan friars"
-    summary: "Dominic founded the Order of Preachers, approved in 1216. Francis's followers spread across Europe after his death in 1226. Both orders preached in towns and universities. Details not yet checked."
-    source: "Not yet checked"
+    summary: "Dominic, a Spaniard born in 1170, founded the Order of Preachers, which the pope approved on 22 December 1216; he died on 6 August 1221. Francis, approved by Innocent III in 1209 or 1210, died on 3 October 1226. Schaff calls their followers the mendicant orders."
+    source: "Catholic Encyclopedia (1913), 'Order of Preachers'; Schaff, History of the Christian Church, vol. 5, §§ 68, 70 and 72"
   - name: "Thomas Aquinas"
-    role: "Dominican theologian, c. 1225 to 1274"
-    summary: "Wrote the Summa Theologiae, which was unfinished at his death. It became the main systematic theology of the Western church. Details not yet checked."
-    source: "Not yet checked (Summa, Fathers of the English Dominican Province, to be fetched)"
+    role: "Dominican theologian, 1225 to 1274"
+    summary: "Entered the Dominican order in 1243, studied under Albertus Magnus at Cologne and taught at Paris. His Summa theologica was unfinished at his death. He died on 7 March 1274 on his way to the Council of Lyons. Schaff calls him 'the prince of the Schoolmen, and next to St. Augustine, the most eminent divine of the Latin Church'."
+    source: "Schaff, History of the Christian Church, vol. 5, § 108"
   - name: "Boniface VIII"
     role: "Pope, 1294 to 1303"
-    summary: "Issued Unam sanctam in 1302, asserting papal authority over all Christians, and then clashed with Philip IV of France. Details not yet checked."
-    source: "Not yet checked"
-  - name: "John Wycliffe"
-    role: "Oxford theologian, died 1384"
-    summary: "Argued against the wealth of the church and the authority of the papacy, and promoted an English Bible. His followers, the Lollards, were condemned in England. Details not yet checked."
-    source: "Not yet checked"
+    summary: "Quarrelled with Philip IV of France, and issued the bull Unam Sanctam against him on 18 November 1302. It ends: 'that every human creature is subject to the Roman pontiff, this we declare, say, define, and pronounce to be altogether necessary to salvation.' The conflict ended in his humiliation at Anagni in 1303."
+    source: "Unam Sanctam, in Schaff's translation, History of the Christian Church, vol. 6, § 4"
+  - name: "John Wyclif"
+    role: "Oxford theologian, about 1324 to 1384"
+    summary: "Rector of Lutterworth from 1374 (the Catholic Encyclopedia says 1373). He argued that the Bible should be put into English for lay people, and Nicholas Hereford and John Purvey worked on the translation. He died at Lutterworth after a stroke, on 29 December 1384 (Schaff) or 31 December (the Catholic Encyclopedia). His followers were called Lollards, and an English statute of 1401 provided for burning heretics."
+    source: "Schaff, History of the Christian Church, vol. 6, §§ 40, 42 and 43; Catholic Encyclopedia (1913), 'John Wyclif'"
   - name: "Jan Hus"
-    role: "Preacher and reformer in Prague"
-    summary: "Took up Wycliffe's criticisms in Bohemia and was condemned at the Council of Constance. He was burned in July 1415. Details not yet checked."
-    source: "Not yet checked"
+    role: "Preacher in Prague"
+    summary: "Took up Wyclif's teaching in Bohemia, where his followers were at first called Wycliffites. He went to the Council of Constance under King Sigismund's safe-conduct, was condemned there, and was burned on Saturday 6 July 1415."
+    source: "Schaff, History of the Christian Church, vol. 6, §§ 44 and 45"
   - name: "Martin V"
     role: "Pope, elected 1417"
-    summary: "Elected at the Council of Constance, ending the Great Western Schism. Details not yet checked."
-    source: "Not yet checked"
+    summary: "Cardinal Oddo Colonna, elected at the Council of Constance on 11 November 1417, which ended the Great Western Schism."
+    source: "Schaff, History of the Christian Church, vol. 6, § 16; Catholic Encyclopedia (1913), 'Pope Martin V'"
 events:
-  - date: "AD 1215 (checked)"
-    title: "Both: The Fourth Lateran Council opens this era"
-    summary: "The council required each Christian to confess to their own priest at least once a year (Canon 21), and issued decrees preparing a crusade to the Holy Land. A strong line on heresy is in Canon 3; its details are not yet checked here."
-    source: "Canons of the Fourth Lateran Council, Schroeder's translation (Fordham), Canons 3, 21 and the Holy Land decrees (checked)"
-  - date: "AD 1216 (unchecked)"
+  - date: "AD 1216"
     title: "West: Dominic's order is approved"
-    summary: "The pope approved the Order of Preachers, founded by Dominic to preach against heresy and to teach. Its friars became prominent in the universities. The date is not yet checked."
-    source: "Not yet checked"
-  - date: "AD 1261 (unchecked)"
-    title: "East: Michael VIII retakes Constantinople"
-    summary: "The Byzantine general Michael VIII Palaiologos retook Constantinople from the Latin emperors, restoring Byzantine rule. The date and the events are not yet checked."
-    source: "Not yet checked"
-  - date: "AD 1274 (unchecked)"
+    summary: "Dominic and his companions, told by Innocent III to choose an existing rule, took the rule of St Augustine. The order was solemnly approved on 22 December 1216, the Catholic Encyclopedia says."
+    source: "Catholic Encyclopedia (1913), 'Order of Preachers'; Schaff, History of the Christian Church, vol. 5, § 72"
+  - date: "AD 1261"
+    title: "East: Michael Palaeologus retakes Constantinople"
+    summary: "Michael Palaeologus drove out the last Latin emperor, Baldwin II, and the Latin empire founded in 1204 came to an end."
+    source: "Schaff, History of the Christian Church, vol. 5, § 55"
+  - date: "AD 1274"
     title: "Both: The Second Council of Lyons"
-    summary: "A council at Lyons, with envoys from the Byzantine emperor, agreed a formal union of the Eastern and Western churches. The union did not last. Details not yet checked."
-    source: "Not yet checked"
-  - date: "AD 1302 (unchecked)"
-    title: "West: Unam sanctam"
-    summary: "Boniface VIII's bull asserted papal supremacy over temporal rulers. It was the high point of papal claims, and it was followed by the clash with Philip IV. The text and date are not yet checked."
-    source: "Not yet checked"
-  - date: "AD 1309 (unchecked)"
+    summary: "Gregory X opened the council on 7 May 1274. Envoys of the emperor Michael Palaeologus announced his acceptance of the Latin creed, including the procession of the Holy Spirit from the Son, and the primacy of the pope. Schaff says the union was then rejected by the Greek clergy."
+    source: "Catholic Encyclopedia (1913), 'Second Council of Lyons (1274)'; Schaff, History of the Christian Church, vol. 5, §§ 46 and 127"
+  - date: "AD 1302"
+    title: "West: Unam Sanctam"
+    summary: "Boniface VIII issued the bull against Philip IV of France on 18 November 1302. Schaff calls it the theory of the supremacy of the spiritual power over the temporal 'in its extreme form'. The quarrel with Philip ended in Boniface's humiliation at Anagni in 1303."
+    source: "Unam Sanctam and Schaff's introduction to it, History of the Christian Church, vol. 6, § 4"
+  - date: "AD 1309"
     title: "West: The papacy moves to Avignon"
-    summary: "Clement V settled in Avignon, beginning a period in which the popes lived in France. The popes returned to Rome in 1377. The dates are not yet checked."
-    source: "Not yet checked"
-  - date: "AD 1348 (checked for Florence)"
+    summary: "Clement V, archbishop of Bordeaux, was elected in 1305 and never crossed the Alps; in 1309 he chose Avignon as his residence. Seven popes, all French, lived there. Gregory XI returned to Rome in 1377."
+    source: "Schaff, History of the Christian Church, vol. 6, §§ 6 and 11"
+  - date: "AD 1348"
     title: "West: The Black Death reaches Florence"
-    summary: "Boccaccio's introduction to the Decameron dates the plague to 1348 in Florence, and says that nearly all of those infected died within three days of the first signs. The plague spread across Europe; the claim that it killed perhaps a third of the population is a modern estimate, not Boccaccio's, and is not yet checked here. Its effects on the church, including the deaths of priests, are not yet checked."
-    source: "Boccaccio, Decameron, introduction (Payne translation, Project Gutenberg 23700), checked for the year, the place and the speed of death"
-  - date: "AD 1378 (unchecked)"
+    summary: "Boccaccio dates the plague's arrival in Florence to 1348 and says that 'well nigh all died within the third day' after the signs appeared. Schaff says the plague swept Europe in 1348 and 1349 and that the figures differ between accounts; he gives three-fifths of the people of Florence, and an estimate of half the population of England. The clergy died in great numbers, and English bishops allowed any cleric to give absolution and ordained men before the canonical age."
+    source: "Boccaccio, Decameron, introduction (Payne translation, Project Gutenberg 23700); Schaff, History of the Christian Church, vol. 6, § 10"
+  - date: "AD 1378"
     title: "West: The Great Western Schism begins"
-    summary: "After Gregory XI returned the papacy to Rome, the cardinals elected rival popes, one in Rome and one in Avignon. Europe divided its loyalty between them. The events are not yet checked."
-    source: "Not yet checked"
-  - date: "AD 1384 (unchecked)"
-    title: "West: Wycliffe dies"
-    summary: "Wycliffe, who had criticized church wealth and the papacy, died at Lutterworth. His followers continued to spread his ideas, and his views were condemned in 1410 at Oxford. The dates are not yet checked."
-    source: "Not yet checked"
-  - date: "AD 1389 (unchecked)"
+    summary: "After Gregory XI's death, the cardinals in Rome elected Urban VI in April 1378. The French cardinals, turning against him, withdrew to Fondi and on 20 September elected one of their number, Clement VII, who settled in Avignon. Europe divided its loyalty between the two."
+    source: "Schaff, History of the Christian Church, vol. 6, § 13"
+  - date: "AD 1384"
+    title: "West: Wyclif dies"
+    summary: "Wyclif died at Lutterworth at the end of December 1384. In 1415 the Council of Constance condemned his memory and ordered his bones dug up; this was done in 1428 (the Catholic Encyclopedia) or 1429 (Schaff)."
+    source: "Schaff, History of the Christian Church, vol. 6, §§ 40 and 43; Catholic Encyclopedia (1913), 'John Wyclif'"
+  - date: "AD 1389"
     title: "East: The Battle of Kosovo"
-    summary: "A Christian force of Serbs and others was defeated by the Ottomans at Kosovo. The battle is traditionally treated as a turning point in the Balkans. The date and the outcome are not yet checked."
-    source: "Not yet checked"
-  - date: "AD 1414 to 1418 (unchecked)"
+    summary: "The Serbs under Lazar were heavily defeated by the Ottoman sultan Murad I on the plain of Kosovo on 15 June 1389. Murad was killed by a Serbian soldier, and Lazar was taken and beheaded. Gibbon says the battle finally crushed 'the league and independence of the Sclavonian tribes'."
+    source: "Catholic Encyclopedia (1913), 'Servia'; Gibbon, Decline and Fall, chapter 64"
+  - date: "AD 1414 to 1418"
     title: "West: The Council of Constance"
-    summary: "The council gathered to end the schism, reform the church and deal with heresy. It deposed or accepted the resignation of rival popes, and condemned Jan Hus. The council's dates and acts are not yet checked here."
-    source: "Not yet checked (decrees, to be fetched)"
-  - date: "AD 1415 (unchecked)"
+    summary: "Called by Pope John XXIII and King Sigismund, the council was summoned for 1 November 1414. It deposed John XXIII on 29 May 1415, received the resignation of Gregory XII on 4 July 1415, deposed Benedict XIII in 1417, and condemned Hus and Wyclif. Its decree Frequens of 9 October 1417 required general councils to meet regularly. Martin V closed it on 22 April 1418."
+    source: "Schaff, History of the Christian Church, vol. 6, § 16; Catholic Encyclopedia (1913), 'Council of Constance'"
+  - date: "AD 1415"
     title: "West: Jan Hus is burned"
-    summary: "The council condemned Hus for heresy, and he was burned at the stake in July 1415. His death led to lasting conflict in Bohemia. The date and the circumstances are not yet checked."
-    source: "Not yet checked"
-  - date: "AD 1417 (unchecked)"
+    summary: "The council condemned Hus, who had come under the emperor's safe-conduct, and he was burned on 6 July 1415. His followers in Bohemia, the Hussites, fought on after his death."
+    source: "Schaff, History of the Christian Church, vol. 6, §§ 45 and 47"
+  - date: "AD 1417"
     title: "West: Martin V is elected"
-    summary: "The council elected Martin V as pope, and the Great Western Schism came to an end. The date is not yet checked."
-    source: "Not yet checked"
+    summary: "The council elected Cardinal Oddo Colonna on 11 November 1417. As Martin V he was accepted as pope, and the Great Western Schism came to an end, though Benedict XIII held out at Peñíscola until his death."
+    source: "Schaff, History of the Christian Church, vol. 6, § 16"
 sources:
-  - title: "Summa Theologiae"
-    author: "Thomas Aquinas, Fathers of the English Dominican Province translation (1911)"
-    license: "Public domain (to check on the hosting site before quoting)"
-    checked: "not yet checked"
-    usedFor: "Aquinas"
   - title: "The Decameron, introduction"
-    author: "Giovanni Boccaccio; translated by John Payne (Project Gutenberg, ebook 23700)"
+    author: "Giovanni Boccaccio; translated by John Payne (1886; Project Gutenberg, ebook 23700)"
     url: "https://www.gutenberg.org/ebooks/23700"
-    license: "Public domain in the United States (Project Gutenberg 23700). The translation's status elsewhere to check"
-    checked: "2026-11-12"
+    license: "Public domain (Project Gutenberg)"
+    checked: "2026-11-16"
     usedFor: "The Black Death in Florence, 1348"
-  - title: "Decrees of the Council of Constance"
-    author: "To be chosen"
-    license: "To check"
-    checked: "not yet checked"
-    usedFor: "Constance and Hus"
-  - title: "Wycliffe and Hus texts"
-    author: "To be chosen"
-    license: "To check"
-    checked: "not yet checked"
-    usedFor: "Wycliffe and Hus"
+  - title: "History of the Christian Church, volumes 5 and 6"
+    author: "Philip Schaff and David S. Schaff (CCEL)"
+    url: "https://ccel.org/ccel/schaff/hcc6"
+    license: "Public domain (CCEL)"
+    checked: "2026-11-16"
+    usedFor: "Most events and dates, and the text of Unam Sanctam. A Protestant church history, used for events and dates; its judgments are given only with its name"
+  - title: "The Catholic Encyclopedia (1913)"
+    author: "Articles on the Order of Preachers, the Second Council of Lyons, John Wyclif, Servia, Avignon, the Council of Constance and Martin V (Wikisource)"
+    url: "https://en.wikisource.org/wiki/Catholic_Encyclopedia_(1913)"
+    license: "Public domain (Wikisource)"
+    checked: "2026-11-16"
+    usedFor: "Events and dates"
+  - title: "The History of the Decline and Fall of the Roman Empire, volume 6"
+    author: "Edward Gibbon (1776 to 1789; Project Gutenberg 736)"
+    url: "https://www.gutenberg.org/ebooks/736"
+    license: "Public domain (Project Gutenberg)"
+    checked: "2026-11-16"
+    usedFor: "The battle of Kosovo (chapter 64)"
+  - title: "Right Leaf of a Diptych with Coronation of the Virgin"
+    author: "Metropolitan Museum of Art, Open Access collection record (object 471981)"
+    url: "https://www.metmuseum.org/art/collection/search/471981"
+    license: "CC0 (Open Access)"
+    checked: "2026-11-16"
+    usedFor: "The figure: title, date, material and size from the museum's record"
   - title: "Modern studies of the period"
     author: "Brian Tierney; Joseph Strayer; Norman Cantor"
     license: "Copyrighted; cited only, never reproduced"
-    checked: "not yet checked"
-    usedFor: "Background (full titles under Further reading)"
+    checked: "2026-11-16 (titles and years against Open Library)"
+    usedFor: "Further reading only; nothing on the page rests on them"
 ---
 
 ## Overview
 
-The seventh era ended at the Fourth Lateran Council in 1215. This era runs from that council to the Council of Constance, which ended the Great Western Schism in 1417. In those years the friars and the universities changed the church's teaching and its work, the papacy claimed and then lost its authority, the Black Death killed a large part of Europe's people, and the church divided under two popes. It ends with the council that burned Jan Hus, which set up the disputes the Reformation would later take up.
+The seventh era ended at the Fourth Lateran Council in 1215. This era runs from there to the Council of Constance, which ended the Great Western Schism in 1417. In those years the friars and the universities changed the church's teaching and work, the papacy made its largest claims and then left Rome for Avignon, the Black Death killed a large part of Europe's people, and the Western church divided under two and then three popes. It ends with the council that burned Jan Hus.
 
 The page is arranged by East and West, as before. The East appears only in a few rows, because the era is mainly Western.
 
 ## When were the sources written?
 
-No sources for this era have been read yet. The sources to be fetched are listed in the source table above.
+| Writing | Usual date | Notes |
+| --- | --- | --- |
+| Boccaccio, *Decameron*, introduction | After the plague of 1348 | Payne's translation, 1886 |
+| Boniface VIII, *Unam Sanctam* | 18 November 1302 | Read in Schaff's translation |
+| Schaff, *History of the Christian Church*, vols. 5 and 6 | 1907 and 1910 | A Protestant church history, used for events and dates |
+| *The Catholic Encyclopedia* | The 1913 edition, on Wikisource | A Catholic reference work, used for events and dates |
+| Gibbon, *Decline and Fall* | 1776 to 1789 | Used here only for Kosovo |
 
 ## Key debates
 
 ### Did the papacy hold power over kings?
 
-Boniface VIII's Unam sanctam claimed it did. Historians debate how far this was a real claim to government and how far it was a theological position. The page does not yet give a view.
+Unam Sanctam claimed that it did, and declared subjection to the Roman pontiff "altogether necessary to salvation". Schaff, a Protestant, calls it the claim "in its extreme form" and lists it among the most notorious deliverances of the popes. Within a year Boniface had been humiliated at Anagni by Philip's men, and his successors lived in France.
 
 ### Why did the papacy move to Avignon?
 
-The move is often blamed on French pressure, but the reasons are debated. The page does not yet settle them.
+Schaff says the way had been prepared: popes had often taken refuge in France, the papacy had leaned on France against the emperors, and in 1305 the French party in the conclave won the election of a French archbishop, who never crossed the Alps. He calls the Avignon years a great shock to the papal system. The page does not go beyond what the sources say.
 
 ### Could a council reform the church?
 
-Constance was called partly to reform the church and not only to end the schism. Whether the council succeeded, and whether it was right to condemn Hus, are debated. The page does not yet give a view.
+At Constance the council removed three rival popes and decreed that general councils should meet regularly. Schaff notes that the decrees became a platform for those who limited the pope's authority, and that Martin V's approval of the council's decrees was worded so that its meaning is still argued. The council also condemned Hus, who had come under a safe-conduct.
 
 ## Worship and community life
 
 ### Friars and towns
 
-The friars preached in the towns, heard confessions and taught in the universities. This is a major change in the work of religious orders. Details not yet checked.
+The Dominicans were founded as an order of preachers, and the Franciscans as brothers living in poverty and preaching. Both became teachers in the universities: Aquinas, a Dominican, taught at Paris. Schaff treats them together as the mendicant orders.
 
 ### The Black Death and the parish
 
-The plague killed many priests, and parishes went without ministers for long periods. The effect on local religion is debated. Details not yet checked.
+Schaff says the clergy died in great numbers in 1348 and 1349. In England the bishops let any cleric give absolution, ordained men before the canonical age, and found that priests who survived could ask far higher stipends. He says the effect on the church was to interrupt its ministries and perhaps check its growth.
 
 ## Glossary
 
 | Term | Meaning on this page |
 | --- | --- |
-| Friar | A member of a religious order that lives by begging and preaches to the public |
+| Friar | A member of a mendicant order, such as the Franciscans and Dominicans, who preached to the public |
 | Schism | A split in the church; here, the Great Western Schism of rival popes |
 | Summa | A systematic work of theology |
 
 ## Further reading
 
-Modern scholarship is cited here, not copied. Titles and years are from memory and are being checked.
+Modern scholarship is cited here, not copied. Titles and years were checked against the Open Library catalogue in November 2026. Nothing on the page rests on these books.
 
 - Brian Tierney, *The Crisis of Church and State, 1050 to 1300* (1964). The framework for the papacy.
-- Joseph Strayer, *The Reign of Philip the Fair* (1980). Boniface VIII and Avignon.
-- Norman Cantor, *In the Wake of the Plague* (2001). The Black Death and its effects.
+- Joseph R. Strayer, *The Reign of Philip the Fair* (1980). Boniface VIII and Avignon.
+- Norman F. Cantor, *In the Wake of the Plague* (2001). The Black Death and its effects.

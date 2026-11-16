@@ -94,7 +94,7 @@ its own header. Every claim on the page was checked against these texts in the A
 | Item | Use | License | Checked |
 | --- | --- | --- | --- |
 | Natural Earth | Base geography for maps | Public domain | not yet checked |
-| [Pleiades gazetteer](https://pleiades.stoa.org/) | Place positions on the maps of the first seven eras (with Wikimedia Commons for places Pleiades does not list, named in each era's ledger), checked against it (CHR-20); credited on each of those maps | CC BY 3.0 (credit required), as stated on its downloads page | 2026-11-12 |
+| [Pleiades gazetteer](https://pleiades.stoa.org/) | Place positions on the maps of the first eight eras (with Wikimedia Commons for places Pleiades does not list, named in each era's ledger), checked against it (CHR-20); credited on each of those maps | CC BY 3.0 (credit required), as stated on its downloads page | 2026-11-12 |
 
 ## After Chalcedon, AD 451 to 600 (draft)
 
@@ -168,3 +168,18 @@ recorded.
 | Metropolitan Museum of Art Open Access record, object 464483 | The Limoges chasse | CC0 | 2026-11-16 |
 | Wikimedia Commons category coordinates for Hastings, Canossa, Cîteaux, Venice, Hattin, Chalkida and Limassol | Map positions for places not in Pleiades | Coordinates are facts; cited | 2026-11-16 |
 | R. I. Moore (2000), Christopher Tyerman (2006), Giles Constable (1996) | Further reading only | Copyrighted; cited only. Titles and years checked in Open Library | 2026-11-16 |
+
+## From the Friars to the Council of Constance, AD 1215 to 1417 (draft)
+
+Licenses checked on 2026-11-16. Every claim on the page and its map was checked against these in the AI source check
+of November 2026 (CHR-20); see `docs/REVIEW-friars-to-constance.md`.
+
+| Source | Use | License | Checked |
+| --- | --- | --- | --- |
+| Boccaccio, *Decameron*, introduction, Payne translation (1886): [Gutenberg 23700](https://www.gutenberg.org/ebooks/23700) | The Black Death in Florence, 1348 | Public domain (Project Gutenberg) | 2026-11-16 |
+| Philip Schaff and David S. Schaff, *History of the Christian Church*, vols. 5 and 6: [CCEL hcc5](https://ccel.org/ccel/schaff/hcc5), [hcc6](https://ccel.org/ccel/schaff/hcc6) | Most events and dates; the text of Unam Sanctam | Public domain (CCEL) | 2026-11-16 |
+| *The Catholic Encyclopedia* (1913): [Wikisource](https://en.wikisource.org/wiki/Catholic_Encyclopedia_(1913)) | The Dominicans; Lyons 1274; Wyclif; Kosovo; Constance; Martin V | Public domain (Wikisource) | 2026-11-16 |
+| Edward Gibbon, *Decline and Fall*, vol. 6, chapter 64: [Gutenberg 736](https://www.gutenberg.org/ebooks/736) | Kosovo | Public domain (Project Gutenberg) | 2026-11-16 |
+| Metropolitan Museum of Art Open Access record, object 471981 | The ivory diptych leaf | CC0 | 2026-11-16 |
+| Wikimedia Commons category coordinates for Oxford, Prague and Gazimestan | Map positions for places not in Pleiades | Coordinates are facts; cited | 2026-11-16 |
+| Brian Tierney (1964), Joseph R. Strayer (1980), Norman F. Cantor (2001) | Further reading only | Copyrighted; cited only. Titles and years checked in Open Library | 2026-11-16 |
