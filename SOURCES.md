@@ -94,7 +94,7 @@ its own header. Every claim on the page was checked against these texts in the A
 | Item | Use | License | Checked |
 | --- | --- | --- | --- |
 | Natural Earth | Base geography for maps | Public domain | not yet checked |
-| [Pleiades gazetteer](https://pleiades.stoa.org/) | Place positions on the maps of the first ten eras (with Wikimedia Commons for places Pleiades does not list, named in each era's ledger), checked against it (CHR-20); credited on each of those maps | CC BY 3.0 (credit required), as stated on its downloads page | 2026-11-12 |
+| [Pleiades gazetteer](https://pleiades.stoa.org/) | Place positions on the maps of the first eleven eras (with Wikimedia Commons or Wikidata for places Pleiades does not list, named in each era's ledger), checked against it (CHR-20); credited on each of those maps | CC BY 3.0 (credit required), as stated on its downloads page | 2026-11-12 |
 
 ## After Chalcedon, AD 451 to 600 (draft)
 
@@ -212,3 +212,20 @@ check of November 2026 (CHR-20); see `docs/REVIEW-reformation.md`.
 | Metropolitan Museum of Art Open Access records, objects 436047, 361985 and 855362 | The three figures | CC0 | 2026-11-16 |
 | Wikimedia Commons category coordinates for Edinburgh, Nantes, Wittenberg, Prague, Magdeburg, Lützen, Münster and Osnabrück | Map positions for places not in Pleiades | Coordinates are facts; cited | 2026-11-16 |
 | Diarmaid MacCulloch (2003), Peter H. Wilson (2009), Carlos M. N. Eire (2018 edition) | Further reading only | Copyrighted; cited only. Titles and years checked in Open Library | 2026-11-16 |
+
+## Reason and Revival, AD 1648 to 1789 (draft)
+
+Licenses checked on 2026-11-16. Every claim on the page and its two maps was checked against these in the AI source
+check of November 2026 (CHR-20); see `docs/REVIEW-reason-and-revival.md`.
+
+| Source | Use | License | Checked |
+| --- | --- | --- | --- |
+| Philip Schaff, *Creeds of Christendom*, vol. 1: [CCEL creeds1](https://ccel.org/ccel/schaff/creeds1) | Jansenism and Unigenitus; Westphalia; the Revocation; the Moravians; Methodism; the Holy Synod; Joseph II's edict | Public domain (CCEL) | 2026-11-16 |
+| *The Catholic Encyclopedia* (1913): [Wikisource](https://en.wikisource.org/wiki/Catholic_Encyclopedia_(1913)) | Jansenism; Pascal; Pietism; the Holy Synod; Clement XIV and the suppression of the Jesuits; Kant; the French Revolution; Our Lady of Good Counsel | Public domain (Wikisource) | 2026-11-16 |
+| Blaise Pascal, *The Provincial Letters*, M'Crie translation (1851): [CCEL](https://ccel.org/ccel/pascal/provincial) | The letters' dates; letter V | Public domain (CCEL) | 2026-11-16 |
+| John Wesley, *Journal*, Parker's edition: [CCEL](https://ccel.org/ccel/wesley/journal) | Aldersgate, 1738 | Public domain (CCEL) | 2026-11-16 |
+| *The Works of Jonathan Edwards*, vols. 1 and 2 (Hickman, 1834): [CCEL](https://ccel.org/ccel/edwards/works2) | Edwards's life; the Enfield sermon | Public domain (CCEL) | 2026-11-16 |
+| David Hume, *Dialogues concerning Natural Religion* (1779): [Wikisource](https://en.wikisource.org/wiki/Dialogues_Concerning_Natural_Religion) | Date of publication only | Public domain (Wikisource) | 2026-11-16 |
+| Metropolitan Museum of Art Open Access records, objects 438724, 205473 and 785981 | The three figures | CC0 | 2026-11-16 |
+| Wikidata coordinates for Versailles, Ypres, Frankfurt, Halle, Herrnhut, Königsberg, St Petersburg and Moscow | Map positions for places not in Pleiades | Coordinates are facts; cited | 2026-11-16 |
+| Owen Chadwick (1981), W. R. Ward (1992), Jonathan I. Israel (2001), Diarmaid MacCulloch (2009) | Further reading only | Copyrighted; cited only. Titles and years checked in Open Library | 2026-11-16 |
