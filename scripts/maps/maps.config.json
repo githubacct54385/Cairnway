@@ -257,8 +257,8 @@
       45.44
     ],
     "Canossa": [
-      10.43,
-      44.61
+      10.46,
+      44.58
     ],
     "Clermont": [
       3.08,
@@ -509,12 +509,12 @@
       39.77
     ],
     "Heraclea": [
-      33.2,
-      37.18
+      34.15,
+      37.59
     ],
     "Ascalon": [
-      34.65,
-      31.67
+      34.55,
+      31.66
     ],
     "Edessa": [
       38.79,
@@ -537,8 +537,8 @@
       32.05
     ],
     "Hattin": [
-      35.52,
-      32.74
+      35.46,
+      32.8
     ],
     "Silifke": [
       33.93,
@@ -575,6 +575,10 @@
     "Dartmouth": [
       -3.57,
       50.35
+    ],
+    "Cîteaux": [
+      5.09,
+      47.13
     ]
   },
   "labels": [
@@ -2787,8 +2791,9 @@
     },
     {
       "id": "crusades-and-reform",
+      "credit": "Place positions checked against the Pleiades gazetteer of ancient places (pleiades.stoa.org), licensed CC BY 3.0, and, for Hastings, Canossa, Cîteaux and Venice, against Wikimedia Commons. Base map made with Natural Earth (public domain).",
       "title": "Reform and crusade, about 1100",
-      "intro": "The reforming papacy and its opponents, the monasteries of Cluny and Cîteaux, and the road to Jerusalem. Boundaries are simplified.",
+      "intro": "Places in the struggle over the papacy and the call to the First Crusade: Hastings and Canterbury, Clermont and Cîteaux, Canossa and Rome, Venice, and the road through Constantinople and Antioch to Jerusalem. No borders are drawn.",
       "bbox": [
         -10,
         30,
@@ -2805,16 +2810,16 @@
           "side": "right"
         },
         {
-          "place": "Canossa",
-          "side": "left"
-        },
-        {
           "place": "Clermont",
           "side": "left"
         },
         {
-          "place": "Cluny",
+          "place": "Cîteaux",
           "side": "right"
+        },
+        {
+          "place": "Canossa",
+          "side": "left"
         },
         {
           "place": "Rome",
@@ -2822,10 +2827,6 @@
         },
         {
           "place": "Venice",
-          "side": "right"
-        },
-        {
-          "place": "Bari",
           "side": "right"
         },
         {
@@ -3666,8 +3667,9 @@
     },
     {
       "id": "first-crusade-1096-1099",
+      "credit": "Place positions checked against the Pleiades gazetteer of ancient places (pleiades.stoa.org), licensed CC BY 3.0. Base map made with Natural Earth (public domain).",
       "title": "The First Crusade, 1096 to 1099",
-      "intro": "The route of the crusading armies from Constantinople to Jerusalem, with the battles and sieges that marked it. The route is simplified and straight between places; the battle sites and dates are not yet checked.",
+      "intro": "The route of the crusading armies from Constantinople to Jerusalem, drawn straight between places, with the sieges and battles that marked it. Gibbon traces the march across Asia Minor by Dorylaeum, Iconium and Erekli (Heraclea); Tancred and Baldwin turned aside to Tarsus, and Baldwin went on to Edessa.",
       "bbox": [
         25,
         29.5,
@@ -3690,32 +3692,32 @@
         {
           "place": "Nicaea",
           "side": "left",
-          "ref": "Gesta Francorum, to check",
-          "note": "Besieged from May 1097 and surrendered in June to the Byzantine emperor, not to the crusaders"
+          "ref": "Catholic Encyclopedia (1913), 'Crusades'; Gibbon, chapter 58; Schaff, vol. 5, § 50",
+          "note": "Besieged for seven weeks, Gibbon says. The emperor Alexius had it surrendered to himself and kept the crusaders out, in June 1097 (1 June in the Catholic Encyclopedia, 19 June in Schaff)"
         },
         {
           "place": "Dorylaeum",
           "side": "right",
-          "ref": "Gesta Francorum, to check",
-          "note": "Battle in July 1097, where the crusaders defeat the Seljuk army after a surprise attack"
+          "ref": "Catholic Encyclopedia (1913), 'Crusades'; Gibbon, chapter 58",
+          "note": "The Turks surprise one of the two crusading columns; the crusaders defeat them on 1 July 1097"
         },
         {
           "place": "Antioch",
           "side": "right",
-          "ref": "Gesta Francorum, to check",
-          "note": "Siege from October 1097; the city is taken in June 1098 and the army is then besieged inside it"
+          "ref": "Catholic Encyclopedia (1913), 'Crusades'",
+          "note": "Reached on 20 October 1097 and taken on the night of 2 June 1098; the next day the crusaders are besieged inside it, until they drive off Kerbogha's army on 28 June"
         },
         {
           "place": "Jerusalem",
           "side": "right",
-          "ref": "Raymond of Aguilers, to check",
-          "note": "Captured on 15 July 1099 after a siege; the chroniclers describe the killing that followed"
+          "ref": "Catholic Encyclopedia (1913), 'Crusades'; Schaff, vol. 5, § 50",
+          "note": "Besieged from 7 June 1099 and entered on 15 July; the crusaders kill its inhabitants, the Catholic Encyclopedia says"
         },
         {
           "place": "Ascalon",
           "side": "right",
-          "ref": "Fulcher of Chartres, to check",
-          "note": "Battle in August 1099, where the crusaders defeat the Fatimid army"
+          "ref": "Catholic Encyclopedia (1913), 'Crusades'",
+          "note": "An Egyptian army is defeated here on 12 August 1099"
         }
       ],
       "cities": [
@@ -3743,8 +3745,9 @@
     },
     {
       "id": "third-crusade-1189-1192",
+      "credit": "Place positions checked against the Pleiades gazetteer of ancient places (pleiades.stoa.org), licensed CC BY 3.0, and, for Hattin and Limassol, against Wikimedia Commons. Base map made with Natural Earth (public domain).",
       "title": "The Third Crusade, 1189 to 1192",
-      "intro": "Richard I's route from Sicily and Cyprus to Acre and along the coast, with the battles of Arsuf and Jaffa. Frederick Barbarossa's army took the inland route, and he drowned in a river in Cilicia in 1190. Hattin, the battle of 1187 that began the crusade, is marked for background. The routes are simplified, and the sites and dates are not yet checked.",
+      "intro": "Richard I's route by sea from Messina, by way of Cyprus, to Acre and Jaffa, drawn straight between places. Frederick Barbarossa's army went overland and took Iconium, and he drowned crossing the river Selef (Kalykadnos) in the Taurus region in 1190. Hattin, where Saladin defeated the army of Jerusalem in 1187, is marked for background.",
       "bbox": [
         31.5,
         31.4,
@@ -3756,35 +3759,31 @@
         "Messina",
         "Limassol",
         "Ptolemais",
-        "Arsuf",
         "Jaffa"
       ],
       "stops": [
         {
+          "place": "Limassol",
+          "name": "Cyprus",
+          "side": "left",
+          "ref": "Catholic Encyclopedia (1913), 'Crusades'; Schaff, vol. 5, § 53",
+          "note": "Shipwrecked on the coast in 1191, Richard conquers the island from Isaac Comnenus"
+        },
+        {
           "place": "Ptolemais",
           "name": "Acre",
           "side": "left",
-          "ref": "Ambroise, to check",
-          "note": "Besieged from 1189 and surrendered in July 1191 to the forces of Philip II and Richard I; it becomes the crusaders' base"
-        },
-        {
-          "place": "Arsuf",
-          "side": "right",
-          "ref": "Ambroise, to check",
-          "note": "Battle on 7 September 1191, where Richard's army defeats Saladin's forces in an attack along the coast"
+          "ref": "Catholic Encyclopedia (1913), 'Crusades'; Schaff, vol. 5, § 53",
+          "note": "Besieged from June 1189; it capitulates on 13 July 1191, after the kings of France and England arrive, and becomes the crusaders' base"
         },
         {
           "place": "Jaffa",
           "side": "right",
-          "ref": "Ambroise, to check",
-          "note": "Saladin attacks the city in 1192, and Richard's army holds it in the summer; a truce follows in September, and Richard does not reach Jerusalem"
+          "ref": "Catholic Encyclopedia (1913), 'Crusades'; Schaff, vol. 5, § 53",
+          "note": "Richard defends it against Saladin in 1192; after a truce he sails for Europe on 9 October 1192, without having entered Jerusalem"
         }
       ],
       "cities": [
-        {
-          "place": "Limassol",
-          "side": "left"
-        },
         {
           "place": "Hattin",
           "side": "right"
@@ -3797,8 +3796,9 @@
     },
     {
       "id": "fourth-crusade-1202-1204",
+      "credit": "Place positions checked against the Pleiades gazetteer of ancient places (pleiades.stoa.org), licensed CC BY 3.0, and, for Venice and Chalkis, against Wikimedia Commons. Base map made with Natural Earth (public domain).",
       "title": "The Fourth Crusade, 1202 to 1204",
-      "intro": "The fleet route from Venice by way of Zara, Corfu and Modon to Constantinople, with the places where the crusade became a war against Christians (Zara in 1202, and Constantinople in 1203 and 1204), and Negroponte, taken after the sack. The route is simplified and straight between places; the sites and dates are not yet checked.",
+      "intro": "The fleet's route from Venice by way of Zara, Corfu and Negropont to Constantinople, drawn straight between places, as Villehardouin describes it. At Zara in 1202 and at Constantinople in 1203 and 1204 the crusade fought against Christians.",
       "bbox": [
         11,
         34,
@@ -3810,7 +3810,7 @@
         "Venice",
         "Zara",
         "Corfu",
-        "Modon",
+        "Chalkis",
         "Constantinople"
       ],
       "stops": [
@@ -3818,49 +3818,46 @@
           "place": "Zara",
           "side": "right",
           "ref": "Villehardouin, Memoirs",
-          "note": "Taken in November 1202 for Venice, though the pope had forbidden attacks on Christian cities; the crusade is diverted"
+          "note": "The crusaders come before Zara on 10 November 1202 and take it for Venice, though an abbot forbids the attack in the pope's name; they winter there"
         },
         {
-          "place": "Modon",
+          "place": "Corfu",
           "side": "left",
-          "ref": "Villehardouin, to check",
-          "note": "The fleet stops at this Venetian port in the Peloponnese on its way east (1203, to check)"
+          "ref": "Villehardouin, Memoirs",
+          "note": "The host gathers here with the young Alexius and sails on the eve of Pentecost, 24 May 1203"
+        },
+        {
+          "place": "Chalkis",
+          "name": "Negropont",
+          "side": "right",
+          "ref": "Villehardouin, Memoirs",
+          "note": "The fleet reaches Negropont, 'a very fair island', on its way east in 1203"
         },
         {
           "place": "Scutari",
           "side": "right",
-          "ref": "Villehardouin, to check",
-          "note": "The army lands on the Asian shore opposite the city in July 1203, and the emperor Alexios III flees at the first assault"
+          "ref": "Villehardouin, Memoirs",
+          "note": "On 24 June 1203 the fleet crosses to the Asian shore at Chalcedon and Scutari. After the assault of 17 July the emperor Alexius III flees, and the blinded Isaac is restored"
         },
         {
           "place": "Constantinople",
           "side": "left",
           "ref": "Villehardouin, Memoirs",
-          "note": "Besieged in 1203, when the crusaders restore Isaac II; taken and sacked on 12 and 13 April 1204"
-        },
-        {
-          "place": "Chalkis",
-          "name": "Negroponte",
-          "side": "right",
-          "ref": "Villehardouin, to check",
-          "note": "Taken by Venice after the sack, as part of the division of the empire (1204, to check)"
+          "note": "Taken on the Monday after Palm Sunday, 12 April 1204, and plundered"
         }
       ],
       "cities": [
         {
           "place": "Venice",
           "side": "left"
-        },
-        {
-          "place": "Corfu",
-          "side": "left"
         }
       ]
     },
     {
       "id": "second-crusade-1147-1149",
+      "credit": "Place positions checked against the Pleiades gazetteer of ancient places (pleiades.stoa.org), licensed CC BY 3.0. Base map made with Natural Earth (public domain).",
       "title": "The Second Crusade, 1147 to 1149",
-      "intro": "The German and French armies cross Anatolia, the German army is defeated at Dorylaeum, and the combined crusade fails at Damascus in 1148. The route is simplified and straight between places; the sites, dates and the routes taken are not yet checked.",
+      "intro": "Conrad III and Louis VII cross Anatolia, meet at Nicaea and go on to Ephesus; Louis sails from Attalia to Antioch, and the crusade fails before Damascus in July 1148. Edessa, whose fall in 1144 led to the crusade, is marked. The route is drawn straight between places and is simplified.",
       "bbox": [
         25,
         30,
@@ -3871,8 +3868,7 @@
       "route": [
         "Constantinople",
         "Nicaea",
-        "Dorylaeum",
-        "Laodicea",
+        "Ephesus",
         "Attalia",
         "Antioch",
         "Ptolemais",
@@ -3880,22 +3876,22 @@
       ],
       "stops": [
         {
-          "place": "Dorylaeum",
-          "side": "right",
-          "ref": "Odo of Deuil, to check",
-          "note": "In October 1147 the Turks ambush the German army of Conrad III and defeat it; the survivors fall back to Nicaea"
+          "place": "Nicaea",
+          "side": "left",
+          "ref": "Schaff, vol. 5, § 52",
+          "note": "The German and French kings meet here in 1147 and go on together to Ephesus"
         },
         {
           "place": "Attalia",
           "side": "right",
-          "ref": "Odo of Deuil, to check",
-          "note": "The French army loses many men on the mountain road to this port in early 1148, and the king takes ship for Antioch"
+          "ref": "Schaff, vol. 5, § 52",
+          "note": "Louis leaves the body of his army to go on by land and sails to Antioch"
         },
         {
           "place": "Damascus",
           "side": "left",
-          "ref": "William of Tyre, to check",
-          "note": "The combined crusade besieges the city in July 1148 and gives up after a few days"
+          "ref": "Catholic Encyclopedia (1913), 'Crusades'; Schaff, vol. 5, § 52",
+          "note": "Besieged by the combined crusade; it retreats after a few weeks, in July 1148. Schaff blames quarrels among the leaders"
         }
       ],
       "cities": [
@@ -3904,11 +3900,11 @@
           "side": "left"
         },
         {
-          "place": "Nicaea",
+          "place": "Ephesus",
           "side": "left"
         },
         {
-          "place": "Laodicea",
+          "place": "Antioch",
           "side": "right"
         },
         {
@@ -3924,8 +3920,9 @@
     },
     {
       "id": "lisbon-siege-1147",
+      "credit": "Place position checked against the Pleiades gazetteer of ancient places (pleiades.stoa.org), licensed CC BY 3.0. Base map made with Natural Earth (public domain).",
       "title": "The Siege of Lisbon, 1147",
-      "intro": "Crusaders from England, Flanders and the Rhineland sailed to Portugal on their way to the Holy Land, and joined the Portuguese king in the siege of Lisbon. The route is simplified and straight between places; the dates and the sources are not yet checked.",
+      "intro": "A fleet of English, Norman and Flemish crusaders bound for the Holy Land helped the king of Portugal take Lisbon in 1147. The fleet's route is not drawn, because the sources read here do not give it.",
       "bbox": [
         -12,
         36,
@@ -3933,29 +3930,13 @@
         52
       ],
       "refPrefix": "",
-      "route": [
-        "Dartmouth",
-        "Porto",
-        "Lisbon"
-      ],
+      "route": [],
       "stops": [
-        {
-          "place": "Dartmouth",
-          "side": "right",
-          "ref": "De expugnatione Lyxbonensi, to check",
-          "note": "The crusading fleet sails from the south coast of England on the way to the Holy Land (1147, to check)"
-        },
-        {
-          "place": "Porto",
-          "side": "left",
-          "ref": "De expugnatione Lyxbonensi, to check",
-          "note": "The fleet stops at Porto, where the Portuguese king and the bishop join the crusaders (1147, to check)"
-        },
         {
           "place": "Lisbon",
           "side": "right",
-          "ref": "De expugnatione Lyxbonensi, to check",
-          "note": "The siege begins in July and the city surrenders in late October 1147, after the crusaders and the Portuguese take it"
+          "ref": "Catholic Encyclopedia (1913), 'Portugal' and 'Patriarchate of Lisbon'",
+          "note": "Taken by King Afonso Henriques in 1147 after a four months' siege, with a northern fleet of 164 ships on its way to the Second Crusade. The encyclopedia's article on Lisbon gives 1145 in one place and 1147 in another"
         }
       ],
       "cities": []

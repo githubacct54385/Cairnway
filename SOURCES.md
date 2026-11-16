@@ -94,7 +94,7 @@ its own header. Every claim on the page was checked against these texts in the A
 | Item | Use | License | Checked |
 | --- | --- | --- | --- |
 | Natural Earth | Base geography for maps | Public domain | not yet checked |
-| [Pleiades gazetteer](https://pleiades.stoa.org/) | Place positions on the maps of the first six eras (with Wikimedia Commons for Whitby, Lindisfarne, Iona, Verdun, Cluny and Kiev), checked against it (CHR-20); credited on each of those maps | CC BY 3.0 (credit required), as stated on its downloads page | 2026-11-12 |
+| [Pleiades gazetteer](https://pleiades.stoa.org/) | Place positions on the maps of the first seven eras (with Wikimedia Commons for places Pleiades does not list, named in each era's ledger), checked against it (CHR-20); credited on each of those maps | CC BY 3.0 (credit required), as stated on its downloads page | 2026-11-12 |
 
 ## After Chalcedon, AD 451 to 600 (draft)
 
@@ -149,3 +149,22 @@ Licenses checked on 2026-11-16. Every claim on the page was checked against thes
 | Metropolitan Museum of Art Open Access records, objects 464454 and 471970 | The two ivory figures | CC0 | 2026-11-16 |
 | Wikimedia Commons category coordinates for Verdun, Cluny and Kyiv | Map positions for places not in Pleiades | Coordinates are facts; cited | 2026-11-16 |
 | Rosamond McKitterick (2008), Timothy Reuter (1991), Judith Herrin (2007) | Further reading only | Copyrighted; cited only. Titles and years checked in Open Library | 2026-11-16 |
+
+## Reform and Crusade, AD 1054 to 1215 (draft)
+
+Licenses checked on 2026-11-16. Every claim on the page and its five crusade maps was checked against these in the AI
+source check of November 2026 (CHR-20); see `docs/REVIEW-reform-and-crusade.md`. Schroeder's translation of the
+Lateran IV canons on the Fordham sourcebook, cited before the check, is no longer used: its copyright status was not
+recorded.
+
+| Source | Use | License | Checked |
+| --- | --- | --- | --- |
+| Villehardouin, *Memoirs of the Fourth Crusade*, Marzials translation (1908): [Gutenberg 6032](https://www.gutenberg.org/ebooks/6032) | Zara; Corfu, Negropont, Scutari; Constantinople | Public domain (Project Gutenberg) | 2026-11-16 |
+| Thatcher and McNeal, *A Source Book for Mediaeval History* (1905): [Gutenberg 42707](https://www.gutenberg.org/ebooks/42707) | Urban II's speech; the 1215 crusade decree; canon 21 | Public domain (Project Gutenberg) | 2026-11-16 |
+| Ogg, *A Source Book of Mediaeval History* (1907): [Gutenberg 39227](https://www.gutenberg.org/ebooks/39227) | Hastings; Gregory VII's letter on Canossa | Public domain (Project Gutenberg) | 2026-11-16 |
+| Philip Schaff and David S. Schaff, *History of the Christian Church*, vol. 5 (1907): [CCEL hcc5](https://ccel.org/ccel/schaff/hcc5) | Most events and dates | Public domain (CCEL) | 2026-11-16 |
+| *The Catholic Encyclopedia* (1913): [Wikisource](https://en.wikisource.org/wiki/Catholic_Encyclopedia_(1913)) | The crusades; Gregory VII; Innocent III; Becket; Abelard; Lanfranc; Lateran IV; Lisbon | Public domain (Wikisource) | 2026-11-16 |
+| Edward Gibbon, *Decline and Fall*, vol. 5, chapter 58: [Gutenberg 735](https://www.gutenberg.org/ebooks/735) | The First Crusade's route across Asia Minor; Nicaea | Public domain (Project Gutenberg) | 2026-11-16 |
+| Metropolitan Museum of Art Open Access record, object 464483 | The Limoges chasse | CC0 | 2026-11-16 |
+| Wikimedia Commons category coordinates for Hastings, Canossa, Cîteaux, Venice, Hattin, Chalkida and Limassol | Map positions for places not in Pleiades | Coordinates are facts; cited | 2026-11-16 |
+| R. I. Moore (2000), Christopher Tyerman (2006), Giles Constable (1996) | Further reading only | Copyrighted; cited only. Titles and years checked in Open Library | 2026-11-16 |
