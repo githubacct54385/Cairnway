@@ -94,7 +94,7 @@ its own header. Every claim on the page was checked against these texts in the A
 | Item | Use | License | Checked |
 | --- | --- | --- | --- |
 | Natural Earth | Base geography for maps | Public domain | not yet checked |
-| [Pleiades gazetteer](https://pleiades.stoa.org/) | Place positions on the maps of the first twelve eras (with Wikimedia Commons or Wikidata for places Pleiades does not list, named in each era's ledger), checked against it (CHR-20); credited on each of those maps | CC BY 3.0 (credit required), as stated on its downloads page | 2026-11-12 |
+| [Pleiades gazetteer](https://pleiades.stoa.org/) | Place positions on the maps of the first thirteen eras (with Wikimedia Commons or Wikidata for places Pleiades does not list, named in each era's ledger), checked against it (CHR-20); credited on each of those maps | CC BY 3.0 (credit required), as stated on its downloads page | 2026-11-12 |
 
 ## After Chalcedon, AD 451 to 600 (draft)
 
@@ -242,3 +242,19 @@ check of November 2026 (CHR-20); see `docs/REVIEW-revolution-and-restoration.md`
 | John Keble, *National Apostasy* (1833): [Wikisource](https://en.wikisource.org/wiki/National_Apostasy) | The quotation from the sermon | Public domain (Wikisource) | 2026-11-16 |
 | Wikidata coordinates for Fontainebleau, Savona, Bologna, Ancona, Castelfidardo, Tolentino, Gaeta, Vienna, Tirnovo and Ochrida | Map positions for places not checked in Pleiades | Coordinates are facts; cited | 2026-11-16 |
 | Owen Chadwick (1981, 1990, 1998), Hugh McLeod (1996) | Further reading only | Copyrighted; cited only. Titles and years checked in Open Library | 2026-11-16 |
+
+## The Church in the Modern World, AD 1870 to 1945 (draft)
+
+Licenses checked on 2026-11-16. Every claim on the page and its map was checked against these in the AI source check of
+November 2026 (CHR-20); see `docs/REVIEW-church-in-the-modern-world.md`.
+
+| Source | Use | License | Checked |
+| --- | --- | --- | --- |
+| *The Catholic Encyclopedia* (1913): [Wikisource](https://en.wikisource.org/wiki/Catholic_Encyclopedia_(1913)) | Leo XIII, Aeterni Patris, Pius X, modernism, the Boxer rebellion | Public domain (Wikisource) | 2026-11-16 |
+| *Encyclopaedia Britannica*, 1922 supplement ("Armenia", "Russia") and 1926 supplement ("Benedict XV"): [Wikisource](https://en.wikisource.org/wiki/1922_Encyclop%C3%A6dia_Britannica) | Benedict XV, the Armenian massacres, the Russian church | Public domain in the US (Wikisource) | 2026-11-16 |
+| Pius X, *Pascendi* (1907): [Wikisource](https://en.wikisource.org/wiki/Pascendi) | Date and quotation | Public domain (Wikisource) | 2026-11-16 |
+| Adolf Harnack, *What Is Christianity?*, tr. T. B. Saunders: [CCEL](https://ccel.org/ccel/harnack/christianity) | The lectures | Public domain (CCEL) | 2026-11-16 |
+| [vatican.va](https://www.vatican.va): Lateran Pacts (1929), *Mit brennender Sorge* (1937), *Divino Afflante Spiritu* (1943) | Dates and short quotations | © Libreria Editrice Vaticana; quoted briefly | 2026-11-16 |
+| Treaty of Lausanne index: [Wikisource](https://en.wikisource.org/wiki/Treaty_of_Lausanne) | Date of the population exchange convention | Public domain (Wikisource) | 2026-11-16 |
+| [Wikidata](https://www.wikidata.org) items for Pius XI, Pius XII, Tikhon, Bonhoeffer and the 1910 conference; coordinates for the map places | Bare dates and places; map positions | CC0 | 2026-11-16 |
+| Hugh McLeod (1997), Richard J. Evans (2005), Ian Kershaw (1998, 2000) | Further reading only | Copyrighted; cited only. Titles and years checked in Open Library | 2026-11-16 |

@@ -457,8 +457,8 @@
       51.27
     ],
     "Flossenbürg": [
-      12.35,
-      49.66
+      12.36,
+      49.74
     ],
     "Lausanne": [
       6.63,
@@ -3315,8 +3315,8 @@
     },
     {
       "id": "europe-1914",
-      "title": "Europe in 1914",
-      "intro": "The great powers on the eve of the First World War, with the Ottoman lands and the Armenian provinces. Boundaries are simplified.",
+      "title": "Europe, 1870 to 1945",
+      "intro": "The places named on this page, from Edinburgh to Moscow. No borders are drawn.",
       "bbox": [
         -10,
         36,
@@ -3325,50 +3325,31 @@
       ],
       "cities": [
         {
-          "place": "London",
+          "place": "Edinburgh",
           "side": "left"
         },
         {
-          "place": "Paris",
+          "place": "Lausanne",
           "side": "left"
-        },
-        {
-          "place": "Berlin",
-          "side": "right"
-        },
-        {
-          "place": "Vienna",
-          "side": "right"
         },
         {
           "place": "Rome",
           "side": "right"
         },
         {
-          "place": "St Petersburg",
+          "place": "Berlin",
           "side": "right"
         },
         {
-          "place": "Constantinople",
+          "place": "Flossenbürg",
           "side": "right"
         },
         {
-          "place": "Yerevan",
-          "side": "right"
-        },
-        {
-          "place": "Erzurum",
-          "side": "right"
-        },
-        {
-          "place": "Aleppo",
-          "side": "right"
-        },
-        {
-          "place": "Edinburgh",
+          "place": "Moscow",
           "side": "right"
         }
-      ]
+      ],
+      "credit": "Place positions checked against Wikidata (CC0). Base map made with Natural Earth (public domain)."
     },
     {
       "id": "europe-1933-1945",
