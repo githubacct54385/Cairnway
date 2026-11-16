@@ -599,6 +599,34 @@
     "Konigsberg": [
       20.5,
       54.72
+    ],
+    "Savona": [
+      8.48,
+      44.31
+    ],
+    "Fontainebleau": [
+      2.7,
+      48.41
+    ],
+    "Gaeta": [
+      13.57,
+      41.22
+    ],
+    "Tolentino": [
+      13.28,
+      43.21
+    ],
+    "Castelfidardo": [
+      13.55,
+      43.46
+    ],
+    "Tarnovo": [
+      25.63,
+      43.08
+    ],
+    "Ohrid": [
+      20.8,
+      41.12
     ]
   },
   "labels": [
@@ -3094,8 +3122,8 @@
     },
     {
       "id": "europe-1815",
-      "title": "Europe after the Congress of Vienna, 1815",
-      "intro": "The restored states of Europe, with the Papal States returned to the pope and the Holy Alliance in place. Boundaries are simplified.",
+      "title": "Europe, 1789 to 1870",
+      "intro": "Places named in the account of the Revolution, Napoleon, the Restoration and the Oxford Movement: Paris, Fontainebleau and Valence; Savona, Venice and Rome; Vienna; London and Oxford; and Constantinople. No borders are drawn.",
       "bbox": [
         -10,
         36,
@@ -3108,19 +3136,27 @@
           "side": "left"
         },
         {
+          "place": "Oxford",
+          "side": "left"
+        },
+        {
           "place": "Paris",
+          "side": "right"
+        },
+        {
+          "place": "Fontainebleau",
+          "side": "right"
+        },
+        {
+          "place": "Valence",
           "side": "left"
         },
         {
-          "place": "Madrid",
+          "place": "Savona",
           "side": "left"
         },
         {
-          "place": "Lisbon",
-          "side": "left"
-        },
-        {
-          "place": "Berlin",
+          "place": "Venice",
           "side": "right"
         },
         {
@@ -3132,27 +3168,16 @@
           "side": "right"
         },
         {
-          "place": "St Petersburg",
-          "side": "right"
-        },
-        {
           "place": "Constantinople",
           "side": "right"
-        },
-        {
-          "place": "Athens",
-          "side": "right"
-        },
-        {
-          "place": "Edinburgh",
-          "side": "right"
         }
-      ]
+      ],
+      "credit": "Place positions checked against the Pleiades gazetteer of ancient places (pleiades.stoa.org), licensed CC BY 3.0, and, for places it does not list, against Wikidata. Base map made with Natural Earth (public domain)."
     },
     {
       "id": "papal-states-1789-1870",
       "title": "The Papal States, 1789 to 1870",
-      "intro": "Rome and its territory in the years between the Revolution and the fall of Rome. The papal enclaves in France (Avignon and the Venaissin) were lost in 1790 and the Papal States were occupied in 1809 and again in 1860 and 1870. Boundaries are simplified and approximate.",
+      "intro": "Places named in the account of the Papal States: Avignon, lost to France with the Venaissin; Bologna and Ferrara, given up at Tolentino in 1797; Valence, where Pius VI died; Venice, where Pius VII was elected; Savona, where he was held; Gaeta, where Pius IX fled in 1848; Castelfidardo and Ancona, where the papal army was defeated in 1860; and Rome. No borders are drawn.",
       "bbox": [
         3,
         37.5,
@@ -3169,7 +3194,27 @@
           "side": "right"
         },
         {
-          "place": "Naples",
+          "place": "Bologna",
+          "side": "right"
+        },
+        {
+          "place": "Ferrara",
+          "side": "right"
+        },
+        {
+          "place": "Tolentino",
+          "side": "left"
+        },
+        {
+          "place": "Ancona",
+          "side": "right"
+        },
+        {
+          "place": "Castelfidardo",
+          "side": "right"
+        },
+        {
+          "place": "Gaeta",
           "side": "right"
         },
         {
@@ -3177,19 +3222,7 @@
           "side": "left"
         },
         {
-          "place": "Milan",
-          "side": "left"
-        },
-        {
-          "place": "Bologna",
-          "side": "right"
-        },
-        {
-          "place": "Ancona",
-          "side": "right"
-        },
-        {
-          "place": "Ravenna",
+          "place": "Savona",
           "side": "left"
         },
         {
@@ -3200,12 +3233,13 @@
           "place": "Valence",
           "side": "left"
         }
-      ]
+      ],
+      "credit": "Place positions checked against the Pleiades gazetteer of ancient places (pleiades.stoa.org), licensed CC BY 3.0, and, for places it does not list, against Wikidata. Base map made with Natural Earth (public domain)."
     },
     {
       "id": "balkans-1821-1870",
-      "title": "The Balkans and the Ottoman East, 1821 to 1870",
-      "intro": "Greece, the Danubian principalities, the Bulgarian Exarchate of 1870, and the Ottoman capital. Boundaries are simplified.",
+      "title": "The Balkans and Constantinople, 1821 to 1870",
+      "intro": "Places named in the account of the Orthodox churches: Constantinople, seat of the patriarch and later of the Bulgarian exarch; and Tirnovo and Ochrida, the seats of the two older Bulgarian patriarchates. No borders are drawn.",
       "bbox": [
         13,
         34.5,
@@ -3218,42 +3252,17 @@
           "side": "right"
         },
         {
-          "place": "Athens",
+          "place": "Tarnovo",
+          "name": "Tirnovo",
+          "side": "right"
+        },
+        {
+          "place": "Ohrid",
+          "name": "Ochrida",
           "side": "left"
-        },
-        {
-          "place": "Nafplio",
-          "side": "left"
-        },
-        {
-          "place": "Belgrade",
-          "side": "right"
-        },
-        {
-          "place": "Bucharest",
-          "side": "right"
-        },
-        {
-          "place": "Sofia",
-          "side": "right"
-        },
-        {
-          "place": "Plovdiv",
-          "side": "right"
-        },
-        {
-          "place": "Thessalonica",
-          "side": "right"
-        },
-        {
-          "place": "Varna",
-          "side": "right"
-        },
-        {
-          "place": "Smyrna",
-          "side": "right"
         }
-      ]
+      ],
+      "credit": "Place positions checked against the Pleiades gazetteer of ancient places (pleiades.stoa.org), licensed CC BY 3.0, and, for places it does not list, against Wikidata. Base map made with Natural Earth (public domain)."
     },
     {
       "id": "ottoman-balkans-1878",

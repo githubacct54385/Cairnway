@@ -94,7 +94,7 @@ its own header. Every claim on the page was checked against these texts in the A
 | Item | Use | License | Checked |
 | --- | --- | --- | --- |
 | Natural Earth | Base geography for maps | Public domain | not yet checked |
-| [Pleiades gazetteer](https://pleiades.stoa.org/) | Place positions on the maps of the first eleven eras (with Wikimedia Commons or Wikidata for places Pleiades does not list, named in each era's ledger), checked against it (CHR-20); credited on each of those maps | CC BY 3.0 (credit required), as stated on its downloads page | 2026-11-12 |
+| [Pleiades gazetteer](https://pleiades.stoa.org/) | Place positions on the maps of the first twelve eras (with Wikimedia Commons or Wikidata for places Pleiades does not list, named in each era's ledger), checked against it (CHR-20); credited on each of those maps | CC BY 3.0 (credit required), as stated on its downloads page | 2026-11-12 |
 
 ## After Chalcedon, AD 451 to 600 (draft)
 
@@ -229,3 +229,16 @@ check of November 2026 (CHR-20); see `docs/REVIEW-reason-and-revival.md`.
 | Metropolitan Museum of Art Open Access records, objects 438724, 205473 and 785981 | The three figures | CC0 | 2026-11-16 |
 | Wikidata coordinates for Versailles, Ypres, Frankfurt, Halle, Herrnhut, Königsberg, St Petersburg and Moscow | Map positions for places not in Pleiades | Coordinates are facts; cited | 2026-11-16 |
 | Owen Chadwick (1981), W. R. Ward (1992), Jonathan I. Israel (2001), Diarmaid MacCulloch (2009) | Further reading only | Copyrighted; cited only. Titles and years checked in Open Library | 2026-11-16 |
+
+## Revolution and Restoration, AD 1789 to 1870 (draft)
+
+Licenses checked on 2026-11-16. Every claim on the page and its three maps was checked against these in the AI source
+check of November 2026 (CHR-20); see `docs/REVIEW-revolution-and-restoration.md`.
+
+| Source | Use | License | Checked |
+| --- | --- | --- | --- |
+| Philip Schaff, *Creeds of Christendom*, vols. 1 and 2: [CCEL creeds1](https://ccel.org/ccel/schaff/creeds1), [creeds2](https://ccel.org/ccel/schaff/creeds2) | The Immaculate Conception, the Syllabus and Vatican I, with the texts of the decrees; the Prussian Union; the Evangelical Alliance; the Disciples of Christ | Public domain (CCEL) | 2026-11-16 |
+| *The Catholic Encyclopedia* (1913): [Wikisource](https://en.wikisource.org/wiki/Catholic_Encyclopedia_(1913)) | The French Revolution; Pius VI, Pius VII and Pius IX; the Concordat of 1801; Consalvi; the Holy Alliance; Chateaubriand; Lamennais; the Oxford Movement and Newman; the Syllabus; the Vatican Council; Constantinople, the Greek Church and Bulgaria | Public domain (Wikisource) | 2026-11-16 |
+| John Keble, *National Apostasy* (1833): [Wikisource](https://en.wikisource.org/wiki/National_Apostasy) | The quotation from the sermon | Public domain (Wikisource) | 2026-11-16 |
+| Wikidata coordinates for Fontainebleau, Savona, Bologna, Ancona, Castelfidardo, Tolentino, Gaeta, Vienna, Tirnovo and Ochrida | Map positions for places not checked in Pleiades | Coordinates are facts; cited | 2026-11-16 |
+| Owen Chadwick (1981, 1990, 1998), Hugh McLeod (1996) | Further reading only | Copyrighted; cited only. Titles and years checked in Open Library | 2026-11-16 |
