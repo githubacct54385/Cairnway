@@ -281,8 +281,8 @@
       50.08
     ],
     "Kosovo": [
-      21.1,
-      42.6
+      21.12,
+      42.69
     ],
     "Assisi": [
       12.61,
@@ -2845,8 +2845,9 @@
     },
     {
       "id": "schism-and-councils",
+      "credit": "Place positions checked against the Pleiades gazetteer of ancient places (pleiades.stoa.org), licensed CC BY 3.0, and, for Oxford, Prague and the battlefield of Kosovo, against Wikimedia Commons. Base map made with Natural Earth (public domain).",
       "title": "The schism and the councils",
-      "intro": "Avignon and Rome, the councils of Constance and Basel, and the frontier with the Ottomans at Kosovo. Boundaries are simplified.",
+      "intro": "Oxford and Prague, Paris, Assisi, Lyons, Avignon and Rome, Constance, Constantinople, and the battlefield of Kosovo. No borders are drawn.",
       "bbox": [
         -8,
         36,
@@ -2884,10 +2885,6 @@
         },
         {
           "place": "Prague",
-          "side": "right"
-        },
-        {
-          "place": "Venice",
           "side": "right"
         },
         {
