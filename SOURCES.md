@@ -94,7 +94,7 @@ its own header. Every claim on the page was checked against these texts in the A
 | Item | Use | License | Checked |
 | --- | --- | --- | --- |
 | Natural Earth | Base geography for maps | Public domain | not yet checked |
-| [Pleiades gazetteer](https://pleiades.stoa.org/) | Place positions on the maps of the first five eras (with Wikimedia Commons for Whitby, Lindisfarne and Iona), checked against it (CHR-20); credited on each of those maps | CC BY 3.0 (credit required), as stated on its downloads page | 2026-11-12 |
+| [Pleiades gazetteer](https://pleiades.stoa.org/) | Place positions on the maps of the first six eras (with Wikimedia Commons for Whitby, Lindisfarne, Iona, Verdun, Cluny and Kiev), checked against it (CHR-20); credited on each of those maps | CC BY 3.0 (credit required), as stated on its downloads page | 2026-11-12 |
 
 ## After Chalcedon, AD 451 to 600 (draft)
 
@@ -132,3 +132,20 @@ of November 2026 (CHR-20); see `docs/REVIEW-gregory-to-nicaea.md`.
 | Wikimedia Commons file records for the Lindisfarne Gospels f.25v (British Library, CC0) and the Sinai icon (public domain) | The figures | CC0; public domain | 2026-11-16 |
 | Wikimedia Commons category coordinates for Whitby Abbey, Lindisfarne Priory and Iona Abbey | Map positions for places not in Pleiades | Coordinates are facts; cited | 2026-11-16 |
 | Peter Brown (2003), Judith Herrin (2007), Richard Fletcher (1997), Averil Cameron (1993) | Further reading only | Copyrighted; cited only. Titles and years checked in Open Library | 2026-11-16 |
+
+## From Charlemagne to the Great Schism, AD 787 to 1054 (draft)
+
+Licenses checked on 2026-11-16. Every claim on the page was checked against these in the AI source check of November
+2026 (CHR-20); see `docs/REVIEW-carolingians-to-schism.md`.
+
+| Source | Use | License | Checked |
+| --- | --- | --- | --- |
+| Einhard and the Monk of St Gall, *Early Lives of Charlemagne*, ed. A. J. Grant: [Gutenberg 48870](https://www.gutenberg.org/ebooks/48870) | Einhard 25, 26, 28: Alcuin, reading and singing, the title in 800; Grant's notes and dating | Public domain (Project Gutenberg) | 2026-11-16 |
+| Thatcher and McNeal, *A Source Book for Mediaeval History* (1905): [Gutenberg 42707](https://www.gutenberg.org/ebooks/42707) | Liber Pontificalis on 800; letter to Baugulf; recognition of 812; Verdun; Otto I; Sutri | Public domain (Project Gutenberg) | 2026-11-16 |
+| Ogg, *A Source Book of Mediaeval History* (1907): [Gutenberg 39227](https://www.gutenberg.org/ebooks/39227) | The foundation charter of Cluny | Public domain (Project Gutenberg) | 2026-11-16 |
+| The Seven Ecumenical Councils: [NPNF2 vol. 14](https://ccel.org/ccel/schaff/npnf214) | The Caroline Books and Frankfurt | Public domain (CCEL) | 2026-11-16 |
+| *The Catholic Encyclopedia* (1913): [Wikisource](https://en.wikisource.org/wiki/Catholic_Encyclopedia_(1913)) | Alcuin; the Caroline Books; Frankfurt; the Feast of Orthodoxy; Photius; the Filioque; Cyril and Methodius; Vladimir; the Holy Sepulchre; Gregory VI, Clement II, Leo IX; Cerularius. Events and dates only | Public domain (Wikisource) | 2026-11-16 |
+| Edward Gibbon, *Decline and Fall*, vols. 5 and 6: [Gutenberg 735](https://www.gutenberg.org/ebooks/735), [736](https://www.gutenberg.org/ebooks/736) | Theodora and the images; Photius; Vladimir; Hakem; 1054. Events and dates only | Public domain (Project Gutenberg) | 2026-11-16 |
+| Metropolitan Museum of Art Open Access records, objects 464454 and 471970 | The two ivory figures | CC0 | 2026-11-16 |
+| Wikimedia Commons category coordinates for Verdun, Cluny and Kyiv | Map positions for places not in Pleiades | Coordinates are facts; cited | 2026-11-16 |
+| Rosamond McKitterick (2008), Timothy Reuter (1991), Judith Herrin (2007) | Further reading only | Copyrighted; cited only. Titles and years checked in Open Library | 2026-11-16 |
