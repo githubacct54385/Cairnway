@@ -213,7 +213,9 @@ a {
   padding-top: 1.5rem;
 }
 
-/* Tables in era text (for example, when the sources were written). They scroll sideways on narrow screens. */
+/* Tables in era text (for example, when the sources were written). On wide screens they keep their columns.
+   On phones (below 40rem) each row becomes a card with the column heading shown beside each value; see
+   labelTableCells in astro.config.mjs, which copies the headings into data-label. */
 .page table {
   display: block;
   overflow-x: auto;
@@ -234,9 +236,53 @@ a {
   color: var(--muted);
   font-weight: 600;
 }
-.page td:first-child,
-.page tr:has(td:nth-child(3)) td:nth-child(2) {
-  white-space: nowrap;
+@media (min-width: 40rem) {
+  .page td:first-child,
+  .page tr:has(td:nth-child(3)) td:nth-child(2) {
+    white-space: nowrap;
+  }
+}
+@media (max-width: 39.99rem) {
+  .page table,
+  .page thead,
+  .page tbody,
+  .page tr,
+  .page th,
+  .page td {
+    display: block;
+  }
+  .page thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+  .page tr {
+    border-bottom: 1px solid var(--rule);
+    padding: 0.7rem 0;
+  }
+  .page td {
+    border: 0;
+    padding: 0.15rem 0;
+  }
+  .page td::before {
+    content: attr(data-label);
+    display: block;
+    color: var(--muted);
+    font-size: 0.78rem;
+    font-weight: 600;
+    margin-bottom: 0.1rem;
+  }
+  .page td:first-child {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.35rem;
+  }
+  .page td:first-child::before {
+    content: none;
+  }
 }
 
 .cards {
