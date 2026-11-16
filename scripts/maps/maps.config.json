@@ -213,7 +213,7 @@
       54.49
     ],
     "Lindisfarne": [
-      -1.7,
+      -1.8,
       55.67
     ],
     "Iona": [
@@ -2687,8 +2687,9 @@
     },
     {
       "id": "english-and-east-700",
+      "credit": "Place positions checked against the Pleiades gazetteer of ancient places (pleiades.stoa.org), licensed CC BY 3.0, and, for Iona, Lindisfarne and Whitby, against Wikimedia Commons. Base map made with Natural Earth (public domain).",
       "title": "The English church and the East, about 700",
-      "intro": "Whitby, Lindisfarne and Canterbury in the north and west, with the eastern cities of the councils. Boundaries are simplified.",
+      "intro": "Whitby, Lindisfarne and Canterbury in the north and west, with the eastern cities of the councils. No borders are drawn.",
       "bbox": [
         -12,
         30,
