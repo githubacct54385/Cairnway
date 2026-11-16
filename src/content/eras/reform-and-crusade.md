@@ -14,11 +14,10 @@ reviewStatus: "Draft. In November 2026 Claude Opus 5.5, an AI model by Anthropic
 overviewMap: "crusades-and-reform"
 mapSection:
   heading: "The Crusades, 1096 to 1204"
-  intro: "Routes and battles of four crusades, and the siege of Lisbon in 1147. Routes are drawn straight between places and are simplified. The dates in the notes come from Schaff, the Catholic Encyclopedia and Villehardouin, named in each note."
+  intro: "Routes and battles of four crusades. Routes are drawn straight between places and are simplified. The dates in the notes come from Schaff, the Catholic Encyclopedia and Villehardouin, named in each note."
   ids:
     - "first-crusade-1096-1099"
     - "second-crusade-1147-1149"
-    - "lisbon-siege-1147"
     - "third-crusade-1189-1192"
     - "fourth-crusade-1202-1204"
 figures:
@@ -123,11 +122,11 @@ sources:
     checked: "2026-11-16"
     usedFor: "Most events and dates. A Protestant church history, used for events and dates; its judgments are given only with its name"
   - title: "The Catholic Encyclopedia (1913)"
-    author: "Articles on the Crusades, Gregory VII, Innocent III, Thomas Becket, Peter Abelard, Lanfranc, the Fourth Lateran Council, Portugal and the Patriarchate of Lisbon (Wikisource)"
+    author: "Articles on the Crusades, Gregory VII, Innocent III, Thomas Becket, Peter Abelard, Lanfranc and the Fourth Lateran Council (Wikisource)"
     url: "https://en.wikisource.org/wiki/Catholic_Encyclopedia_(1913)"
     license: "Public domain (Wikisource)"
     checked: "2026-11-16"
-    usedFor: "Events and dates, especially of the crusades and the siege of Lisbon"
+    usedFor: "Events and dates, especially of the crusades"
   - title: "The History of the Decline and Fall of the Roman Empire, volume 5"
     author: "Edward Gibbon (1776 to 1789; Project Gutenberg 735)"
     url: "https://www.gutenberg.org/ebooks/735"
