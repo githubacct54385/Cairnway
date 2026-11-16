@@ -152,7 +152,7 @@ Licenses checked on 2026-11-16. Every claim on the page was checked against thes
 
 ## Reform and Crusade, AD 1054 to 1215 (draft)
 
-Licenses checked on 2026-11-16. Every claim on the page and its five crusade maps was checked against these in the AI
+Licenses checked on 2026-11-16. Every claim on the page and its crusade maps was checked against these in the AI
 source check of November 2026 (CHR-20); see `docs/REVIEW-reform-and-crusade.md`. Schroeder's translation of the
 Lateran IV canons on the Fordham sourcebook, cited before the check, is no longer used: its copyright status was not
 recorded.
@@ -163,7 +163,7 @@ recorded.
 | Thatcher and McNeal, *A Source Book for Mediaeval History* (1905): [Gutenberg 42707](https://www.gutenberg.org/ebooks/42707) | Urban II's speech; the 1215 crusade decree; canon 21 | Public domain (Project Gutenberg) | 2026-11-16 |
 | Ogg, *A Source Book of Mediaeval History* (1907): [Gutenberg 39227](https://www.gutenberg.org/ebooks/39227) | Hastings; Gregory VII's letter on Canossa | Public domain (Project Gutenberg) | 2026-11-16 |
 | Philip Schaff and David S. Schaff, *History of the Christian Church*, vol. 5 (1907): [CCEL hcc5](https://ccel.org/ccel/schaff/hcc5) | Most events and dates | Public domain (CCEL) | 2026-11-16 |
-| *The Catholic Encyclopedia* (1913): [Wikisource](https://en.wikisource.org/wiki/Catholic_Encyclopedia_(1913)) | The crusades; Gregory VII; Innocent III; Becket; Abelard; Lanfranc; Lateran IV; Lisbon | Public domain (Wikisource) | 2026-11-16 |
+| *The Catholic Encyclopedia* (1913): [Wikisource](https://en.wikisource.org/wiki/Catholic_Encyclopedia_(1913)) | The crusades; Gregory VII; Innocent III; Becket; Abelard; Lanfranc; Lateran IV | Public domain (Wikisource) | 2026-11-16 |
 | Edward Gibbon, *Decline and Fall*, vol. 5, chapter 58: [Gutenberg 735](https://www.gutenberg.org/ebooks/735) | The First Crusade's route across Asia Minor; Nicaea | Public domain (Project Gutenberg) | 2026-11-16 |
 | Metropolitan Museum of Art Open Access record, object 464483 | The Limoges chasse | CC0 | 2026-11-16 |
 | Wikimedia Commons category coordinates for Hastings, Canossa, Cîteaux, Venice, Hattin, Chalkida and Limassol | Map positions for places not in Pleiades | Coordinates are facts; cited | 2026-11-16 |

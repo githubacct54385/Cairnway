@@ -8,8 +8,9 @@ had been checked, and that everything else, including every battle site and date
 general knowledge.
 
 Page: `src/content/eras/reform-and-crusade.md`. Plan: `docs/PLAN-seventh-era.md`. Maps: `scripts/maps/maps.config.json`
-(`crusades-and-reform`, `first-crusade-1096-1099`, `second-crusade-1147-1149`, `lisbon-siege-1147`,
-`third-crusade-1189-1192`, `fourth-crusade-1202-1204`).
+(`crusades-and-reform`, `first-crusade-1096-1099`, `second-crusade-1147-1149`, `third-crusade-1189-1192`,
+`fourth-crusade-1202-1204`). The `lisbon-siege-1147` map was removed on the owner's request after the check (see the
+end of this ledger).
 
 ## AI source check (CHR-20, 2026-11-16)
 
@@ -161,3 +162,11 @@ The changed positions of Heraclea, Ascalon, Hattin and Canossa are used only by 
   expugnatione Lyxbonensi*) have public-domain translations only in part or not at all; if one is found, the map notes
   could cite it directly and Arsuf, the Second Crusade's losses in Anatolia and the Lisbon fleet's route could return.
 - **Balance:** Muslim and Byzantine accounts of the crusades were not read.
+
+## Change after the check (2026-11-16)
+
+On the owner's request, the map of the siege of Lisbon (`lisbon-siege-1147`) was removed from the page, the map
+config, the map data and `public/maps/`, as short and not needed. The Catholic Encyclopedia articles on Portugal and
+the Patriarchate of Lisbon, used only for that map, are no longer listed as sources. The Lisbon rows above record what
+was checked before the removal. The place Lisbon stays in the config, because later maps use it.
+
