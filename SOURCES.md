@@ -94,7 +94,7 @@ its own header. Every claim on the page was checked against these texts in the A
 | Item | Use | License | Checked |
 | --- | --- | --- | --- |
 | Natural Earth | Base geography for maps | Public domain | not yet checked |
-| [Pleiades gazetteer](https://pleiades.stoa.org/) | Place positions on the maps of the first nine eras (with Wikimedia Commons for places Pleiades does not list, named in each era's ledger), checked against it (CHR-20); credited on each of those maps | CC BY 3.0 (credit required), as stated on its downloads page | 2026-11-12 |
+| [Pleiades gazetteer](https://pleiades.stoa.org/) | Place positions on the maps of the first ten eras (with Wikimedia Commons for places Pleiades does not list, named in each era's ledger), checked against it (CHR-20); credited on each of those maps | CC BY 3.0 (credit required), as stated on its downloads page | 2026-11-12 |
 
 ## After Chalcedon, AD 451 to 600 (draft)
 
@@ -197,3 +197,18 @@ of November 2026 (CHR-20); see `docs/REVIEW-late-medieval-church.md`.
 | Metropolitan Museum of Art Open Access records, objects 461450, 200635 and 831188 | The three figures | CC0 | 2026-11-16 |
 | Wikimedia Commons category coordinates for Basel, Ferrara, Florence, Prague and Wittenberg | Map positions for places not in Pleiades | Coordinates are facts; cited | 2026-11-16 |
 | Joseph Gill (1959), Eamon Duffy (1997), Peter Partner (1976) | Further reading only | Copyrighted; cited only. Titles and years checked in Open Library | 2026-11-16 |
+
+## The Reformation, AD 1517 to 1648 (draft)
+
+Licenses checked on 2026-11-16. Every claim on the page and its two maps was checked against these in the AI source
+check of November 2026 (CHR-20); see `docs/REVIEW-reformation.md`.
+
+| Source | Use | License | Checked |
+| --- | --- | --- | --- |
+| Philip Schaff, *History of the Christian Church*, vols. 7 and 8: [CCEL hcc7](https://ccel.org/ccel/schaff/hcc7), [hcc8](https://ccel.org/ccel/schaff/hcc8) | Luther, Zwingli, Calvin, Melanchthon, Charles V; most events | Public domain (CCEL) | 2026-11-16 |
+| Philip Schaff, *Creeds of Christendom*, vol. 1: [CCEL creeds1](https://ccel.org/ccel/schaff/creeds1) | The confessions; the Act of Supremacy; Trent; Augsburg 1555; Lucaris; Westphalia | Public domain (CCEL) | 2026-11-16 |
+| *The Catholic Encyclopedia* (1913): [Wikisource](https://en.wikisource.org/wiki/Catholic_Encyclopedia_(1913)) | Henry VIII; the Jesuits; Scotland | Public domain (Wikisource) | 2026-11-16 |
+| Friedrich Schiller, *History of the Thirty Years' War*, Morrison translation: [Gutenberg 6775](https://www.gutenberg.org/ebooks/6775) | Prague 1618; Magdeburg; Lützen; Münster 1648 | Public domain (Project Gutenberg) | 2026-11-16 |
+| Metropolitan Museum of Art Open Access records, objects 436047, 361985 and 855362 | The three figures | CC0 | 2026-11-16 |
+| Wikimedia Commons category coordinates for Edinburgh, Nantes, Wittenberg, Prague, Magdeburg, Lützen, Münster and Osnabrück | Map positions for places not in Pleiades | Coordinates are facts; cited | 2026-11-16 |
+| Diarmaid MacCulloch (2003), Peter H. Wilson (2009), Carlos M. N. Eire (2018 edition) | Further reading only | Copyrighted; cited only. Titles and years checked in Open Library | 2026-11-16 |
