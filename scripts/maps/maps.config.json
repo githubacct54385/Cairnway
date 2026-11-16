@@ -385,8 +385,8 @@
       52.13
     ],
     "Lutzen": [
-      11.97,
-      51.23
+      12.14,
+      51.26
     ],
     "Stockholm": [
       18.07,
@@ -579,6 +579,14 @@
     "Cîteaux": [
       5.09,
       47.13
+    ],
+    "Nantes": [
+      -1.55,
+      47.22
+    ],
+    "Osnabruck": [
+      8.04,
+      52.28
     ]
   },
   "labels": [
@@ -2949,8 +2957,9 @@
     },
     {
       "id": "religion-1555",
+      "credit": "Place positions checked against the Pleiades gazetteer of ancient places (pleiades.stoa.org), licensed CC BY 3.0, and, for Edinburgh, Nantes, Wittenberg and Prague, against Wikimedia Commons. Base map made with Natural Earth (public domain).",
       "title": "Religion in Europe about 1555",
-      "intro": "After the Peace of Augsburg, the German princes chose their religion, and the Reformed churches held Geneva, Scotland and parts of the Netherlands. Boundaries are simplified.",
+      "intro": "Places named on the page: Wittenberg, Worms and Augsburg in the empire, Zurich and Geneva, Trent and Rome, London and Edinburgh, Paris and Nantes, and Prague, where the Thirty Years' War began. No borders are drawn.",
       "bbox": [
         -10,
         36,
@@ -2971,12 +2980,8 @@
           "side": "left"
         },
         {
-          "place": "Madrid",
+          "place": "Nantes",
           "side": "left"
-        },
-        {
-          "place": "Amsterdam",
-          "side": "right"
         },
         {
           "place": "Wittenberg",
@@ -3007,27 +3012,16 @@
           "side": "right"
         },
         {
-          "place": "Vienna",
-          "side": "right"
-        },
-        {
           "place": "Prague",
-          "side": "right"
-        },
-        {
-          "place": "Stockholm",
-          "side": "right"
-        },
-        {
-          "place": "Copenhagen",
           "side": "right"
         }
       ]
     },
     {
       "id": "thirty-years-war",
+      "credit": "Place positions checked against Wikimedia Commons. Base map made with Natural Earth (public domain).",
       "title": "The Thirty Years' War, 1618 to 1648",
-      "intro": "The war began in Bohemia and spread across the empire, drawing in Denmark, Sweden and France. Westphalia, where the peace was made, is shown in the north-west. Boundaries are simplified.",
+      "intro": "Prague, where the war began in 1618; Magdeburg, sacked in 1631; Lützen, where Gustavus Adolphus fell in 1632; and Münster and Osnabrück, where the peace was negotiated. No borders are drawn.",
       "bbox": [
         3,
         46,
@@ -3040,39 +3034,22 @@
           "side": "right"
         },
         {
-          "place": "Vienna",
-          "side": "right"
-        },
-        {
-          "place": "Nuremberg",
-          "side": "right"
-        },
-        {
           "place": "Magdeburg",
           "side": "right"
         },
         {
           "place": "Lutzen",
-          "side": "right"
-        },
-        {
-          "place": "Wittenberg",
+          "name": "Lützen",
           "side": "right"
         },
         {
           "place": "Munster",
+          "name": "Münster",
           "side": "left"
         },
         {
-          "place": "Copenhagen",
-          "side": "right"
-        },
-        {
-          "place": "Stockholm",
-          "side": "right"
-        },
-        {
-          "place": "Amsterdam",
+          "place": "Osnabruck",
+          "name": "Osnabrück",
           "side": "left"
         }
       ]
