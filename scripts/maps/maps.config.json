@@ -2899,8 +2899,9 @@
     },
     {
       "id": "late-medieval-europe",
+      "credit": "Place positions checked against the Pleiades gazetteer of ancient places (pleiades.stoa.org), licensed CC BY 3.0, and, for Basel, Ferrara, Florence, Prague and Wittenberg, against Wikimedia Commons. Base map made with Natural Earth (public domain).",
       "title": "Europe in the fifteenth century",
-      "intro": "The councils of Basel and Florence, the Renaissance courts of Italy, Constantinople and the Ottoman frontier in the Balkans, and the edge of Muscovy. Boundaries are simplified.",
+      "intro": "The councils of Constance, Basel, Ferrara and Florence, Prague and the Hussites, Rome, Wittenberg in 1517, and Varna and Constantinople on the Ottoman frontier. No borders are drawn.",
       "bbox": [
         -9,
         34,
@@ -2909,12 +2910,12 @@
       ],
       "cities": [
         {
-          "place": "London",
-          "side": "left"
+          "place": "Wittenberg",
+          "side": "right"
         },
         {
-          "place": "Paris",
-          "side": "left"
+          "place": "Prague",
+          "side": "right"
         },
         {
           "place": "Basel",
@@ -2925,31 +2926,15 @@
           "side": "right"
         },
         {
-          "place": "Prague",
-          "side": "right"
-        },
-        {
-          "place": "Florence",
-          "side": "right"
-        },
-        {
           "place": "Ferrara",
           "side": "right"
         },
         {
-          "place": "Venice",
-          "side": "right"
+          "place": "Florence",
+          "side": "left"
         },
         {
           "place": "Rome",
-          "side": "right"
-        },
-        {
-          "place": "Naples",
-          "side": "right"
-        },
-        {
-          "place": "Belgrade",
           "side": "right"
         },
         {
@@ -2958,10 +2943,6 @@
         },
         {
           "place": "Constantinople",
-          "side": "right"
-        },
-        {
-          "place": "Moscow",
           "side": "right"
         }
       ]

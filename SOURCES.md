@@ -94,7 +94,7 @@ its own header. Every claim on the page was checked against these texts in the A
 | Item | Use | License | Checked |
 | --- | --- | --- | --- |
 | Natural Earth | Base geography for maps | Public domain | not yet checked |
-| [Pleiades gazetteer](https://pleiades.stoa.org/) | Place positions on the maps of the first eight eras (with Wikimedia Commons for places Pleiades does not list, named in each era's ledger), checked against it (CHR-20); credited on each of those maps | CC BY 3.0 (credit required), as stated on its downloads page | 2026-11-12 |
+| [Pleiades gazetteer](https://pleiades.stoa.org/) | Place positions on the maps of the first nine eras (with Wikimedia Commons for places Pleiades does not list, named in each era's ledger), checked against it (CHR-20); credited on each of those maps | CC BY 3.0 (credit required), as stated on its downloads page | 2026-11-12 |
 
 ## After Chalcedon, AD 451 to 600 (draft)
 
@@ -183,3 +183,17 @@ of November 2026 (CHR-20); see `docs/REVIEW-friars-to-constance.md`.
 | Metropolitan Museum of Art Open Access record, object 471981 | The ivory diptych leaf | CC0 | 2026-11-16 |
 | Wikimedia Commons category coordinates for Oxford, Prague and Gazimestan | Map positions for places not in Pleiades | Coordinates are facts; cited | 2026-11-16 |
 | Brian Tierney (1964), Joseph R. Strayer (1980), Norman F. Cantor (2001) | Further reading only | Copyrighted; cited only. Titles and years checked in Open Library | 2026-11-16 |
+
+## The Late Medieval Church, AD 1417 to 1517 (draft)
+
+Licenses checked on 2026-11-16. Every claim on the page and its map was checked against these in the AI source check
+of November 2026 (CHR-20); see `docs/REVIEW-late-medieval-church.md`.
+
+| Source | Use | License | Checked |
+| --- | --- | --- | --- |
+| Philip Schaff and David S. Schaff, *History of the Christian Church*, vols. 6 and 7: [CCEL hcc6](https://ccel.org/ccel/schaff/hcc6), [hcc7](https://ccel.org/ccel/schaff/hcc7) | Most events and dates | Public domain (CCEL) | 2026-11-16 |
+| *The Catholic Encyclopedia* (1913): [Wikisource](https://en.wikisource.org/wiki/Catholic_Encyclopedia_(1913)) | Basel; Florence; the popes; Savonarola; Varna | Public domain (Wikisource) | 2026-11-16 |
+| Edward Gibbon, *Decline and Fall*, vol. 6, chapters 67 and 68: [Gutenberg 736](https://www.gutenberg.org/ebooks/736) | Varna; Mehmed II | Public domain (Project Gutenberg) | 2026-11-16 |
+| Metropolitan Museum of Art Open Access records, objects 461450, 200635 and 831188 | The three figures | CC0 | 2026-11-16 |
+| Wikimedia Commons category coordinates for Basel, Ferrara, Florence, Prague and Wittenberg | Map positions for places not in Pleiades | Coordinates are facts; cited | 2026-11-16 |
+| Joseph Gill (1959), Eamon Duffy (1997), Peter Partner (1976) | Further reading only | Copyrighted; cited only. Titles and years checked in Open Library | 2026-11-16 |
