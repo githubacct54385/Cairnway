@@ -2745,8 +2745,9 @@
     },
     {
       "id": "carolingian-world",
+      "credit": "Place positions checked against the Pleiades gazetteer of ancient places (pleiades.stoa.org), licensed CC BY 3.0, and, for Verdun, Cluny and Kiev, against Wikimedia Commons. Base map made with Natural Earth (public domain).",
       "title": "The Carolingian world and the schism",
-      "intro": "The Frankish kingdoms around Aachen and Verdun, the papacy in Rome, and the eastern and northern frontiers. Boundaries are simplified.",
+      "intro": "Aachen, Verdun, Tours and Cluny in the Frankish lands, Rome, Constantinople and Kiev. No borders are drawn.",
       "bbox": [
         -6,
         34,
@@ -2772,14 +2773,6 @@
         },
         {
           "place": "Rome",
-          "side": "right"
-        },
-        {
-          "place": "Bari",
-          "side": "right"
-        },
-        {
-          "place": "Venice",
           "side": "right"
         },
         {
