@@ -94,7 +94,7 @@ its own header. Every claim on the page was checked against these texts in the A
 | Item | Use | License | Checked |
 | --- | --- | --- | --- |
 | Natural Earth | Base geography for maps | Public domain | not yet checked |
-| [Pleiades gazetteer](https://pleiades.stoa.org/) | Place positions on the maps of the first thirteen eras (with Wikimedia Commons or Wikidata for places Pleiades does not list, named in each era's ledger), checked against it (CHR-20); credited on each of those maps | CC BY 3.0 (credit required), as stated on its downloads page | 2026-11-12 |
+| [Pleiades gazetteer](https://pleiades.stoa.org/) | Place positions on the maps of the first fourteen eras (with Wikimedia Commons or Wikidata for places Pleiades does not list, named in each era's ledger), checked against it (CHR-20); credited on each of those maps | CC BY 3.0 (credit required), as stated on its downloads page | 2026-11-12 |
 
 ## After Chalcedon, AD 451 to 600 (draft)
 
@@ -258,3 +258,15 @@ November 2026 (CHR-20); see `docs/REVIEW-church-in-the-modern-world.md`.
 | Treaty of Lausanne index: [Wikisource](https://en.wikisource.org/wiki/Treaty_of_Lausanne) | Date of the population exchange convention | Public domain (Wikisource) | 2026-11-16 |
 | [Wikidata](https://www.wikidata.org) items for Pius XI, Pius XII, Tikhon, Bonhoeffer and the 1910 conference; coordinates for the map places | Bare dates and places; map positions | CC0 | 2026-11-16 |
 | Hugh McLeod (1997), Richard J. Evans (2005), Ian Kershaw (1998, 2000) | Further reading only | Copyrighted; cited only. Titles and years checked in Open Library | 2026-11-16 |
+
+## Council and Cold War, AD 1945 to 1989 (draft)
+
+Licenses checked on 2026-11-16. Every claim on the page and its map was checked against these in the AI source check of
+November 2026 (CHR-20); see `docs/REVIEW-council-and-cold-war.md`.
+
+| Source | Use | License | Checked |
+| --- | --- | --- | --- |
+| [Second Vatican Council documents](https://www.vatican.va/archive/hist_councils/ii_vatican_council/index.htm) (vatican.va) | Dates and short quotations | © Libreria Editrice Vaticana; quoted briefly | 2026-11-16 |
+| [vatican.va](https://www.vatican.va): Munificentissimus Deus, Humanae Salutis, Pacem in Terris, the 1965 Common Declaration, Humanae Vitae, John Paul II's Warsaw homily (1979), Francis's Angelus (2021) and canonization homily (2018) | Dates and short quotations | © Libreria Editrice Vaticana; quoted briefly | 2026-11-16 |
+| [Wikidata](https://www.wikidata.org) | Bare dates and places; map positions | CC0 | 2026-11-16 |
+| Hugh McLeod (1997), John W. O'Malley (2008) | Further reading only | Copyrighted; cited only. Titles and years checked in Open Library | 2026-11-16 |

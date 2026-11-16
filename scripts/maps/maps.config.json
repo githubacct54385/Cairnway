@@ -3406,8 +3406,8 @@
     },
     {
       "id": "europe-divided-1950",
-      "title": "Europe divided, 1950",
-      "intro": "The Iron Curtain across Europe in 1950, with the Soviet-controlled churches to the east and the free churches to the west. Boundaries are simplified.",
+      "title": "Europe, 1945 to 1989",
+      "intro": "The places named on this page, from Amsterdam to Warsaw. No borders are drawn.",
       "bbox": [
         -10,
         36,
@@ -3416,43 +3416,19 @@
       ],
       "cities": [
         {
-          "place": "London",
-          "side": "left"
-        },
-        {
-          "place": "Paris",
-          "side": "left"
-        },
-        {
-          "place": "Madrid",
-          "side": "left"
-        },
-        {
           "place": "Amsterdam",
           "side": "left"
-        },
-        {
-          "place": "Geneva",
-          "side": "left"
-        },
-        {
-          "place": "Berlin",
-          "side": "right"
-        },
-        {
-          "place": "Vienna",
-          "side": "right"
         },
         {
           "place": "Rome",
           "side": "right"
         },
         {
-          "place": "Prague",
+          "place": "Berlin",
           "side": "right"
         },
         {
-          "place": "Budapest",
+          "place": "Gdańsk",
           "side": "right"
         },
         {
@@ -3460,18 +3436,15 @@
           "side": "right"
         },
         {
-          "place": "Moscow",
+          "place": "Kraków",
           "side": "right"
         },
         {
-          "place": "Stockholm",
-          "side": "right"
-        },
-        {
-          "place": "Athens",
+          "place": "Budapest",
           "side": "right"
         }
-      ]
+      ],
+      "credit": "Place positions checked against Wikidata (CC0). Base map made with Natural Earth (public domain)."
     },
     {
       "id": "central-europe-1956-1989",
