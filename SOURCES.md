@@ -94,7 +94,7 @@ its own header. Every claim on the page was checked against these texts in the A
 | Item | Use | License | Checked |
 | --- | --- | --- | --- |
 | Natural Earth | Base geography for maps | Public domain | not yet checked |
-| [Pleiades gazetteer](https://pleiades.stoa.org/) | Place positions on the maps of the first four eras, checked against it (CHR-20); credited on each of those maps | CC BY 3.0 (credit required), as stated on its downloads page | 2026-11-12 |
+| [Pleiades gazetteer](https://pleiades.stoa.org/) | Place positions on the maps of the first five eras (with Wikimedia Commons for Whitby, Lindisfarne and Iona), checked against it (CHR-20); credited on each of those maps | CC BY 3.0 (credit required), as stated on its downloads page | 2026-11-12 |
 
 ## After Chalcedon, AD 451 to 600 (draft)
 
@@ -121,12 +121,14 @@ November 2026 (CHR-20); see `docs/REVIEW-late-antiquity.md`.
 
 ## Gregory to the Second Council of Nicaea, AD 600 to 787 (draft)
 
-Editions named here; licenses checked on 2026-11-12. Bede (Sellar translation) is a Project Gutenberg text (ebook 38326);
-the CCEL volume states "Rights: Public Domain" in its header. Other editions to be chosen and licensed before quoting.
+Licenses checked on 2026-11-12 and 2026-11-16. Every claim on the page was checked against these in the AI source check
+of November 2026 (CHR-20); see `docs/REVIEW-gregory-to-nicaea.md`.
 
 | Source | Use | License | Checked |
 | --- | --- | --- | --- |
-| Bede, *Ecclesiastical History of England*, Sellar translation: [Gutenberg 38326](https://www.gutenberg.org/ebooks/38326) | Augustine's mission; the Synod of Whitby | Public domain (Project Gutenberg) | 2026-11-12 |
-| The Seven Ecumenical Councils: [NPNF2 vol. 14](https://ccel.org/ccel/schaff/npnf214) | The Sixth and Seventh Councils | Public domain (CCEL) | 2026-11-12 |
-| Theophanes; Sophronius; Isidore; the Lateran council and Maximus | Not yet drafted from full texts | To check | not yet checked |
-| Peter Brown, Judith Herrin, Richard Fletcher, Averil Cameron | Further reading | Copyrighted; cited only | not yet checked |
+| Bede, *Ecclesiastical History of England*, Sellar translation: [Gutenberg 38326](https://www.gutenberg.org/ebooks/38326) | Augustine's mission; Whitby; Theodore; Hatfield; 731; the Saracens in Gaul; the translator's notes on the Lateran council | Public domain (Project Gutenberg) | 2026-11-16 |
+| The Seven Ecumenical Councils: [NPNF2 vol. 14](https://ccel.org/ccel/schaff/npnf214) | The Sixth and Seventh Councils; the council of 754; Bury's note on Leo III | Public domain (CCEL) | 2026-11-16 |
+| Edward Gibbon, *Decline and Fall*, vols. 4 and 5, with later editors' notes: [Gutenberg 734](https://www.gutenberg.org/ebooks/734), [735](https://www.gutenberg.org/ebooks/735) | Muhammad and the Hegira; the Arab conquests; Martin and Maximus; Leo III; Tours. Events and dates only | Public domain (Project Gutenberg) | 2026-11-16 |
+| Wikimedia Commons file records for the Lindisfarne Gospels f.25v (British Library, CC0) and the Sinai icon (public domain) | The figures | CC0; public domain | 2026-11-16 |
+| Wikimedia Commons category coordinates for Whitby Abbey, Lindisfarne Priory and Iona Abbey | Map positions for places not in Pleiades | Coordinates are facts; cited | 2026-11-16 |
+| Peter Brown (2003), Judith Herrin (2007), Richard Fletcher (1997), Averil Cameron (1993) | Further reading only | Copyrighted; cited only. Titles and years checked in Open Library | 2026-11-16 |
