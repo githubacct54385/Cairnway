@@ -1,309 +1,174 @@
 ---
 title: "The Church Today"
-summary: "The church after the Cold War, growing fast in the global South and shrinking in parts of Europe and North America, divided over sexuality, ordination and authority, and facing abuse scandals, persecution and the war in Ukraine."
+summary: "The church after the Cold War: growing in sub-Saharan Africa and shrinking in Europe and North America, divided over sexuality and authority, facing abuse reports and persecution, and led in Rome by Benedict XVI, Francis and Leo XIV."
 dateRange: "AD 1989 to the present"
 order: 15
 startYear: 1989
 endYear: 2026
 draft: true
-reviewStatus: "Draft, written 2026-11-12 from docs/PLAN-fifteenth-era.md. Pew's 2025 report on Christian population change (2010 to 2020) checked against the report on 2026-11-12. Open Doors' 2026 World Watch List figures are from news coverage only, because the Open Doors pages could not be read that day. The 2025 papal succession is checked against news coverage (Francis died 21 April 2025; Leo XIV elected 8 May 2025). Every other date, name and claim is from the drafter's general knowledge and is unchecked, including the dates of the denominational decisions and the abuse reports. No specialist has reviewed this page. Living people are described only by their public actions and statements, and each statement needs its source before publication."
-flags:
-  - text: "The Pew membership figures are now checked against the report itself. The Open Doors persecution figures are still from news coverage: the Open Doors pages could not be read on 2026-11-12. Read the Open Doors list before publication. Counts vary widely between reports, so each figure must keep its report and date."
-    severity: high
-  - text: "The abuse section gives findings and responses from several reports. None has yet been read. Each finding must be checked against its report before publication."
-    severity: high
-  - text: "The divisions over sexuality and ordination describe decisions by several denominations. The dates and wording of each decision are unchecked."
-    severity: medium
-  - text: "The page covers events that are still unfolding, including the war in Ukraine. Its 'as of' date must be updated at each revision."
-    severity: medium
+reviewLedger: "docs/REVIEW-the-church-today.md"
+aiReview:
+  model: "Claude Opus 5.5 (Anthropic)"
+  month: "November 2026"
+reviewStatus: "Draft. In November 2026 Claude Opus 5.5, an AI model by Anthropic, checked every citation, quotation, date, name and figure on this page against its source, and rewrote or removed what the sources did not support. Figures were read in the reports themselves: Pew Research Center's 2025 report on Christian population change, the Open Doors World Watch List page, and the John Jay College report of 2004. Papal documents were read on the Holy See's website. Dates of persons and events not covered by those documents rest on Wikidata. Much of the draft could not be checked from any source the AI could read and was removed, including the Lambeth resolution of 1998, the Jerusalem Declaration, the Southern Baptist Convention's abuse report and the books by Kate Bowler and by Whitehead and Perry. The debates of the period are named but not summarized for the same reason. Living people are described only by their offices and dates. The page was last checked on 16 November 2026. No specialist has reviewed this page."
 keyPeople:
-  - name: "Pope John Paul II"
-    role: "Pope, 1978 to 2005"
-    summary: "Pope through the end of the Cold War and into the twenty-first century. He traveled widely and was central to the response to the abuse crisis in its early stages. Details not yet checked."
-    source: "Not yet checked"
-  - name: "Pope Benedict XVI"
+  - name: "Benedict XVI"
     role: "Pope, 2005 to 2013"
-    summary: "Resigned in 2013, the first pope to do so in some six centuries. His papacy included the early stages of the abuse crisis in the Catholic Church. Details not yet checked."
-    source: "Not yet checked"
-  - name: "Pope Francis"
+    summary: "Elected on 19 April 2005. In a declaration dated 10 February 2013 and made public on 11 February, he renounced the ministry of Bishop of Rome, with effect from 28 February 2013."
+    source: "Benedict XVI, Declaratio of 10 February 2013 (vatican.va)"
+  - name: "Francis"
     role: "Pope, 2013 to 2025"
-    summary: "Elected in 2013 and the first pope from Latin America. His encyclical *Laudato Si'* (2015) addressed the environment and the poor. He died on 21 April 2025, and was succeeded by Leo XIV (Robert Francis Prevost), elected on 8 May 2025. Dates checked against news coverage, not yet against Vatican statements."
-    source: "Not yet checked"
+    summary: "Elected on 13 March 2013. His encyclical Laudato Si', on care for our common home, is dated 24 May 2015. He died on 21 April 2025."
+    source: "Laudato Si' (vatican.va); dates from Wikidata"
+  - name: "Leo XIV"
+    role: "Pope, from 2025"
+    summary: "Born in 1955, prior general of the Augustinians from 2001 and bishop of Chiclayo from 2015, he was elected pope on 8 May 2025."
+    source: "Wikidata"
   - name: "Bartholomew I"
     role: "Ecumenical Patriarch of Constantinople, from 1991"
-    summary: "Leader of the Orthodox Church's honorary primacy. The Ecumenical Patriarchate granted autocephaly to the Orthodox Church of Ukraine in 2019. Details not yet checked."
-    source: "Not yet checked"
-  - name: "Patriarch Kirill"
+    summary: "Ecumenical Patriarch since 22 October 1991."
+    source: "Wikidata"
+  - name: "Kirill"
     role: "Patriarch of Moscow and All Russia, from 2009"
-    summary: "Head of the Russian Orthodox Church. His public statements on the war in Ukraine from 2022 are to be cited with care. Details not yet checked."
-    source: "Not yet checked"
+    summary: "Patriarch since 1 February 2009."
+    source: "Wikidata"
   - name: "Justin Welby"
-    role: "Archbishop of Canterbury, 2013 to 2024"
-    summary: "Led the Church of England and the Anglican Communion through the disputes over sexuality and the abuse cases. Details not yet checked."
-    source: "Not yet checked"
+    role: "Archbishop of Canterbury, 2013 to 2025"
+    summary: "Archbishop of Canterbury from 4 February 2013 to 7 January 2025."
+    source: "Wikidata"
 events:
-  - date: "AD 1989 (unchecked)"
+  - date: "AD 1989"
     title: "Both: The Berlin Wall falls"
-    summary: "The fall of the wall ended the communist control of the churches in central Europe in its existing form. This is the starting point of the era (see the fourteenth era)."
-    source: "Not yet checked"
-  - date: "AD 1991 (unchecked)"
-    title: "East: The Soviet Union dissolves"
-    summary: "The Russian Orthodox Church gained a freer position within the Russian state, and churches in the former Soviet republics were reorganized. Details not yet checked."
-    source: "Not yet checked"
-  - date: "AD 1998 (unchecked)"
-    title: "West: Lambeth Conference resolutions on sexuality"
-    summary: "The Anglican bishops at Lambeth passed resolutions on human sexuality that became a central point of dispute in the Communion. The wording is to be checked."
-    source: "Not yet checked"
-  - date: "AD 1999 (unchecked)"
+    summary: "The Wall falls on 9 November, the starting point of this era (see the fourteenth era)."
+    source: "Wikidata"
+  - date: "AD 1999"
     title: "West: The Joint Declaration on the Doctrine of Justification"
-    summary: "The Lutheran World Federation and the Catholic Church agreed a statement on justification, which was once the central doctrinal dispute of the Reformation. Its status and reception are not yet checked."
-    source: "Not yet checked"
-  - date: "AD 2002 (unchecked)"
-    title: "West: Abuse reports lead to a global crisis in the Catholic Church"
-    summary: "Newspaper reports in the United States led to a wider reckoning with abuse by priests and the handling of cases by bishops. Details, dates and the reports are not yet checked."
-    source: "Not yet checked"
-  - date: "AD 2008 (unchecked)"
-    title: "Both: GAFCON meets in Jerusalem"
-    summary: "The Global Anglican Future Conference brought together bishops who opposed the direction of the Communion on sexuality and Scripture. Details not yet checked."
-    source: "Not yet checked"
-  - date: "AD 2013 (unchecked)"
-    title: "West: Pope Francis is elected"
-    summary: "The first pope from Latin America and the first from the Jesuit order. Details not yet checked."
-    source: "Not yet checked"
-  - date: "AD 2015 (unchecked)"
-    title: "West: Laudato Si' is published"
-    summary: "An encyclical on care for the common home, addressing climate, poverty and the economy. Its date and text are not yet checked."
-    source: "Not yet checked"
-  - date: "AD 2018 and AD 2019 (unchecked)"
-    title: "East: The Orthodox Church of Ukraine is granted autocephaly"
-    summary: "The Ecumenical Patriarchate granted autocephaly to a new Ukrainian church, and the Russian Orthodox Church broke communion with the Patriarchate in response. The dates and terms are not yet checked."
-    source: "Not yet checked"
-  - date: "AD 2019 and AD 2022 (unchecked)"
-    title: "West: The United Methodist Church divides"
-    summary: "The General Conference voted in 2019 on a plan to separate over the church's teaching on sexuality. The Global Methodist Church was formed as a separate body in 2022. Dates, votes and terms are not yet checked."
-    source: "Not yet checked"
-  - date: "AD 2022 (unchecked)"
-    title: "East: Russia invades Ukraine; the Orthodox churches divide over the war"
-    summary: "The full-scale invasion in February 2022 led several Orthodox churches to take positions on the war, and some to break communion with Moscow. Details not yet checked."
-    source: "Not yet checked"
-  - date: "AD 2022 (unchecked)"
-    title: "West: The Southern Baptist Convention's abuse report"
-    summary: "An independent report found failures in how the Convention's churches handled abuse cases. The findings, the response and the criticisms of both are to be checked."
-    source: "Not yet checked"
-  - date: "AD 2023 (unchecked)"
-    title: "West: The Church of England approves prayers for same-sex couples"
-    summary: "The General Synod agreed to a form of prayer for blessing same-sex couples, which the Anglican Communion's other provinces received in different ways. Date and wording not yet checked."
-    source: "Not yet checked"
-  - date: "AD 2025 (checked against news coverage)"
+    summary: "Lutherans and Catholics publish a joint declaration on justification."
+    source: "Wikidata"
+  - date: "AD 2004"
+    title: "West: The John Jay report"
+    summary: "A study for the United States Conference of Catholic Bishops counts allegations of sexual abuse against 4,392 priests for 1950 to 2002, and 10,667 individuals who made allegations."
+    source: "John Jay College, The Nature and Scope of Sexual Abuse of Minors (2004)"
+  - date: "AD 2008"
+    title: "Both: The Global Anglican Future Conference"
+    summary: "Wikidata dates the conference's founding to 22 June."
+    source: "Wikidata"
+  - date: "AD 2013"
+    title: "West: Benedict XVI resigns; Francis is elected"
+    summary: "Benedict XVI's renunciation takes effect on 28 February. Francis is elected on 13 March."
+    source: "Declaratio (vatican.va); Wikidata"
+  - date: "AD 2015"
+    title: "West: Laudato Si'"
+    summary: "Francis's encyclical on care for our common home is dated 24 May."
+    source: "Laudato Si' (vatican.va)"
+  - date: "AD 2018"
+    title: "East: The Orthodox Church of Ukraine"
+    summary: "The Orthodox Church of Ukraine is founded on 15 December."
+    source: "Wikidata"
+  - date: "AD 2022"
+    title: "East: Russia invades Ukraine"
+    summary: "The full-scale invasion begins on 24 February."
+    source: "Wikidata"
+  - date: "AD 2025"
     title: "Both: Death of Pope Francis and the election of Leo XIV"
-    summary: "Pope Francis died on 21 April 2025. The conclave elected Robert Francis Prevost, who took the name Leo XIV, on 8 May 2025. The dates come from news coverage and are to be confirmed against Vatican statements."
-    source: "News coverage (to be replaced by the Vatican's own announcements)"
+    summary: "Francis dies on 21 April. Leo XIV is elected on 8 May."
+    source: "Wikidata"
+  - date: "AD 2026"
+    title: "Both: The World Watch List"
+    summary: "Open Doors' list for 2026 says that more than 388 million Christians suffer high levels of persecution and discrimination for their faith."
+    source: "Open Doors, World Watch List 2026 (opendoors.org)"
 sources:
   - title: "How the Global Religious Landscape Changed From 2010 to 2020 (Pew Research Center, 9 June 2025)"
-    author: "Conrad Hackett and colleagues, Pew Research Center"
+    author: "Pew Research Center"
     url: "https://www.pewresearch.org/religion/2025/06/09/christian-population-change/"
-    license: "To check. The report's reuse terms must be recorded before any figure is quoted"
-    checked: "2026-11-12"
-    usedFor: "Membership by region, 2010 to 2020"
-  - title: "Open Doors, World Watch List (latest edition)"
-    author: "Open Doors"
-    license: "To check"
-    checked: "not yet checked"
-    usedFor: "Persecution (its method must be stated)"
-  - title: "John Jay College, The Nature and Scope of Sexual Abuse of Minors by Catholic Priests and Deacons (2004)"
-    author: "John Jay College of Criminal Justice"
-    license: "To check: a US government-funded report, but its reuse terms are not yet recorded"
-    checked: "not yet checked"
-    usedFor: "Abuse in the Catholic Church in the United States"
-  - title: "Lambeth Conference resolutions on human sexuality (1998)"
-    author: "Anglican Communion"
-    license: "To check"
-    checked: "not yet checked"
-    usedFor: "Sexuality in the Anglican Communion"
-  - title: "The Jerusalem Declaration (GAFCON, 2008)"
-    author: "Global Anglican Future Conference"
-    license: "To check"
-    checked: "not yet checked"
-    usedFor: "Anglican division"
-  - title: "Laudato Si' (2015)"
-    author: "Pope Francis"
-    url: "https://www.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html"
-    license: "To check: the Vatican's reuse terms must be recorded. Quote only short passages"
-    checked: "not yet checked"
-    usedFor: "Catholic social teaching on the environment"
+    license: "© Pew Research Center; figures cited, short quotation"
+    checked: "2026-11-16"
+    usedFor: "Christian population by region, 2010 to 2020"
+  - title: "World Watch List 2026"
+    author: "Open Doors International"
+    url: "https://www.opendoors.org/en-US/persecution/countries/"
+    license: "© Open Doors; figure cited"
+    checked: "2026-11-16 (the list's landing page only; the full report was not read)"
+    usedFor: "The headline count of persecuted Christians, in Open Doors' own terms"
+  - title: "The Nature and Scope of Sexual Abuse of Minors by Catholic Priests and Deacons in the United States, 1950–2002 (2004)"
+    author: "John Jay College of Criminal Justice, for the United States Conference of Catholic Bishops"
+    url: "https://www.usccb.org/sites/default/files/issues-and-action/child-and-youth-protection/upload/The-Nature-and-Scope-of-Sexual-Abuse-of-Minors-by-Catholic-Priests-and-Deacons-in-the-United-States-1950-2002.pdf"
+    license: "© USCCB; figures cited"
+    checked: "2026-11-16"
+    usedFor: "The counts of priests and of people who made allegations"
+  - title: "Papal documents on vatican.va"
+    author: "Benedict XVI, Declaratio (2013); Francis, Laudato Si' (2015)"
+    url: "https://www.vatican.va"
+    license: "© Libreria Editrice Vaticana; quoted briefly, never reproduced"
+    checked: "2026-11-16"
+    usedFor: "The resignation and the encyclical"
+  - title: "Wikidata"
+    author: "Items for the popes, Bartholomew I, Kirill, Justin Welby, the Joint Declaration, the Global Anglican Future Conference, the Orthodox Church of Ukraine, the fall of the Berlin Wall and the Russian invasion of Ukraine"
+    url: "https://www.wikidata.org"
+    license: "CC0"
+    checked: "2026-11-16"
+    usedFor: "Bare dates and offices only, where no fuller source could be read"
   - title: "Modern studies of the period"
-    author: "Philip Jenkins; authors to be chosen"
+    author: "Philip Jenkins; Kate Bowler; Andrew L. Whitehead and Samuel L. Perry"
     license: "Copyrighted; cited only, never reproduced"
-    checked: "not yet checked"
-    usedFor: "Background (full titles under Further reading)"
+    checked: "2026-11-16 (titles and years against Open Library)"
+    usedFor: "Further reading only; nothing on the page rests on them"
 ---
 
 ## Overview
 
-The fourteenth era ended with the fall of the Berlin Wall in 1989. This era runs from that point to the present, and it is the
-only era on this site that is still happening. Its sources are recent, its figures change, and some of its disputes have not
-been settled. The page therefore states the date of its last check and says where the sources disagree.
+The fourteenth era ended with the fall of the Berlin Wall in 1989. This era runs from that point to the present, and it is the only era on this site that is still happening. Its sources are recent, its figures change, and some of its disputes have not been settled. The page was last checked on 16 November 2026.
 
-The church's center of gravity has moved south. Most Christians now live in Africa, Asia and Latin America, while many churches
-in Europe and North America have shrunk. The divisions of the period cut across these regions: over sexuality and the ordination
-of women, over authority and Scripture, over worship, and over politics and war. Abuse by clergy has become a question for every
-large church, and the page gives its findings and responses without a verdict the sources do not support.
+Most sources for this period are in copyright or could not be read for this check. The page therefore gives the figures of the reports it could read, the documents of the Catholic Church, and bare dates, and leaves out what rests only on other sources.
 
 ## The shape of the church today
 
-Christianity is the largest religion in the world by number of adherents. Pew Research Center's report of 9 June 2025, *How the
-Global Religious Landscape Changed From 2010 to 2020*, counts 2.1 billion Christians in 2010 and 2.3 billion in 2020, a rise of 6
-per cent. Christians fell as a share of the world's population, from 31 to 29 per cent. Sub-Saharan Africa had the largest gain,
-to 697 million (up 31 per cent), and now holds 31 per cent of the world's Christians. Europe fell to 505 million (down 9 per cent),
-and North America to 238 million (down 11 per cent). Pew reports that the number of Christians grew in Latin America and the
-Caribbean, Asia-Pacific and the Middle East and North Africa, but it gives no figures for those regions. The report links the fall
-in share to people leaving Christianity: "This change is largely driven by high rates of Christian disaffiliation."
+Pew Research Center's report of 9 June 2025, *How the Global Religious Landscape Changed From 2010 to 2020*, says that the number of Christians worldwide grew by 6 per cent, from 2.1 billion in 2010 to 2.3 billion in 2020. Christians fell as a share of the world's population, from 31 to 29 per cent. The count grew most in sub-Saharan Africa, to 697 million (up 31 per cent), which by 2020 held 31 per cent of the world's Christians. Europe fell to 505 million (down 9 per cent) and held 22 per cent, and North America fell to 238 million (down 11 per cent). Latin America and the Caribbean held 24 per cent of the world's Christians. The report links the fall in share to people leaving Christianity: "This change is largely driven by high rates of Christian disaffiliation".
 
-## The church and the end of communism
+## The Orthodox churches and the war in Ukraine
 
-The fall of communism changed the position of the Eastern churches. In Russia the Orthodox Church regained a public role within
-the state, while in central Europe churches that had been restricted or persecuted reorganized. The Orthodox world was divided
-by the 2018 and 2019 decisions on the Orthodox Church of Ukraine, and by the Russian invasion of Ukraine in 2022. Several churches
-took positions on the war, and some broke communion with Moscow. These events are described with the sources to be cited. Details
-not yet checked.
+Bartholomew I has been Ecumenical Patriarch since 1991, and Kirill Patriarch of Moscow since 2009. The Orthodox Church of Ukraine was founded on 15 December 2018. Russia began its full-scale invasion of Ukraine on 24 February 2022. The draft's account of the grant of autocephaly, the Russian church's break with Constantinople and the Orthodox churches' positions on the war could not be checked from any source read and has been removed.
 
 ## Divisions over sexuality and ordination
 
-The most visible divisions since 1989 have concerned sexuality and the ordination of women. In the Anglican Communion, resolutions
-at the Lambeth Conference in 1998 and the formation of GAFCON in 2008 set conservative and liberal provinces against each other. The
-Church of England approved a form of prayer for blessing same-sex couples in 2023, and other provinces have responded differently.
-The United Methodist Church voted in 2019 to separate over its teaching on sexuality, and the Global Methodist Church was formed in
-2022. In the Presbyterian and Lutheran churches, similar debates have led to schisms or to changes in ordination rules. Each
-denomination's position is given in its own words, with a source. Details not yet checked.
+The Global Anglican Future Conference was founded in June 2008. The draft's account of the Lambeth Conference resolution of 1998, the Church of England's prayers for same-sex couples, the division of the United Methodist Church and the debates in other churches could not be checked from any source read, because the churches' own texts could not be opened, and has been removed.
 
 ## Abuse and accountability
 
-Abuse of children and vulnerable adults by clergy has been a crisis in several churches since the early 2000s. In the Catholic Church,
-newspaper reports in the United States led to investigations, the John Jay report of 2004, and many later reforms and disputes. The
-Southern Baptist Convention's own report in 2022 found failures in how its churches handled abuse cases. Other churches, including
-Anglican and Protestant bodies, have faced similar inquiries. The page sets out the findings of each report, the responses of the
-churches, and the criticisms that followed from survivors and observers. Where the sources disagree on the scale or the causes, the
-page says so. Details not yet checked. This section needs a specialist reviewer.
+In 2004 John Jay College of Criminal Justice reported to the United States Catholic bishops on allegations of sexual abuse of minors by Catholic priests and deacons from 1950 to 2002. It counted allegations against 4,392 priests that were "not withdrawn or known to be false", and 10,667 individuals who made allegations. It noted that the share of all priests is "difficult to derive because there is no definitive number of priests who were active" in those years.
 
-## Renewal and new movements
-
-Pentecostal and charismatic churches have grown fastest in the global South, and many independent churches and megachurches have
-grown in cities. The Alpha course, begun in the Church of England, spread widely. These movements have their own critics, who
-dispute their theology, their finances and their leaders. Details not yet checked.
+Other churches have faced similar inquiries. The Southern Baptist Convention's 2022 report could not be read for this check, so its findings are not given here.
 
 ## Ecumenism and its limits
 
-Since 1989 the Catholic Church has continued its dialogue with the Orthodox and with the Protestant churches. The 1999 Joint
-Declaration on the Doctrine of Justification between Lutherans and Catholics was a notable agreement, and the World Council of Churches
-continues its work, though it has its own divisions. Several recent popes have met leaders of other churches. The limits of these
-dialogues, especially between the Catholic and Orthodox churches, are set out in the sources. Details not yet checked.
+Lutherans and Catholics published a Joint Declaration on the Doctrine of Justification in 1999. Its text could not be read for this check.
 
 ## Persecution and migration
 
-Christians are reported to face persecution in many countries, including Nigeria, Pakistan, China, India and parts of the Middle
-East. Open Doors' 2026 World Watch List, published in January 2026, puts the number of Christians facing high levels of persecution
-at 388 million, about one in seven Christians worldwide, and says two in five Christians in Asia are affected. It reports 4,849
-Christians killed for their faith, with Nigeria having the most killings, and 15 countries rated "extreme". These are Open Doors'
-own counts, using its stated method, which an outside body has audited, according to Open Doors; other reports count differently.
-The figures come from news coverage of the list, and the list itself is not yet read. Christian communities in Iraq and Syria have
-shrunk sharply during and after recent wars, and many Christians have emigrated. Migrant congregations are now a large part of
-church life in Europe and North America. Details not yet checked.
+Open Doors' World Watch List for 2026 says that "more than 388m Christians suffer high levels of persecution and discrimination for their faith", and that in the 50 countries on its list "315m+ Christians face very high or extreme persecution". These are Open Doors' own counts, by its own method. Only the list's landing page could be read for this check; the full report and its method were not.
 
-## Politics and the churches
+## The papacy
 
-In the United States, white evangelical Protestants have been closely aligned with one political party for several decades, and the
-debate over Christian nationalism divides churches and scholars. In post-communist countries, churches have taken different
-positions on the state and on public morality. The Catholic Church's social teaching on migration and the environment, including
-*Laudato Si'*, has been widely discussed. Details not yet checked.
-
-## Criticisms and open questions
-
-This section sets out criticisms that have been made of the churches in this era, by people inside and outside them. It does not
-give the page's own verdict on how Christians should live. Each criticism is attributed to the person or report that makes it, and
-where a church has replied, the reply is given.
-
-### Criticism from inside the churches
-
-The most documented internal criticism concerns the handling of abuse. The Southern Baptist Convention commissioned Guidepost Solutions
-to investigate its Executive Committee's handling of abuse reports. The report was released on 22 May 2022, and Religion News Service
-reported its findings. The investigators wrote that "a few senior EC leaders, along with outside counsel, largely controlled the EC's
-response to these reports of abuse", and that "survivors and others who reported abuse were ignored, disbelieved or met with the
-constant refrain". They also wrote that the committee was "singularly focused on avoiding liability for the SBC to the exclusion of
-other considerations". The Executive Committee has since changed its procedures, and the reform process is disputed by some critics.
-Source: Religion News Service report of 22 May 2022, as reprinted by the Baptist Standard. The full report has not yet been read,
-and the Executive Committee's reply has not yet been added.
-
-The John Jay College study of 2004 reached similar conclusions about how Catholic dioceses dealt with allegations, but its report
-has not yet been read directly. Other internal criticism has concerned the churches' relations with the poor, the treatment of
-women, and the way divisions over sexuality have been handled. Named critics from these areas, their statements and the replies to
-them are still to be found and checked.
-
-### Criticism from outside the churches
-
-Historian Kate Bowler, in *Blessed: A History of the American Prosperity Gospel* (Oxford University Press, 2013), traces the teaching
-that faith brings material blessing, and reviewers describe her as taking it seriously rather than dismissing it. Her direct wording
-has not yet been checked against the book. Sociologists Andrew L. Whitehead and Samuel L. Perry, in *Taking America Back for God:
-Christian Nationalism in the United States* (Oxford University Press, 2020), argue from survey data that a belief that the United
-States is a Christian nation goes with views on race, immigration, marriage and sexuality. A review quotes them as saying that
-"not all Christian nationalists are white or evangelical or particularly religious in their behavior". The book itself has not yet
-been read, and the quotations are from that review. Replies from the churches and writers named here are still to be added.
-
-### Where the standards are contested
-
-Several criticisms depend on the standard applied. For example, a church that teaches a particular moral standard on sexuality may
-be criticized by some as unloving, and by others as faithful. Those on each side describe their own standard in their own words,
-and the page reports both without choosing. The same applies to the churches' relations with each other, to their attitude to
-the state, and to their response to persecution. See the sections on divisions and on politics above.
-
-### What the figures show
-
-Pew Research Center's 2025 report, which the page has read directly, links the fall in the Christian share of the world's population
-to people leaving the faith: "This change is largely driven by high rates of Christian disaffiliation." Open Doors' figures on
-persecution point to a rise, but they are news-based here and have not yet been checked against the report, and other reports count
-differently. The page reports the figures as the sources give them, with their methods.
-
-## Where the church stands
-
-The main open questions are these: whether the divisions over sexuality and ordination will lead to more separate churches or to
-new settlements; whether the reforms after the abuse crises will hold; how the churches of the global South and North will share
-leadership and money; and what the war in Ukraine will mean for Orthodox unity. This page gives no prediction on these questions.
-Each one is to be settled by evidence that is not yet in hand, and the sources to watch are listed under Further reading.
+Benedict XVI, elected in 2005, declared in a text dated 10 February 2013, and made public on 11 February, that he renounced the ministry of Bishop of Rome, "well aware of the seriousness of this act", with effect from 28 February 2013. Francis was elected on 13 March 2013. His encyclical *Laudato Si'*, on care for our common home, is dated 24 May 2015, the feast of Pentecost. He died on 21 April 2025, and Leo XIV was elected on 8 May 2025.
 
 ## Key debates
 
-### Are the divisions over sexuality a question of doctrine or of culture?
-
-Both sides argue that their position rests on Scripture and tradition, and that the other has departed from them. Historians and
-sociologists also explain the divisions in terms of the different situations of churches in different countries. The page sets out
-these views and does not choose between them. Details not yet checked.
-
-### Have the reforms after the abuse crises been enough?
-
-Churches have adopted new safeguarding rules, and some have published reports. Survivors and some observers argue the reforms are
-too slow or too limited. Church leaders argue that they have acted. The page gives both positions, with sources. Details not yet
-checked.
-
-### Is persecution of Christians increasing?
-
-Several reports say so, but their counts differ widely, and some scholars question the methods used to compile them. The page gives
-each report's method and does not present one count as settled. Details not yet checked.
+Several questions about this era are widely debated: whether the divisions over sexuality are a question of doctrine or of culture, whether the reforms after the abuse reports have been enough, and whether persecution of Christians is increasing. No source on these debates could be read for this check, so the page names them but does not summarize the arguments. The page gives no prediction about how they will be settled.
 
 ## Glossary
 
 | Term | Meaning on this page |
 | --- | --- |
-| Autocephaly | An Orthodox church's self-governing status, granted by a patriarchate or synod |
-| Communion | In this era, the full sharing of the sacraments and of church life between churches or denominations |
+| Autocephaly | An Orthodox church's self-governing status |
+| Disaffiliation | In Pew's words, "people becoming religiously unaffiliated as adults after having been raised as Christians in childhood" |
 | Ecumenism | The movement to bring the divided churches closer together |
-| GAFCON | The Global Anglican Future Conference, a movement of conservative Anglican bishops and churches |
-| Megachurch | A large, usually independent, congregation, often with several services and a large budget |
+| GAFCON | The Global Anglican Future Conference |
 | Safeguarding | The policies and procedures a church uses to prevent and respond to abuse |
 
 ## Further reading
 
-Modern scholarship is cited here, not copied. Titles and years are from memory and are being checked.
+Modern scholarship is cited here, not copied. Titles and years were checked against the Open Library catalogue in November 2026. Nothing on the page rests on these books.
 
-- Philip Jenkins, *The Next Christendom* (2002, revised editions). The global picture of Christianity.
-- A study of the Anglican Communion since 1998 (to choose; candidates to check).
-- A study of the abuse crisis by a scholar of church history (to choose; candidates to check).
-- Pew Research Center and Open Doors, the latest reports on global Christianity and persecution (to check).
+- Philip Jenkins, *The Next Christendom* (2002). The global picture of Christianity.
+- Kate Bowler, *Blessed: A History of the American Prosperity Gospel* (2013).
+- Andrew L. Whitehead and Samuel L. Perry, *Taking America Back for God: Christian Nationalism in the United States* (2020).

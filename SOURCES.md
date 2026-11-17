@@ -94,7 +94,7 @@ its own header. Every claim on the page was checked against these texts in the A
 | Item | Use | License | Checked |
 | --- | --- | --- | --- |
 | Natural Earth | Base geography for maps | Public domain | not yet checked |
-| [Pleiades gazetteer](https://pleiades.stoa.org/) | Place positions on the maps of the first fourteen eras (with Wikimedia Commons or Wikidata for places Pleiades does not list, named in each era's ledger), checked against it (CHR-20); credited on each of those maps | CC BY 3.0 (credit required), as stated on its downloads page | 2026-11-12 |
+| [Pleiades gazetteer](https://pleiades.stoa.org/) | Place positions on the maps of the first fourteen eras (the fifteenth has no map) (with Wikimedia Commons or Wikidata for places Pleiades does not list, named in each era's ledger), checked against it (CHR-20); credited on each of those maps | CC BY 3.0 (credit required), as stated on its downloads page | 2026-11-12 |
 
 ## After Chalcedon, AD 451 to 600 (draft)
 
@@ -270,3 +270,17 @@ November 2026 (CHR-20); see `docs/REVIEW-council-and-cold-war.md`.
 | [vatican.va](https://www.vatican.va): Munificentissimus Deus, Humanae Salutis, Pacem in Terris, the 1965 Common Declaration, Humanae Vitae, John Paul II's Warsaw homily (1979), Francis's Angelus (2021) and canonization homily (2018) | Dates and short quotations | © Libreria Editrice Vaticana; quoted briefly | 2026-11-16 |
 | [Wikidata](https://www.wikidata.org) | Bare dates and places; map positions | CC0 | 2026-11-16 |
 | Hugh McLeod (1997), John W. O'Malley (2008) | Further reading only | Copyrighted; cited only. Titles and years checked in Open Library | 2026-11-16 |
+
+## The Church Today, AD 1989 to the present (draft)
+
+Licenses checked on 2026-11-16. Every claim on the page was checked against these in the AI source check of November
+2026 (CHR-20); see `docs/REVIEW-the-church-today.md`.
+
+| Source | Use | License | Checked |
+| --- | --- | --- | --- |
+| [Pew Research Center, *How the Global Religious Landscape Changed From 2010 to 2020*](https://www.pewresearch.org/religion/2025/06/09/christian-population-change/) (9 June 2025) | Christian population by region | © Pew; figures cited, short quotation | 2026-11-16 |
+| [Open Doors, World Watch List 2026](https://www.opendoors.org/en-US/persecution/countries/) (landing page) | Headline counts, in Open Doors' terms | © Open Doors; figures cited | 2026-11-16 |
+| [John Jay College, *The Nature and Scope of Sexual Abuse of Minors by Catholic Priests and Deacons in the United States, 1950–2002*](https://www.usccb.org/sites/default/files/issues-and-action/child-and-youth-protection/upload/The-Nature-and-Scope-of-Sexual-Abuse-of-Minors-by-Catholic-Priests-and-Deacons-in-the-United-States-1950-2002.pdf) (2004) | Counts of priests and of people who made allegations | © USCCB; figures cited | 2026-11-16 |
+| [vatican.va](https://www.vatican.va): Benedict XVI's Declaratio (2013), Francis's *Laudato Si'* (2015) | Dates and a short quotation | © Libreria Editrice Vaticana; quoted briefly | 2026-11-16 |
+| [Wikidata](https://www.wikidata.org) | Bare dates and offices | CC0 | 2026-11-16 |
+| Philip Jenkins (2002), Kate Bowler (2013), Andrew L. Whitehead and Samuel L. Perry (2020) | Further reading only | Copyrighted; cited only. Titles and years checked in Open Library | 2026-11-16 |
