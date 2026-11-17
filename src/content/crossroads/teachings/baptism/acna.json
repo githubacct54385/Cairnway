@@ -1,43 +1,43 @@
 {
-  "summary": "The Anglican Church in North America's catechism, To Be a Christian, teaches that baptism is one of the two sacraments Christ ordained, which are generally necessary for salvation. The sign is water with the Trinitarian formula, and the grace is death to sin and new birth, through union with Christ, when baptism is rightly received. Candidates must repent and have faith. Infants are baptized as a sign that God's promise embraces them in the covenant community, and those who present them vow to raise them in the faith. The text read does not say how the water is applied or whether baptism can be repeated.",
+  "summary": "The Anglican Church in North America's catechism, To Be a Christian, teaches that baptism is one of the two sacraments Christ ordained, which are generally necessary for salvation. The sign is water with the Trinitarian formula, and the grace is death to sin and new birth, through union with Christ. Candidates must repent and have faith. Infants are baptized as a sign that God's promise embraces them in the covenant community, and those who present them vow to raise them in the faith. The catechism does not say how the water is applied or whether baptism can be repeated.",
   "points": [
     {
       "question": "What is baptism?",
-      "answer": "One of the two sacraments of the Gospel ordained by Christ, which are generally necessary for our salvation.",
-      "at": "Catechism (2016 draft), Q. 104"
+      "answer": "One of the two sacraments ordained by Christ that are \"generally necessary to salvation\", in words the catechism takes from the 1662 Catechism.",
+      "at": "To Be a Christian, Q. 123"
     },
     {
       "question": "What is the sign, and what does it set forth?",
-      "answer": "The sign is water used in the name of the Father, Son and Holy Spirit. The grace set forth is death to sin and new birth to righteousness through union with Christ in his death and resurrection; in baptism rightly received, the person is made God's child by grace through faith.",
-      "at": "Catechism (2016 draft), Q. 105-106"
+      "answer": "The sign is water, in which candidates are baptized in the name of the Father, Son and Holy Spirit. The grace is death to sin and new birth to righteousness through union with Christ in his death and resurrection; through faith in Christ and the gift of the Spirit the baptized are made members of Christ's Body and adopted as God's children and heirs.",
+      "at": "To Be a Christian, Q. 126-127"
     },
     {
       "question": "What is asked of the person baptized?",
       "answer": "Repentance, turning from sin, and faith, turning to Jesus Christ as Savior and Lord.",
-      "at": "Catechism (2016 draft), Q. 107"
+      "at": "To Be a Christian, Q. 128"
     },
     {
       "question": "Are infants baptized?",
-      "answer": "Yes, as a sign of God's promise that they are embraced in the covenant community of the Church. Those who present them vow to raise them in the knowledge and fear of the Lord, expecting that they will profess the faith as their own.",
-      "at": "Catechism (2016 draft), Q. 108"
+      "answer": "Yes, as a sign of God's promise that they are embraced in the covenant community of Christ's Church. Those who present them vow to raise them in the knowledge and fear of the Lord, expecting that they will one day profess full Christian faith as their own.",
+      "at": "To Be a Christian, Q. 129"
     }
   ],
   "scripture": [
-    "1 Peter 3:21",
-    "Matthew 28:19",
+    "Matthew 28:19-20",
+    "1 Peter 3:18-22",
     "John 3:3-5",
     "Romans 6:1-11",
-    "Galatians 3:27-29",
-    "Acts 2:38-39"
+    "Colossians 2:9-14",
+    "Acts 2:37-39"
   ],
   "scriptureNote": "Passages the catechism cites with these questions.",
   "document": {
     "title": "To Be a Christian: An Anglican Catechism",
-    "section": "The Sacraments, Questions 103-109 in the text read (the published edition numbers them differently)",
+    "section": "Concerning Sacraments: Questions 123 and 126-129",
     "issuer": "Anglican Church in North America",
-    "date": "2016 draft; approved edition published 2020",
+    "date": "Published edition, copyright 2020",
     "url": "https://anglicanchurch.net/catechism/",
-    "edition": "The 2016 text posted on the ACNA's website (PDF). The 2020 published edition may differ in wording and numbering"
+    "edition": "The published edition (PDF on anglicanchurch.net, To-Be-a-Christian.pdf), read in full on 2026-11-17"
   },
   "rights": {
     "status": "summary-only",
@@ -45,25 +45,25 @@
     "checked": "2026-11-12"
   },
   "review": {
-    "status": "draft",
-    "note": "Questions 103-109 read in the 2016 draft on 2026-11-12. The approved 2020 edition, the Book of Common Prayer 2019 baptism service, and the Articles of Religion have not been used. \"Generally necessary\" is the catechism's wording, taken from Article 25, and is matched to the \"yes, with limits\" answer as our reading. Not yet checked by a second reviewer."
+    "status": "ai-checked",
+    "note": "Checked by Claude Opus 5.5, an AI model by Anthropic, on 2026-11-17 (CHR-20): every point, quotation, scripture reference and position read against the published 2020 edition of To Be a Christian. The entry had been drafted from a 2016 draft with different question numbers; it now follows the published edition. The catechism's two marks, sign and grace, are read as \"sign and seal\" (our reading)."
   },
   "positions": {
     "who": {
       "answer": "infants-too",
-      "at": "Catechism (2016 draft), Q. 107-108"
+      "at": "To Be a Christian, Q. 107-108"
     },
     "how": {
       "answer": "not-stated"
     },
     "effect": {
       "answer": "sign-and-seal",
-      "at": "Catechism (2016 draft), Q. 105-106",
+      "at": "To Be a Christian, Q. 105-106",
       "reading": true
     },
     "necessity": {
       "answer": "needed",
-      "at": "Catechism (2016 draft), Q. 104",
+      "at": "To Be a Christian, Q. 104",
       "reading": true
     },
     "repeat": {

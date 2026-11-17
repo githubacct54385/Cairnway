@@ -1,14 +1,14 @@
 {
-  "summary": "The Church of Jesus Christ of Latter-day Saints teaches, in its Gospel Topics page on baptism, that baptism is the first step toward salvation and exaltation and is required for church membership and for eternal life. It must be by full immersion, performed by someone holding priesthood authority, and it includes receiving the Holy Ghost. Baptism is for those who have reached the age of accountability, which the page says the Lord revealed to be eight. Little children are redeemed through Christ and need no baptism, and the page calls the claim that they do a denial of Christ's mercy. The page does not address whether other churches' baptisms are accepted or whether baptism can be repeated.",
+  "summary": "The Church of Jesus Christ of Latter-day Saints teaches, in its Gospel Topics page on baptism, that baptism by immersion, by one having authority, is the first ordinance of salvation and exaltation and is required for church membership and for eternal life. It must be by immersion, performed by one who has authority from Jesus Christ, and it includes receiving the Holy Ghost. Baptism is for those who have reached the age of accountability, which the page says the Lord revealed to be eight. Little children are redeemed through Christ and need no baptism, and the page calls the claim that they do a denial of Christ's mercy. The page does not address whether other churches' baptisms are accepted or whether baptism can be repeated.",
   "points": [
     {
       "question": "What is baptism for?",
-      "answer": "It is the first step toward salvation and exaltation, required for church membership and for eternal life. Those baptized covenant to take Christ's name, keep his commandments and serve him, and renew that covenant through the sacrament.",
+      "answer": "It is the first ordinance of salvation and exaltation, required for church membership and for eternal life. Those baptized covenant to take Christ's name, keep his commandments and serve him, and renew that covenant through the sacrament.",
       "at": "Gospel Topics: Baptism"
     },
     {
       "question": "How is it given?",
-      "answer": "By full immersion in water, symbolizing dying to sin, being reborn spiritually and resurrection, by someone who holds priesthood authority.",
+      "answer": "By immersion in water, symbolizing dying to sin, being reborn spiritually and resurrection, by one called of God who has authority from Jesus Christ.",
       "at": "Gospel Topics: Baptism"
     },
     {
@@ -18,7 +18,7 @@
     },
     {
       "question": "What does it give?",
-      "answer": "Faithful keepers of the baptismal covenant receive the Holy Ghost as a constant companion, forgiveness of sins and the promise of eternal life.",
+      "answer": "The page lists blessings including the constant companionship of the Holy Ghost, the remission of sins and being spiritually reborn; those who continue faithfully are promised eternal life.",
       "at": "Gospel Topics: Baptism"
     }
   ],
@@ -46,8 +46,8 @@
     "checked": "2026-11-12"
   },
   "review": {
-    "status": "draft",
-    "note": "The page was summarized by a reading tool and not read in full by a person or a second pass. It does not address whether the church accepts baptisms from other churches or baptism for the dead, both part of LDS teaching; other official sources are needed before this entry says anything on them. Matching \"gives forgiveness\" to the \"gives grace\" answer is our reading, since the page ties forgiveness to keeping the covenant. Not yet checked by a second reviewer."
+    "status": "ai-checked",
+    "note": "Checked by Claude Opus 5.5, an AI model by Anthropic, on 2026-11-17 (CHR-20): every point, quotation, scripture reference and position read against the Gospel Topics page on churchofjesuschrist.org."
   },
   "positions": {
     "who": {

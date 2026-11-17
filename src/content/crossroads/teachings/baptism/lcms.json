@@ -8,7 +8,7 @@
     },
     {
       "question": "What does it give?",
-      "answer": "Forgiveness of sins, deliverance from death and the devil, and eternal salvation to all who believe the words and promises of God.",
+      "answer": "It works forgiveness of sins, delivers from death and the devil, and gives eternal salvation to all who believe this, as the words and promises of God declare.",
       "at": "Small Catechism, Fourth Part, \"Secondly\""
     },
     {
@@ -43,8 +43,8 @@
     "checked": "2026-11-12"
   },
   "review": {
-    "status": "draft",
-    "note": "Read in the bookofconcord.org text on 2026-11-12. The LCMS's own published catechism and its Large Catechism and statements on infant baptism have not been used yet, so the entry says nothing on who may be baptized. Not yet checked by a second reviewer."
+    "status": "ai-checked",
+    "note": "Checked by Claude Opus 5.5, an AI model by Anthropic, on 2026-11-17 (CHR-20): every point, quotation, scripture reference and position read against the Fourth Chief Part on bookofconcord.org. The 1529 date is from the same site."
   },
   "topic": "baptism",
   "body": "lcms",

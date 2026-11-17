@@ -1,5 +1,5 @@
 {
-  "summary": "The Catholic Church teaches that baptism is the first of the sacraments and the doorway to the others. By it a person is freed from sin, including original sin, and becomes a child of God and a member of the Church. It is given once and cannot be repeated. The Church baptizes infants and adults, and holds baptism necessary for salvation for those to whom the Gospel has been proclaimed, while entrusting to God's mercy those who could not receive it.",
+  "summary": "The Catholic Church teaches that baptism is the basis of the whole Christian life and the door to the other sacraments. By it a person is freed from sin, including original sin, and becomes a child of God and a member of the Church. It is given once and cannot be repeated. The Church baptizes infants and adults, and holds baptism necessary for salvation for those to whom the Gospel has been proclaimed, while entrusting to God's mercy those who could not receive it.",
   "points": [
     {
       "question": "What does baptism do?",
@@ -40,7 +40,7 @@
     "title": "Catechism of the Catholic Church",
     "section": "Part Two, Section Two, Chapter One, Article 1: The Sacrament of Baptism (paragraphs 1213-1284)",
     "issuer": "Catholic Church (Holy See)",
-    "date": "1992; typical edition 1997",
+    "date": "1992 (promulgated by John Paul II in Fidei Depositum, 11 October 1992)",
     "url": "https://www.vatican.va/archive/ENG0015/__P3G.HTM",
     "edition": "English text on the Holy See's website (IntraText edition)"
   },
@@ -50,8 +50,8 @@
     "checked": "2026-11-12"
   },
   "review": {
-    "status": "draft",
-    "note": "Summary and points written from paragraphs 1213, 1239-1240, 1246-1247, 1250, 1252-1253, 1256-1261, 1263, 1265, 1267, 1270, 1272 and 1274, read in the Holy See's English text on 2026-11-12. Paragraphs 1214-1238, 1241-1245, 1248-1249, 1251, 1254-1255, 1262, 1264, 1266, 1268-1269, 1271, 1273 and 1275-1284 were not used. Not yet checked by a second reviewer."
+    "status": "ai-checked",
+    "note": "Checked by Claude Opus 5.5, an AI model by Anthropic, on 2026-11-17 (CHR-20): every point, quotation, scripture reference and position read against CCC 1213-1284 in the English text on vatican.va. The date is from Fidei Depositum on vatican.va."
   },
   "topic": "baptism",
   "body": "catholic",

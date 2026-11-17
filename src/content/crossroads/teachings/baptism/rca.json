@@ -45,8 +45,8 @@
     "checked": "2026-11-12"
   },
   "review": {
-    "status": "draft",
-    "note": "Questions 66-74 read in full on 2026-11-12 in the CCEL text. The RCA's own copy, its adoption of the catechism, and the Belgic Confession's article on baptism have not been checked or used. Not yet checked by a second reviewer."
+    "status": "ai-checked",
+    "note": "Checked by Claude Opus 5.5, an AI model by Anthropic, on 2026-11-17 (CHR-20): every point, quotation, scripture reference and position read against Questions 66-74 on CCEL; the 1563 date agrees with Schaff, Creeds of Christendom, vol. 1."
   },
   "relatedEras": [
     "apostolic-age",
