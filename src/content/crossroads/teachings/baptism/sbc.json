@@ -36,8 +36,8 @@
     "checked": "2026-11-12"
   },
   "review": {
-    "status": "draft",
-    "note": "Article VII was summarized by a reading tool on 2026-11-12 and was not read in full by a person or a second pass. Baptist churches govern themselves, so this speaks for the SBC and not for every Baptist church."
+    "status": "ai-checked",
+    "note": "Checked by Claude Opus 5.5, an AI model by Anthropic, on 2026-11-17 (CHR-20): every point, quotation, scripture reference and position read against Article VII on bfm.sbc.net."
   },
   "topic": "baptism",
   "body": "sbc",

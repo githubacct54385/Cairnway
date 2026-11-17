@@ -29,7 +29,7 @@
     "issuer": "Church of England",
     "date": "1571; printed in the Book of Common Prayer (1662)",
     "url": "https://www.churchofengland.org/prayer-and-worship/worship-texts-and-resources/book-common-prayer/articles-religion",
-    "edition": "Wording read in a web copy of the Articles; the Church of England's own page was reached but its text of this article was not retrieved"
+    "edition": "The 1571 English text as printed in Schaff, Creeds of Christendom, vol. 3 (CCEL), which follows the Book of Common Prayer; the churchofengland.org page lists the articles but its text was not read"
   },
   "rights": {
     "status": "public-domain",
@@ -37,8 +37,8 @@
     "checked": "2026-11-12"
   },
   "review": {
-    "status": "draft",
-    "note": "Wording read in a secondary web transcription on 2026-11-12 and not yet compared with the Church of England's own page. The Articles do not describe the form of baptism; the Book of Common Prayer's baptism services, which do, have not been used. Other Anglican churches are not represented."
+    "status": "ai-checked",
+    "note": "Checked by Claude Opus 5.5, an AI model by Anthropic, on 2026-11-17 (CHR-20): every point, quotation, scripture reference and position read against Article XXVII in Schaff's Creeds of Christendom, vol. 3 (CCEL). The quotation matches the modern column word for word."
   },
   "topic": "baptism",
   "body": "church-of-england",

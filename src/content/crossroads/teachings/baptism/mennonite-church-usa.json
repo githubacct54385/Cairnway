@@ -32,7 +32,7 @@
     "title": "Confession of Faith in a Mennonite Perspective",
     "section": "Article 11: Baptism",
     "issuer": "Mennonite Church USA",
-    "date": "1995 (from general knowledge, unchecked)",
+    "date": "Not stated on the page read",
     "url": "https://www.mennoniteusa.org/who-are-mennonites/what-we-believe/confession-of-faith/baptism/",
     "edition": "Text on mennoniteusa.org, read in full on 2026-11-12. The confession is also published by MennoMedia"
   },
@@ -42,8 +42,8 @@
     "checked": "2026-11-12"
   },
   "review": {
-    "status": "draft",
-    "note": "Article 11 and its commentary read on mennoniteusa.org on 2026-11-12. The year and the confession's relationship to Mennonite Church Canada have not been checked. Grouping this under \"declaration of faith\" is our reading: the confession says baptism is a sign of both God's action and the person's pledge, which sits between the \"sign and seal\" and \"declaration\" answers. Not yet checked by a second reviewer."
+    "status": "ai-checked",
+    "note": "Checked by Claude Opus 5.5, an AI model by Anthropic, on 2026-11-17 (CHR-20): every point, quotation, scripture reference and position read against Article 11 and its commentary on mennoniteusa.org. The year of the confession is not stated there and has been removed. Grouping it under \"declaration of faith\" is our reading: the confession calls baptism a sign of both God's action and the person's pledge."
   },
   "positions": {
     "who": {

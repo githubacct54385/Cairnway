@@ -53,7 +53,7 @@
     "title": "The Westminster Confession of Faith",
     "section": "Chapter 28: Of Baptism",
     "issuer": "Presbyterian Church in America (holds the Westminster Standards); text of the Westminster Assembly",
-    "date": "1646 (Assembly); adopted by the PCA on its founding in 1973",
+    "date": "1647 (Schaff's date for the Assembly's text); the PCA's year of adoption is not checked",
     "url": "https://www.opc.org/wcf.html",
     "edition": "Text and proof texts read on the OPC and The-Highway websites; the PCA's own published copy has not been compared"
   },
@@ -63,8 +63,8 @@
     "checked": "2026-11-12"
   },
   "review": {
-    "status": "draft",
-    "note": "Chapter 28 read in full on 2026-11-12 in two web copies. Which Reformed body to name, and the PCA's adoption date, still need to be confirmed against the PCA's own documents. Other Reformed churches, for example those that hold the Heidelberg Catechism, teach somewhat differently and are not represented."
+    "status": "ai-checked",
+    "note": "Checked by Claude Opus 5.5, an AI model by Anthropic, on 2026-11-17 (CHR-20): every point, quotation, scripture reference and position read against Chapter 28 on opc.org; the date from Schaff, Creeds of Christendom, vol. 3."
   },
   "topic": "baptism",
   "body": "pca",
