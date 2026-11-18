@@ -25,6 +25,34 @@ The site has two sections:
 
 The site also has a search page, a page listing every source and its license, and a form for reporting corrections.
 
+## Screenshots
+
+<p align="center">
+  <img src="docs/screenshots/home-desktop.png" alt="Cairnway home page with two cards: Ancient Paths for church history and Crossroads for what the churches teach" width="860">
+</p>
+
+**Ancient Paths** is a scrolling timeline. Each of the 15 eras has its own page with people, events, maps and a citation for every claim.
+
+<p align="center">
+  <img src="docs/screenshots/history-desktop.png" alt="Ancient Paths timeline drawn to scale from AD 30 to 2026, one segment per era" width="860">
+</p>
+<p align="center">
+  <img src="docs/screenshots/era-desktop.png" alt="The Apostolic Age era page with a sources-checked banner and an on-this-page contents list" width="860">
+</p>
+
+**Crossroads** compares what churches officially teach, in the words of their own catechisms and confessions. It is a grid on larger screens and a grouped list on phones.
+
+<p align="center">
+  <img src="docs/screenshots/comparison-desktop.png" alt="Baptism comparison grid: twelve churches by five questions, with colored answers" width="860">
+</p>
+
+<table align="center">
+  <tr>
+    <td><img src="docs/screenshots/home-mobile.png" alt="Home page on a phone" width="280"></td>
+    <td><img src="docs/screenshots/comparison-mobile.png" alt="Baptism answers grouped by question on a phone" width="280"></td>
+  </tr>
+</table>
+
 > **Status:** early work in progress (`prelaunch: false` in `src/config.ts`, so search engines may index it). Pages marked
 > "Draft" have not yet been reviewed against their sources. Pages are first drafted with the help of an AI and then
 > checked against their sources; each era's banner says what has been checked so far.
