@@ -69,7 +69,7 @@ The Worker's name sets its `workers.dev` address, so the rename created a new Wo
 2. Set every secret on the new Worker (they belong to a Worker, not the account): `TURNSTILE_SECRET`, `GITHUB_TOKEN`,
    `RESEND_API_KEY`, `NOTIFY_EMAIL`, each with `npx wrangler secret put NAME`.
 3. In Turnstile, add the new hostnames to the widget: `cairnway.<subdomain>.workers.dev` and
-   `staging-cairnway.<subdomain>.workers.dev`.
+   `cairnway-staging.<subdomain>.workers.dev`.
 4. Merge the pull request that renames it in the repository. From then on the pipeline uploads to `cairnway`.
 5. If Cloudflare Access was turned on for the old Worker's preview URLs, turn it on again for the new one.
 6. Check the new addresses, then delete the old Worker in the dashboard (Workers & Pages, `ancient-paths`, Settings, Delete).
