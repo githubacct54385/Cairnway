@@ -19,7 +19,7 @@ The site has two sections:
 
 The site also has a search page, a page listing every source and its license, and a form for reporting corrections.
 
-> **Status:** early work in progress, and the site is not yet public (`prelaunch: true` in `src/config.ts`). Pages marked
+> **Status:** early work in progress (`prelaunch: false` in `src/config.ts`, so search engines may index it). Pages marked
 > "Draft" have not yet been reviewed against their sources. Pages are first drafted with the help of an AI and then
 > checked against their sources; each era's banner says what has been checked so far.
 

@@ -1,5 +1,4 @@
-# Pre-launch: crawling is allowed so the site can be checked, but every page carries a noindex tag
-# (see "prelaunch" in src/config.ts), so search engines will not list it. At launch, flip that flag.
+# Crawling is allowed. The "prelaunch" flag in src/config.ts is off, so pages no longer carry a noindex tag.
 User-agent: *
 Allow: /
 Disallow: /history/review/
