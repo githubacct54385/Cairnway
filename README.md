@@ -78,6 +78,53 @@ The site also has a search page, a page listing every source and its license, an
 - A [Cloudflare Worker](https://developers.cloudflare.com/workers/) in `worker/` for the report form,
   protected by Cloudflare Turnstile
 
+## Engineering highlights
+
+A static site is the simple part. These are the pieces behind it that I'd point to.
+
+**Architecture**
+
+- **Static first, one small server.** Pages are built ahead of time with Astro and TypeScript. The only dynamic feature, the
+  report form, is a single Cloudflare Worker that handles `/api/*`; everything else is served as static files.
+- **Content as typed data.** Eras, topics, churches and teachings are Markdown and JSON files checked against Zod schemas.
+  Cross-references are validated at build time, so an unknown church, topic, era or answer, or a missing passage pointer,
+  fails the build with a message that names the entry.
+- **A comparison engine.** Crossroads shows how twelve churches answer the same questions, as a grid or grouped by answer,
+  with a "compare with" mode. A pairwise agreement score skips "not stated" instead of counting it as disagreement, and an
+  average-linkage clustering turns the scores into a tree of which churches agree most.
+- **Search without a server.** [Pagefind](https://pagefind.app) builds the index at build time, with a filter to search
+  one section or both.
+
+**Security**
+
+- **Content Security Policy built from the output.** `scripts/write-headers.mjs` hashes every inline script after the build and
+  writes the CSP from those hashes, so only shipped scripts can run. It fails the build on inline event handlers. The site also
+  sends `X-Frame-Options: DENY`, `nosniff`, a strict referrer policy and a locked-down permissions policy.
+- **A hardened form endpoint.** The Worker requires a same-origin request, validates input, uses a honeypot, verifies
+  Cloudflare Turnstile server-side, and applies a per-IP rate limit plus a daily cap stored in KV. User text is escaped
+  before it becomes a public GitHub issue, and the reporter's contact goes to an email and is never stored or published.
+- **Isolated staging.** Staging is a separate Worker with no secrets, behind Cloudflare Access.
+- **Supply chain.** GitHub Actions are pinned to commit SHAs, Wrangler runs from the lockfile, Dependabot is on, and there is
+  a [security policy](SECURITY.md).
+
+**Delivery**
+
+- **Pipeline with a human gate.** Every pull request is built and checked. Green PRs squash-merge automatically and deploy to
+  staging. Production waits for approval and deploys the exact files that were tested on staging, with no rebuild. A run that is
+  no longer the newest commit is skipped, so an older build can never replace a newer one.
+- **Quality gates in CI.** `npm run check` scans the built site and fails on broken internal links or `#fragments`, pages
+  without exactly one `h1`, skipped heading levels, and missing or duplicate titles and meta descriptions. I tested it by
+  planting each kind of defect and confirming it fails.
+
+**User experience**
+
+- **Responsive by design, not by accident.** The six-column comparison grid cannot fit on a phone, so phones get a grouped view
+  with labels instead. I tested every page at phone, tablet and desktop widths and fixed what I found.
+- **Gentle on readers.** The scroll animation respects reduced-motion settings, and the content is plain HTML that reads without
+  JavaScript.
+- **Honest about its limits.** Every era says what was checked and by whom (an AI model, not yet a specialist). Every source
+  is logged in [SOURCES.md](SOURCES.md) with its license, and written content is CC BY 4.0.
+
 ## Run it locally
 
 You need Node.js 22 or newer.
