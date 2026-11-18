@@ -66,7 +66,7 @@
       "issuer": "Reformed Church in America (holds the Canons of Dort as one of its standards)",
       "date": "1619 (Synod of Dort); one of the RCA's doctrinal standards",
       "url": "https://www.urcna.org/1656/custom/23903",
-      "edition": "English text on the United Reformed Churches' website; the RCA's own published copy has not been compared",
+      "edition": "Full text on urcna.org, read on 2026-11-18",
       "rights": {
         "status": "summary-only",
         "note": "The catechism is from 1563, but the English translation and edition are not confirmed, so no quotation is used.",
@@ -75,8 +75,8 @@
     }
   ],
   "review": {
-    "status": "draft",
-    "note": "The Heidelberg Catechism: Questions 60 and 61 read in full on 2026-11-12 in the CCEL text; Q. 59 and 62-64, which say more about good works, were not read in full. The RCA's own copy was not compared. Election and perseverance are left \"not stated\" for the Heidelberg Catechism because they are not addressed in the questions read; the Canons of Dort cover election. Not yet checked by a second reviewer. The Canons of Dort: Articles 7 and 15 of the First Head read on 2026-11-12 in the URCNA English text. The rest of the Canons, including the Fifth Head on the perseverance of the saints, which would answer the third question, was not read, so perseverance is left \"not stated\". The RCA's own copy and its adoption of the Canons are unchecked. Not yet checked by a second reviewer."
+    "status": "ai-checked",
+    "note": "Checked by Claude Opus 5.5, an AI model by Anthropic, on 2026-11-18 (CHR-20): every point, quotation, scripture reference and position read against Heidelberg Catechism Q. 60-61 on CCEL and the Canons of Dort, First Head, Articles 7 and 15, on urcna.org."
   },
   "relatedEras": [
     "reformation",

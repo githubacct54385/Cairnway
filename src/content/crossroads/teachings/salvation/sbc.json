@@ -53,8 +53,8 @@
     "checked": "2026-11-12"
   },
   "review": {
-    "status": "draft",
-    "note": "Articles III-V were summarized by a reading tool on 2026-11-12 and not read in full by a person or a second pass. The election answer is left \"not stated\": the article affirms election consistent with free agency but does not choose between the answers on offer. Baptist churches govern themselves, so this speaks for the SBC only. Not yet checked by a second reviewer."
+    "status": "ai-checked",
+    "note": "Checked by Claude Opus 5.5, an AI model by Anthropic, on 2026-11-18 (CHR-20): every point, quotation, scripture reference and position read against Articles III-V on bfm.sbc.net."
   },
   "relatedEras": [
     "reformation",

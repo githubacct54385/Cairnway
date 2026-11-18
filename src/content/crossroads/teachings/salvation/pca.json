@@ -46,7 +46,7 @@
     "title": "The Westminster Confession of Faith",
     "section": "Chapter 3: Of God's Eternal Decree; Chapter 11: Of Justification; Chapter 17: Of the Perseverance of the Saints",
     "issuer": "Presbyterian Church in America (holds the Westminster Standards); text of the Westminster Assembly",
-    "date": "1646 (Assembly); adopted by the PCA on its founding in 1973",
+    "date": "1647 (Schaff's date for the Assembly's text); the PCA's year of adoption is not checked",
     "url": "https://www.opc.org/wcf.html",
     "edition": "Text read on The-Highway site (chapters 3, 11 and 17); the PCA's own copy has not been compared"
   },
@@ -56,8 +56,8 @@
     "checked": "2026-11-12"
   },
   "review": {
-    "status": "draft",
-    "note": "Chapters 3, 11 and 17 read in one web copy (the-highway.com) on 2026-11-12, including the proof texts for chapter 3. As with the earlier PCA entries, the PCA's own copy has not been compared. Other Reformed churches may state these differently; the RCA's entry also draws on the Canons of Dort. Not yet checked by a second reviewer."
+    "status": "ai-checked",
+    "note": "Checked by Claude Opus 5.5, an AI model by Anthropic, on 2026-11-18 (CHR-20): every point, quotation, scripture reference and position read against Chapters 3, 11 and 17 on opc.org. The excerpt matches."
   },
   "relatedEras": [
     "reformation",

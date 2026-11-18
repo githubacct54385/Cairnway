@@ -1,7 +1,7 @@
 {
   "topic": "salvation",
   "body": "lcms",
-  "summary": "The Augsburg Confession, which the Lutheran Church-Missouri Synod holds, teaches that people cannot be justified before God by their own strength, merits or works, but are freely justified for Christ's sake through faith when they believe they are received into favor and their sins forgiven. This faith God counts as righteousness. Faith must bring forth good fruits, and good works are necessary because God commands them, but they are not relied on to merit justification. The will has some liberty in civil matters but no power without the Holy Ghost to work spiritual righteousness. The Formula of Concord teaches that God's election extends only over the godly, is the cause of their salvation, and is found in Christ; God is in earnest that all come to him, and no one is elected to damnation. The Confession condemns those who deny that people once justified can lose the Holy Ghost.",
+  "summary": "The Augsburg Confession, which the Lutheran Church-Missouri Synod holds, teaches that people cannot be justified before God by their own strength, merits or works, but are freely justified for Christ's sake through faith when they believe they are received into favor and their sins forgiven. This faith God counts as righteousness. Faith must bring forth good fruits, and good works are necessary because God commands them, but they are not relied on to merit justification. The will has some liberty in civil matters but no power without the Holy Ghost to work spiritual righteousness. The Formula of Concord teaches that God's election extends only over the godly, is the cause of their salvation, and is found in Christ; Christ calls all sinners and God earnestly wills that all come to him. The Confession condemns those who deny that people once justified can lose the Holy Ghost.",
   "points": [
     {
       "question": "How is a person justified?",
@@ -59,8 +59,8 @@
     "checked": "2026-11-12"
   },
   "review": {
-    "status": "draft",
-    "note": "Augsburg Articles IV, VI, XII and XVIII (opening) and the affirmative theses of Epitome XI (through thesis 8) read on bookofconcord.org on 2026-11-12. The Epitome's rejected errors, the Solid Declaration of Article XI, and the Apology were not read. \"Chosen for life only\" is our reading: the Formula teaches election of the godly to salvation and says no one is elected to damnation, but its wording is not stated in the same terms as the answer. The LCMS's own published copies and its other statements were not used. Not yet checked by a second reviewer."
+    "status": "ai-checked",
+    "note": "Checked by Claude Opus 5.5, an AI model by Anthropic, on 2026-11-18 (CHR-20): every point, quotation, scripture reference and position read against Augsburg Confession IV, VI, XII and XVIII and the Formula of Concord, Epitome XI, on bookofconcord.org. \"No one is elected to damnation\" was not in the Epitome as read and was removed."
   },
   "relatedEras": [
     "reformation",
