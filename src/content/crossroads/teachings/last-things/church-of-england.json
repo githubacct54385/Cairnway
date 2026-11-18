@@ -36,7 +36,7 @@
     "issuer": "Church of England",
     "date": "1571; printed in the Book of Common Prayer (1662)",
     "url": "https://www.churchofengland.org/prayer-and-worship/worship-texts-and-resources/book-common-prayer/articles-religion",
-    "edition": "Articles of Religion as printed in the Episcopal Church's 1979 Prayer Book, on the Fordham Internet History Sourcebook (an American version of the Articles); the Church of England's own page was reached but its text was not retrieved"
+    "edition": "The English text in Schaff, Creeds of Christendom, vol. 3 (CCEL)"
   },
   "rights": {
     "status": "public-domain",
@@ -44,8 +44,8 @@
     "checked": "2026-11-12"
   },
   "review": {
-    "status": "draft",
-    "note": "Article XXII read in the Fordham copy, the American version, on 2026-11-12; Article IV was not read, and the return and judgment answer is our reading from its title and the UMC's identically worded Article III. Not yet compared with the Church of England's own page. Not yet checked by a second reviewer."
+    "status": "ai-checked",
+    "note": "Checked by Claude Opus 5.5, an AI model by Anthropic, on 2026-11-18 (CHR-20): every point, quotation, scripture reference and position read against Articles IV and XXII in Schaff's Creeds of Christendom, vol. 3 (CCEL)."
   },
   "relatedEras": [
     "apostolic-age",
