@@ -16,13 +16,15 @@ interface Props {
 const { entry, body, topicTitle, path, lead = 'body' } = Astro.props;
 const d = entry.data;
 const voice = d.voice;
+// On a church page the entry sits directly under the page's h1, so its title is an h2; on a topic page it follows an h2.
+const Heading = lead === 'topic' ? 'h2' : 'h3';
 const heading = lead === 'body' ? body.data.name : topicTitle;
 const sub = lead === 'body' ? body.data.tradition : body.data.name;
 const label = voice ? `${body.data.name}: ${voice.label}` : body.data.name;
 ---
 
 <article class="teaching" id={entrySlug(entry)}>
-  <h3>{heading}</h3>
+  <Heading>{heading}</Heading>
   <p class="docline">{sub}</p>
   {
     voice && (

@@ -116,6 +116,31 @@ a {
   display: flex;
   gap: 1.25rem;
 }
+.site-header nav a {
+  white-space: nowrap;
+}
+/* Phones: keep the section links on one line instead of wrapping "Ancient Paths". */
+@media (max-width: 30rem) {
+  .site-header {
+    gap: 0.5rem;
+    padding: 0.75rem;
+    font-size: 0.9rem;
+  }
+  .site-header nav {
+    gap: 0.85rem;
+  }
+}
+/* Very narrow phones: the logo alone stands in for the name. */
+@media (max-width: 23rem) {
+  .brand-name {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+}
 .brand {
   display: inline-flex;
   align-items: center;
@@ -297,6 +322,7 @@ a {
   border-radius: 0.75rem;
   padding: 1rem 1.25rem;
 }
+.card h2,
 .card h3 {
   margin: 0 0 0.25rem;
   font-size: 1.15rem;
@@ -392,6 +418,7 @@ a {
   padding: 1rem 1.25rem;
   margin: 1.25rem 0;
 }
+.teaching h2,
 .teaching h3 {
   margin: 0 0 0.15rem;
 }
