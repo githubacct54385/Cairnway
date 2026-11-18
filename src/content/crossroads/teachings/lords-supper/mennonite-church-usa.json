@@ -41,8 +41,8 @@
     "title": "Confession of Faith in a Mennonite Perspective",
     "section": "Article 12: The Lord's Supper",
     "issuer": "Mennonite Church USA",
-    "date": "1995 (from general knowledge, unchecked)",
-    "url": "https://www.mennoniteusa.org/who-are-mennonites/what-we-believe/confession-of-faith/baptism/",
+    "date": "Not stated on the page read",
+    "url": "https://www.mennoniteusa.org/who-are-mennonites/what-we-believe/confession-of-faith/the-lords-supper/",
     "edition": "Text on mennoniteusa.org, read in full on 2026-11-12. The confession is also published by MennoMedia"
   },
   "rights": {
@@ -51,8 +51,8 @@
     "checked": "2026-11-12"
   },
   "review": {
-    "status": "draft",
-    "note": "Article 12 and the start of its commentary read in full on mennoniteusa.org on 2026-11-12. Grouping it under \"remembrance\" is our reading: the confession calls the supper a sign that re-presents Christ's presence in the church and shares in his body and blood, which is more than a bare memorial but does not say the elements change. Not yet checked by a second reviewer."
+    "status": "ai-checked",
+    "note": "Checked by Claude Opus 5.5, an AI model by Anthropic, on 2026-11-18 (CHR-20): every point, quotation, scripture reference and position read against Article 12 and its commentary on mennoniteusa.org. The link previously pointed to the baptism article and has been corrected; the unchecked 1995 date was removed."
   },
   "relatedEras": [
     "apostolic-age",

@@ -56,8 +56,8 @@
     "checked": "2026-11-12"
   },
   "review": {
-    "status": "draft",
-    "note": "Questions 75, 78, 80 and 81 read in full and Q. 79 in part on 2026-11-12 in the CCEL text; Q. 76-77 (on being joined to Christ's body by the Spirit) and Q. 82 were not read in full. Matching the answer to \"present by faith\" is our reading, since Q. 78 rules out a change in the elements and the passage on spiritual presence was not read. The RCA's own copy and the Belgic Confession's article on the Supper were not used. Not yet checked by a second reviewer."
+    "status": "ai-checked",
+    "note": "Checked by Claude Opus 5.5, an AI model by Anthropic, on 2026-11-18 (CHR-20): every point, quotation, scripture reference and position read against Questions 75-81 on CCEL."
   },
   "relatedEras": [
     "apostolic-age",

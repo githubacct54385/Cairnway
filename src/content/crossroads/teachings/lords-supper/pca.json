@@ -10,7 +10,7 @@
     },
     {
       "question": "Is it a sacrifice?",
-      "answer": "No. Christ is not offered up to the Father and no real sacrifice is made; it is a commemoration of his one offering on the cross and a spiritual offering of praise. The Confession calls the Roman sacrifice of the mass most injurious to Christ's one sacrifice.",
+      "answer": "No. Christ is not offered up to the Father and no real sacrifice is made; it is a commemoration of his one offering on the cross and a spiritual offering of praise. The Confession calls the popish sacrifice of the mass \"most abominably injurious\" to Christ's one sacrifice.",
       "at": "Westminster Confession 29.2"
     },
     {
@@ -48,7 +48,7 @@
     "title": "The Westminster Confession of Faith",
     "section": "Chapter 29: Of the Lord's Supper",
     "issuer": "Presbyterian Church in America (holds the Westminster Standards); text of the Westminster Assembly",
-    "date": "1646 (Assembly); adopted by the PCA on its founding in 1973",
+    "date": "1647 (Schaff's date for the Assembly's text); the PCA's year of adoption is not checked",
     "url": "https://www.opc.org/wcf.html",
     "edition": "Text and proof texts read on the OPC and The-Highway websites; the PCA's own published copy has not been compared"
   },
@@ -58,8 +58,8 @@
     "checked": "2026-11-12"
   },
   "review": {
-    "status": "draft",
-    "note": "Chapter 29 read in full on 2026-11-12 in one web copy (the-highway.com). As with the baptism entry, the PCA's own copy has not been compared, and the Confession's proof texts were not read for this chapter. Other Reformed churches may state this differently. Not yet checked by a second reviewer."
+    "status": "ai-checked",
+    "note": "Checked by Claude Opus 5.5, an AI model by Anthropic, on 2026-11-18 (CHR-20): every point, quotation, scripture reference and position read against Chapter 29 on opc.org; the date from Schaff, vol. 3."
   },
   "relatedEras": [
     "apostolic-age",

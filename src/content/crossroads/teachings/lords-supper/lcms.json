@@ -38,7 +38,7 @@
     "section": "The Sacrament of the Altar, Questions 1-5 as numbered in the text read",
     "issuer": "Lutheran Church-Missouri Synod (the confession it holds); written by Martin Luther",
     "date": "1529",
-    "url": "https://bookofconcord.org/small-catechism/holy-baptism/",
+    "url": "https://bookofconcord.org/small-catechism/the-sacrament-of-the-altar/",
     "edition": "Text on bookofconcord.org; the translation is not named on the page, and the site also credits a 1986 Concordia Publishing House edition"
   },
   "rights": {
@@ -47,8 +47,8 @@
     "checked": "2026-11-12"
   },
   "review": {
-    "status": "draft",
-    "note": "The Sacrament of the Altar read in the bookofconcord.org text on 2026-11-12. The LCMS's own published catechism, the Large Catechism, the Augsburg Confession and the Formula of Concord, which say more about the manner of Christ's presence and reject the Roman Mass, were not used; the question of sacrifice is therefore left \"not stated\". The LCMS's practice of restricting communion is not addressed by this text. Not yet checked by a second reviewer."
+    "status": "ai-checked",
+    "note": "Checked by Claude Opus 5.5, an AI model by Anthropic, on 2026-11-18 (CHR-20): every point, quotation, scripture reference and position read against the Sacrament of the Altar in the Small Catechism on bookofconcord.org. The link previously pointed to the baptism page and has been corrected."
   },
   "relatedEras": [
     "apostolic-age",
