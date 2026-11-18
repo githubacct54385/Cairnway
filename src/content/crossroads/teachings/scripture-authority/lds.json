@@ -1,7 +1,7 @@
 {
   "topic": "scripture-authority",
   "body": "lds",
-  "summary": "The Church of Jesus Christ of Latter-day Saints teaches that its official scriptures, the standard works, are the Bible, the Book of Mormon, the Doctrine and Covenants and the Pearl of Great Price. The words of prophets and apostles, when they speak or write under the Holy Ghost, are considered scripture. The Articles of Faith say the Bible is the word of God as far as it is translated correctly, that the Book of Mormon is also the word of God, and that God has revealed and will yet reveal great and important things.",
+  "summary": "The Church of Jesus Christ of Latter-day Saints teaches that its official scriptures, the standard works, are the Bible, the Book of Mormon, the Doctrine and Covenants and the Pearl of Great Price. The words of prophets and apostles, when they write or speak by the power of the Holy Ghost, \"shall be scripture\", the page says, quoting modern revelation. The Articles of Faith say the Bible is the word of God as far as it is translated correctly, that the Book of Mormon is also the word of God, and that God has revealed and will yet reveal great and important things.",
   "points": [
     {
       "question": "What is Scripture's authority?",
@@ -10,7 +10,7 @@
     },
     {
       "question": "Who interprets it?",
-      "answer": "The words of prophets and apostles, when spoken or written under the Holy Ghost, are considered scripture. Members are encouraged to apply scripture to their own lives and to study it daily.",
+      "answer": "When God's prophets and apostles write or speak by the power of the Holy Ghost, the page says, quoting modern revelation, their words \"shall be scripture\". It encourages daily, meaningful scripture study.",
       "at": "Gospel Topics: Scriptures"
     },
     {
@@ -54,8 +54,8 @@
     "checked": "2026-11-12"
   },
   "review": {
-    "status": "draft",
-    "note": "The Scriptures page and the Articles of Faith (items 5-11) were summarized by a reading tool on 2026-11-12 and not read in full by a person or a second pass. The Scriptures page does not use the phrase \"as far as it is translated correctly\"; that comes from Article of Faith 8. \"The church's authority\" is our reading: the page says prophets' words are scripture but does not frame it as interpretation. Not yet checked by a second reviewer."
+    "status": "ai-checked",
+    "note": "Checked by Claude Opus 5.5, an AI model by Anthropic, on 2026-11-18 (CHR-20): every point, quotation, scripture reference and position read against the Gospel Topics page on scriptures and Articles of Faith 8-9 (churchofjesuschrist.org)."
   },
   "relatedEras": [
     "reformation",

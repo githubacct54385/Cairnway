@@ -39,7 +39,7 @@
     "title": "Catechism of the Catholic Church",
     "section": "Paragraphs 80-86 (Tradition, Scripture and the Magisterium), 105-106 (inspiration) and 120 (the canon)",
     "issuer": "Catholic Church (Holy See)",
-    "date": "1992; typical edition 1997",
+    "date": "1992 (promulgated by John Paul II in Fidei Depositum, 11 October 1992)",
     "url": "https://www.vatican.va/archive/ENG0015/__P3G.HTM",
     "edition": "English text on the Holy See's website (IntraText edition)"
   },
@@ -49,8 +49,8 @@
     "checked": "2026-11-12"
   },
   "review": {
-    "status": "draft",
-    "note": "Paragraphs 80, 82, 84-86, 105-106 and 120-121 read in the Holy See's English text on 2026-11-12. Paragraphs 81, 83, 87-104 and 107-119, on Tradition, the sense of the faith and the interpretation of Scripture, were not read. Not yet checked by a second reviewer."
+    "status": "ai-checked",
+    "note": "Checked by Claude Opus 5.5, an AI model by Anthropic, on 2026-11-18 (CHR-20): every point, quotation, scripture reference and position read against CCC 80-86, 105-106 and 120 on vatican.va."
   },
   "relatedEras": [
     "reformation",

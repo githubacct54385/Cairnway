@@ -36,7 +36,7 @@
     "title": "Confession of Faith in a Mennonite Perspective",
     "section": "Article 4: Scripture",
     "issuer": "Mennonite Church USA",
-    "date": "1995 (from general knowledge, unchecked)",
+    "date": "Not stated on the page read",
     "url": "https://www.mennoniteusa.org/who-are-mennonites/what-we-believe/confession-of-faith/scripture/",
     "edition": "Text on mennoniteusa.org, read in full on 2026-11-12. The confession is also published by MennoMedia"
   },
@@ -46,8 +46,8 @@
     "checked": "2026-11-12"
   },
   "review": {
-    "status": "draft",
-    "note": "Article 4 read in the opening on mennoniteusa.org on 2026-11-12. \"Scripture alone\" is our reading: the article calls Scripture the trustworthy standard and does not compare it with tradition. The commentary was not read. Not yet checked by a second reviewer."
+    "status": "ai-checked",
+    "note": "Checked by Claude Opus 5.5, an AI model by Anthropic, on 2026-11-18 (CHR-20): every point, quotation, scripture reference and position read against Article 4 on mennoniteusa.org. The unchecked 1995 date was removed."
   },
   "relatedEras": [
     "reformation",

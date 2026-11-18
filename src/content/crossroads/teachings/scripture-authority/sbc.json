@@ -1,7 +1,7 @@
 {
   "topic": "scripture-authority",
   "body": "sbc",
-  "summary": "The Southern Baptist Convention's Baptist Faith and Message (2000) teaches that the Bible is God's revelation, written by people under divine inspiration, totally true and trustworthy, and the final standard by which human conduct, creeds and religious opinions should be tested. All Scripture is a testimony to Christ. The article does not list the books of Scripture or set out a method of interpretation.",
+  "summary": "The Southern Baptist Convention's Baptist Faith and Message (2000) teaches that the Bible is God's revelation, written by people under divine inspiration, totally true and trustworthy, and the supreme standard by which human conduct, creeds and religious opinions should be tested. All Scripture is a testimony to Christ. The article does not list the books of Scripture or set out a method of interpretation.",
   "points": [
     {
       "question": "What is Scripture's authority?",
@@ -40,8 +40,8 @@
     "checked": "2026-11-12"
   },
   "review": {
-    "status": "draft",
-    "note": "Article I was summarized by a reading tool on 2026-11-12 and not read in full by a person or a second pass. Baptist churches govern themselves, so this speaks for the SBC only. Not yet checked by a second reviewer."
+    "status": "ai-checked",
+    "note": "Checked by Claude Opus 5.5, an AI model by Anthropic, on 2026-11-18 (CHR-20): every point, quotation, scripture reference and position read against Article I on bfm.sbc.net. \"Final standard\" corrected to the article's \"supreme standard\"."
   },
   "relatedEras": [
     "reformation",
