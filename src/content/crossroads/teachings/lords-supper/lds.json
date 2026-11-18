@@ -5,7 +5,7 @@
   "points": [
     {
       "question": "What is it?",
-      "answer": "An ordinance of worship in which members remember Christ's life, ministry and Atonement, and renew their baptismal covenants. The bread reminds them of Christ's body, and the water of his spiritual suffering.",
+      "answer": "An ordinance of worship in which members remember Christ's life, ministry and Atonement, and renew their baptismal covenants. The broken bread reminds them of his body and physical suffering, and the water of the blood he shed in intense spiritual suffering.",
       "at": "Gospel Topics: Sacrament"
     },
     {
@@ -15,7 +15,7 @@
     },
     {
       "question": "Who partakes, and how often?",
-      "answer": "Church members, who need not be perfect but come humbly and repentantly, preparing each week.",
+      "answer": "Church members, who do not need to be perfect to partake but should come with humility and repentance, preparing each week.",
       "at": "Gospel Topics: Sacrament"
     }
   ],
@@ -41,7 +41,7 @@
     "section": "Gospel Topics: Sacrament",
     "issuer": "The Church of Jesus Christ of Latter-day Saints",
     "date": "2023",
-    "url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/baptism?lang=eng",
+    "url": "https://www.churchofjesuschrist.org/study/manual/gospel-topics/sacrament?lang=eng",
     "edition": "The church's own website, read through a summarizing tool on 2026-11-12"
   },
   "rights": {
@@ -50,8 +50,8 @@
     "checked": "2026-11-12"
   },
   "review": {
-    "status": "draft",
-    "note": "The page was summarized by a reading tool and not read in full by a person or a second pass on 2026-11-12. \"Remembrance\" is our reading: the page speaks of remembering and covenant renewal and says nothing about the elements changing. The LDS church uses water, not wine, and the page does not say who administers the sacrament. Several passages it cites are from the church's additional scripture. Not yet checked by a second reviewer."
+    "status": "ai-checked",
+    "note": "Checked by Claude Opus 5.5, an AI model by Anthropic, on 2026-11-18 (CHR-20): every point, quotation, scripture reference and position read against the Gospel Topics page on the sacrament (churchofjesuschrist.org). The link previously pointed to the baptism page and has been corrected."
   },
   "relatedEras": [
     "apostolic-age",

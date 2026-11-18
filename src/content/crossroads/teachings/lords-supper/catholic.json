@@ -40,7 +40,7 @@
     "title": "Catechism of the Catholic Church",
     "section": "Part Two, Section Two, Chapter One, Article 3: The Sacrament of the Eucharist (paragraphs 1322-1419)",
     "issuer": "Catholic Church (Holy See)",
-    "date": "1992; typical edition 1997",
+    "date": "1992 (promulgated by John Paul II in Fidei Depositum, 11 October 1992)",
     "url": "https://www.vatican.va/archive/ENG0015/__P3G.HTM",
     "edition": "English text on the Holy See's website (IntraText edition)"
   },
@@ -50,8 +50,8 @@
     "checked": "2026-11-12"
   },
   "review": {
-    "status": "draft",
-    "note": "Paragraphs 1322-1323, 1362-1367, 1374, 1376-1377, 1383, 1388, 1393, 1395 and 1398-1401 read in the Holy See's English text on 2026-11-12. The rest of the article (paragraphs 1324-1361, 1368-1373, 1375, 1378-1382, 1384-1387, 1389-1392, 1394, 1396-1397 and 1402-1419) was not used, including the sections on the liturgy, devotion and reservation. Not yet checked by a second reviewer."
+    "status": "ai-checked",
+    "note": "Checked by Claude Opus 5.5, an AI model by Anthropic, on 2026-11-18 (CHR-20): every point, quotation, scripture reference and position read against CCC 1322-1419 in the English text on vatican.va. The date is from Fidei Depositum."
   },
   "relatedEras": [
     "apostolic-age",

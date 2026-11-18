@@ -1,33 +1,33 @@
 {
   "topic": "lords-supper",
   "body": "acna",
-  "summary": "The Anglican Church in North America's catechism teaches that Christ instituted the Lord's Supper for the continued remembrance of the sacrifice of his atoning death and to convey the benefits the faithful receive through it. The outward sign is bread and wine; the spiritual thing signified is the body and blood of Christ, which are truly taken and received in the Supper by faith. Receivers are nourished and strengthened in soul and in the unity of the Body of Christ, and are asked to examine themselves beforehand. The text read does not say whether the bread and wine are changed or whether the Supper is a sacrifice.",
+  "summary": "The Anglican Church in North America's catechism, To Be a Christian, teaches that Christ instituted Holy Communion for the continual remembrance of the sacrifice of his atoning death and to convey the benefits of that sacrifice. The outward sign is bread and wine; the inward gift is the Body and Blood of Christ, which are truly taken and received in the Lord's Supper by faith. Receivers are strengthened in soul, receive God's forgiveness and are renewed in the love and unity of the Body of Christ, and are asked to examine themselves beforehand. The catechism does not say whether the bread and wine are changed or whether the Supper is a sacrifice.",
   "points": [
     {
       "question": "Why did Christ institute it?",
-      "answer": "For the continued remembrance of the sacrifice of his atoning death, and to convey the benefits the faithful receive through that sacrifice.",
-      "at": "Catechism (2016 draft), Q. 110"
+      "answer": "For the continual remembrance of the sacrifice of his atoning death, and to convey the benefits of that sacrifice to us.",
+      "at": "To Be a Christian, Q. 131"
     },
     {
       "question": "What is the sign, and what does it signify?",
-      "answer": "The visible sign is bread and wine, which Christ commands us to receive. The spiritual thing signified is the body and blood of Christ, which are truly taken and received in the Lord's Supper by faith.",
-      "at": "Catechism (2016 draft), Q. 111-112"
+      "answer": "The visible sign is bread and wine, which Christ commands us to receive. The inward gift signified is the Body and Blood of Christ, which are truly taken and received in the Lord's Supper by faith.",
+      "at": "To Be a Christian, Q. 132-133"
     },
     {
       "question": "What benefits come from it?",
-      "answer": "As the body is nourished by bread and wine, the soul is strengthened and refreshed by the body and blood of Christ, and the love and unity of fellow Christians in one Body is strengthened.",
-      "at": "Catechism (2016 draft), Q. 113"
+      "answer": "As the body is nourished by the bread and wine, the soul is strengthened by the Body and Blood of Christ; the receiver receives God's forgiveness and is renewed in the love and unity of the Body of Christ, the Church.",
+      "at": "To Be a Christian, Q. 134"
     },
     {
       "question": "What is asked of those who receive?",
-      "answer": "Self-examination: whether one truly repents, intends to lead the new life in Christ, has a living faith in God's mercy, remembers Christ's atoning death thankfully, and has shown love and forgiveness to all.",
-      "at": "Catechism (2016 draft), Q. 114"
+      "answer": "Self-examination: whether one truly repents and intends to lead a new life in Christ, has a living faith in God's mercy and remembers Christ's atoning death with thankfulness, and has shown love and forgiveness to all people.",
+      "at": "To Be a Christian, Q. 135"
     }
   ],
   "positions": {
     "what": {
       "answer": "spiritual",
-      "at": "Catechism (2016 draft), Q. 111-112",
+      "at": "To Be a Christian, Q. 132-133",
       "reading": true
     },
     "sacrifice": {
@@ -37,18 +37,18 @@
   "scripture": [
     "Luke 22:17-20",
     "1 Corinthians 10:16-17",
-    "1 Corinthians 11:23",
+    "1 Corinthians 11:23-26",
     "John 6:52-56",
     "1 Corinthians 11:27-32"
   ],
   "scriptureNote": "Passages the catechism cites with these questions.",
   "document": {
     "title": "To Be a Christian: An Anglican Catechism",
-    "section": "The Sacraments, Questions 110-114 in the text read (the published edition numbers them differently)",
+    "section": "Concerning Sacraments: Questions 131-135",
     "issuer": "Anglican Church in North America",
-    "date": "2016 draft; approved edition published 2020",
+    "date": "Published edition, copyright 2020",
     "url": "https://anglicanchurch.net/catechism/",
-    "edition": "The 2016 text posted on the ACNA's website (PDF). The 2020 published edition may differ in wording and numbering"
+    "edition": "The published edition (PDF on anglicanchurch.net, To-Be-a-Christian.pdf), read on 2026-11-18"
   },
   "rights": {
     "status": "summary-only",
@@ -56,8 +56,8 @@
     "checked": "2026-11-12"
   },
   "review": {
-    "status": "draft",
-    "note": "Questions 110-114 read in the 2016 draft on 2026-11-12; the approved 2020 edition may differ. \"Present by faith\" is our reading: the catechism says the body and blood are truly received by faith but does not say whether the elements change, so the answer rests on the wording, not a statement. The Book of Common Prayer 2019 communion service and the Articles of Religion were not used. Not yet checked by a second reviewer."
+    "status": "ai-checked",
+    "note": "Checked by Claude Opus 5.5, an AI model by Anthropic, on 2026-11-18 (CHR-20): every point, quotation, scripture reference and position read against the published 2020 edition of To Be a Christian. The entry had been drafted from a 2016 draft with different question numbers; it now follows the published edition."
   },
   "relatedEras": [
     "apostolic-age",

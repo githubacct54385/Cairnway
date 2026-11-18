@@ -44,10 +44,6 @@
       "at": "Orthodox Confession, Q. 107"
     }
   },
-  "excerpt": {
-    "text": "The Bread becomes the very Body of Christ, and the Wine his very Blood.",
-    "at": "Orthodox Confession, Q. 107"
-  },
   "scripture": [
     "Matthew 26:26-28",
     "John 6:56",
@@ -60,9 +56,9 @@
     "title": "The Longer Catechism of the Orthodox, Catholic, Eastern Church",
     "section": "Part I, \"On the Communion\", Questions 315-344 (numbering of the edition read)",
     "issuer": "Russian Orthodox Church (drafted by Metropolitan Philaret of Moscow)",
-    "date": "1839 (approved by the Holy Synod); first published 1840",
-    "url": "https://azbyka.ru/otechnik/Filaret_Moskovskij/the-longer-catechism-of-the-orthodox-catholic-eastern-church/",
-    "edition": "English translation as hosted by azbyka.ru; the translator is not named on the page",
+    "date": "Schaff's reprint gives the title page as Moscow, Synodical Press, 1830",
+    "url": "https://ccel.org/ccel/schaff/creeds2",
+    "edition": "The English text in Schaff, Creeds of Christendom, vol. 2 (CCEL), which has the same question numbers as the azbyka.ru text",
     "tier": "single-church-catechism"
   },
   "rights": {
@@ -75,9 +71,9 @@
       "title": "The Orthodox Confession of the Catholic and Apostolic Eastern Church",
       "section": "Part I, Questions 106-107: the third mystery, the Eucharist",
       "issuer": "The Orthodox Church (drafted by Metropolitan Peter Mogila of Kiev; endorsed by the Eastern patriarchs)",
-      "date": "1640s; endorsed by the Eastern patriarchs in 1643 (from general knowledge, unchecked)",
-      "url": "https://azbyka.ru/otechnik/world/the-orthodox-confession-of-the-catholic-and-apostolic-eastern-church",
-      "edition": "English translation attributed to Philip Lodvel (1772), as printed in the 1898 London edition on azbyka.ru",
+      "date": "1643, as Schaff gives it (revised and adopted at Jassy, 1643; signed by the Eastern patriarchs)",
+      "url": "https://ccel.org/ccel/schaff/creeds2",
+      "edition": "The Greek text with the Latin translation of Panaglota, in Schaff, Creeds of Christendom, vol. 2 (CCEL). The English on this page is our paraphrase of that text",
       "tier": "synodical-confession",
       "rights": {
         "status": "public-domain",
@@ -87,8 +83,8 @@
     }
   ],
   "review": {
-    "status": "draft",
-    "note": "The Longer Catechism: Questions 315-317, 322, 338-341 and 343 read in the azbyka.ru English text on 2026-11-12. The catechism's treatment of the Liturgy as an offering and of prayer for the dead was not read closely, so the sacrifice question is left \"not stated\" here rather than guessed; the Orthodox Confession addresses it. The rest of the section was not used. Not yet checked by a second reviewer. The Orthodox Confession: Questions 106-107 read in part on 2026-11-12 in the azbyka.ru English text; the later parts of the answer to Q. 107 (the remaining fruits and the honor due to the mysteries) were read only in outline. The numbering in the edition read repeats Q. 107. Date and the patriarchs' endorsement are from general knowledge and unchecked. Not yet checked by a second reviewer."
+    "status": "ai-checked",
+    "note": "Checked by Claude Opus 5.5, an AI model by Anthropic, on 2026-11-18 (CHR-20): every point, quotation, scripture reference and position read against Questions 315-344 of the Longer Catechism in Schaff's Creeds of Christendom, vol. 2 (English), and Question 107 of the Orthodox Confession of Peter Mogila in the same volume (Greek and Latin). azbyka.ru refuses automated reading, so its English translation was not used: the Mogila points are paraphrases of Schaff's Latin, and the English excerpt, which could not be checked word for word, was removed. The Longer Catechism does not call the Liturgy a sacrifice; the sacrifice answer rests on the Orthodox Confession ('Offertur etiam sacrificii vicem hoc mysterium pro orthodoxis Christianis omnibus viventibus ...')."
   },
   "relatedEras": [
     "apostolic-age",
