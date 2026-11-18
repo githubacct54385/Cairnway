@@ -13,7 +13,7 @@ The site has two sections:
 - **Ancient Paths (`/history`)**: a scrolling timeline of Christian history, one era at a time, starting with the first
   century (the Apostolic Age). Each era lists its people, events and sources, and each claim has a citation. Where
   historians disagree, the page names the views and who holds them.
-- **Crossroads (`/crossroads`)**: an early preview. It answers questions such as baptism by showing what each church
+- **Crossroads (`/crossroads`)**: it answers questions such as baptism by showing what each church
   says in its own catechism or confession, with the document and the scripture it cites. Crossroads reports what
   churches officially teach today; the history section traces what happened.
 
