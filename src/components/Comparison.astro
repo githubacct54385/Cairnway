@@ -162,7 +162,6 @@ const hasReading = rows.some((r) => r.cells.some((c) => c.reading));
     const questions = Array.from(new Set(cells.map((c) => c.dataset.q!)));
 
     tools.hidden = false;
-    groups.hidden = true;
 
     const show = (view: string) => {
       grid.hidden = view !== 'grid';
@@ -170,6 +169,16 @@ const hasReading = rows.some((r) => r.cells.some((c) => c.reading));
       buttons.forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.view === view)));
     };
     buttons.forEach((b) => b.addEventListener('click', () => show(b.dataset.view!)));
+
+    // The grid needs room for six columns. On a phone, show the "Grouped by answer" view only.
+    const phone = window.matchMedia('(max-width: 39.99rem)');
+    const gridButton = buttons.find((b) => b.dataset.view === 'grid')!;
+    const fitToScreen = () => {
+      gridButton.hidden = phone.matches;
+      show(phone.matches ? 'groups' : 'grid');
+    };
+    fitToScreen();
+    phone.addEventListener('change', fitToScreen);
 
     const compare = () => {
       const who = select.value;

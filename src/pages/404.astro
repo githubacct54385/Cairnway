@@ -1,0 +1,17 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE, CROSSROADS } from '../config';
+---
+
+<Base title="Page not found" section="home" searchable={false} noindex>
+  <div class="wrap page">
+    <h1>Page not found</h1>
+    <p>We could not find that page. It may have moved, or the address may have a typo.</p>
+    <ul>
+      <li><a href="/">Cairnway home</a></li>
+      <li><a href="/history/">{SITE.title}: Christian history, one era at a time</a></li>
+      <li><a href={`${CROSSROADS.base}/`}>{CROSSROADS.name}: what the churches teach</a></li>
+      <li><a href="/history/search/">Search</a></li>
+    </ul>
+  </div>
+</Base>
