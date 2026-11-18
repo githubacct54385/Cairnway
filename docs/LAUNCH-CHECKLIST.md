@@ -13,7 +13,7 @@ Nothing here is done until it is ticked in the pull request that does it.
       domain to the Turnstile widget's hostnames
 - [ ] Staging address protected with Cloudflare Access, so it is not indexed once `prelaunch` is off
 - [x] `prelaunch` set to `false` in `src/config.ts` (removes the noindex tag)
-- [ ] `public/robots.txt` replaced with an allow-all version that points to the sitemap
+- [x] `robots.txt` allows crawling and points to the sitemap (built from `SITE_URL` in `src/pages/robots.txt.ts`)
 - [ ] Footer link to GitHub issues points to this repository
 - [ ] Sitemap submitted to Google and Bing search tools
 - [ ] Analytics decision made (optional)
