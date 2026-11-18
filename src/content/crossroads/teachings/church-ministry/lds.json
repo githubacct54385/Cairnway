@@ -1,7 +1,7 @@
 {
   "topic": "church-ministry",
   "body": "lds",
-  "summary": "The Church of Jesus Christ of Latter-day Saints teaches in its Articles of Faith that a person must be called of God by prophecy and by the laying on of hands by those in authority, and that the church has the same organization as the primitive church: apostles, prophets, pastors, teachers and evangelists. Its Gospel Topics page on priesthood says priesthood authority was lost after the first apostles and restored to Joseph Smith, that the senior living Apostle, the President of the Church, alone exercises all priesthood keys, and that men have the responsibility to administer the priesthood while women share in its work.",
+  "summary": "The Church of Jesus Christ of Latter-day Saints teaches in its Articles of Faith that a person must be called of God by prophecy and by the laying on of hands by those in authority, and that the church has the same organization as the primitive church: apostles, prophets, pastors, teachers and evangelists. Its Gospel Topics page on priesthood says priesthood authority was lost after the first apostles and restored to Joseph Smith, that the senior living Apostle, the President of the Church, alone exercises all priesthood keys, and quotes M. Russell Ballard that men \"have the unique responsibility to administer the priesthood\", while men and women have \"different but equally valued roles\".",
   "points": [
     {
       "question": "How is the church governed?",
@@ -10,7 +10,7 @@
     },
     {
       "question": "Who may hold the priesthood?",
-      "answer": "The page says men have the responsibility to administer the priesthood, with wives as equal partners and women sharing in its work.",
+      "answer": "The page quotes M. Russell Ballard: men \"have the unique responsibility to administer the priesthood, but they are not the priesthood\". It says men and women have \"different but equally valued roles\", and that a husband presides in the family \"with his wife as an equal partner\".",
       "at": "Gospel Topics: Priesthood"
     }
   ],
@@ -47,8 +47,8 @@
     "checked": "2026-11-12"
   },
   "review": {
-    "status": "draft",
-    "note": "The Articles of Faith and the Priesthood page were summarized by a reading tool on 2026-11-12 and not read in full by a person or a second pass. \"Men only\" is our reading: the page says men have the responsibility to administer the priesthood but also that women share in its work. The church's claim to be the only true church was seen only as an index title and was not read, so that cell is \"not stated\". Not yet checked by a second reviewer."
+    "status": "ai-checked",
+    "note": "Checked by Claude Opus 5.5, an AI model by Anthropic, on 2026-11-18 (CHR-20): every point, quotation, scripture reference and position read against Articles of Faith 5 and 6 and the Gospel Topics page on priesthood (churchofjesuschrist.org). The point on who holds the priesthood now quotes the page instead of paraphrasing it."
   },
   "relatedEras": [
     "apostolic-age",

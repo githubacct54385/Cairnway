@@ -35,9 +35,9 @@
     "title": "Confession of Faith in a Mennonite Perspective",
     "section": "Articles 9 (The Church of Jesus Christ) and 15 (Ministry and Leadership)",
     "issuer": "Mennonite Church USA",
-    "date": "1995 (from general knowledge, unchecked)",
+    "date": "Not stated on the pages read",
     "url": "https://www.mennoniteusa.org/who-are-mennonites/what-we-believe/confession-of-faith/ministry-and-leadership/",
-    "edition": "Text on mennoniteusa.org, read in full on 2026-11-12. The confession is also published by MennoMedia"
+    "edition": "Articles 9 (the-church-of-jesus page) and 15 on mennoniteusa.org, read on 2026-11-18"
   },
   "rights": {
     "status": "summary-only",
@@ -45,8 +45,8 @@
     "checked": "2026-11-12"
   },
   "review": {
-    "status": "draft",
-    "note": "Articles 9 and 15 read in the opening on mennoniteusa.org on 2026-11-12, their commentaries only in part. The article numbers 9 and 15 come from the confession's order and were not read on the page. The article on church order and unity, which covers government, was not read, so governance is \"not stated\". Not yet checked by a second reviewer."
+    "status": "ai-checked",
+    "note": "Checked by Claude Opus 5.5, an AI model by Anthropic, on 2026-11-18 (CHR-20): every point, quotation, scripture reference and position read against Articles 9 and 15 on mennoniteusa.org. The year of the confession, from general knowledge, was removed."
   },
   "relatedEras": [
     "apostolic-age",

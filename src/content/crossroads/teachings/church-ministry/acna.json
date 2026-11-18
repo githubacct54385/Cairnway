@@ -1,46 +1,47 @@
 {
   "topic": "church-ministry",
   "body": "acna",
-  "summary": "The Anglican Church in North America's catechism teaches that the Church is the whole community of faithful Christians in heaven and on earth, gathering in local congregations to worship in Word and Sacrament under the leadership of those God appoints, and that it is one, holy, catholic and apostolic. It names three ordained ministries, bishops, priests and deacons, and says bishops lead in preaching, teaching and shepherding, guard the faith, unity and discipline of the Church, and bless, confirm and ordain, following the apostles. The text read does not say who may be ordained.",
+  "summary": "The Anglican Church in North America's catechism, To Be a Christian, teaches that the Church is the whole community of faithful Christians in heaven and on earth, called and formed by God into one people, which on earth gathers to worship God in Word and Sacrament, and that it is one, holy, catholic and apostolic. It names three ordained ministries received from Scripture and the historic Church: bishops, priests and deacons. Bishops serve as chief pastors, catechists and missionaries in the tradition of the apostles, and confirm, ordain, and guard the faith, unity and discipline of the Church. The questions read do not say who may be ordained.",
   "points": [
     {
       "question": "How is the church governed?",
-      "answer": "By three ordained ministries, bishops, priests and deacons. Bishops are chief pastors who lead in teaching, guard the faith and discipline of the Church, and ordain.",
-      "at": "Catechism (2016 draft), Q. 124-125"
+      "answer": "By three orders, bishops, priests and deacons, received from Scripture and the historic Church. Bishops are chief pastors in the tradition of the apostles who confirm and ordain and guard the faith, unity and discipline of the Church.",
+      "at": "To Be a Christian, Q. 142-143"
     },
     {
       "question": "Where is the true church?",
-      "answer": "The Church is the whole community of faithful Christians in heaven and on earth, which gathers locally to worship in Word and Sacrament, and is one, holy, catholic and apostolic.",
-      "at": "Catechism (2016 draft), Q. 89, 92"
+      "answer": "The Church is the whole community of faithful Christians in heaven and on earth, called and formed by God into one people; on earth it gathers to worship in Word and Sacrament. It is one, holy, catholic and apostolic.",
+      "at": "To Be a Christian, Q. 92, 95"
     }
   ],
   "positions": {
     "governance": {
       "answer": "bishops",
-      "at": "Catechism (2016 draft), Q. 124-125"
+      "at": "To Be a Christian, Q. 142-143"
     },
     "ordination": {
       "answer": "not-stated"
     },
     "truechurch": {
       "answer": "all-believers",
-      "at": "Catechism (2016 draft), Q. 89"
+      "at": "To Be a Christian, Q. 92, 95"
     }
   },
   "scripture": [
     "Matthew 28:19-20",
-    "1 Peter 2:9",
-    "Titus 1:7-9",
-    "1 Timothy 3:1-7"
+    "Ephesians 2:11-22",
+    "1 Peter 2:4-10",
+    "1 Timothy 3:1-7",
+    "Titus 1:7-9"
   ],
   "scriptureNote": "Passages the catechism cites with these questions.",
   "document": {
     "title": "To Be a Christian: An Anglican Catechism",
-    "section": "Questions 89-92 and 124-125 in the text read",
+    "section": "Questions 92, 95 and 142-143",
     "issuer": "Anglican Church in North America",
-    "date": "2016 draft; approved edition published 2020",
+    "date": "Published edition, copyright 2020",
     "url": "https://anglicanchurch.net/catechism/",
-    "edition": "The 2016 text posted on the ACNA's website (PDF). The 2020 published edition may differ in wording and numbering"
+    "edition": "The published edition (PDF on anglicanchurch.net, To-Be-a-Christian.pdf), read on 2026-11-18"
   },
   "rights": {
     "status": "summary-only",
@@ -48,8 +49,8 @@
     "checked": "2026-11-12"
   },
   "review": {
-    "status": "draft",
-    "note": "Questions 89, 92, 124 and 125 read in the 2016 draft on 2026-11-12; the approved 2020 edition may differ. The ACNA's own canons, which address the ordination of women, were not used, so that cell is \"not stated\". Not yet checked by a second reviewer."
+    "status": "ai-checked",
+    "note": "Checked by Claude Opus 5.5, an AI model by Anthropic, on 2026-11-18 (CHR-20): every point, quotation, scripture reference and position read against the published 2020 edition of To Be a Christian. The entry had been drafted from a 2016 draft with different question numbers and wording; it now follows the published edition."
   },
   "relatedEras": [
     "apostolic-age",

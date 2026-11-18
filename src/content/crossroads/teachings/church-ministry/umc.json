@@ -37,8 +37,8 @@
     "checked": "2026-11-12"
   },
   "review": {
-    "status": "draft",
-    "note": "Article XIII read on umc.org on 2026-11-12. The Book of Discipline, which sets out the UMC's government and ordination of women and men, was not used and is under copyright. Not yet checked by a second reviewer."
+    "status": "ai-checked",
+    "note": "Checked by Claude Opus 5.5, an AI model by Anthropic, on 2026-11-18 (CHR-20): every point, quotation, scripture reference and position read against Article XIII on umc.org."
   },
   "relatedEras": [
     "apostolic-age",

@@ -39,7 +39,7 @@
     "title": "Catechism of the Catholic Church",
     "section": "Paragraphs 816 and 830 (the one Church), 880-883 (the college of bishops and the Pope), 1536 and 1576-1577 (Holy Orders)",
     "issuer": "Catholic Church (Holy See)",
-    "date": "1992; typical edition 1997",
+    "date": "1992 (promulgated by John Paul II in Fidei Depositum, 11 October 1992)",
     "url": "https://www.vatican.va/archive/ENG0015/__P3G.HTM",
     "edition": "English text on the Holy See's website (IntraText edition)"
   },
@@ -49,8 +49,8 @@
     "checked": "2026-11-12"
   },
   "review": {
-    "status": "draft",
-    "note": "Paragraphs 816, 830, 880-883, 1536, 1576 and 1577 read in the Holy See's English text on 2026-11-12. The rest of the sections on the Church and Holy Orders (including the Catechism's statements on other Christian communities) was not used. Not yet checked by a second reviewer."
+    "status": "ai-checked",
+    "note": "Checked by Claude Opus 5.5, an AI model by Anthropic, on 2026-11-18 (CHR-20): every point, quotation, scripture reference and position read against CCC 816, 830, 880-883, 1536 and 1576-1577 in the English text on vatican.va. The date is from Fidei Depositum."
   },
   "relatedEras": [
     "apostolic-age",
