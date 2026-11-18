@@ -6,7 +6,7 @@ import { loadCrossroads, churchPath } from '../../../lib/crossroads';
 const { bodies, teachings } = await loadCrossroads();
 ---
 
-<Base title="Churches" description="The church bodies Crossroads covers, and what each one's documents are." section="crossroads" searchable={false}>
+<Base title="Churches" description="The church bodies Crossroads covers, and what each one's documents are." section="crossroads">
   <div class="wrap page">
     <h1>Churches</h1>
     <p>
@@ -17,7 +17,7 @@ const { bodies, teachings } = await loadCrossroads();
       {
         bodies.map((b) => (
           <li class="card">
-            <h3><a href={churchPath(b.id)}>{b.data.name}</a></h3>
+            <h2><a href={churchPath(b.id)}>{b.data.name}</a></h2>
             <p class="meta">{b.data.tradition} · {teachings.filter((t) => t.data.body === b.id).length} entries</p>
             <p>{b.data.note}</p>
           </li>

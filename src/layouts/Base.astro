@@ -29,6 +29,7 @@ const sectionLinks =
     : section === 'crossroads'
       ? [
           [`${CROSSROADS.base}/`, 'Topics'],
+          [`${CROSSROADS.base}/search/`, 'Search'],
           [`${CROSSROADS.base}/churches/`, 'Churches'],
           [`${CROSSROADS.base}/sources/`, 'Sources'],
           [`${CROSSROADS.base}/about/`, 'About'],
@@ -36,7 +37,11 @@ const sectionLinks =
       : [];
 const canonical = new URL(Astro.url.pathname, Astro.site);
 const ogImage = new URL('/og.png', Astro.site);
-const mainAttrs = searchable ? { 'data-pagefind-body': '' } : {};
+const areaName = { home: UMBRELLA.name, history: SITE.title, crossroads: CROSSROADS.name }[section];
+// Pagefind keeps the area as a filter, so one search can be narrowed to Ancient Paths or Crossroads.
+const mainAttrs = searchable
+  ? { 'data-pagefind-body': '', 'data-pagefind-filter': 'area[data-area]', 'data-area': areaName }
+  : {};
 ---
 
 <!doctype html>
@@ -64,7 +69,7 @@ const mainAttrs = searchable ? { 'data-pagefind-body': '' } : {};
     <header class="site-header">
       <a class="brand" href="/">
         <img src="/logo.svg" alt="" width="28" height="28" />
-        {UMBRELLA.name}
+        <span class="brand-name">{UMBRELLA.name}</span>
       </a>
       <nav aria-label="Sections">
         <a href="/history/" aria-current={section === 'history' ? 'true' : undefined}>{SITE.title}</a>

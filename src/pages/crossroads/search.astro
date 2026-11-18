@@ -1,0 +1,17 @@
+---
+import Base from '../../layouts/Base.astro';
+import SearchBox from '../../components/SearchBox.astro';
+import { CROSSROADS } from '../../config';
+---
+
+<Base
+  title="Search"
+  description="Search every Crossroads topic, church and source."
+  section="crossroads"
+  searchable={false}
+>
+  <SearchBox
+    area={CROSSROADS.name}
+    intro="Search the topics, churches and sources. Use the filter to include Ancient Paths."
+  />
+</Base>

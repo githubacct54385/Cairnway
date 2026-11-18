@@ -8,7 +8,7 @@ const rank = { high: 0, medium: 1, note: 2 } as const;
 const total = eras.reduce((sum, era) => sum + era.data.flags.length, 0);
 ---
 
-<Base title="Review flags" noindex searchable={false}>
+<Base title="Review flags" description="Internal list of pages flagged for review." noindex searchable={false}>
   <article class="wrap page">
     <p class="meta">Reviewers only. Not linked from the site.</p>
     <h1>Open review flags</h1>

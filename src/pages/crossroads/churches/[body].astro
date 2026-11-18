@@ -16,7 +16,11 @@ const { body, topics, entries } = Astro.props;
 const path = churchPath(body.id);
 ---
 
-<Base title={body.data.name} section="crossroads" searchable={false}>
+<Base
+  title={body.data.name}
+  description={`What the ${body.data.name} (${body.data.tradition}) teaches in its own documents, topic by topic, with the passages cited.`}
+  section="crossroads"
+>
   <article class="wrap page">
     <p class="meta"><a href={`${CROSSROADS.base}/churches/`}>All churches</a></p>
     <h1>{body.data.name}</h1>
