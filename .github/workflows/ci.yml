@@ -21,6 +21,8 @@ jobs:
           node-version: 22
       - run: npm ci
       - run: npm run build
+      # Fails on broken internal links, skipped heading levels, and missing or duplicate titles and meta descriptions.
+      - run: npm run check
 
   # Frictionless merging: when the build passes on a pull request from this repository,
   # squash-merge it automatically. Remove "needs: build" if you ever want to merge even when the build fails.
