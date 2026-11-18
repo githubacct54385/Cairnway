@@ -39,7 +39,7 @@
     "title": "Catechism of the Catholic Church",
     "section": "Paragraphs 1030-1032 (purification), 1035 (hell), 1038-1042 and 1047 (resurrection, judgment, new heaven and earth)",
     "issuer": "Catholic Church (Holy See)",
-    "date": "1992; typical edition 1997",
+    "date": "1992 (promulgated by John Paul II in Fidei Depositum, 11 October 1992)",
     "url": "https://www.vatican.va/archive/ENG0015/__P3G.HTM",
     "edition": "English text on the Holy See's website (IntraText edition)"
   },
@@ -49,8 +49,8 @@
     "checked": "2026-11-12"
   },
   "review": {
-    "status": "draft",
-    "note": "Paragraphs 1030-1032, 1035, 1038, 1040, 1042 and 1047 read in the Holy See's English text on 2026-11-12. The rest of the article on the last things (heaven, the particular judgment, indulgences) was not used. Not yet checked by a second reviewer."
+    "status": "ai-checked",
+    "note": "Checked by Claude Opus 5.5, an AI model by Anthropic, on 2026-11-18 (CHR-20): every point, quotation, scripture reference and position read against CCC 1030-1032, 1035, 1038-1042 and 1047 on vatican.va."
   },
   "relatedEras": [
     "apostolic-age",

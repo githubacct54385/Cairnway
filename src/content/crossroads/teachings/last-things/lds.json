@@ -1,7 +1,7 @@
 {
   "topic": "last-things",
   "body": "lds",
-  "summary": "The Church of Jesus Christ of Latter-day Saints teaches that after death the spirit lives on, with the righteous in spirit paradise, that all people will be resurrected, and that God will judge according to desires and obedience. Its Kingdoms of Glory page says people receive a kingdom of glory, celestial, terrestrial or telestial, according to how fully they convert to Christ; those who rejected the gospel receive telestial glory after release from spirit prison, and only sons of perdition, who knew God's power and rejected it, inherit no kingdom. The Articles of Faith say Christ will personally reign on the earth. The page treats \"spirit prison\", sometimes called hell, as temporary for most.",
+  "summary": "The Church of Jesus Christ of Latter-day Saints teaches that after death the spirit lives on, with the righteous in spirit paradise, that all people will be resurrected, and that God will judge according to desires and obedience. Its Kingdoms of Glory page says there are three kingdoms of glory, celestial, terrestrial and telestial; those who \"received not the gospel of Christ\" receive telestial glory after being redeemed from spirit prison, and only the sons of perdition, who are not worthy of any kingdom of glory, inherit none. The Articles of Faith say Christ will personally reign on the earth. The page treats \"spirit prison\", sometimes called hell, as temporary for most.",
   "points": [
     {
       "question": "What is the final state of the wicked?",
@@ -48,8 +48,8 @@
     "checked": "2026-11-12"
   },
   "review": {
-    "status": "draft",
-    "note": "The Plan of Salvation and Kingdoms of Glory pages and Article of Faith 10 were summarized by a reading tool on 2026-11-12 and not read in full by a person or a second pass. The \"thousand-year reign\" answer is our reading: Article 10 says Christ will personally reign on the earth, and the page's own mention of a Millennium was not seen. The temporary spirit prison is not a purgatory in the Catholic sense and is left as \"not stated\" for that question. Not yet checked by a second reviewer."
+    "status": "ai-checked",
+    "note": "Checked by Claude Opus 5.5, an AI model by Anthropic, on 2026-11-18 (CHR-20): every point, quotation, scripture reference and position read against the Gospel Topics pages on the plan of salvation and the kingdoms of glory and Article of Faith 10 (churchofjesuschrist.org). \"According to how fully they convert\" was not on the page and was removed."
   },
   "relatedEras": [
     "apostolic-age",

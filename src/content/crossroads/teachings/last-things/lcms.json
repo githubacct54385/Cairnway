@@ -43,8 +43,8 @@
     "checked": "2026-11-12"
   },
   "review": {
-    "status": "draft",
-    "note": "Article XVII, items 1-4, read on bookofconcord.org on 2026-11-12; item 5 on earthly kingdoms was seen only in outline. The Smalcald Articles, which reject purgatory, and the Apology were not read, so the purgatory cell is \"not stated\". Not yet checked by a second reviewer."
+    "status": "ai-checked",
+    "note": "Checked by Claude Opus 5.5, an AI model by Anthropic, on 2026-11-18 (CHR-20): every point, quotation, scripture reference and position read against Article XVII on bookofconcord.org."
   },
   "relatedEras": [
     "apostolic-age",

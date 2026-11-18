@@ -48,8 +48,8 @@
     "checked": "2026-11-12"
   },
   "review": {
-    "status": "draft",
-    "note": "Questions 52, 57 and 58 read on 2026-11-12 in the CCEL text. \"No purgatory\" is our reading: the catechism says the soul is taken up to Christ immediately but does not discuss purgatory. The Belgic Confession's Article 37 on the Last Judgment was seen only as a title, so the final-state cell is \"not stated\". The RCA's own copy was not compared. Not yet checked by a second reviewer."
+    "status": "ai-checked",
+    "note": "Checked by Claude Opus 5.5, an AI model by Anthropic, on 2026-11-18 (CHR-20): every point, quotation, scripture reference and position read against Questions 52, 57 and 58 on CCEL."
   },
   "relatedEras": [
     "apostolic-age",

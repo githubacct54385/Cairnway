@@ -1,12 +1,17 @@
 {
   "topic": "last-things",
   "body": "acna",
-  "summary": "The Anglican Church in North America's catechism has questions on the resurrection of the body and on Christ's return and judgment. Their text was not read in full for this entry, so the Church's position on each question here is not recorded.",
+  "summary": "The Anglican Church in North America's catechism, To Be a Christian, teaches that Jesus will return in victory, with great glory and power seen by all, to bring this age to an end, and that God will usher in a fully renewed creation. No one can know when he will return. All people, living and dead, will be judged by Christ: those apart from Christ will receive eternal rejection and punishment in hell, and those in Christ eternal blessing and the fullness of life with God. When he returns he will raise all the dead to bodily life. The catechism does not address purification after death.",
   "points": [
     {
-      "question": "What is covered?",
-      "answer": "The 2016 draft has questions headed \"When should you expect Jesus' return?\" (Q. 72) and \"What is the resurrection of the body?\" (Q. 144).",
-      "at": "Catechism (2016 draft), Q. 72, 144 (titles)"
+      "question": "What happens when Christ returns?",
+      "answer": "His coming in glory and power will be seen by all people and will bring this age to an end; God will usher in a fully renewed creation. He will raise all the dead to bodily life and judge the living and the dead. No one can know when he will return.",
+      "at": "To Be a Christian, Q. 76-77, 116"
+    },
+    {
+      "question": "What is the final state of the wicked?",
+      "answer": "Those apart from Christ will receive eternal rejection and punishment in hell, while those in Christ receive eternal blessing and welcome into the fullness of life with God.",
+      "at": "To Be a Christian, Q. 79, 116"
     }
   ],
   "positions": {
@@ -14,21 +19,29 @@
       "answer": "not-stated"
     },
     "final": {
-      "answer": "not-stated"
+      "answer": "eternal-punishment",
+      "at": "To Be a Christian, Q. 79, 116"
     },
     "return": {
-      "answer": "not-stated"
+      "answer": "return-and-judgment",
+      "at": "To Be a Christian, Q. 76, 116"
     }
   },
-  "scripture": [],
-  "scriptureNote": "Passages the document cites.",
+  "scripture": [
+    "Daniel 7:13-14",
+    "Matthew 25:31-46",
+    "John 5:25-29",
+    "1 Thessalonians 4:13-18",
+    "Revelation 21:1-4"
+  ],
+  "scriptureNote": "Passages the catechism cites in the answers read.",
   "document": {
     "title": "To Be a Christian: An Anglican Catechism",
-    "section": "The Creed section on the resurrection of the body and the life everlasting (not read in full)",
+    "section": "Questions 76-79 (Christ's return and judgment) and 115-119 (the resurrection of the body and the life everlasting)",
     "issuer": "Anglican Church in North America",
-    "date": "2016 draft; approved edition published 2020",
+    "date": "Published edition, copyright 2020",
     "url": "https://anglicanchurch.net/catechism/",
-    "edition": "The 2016 text posted on the ACNA's website (PDF). The 2020 published edition may differ in wording and numbering"
+    "edition": "The published edition (PDF on anglicanchurch.net, To-Be-a-Christian.pdf), read on 2026-11-18"
   },
   "rights": {
     "status": "summary-only",
@@ -36,8 +49,8 @@
     "checked": "2026-11-12"
   },
   "review": {
-    "status": "draft",
-    "note": "Only the titles of the relevant questions were found on 2026-11-12; their answers were not read. This entry exists so the Anglican Church in North America appears on the page; its cells should be filled once the answers are read. Not yet checked by a second reviewer."
+    "status": "ai-checked",
+    "note": "Checked by Claude Opus 5.5, an AI model by Anthropic, on 2026-11-18 (CHR-20): every point, quotation, scripture reference and position read against the published 2020 edition of To Be a Christian. The entry had recorded no positions because only the 2016 draft's question titles had been read; it now summarizes the published text and records its positions."
   },
   "relatedEras": [
     "apostolic-age",

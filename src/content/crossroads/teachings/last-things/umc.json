@@ -43,15 +43,15 @@
     "checked": "2026-11-12"
   },
   "review": {
-    "status": "draft",
-    "note": "Articles III and XIV read on umc.org on 2026-11-12. The UMC's Confession of Faith, which says more on resurrection and judgment, was not used. Not yet checked by a second reviewer."
+    "status": "ai-checked",
+    "note": "Checked by Claude Opus 5.5, an AI model by Anthropic, on 2026-11-18 (CHR-20): every point, quotation, scripture reference and position read against Articles III and XIV on umc.org. The excerpt was a paraphrase and is now the article's exact wording."
   },
   "relatedEras": [
     "apostolic-age",
     "reformation"
   ],
   "excerpt": {
-    "text": "Christ sits in heaven until he return to judge all men at the last day.",
+    "text": "Christ did truly rise again from the dead, and took again his body, with all things appertaining to the perfection of man's nature, wherewith he ascended into heaven, and there sitteth until he return to judge all men at the last day.",
     "at": "Article III"
   }
 }

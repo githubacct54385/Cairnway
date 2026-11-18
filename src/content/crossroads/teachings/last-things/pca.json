@@ -1,7 +1,7 @@
 {
   "topic": "last-things",
   "body": "pca",
-  "summary": "The Westminster Confession, which the Presbyterian Church in America holds as a doctrinal standard, teaches that at death the souls of the righteous are made perfect in holiness and received into the highest heavens to await the redemption of their bodies, while the souls of the wicked are cast into hell. At the last day all the dead will be raised with the selfsame bodies, and Christ will judge all. The purpose of the judgment is to manifest the glory of God's mercy in the salvation of the elect and of his justice in the damnation of the reprobate; the righteous go into everlasting life and the wicked are cast into everlasting punishment.",
+  "summary": "The Westminster Confession, which the Presbyterian Church in America holds as a doctrinal standard, teaches that at death the souls of the righteous are made perfect in holiness and received into the highest heavens to await the redemption of their bodies, while the souls of the wicked are cast into hell. At the last day all the dead will be raised with the selfsame bodies, and Christ will judge all. The purpose of the judgment is to manifest the glory of God's mercy in the salvation of the elect and of his justice in the damnation of the reprobate; the righteous go into everlasting life and the wicked are cast into eternal torments and punished with everlasting destruction.",
   "points": [
     {
       "question": "Is there a purification after death?",
@@ -10,7 +10,7 @@
     },
     {
       "question": "What is the final state of the wicked?",
-      "answer": "The judgment manifests God's justice in the damnation of the reprobate, who are cast into everlasting punishment.",
+      "answer": "The judgment manifests God's justice in the damnation of the reprobate; the wicked are cast into eternal torments and punished with everlasting destruction from the presence of the Lord.",
       "at": "Westminster Confession 33.2"
     },
     {
@@ -45,7 +45,7 @@
     "title": "The Westminster Confession of Faith",
     "section": "Chapter 32: Of the State of Men after Death, and of the Resurrection of the Dead; Chapter 33: Of the Last Judgment",
     "issuer": "Presbyterian Church in America (holds the Westminster Standards); text of the Westminster Assembly",
-    "date": "1646 (Assembly); adopted by the PCA on its founding in 1973",
+    "date": "1647 (Schaff's date for the Assembly's text); the PCA's year of adoption is not checked",
     "url": "https://www.opc.org/wcf.html",
     "edition": "Text read on The-Highway site; the PCA's own copy has not been compared"
   },
@@ -55,8 +55,8 @@
     "checked": "2026-11-12"
   },
   "review": {
-    "status": "draft",
-    "note": "Chapter 32 (sections 1-2) and chapter 33 (section 2) read in one web copy (the-highway.com) on 2026-11-12; the end of 32.1, which says the Scripture acknowledges no other place for separated souls, and chapter 33's opening were not read. \"No purgatory\" is our reading of 32.1 for that reason. The PCA's own copy was not compared. Not yet checked by a second reviewer."
+    "status": "ai-checked",
+    "note": "Checked by Claude Opus 5.5, an AI model by Anthropic, on 2026-11-18 (CHR-20): every point, quotation, scripture reference and position read against Chapters 32-33 on opc.org."
   },
   "relatedEras": [
     "apostolic-age",
