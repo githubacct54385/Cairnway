@@ -144,5 +144,5 @@ gh variable set SITE_URL --body "https://example.org"
 
 ## Pre-launch
 
-The site is marked "noindex" and `public/robots.txt` blocks crawlers. See `docs/LAUNCH-CHECKLIST.md` for what to change
-at launch.
+The `prelaunch` flag in `src/config.ts` is off, so pages no longer carry a "noindex" tag. See `docs/LAUNCH-CHECKLIST.md` for
+what is still open at launch.
