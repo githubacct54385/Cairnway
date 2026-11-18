@@ -49,9 +49,9 @@
     "title": "The Longer Catechism of the Orthodox, Catholic, Eastern Church",
     "section": "Part I, Questions 17-24 (holy tradition and holy Scripture) and 31-35 (the books of the Old Testament)",
     "issuer": "Russian Orthodox Church (drafted by Metropolitan Philaret of Moscow)",
-    "date": "1839 (approved by the Holy Synod); first published 1840",
-    "url": "https://azbyka.ru/otechnik/Filaret_Moskovskij/the-longer-catechism-of-the-orthodox-catholic-eastern-church/",
-    "edition": "English translation as hosted by azbyka.ru; the translator is not named on the page",
+    "date": "Schaff's reprint gives the title page as Moscow, Synodical Press, 1830",
+    "url": "https://ccel.org/ccel/schaff/creeds2",
+    "edition": "The English text in Schaff, Creeds of Christendom, vol. 2 (CCEL), which has the same question numbers as the azbyka.ru text",
     "tier": "single-church-catechism"
   },
   "rights": {
@@ -64,9 +64,9 @@
       "title": "The Orthodox Confession of the Catholic and Apostolic Eastern Church",
       "section": "Part I, Question 86 (the church and Scripture)",
       "issuer": "The Orthodox Church (drafted by Metropolitan Peter Mogila of Kiev; endorsed by the Eastern patriarchs)",
-      "date": "1640s; endorsed by the Eastern patriarchs in 1643 (from general knowledge, unchecked)",
-      "url": "https://azbyka.ru/otechnik/world/the-orthodox-confession-of-the-catholic-and-apostolic-eastern-church",
-      "edition": "English translation attributed to Philip Lodvel (1772), as printed in the 1898 London edition on azbyka.ru",
+      "date": "1643, as Schaff gives it",
+      "url": "https://ccel.org/ccel/schaff/creeds2",
+      "edition": "The Greek text with the Latin translation of Panaglota, in Schaff, Creeds of Christendom, vol. 2 (CCEL). The English on this page is our paraphrase of that text",
       "tier": "synodical-confession",
       "rights": {
         "status": "public-domain",
@@ -76,8 +76,8 @@
     }
   ],
   "review": {
-    "status": "draft",
-    "note": "The Longer Catechism: Questions 17-24 and 31-35 read in the azbyka.ru English text on 2026-11-12. \"The church's authority\" and \"39 + 27 books\" are our reading: the catechism names the Church as repository of tradition and counts 22 Hebrew Old Testament books (the same books Protestants count as 39), but does not itself state them in these terms; the Orthodox Confession cites Wisdom as Scripture, so the Orthodox churches' practice is not uniform. Not yet checked by a second reviewer. The Orthodox Confession: Question 86 read on 2026-11-12 in the azbyka.ru English text, with Q. 83-85 and 96 on the nature of the Church; the confession's longer treatment of Scripture, tradition and the canon was not read, so those two cells are \"not stated\". The confession cites the Wisdom of Solomon as Scripture elsewhere. Not yet checked by a second reviewer."
+    "status": "ai-checked",
+    "note": "Checked by Claude Opus 5.5, an AI model by Anthropic, on 2026-11-18 (CHR-20): every point, quotation, scripture reference and position read against Questions 17-24 and 31-35 of the Longer Catechism in Schaff's Creeds of Christendom, vol. 2 (English), and Question 86 of the Orthodox Confession of Peter Mogila in the same volume (Latin: 'per synodos oecumenicas examinare atque approbare queat scripturas')."
   },
   "relatedEras": [
     "reformation",
