@@ -1,17 +1,17 @@
 {
   "topic": "church-ministry",
   "body": "rca",
-  "summary": "The Belgic Confession, which the Reformed Church in America holds as one of its standards, has articles on the catholic Christian church, the marks of the true church, the government of the church and its offices, and the ministers, elders and deacons. Only the article titles were read.",
+  "summary": "The Belgic Confession, which the Reformed Church in America holds as one of its standards, confesses one catholic or universal Church, a holy congregation of true Christian believers, outside of which there is no salvation. The true Church is known by its marks: the pure preaching of the gospel, the pure administration of the sacraments, and church discipline. It is to be governed by the spiritual polity Christ taught: ministers or pastors who preach and administer the sacraments, with elders and deacons who together with the pastors form the council of the Church, all chosen by lawful election. The articles read do not say who may be ordained.",
   "points": [
     {
       "question": "How is the church governed?",
-      "answer": "Article 31 is titled \"The Ministers, Elders, and Deacons\", and Article 30 \"The Government of the Church and its Offices\".",
-      "at": "Belgic Confession, Articles 30-31 (titles)"
+      "answer": "By ministers or pastors who preach the Word and administer the sacraments, and elders and deacons who with the pastors form the council of the Church. They are to be chosen to their offices by a lawful election by the Church.",
+      "at": "Belgic Confession, Articles 30-31"
     },
     {
       "question": "Where is the true church?",
-      "answer": "Article 27 is titled \"The Catholic Christian Church\" and Article 29 \"The Marks of the True Church, and Wherein it Differs from the False Church\".",
-      "at": "Belgic Confession, Articles 27, 29 (titles)"
+      "answer": "The one catholic Church is a holy congregation of true Christian believers. The true Church is known by the pure preaching of the gospel, the pure administration of the sacraments and the exercise of church discipline.",
+      "at": "Belgic Confession, Articles 27, 29"
     }
   ],
   "positions": {
@@ -33,11 +33,11 @@
   "scriptureNote": "Passages the document cites.",
   "document": {
     "title": "The Belgic Confession",
-    "section": "Articles 27-32 (the church, its government and offices), read as titles only",
+    "section": "Articles 27-31 (the church, its marks, its government and offices)",
     "issuer": "Reformed Church in America (holds the Belgic Confession as one of its standards)",
-    "date": "1561; one of the RCA's doctrinal standards",
+    "date": "1561 (as given on urcna.org)",
     "url": "https://www.urcna.org/1656/custom/23901",
-    "edition": "English text on the United Reformed Churches' website; the RCA's own copy has not been compared"
+    "edition": "Full text on urcna.org, read on 2026-11-18"
   },
   "rights": {
     "status": "summary-only",
@@ -45,8 +45,8 @@
     "checked": "2026-11-12"
   },
   "review": {
-    "status": "draft",
-    "note": "Only the table of contents of the Belgic Confession was read on 2026-11-12; the text of Articles 27-32 was not, so both answers rest on the article titles and are our reading. Not yet checked by a second reviewer."
+    "status": "ai-checked",
+    "note": "Checked by Claude Opus 5.5, an AI model by Anthropic, on 2026-11-18 (CHR-20): every point, quotation, scripture reference and position read against Articles 27-31 in the full text on urcna.org. The entry had been drafted from the article titles only; it now summarizes the articles themselves. The 1561 date is from urcna.org."
   },
   "relatedEras": [
     "apostolic-age",

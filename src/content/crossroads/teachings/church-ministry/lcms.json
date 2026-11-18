@@ -45,8 +45,8 @@
     "checked": "2026-11-12"
   },
   "review": {
-    "status": "draft",
-    "note": "Articles VII, VIII and XIV read on bookofconcord.org on 2026-11-12. The Confession does not set out a form of church government, and the LCMS's own statements on ordination and church polity were not used. Not yet checked by a second reviewer."
+    "status": "ai-checked",
+    "note": "Checked by Claude Opus 5.5, an AI model by Anthropic, on 2026-11-18 (CHR-20): every point, quotation, scripture reference and position read against Articles VII, VIII and XIV on bookofconcord.org."
   },
   "relatedEras": [
     "apostolic-age",

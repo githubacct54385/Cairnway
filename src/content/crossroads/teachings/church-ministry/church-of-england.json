@@ -36,7 +36,7 @@
     "issuer": "Church of England",
     "date": "1571; printed in the Book of Common Prayer (1662)",
     "url": "https://www.churchofengland.org/prayer-and-worship/worship-texts-and-resources/book-common-prayer/articles-religion",
-    "edition": "Articles of Religion as printed in the Episcopal Church's 1979 Prayer Book, on the Fordham Internet History Sourcebook. This American version's Article XXXVI refers to the 1792 General Convention; the Church of England's text differs and was not retrieved"
+    "edition": "The English text in Schaff, Creeds of Christendom, vol. 3 (CCEL); the churchofengland.org page lists the articles but its text was not read"
   },
   "rights": {
     "status": "public-domain",
@@ -44,8 +44,8 @@
     "checked": "2026-11-12"
   },
   "review": {
-    "status": "draft",
-    "note": "Articles XIX and XXXVI read in the Fordham copy, the American version, on 2026-11-12; Article XXIII was read only in its opening. \"Bishops\" is our reading of Article XXXVI, which speaks of the forms of consecrating bishops and ordering priests and deacons. Not yet compared with the Church of England's own page. Not yet checked by a second reviewer."
+    "status": "ai-checked",
+    "note": "Checked by Claude Opus 5.5, an AI model by Anthropic, on 2026-11-18 (CHR-20): every point, quotation, scripture reference and position read against Articles XIX, XXIII and XXXVI in Schaff's Creeds of Christendom, vol. 3 (CCEL)."
   },
   "relatedEras": [
     "apostolic-age",
