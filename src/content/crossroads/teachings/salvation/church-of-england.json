@@ -47,7 +47,7 @@
     "issuer": "Church of England",
     "date": "1571; printed in the Book of Common Prayer (1662)",
     "url": "https://www.churchofengland.org/prayer-and-worship/worship-texts-and-resources/book-common-prayer/articles-religion",
-    "edition": "Articles of Religion as printed in the Episcopal Church's 1979 Prayer Book, on the Fordham Internet History Sourcebook. This American version differs from the Church of England's own text in places (for example Article XXXVI); Articles XI, XII, XVI and XVII read the same. The Church of England's own page was reached but its text was not retrieved"
+    "edition": "The English text in Schaff, Creeds of Christendom, vol. 3 (CCEL)"
   },
   "rights": {
     "status": "public-domain",
@@ -55,8 +55,8 @@
     "checked": "2026-11-12"
   },
   "review": {
-    "status": "draft",
-    "note": "Articles XI, XII, XVI and XVII read in the Fordham Sourcebook's copy (the Episcopal Church's American version of the Articles) on 2026-11-12 and not yet compared with the Church of England's own page. The Article's \"depart from grace given\" is taken here as meaning grace can be lost, which is our reading, since the Article speaks of falling into sin and rising again. Article XVII's concluding warnings were not read in full. Other Anglican churches, including the ACNA, state this in their own documents. Not yet checked by a second reviewer."
+    "status": "ai-checked",
+    "note": "Checked by Claude Opus 5.5, an AI model by Anthropic, on 2026-11-18 (CHR-20): every point, quotation, scripture reference and position read against Articles XI, XII, XVI and XVII in Schaff's Creeds of Christendom, vol. 3 (CCEL). The excerpt matches word for word."
   },
   "relatedEras": [
     "reformation",

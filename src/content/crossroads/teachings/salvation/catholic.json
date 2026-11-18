@@ -44,7 +44,7 @@
     "title": "Catechism of the Catholic Church",
     "section": "Paragraphs 600 and 1037 (God's plan and no one predestined to hell), 1861 (mortal sin) and 1987-2010 (grace, justification and merit)",
     "issuer": "Catholic Church (Holy See)",
-    "date": "1992; typical edition 1997",
+    "date": "1992 (promulgated by John Paul II in Fidei Depositum, 11 October 1992)",
     "url": "https://www.vatican.va/archive/ENG0015/__P3G.HTM",
     "edition": "English text on the Holy See's website (IntraText edition)"
   },
@@ -54,8 +54,8 @@
     "checked": "2026-11-12"
   },
   "review": {
-    "status": "draft",
-    "note": "Paragraphs 600, 1037, 1861, 1987-1992, 1996-1998, 2000-2002, 2006, 2008 and 2010 read in the Holy See's English text on 2026-11-12. The rest of the article on grace and justification (including paragraphs on the Council of Trent's decree, 2003-2005, 2007, 2009 and 2011-2029), and the Catechism's teaching on predestination in other places, were not used. Not yet checked by a second reviewer."
+    "status": "ai-checked",
+    "note": "Checked by Claude Opus 5.5, an AI model by Anthropic, on 2026-11-18 (CHR-20): every point, quotation, scripture reference and position read against CCC 600, 1037, 1861 and 1987-2010 on vatican.va."
   },
   "relatedEras": [
     "reformation",
