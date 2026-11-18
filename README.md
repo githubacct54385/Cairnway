@@ -87,6 +87,7 @@ npm install
 npm run dev        # development server (search is not available here)
 npm run build      # production build plus the search index, in ./dist
 npm run preview    # serve the production build locally
+npm run check      # after a build: broken links, heading levels, titles and meta descriptions
 ```
 
 ## Project layout

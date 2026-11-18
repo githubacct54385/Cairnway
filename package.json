@@ -8,7 +8,8 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build && pagefind --site dist && node scripts/write-headers.mjs",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "check": "node scripts/check-site.mjs"
   },
   "engines": {
     "node": ">=22"
