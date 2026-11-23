@@ -77,7 +77,7 @@ jobs:
     # The "production" environment requires approval before this job runs.
     environment:
       name: production
-      url: https://cairnway.lifetrackerappweb.workers.dev/
+      url: https://cairnway.org/
     concurrency:
       group: deploy-production
       cancel-in-progress: false
