@@ -6,7 +6,7 @@ production's secrets or data.
 
 | Address | Worker | What it shows |
 | --- | --- | --- |
-| https://cairnway.lifetrackerappweb.workers.dev/ | `cairnway` | **Production**: the live site |
+| https://cairnway.org/ | `cairnway` | **Production**: the live site (a custom domain on the Worker; `SITE_URL` is set to it) |
 | https://cairnway-staging.lifetrackerappweb.workers.dev/ | `cairnway-staging` | **Staging**: the newest change merged to `main`, waiting for approval |
 
 ## How changes flow
@@ -135,12 +135,14 @@ Limits: 5 reports per minute per connection and 200 per day for the whole site (
 
 ## The site address
 
-The build uses `SITE_URL` for the sitemap and canonical links, and falls back to the workers.dev address. Once there is
-a real domain, set it as a GitHub repository variable (not a secret):
+The build uses `SITE_URL` for the sitemap, canonical links and `robots.txt`. It is a GitHub repository variable (not a secret),
+set to the production domain:
 
 ```sh
-gh variable set SITE_URL --body "https://example.org"
+gh variable set SITE_URL --body "https://cairnway.org"
 ```
+
+The domain is attached to the `cairnway` Worker under Settings, Domains & Routes, and `cairnway.org` is in the Turnstile widget's hostnames.
 
 ## Pre-launch
 

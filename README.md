@@ -8,7 +8,7 @@
 [![License: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
 [![Content: CC BY 4.0](https://img.shields.io/badge/content-CC%20BY%204.0-lightgrey.svg)](CONTENT-LICENSE.md)
 
-**Live site: <https://cairnway.lifetrackerappweb.workers.dev/>**
+**Live site: <https://cairnway.org/>**
 
 **Cairnway is a website for learning Christian history and what the churches teach, with every claim traced to a
 source.** It is for anyone who wants to understand where the faith came from, whatever they believe, and to check the

@@ -1,9 +1,9 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 
-// Once the real domain exists, set SITE_URL as a GitHub repository variable (the deploy workflow builds the site).
+// The deploy workflow builds the site with SITE_URL (a GitHub repository variable) set to the real domain; this fallback is for local builds.
 // "||" rather than "??" because an unset GitHub variable arrives as an empty string.
-const site = process.env.SITE_URL || 'https://cairnway.lifetrackerappweb.workers.dev';
+const site = process.env.SITE_URL || 'https://cairnway.org';
 
 // Copies each column heading into a data-label attribute on the cells below it, so the
 // CSS can show the heading beside each value when a table is stacked into cards on phones.
